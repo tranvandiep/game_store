@@ -33,7 +33,7 @@ Người chơi và kiểm thử viên có thể trải nghiệm trực tiếp to
 
 | Tên Gói | Loại | Mã Code | Phiên Bản | Link Tải Trực Tiếp (Raw Zip) | Chơi Trực Tuyến |
 | :--- | :---: | :---: | :---: | :--- | :---: |
-| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v6` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) | [Chơi Ngay ➔](https://tranvandiep.github.io/game_store/online/games/catch_chicken/) |
+| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v7` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) | [Chơi Ngay ➔](https://tranvandiep.github.io/game_store/online/games/catch_chicken/) |
 
 ---
 
