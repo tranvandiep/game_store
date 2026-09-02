@@ -11,12 +11,12 @@ Kho ứng dụng và phân phối các gói tài nguyên **Trò chơi Giáo dụ
 
 ---
 
-## 🕹️ Chơi Thử Trực Tiếp Trên Web (Online Web Play Zone)
+## 🕹️ Chơi Thử Trực Tiếp Trên Web (Live Web Play Zone)
 
-Người chơi và kiểm thử viên có thể trải nghiệm trực tiếp toàn bộ các Game và Flashcard trên trình duyệt:
+Người chơi và kiểm thử viên có thể trải nghiệm trực tiếp toàn bộ các Game và Flashcard trên trình duyệt thông qua GitHub Pages:
 
-- 🌐 **Web Portal Trực Tuyến**: [`online/index.html`](./online/index.html)
-- 🐔 **Bắt Gà Tinh Nghịch (Game)**: [`online/games/catch_chicken/index.html`](./online/games/catch_chicken/index.html)
+- 🌐 **Web Portal Trực Tuyến**: [https://tranvandiep.github.io/game_store/](https://tranvandiep.github.io/game_store/)
+- 🐔 **Bắt Gà Tinh Nghịch (Game)**: [https://tranvandiep.github.io/game_store/online/games/catch_chicken/](https://tranvandiep.github.io/game_store/online/games/catch_chicken/)
 
 ---
 
@@ -31,9 +31,9 @@ Người chơi và kiểm thử viên có thể trải nghiệm trực tiếp to
 
 ## 📋 Danh Sách Gói Tài Nguyên (Web Content Packages)
 
-| Tên Gói | Loại | Mã Code | Phiên Bản | Link Tải Trực Tiếp (Raw Zip) | Chơi Thử Web |
+| Tên Gói | Loại | Mã Code | Phiên Bản | Link Tải Trực Tiếp (Raw Zip) | Chơi Trực Tuyến |
 | :--- | :---: | :---: | :---: | :--- | :---: |
-| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v6` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) | [Chơi Ngay ➔](./online/games/catch_chicken/index.html) |
+| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v6` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) | [Chơi Ngay ➔](https://tranvandiep.github.io/game_store/online/games/catch_chicken/) |
 
 ---
 
@@ -50,10 +50,11 @@ https://raw.githubusercontent.com/tranvandiep/game_store/main/web_games_manifest
 
 ```text
 game_store/
+├── index.html                   # Trang Web Portal chọn và chơi game trực tuyến (GitHub Pages)
 ├── README.md                    # Tài liệu giới thiệu kho ứng dụng Game & Flashcard
 ├── web_games_manifest.json      # File danh mục và phiên bản cập nhật tự động
 ├── online/                      # Kho chơi thử trực tiếp trên Web
-│   ├── index.html               # Trang Web Portal chọn và chơi game trực tuyến
+│   ├── index.html               # Trang Web Portal subfolder
 │   ├── games/                   # Singlefile HTML của từng Game
 │   │   └── catch_chicken/
 │   │       └── index.html
