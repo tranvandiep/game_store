@@ -17,8 +17,8 @@ Kho phân phối và lưu trữ các gói tài nguyên HTML5 Web Games & Flashca
 
 | Tên Gói | Loại | Mã Code | Phiên Bản | Link Tải Trực Tiếp (Raw Zip) |
 | :--- | :---: | :---: | :---: | :--- |
-| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v4` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) |
-| **Phép Cộng Vui Nhộn** | Flashcard | `MATH_ADDITION` | `v4` | [MATH_ADDITION.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/flashcards/MATH_ADDITION.zip) |
+| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v5` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) |
+| **Phép Cộng Vui Nhộn** | Flashcard | `MATH_ADDITION` | `v5` | [MATH_ADDITION.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/flashcards/MATH_ADDITION.zip) |
 
 ---
 
