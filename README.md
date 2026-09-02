@@ -35,7 +35,7 @@ https://raw.githubusercontent.com/tranvandiep/game_store/main/web_games_manifest
 
 ```text
 game_store/
-├── README.md                    # Tài liệu giới thiệu kho game & liên hệ hợp tác
+├── README.md                    # Tài liệu danh mục kho game
 ├── web_games_manifest.json      # File danh mục và phiên bản cập nhật tự động
 ├── games/                       # Chứa các gói zip game
 │   └── CATCH_CHICKEN.zip
@@ -45,40 +45,6 @@ game_store/
     ├── catch_chicken.jpg
     └── math_addition.jpg
 ```
-
----
-
-## 🤝 Liên Hệ Nhận Game SDK & Hợp Tác Phát Triển
-
-Bạn là nhà phát triển (Game Developer), nhà sáng tạo nội dung giáo dục hoặc studio muốn đưa trò chơi, thẻ học tương tác lên hệ sinh thái **My Kiddy**?
-
-Chúng tôi cung cấp **My Kiddy Game SDK Workspace** (React + TypeScript + Vite + Singlefile Archiver) với các tính năng chuẩn hóa:
-- Khung kiến trúc **MVC Clean Architecture**.
-- Hệ thống đa ngôn ngữ độc lập (**i18n**).
-- **Sound Manager** tích hợp Web Audio API chất lượng cao.
-- **MyKiddyBridge** giao tiếp 2 chiều với Native App (điểm số, thời gian, sự kiện, theme color).
-- **SharedPreferences Scoped Storage** (`setItem`, `getItem`, `removeItem` tự động prefix theo keycode game/flashcard).
-- Script đóng gói **Auto-Packaging 1 click** ra file zip và manifest chuẩn.
-
-### 💾 Hướng dẫn sử dụng Storage Bridge trong Game / Flashcard:
-```typescript
-import { MyKiddySdk, MyKiddyStorage } from '@/core/sdk/MyKiddySdk';
-
-// 1. Lưu dữ liệu (Hỗ trợ string, number, boolean hoặc Object JSON)
-await MyKiddySdk.setItem('high_score', 120);
-await MyKiddySdk.setItem('user_settings', { sound: true, difficulty: 'hard' });
-
-// 2. Đọc dữ liệu (Tự động deserialize JSON)
-const highScore = await MyKiddySdk.getItem<number>('high_score');
-const settings = await MyKiddySdk.getItem<{ sound: boolean }>('user_settings');
-
-// 3. Xóa dữ liệu
-await MyKiddySdk.removeItem('user_settings');
-```
-
-📩 **Liên hệ nhận Game SDK & hỗ trợ kỹ thuật:**
-- **Email:** [tranvandiep.it88@gmail.com](mailto:tranvandiep.it88@gmail.com)
-- **Website:** [https://mykiddy.net](https://mykiddy.net)
 
 ---
 
@@ -116,7 +82,7 @@ Mỗi phần tử trong mảng manifest đại diện cho 1 Game hoặc Flashcar
   "id": "game_catch_chicken",
   "type": "game",
   "code": "CATCH_CHICKEN",
-  "version": 3,
+  "version": 5,
   "name": "Bắt Gà Tinh Nghịch",
   "description": "Nhanh tay chạm vào những chú gà đang chạy trốn để ghi điểm!",
   "thumbnail": "https://raw.githubusercontent.com/tranvandiep/game_store/main/thumbnails/catch_chicken.jpg",
