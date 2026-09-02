@@ -1,6 +1,15 @@
 # My Kiddy Game Store 🎮
 
-Kho phân phối và lưu trữ các gói tài nguyên HTML5 Web Games & Flashcards chính thức cho ứng dụng **My Kiddy**.
+Kho phân phối và lưu trữ các gói tài nguyên HTML5 Web Games & Flashcards chính thức cho hệ sinh thái ứng dụng **My Kiddy**.
+
+---
+
+## 📱 Tải Ứng Dụng My Kiddy
+
+Ứng dụng quản lý thời gian, giáo dục và giải trí an toàn dành cho trẻ em và gia đình:
+
+- 🤖 **Android (Google Play Store)**: [https://play.google.com/store/apps/details?id=com.gozic.mykiddy](https://play.google.com/store/apps/details?id=com.gozic.mykiddy)
+- 🍏 **iOS (Apple App Store)**: [https://apps.apple.com/us/app/my-kiddy/id6801847363](https://apps.apple.com/us/app/my-kiddy/id6801847363)
 
 ---
 
@@ -15,7 +24,7 @@ Kho phân phối và lưu trữ các gói tài nguyên HTML5 Web Games & Flashca
 
 ## 🌐 Manifest Tự Động (Manifest URL)
 
-Ứng dụng **My Kiddy** sử dụng đường dẫn sau để tải danh sách gói mới nhất:
+Ứng dụng **My Kiddy** sử dụng đường dẫn sau để tự động kiểm tra và đồng bộ danh sách gói mới nhất:
 ```text
 https://raw.githubusercontent.com/tranvandiep/game_store/main/web_games_manifest.json
 ```
@@ -26,6 +35,7 @@ https://raw.githubusercontent.com/tranvandiep/game_store/main/web_games_manifest
 
 ```text
 game_store/
+├── README.md                    # Tài liệu giới thiệu kho game & liên hệ hợp tác
 ├── web_games_manifest.json      # File danh mục và phiên bản cập nhật tự động
 ├── games/                       # Chứa các gói zip game
 │   └── CATCH_CHICKEN.zip
@@ -35,6 +45,23 @@ game_store/
     ├── catch_chicken.jpg
     └── math_addition.jpg
 ```
+
+---
+
+## 🤝 Liên Hệ Nhận Game SDK & Hợp Tác Phát Triển
+
+Bạn là nhà phát triển (Game Developer), nhà sáng tạo nội dung giáo dục hoặc studio muốn đưa trò chơi, thẻ học tương tác lên hệ sinh thái **My Kiddy**?
+
+Chúng tôi cung cấp **My Kiddy Game SDK Workspace** (React + TypeScript + Vite + Singlefile Archiver) với các tính năng chuẩn hóa:
+- Khung kiến trúc **MVC Clean Architecture**.
+- Hệ thống đa ngôn ngữ độc lập (**i18n**).
+- **Sound Manager** tích hợp Web Audio API chất lượng cao.
+- **MyKiddyBridge** giao tiếp 2 chiều với Native App (điểm số, thời gian, sự kiện, theme color).
+- Script đóng gói **Auto-Packaging 1 click** ra file zip và manifest chuẩn.
+
+📩 **Liên hệ nhận Game SDK & hỗ trợ kỹ thuật:**
+- **Email:** [mykiddy.net@gmail.com](mailto:mykiddy.net@gmail.com)
+- **Website:** [https://mykiddy.net](https://mykiddy.net)
 
 ---
 
@@ -72,7 +99,7 @@ Mỗi phần tử trong mảng manifest đại diện cho 1 Game hoặc Flashcar
   "id": "game_catch_chicken",
   "type": "game",
   "code": "CATCH_CHICKEN",
-  "version": 2,
+  "version": 3,
   "name": "Bắt Gà Tinh Nghịch",
   "description": "Nhanh tay chạm vào những chú gà đang chạy trốn để ghi điểm!",
   "thumbnail": "https://raw.githubusercontent.com/tranvandiep/game_store/main/thumbnails/catch_chicken.jpg",
@@ -101,11 +128,3 @@ Mỗi phần tử trong mảng manifest đại diện cho 1 Game hoặc Flashcar
 | `ages` | `Array<Number>` | Độ tuổi phù hợp (dùng cho bộ lọc và gợi ý nội dung) |
 | `status` | `'active' \| 'inactive'` | Trạng thái hiển thị trên thiết bị di động |
 | `tiviStatus` | `'active' \| 'inactive'` | Trạng thái hiển thị trên Android TV Mode |
-
----
-
-## 🌐 Đồng Bộ Lên Kho Game Store (GitHub / CDN)
-
-Khi các gói zip mới được tạo ra trong thư mục này:
-1. Đẩy các file zip trong `games/`, `flashcards/` và ảnh `thumbnails/` lên repository kho game (`https://github.com/tranvandiep/game_store`).
-2. Ứng dụng **My Kiddy** trên thiết bị của bé sẽ tự động kiểm tra version trong manifest, tải gói ZIP về và giải nén chạy offline an toàn 100% qua `SafeWebEnginePage`.
