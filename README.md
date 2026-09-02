@@ -1,6 +1,13 @@
 # My Kiddy Game Store 🎮
 
-Kho phân phối và lưu trữ các gói tài nguyên HTML5 Web Games & Flashcards chính thức cho hệ sinh thái ứng dụng **My Kiddy**.
+Kho ứng dụng và phân phối các gói tài nguyên **Trò chơi Giáo dục (Web Games)** & **Thẻ học Tương tác (Flashcards)** chính thức cho dự án **My Kiddy**.
+
+---
+
+## 🌟 Giới Thiệu (About)
+
+- **Nền tảng công nghệ:** Toàn bộ trò chơi và bộ thẻ học trong kho được xây dựng trên nền tảng công nghệ **ReactJS + TypeScript**, tích hợp kiến trúc Clean MVC, âm thanh Web Audio API chất lượng cao và hệ thống đa ngôn ngữ độc lập.
+- **Cơ chế vận hành:** Các gói tài nguyên được đóng gói thành file ZIP chuẩn nén đơn tệp (`Singlefile HTML5 Bundle`). Ứng dụng **My Kiddy** trên thiết bị của bé sẽ tự động đồng bộ qua Manifest, tải về và chạy hoàn toàn Offline mượt mà 60 FPS trong môi trường cô lập bảo mật cao (`SafeWebEngine`).
 
 ---
 
@@ -35,11 +42,11 @@ https://raw.githubusercontent.com/tranvandiep/game_store/main/web_games_manifest
 
 ```text
 game_store/
-├── README.md                    # Tài liệu danh mục kho game
+├── README.md                    # Tài liệu giới thiệu kho ứng dụng Game & Flashcard
 ├── web_games_manifest.json      # File danh mục và phiên bản cập nhật tự động
-├── games/                       # Chứa các gói zip game
+├── games/                       # Chứa các gói zip game ReactJS
 │   └── CATCH_CHICKEN.zip
-├── flashcards/                  # Chứa các gói zip flashcard
+├── flashcards/                  # Chứa các gói zip flashcard ReactJS
 │   └── MATH_ADDITION.zip
 └── thumbnails/                  # Chứa ảnh minh họa đại diện
     ├── catch_chicken.jpg
