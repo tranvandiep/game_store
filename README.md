@@ -57,7 +57,24 @@ Chúng tôi cung cấp **My Kiddy Game SDK Workspace** (React + TypeScript + Vit
 - Hệ thống đa ngôn ngữ độc lập (**i18n**).
 - **Sound Manager** tích hợp Web Audio API chất lượng cao.
 - **MyKiddyBridge** giao tiếp 2 chiều với Native App (điểm số, thời gian, sự kiện, theme color).
+- **SharedPreferences Scoped Storage** (`setItem`, `getItem`, `removeItem` tự động prefix theo keycode game/flashcard).
 - Script đóng gói **Auto-Packaging 1 click** ra file zip và manifest chuẩn.
+
+### 💾 Hướng dẫn sử dụng Storage Bridge trong Game / Flashcard:
+```typescript
+import { MyKiddySdk, MyKiddyStorage } from '@/core/sdk/MyKiddySdk';
+
+// 1. Lưu dữ liệu (Hỗ trợ string, number, boolean hoặc Object JSON)
+await MyKiddySdk.setItem('high_score', 120);
+await MyKiddySdk.setItem('user_settings', { sound: true, difficulty: 'hard' });
+
+// 2. Đọc dữ liệu (Tự động deserialize JSON)
+const highScore = await MyKiddySdk.getItem<number>('high_score');
+const settings = await MyKiddySdk.getItem<{ sound: boolean }>('user_settings');
+
+// 3. Xóa dữ liệu
+await MyKiddySdk.removeItem('user_settings');
+```
 
 📩 **Liên hệ nhận Game SDK & hỗ trợ kỹ thuật:**
 - **Email:** [tranvandiep.it88@gmail.com](mailto:tranvandiep.it88@gmail.com)
