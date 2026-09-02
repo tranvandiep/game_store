@@ -25,7 +25,6 @@ Kho ứng dụng và phân phối các gói tài nguyên **Trò chơi Giáo dụ
 | Tên Gói | Loại | Mã Code | Phiên Bản | Link Tải Trực Tiếp (Raw Zip) |
 | :--- | :---: | :---: | :---: | :--- |
 | **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v6` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) |
-| **Phép Cộng Vui Nhộn** | Flashcard | `MATH_ADDITION` | `v6` | [MATH_ADDITION.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/flashcards/MATH_ADDITION.zip) |
 
 ---
 
@@ -47,8 +46,6 @@ game_store/
 ├── games/                       # Chứa các gói zip game ReactJS
 │   └── CATCH_CHICKEN.zip
 ├── flashcards/                  # Chứa các gói zip flashcard ReactJS
-│   └── MATH_ADDITION.zip
 └── thumbnails/                  # Chứa ảnh minh họa đại diện
-    ├── catch_chicken.jpg
-    └── math_addition.jpg
+    └── catch_chicken.jpg
 ```
