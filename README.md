@@ -11,6 +11,15 @@ Kho ứng dụng và phân phối các gói tài nguyên **Trò chơi Giáo dụ
 
 ---
 
+## 🕹️ Chơi Thử Trực Tiếp Trên Web (Online Web Play Zone)
+
+Người chơi và kiểm thử viên có thể trải nghiệm trực tiếp toàn bộ các Game và Flashcard trên trình duyệt:
+
+- 🌐 **Web Portal Trực Tuyến**: [`online/index.html`](./online/index.html)
+- 🐔 **Bắt Gà Tinh Nghịch (Game)**: [`online/games/catch_chicken/index.html`](./online/games/catch_chicken/index.html)
+
+---
+
 ## 📱 Tải Ứng Dụng My Kiddy
 
 Ứng dụng quản lý thời gian, giáo dục và giải trí an toàn dành cho trẻ em và gia đình:
@@ -22,9 +31,9 @@ Kho ứng dụng và phân phối các gói tài nguyên **Trò chơi Giáo dụ
 
 ## 📋 Danh Sách Gói Tài Nguyên (Web Content Packages)
 
-| Tên Gói | Loại | Mã Code | Phiên Bản | Link Tải Trực Tiếp (Raw Zip) |
-| :--- | :---: | :---: | :---: | :--- |
-| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v6` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) |
+| Tên Gói | Loại | Mã Code | Phiên Bản | Link Tải Trực Tiếp (Raw Zip) | Chơi Thử Web |
+| :--- | :---: | :---: | :---: | :--- | :---: |
+| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v6` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) | [Chơi Ngay ➔](./online/games/catch_chicken/index.html) |
 
 ---
 
@@ -43,9 +52,15 @@ https://raw.githubusercontent.com/tranvandiep/game_store/main/web_games_manifest
 game_store/
 ├── README.md                    # Tài liệu giới thiệu kho ứng dụng Game & Flashcard
 ├── web_games_manifest.json      # File danh mục và phiên bản cập nhật tự động
-├── games/                       # Chứa các gói zip game ReactJS
+├── online/                      # Kho chơi thử trực tiếp trên Web
+│   ├── index.html               # Trang Web Portal chọn và chơi game trực tuyến
+│   ├── games/                   # Singlefile HTML của từng Game
+│   │   └── catch_chicken/
+│   │       └── index.html
+│   └── flashcards/              # Singlefile HTML của từng Flashcard
+├── games/                       # Chứa các gói zip game nén cho App Flutter
 │   └── CATCH_CHICKEN.zip
-├── flashcards/                  # Chứa các gói zip flashcard ReactJS
+├── flashcards/                  # Chứa các gói zip flashcard nén cho App Flutter
 └── thumbnails/                  # Chứa ảnh minh họa đại diện
     └── catch_chicken.jpg
 ```
