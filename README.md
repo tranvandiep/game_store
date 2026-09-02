@@ -60,7 +60,7 @@ Chúng tôi cung cấp **My Kiddy Game SDK Workspace** (React + TypeScript + Vit
 - Script đóng gói **Auto-Packaging 1 click** ra file zip và manifest chuẩn.
 
 📩 **Liên hệ nhận Game SDK & hỗ trợ kỹ thuật:**
-- **Email:** [mykiddy.net@gmail.com](mailto:mykiddy.net@gmail.com)
+- **Email:** [tranvandiep.it88@gmail.com](mailto:tranvandiep.it88@gmail.com)
 - **Website:** [https://mykiddy.net](https://mykiddy.net)
 
 ---
