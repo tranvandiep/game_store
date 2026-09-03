@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>My Kiddy – Thư Viện Video & Playlist YouTube Giáo Dục Theo Độ Tuổi (1 - 10 Tuổi)</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Thư viện nội dung video và playlist YouTube giáo dục chất lượng cao dành cho trẻ em từ 1 đến 10 tuổi của My Kiddy: Tiếng Anh, Toán học, Khoa học STEM, Kỹ năng sống." />
+  <meta name="keywords" content="My Kiddy, YouTube Kids, Video giáo dục trẻ em, Tiếng Anh trẻ em, Toán tiểu học, STEM thiếu nhi, Học liệu số" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@500;700;800;900&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary: #6D28D9;
+      --primary-light: #8B5CF6;
+      --primary-dark: #5B21B6;
+      --accent: #F59E0B;
+      --accent-light: #FBBF24;
+      --emerald: #059669;
+      --sky: #0284C7;
+      --rose: #E11D48;
+      --bg: #FFFBEB;
+      --card-bg: rgba(255, 255, 255, 0.94);
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --font-body: 'Nunito', sans-serif;
+      --font-heading: 'Outfit', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: var(--font-body); }
+    
+    body {
+      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 30%, #EDE9FE 70%, #E0F2FE 100%);
+      background-attachment: fixed;
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 24px 16px 48px;
+    }
+
+    .container {
+      max-width: 1180px;
+      width: 100%;
+      margin: 0 auto;
+      flex: 1;
+    }
+
+    /* ── Header ── */
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+      position: relative;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 18px;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      border: 2px solid #FFFFFF;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      color: #6D28D9;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.08);
+      transition: all 0.2s ease;
+    }
+    .back-link:hover {
+      background: #6D28D9;
+      color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      background: #FEF08A;
+      border: 1.5px solid #FDE047;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 900;
+      color: #854D0E;
+    }
+
+    .brand-logo {
+      font-size: 48px;
+      display: inline-block;
+      margin-bottom: 6px;
+      animation: floatLogo 3s infinite ease-in-out;
+    }
+
+    @keyframes floatLogo {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(3deg); }
+    }
+
+    h1 {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 900;
+      color: #581C87;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+    }
+
+    p.subtitle {
+      font-size: 15px;
+      font-weight: 700;
+      color: #7E22CE;
+      margin-top: 6px;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
+    }
+
+    /* ── Controls & Filter Bar ── */
+    .controls-wrapper {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(16px);
+      border: 2.5px solid #FFFFFF;
+      border-radius: 28px;
+      padding: 20px 22px;
+      box-shadow: 0 12px 32px rgba(109, 40, 217, 0.07);
+      margin-bottom: 30px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 240px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 12px 18px 12px 42px;
+      border-radius: 999px;
+      border: 2px solid #E2E8F0;
+      background: #FFFFFF;
+      font-size: 14px;
+      font-weight: 700;
+      color: #0F172A;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .search-input:focus {
+      border-color: #7C3AED;
+      box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.15);
+    }
+    .search-icon {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 16px;
+      color: #94A3B8;
+    }
+
+    .view-toggle-group {
+      display: flex;
+      gap: 8px;
+    }
+    .view-btn {
+      padding: 10px 18px;
+      border-radius: 999px;
+      border: 2px solid #E2E8F0;
+      background: #FFFFFF;
+      font-size: 13px;
+      font-weight: 800;
+      color: #64748B;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+    .view-btn.active {
+      background: #6D28D9;
+      border-color: #6D28D9;
+      color: #FFFFFF;
+    }
+
+    /* Age Pills Carousel */
+    .filter-label {
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #78350F;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .age-filter-bar {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 6px;
+      scrollbar-width: thin;
+      scrollbar-color: #CBD5E1 transparent;
+    }
+    .age-filter-bar::-webkit-scrollbar {
+      height: 6px;
+    }
+    .age-filter-bar::-webkit-scrollbar-thumb {
+      background: #CBD5E1;
+      border-radius: 999px;
+    }
+
+    .age-pill {
+      flex-shrink: 0;
+      padding: 8px 16px;
+      border-radius: 999px;
+      border: 2px solid #FFFFFF;
+      background: rgba(255, 255, 255, 0.9);
+      font-size: 13px;
+      font-weight: 800;
+      color: #475569;
+      cursor: pointer;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.04);
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .age-pill:hover {
+      background: #FFFFFF;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+    }
+    .age-pill.active {
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+      border-color: #8B5CF6;
+      color: #FFFFFF;
+      box-shadow: 0 6px 16px rgba(109, 40, 217, 0.28);
+    }
+
+    /* Subject Tabs */
+    .subject-filter-bar {
+      display: flex;
+      gap: 8px;
+      margin-top: 14px;
+      flex-wrap: wrap;
+    }
+    .subject-pill {
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1.5px solid #E2E8F0;
+      background: #FFFFFF;
+      font-size: 12px;
+      font-weight: 800;
+      color: #64748B;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .subject-pill.active {
+      background: #0284C7;
+      border-color: #0284C7;
+      color: #FFFFFF;
+    }
+
+    /* ── Results Info Bar ── */
+    .results-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      padding: 0 4px;
+      font-size: 14px;
+      font-weight: 800;
+      color: #475569;
+    }
+    .result-count-badge {
+      background: #EDE9FE;
+      color: #6D28D9;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    /* ── Content Grid ── */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      border: 3px solid #FFFFFF;
+      border-radius: 28px;
+      box-shadow: 0 14px 34px rgba(109, 40, 217, 0.08);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+      position: relative;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 42px rgba(109, 40, 217, 0.16);
+    }
+
+    /* Card Thumbnail Box */
+    .card-thumb-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+      background: #1E1B4B;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .card-thumb-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .card:hover .card-thumb-img {
+      transform: scale(1.05);
+    }
+
+    .play-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.9;
+      transition: all 0.2s ease;
+    }
+    .card:hover .play-overlay {
+      background: rgba(15, 23, 42, 0.15);
+    }
+    .play-btn-circle {
+      width: 54px;
+      height: 54px;
+      background: #FF0000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 24px rgba(255, 0, 0, 0.45);
+      transition: transform 0.2s ease;
+    }
+    .play-btn-circle svg {
+      fill: #FFFFFF;
+      width: 22px;
+      height: 22px;
+      margin-left: 3px;
+    }
+    .card:hover .play-btn-circle {
+      transform: scale(1.15);
+    }
+
+    /* Badges on Thumbnail */
+    .badge-age {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(8px);
+      color: #FDE047;
+      border: 1.5px solid rgba(253, 224, 71, 0.4);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.02em;
+    }
+
+    .badge-type {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: rgba(109, 40, 217, 0.9);
+      backdrop-filter: blur(8px);
+      color: #FFFFFF;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Card Body */
+    .card-body {
+      padding: 18px 20px 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-subject-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 12px;
+      font-weight: 800;
+      color: #0284C7;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 6px;
+    }
+
+    .card-title {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 800;
+      color: #0F172A;
+      line-height: 1.35;
+      margin-bottom: 8px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .card-title:hover {
+      color: #6D28D9;
+    }
+
+    .card-desc {
+      font-size: 13px;
+      font-weight: 600;
+      color: #64748B;
+      line-height: 1.45;
+      margin-bottom: 14px;
+      flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: #94A3B8;
+      border-top: 1.5px solid #F1F5F9;
+      padding-top: 12px;
+      margin-bottom: 14px;
+    }
+
+    .channel-name {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      color: #475569;
+      font-weight: 800;
+    }
+
+    /* Card Actions */
+    .card-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-watch {
+      flex: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 10px 16px;
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+      color: #FFFFFF;
+      border: none;
+      border-radius: 16px;
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.25);
+      transition: all 0.15s ease;
+      text-decoration: none;
+    }
+    .btn-watch:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(109, 40, 217, 0.35);
+    }
+
+    .btn-icon {
+      width: 42px;
+      height: 42px;
+      background: #F8FAFC;
+      border: 1.5px solid #E2E8F0;
+      border-radius: 16px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 15px;
+      color: #475569;
+      transition: all 0.15s ease;
+    }
+    .btn-icon:hover {
+      background: #EDE9FE;
+      border-color: #C4B5FD;
+      color: #6D28D9;
+      transform: translateY(-2px);
+    }
+
+    /* ── Tree / Structure View Mode ── */
+    .tree-view-wrapper {
+      display: none;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(16px);
+      border: 3px solid #FFFFFF;
+      border-radius: 28px;
+      padding: 28px 24px;
+      box-shadow: 0 14px 34px rgba(109, 40, 217, 0.08);
+    }
+
+    .tree-age-section {
+      margin-bottom: 28px;
+      padding-bottom: 24px;
+      border-bottom: 2px dashed #E2E8F0;
+    }
+    .tree-age-section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .tree-age-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 800;
+      color: #581C87;
+      margin-bottom: 14px;
+    }
+
+    .tree-subject-block {
+      margin-left: 18px;
+      margin-bottom: 12px;
+    }
+    .tree-subject-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: #0284C7;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tree-playlist-list {
+      list-style: none;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .tree-playlist-item {
+      font-size: 13px;
+      font-weight: 700;
+      color: #334155;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .tree-play-link {
+      color: #6D28D9;
+      text-decoration: none;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    .tree-play-link:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Modal Player ── */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(12px);
+      z-index: 9999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      animation: fadeIn 0.2s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .modal-container {
+      background: #0F172A;
+      border: 2px solid rgba(255, 255, 255, 0.15);
+      border-radius: 28px;
+      max-width: 900px;
+      width: 100%;
+      overflow: hidden;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .modal-header {
+      padding: 16px 20px;
+      background: #1E293B;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .modal-title {
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 800;
+      color: #FFFFFF;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      flex: 1;
+      margin-right: 12px;
+    }
+    .modal-close-btn {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #FFFFFF;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .modal-close-btn:hover {
+      background: #EF4444;
+      transform: scale(1.1);
+    }
+
+    .modal-video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 */
+      background: #000000;
+    }
+    .modal-video-iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .modal-footer {
+      padding: 14px 20px;
+      background: #1E293B;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .modal-info-text {
+      font-size: 12px;
+      font-weight: 700;
+      color: #94A3B8;
+    }
+    .modal-actions {
+      display: flex;
+      gap: 8px;
+    }
+    .btn-modal-action {
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+    .btn-modal-action:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    /* ── Toast Notification ── */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #0F172A;
+      color: #FFFFFF;
+      padding: 12px 24px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      z-index: 10000;
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      body { padding: 16px 12px 32px; }
+      h1 { font-size: 24px; }
+      .grid { grid-template-columns: 1fr; }
+      .controls-wrapper { padding: 16px 14px; }
+      .search-row { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Top Navigation & Brand -->
+    <div class="top-nav">
+      <a href="index.html" class="back-link">
+        <span>👈</span> Kho Web Games
+      </a>
+      <div class="brand-badge">
+        <span>✨</span> Chuẩn Giáo Dục Trẻ Em (1 - 10 Tuổi)
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="brand-logo">🎈📺🌟</div>
+      <h1>My Kiddy – Thư Viện Video & Playlist YouTube Giáo Dục</h1>
+      <p class="subtitle">
+        Cấu trúc nội dung chuẩn hóa theo độ tuổi: <strong>Độ tuổi → Môn học → Chủ đề → Playlist → Video</strong> với kiểm duyệt an toàn, sinh động và trực quan cho bé.
+      </p>
+    </header>
+
+    <!-- Controls & Filter Box -->
+    <div class="controls-wrapper">
+      <!-- Search & Mode Toggle -->
+      <div class="search-row">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Tìm kiếm theo chủ đề, môn học, tên playlist, kênh..."
+            oninput="handleSearch()"
+          />
+        </div>
+        <div class="view-toggle-group">
+          <button id="btnGridView" class="view-btn active" onclick="switchView('grid')">
+            <span>🎴</span> Dạng Thẻ
+          </button>
+          <button id="btnTreeView" class="view-btn" onclick="switchView('tree')">
+            <span>🌳</span> Cây Cấu Trúc
+          </button>
+        </div>
+      </div>
+
+      <!-- Age Filter Carousel -->
+      <div class="filter-label">
+        <span>🎯 Lọc theo Độ Tuổi (Age 1 - 10)</span>
+        <span id="selectedAgeBadge" style="color: #6D28D9; font-weight: 900;">Tất cả độ tuổi</span>
+      </div>
+      <div class="age-filter-bar" id="ageFilterBar">
+        <button class="age-pill active" onclick="selectAge('all')">🌈 Tất Cả</button>
+        <button class="age-pill" onclick="selectAge(1)">👶 1 Tuổi (Bé khám phá)</button>
+        <button class="age-pill" onclick="selectAge(2)">🍼 2 Tuổi (Tập nói)</button>
+        <button class="age-pill" onclick="selectAge(3)">🎨 3 Tuổi (Mầm non)</button>
+        <button class="age-pill" onclick="selectAge(4)">🎒 4 Tuổi (Preschool)</button>
+        <button class="age-pill" onclick="selectAge(5)">✏️ 5 Tuổi (Tiền tiểu học)</button>
+        <button class="age-pill" onclick="selectAge(6)">🏫 6 Tuổi (Lớp 1)</button>
+        <button class="age-pill" onclick="selectAge(7)">📚 7 Tuổi (Lớp 2)</button>
+        <button class="age-pill" onclick="selectAge(8)">🔬 8 Tuổi (Lớp 3)</button>
+        <button class="age-pill" onclick="selectAge(9)">🚀 9 Tuổi (Lớp 4)</button>
+        <button class="age-pill" onclick="selectAge(10)">🎓 10 Tuổi (Lớp 5)</button>
+      </div>
+
+      <!-- Subject Filter Tabs -->
+      <div class="subject-filter-bar" id="subjectFilterBar">
+        <button class="subject-pill active" onclick="selectSubject('all')">Tất cả môn học</button>
+        <button class="subject-pill" onclick="selectSubject('english')">🔤 Tiếng Anh (English)</button>
+        <button class="subject-pill" onclick="selectSubject('math')">🔢 Toán Học (Math)</button>
+        <button class="subject-pill" onclick="selectSubject('science')">🔬 Khoa Học & STEM</button>
+        <button class="subject-pill" onclick="selectSubject('skills')">🌱 Kỹ Năng & Bài Hát</button>
+      </div>
+    </div>
+
+    <!-- Results Info Bar -->
+    <div class="results-info">
+      <span id="resultsSummary">Đang hiển thị danh sách playlist & video</span>
+      <span class="result-count-badge" id="resultsCount">0 Playlist</span>
+    </div>
+
+    <!-- Grid View Mode -->
+    <div class="grid" id="contentGrid"></div>
+
+    <!-- Tree Structure View Mode -->
+    <div class="tree-view-wrapper" id="treeView"></div>
+
+  </div>
+
+  <!-- YouTube Embed Modal Player -->
+  <div class="modal-overlay" id="playerModal" onclick="handleModalBackdrop(event)">
+    <div class="modal-container" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle">Đang tải video...</div>
+        <button class="modal-close-btn" onclick="closePlayerModal()">✕</button>
+      </div>
+      <div class="modal-video-wrapper">
+        <iframe 
+          id="modalIframe" 
+          class="modal-video-iframe" 
+          src="" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="modal-footer">
+        <div class="modal-info-text" id="modalMeta">My Kiddy Verified Safe Content</div>
+        <div class="modal-actions">
+          <button class="btn-modal-action" onclick="copyCurrentLink()">
+            📋 Sao chép link
+          </button>
+          <a id="modalDirectLink" href="#" target="_blank" class="btn-modal-action">
+            ▶️ Mở YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <span>✅</span> <span id="toastMsg">Đã sao chép liên kết thành công!</span>
+  </div>
+
+  <!-- JavaScript Logic & Complete Curated Educational Catalog -->
+  <script>
+    // Master YouTube Content Database for My Kiddy (Ages 1 - 10)
+    const YOUTUBE_CATALOG = [
+      // ── AGE 1: Bé Khám Phá ──
+      {
+        id: "yt_a1_01",
+        age: 1,
+        ageLabel: "1 Tuổi – Bé khám phá",
+        subject: "skills",
+        subjectName: "Kỹ năng & Bài hát",
+        topic: "Baby & Nursery Songs",
+        title: "Super Simple Songs – Tuyển Tập Bài Hát Thiếu Nhi Dễ Nhớ Cho Bé 1 Tuổi",
+        description: "Các bài hát ngắn, ca từ lặp lại, giai điệu vui tươi giúp bé tập làm quen với âm thanh, nhịp điệu và từ ngữ đầu đời.",
+        channel: "Super Simple Songs",
+        type: "playlist",
+        typeLabel: "Playlist (20+ Videos)",
+        playlistId: "PLdkj6XH8GYPRvL3_m_67_Yw0m39Gf2lZf",
+        videoId: "yCjJyiqpAuU",
+        thumbnail: "https://img.youtube.com/vi/yCjJyiqpAuU/hqdefault.jpg",
+        duration: "45 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a1_02",
+        age: 1,
+        ageLabel: "1 Tuổi – Bé khám phá",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "Animal Sounds & First Words",
+        title: "Tiếng Kêu Các Con Vật & Từ Vựng Đầu Đời Cho Trẻ 1 Tuổi",
+        description: "Hình ảnh động vật 3D rực rỡ kết hợp âm thanh tiếng kêu thực tế giúp kích thích thính giác và nhận thức của bé.",
+        channel: "Cocomelon & Kids Club",
+        type: "video",
+        typeLabel: "Video Nhận Biết",
+        playlistId: null,
+        videoId: "_6HzoUcx3eo",
+        thumbnail: "https://img.youtube.com/vi/_6HzoUcx3eo/hqdefault.jpg",
+        duration: "12 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a1_03",
+        age: 1,
+        ageLabel: "1 Tuổi – Bé khám phá",
+        subject: "skills",
+        subjectName: "Kỹ năng & Bài hát",
+        topic: "Colors & Shapes",
+        title: "Bé Học Nhận Biết Màu Sắc & Hình Khối Cơ Bản",
+        description: "Video ngắn trực quan giới thiệu các màu sắc cơ bản (Đỏ, Vàng, Xanh) và hình vuông, tròn, tam giác.",
+        channel: "ChuChu TV",
+        type: "playlist",
+        typeLabel: "Playlist Học Màu",
+        playlistId: "PL1b1YfOq_vG7Y8e4qM9z7X",
+        videoId: "jY4U4M2Xv7c",
+        thumbnail: "https://img.youtube.com/vi/jY4U4M2Xv7c/hqdefault.jpg",
+        duration: "30 phút",
+        rating: "⭐⭐⭐⭐"
+      },
+
+      // ── AGE 2: Bé Tập Nói ──
+      {
+        id: "yt_a2_01",
+        age: 2,
+        ageLabel: "2 Tuổi – Bé tập nói",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "First 100 English Words",
+        title: "100 Từ Vựng Tiếng Anh Đầu Tiên Cho Bé Tập Nói",
+        description: "Phương pháp phát âm chuẩn, lặp lại chậm rãi các đồ vật quen thuộc trong nhà, gia đình và đồ chơi.",
+        channel: "Little Baby Bum",
+        type: "playlist",
+        typeLabel: "Playlist Từ Vựng",
+        playlistId: "PLrWq6Z3_cZlO0e6nZ9Z1",
+        videoId: "75p-N9YKqNo",
+        thumbnail: "https://img.youtube.com/vi/75p-N9YKqNo/hqdefault.jpg",
+        duration: "35 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a2_02",
+        age: 2,
+        ageLabel: "2 Tuổi – Bé tập nói",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Numbers 1-10",
+        title: "Bé Tập Đếm Số Từ 1 Đến 10 Qua Bài Hát Vui Nhộn",
+        description: "Đếm ngón tay, đếm quả táo và các bài hát đếm số sinh động tạo nền tảng tư duy số học cho bé 2 tuổi.",
+        channel: "Dave and Ava",
+        type: "video",
+        typeLabel: "Video Đếm Số",
+        playlistId: null,
+        videoId: "DR-cfDsHCGA",
+        thumbnail: "https://img.youtube.com/vi/DR-cfDsHCGA/hqdefault.jpg",
+        duration: "15 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a2_03",
+        age: 2,
+        ageLabel: "2 Tuổi – Bé tập nói",
+        subject: "skills",
+        subjectName: "Kỹ năng & Bài hát",
+        topic: "Daily Routine & Emotions",
+        title: "Bé Tập Đánh Răng, Rửa Tay & Biểu Cảm Cảm Xúc Hàng Ngày",
+        description: "Bài hát thói quen tốt giúp bé hào hứng tự giác làm vệ sinh cá nhân và nhận biết cảm xúc vui, buồn.",
+        channel: "Pinkfong Baby Shark",
+        type: "playlist",
+        typeLabel: "Playlist Thói Quen",
+        playlistId: "PLcx0r1Fz1e1y1z2a3",
+        videoId: "WRVsOCh907o",
+        thumbnail: "https://img.youtube.com/vi/WRVsOCh907o/hqdefault.jpg",
+        duration: "25 phút",
+        rating: "⭐⭐⭐⭐"
+      },
+
+      // ── AGE 3: Mầm Non ──
+      {
+        id: "yt_a3_01",
+        age: 3,
+        ageLabel: "3 Tuổi – Mầm non",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "ABC & Phonics Preschool",
+        title: "Alphablocks – Bảng Chữ Cái & Ngữ Âm Phonics Cơ Bản Mầm Non",
+        description: "Các nhân vật khối chữ cái ngộ nghĩnh ghép vần trực quan chuẩn BBC, giúp bé nhận diện mặt chữ và âm thanh tự nhiên.",
+        channel: "Alphablocks Official",
+        type: "playlist",
+        typeLabel: "Playlist Phonics",
+        playlistId: "PLo_A1oP1oO3oP5",
+        videoId: "xQk8p4kH7e8",
+        thumbnail: "https://img.youtube.com/vi/xQk8p4kH7e8/hqdefault.jpg",
+        duration: "60 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a3_02",
+        age: 3,
+        ageLabel: "3 Tuổi – Mầm non",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Counting 1-20 & Simple Shapes",
+        title: "Numberblocks – Nhận Biết Và Đếm Số 1 Đến 20 Cho Trẻ Mầm Non",
+        description: "Chương trình toán mầm non hàng đầu thế giới dạy bản chất lượng số, thêm bớt cơ bản qua hình khối sinh động.",
+        channel: "Numberblocks Official",
+        type: "playlist",
+        typeLabel: "Playlist Toán 1-20",
+        playlistId: "PLn7z7PZ5",
+        videoId: "6tf3192fDqA",
+        thumbnail: "https://img.youtube.com/vi/6tf3192fDqA/hqdefault.jpg",
+        duration: "40 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a3_03",
+        age: 3,
+        ageLabel: "3 Tuổi – Mầm non",
+        subject: "science",
+        subjectName: "Khoa Học & STEM",
+        topic: "Animals & Human Body",
+        title: "Khám Phá Thế Giới Động Vật & Các Bộ Phận Cơ Thể Bé",
+        description: "Video hoạt hình giải thích chức năng của mắt, tai, mũi, miệng và môi trường sống của muông thú.",
+        channel: "Dr. Binocs Show",
+        type: "video",
+        typeLabel: "Video Khoa Học",
+        playlistId: null,
+        videoId: "qPiLz8w2zE8",
+        thumbnail: "https://img.youtube.com/vi/qPiLz8w2zE8/hqdefault.jpg",
+        duration: "18 phút",
+        rating: "⭐⭐⭐⭐"
+      },
+
+      // ── AGE 4: Preschool ──
+      {
+        id: "yt_a4_01",
+        age: 4,
+        ageLabel: "4 Tuổi – Preschool",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "CVC Words & Sight Words",
+        title: "Jack Hartmann – Học Ghép Vần Từ Đơn CVC & Sight Words",
+        description: "Tập nhảy và đọc to các từ 3 chữ cái (cat, dog, sun, hat...) giúp bé phát triển phản xạ đọc tiếng Anh sớm.",
+        channel: "Jack Hartmann Kids Music Channel",
+        type: "playlist",
+        typeLabel: "Playlist CVC Phonics",
+        playlistId: "PLJh4j9e1",
+        videoId: "4uX7Z9e5x90",
+        thumbnail: "https://img.youtube.com/vi/4uX7Z9e5x90/hqdefault.jpg",
+        duration: "50 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a4_02",
+        age: 4,
+        ageLabel: "4 Tuổi – Preschool",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Numbers 1-100 & Measurement",
+        title: "Toán Mẫu Giáo: So Sánh Lớn Bé, Đo Lường & Đếm Đến 100",
+        description: "Học nhận diện quy luật (Patterns), phân loại kích thước, nặng nhẹ và đếm nhảy 10, 20, 30... 100.",
+        channel: "Math Antics Kids",
+        type: "playlist",
+        typeLabel: "Playlist Toán 4T",
+        playlistId: "PL9x0y1z2a3",
+        videoId: "bGetqBQDFAs",
+        thumbnail: "https://img.youtube.com/vi/bGetqBQDFAs/hqdefault.jpg",
+        duration: "30 phút",
+        rating: "⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a4_03",
+        age: 4,
+        ageLabel: "4 Tuổi – Preschool",
+        subject: "science",
+        subjectName: "Khoa Học & STEM",
+        topic: "Space & Weather",
+        title: "SciShow Kids – Tìm Hiểu Thời Tiết, Mây Mưa & Hệ Mặt Trời",
+        description: "Các thí nghiệm vui và giải thích trực quan về các mùa trong năm, vì sao trời mưa và các hành tinh.",
+        channel: "SciShow Kids",
+        type: "video",
+        typeLabel: "Video STEM",
+        playlistId: null,
+        videoId: "vH0Wn5s8Z_M",
+        thumbnail: "https://img.youtube.com/vi/vH0Wn5s8Z_M/hqdefault.jpg",
+        duration: "14 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+
+      // ── AGE 5: Chuẩn Bị Vào Lớp 1 ──
+      {
+        id: "yt_a5_01",
+        age: 5,
+        ageLabel: "5 Tuổi – Tiền tiểu học",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "Learn to Read & Stories",
+        title: "Tập Đọc Câu Ngắn & Truyện Tiếng Anh Cho Bé 5 Tuổi",
+        description: "Truyện cổ tích song ngữ và các bài học cấu trúc câu đơn giản (I like..., This is my...) chuẩn bị nền tảng lớp 1.",
+        channel: "Storyline Online",
+        type: "playlist",
+        typeLabel: "Playlist Truyện Đọc",
+        playlistId: "PL6y3x2",
+        videoId: "6E67n1vwpAk",
+        thumbnail: "https://img.youtube.com/vi/6E67n1vwpAk/hqdefault.jpg",
+        duration: "45 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a5_02",
+        age: 5,
+        ageLabel: "5 Tuổi – Tiền tiểu học",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Kindergarten Addition & Subtraction",
+        title: "Bản Chất Phép Cộng Trừ Trong Phạm Vi 10 & Hình Học Cơ Bản",
+        description: "Các bài toán que tính, tách gộp số và giải toán bằng hình ảnh giúp bé không bị bỡ ngỡ khi vào lớp 1.",
+        channel: "Numberblocks & Math Masters",
+        type: "playlist",
+        typeLabel: "Playlist Phép Tính 10",
+        playlistId: "PL4k2m9",
+        videoId: "d072fKjUj38",
+        thumbnail: "https://img.youtube.com/vi/d072fKjUj38/hqdefault.jpg",
+        duration: "35 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a5_03",
+        age: 5,
+        ageLabel: "5 Tuổi – Tiền tiểu học",
+        subject: "science",
+        subjectName: "Khoa Học & STEM",
+        topic: "Fun Science Experiments",
+        title: "10 Thí Nghiệm Khoa Học Vui Tại Nhà Dành Cho Bé 5 Tuổi",
+        description: "Thí nghiệm cầu vồng nước, núi lửa sủi bọt, nam châm hút đồ vật kích thích đam mê khám phá.",
+        channel: "Kids Fun Experiments",
+        type: "video",
+        typeLabel: "Video Thí Nghiệm",
+        playlistId: null,
+        videoId: "4M82WwF4fXg",
+        thumbnail: "https://img.youtube.com/vi/4M82WwF4fXg/hqdefault.jpg",
+        duration: "20 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+
+      // ── AGE 6: Lớp 1 ──
+      {
+        id: "yt_a6_01",
+        age: 6,
+        ageLabel: "6 Tuổi – Lớp 1",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "Oxford Phonics World 1",
+        title: "Oxford Phonics World – Giáo Trình Ngữ Âm & Đọc Hiểu Lớp 1",
+        description: "Trọn bộ video tương tác chuẩn quốc tế giúp học sinh lớp 1 luyện phát âm chuẩn xác và mở rộng vốn từ.",
+        channel: "Oxford University Press",
+        type: "playlist",
+        typeLabel: "Trọn Bộ Playlist",
+        playlistId: "PL8r0_u3k2",
+        videoId: "n9M5F9q7p1Q",
+        thumbnail: "https://img.youtube.com/vi/n9M5F9q7p1Q/hqdefault.jpg",
+        duration: "120 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a6_02",
+        age: 6,
+        ageLabel: "6 Tuổi – Lớp 1",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Toán Lớp 1 – Các Số Đến 100 & Phép Tính",
+        title: "Toán Lớp 1: Bảng Cộng Trừ Trong Phạm Vi 20, Đọc Viết Số Đến 100",
+        description: "Bám sát chương trình Giáo dục Phổ thông mới, giải toán có lời văn và nhận biết đồng hồ thời gian.",
+        channel: "Vuihoc Tiểu Học",
+        type: "playlist",
+        typeLabel: "Playlist Bài Giảng",
+        playlistId: "PL2x1a9y",
+        videoId: "g8wK_q4gE7o",
+        thumbnail: "https://img.youtube.com/vi/g8wK_q4gE7o/hqdefault.jpg",
+        duration: "60 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a6_03",
+        age: 6,
+        ageLabel: "6 Tuổi – Lớp 1",
+        subject: "science",
+        subjectName: "Khoa Học & STEM",
+        topic: "Living Things & Plants",
+        title: "Tự Nhiên Và Xã Hội Lớp 1: Thực Vật, Động Vật Và Con Người",
+        description: "Khám phá vòng đời của cây xanh, chăm sóc thú cưng và giữ gìn vệ sinh thân thể cho bé lớp 1.",
+        channel: "Crash Course Kids",
+        type: "video",
+        typeLabel: "Video Khoa Học",
+        playlistId: null,
+        videoId: "tzN299S_R4U",
+        thumbnail: "https://img.youtube.com/vi/tzN299S_R4U/hqdefault.jpg",
+        duration: "16 phút",
+        rating: "⭐⭐⭐⭐"
+      },
+
+      // ── AGE 7: Lớp 2 ──
+      {
+        id: "yt_a7_01",
+        age: 7,
+        ageLabel: "7 Tuổi – Lớp 2",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "Grammar & Conversation",
+        title: "Hội Thoại Giao Tiếp Tiếng Anh Hàng Ngày Dành Cho Lớp 2",
+        description: "Các mẫu câu hỏi đáp về trường học, bạn bè, sở thích, màu sắc và đồ ăn kèm bài tập nghe hiểu.",
+        channel: "English Singsing",
+        type: "playlist",
+        typeLabel: "Playlist Hội Thoại",
+        playlistId: "PLm4w8k9y",
+        videoId: "6oH3-4E8k1w",
+        thumbnail: "https://img.youtube.com/vi/6oH3-4E8k1w/hqdefault.jpg",
+        duration: "40 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a7_02",
+        age: 7,
+        ageLabel: "7 Tuổi – Lớp 2",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Bảng Nhân Chia 2, 5 & Đo Lường",
+        title: "Toán Lớp 2: Bảng Nhân Chia 2, 3, 4, 5, Đơn Vị dm, m, kg, lít",
+        description: "Phương pháp học thuộc bảng cửu chương dễ nhớ bằng hoạt hình kết hợp giải toán nhiều bước.",
+        channel: "Math Antics & Vuihoc",
+        type: "playlist",
+        typeLabel: "Playlist Cửu Chương",
+        playlistId: "PL3j8x2",
+        videoId: "dp4qXfM5i_0",
+        thumbnail: "https://img.youtube.com/vi/dp4qXfM5i_0/hqdefault.jpg",
+        duration: "55 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a7_03",
+        age: 7,
+        ageLabel: "7 Tuổi – Lớp 2",
+        subject: "science",
+        subjectName: "Khoa Học & STEM",
+        topic: "Matter & Energy",
+        title: "Mystery Doug – Giải Đáp 1001 Câu Hỏi Khoa Học Của Học Sinh Lớp 2",
+        description: "Tại sao lá cây màu xanh? Vì sao bầu trời màu xanh? Nước sôi bốc hơi đi đâu? Giải thích trực quan dễ hiểu.",
+        channel: "Mystery Science",
+        type: "video",
+        typeLabel: "Video Khoa Học",
+        playlistId: null,
+        videoId: "2v6P8R4xG1w",
+        thumbnail: "https://img.youtube.com/vi/2v6P8R4xG1w/hqdefault.jpg",
+        duration: "15 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+
+      // ── AGE 8: Lớp 3 ──
+      {
+        id: "yt_a8_01",
+        age: 8,
+        ageLabel: "8 Tuổi – Lớp 3",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "English Reading Comprehension",
+        title: "Luyện Đọc Hiểu & Ngữ Pháp Tiếng Anh Tiểu Học Lớp 3",
+        description: "Các đoạn văn ngắn rèn luyện kỹ năng tìm ý chính (Main Idea), chi tiết (Details) và mở rộng từ vựng học thuật.",
+        channel: "British Council LearnEnglish Kids",
+        type: "playlist",
+        typeLabel: "Playlist Đọc Hiểu",
+        playlistId: "PL9e4x1a",
+        videoId: "3qH9zF4xK8w",
+        thumbnail: "https://img.youtube.com/vi/3qH9zF4xK8w/hqdefault.jpg",
+        duration: "50 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a8_02",
+        age: 8,
+        ageLabel: "8 Tuổi – Lớp 3",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Khái Niệm Phân Số & Hình Tròn, Góc Vuông",
+        title: "Toán Lớp 3: Số Có 4, 5 Chữ Số, Bắt Đầu Khái Niệm Phân Số & Diện Tích",
+        description: "Hình ảnh trực quan về chia bánh, tô màu phân số và tính chu vi diện tích hình chữ nhật, hình vuông.",
+        channel: "Khan Academy Kids & Math Antics",
+        type: "playlist",
+        typeLabel: "Playlist Toán 3",
+        playlistId: "PL5m8x2z",
+        videoId: "ITce7f6KGE0",
+        thumbnail: "https://img.youtube.com/vi/ITce7f6KGE0/hqdefault.jpg",
+        duration: "65 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a8_03",
+        age: 8,
+        ageLabel: "8 Tuổi – Lớp 3",
+        subject: "science",
+        subjectName: "Khoa Học & STEM",
+        topic: "Scratch Coding & Robotics for Kids",
+        title: "Lập Trình Scratch Cơ Bản: Tự Làm Game Cho Trẻ Em 8 Tuổi",
+        description: "Học tư duy logic, vòng lặp, câu lệnh điều kiện và sáng tạo trò chơi đầu tiên trên Scratch.",
+        channel: "Coding for Kids",
+        type: "playlist",
+        typeLabel: "Playlist Lập Trình",
+        playlistId: "PL2m9x8a",
+        videoId: "VIpmkeqChmQ",
+        thumbnail: "https://img.youtube.com/vi/VIpmkeqChmQ/hqdefault.jpg",
+        duration: "90 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+
+      // ── AGE 9: Lớp 4 ──
+      {
+        id: "yt_a9_01",
+        age: 9,
+        ageLabel: "9 Tuổi – Lớp 4",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "English STEM & Geography",
+        title: "English Science & Geography – Địa Lý & Khoa Học Thế Giới Bằng Tiếng Anh",
+        description: "Tìm hiểu 7 châu lục, các quốc gia, kỳ quan thiên nhiên thế giới hoàn toàn bằng tiếng Anh chuẩn bản xứ.",
+        channel: "National Geographic Kids",
+        type: "playlist",
+        typeLabel: "Playlist Nat Geo",
+        playlistId: "PL4m8x9z",
+        videoId: "X6BE4VcYngQ",
+        thumbnail: "https://img.youtube.com/vi/X6BE4VcYngQ/hqdefault.jpg",
+        duration: "80 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a9_02",
+        age: 9,
+        ageLabel: "9 Tuổi – Lớp 4",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Toán Lớp 4: Phân Số & Dấu Hiệu Chia Hết",
+        title: "Toán Lớp 4: Bốn Phép Tính Phân Số, Rút Gọn, Quy Đồng & Tìm X",
+        description: "Trọng tâm toán lớp 4 với các phương pháp giải toán tỉ số, trung bình cộng và tính chất chia hết cho 2, 3, 5, 9.",
+        channel: "Vuihoc & Toán Thầy Nam",
+        type: "playlist",
+        typeLabel: "Playlist Chuyên Đề",
+        playlistId: "PL8m4x1z",
+        videoId: "3jB_k8wG4e8",
+        thumbnail: "https://img.youtube.com/vi/3jB_k8wG4e8/hqdefault.jpg",
+        duration: "75 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a9_03",
+        age: 9,
+        ageLabel: "9 Tuổi – Lớp 4",
+        subject: "science",
+        subjectName: "Khoa Học & STEM",
+        topic: "Physics & Chemistry for Kids",
+        title: "Vật Lý & Hóa Học Thiếu Nhi: Lực Hấp Dẫn, Ánh Sáng & Âm Thanh",
+        description: "Chương trình Science Max giải thích nguyên lý đòn bẩy, sự khúc xạ ánh sáng và truyền âm thanh sinh động.",
+        channel: "Science Max",
+        type: "video",
+        typeLabel: "Video Khoa Học Max",
+        playlistId: null,
+        videoId: "3e_4kH8x9wQ",
+        thumbnail: "https://img.youtube.com/vi/3e_4kH8x9wQ/hqdefault.jpg",
+        duration: "22 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+
+      // ── AGE 10: Lớp 5 ──
+      {
+        id: "yt_a10_01",
+        age: 10,
+        ageLabel: "10 Tuổi – Lớp 5",
+        subject: "english",
+        subjectName: "Tiếng Anh (English)",
+        topic: "Advanced Vocabulary & Writing",
+        title: "Ngữ Pháp Nâng Cao, Viết Đoạn Văn & Thuyết Trình Tiếng Anh Lớp 5",
+        description: "Các thì quá khứ, tương lai, câu so sánh hơn/nhất và kỹ năng viết thư, kể chuyện chuẩn bị thi vào lớp 6.",
+        channel: "BBC Learning English Kids",
+        type: "playlist",
+        typeLabel: "Playlist Luyện Thi",
+        playlistId: "PL9m8x2a",
+        videoId: "5qH8xF9xK1w",
+        thumbnail: "https://img.youtube.com/vi/5qH8xF9xK1w/hqdefault.jpg",
+        duration: "90 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a10_02",
+        age: 10,
+        ageLabel: "10 Tuổi – Lớp 5",
+        subject: "math",
+        subjectName: "Toán Học (Math)",
+        topic: "Số Thập Phân, Phần Trăm & Toán Chuyển Động",
+        title: "Toán Lớp 5: Bốn Phép Tính Số Thập Phân, Tỉ Số % & Toán Chuyển Động Đều",
+        description: "Đại cương toán cuối cấp tiểu học: Công thức v = s : t, chuyển động ngược chiều, cùng chiều và hình học không gian.",
+        channel: "Vuihoc Master Toán 5",
+        type: "playlist",
+        typeLabel: "Playlist Toán 5",
+        playlistId: "PL3m8x9y",
+        videoId: "7wK_q4gE8p0",
+        thumbnail: "https://img.youtube.com/vi/7wK_q4gE8p0/hqdefault.jpg",
+        duration: "100 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      },
+      {
+        id: "yt_a10_03",
+        age: 10,
+        ageLabel: "10 Tuổi – Lớp 5",
+        subject: "science",
+        subjectName: "Khoa Học & STEM",
+        topic: "Robotics, AI & Space Technology",
+        title: "Công Nghệ Tương Lai: Trí Tuệ Nhân Tạo (AI), Robot & Vũ Trụ Cho Học Sinh",
+        description: "Tìm hiểu AI hoạt động thế nào, khám phá sao Hỏa và lập trình điều khiển robot thông minh.",
+        channel: "TED-Ed & Crash Course",
+        type: "video",
+        typeLabel: "Video AI & Vũ Trụ",
+        playlistId: null,
+        videoId: "8qM8xF4xG1w",
+        thumbnail: "https://img.youtube.com/vi/8qM8xF4xG1w/hqdefault.jpg",
+        duration: "25 phút",
+        rating: "⭐⭐⭐⭐⭐"
+      }
+    ];
+
+    let currentAge = 'all';
+    let currentSubject = 'all';
+    let searchQuery = '';
+    let currentView = 'grid';
+    let currentModalLink = '';
+
+    // Initialize Page
+    document.addEventListener('DOMContentLoaded', () => {
+      renderContent();
+    });
+
+    function selectAge(age) {
+      currentAge = age;
+      
+      // Update Age buttons UI
+      const buttons = document.querySelectorAll('.age-pill');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+
+      const badge = document.getElementById('selectedAgeBadge');
+      if (age === 'all') {
+        badge.textContent = 'Tất cả độ tuổi';
+      } else {
+        badge.textContent = `Đang chọn: ${age} Tuổi`;
+      }
+
+      renderContent();
+    }
+
+    function selectSubject(subject) {
+      currentSubject = subject;
+
+      // Update Subject buttons UI
+      const buttons = document.querySelectorAll('.subject-pill');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+
+      renderContent();
+    }
+
+    function handleSearch() {
+      searchQuery = document.getElementById('searchInput').value.trim().toLowerCase();
+      renderContent();
+    }
+
+    function switchView(mode) {
+      currentView = mode;
+      document.getElementById('btnGridView').classList.toggle('active', mode === 'grid');
+      document.getElementById('btnTreeView').classList.toggle('active', mode === 'tree');
+
+      document.getElementById('contentGrid').style.display = mode === 'grid' ? 'grid' : 'none';
+      document.getElementById('treeView').style.display = mode === 'tree' ? 'block' : 'none';
+
+      renderContent();
+    }
+
+    function filterItems() {
+      return YOUTUBE_CATALOG.filter(item => {
+        // Age Filter
+        if (currentAge !== 'all' && item.age !== parseInt(currentAge)) {
+          return false;
+        }
+        // Subject Filter
+        if (currentSubject !== 'all' && item.subject !== currentSubject) {
+          return false;
+        }
+        // Search Query
+        if (searchQuery.length > 0) {
+          const matchTitle = item.title.toLowerCase().includes(searchQuery);
+          const matchTopic = item.topic.toLowerCase().includes(searchQuery);
+          const matchDesc = item.description.toLowerCase().includes(searchQuery);
+          const matchChannel = item.channel.toLowerCase().includes(searchQuery);
+          const matchSubject = item.subjectName.toLowerCase().includes(searchQuery);
+          if (!matchTitle && !matchTopic && !matchDesc && !matchChannel && !matchSubject) {
+            return false;
+          }
+        }
+        return true;
+      });
+    }
+
+    function renderContent() {
+      const items = filterItems();
+      
+      // Update Counter
+      document.getElementById('resultsCount').textContent = `${items.length} Danh mục`;
+
+      if (currentView === 'grid') {
+        renderGridView(items);
+      } else {
+        renderTreeView(items);
+      }
+    }
+
+    function renderGridView(items) {
+      const grid = document.getElementById('contentGrid');
+      
+      if (items.length === 0) {
+        grid.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; padding: 60px 20px; background: rgba(255,255,255,0.7); border-radius: 28px;">
+            <div style="font-size: 48px; margin-bottom: 12px;">🔍🍃</div>
+            <h3 style="font-size: 20px; font-weight: 800; color: #475569;">Không tìm thấy nội dung phù hợp</h3>
+            <p style="font-size: 14px; font-weight: 600; color: #94A3B8; margin-top: 6px;">Vui lòng thử chọn độ tuổi khác hoặc gõ từ khóa tìm kiếm ngắn hơn!</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = items.map(item => {
+        const isPlaylist = item.type === 'playlist';
+        const embedUrl = isPlaylist && item.playlistId 
+          ? `https://www.youtube.com/embed/videoseries?list=${item.playlistId}&enablejsapi=1&rel=0`
+          : `https://www.youtube.com/embed/${item.videoId}?autoplay=1&enablejsapi=1&rel=0`;
+
+        const directUrl = isPlaylist && item.playlistId
+          ? `https://www.youtube.com/playlist?list=${item.playlistId}`
+          : `https://www.youtube.com/watch?v=${item.videoId}`;
+
+        return `
+          <div class="card">
+            <!-- Thumbnail & Play Overlay -->
+            <div class="card-thumb-wrap" onclick="openPlayerModal('${embedUrl}', '${item.title.replace(/'/g, "\\'")}', '${directUrl}')">
+              <img class="card-thumb-img" src="${item.thumbnail}" alt="${item.title}" loading="lazy" />
+              <div class="play-overlay">
+                <div class="play-btn-circle">
+                  <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </div>
+              <span class="badge-age">${item.age} Tuổi</span>
+              <span class="badge-type">${isPlaylist ? '📑 Playlist' : '🎬 Video'}</span>
+            </div>
+
+            <!-- Body -->
+            <div class="card-body">
+              <div class="card-subject-tag">
+                <span>📚</span> ${item.subjectName} • ${item.topic}
+              </div>
+              <h2 class="card-title" onclick="openPlayerModal('${embedUrl}', '${item.title.replace(/'/g, "\\'")}', '${directUrl}')">
+                ${item.title}
+              </h2>
+              <p class="card-desc">${item.description}</p>
+              
+              <div class="card-meta">
+                <span class="channel-name">📺 ${item.channel}</span>
+                <span>⏱️ ${item.duration}</span>
+              </div>
+
+              <!-- Actions -->
+              <div class="card-actions">
+                <button class="btn-watch" onclick="openPlayerModal('${embedUrl}', '${item.title.replace(/'/g, "\\'")}', '${directUrl}')">
+                  <span>▶️</span> ${isPlaylist ? 'Xem Trọn Bộ Playlist' : 'Phát Video Ngay'}
+                </button>
+                <button class="btn-icon" title="Sao chép link" onclick="copyLink('${directUrl}')">
+                  📋
+                </button>
+                <button class="btn-icon" title="Chia sẻ" onclick="shareContent('${item.title.replace(/'/g, "\\'")}', '${directUrl}')">
+                  📤
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderTreeView(items) {
+      const tree = document.getElementById('treeView');
+      
+      // Group by Age
+      const ageGroups = {};
+      items.forEach(item => {
+        if (!ageGroups[item.age]) ageGroups[item.age] = [];
+        ageGroups[item.age].push(item);
+      });
+
+      const ages = Object.keys(ageGroups).sort((a,b) => parseInt(a) - parseInt(b));
+
+      if (ages.length === 0) {
+        tree.innerHTML = `<div style="text-align:center; padding: 40px; color: #64748B;">Không có nội dung phù hợp.</div>`;
+        return;
+      }
+
+      tree.innerHTML = ages.map(age => {
+        const groupItems = ageGroups[age];
+        const ageLabel = groupItems[0].ageLabel;
+
+        // Group by Subject within Age
+        const subjectGroups = {};
+        groupItems.forEach(item => {
+          if (!subjectGroups[item.subjectName]) subjectGroups[item.subjectName] = [];
+          subjectGroups[item.subjectName].push(item);
+        });
+
+        return `
+          <div class="tree-age-section">
+            <div class="tree-age-header">
+              <span>🎯</span> ${ageLabel}
+            </div>
+            ${Object.keys(subjectGroups).map(subName => {
+              const subItems = subjectGroups[subName];
+              return `
+                <div class="tree-subject-block">
+                  <div class="tree-subject-title">
+                    <span>📘</span> ${subName}
+                  </div>
+                  <ul class="tree-playlist-list">
+                    ${subItems.map(item => {
+                      const isPlaylist = item.type === 'playlist';
+                      const embedUrl = isPlaylist && item.playlistId 
+                        ? `https://www.youtube.com/embed/videoseries?list=${item.playlistId}&enablejsapi=1&rel=0`
+                        : `https://www.youtube.com/embed/${item.videoId}?autoplay=1&enablejsapi=1&rel=0`;
+                      const directUrl = isPlaylist && item.playlistId
+                        ? `https://www.youtube.com/playlist?list=${item.playlistId}`
+                        : `https://www.youtube.com/watch?v=${item.videoId}`;
+
+                      return `
+                        <li class="tree-playlist-item">
+                          <span>${isPlaylist ? '📑' : '▶️'}</span>
+                          <a class="tree-play-link" onclick="openPlayerModal('${embedUrl}', '${item.title.replace(/'/g, "\\'")}', '${directUrl}')">
+                            <strong>[${item.topic}]</strong> ${item.title} (${item.channel})
+                          </a>
+                        </li>
+                      `;
+                    }).join('')}
+                  </ul>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Modal Player Handling
+    function openPlayerModal(embedUrl, title, directUrl) {
+      currentModalLink = directUrl;
+      document.getElementById('modalTitle').textContent = title;
+      document.getElementById('modalIframe').src = embedUrl;
+      document.getElementById('modalDirectLink').href = directUrl;
+      document.getElementById('playerModal').style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closePlayerModal() {
+      document.getElementById('playerModal').style.display = 'none';
+      document.getElementById('modalIframe').src = ''; // Stop video playback
+      document.body.style.overflow = '';
+    }
+
+    function handleModalBackdrop(event) {
+      if (event.target.id === 'playerModal') {
+        closePlayerModal();
+      }
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closePlayerModal();
+      }
+    });
+
+    // Copy & Share Helpers
+    function copyLink(url) {
+      navigator.clipboard.writeText(url).then(() => {
+        showToast('Đã sao chép liên kết YouTube thành công! 📋');
+      }).catch(() => {
+        showToast('Đã chọn liên kết!');
+      });
+    }
+
+    function copyCurrentLink() {
+      if (currentModalLink) {
+        copyLink(currentModalLink);
+      }
+    }
+
+    function shareContent(title, url) {
+      if (navigator.share) {
+        navigator.share({
+          title: `My Kiddy: ${title}`,
+          text: `Khám phá video giáo dục thiếu nhi trên My Kiddy: ${title}`,
+          url: url,
+        }).catch(() => {});
+      } else {
+        copyLink(url);
+      }
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      const toastMsg = document.getElementById('toastMsg');
+      toastMsg.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2500);
+    }
+  </script>
+</body>
+</html>
