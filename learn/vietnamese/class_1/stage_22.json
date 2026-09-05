@@ -1,0 +1,1136 @@
+{
+  "id": "v1_stage_22",
+  "stage_number": 22,
+  "title": {
+    "vi": "Tuần 22: Chủ Điểm Mái Trường Mến Yêu (Phần 2)",
+    "en": "Tuần 22: Chủ Điểm Mái Trường Mến Yêu (Phần 2)"
+  },
+  "subtitle": {
+    "vi": "Bài 4, 5 & 6 - Cây bàng và lớp học, Bác trống trường, Giờ ra chơi",
+    "en": "Bài 4, 5 & 6 - Cây bàng và lớp học, Bác trống trường, Giờ ra chơi"
+  },
+  "icon": "🔔",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.34,
+  "required_stars": 63,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "v1_t22_1",
+      "title": {
+        "vi": "Tập đọc: Cây bàng và lớp học & Bác trống trường",
+        "en": "Tập đọc: Cây bàng và lớp học & Bác trống trường"
+      },
+      "description": {
+        "vi": "Hình ảnh thân thương gắn liền với tuổi học trò",
+        "en": "Hình ảnh thân thương gắn liền với tuổi học trò"
+      },
+      "icon": "🌳",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t22_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Vật dụng thân thương nào ở trường vang lên tiếng 'tùng... tùng... tùng' báo hiệu giờ vào lớp?",
+            "en": "Vật dụng thân thương nào ở trường vang lên tiếng 'tùng... tùng... tùng' báo hiệu giờ vào lớp?"
+          },
+          "tts_prompt": {
+            "vi": "Vật dụng thân thương nào ở trường vang lên tiếng 'tùng... tùng... tùng' báo hiệu giờ vào lớp?",
+            "en": "Vật dụng thân thương nào ở trường vang lên tiếng 'tùng... tùng... tùng' báo hiệu giờ vào lớp?"
+          },
+          "hint": {
+            "vi": "Bác trống gỗ tròn với thân sơn đỏ đứng trang nghiêm ở hành lang.",
+            "en": "Bác trống gỗ tròn với thân sơn đỏ đứng trang nghiêm ở hành lang."
+          },
+          "explanation": {
+            "vi": "Bác trống trường điểm giờ vào học và giờ ra chơi cho học sinh.",
+            "en": "Bác trống trường điểm giờ vào học và giờ ra chơi cho học sinh."
+          },
+          "data": {
+            "options": [
+              "bác trống trường",
+              "tiếng kèn tây",
+              "chiếc còi hú",
+              "chiếc chuông đồng hồ"
+            ],
+            "correct_answer": "bác trống trường"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_bac_trong_truong_diem_gio.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'cây bàng', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'cây bàng', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'cây bàng', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'cây bàng', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'cây bàng'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'cây bàng'."
+          },
+          "explanation": {
+            "vi": "Trong 'cây bàng', âm 'c' là âm đầu đứng trước.",
+            "en": "Trong 'cây bàng', âm 'c' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "c",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "c"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cây bàng",
+                  "en": "cây bàng"
+                },
+                "right": {
+                  "vi": "Tiếng cây bàng",
+                  "en": "Tiếng cây bàng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "trống trường",
+                  "en": "trống trường"
+                },
+                "right": {
+                  "vi": "Tiếng trống trường",
+                  "en": "Tiếng trống trường"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tiếng vang",
+                  "en": "tiếng vang"
+                },
+                "right": {
+                  "vi": "Tiếng tiếng vang",
+                  "en": "Tiếng tiếng vang"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'trống trường' xuất hiện trong bài học về 'trường'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'trống trường' xuất hiện trong bài học về 'trường'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'trường'.",
+            "en": "Nhớ lại nội dung bài học về 'trường'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'trống trường' là trọng tâm trong bài học về 'trường'.",
+            "en": "Đúng! Nội dung 'trống trường' là trọng tâm trong bài học về 'trường'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'trống trường' xuất hiện trong bài học về 'trường'.",
+              "en": "Từ hoặc câu liên quan đến 'trống trường' xuất hiện trong bài học về 'trường'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'cây bàng'.",
+            "en": "Chọn từ đang học trong bài: 'cây bàng'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cây bàng'.",
+            "en": "Từ chính xác là 'cây bàng'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "cây bàng",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "cây bàng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'câybàng':",
+            "en": "Ghép các chữ cái để tạo thành từ 'câybàng':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'câybàng':",
+            "en": "Ghép các chữ cái để tạo thành từ 'câybàng':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'câybàng'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'câybàng'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'câybàng'.",
+            "en": "Ghép các chữ cái tạo thành 'câybàng'."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "à",
+              "b",
+              "y",
+              "â",
+              "c"
+            ],
+            "target_word": "câybàng",
+            "target_sequence": [
+              "c",
+              "â",
+              "y",
+              "b",
+              "à",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'cây bàng' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'cây bàng' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'cây bàng' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'cây bàng' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'cây bàng'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'cây bàng'."
+          },
+          "explanation": {
+            "vi": "'cây bàng trống trường' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'cây bàng trống trường' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "trống trường",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "trống trường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' thuộc chủ đề 'Tập đọc: Cây bàng và lớp học & Bác trống trường'.",
+            "en": "Câu 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' thuộc chủ đề 'Tập đọc: Cây bàng và lớp học & Bác trống trường'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Cây bàng và lớp học & Bác trống trường",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Cây bàng và lớp học & Bác trống trường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Giữ gìn trường lớp xanh sạch đẹp và bảo vệ của công.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Giữ gìn trường lớp xanh sạch đẹp và bảo vệ của công."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Giữ gìn trường lớp xanh sạch đẹp và bảo vệ của công.",
+            "en": "Đúng! Giữ gìn trường lớp xanh sạch đẹp và bảo vệ của công."
+          },
+          "data": {
+            "statement": {
+              "vi": "Giữ gìn trường lớp xanh sạch đẹp và bảo vệ của công.",
+              "en": "Giữ gìn trường lớp xanh sạch đẹp và bảo vệ của công."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Bác trống trường điểm từng tiếng tùng tùng báo giờ học..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Bác trống trường điểm từng tiếng tùng tùng báo giờ học.."
+          },
+          "explanation": {
+            "vi": "Câu 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' có đúng 11 tiếng.",
+            "en": "Câu 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' có đúng 11 tiếng."
+          },
+          "data": {
+            "correct_number": "11",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'trống trường' mang dấu thanh gì?",
+            "en": "Tiếng 'trống trường' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'trống trường' mang dấu thanh gì?",
+            "en": "Tiếng 'trống trường' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'trống trường' mang dấu thanh chính xác.",
+            "en": "Tiếng 'trống trường' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' Bác ... trường điểm từng tiếng tùng tùng báo giờ học.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bác trống trường điểm từng tiếng tùng tùng báo giờ học.' Bác ... trường điểm từng tiếng tùng tùng báo giờ học."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Bác trống trường điểm từng tiếng tùng tùng báo giờ học..",
+            "en": "Nhớ lại câu mẫu: Bác trống trường điểm từng tiếng tùng tùng báo giờ học.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'trống'.",
+            "en": "Từ chính xác là 'trống'."
+          },
+          "data": {
+            "prefix_text": "Bác ",
+            "suffix_text": " trường điểm từng tiếng tùng tùng báo giờ học.",
+            "options": [
+              "trống",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "trống"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'cây bàng'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'cây bàng'."
+          },
+          "explanation": {
+            "vi": "'cây bàng' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'cây bàng' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "cây bàng",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "cây bàng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'trường'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'trường'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'trường'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'trường'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'trường' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'trường' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'cây bàng'.",
+            "en": "Tiếng mẫu của bài là 'cây bàng'."
+          },
+          "data": {
+            "options": [
+              "cây bàng",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "cây bàng"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t22_2",
+      "title": {
+        "vi": "Tập đọc: Giờ ra chơi",
+        "en": "Tập đọc: Giờ ra chơi"
+      },
+      "description": {
+        "vi": "Những trò chơi dân gian vui tươi sôi nổi trên sân trường",
+        "en": "Những trò chơi dân gian vui tươi sôi nổi trên sân trường"
+      },
+      "icon": "⚽",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t22_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Khung cảnh sân trường rộn rã tiếng cười với các trò chơi nhảy dây, đá cầu diễn ra vào lúc nào?",
+            "en": "Khung cảnh sân trường rộn rã tiếng cười với các trò chơi nhảy dây, đá cầu diễn ra vào lúc nào?"
+          },
+          "tts_prompt": {
+            "vi": "Khung cảnh sân trường rộn rã tiếng cười với các trò chơi nhảy dây, đá cầu diễn ra vào lúc nào?",
+            "en": "Khung cảnh sân trường rộn rã tiếng cười với các trò chơi nhảy dây, đá cầu diễn ra vào lúc nào?"
+          },
+          "hint": {
+            "vi": "Các bạn học sinh cùng nhau vui chơi sảng khoái sau tiết học.",
+            "en": "Các bạn học sinh cùng nhau vui chơi sảng khoái sau tiết học."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài tập đọc: 'Giờ ra chơi trên sân trường'.",
+            "en": "Bức tranh minh hoạ bài tập đọc: 'Giờ ra chơi trên sân trường'."
+          },
+          "data": {
+            "options": [
+              "giờ ra chơi",
+              "giờ làm bài thi",
+              "giờ ngủ trưa",
+              "giờ tan học tối"
+            ],
+            "correct_answer": "giờ ra chơi"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_gio_ra_choi_san_truong.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'nhảy dây', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'nhảy dây', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'nhảy dây', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'nhảy dây', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'nhảy dây'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'nhảy dây'."
+          },
+          "explanation": {
+            "vi": "Trong 'nhảy dây', âm 'n' là âm đầu đứng trước.",
+            "en": "Trong 'nhảy dây', âm 'n' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "n",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "n"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "nhảy dây",
+                  "en": "nhảy dây"
+                },
+                "right": {
+                  "vi": "Tiếng nhảy dây",
+                  "en": "Tiếng nhảy dây"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "đá cầu",
+                  "en": "đá cầu"
+                },
+                "right": {
+                  "vi": "Tiếng đá cầu",
+                  "en": "Tiếng đá cầu"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "kéo co",
+                  "en": "kéo co"
+                },
+                "right": {
+                  "vi": "Tiếng kéo co",
+                  "en": "Tiếng kéo co"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'đá cầu' xuất hiện trong bài học về 'ra chơi'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'đá cầu' xuất hiện trong bài học về 'ra chơi'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'ra chơi'.",
+            "en": "Nhớ lại nội dung bài học về 'ra chơi'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'đá cầu' là trọng tâm trong bài học về 'ra chơi'.",
+            "en": "Đúng! Nội dung 'đá cầu' là trọng tâm trong bài học về 'ra chơi'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'đá cầu' xuất hiện trong bài học về 'ra chơi'.",
+              "en": "Từ hoặc câu liên quan đến 'đá cầu' xuất hiện trong bài học về 'ra chơi'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'nhảy dây'.",
+            "en": "Chọn từ đang học trong bài: 'nhảy dây'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'nhảy dây'.",
+            "en": "Từ chính xác là 'nhảy dây'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "nhảy dây",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "nhảy dây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'nhảydây':",
+            "en": "Ghép các chữ cái để tạo thành từ 'nhảydây':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'nhảydây':",
+            "en": "Ghép các chữ cái để tạo thành từ 'nhảydây':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'nhảydây'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'nhảydây'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'nhảydây'.",
+            "en": "Ghép các chữ cái tạo thành 'nhảydây'."
+          },
+          "data": {
+            "letters": [
+              "y",
+              "â",
+              "d",
+              "y",
+              "ả",
+              "h",
+              "n"
+            ],
+            "target_word": "nhảydây",
+            "target_sequence": [
+              "n",
+              "h",
+              "ả",
+              "y",
+              "d",
+              "â",
+              "y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'nhảy dây' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'nhảy dây' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'nhảy dây' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'nhảy dây' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'nhảy dây'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'nhảy dây'."
+          },
+          "explanation": {
+            "vi": "'nhảy dây đá cầu' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'nhảy dây đá cầu' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "đá cầu",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "đá cầu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' thuộc chủ đề 'Tập đọc: Giờ ra chơi'.",
+            "en": "Câu 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' thuộc chủ đề 'Tập đọc: Giờ ra chơi'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Giờ ra chơi",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Giờ ra chơi"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Chơi các trò chơi lành mạnh, an toàn và đoàn kết.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Chơi các trò chơi lành mạnh, an toàn và đoàn kết."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Chơi các trò chơi lành mạnh, an toàn và đoàn kết.",
+            "en": "Đúng! Chơi các trò chơi lành mạnh, an toàn và đoàn kết."
+          },
+          "data": {
+            "statement": {
+              "vi": "Chơi các trò chơi lành mạnh, an toàn và đoàn kết.",
+              "en": "Chơi các trò chơi lành mạnh, an toàn và đoàn kết."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Sân trường rộn vang tiếng cười trong giờ ra chơi..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Sân trường rộn vang tiếng cười trong giờ ra chơi.."
+          },
+          "explanation": {
+            "vi": "Câu 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' có đúng 10 tiếng.",
+            "en": "Câu 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' có đúng 10 tiếng."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'đá cầu' mang dấu thanh gì?",
+            "en": "Tiếng 'đá cầu' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'đá cầu' mang dấu thanh gì?",
+            "en": "Tiếng 'đá cầu' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'đá cầu' mang dấu thanh chính xác.",
+            "en": "Tiếng 'đá cầu' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu sắc (/)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Sân trường rộn vang tiếng cười trong giờ ra chơi.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Sân trường rộn vang tiếng cười trong giờ ra chơi.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' Sân ... rộn vang tiếng cười trong giờ ra chơi.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Sân trường rộn vang tiếng cười trong giờ ra chơi.' Sân ... rộn vang tiếng cười trong giờ ra chơi."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Sân trường rộn vang tiếng cười trong giờ ra chơi..",
+            "en": "Nhớ lại câu mẫu: Sân trường rộn vang tiếng cười trong giờ ra chơi.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'trường'.",
+            "en": "Từ chính xác là 'trường'."
+          },
+          "data": {
+            "prefix_text": "Sân ",
+            "suffix_text": " rộn vang tiếng cười trong giờ ra chơi.",
+            "options": [
+              "trường",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "trường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "N",
+                  "en": "N"
+                },
+                "right": {
+                  "vi": "n",
+                  "en": "n"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "K",
+                  "en": "K"
+                },
+                "right": {
+                  "vi": "k",
+                  "en": "k"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'nhảy dây'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'nhảy dây'."
+          },
+          "explanation": {
+            "vi": "'nhảy dây' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'nhảy dây' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "nhảy dây",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "nhảy dây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t22_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'ra chơi'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'ra chơi'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'ra chơi'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'ra chơi'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'ra chơi' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'ra chơi' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'nhảy dây'.",
+            "en": "Tiếng mẫu của bài là 'nhảy dây'."
+          },
+          "data": {
+            "options": [
+              "nhảy dây",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "nhảy dây"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

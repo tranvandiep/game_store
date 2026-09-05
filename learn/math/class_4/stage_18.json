@@ -1,0 +1,1140 @@
+{
+  "id": "m4_stage_18",
+  "stage_number": 18,
+  "title": {
+    "vi": "Tuần 18: Dấu Hiệu Chia Hết Cho 9 và 3",
+    "en": "Week 18: Divisibility Rules for 9 and 3"
+  },
+  "subtitle": {
+    "vi": "Trang 97-98: Tổng các chữ số chia hết cho 9 hoặc chia hết cho 3",
+    "en": "Pages 97-98: Sum of digits divisibility for 9 and 3"
+  },
+  "icon": "✨",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.474,
+  "required_stars": 51,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "m4_t18_1",
+      "title": {
+        "vi": "Dấu hiệu chia hết cho 9",
+        "en": "Divisibility Rule for 9"
+      },
+      "description": {
+        "vi": "Các số có tổng các chữ số chia hết cho 9 thì chia hết cho 9",
+        "en": "Numbers whose sum of digits is divisible by 9 are divisible by 9"
+      },
+      "icon": "✨",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t18_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số nào dưới đây chia hết cho 9?",
+            "en": "Which number is divisible by 9?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào dưới đây chia hết cho 9?",
+            "en": "Which number is divisible by 9?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "7 + 3 + 8 = 18 (18 chia hết cho 9) nên 738 chia hết cho 9.",
+            "en": "7+3+8=18 (divisible by 9)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "738",
+                "en": "738"
+              },
+              {
+                "vi": "542",
+                "en": "542"
+              },
+              {
+                "vi": "631",
+                "en": "631"
+              }
+            ],
+            "correct_answer": "738"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền chữ số thích hợp vào dấu * để số 5*4 chia hết cho 9:",
+            "en": "Fill digit * so 5*4 is divisible by 9:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền chữ số thích hợp vào dấu * để số 5*4 chia hết cho 9:",
+            "en": "Fill digit * so 5*4 is divisible by 9:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 + 0 + 4 = 9 (hoặc 5 + 9 + 4 = 18), chữ số bé nhất là 0.",
+            "en": "5+0+4=9."
+          },
+          "data": {
+            "correct_number": "0",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Vì 9 chia hết cho 3.",
+            "en": "Decide whether the following statement is true or false: Vì 9 chia hết cho 3."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Vì 9 là bội của 3.",
+            "en": "True! 9 is multiple of 3."
+          },
+          "data": {
+            "statement": {
+              "vi": "Vì 9 chia hết cho 3.",
+              "en": "Vì 9 chia hết cho 3."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Dấu hiệu chia hết cho 9': Số nào dưới đây chia hết cho 9?",
+            "en": "Practice 'Divisibility Rule for 9': Which number is divisible by 9?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào dưới đây chia hết cho 9?",
+            "en": "Which number is divisible by 9?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "7 + 3 + 8 = 18 (18 chia hết cho 9) nên 738 chia hết cho 9.",
+            "en": "7+3+8=18 (divisible by 9)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "631",
+                "en": "631"
+              },
+              {
+                "vi": "542",
+                "en": "542"
+              },
+              {
+                "vi": "738",
+                "en": "738"
+              }
+            ],
+            "correct_answer": "738"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 đứng liền trước số 6.",
+            "en": "Decide whether the following statement is true or false: Số 5 đứng liền trước số 6."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 đứng liền trước số 6.",
+              "en": "Số 5 đứng liền trước số 6."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 bé hơn số 4 (5 < 4).",
+            "en": "Decide whether the following statement is true or false: Số 5 bé hơn số 4 (5 < 4)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 bé hơn số 4 (5 < 4).",
+              "en": "Số 5 bé hơn số 4 (5 < 4)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 10 và 18 là:",
+            "en": "Average of 10 and 18 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 10 và 18 là:",
+            "en": "Average of 10 and 18 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(10 + 18) : 2 = 14.",
+            "en": "Average is 14."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "14"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t18_2",
+      "title": {
+        "vi": "Dấu hiệu chia hết cho 3",
+        "en": "Divisibility Rule for 3"
+      },
+      "description": {
+        "vi": "Các số có tổng các chữ số chia hết cho 3 thì chia hết cho 3",
+        "en": "Numbers whose sum of digits is divisible by 3 are divisible by 3"
+      },
+      "icon": "☘️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t18_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số nào chia hết cho 3 nhưng không chia hết cho 9?",
+            "en": "Which number is divisible by 3 but NOT by 9?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào chia hết cho 3 nhưng không chia hết cho 9?",
+            "en": "Which number is divisible by 3 but NOT by 9?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "1 + 2 + 3 = 6 (6 chia hết cho 3, không chia hết cho 9) nên 123 thỏa mãn.",
+            "en": "1+2+3=6 (divisible by 3, not 9)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "123",
+                "en": "123"
+              },
+              {
+                "vi": "729",
+                "en": "729"
+              },
+              {
+                "vi": "810",
+                "en": "810"
+              }
+            ],
+            "correct_answer": "123"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_2",
+          "type": "multipleChoice",
+          "text": {
+            "vi": "Chọn TẤT CẢ các số chia hết cho 3:",
+            "en": "Select ALL numbers divisible by 3:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn TẤT CẢ các số chia hết cho 3:",
+            "en": "Select ALL numbers divisible by 3:"
+          },
+          "hint": {
+            "vi": "Bé chú ý có thể có nhiều hơn 1 đáp án đúng nhé.",
+            "en": "There may be more than one correct answer."
+          },
+          "explanation": {
+            "vi": "231 (tổng 6), 345 (tổng 12), 612 (tổng 9) đều chia hết cho 3.",
+            "en": "Sum of digits divisible by 3."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "231",
+                "en": "231"
+              },
+              {
+                "vi": "345",
+                "en": "345"
+              },
+              {
+                "vi": "452",
+                "en": "452"
+              },
+              {
+                "vi": "612",
+                "en": "612"
+              }
+            ],
+            "correct_answers": [
+              "231",
+              "345",
+              "612"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Phân biệt chia hết 3 và 9.",
+            "en": "Decide whether the following statement is true or false: Phân biệt chia hết 3 và 9."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Chia hết 3 chưa chắc chia hết 9.",
+            "en": "True! E.g. 12, 15, 21."
+          },
+          "data": {
+            "statement": {
+              "vi": "Phân biệt chia hết 3 và 9.",
+              "en": "Phân biệt chia hết 3 và 9."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Dấu hiệu chia hết cho 3': Số nào chia hết cho 3 nhưng không chia hết cho 9?",
+            "en": "Practice 'Divisibility Rule for 3': Which number is divisible by 3 but NOT by 9?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào chia hết cho 3 nhưng không chia hết cho 9?",
+            "en": "Which number is divisible by 3 but NOT by 9?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "1 + 2 + 3 = 6 (6 chia hết cho 3, không chia hết cho 9) nên 123 thỏa mãn.",
+            "en": "1+2+3=6 (divisible by 3, not 9)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "123",
+                "en": "123"
+              },
+              {
+                "vi": "810",
+                "en": "810"
+              },
+              {
+                "vi": "729",
+                "en": "729"
+              }
+            ],
+            "correct_answer": "123"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_5",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 30 và 42 là:",
+            "en": "Average of 30 and 42 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 30 và 42 là:",
+            "en": "Average of 30 and 42 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(30 + 42) : 2 = 36.",
+            "en": "Average is 36."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "36"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_6",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 30 và 20 là:",
+            "en": "Average of 30 and 20 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 30 và 20 là:",
+            "en": "Average of 30 and 20 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(30 + 20) : 2 = 25.",
+            "en": "Average is 25."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "25"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 50607 đến hàng nghìn:",
+            "en": "Round 50607 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 50607 đến hàng nghìn:",
+            "en": "Round 50607 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50000",
+                "en": "50000"
+              },
+              {
+                "vi": "51000",
+                "en": "51000"
+              },
+              {
+                "vi": "49000",
+                "en": "49000"
+              }
+            ],
+            "correct_answer": "51000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 97140 đến hàng nghìn:",
+            "en": "Round 97140 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 97140 đến hàng nghìn:",
+            "en": "Round 97140 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "97000",
+                "en": "97000"
+              },
+              {
+                "vi": "98000",
+                "en": "98000"
+              },
+              {
+                "vi": "96000",
+                "en": "96000"
+              }
+            ],
+            "correct_answer": "97000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 33 và 43 là:",
+            "en": "Average of 33 and 43 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 33 và 43 là:",
+            "en": "Average of 33 and 43 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(33 + 43) : 2 = 38.",
+            "en": "Average is 38."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "38"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t18_3",
+      "title": {
+        "vi": "Tổng hợp 4 dấu hiệu chia hết (2, 3, 5, 9)",
+        "en": "Combined Divisibility Rules Review"
+      },
+      "description": {
+        "vi": "Phân loại nhanh số chia hết cho nhiều số cùng lúc",
+        "en": "Multi-criteria divisibility identification"
+      },
+      "icon": "🏆",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t18_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số nào vừa chia hết cho 2, vừa chia hết cho 5, vừa chia hết cho 9?",
+            "en": "Which number is divisible by 2, 5, and 9?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào vừa chia hết cho 2, vừa chia hết cho 5, vừa chia hết cho 9?",
+            "en": "Which number is divisible by 2, 5, and 9?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "180 tận cùng là 0 (chia hết cho 2, 5) và có tổng 1+8+0=9 (chia hết cho 9).",
+            "en": "180 ends in 0 and sum is 9."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "180",
+                "en": "180"
+              },
+              {
+                "vi": "150",
+                "en": "150"
+              },
+              {
+                "vi": "275",
+                "en": "275"
+              }
+            ],
+            "correct_answer": "180"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_3_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối số với dấu hiệu chia hết tương ứng:",
+            "en": "Match numbers with divisibility properties:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối số với dấu hiệu chia hết tương ứng:",
+            "en": "Match numbers with divisibility properties:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Bốn quy tắc chia hết vàng.",
+            "en": "Four golden divisibility rules."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Số chia hết cho 2",
+                  "en": "Số chia hết cho 2"
+                },
+                "right": {
+                  "vi": "Chữ số tận cùng là 0, 2, 4, 6, 8",
+                  "en": "Chữ số tận cùng là 0, 2, 4, 6, 8"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Số chia hết cho 5",
+                  "en": "Số chia hết cho 5"
+                },
+                "right": {
+                  "vi": "Chữ số tận cùng là 0 hoặc 5",
+                  "en": "Chữ số tận cùng là 0 hoặc 5"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Số chia hết cho 9",
+                  "en": "Số chia hết cho 9"
+                },
+                "right": {
+                  "vi": "Tổng các chữ số chia hết cho 9",
+                  "en": "Tổng các chữ số chia hết cho 9"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_3_3",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trong các số: 35, 48, 180, 243; số vừa chia hết cho 2 vừa chia hết cho 9 là số nào?",
+            "en": "Which number is divisible by both 2 and 9: 35, 48, 180, 243?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong các số: 35, 48, 180, 243; số vừa chia hết cho 2 vừa chia hết cho 9 là số nào?",
+            "en": "Which number is divisible by both 2 and 9: 35, 48, 180, 243?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "180 là số chẵn và có tổng 1+8+0=9.",
+            "en": "180."
+          },
+          "data": {
+            "correct_number": "180",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Tổng hợp 4 dấu hiệu chia hết (2, 3, 5, 9)': Số nào vừa chia hết cho 2, vừa chia hết cho 5, vừa chia hết cho 9?",
+            "en": "Practice 'Combined Divisibility Rules Review': Which number is divisible by 2, 5, and 9?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào vừa chia hết cho 2, vừa chia hết cho 5, vừa chia hết cho 9?",
+            "en": "Which number is divisible by 2, 5, and 9?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "180 tận cùng là 0 (chia hết cho 2, 5) và có tổng 1+8+0=9 (chia hết cho 9).",
+            "en": "180 ends in 0 and sum is 9."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "275",
+                "en": "275"
+              },
+              {
+                "vi": "180",
+                "en": "180"
+              },
+              {
+                "vi": "150",
+                "en": "150"
+              }
+            ],
+            "correct_answer": "180"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 35 và 47 là:",
+            "en": "Average of 35 and 47 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 35 và 47 là:",
+            "en": "Average of 35 and 47 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(35 + 47) : 2 = 41.",
+            "en": "Average is 41."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "41"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_3_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của hai số 11 và 11 là:",
+            "en": "The average of 11 and 11 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 11 và 11",
+            "en": "Average of 11 and 11"
+          },
+          "hint": {
+            "vi": "Lấy tổng chia cho 2.",
+            "en": "Sum divided by 2."
+          },
+          "explanation": {
+            "vi": "(11 + 11) : 2 = 11.",
+            "en": "(11 + 11) : 2 = 11."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "11"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t18_3_12",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Góc nhọn là góc bé hơn góc vuông.",
+            "en": "An acute angle is smaller than a right angle."
+          },
+          "hint": {
+            "vi": "Góc vuông có số đo 90 độ.",
+            "en": "A right angle is 90 degrees."
+          },
+          "explanation": {
+            "vi": "Góc nhọn có số đo bé hơn 90 độ.",
+            "en": "Acute angle is less than 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc nhọn là góc có số đo bé hơn góc vuông.",
+              "en": "An acute angle is smaller than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

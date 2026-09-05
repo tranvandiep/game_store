@@ -1,0 +1,1134 @@
+{
+  "id": "e2_stage_13",
+  "stage_number": 13,
+  "title": {
+    "vi": "Week 13: Juicy Oranges & Farm Fun",
+    "en": "Week 13: Juicy Oranges & Farm Fun"
+  },
+  "subtitle": {
+    "vi": "Farm produce: Oranges, apples, carrots, eggs",
+    "en": "Farm produce: Oranges, apples, carrots, eggs"
+  },
+  "icon": "🍊",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.602,
+  "required_stars": 36,
+  "theme_color": "0xFFBE185D",
+  "topics": [
+    {
+      "id": "e2_s13_1",
+      "title": {
+        "vi": "Juicy Sweet Oranges",
+        "en": "Juicy Sweet Oranges"
+      },
+      "description": {
+        "vi": "Picking ripe orange fruits from orchard",
+        "en": "Picking ripe orange fruits from orchard"
+      },
+      "icon": "🍊",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s13_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the round citrus fruit with bright orange skin on the fruit stall. What fruit is it?",
+            "en": "Look at the round citrus fruit with bright orange skin on the fruit stall. What fruit is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the round citrus fruit with bright orange skin on the fruit stall. What fruit is it?",
+            "en": "Look at the round citrus fruit with bright orange skin on the fruit stall. What fruit is it?"
+          },
+          "hint": {
+            "vi": "Round orange fruit packed with vitamin C.",
+            "en": "Round orange fruit packed with vitamin C."
+          },
+          "explanation": {
+            "vi": "It's a fresh and juicy sweet orange.",
+            "en": "It's a fresh and juicy sweet orange."
+          },
+          "data": {
+            "options": [
+              "a sweet juicy orange",
+              "a sour lime",
+              "a brown potato",
+              "a green onion"
+            ],
+            "correct_answer": "a sweet juicy orange"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u6_juicy_orange.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s13_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'orange'?",
+            "en": "What is the first letter of the word 'orange'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'orange'?",
+            "en": "What is the first letter of the word 'orange'?"
+          },
+          "hint": {
+            "vi": "The word 'orange' starts with the letter O.",
+            "en": "The word 'orange' starts with the letter O."
+          },
+          "explanation": {
+            "vi": "Correct! 'orange' begins with the letter 'O'.",
+            "en": "Correct! 'orange' begins with the letter 'O'."
+          },
+          "data": {
+            "options": [
+              "Letter O",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter O"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "orange",
+                  "en": "orange"
+                },
+                "right": {
+                  "vi": "Nghĩa của orange",
+                  "en": "Nghĩa của orange"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "sweet",
+                  "en": "sweet"
+                },
+                "right": {
+                  "vi": "Nghĩa của sweet",
+                  "en": "Nghĩa của sweet"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "juicy",
+                  "en": "juicy"
+                },
+                "right": {
+                  "vi": "Nghĩa của juicy",
+                  "en": "Nghĩa của juicy"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Pick a sweet juicy orange from the tree.",
+            "en": "Is this English sentence correct for Grade 2? Pick a sweet juicy orange from the tree."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Pick a sweet juicy orange from the tree.",
+            "en": "Remember the pattern: Pick a sweet juicy orange from the tree."
+          },
+          "explanation": {
+            "vi": "Yes! 'Pick a sweet juicy orange from the tree.' is a correct English sentence.",
+            "en": "Yes! 'Pick a sweet juicy orange from the tree.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Pick a sweet juicy orange from the tree.",
+              "en": "Pick a sweet juicy orange from the tree."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Pick a sweet juicy orange from the ....",
+            "en": "Drag the correct word to complete the sentence: Pick a sweet juicy orange from the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'tree'.",
+            "en": "Choose the correct word: 'tree'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Pick a sweet juicy orange from the tree.'.",
+            "en": "The complete sentence is: 'Pick a sweet juicy orange from the tree.'."
+          },
+          "data": {
+            "prefix_text": "Pick a sweet juicy orange from the ",
+            "suffix_text": ".",
+            "options": [
+              "tree",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "tree"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'orange':",
+            "en": "Spell the English word 'orange':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'orange':",
+            "en": "Spell the English word 'orange':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'orange'.",
+            "en": "Tap the letters in order to spell 'orange'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'orange' correctly.",
+            "en": "Well done! You spelled 'orange' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "g",
+              "n",
+              "a",
+              "r",
+              "o"
+            ],
+            "target_word": "orange",
+            "target_sequence": [
+              "o",
+              "r",
+              "a",
+              "n",
+              "g",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Hái một quả cam ngọt mọng nước từ trên cây.' in English?",
+            "en": "How do you say 'Hái một quả cam ngọt mọng nước từ trên cây.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Hái một quả cam ngọt mọng nước từ trên cây.' in English?",
+            "en": "How do you say 'Hái một quả cam ngọt mọng nước từ trên cây.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Hái một quả cam ngọt mọng nước từ trên cây.",
+            "en": "Choose the English sentence that means: Hái một quả cam ngọt mọng nước từ trên cây."
+          },
+          "explanation": {
+            "vi": "'Pick a sweet juicy orange from the tree.' means 'Hái một quả cam ngọt mọng nước từ trên cây.'.",
+            "en": "'Pick a sweet juicy orange from the tree.' means 'Hái một quả cam ngọt mọng nước từ trên cây.'."
+          },
+          "data": {
+            "options": [
+              "Pick a sweet juicy orange from the tree.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Pick a sweet juicy orange from the tree."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Juicy Sweet Oranges'?",
+            "en": "Which of the following is a word from Unit 'Juicy Sweet Oranges'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Juicy Sweet Oranges'?",
+            "en": "Which of the following is a word from Unit 'Juicy Sweet Oranges'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Juicy Sweet Oranges.",
+            "en": "Remember the words in topic: Juicy Sweet Oranges."
+          },
+          "explanation": {
+            "vi": "'orange' is a key vocabulary word in this topic.",
+            "en": "'orange' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "orange",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "orange"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'sweet' start with the sound /o/?",
+            "en": "Does the word 'sweet' start with the sound /o/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'sweet' start with the sound /o/? The word 'sweet' starts with letter 'O'.",
+            "en": "Does the word 'sweet' start with the sound /o/? The word 'sweet' starts with letter 'O'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'sweet'.",
+            "en": "Listen to the first sound of 'sweet'."
+          },
+          "explanation": {
+            "vi": "Yes! 'sweet' starts with the sound /o/.",
+            "en": "Yes! 'sweet' starts with the sound /o/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'sweet' starts with letter 'O'.",
+              "en": "The word 'sweet' starts with letter 'O'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'orange'?",
+            "en": "How many letters are there in the word 'orange'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'orange'?",
+            "en": "How many letters are there in the word 'orange'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'orange': 1, 2, 3...",
+            "en": "Count the letters in 'orange': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'orange' has exactly 6 letters.",
+            "en": "The word 'orange' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'orange':",
+            "en": "Choose the correct phrase with 'orange':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'orange':",
+            "en": "Choose the correct phrase with 'orange':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an orange'.",
+            "en": "Correct! We say 'an orange'."
+          },
+          "data": {
+            "options": [
+              "an orange",
+              "a orange",
+              "five orange",
+              "many orange"
+            ],
+            "correct_answer": "an orange"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'orange'.",
+            "en": "Choose the food or object: 'orange'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like orange? - Yes, I do!'",
+            "en": "We ask: 'Do you like orange? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "orange",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "orange"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "O",
+                  "en": "O"
+                },
+                "right": {
+                  "vi": "o",
+                  "en": "o"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Juicy Sweet Oranges'?",
+            "en": "Which English sentence best describes the topic 'Juicy Sweet Oranges'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Juicy Sweet Oranges'?",
+            "en": "Which English sentence best describes the topic 'Juicy Sweet Oranges'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Juicy Sweet Oranges'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Juicy Sweet Oranges'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: orange, sweet!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: orange, sweet!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s13_2",
+      "title": {
+        "vi": "Tall Ostrich on the Farm",
+        "en": "Tall Ostrich on the Farm"
+      },
+      "description": {
+        "vi": "Fast running ostrich with long neck",
+        "en": "Fast running ostrich with long neck"
+      },
+      "icon": "🦤",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s13_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the large flightless bird with long legs and neck running on the farm. What bird is it?",
+            "en": "Look at the large flightless bird with long legs and neck running on the farm. What bird is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the large flightless bird with long legs and neck running on the farm. What bird is it?",
+            "en": "Look at the large flightless bird with long legs and neck running on the farm. What bird is it?"
+          },
+          "hint": {
+            "vi": "The largest bird in the world that cannot fly but runs fast.",
+            "en": "The largest bird in the world that cannot fly but runs fast."
+          },
+          "explanation": {
+            "vi": "It's a tall ostrich running on the farm.",
+            "en": "It's a tall ostrich running on the farm."
+          },
+          "data": {
+            "options": [
+              "a fast running ostrich",
+              "a baby penguin",
+              "a tiny sparrow",
+              "a little robin"
+            ],
+            "correct_answer": "a fast running ostrich"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u6_tall_ostrich.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s13_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'ostrich'?",
+            "en": "What is the first letter of the word 'ostrich'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'ostrich'?",
+            "en": "What is the first letter of the word 'ostrich'?"
+          },
+          "hint": {
+            "vi": "The word 'ostrich' starts with the letter O.",
+            "en": "The word 'ostrich' starts with the letter O."
+          },
+          "explanation": {
+            "vi": "Correct! 'ostrich' begins with the letter 'O'.",
+            "en": "Correct! 'ostrich' begins with the letter 'O'."
+          },
+          "data": {
+            "options": [
+              "Letter O",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter O"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "ostrich",
+                  "en": "ostrich"
+                },
+                "right": {
+                  "vi": "Nghĩa của ostrich",
+                  "en": "Nghĩa của ostrich"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "tall",
+                  "en": "tall"
+                },
+                "right": {
+                  "vi": "Nghĩa của tall",
+                  "en": "Nghĩa của tall"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "Nghĩa của fast",
+                  "en": "Nghĩa của fast"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? The tall ostrich runs very fast.",
+            "en": "Is this English sentence correct for Grade 2? The tall ostrich runs very fast."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The tall ostrich runs very fast.",
+            "en": "Remember the pattern: The tall ostrich runs very fast."
+          },
+          "explanation": {
+            "vi": "Yes! 'The tall ostrich runs very fast.' is a correct English sentence.",
+            "en": "Yes! 'The tall ostrich runs very fast.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The tall ostrich runs very fast.",
+              "en": "The tall ostrich runs very fast."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The tall ostrich runs very ....",
+            "en": "Drag the correct word to complete the sentence: The tall ostrich runs very ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'fast'.",
+            "en": "Choose the correct word: 'fast'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The tall ostrich runs very fast.'.",
+            "en": "The complete sentence is: 'The tall ostrich runs very fast.'."
+          },
+          "data": {
+            "prefix_text": "The tall ostrich runs very ",
+            "suffix_text": ".",
+            "options": [
+              "fast",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "fast"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'ostrich':",
+            "en": "Spell the English word 'ostrich':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'ostrich':",
+            "en": "Spell the English word 'ostrich':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'ostrich'.",
+            "en": "Tap the letters in order to spell 'ostrich'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'ostrich' correctly.",
+            "en": "Well done! You spelled 'ostrich' correctly."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "c",
+              "i",
+              "r",
+              "t",
+              "s",
+              "o"
+            ],
+            "target_word": "ostrich",
+            "target_sequence": [
+              "o",
+              "s",
+              "t",
+              "r",
+              "i",
+              "c",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chú đà điểu cao lớn chạy rất nhanh.' in English?",
+            "en": "How do you say 'Chú đà điểu cao lớn chạy rất nhanh.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chú đà điểu cao lớn chạy rất nhanh.' in English?",
+            "en": "How do you say 'Chú đà điểu cao lớn chạy rất nhanh.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chú đà điểu cao lớn chạy rất nhanh.",
+            "en": "Choose the English sentence that means: Chú đà điểu cao lớn chạy rất nhanh."
+          },
+          "explanation": {
+            "vi": "'The tall ostrich runs very fast.' means 'Chú đà điểu cao lớn chạy rất nhanh.'.",
+            "en": "'The tall ostrich runs very fast.' means 'Chú đà điểu cao lớn chạy rất nhanh.'."
+          },
+          "data": {
+            "options": [
+              "The tall ostrich runs very fast.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The tall ostrich runs very fast."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Tall Ostrich on the Farm'?",
+            "en": "Which of the following is a word from Unit 'Tall Ostrich on the Farm'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Tall Ostrich on the Farm'?",
+            "en": "Which of the following is a word from Unit 'Tall Ostrich on the Farm'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Tall Ostrich on the Farm.",
+            "en": "Remember the words in topic: Tall Ostrich on the Farm."
+          },
+          "explanation": {
+            "vi": "'ostrich' is a key vocabulary word in this topic.",
+            "en": "'ostrich' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "ostrich",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "ostrich"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'tall' start with the sound /o/?",
+            "en": "Does the word 'tall' start with the sound /o/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'tall' start with the sound /o/? The word 'tall' starts with letter 'O'.",
+            "en": "Does the word 'tall' start with the sound /o/? The word 'tall' starts with letter 'O'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'tall'.",
+            "en": "Listen to the first sound of 'tall'."
+          },
+          "explanation": {
+            "vi": "Yes! 'tall' starts with the sound /o/.",
+            "en": "Yes! 'tall' starts with the sound /o/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'tall' starts with letter 'O'.",
+              "en": "The word 'tall' starts with letter 'O'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'ostrich'?",
+            "en": "How many letters are there in the word 'ostrich'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'ostrich'?",
+            "en": "How many letters are there in the word 'ostrich'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'ostrich': 1, 2, 3...",
+            "en": "Count the letters in 'ostrich': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'ostrich' has exactly 7 letters.",
+            "en": "The word 'ostrich' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'ostrich':",
+            "en": "Choose the correct phrase with 'ostrich':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'ostrich':",
+            "en": "Choose the correct phrase with 'ostrich':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an ostrich'.",
+            "en": "Correct! We say 'an ostrich'."
+          },
+          "data": {
+            "options": [
+              "an ostrich",
+              "a ostrich",
+              "five ostrich",
+              "many ostrich"
+            ],
+            "correct_answer": "an ostrich"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'ostrich'.",
+            "en": "Choose the food or object: 'ostrich'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like ostrich? - Yes, I do!'",
+            "en": "We ask: 'Do you like ostrich? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "ostrich",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "ostrich"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "O",
+                  "en": "O"
+                },
+                "right": {
+                  "vi": "o",
+                  "en": "o"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s13_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Tall Ostrich on the Farm'?",
+            "en": "Which English sentence best describes the topic 'Tall Ostrich on the Farm'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Tall Ostrich on the Farm'?",
+            "en": "Which English sentence best describes the topic 'Tall Ostrich on the Farm'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Tall Ostrich on the Farm'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Tall Ostrich on the Farm'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: ostrich, tall!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: ostrich, tall!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

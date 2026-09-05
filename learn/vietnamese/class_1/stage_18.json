@@ -1,0 +1,1130 @@
+{
+  "id": "v1_stage_18",
+  "stage_number": 18,
+  "title": {
+    "vi": "Tuần 18: Chủ Điểm Tôi Và Các Bạn (Phần 2)",
+    "en": "Tuần 18: Chủ Điểm Tôi Và Các Bạn (Phần 2)"
+  },
+  "subtitle": {
+    "vi": "Bài 3, 4 & 5 - Bạn của gió, Giải thưởng tình bạn, Sinh nhật voi con",
+    "en": "Bài 3, 4 & 5 - Bạn của gió, Giải thưởng tình bạn, Sinh nhật voi con"
+  },
+  "icon": "🐘",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.456,
+  "required_stars": 51,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "v1_t18_1",
+      "title": {
+        "vi": "Tập đọc: Bạn của gió & Giải thưởng tình bạn",
+        "en": "Tập đọc: Bạn của gió & Giải thưởng tình bạn"
+      },
+      "description": {
+        "vi": "Bài thơ về gió và câu chuyện đoàn kết giúp đỡ nhau",
+        "en": "Bài thơ về gió và câu chuyện đoàn kết giúp đỡ nhau"
+      },
+      "icon": "🍃",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t18_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong bài thơ 'Bạn của gió', người bạn vô hình lướt qua ngọn cây mang làn gió mát lành là ai?",
+            "en": "Trong bài thơ 'Bạn của gió', người bạn vô hình lướt qua ngọn cây mang làn gió mát lành là ai?"
+          },
+          "tts_prompt": {
+            "vi": "Trong bài thơ 'Bạn của gió', người bạn vô hình lướt qua ngọn cây mang làn gió mát lành là ai?",
+            "en": "Trong bài thơ 'Bạn của gió', người bạn vô hình lướt qua ngọn cây mang làn gió mát lành là ai?"
+          },
+          "hint": {
+            "vi": "Gió thổi bay lá cây và làm mát khắp muôn nơi.",
+            "en": "Gió thổi bay lá cây và làm mát khắp muôn nơi."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài thơ: 'Bạn của gió'.",
+            "en": "Bức tranh minh hoạ bài thơ: 'Bạn của gió'."
+          },
+          "data": {
+            "options": [
+              "ngọn gió",
+              "hạt mưa",
+              "tia chớp",
+              "tảng đá"
+            ],
+            "correct_answer": "ngọn gió"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_ban_cua_gio.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'gió', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'gió', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'gió', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'gió', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'gió'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'gió'."
+          },
+          "explanation": {
+            "vi": "Trong 'gió', âm 'g' là âm đầu đứng trước.",
+            "en": "Trong 'gió', âm 'g' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "g",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "g"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "gió",
+                  "en": "gió"
+                },
+                "right": {
+                  "vi": "Tiếng gió",
+                  "en": "Tiếng gió"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bạn bè",
+                  "en": "bạn bè"
+                },
+                "right": {
+                  "vi": "Tiếng bạn bè",
+                  "en": "Tiếng bạn bè"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "giải thưởng",
+                  "en": "giải thưởng"
+                },
+                "right": {
+                  "vi": "Tiếng giải thưởng",
+                  "en": "Tiếng giải thưởng"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'bạn bè' xuất hiện trong bài học về 'bạn'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'bạn bè' xuất hiện trong bài học về 'bạn'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'bạn'.",
+            "en": "Nhớ lại nội dung bài học về 'bạn'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'bạn bè' là trọng tâm trong bài học về 'bạn'.",
+            "en": "Đúng! Nội dung 'bạn bè' là trọng tâm trong bài học về 'bạn'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'bạn bè' xuất hiện trong bài học về 'bạn'.",
+              "en": "Từ hoặc câu liên quan đến 'bạn bè' xuất hiện trong bài học về 'bạn'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'gió'.",
+            "en": "Chọn từ đang học trong bài: 'gió'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'gió'.",
+            "en": "Từ chính xác là 'gió'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "gió",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "gió"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'gió':",
+            "en": "Ghép các chữ cái để tạo thành từ 'gió':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'gió':",
+            "en": "Ghép các chữ cái để tạo thành từ 'gió':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'gió'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'gió'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'gió'.",
+            "en": "Ghép các chữ cái tạo thành 'gió'."
+          },
+          "data": {
+            "letters": [
+              "ó",
+              "i",
+              "g"
+            ],
+            "target_word": "gió",
+            "target_sequence": [
+              "g",
+              "i",
+              "ó"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'gió' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'gió' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'gió' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'gió' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'gió'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'gió'."
+          },
+          "explanation": {
+            "vi": "'gió bạn bè' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'gió bạn bè' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "bạn bè",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "bạn bè"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Gió bay khắp nơi ca hát cùng muôn loài.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Gió bay khắp nơi ca hát cùng muôn loài.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Gió bay khắp nơi ca hát cùng muôn loài.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Gió bay khắp nơi ca hát cùng muôn loài.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Gió bay khắp nơi ca hát cùng muôn loài.' thuộc chủ đề 'Tập đọc: Bạn của gió & Giải thưởng tình bạn'.",
+            "en": "Câu 'Gió bay khắp nơi ca hát cùng muôn loài.' thuộc chủ đề 'Tập đọc: Bạn của gió & Giải thưởng tình bạn'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Bạn của gió & Giải thưởng tình bạn",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Bạn của gió & Giải thưởng tình bạn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Tình bạn đẹp là luôn biết sẻ chia và giúp đỡ nhau.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Tình bạn đẹp là luôn biết sẻ chia và giúp đỡ nhau."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Tình bạn đẹp là luôn biết sẻ chia và giúp đỡ nhau.",
+            "en": "Đúng! Tình bạn đẹp là luôn biết sẻ chia và giúp đỡ nhau."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tình bạn đẹp là luôn biết sẻ chia và giúp đỡ nhau.",
+              "en": "Tình bạn đẹp là luôn biết sẻ chia và giúp đỡ nhau."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Gió bay khắp nơi ca hát cùng muôn loài.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Gió bay khắp nơi ca hát cùng muôn loài.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Gió bay khắp nơi ca hát cùng muôn loài.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Gió bay khắp nơi ca hát cùng muôn loài.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Gió bay khắp nơi ca hát cùng muôn loài..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Gió bay khắp nơi ca hát cùng muôn loài.."
+          },
+          "explanation": {
+            "vi": "Câu 'Gió bay khắp nơi ca hát cùng muôn loài.' có đúng 9 tiếng.",
+            "en": "Câu 'Gió bay khắp nơi ca hát cùng muôn loài.' có đúng 9 tiếng."
+          },
+          "data": {
+            "correct_number": "9",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'bạn bè' mang dấu thanh gì?",
+            "en": "Tiếng 'bạn bè' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'bạn bè' mang dấu thanh gì?",
+            "en": "Tiếng 'bạn bè' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'bạn bè' mang dấu thanh chính xác.",
+            "en": "Tiếng 'bạn bè' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Gió bay khắp nơi ca hát cùng muôn loài.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Gió bay khắp nơi ca hát cùng muôn loài.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Gió bay khắp nơi ca hát cùng muôn loài.' Gió ... khắp nơi ca hát cùng muôn loài.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Gió bay khắp nơi ca hát cùng muôn loài.' Gió ... khắp nơi ca hát cùng muôn loài."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Gió bay khắp nơi ca hát cùng muôn loài..",
+            "en": "Nhớ lại câu mẫu: Gió bay khắp nơi ca hát cùng muôn loài.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'bay'.",
+            "en": "Từ chính xác là 'bay'."
+          },
+          "data": {
+            "prefix_text": "Gió ",
+            "suffix_text": " khắp nơi ca hát cùng muôn loài.",
+            "options": [
+              "bay",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "bay"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "G",
+                  "en": "G"
+                },
+                "right": {
+                  "vi": "g",
+                  "en": "g"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "G",
+                  "en": "G"
+                },
+                "right": {
+                  "vi": "g",
+                  "en": "g"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'gió'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'gió'."
+          },
+          "explanation": {
+            "vi": "'gió' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'gió' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "gió",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "gió"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'bạn'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'bạn'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'bạn'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'bạn'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'bạn' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'bạn' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'gió'.",
+            "en": "Tiếng mẫu của bài là 'gió'."
+          },
+          "data": {
+            "options": [
+              "gió",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "gió"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t18_2",
+      "title": {
+        "vi": "Tập đọc: Sinh nhật của voi con",
+        "en": "Tập đọc: Sinh nhật của voi con"
+      },
+      "description": {
+        "vi": "Kể chuyện tiệc sinh nhật vui vẻ ấm cúng",
+        "en": "Kể chuyện tiệc sinh nhật vui vẻ ấm cúng"
+      },
+      "icon": "🎂",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t18_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh dưới đây mô tả bữa tiệc sinh nhật ấm áp của người bạn nào trong khu rừng?",
+            "en": "Bức tranh dưới đây mô tả bữa tiệc sinh nhật ấm áp của người bạn nào trong khu rừng?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh dưới đây mô tả bữa tiệc sinh nhật ấm áp của người bạn nào trong khu rừng?",
+            "en": "Bức tranh dưới đây mô tả bữa tiệc sinh nhật ấm áp của người bạn nào trong khu rừng?"
+          },
+          "hint": {
+            "vi": "Các bạn thú rừng mang bánh kem và quà tặng chúc mừng voi con.",
+            "en": "Các bạn thú rừng mang bánh kem và quà tặng chúc mừng voi con."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ câu chuyện: 'Sinh nhật của voi con'.",
+            "en": "Bức tranh minh hoạ câu chuyện: 'Sinh nhật của voi con'."
+          },
+          "data": {
+            "options": [
+              "voi con",
+              "hươu cao cổ",
+              "sư tử",
+              "khỉ con"
+            ],
+            "correct_answer": "voi con"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_sinh_nhat_voi_con.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'sinh nhật', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'sinh nhật', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'sinh nhật', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'sinh nhật', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'sinh nhật'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'sinh nhật'."
+          },
+          "explanation": {
+            "vi": "Trong 'sinh nhật', âm 's' là âm đầu đứng trước.",
+            "en": "Trong 'sinh nhật', âm 's' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "s",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "s"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sinh nhật",
+                  "en": "sinh nhật"
+                },
+                "right": {
+                  "vi": "Tiếng sinh nhật",
+                  "en": "Tiếng sinh nhật"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "voi con",
+                  "en": "voi con"
+                },
+                "right": {
+                  "vi": "Tiếng voi con",
+                  "en": "Tiếng voi con"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "quà tặng",
+                  "en": "quà tặng"
+                },
+                "right": {
+                  "vi": "Tiếng quà tặng",
+                  "en": "Tiếng quà tặng"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'voi con' xuất hiện trong bài học về 'sinh nhật'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'voi con' xuất hiện trong bài học về 'sinh nhật'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'sinh nhật'.",
+            "en": "Nhớ lại nội dung bài học về 'sinh nhật'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'voi con' là trọng tâm trong bài học về 'sinh nhật'.",
+            "en": "Đúng! Nội dung 'voi con' là trọng tâm trong bài học về 'sinh nhật'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'voi con' xuất hiện trong bài học về 'sinh nhật'.",
+              "en": "Từ hoặc câu liên quan đến 'voi con' xuất hiện trong bài học về 'sinh nhật'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'sinh nhật'.",
+            "en": "Chọn từ đang học trong bài: 'sinh nhật'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'sinh nhật'.",
+            "en": "Từ chính xác là 'sinh nhật'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "sinh nhật",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "sinh nhật"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'sinhnhật':",
+            "en": "Ghép các chữ cái để tạo thành từ 'sinhnhật':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'sinhnhật':",
+            "en": "Ghép các chữ cái để tạo thành từ 'sinhnhật':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'sinhnhật'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'sinhnhật'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'sinhnhật'.",
+            "en": "Ghép các chữ cái tạo thành 'sinhnhật'."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "ậ",
+              "h",
+              "n",
+              "h",
+              "n",
+              "i",
+              "s"
+            ],
+            "target_word": "sinhnhật",
+            "target_sequence": [
+              "s",
+              "i",
+              "n",
+              "h",
+              "n",
+              "h",
+              "ậ",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'sinh nhật' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'sinh nhật' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'sinh nhật' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'sinh nhật' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'sinh nhật'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'sinh nhật'."
+          },
+          "explanation": {
+            "vi": "'sinh nhật voi con' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'sinh nhật voi con' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "voi con",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "voi con"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Các bạn chúc mừng sinh nhật voi con.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Các bạn chúc mừng sinh nhật voi con.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Các bạn chúc mừng sinh nhật voi con.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Các bạn chúc mừng sinh nhật voi con.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Các bạn chúc mừng sinh nhật voi con.' thuộc chủ đề 'Tập đọc: Sinh nhật của voi con'.",
+            "en": "Câu 'Các bạn chúc mừng sinh nhật voi con.' thuộc chủ đề 'Tập đọc: Sinh nhật của voi con'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Sinh nhật của voi con",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Sinh nhật của voi con"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Lời chúc sinh nhật luôn mang niềm vui đến cho bạn bè.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Lời chúc sinh nhật luôn mang niềm vui đến cho bạn bè."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Lời chúc sinh nhật luôn mang niềm vui đến cho bạn bè.",
+            "en": "Đúng! Lời chúc sinh nhật luôn mang niềm vui đến cho bạn bè."
+          },
+          "data": {
+            "statement": {
+              "vi": "Lời chúc sinh nhật luôn mang niềm vui đến cho bạn bè.",
+              "en": "Lời chúc sinh nhật luôn mang niềm vui đến cho bạn bè."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Các bạn chúc mừng sinh nhật voi con.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Các bạn chúc mừng sinh nhật voi con.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Các bạn chúc mừng sinh nhật voi con.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Các bạn chúc mừng sinh nhật voi con.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Các bạn chúc mừng sinh nhật voi con..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Các bạn chúc mừng sinh nhật voi con.."
+          },
+          "explanation": {
+            "vi": "Câu 'Các bạn chúc mừng sinh nhật voi con.' có đúng 8 tiếng.",
+            "en": "Câu 'Các bạn chúc mừng sinh nhật voi con.' có đúng 8 tiếng."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'voi con' mang dấu thanh gì?",
+            "en": "Tiếng 'voi con' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'voi con' mang dấu thanh gì?",
+            "en": "Tiếng 'voi con' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'voi con' mang dấu thanh chính xác.",
+            "en": "Tiếng 'voi con' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Các bạn chúc mừng sinh nhật voi con.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Các bạn chúc mừng sinh nhật voi con.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Các bạn chúc mừng sinh nhật voi con.' Các ... chúc mừng sinh nhật voi con.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Các bạn chúc mừng sinh nhật voi con.' Các ... chúc mừng sinh nhật voi con."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Các bạn chúc mừng sinh nhật voi con..",
+            "en": "Nhớ lại câu mẫu: Các bạn chúc mừng sinh nhật voi con.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'bạn'.",
+            "en": "Từ chính xác là 'bạn'."
+          },
+          "data": {
+            "prefix_text": "Các ",
+            "suffix_text": " chúc mừng sinh nhật voi con.",
+            "options": [
+              "bạn",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "bạn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'sinh nhật'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'sinh nhật'."
+          },
+          "explanation": {
+            "vi": "'sinh nhật' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'sinh nhật' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "sinh nhật",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "sinh nhật"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t18_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'sinh nhật'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'sinh nhật'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'sinh nhật'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'sinh nhật'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'sinh nhật' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'sinh nhật' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'sinh nhật'.",
+            "en": "Tiếng mẫu của bài là 'sinh nhật'."
+          },
+          "data": {
+            "options": [
+              "sinh nhật",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "sinh nhật"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1134 @@
+{
+  "id": "e3_stage_12",
+  "stage_number": 12,
+  "title": {
+    "vi": "Week 12: Unit 8 - My School Things",
+    "en": "Week 12: Unit 8 - My School Things"
+  },
+  "subtitle": {
+    "vi": "School supplies: pen, pencil, ruler, rubber, pencil case, school bag",
+    "en": "School supplies: pen, pencil, ruler, rubber, pencil case, school bag"
+  },
+  "icon": "✏️",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.631,
+  "required_stars": 33,
+  "theme_color": "0xFF0D9488",
+  "topics": [
+    {
+      "id": "e3_s12_1",
+      "title": {
+        "vi": "Unit 8: I Have a Pen & Ruler",
+        "en": "Unit 8: I Have a Pen & Ruler"
+      },
+      "description": {
+        "vi": "I have a pen / Do you have a pencil? - Yes, I do",
+        "en": "I have a pen / Do you have a pencil? - Yes, I do"
+      },
+      "icon": "🖊️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s12_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the stationery set on the desk with a fountain pen and a metric ruler. What are they?",
+            "en": "Look at the stationery set on the desk with a fountain pen and a metric ruler. What are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the stationery set on the desk with a fountain pen and a metric ruler. What are they?",
+            "en": "Look at the stationery set on the desk with a fountain pen and a metric ruler. What are they?"
+          },
+          "hint": {
+            "vi": "Used for writing and drawing straight lines.",
+            "en": "Used for writing and drawing straight lines."
+          },
+          "explanation": {
+            "vi": "They are a pen and a ruler.",
+            "en": "They are a pen and a ruler."
+          },
+          "data": {
+            "options": [
+              "a pen and a ruler",
+              "a knife and fork",
+              "two wooden cups",
+              "a paintbrush"
+            ],
+            "correct_answer": "a pen and a ruler"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u8_pen_ruler.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s12_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'pen'?",
+            "en": "What is the first letter of the word 'pen'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'pen'?",
+            "en": "What is the first letter of the word 'pen'?"
+          },
+          "hint": {
+            "vi": "The word 'pen' starts with the letter P.",
+            "en": "The word 'pen' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'pen' begins with the letter 'P'.",
+            "en": "Correct! 'pen' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "pen",
+                  "en": "pen"
+                },
+                "right": {
+                  "vi": "Nghĩa của pen",
+                  "en": "Nghĩa của pen"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "pencil",
+                  "en": "pencil"
+                },
+                "right": {
+                  "vi": "Nghĩa của pencil",
+                  "en": "Nghĩa của pencil"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "ruler",
+                  "en": "ruler"
+                },
+                "right": {
+                  "vi": "Nghĩa của ruler",
+                  "en": "Nghĩa của ruler"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? I have a new blue pen and a yellow ruler.",
+            "en": "Is this English sentence correct for Grade 3? I have a new blue pen and a yellow ruler."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I have a new blue pen and a yellow ruler.",
+            "en": "Remember the pattern: I have a new blue pen and a yellow ruler."
+          },
+          "explanation": {
+            "vi": "Yes! 'I have a new blue pen and a yellow ruler.' is a correct English sentence.",
+            "en": "Yes! 'I have a new blue pen and a yellow ruler.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I have a new blue pen and a yellow ruler.",
+              "en": "I have a new blue pen and a yellow ruler."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I have a new blue pen and a yellow ....",
+            "en": "Drag the correct word to complete the sentence: I have a new blue pen and a yellow ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'ruler'.",
+            "en": "Choose the correct word: 'ruler'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I have a new blue pen and a yellow ruler.'.",
+            "en": "The complete sentence is: 'I have a new blue pen and a yellow ruler.'."
+          },
+          "data": {
+            "prefix_text": "I have a new blue pen and a yellow ",
+            "suffix_text": ".",
+            "options": [
+              "ruler",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "ruler"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'pen':",
+            "en": "Spell the English word 'pen':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'pen':",
+            "en": "Spell the English word 'pen':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'pen'.",
+            "en": "Tap the letters in order to spell 'pen'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'pen' correctly.",
+            "en": "Well done! You spelled 'pen' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "e",
+              "p"
+            ],
+            "target_word": "pen",
+            "target_sequence": [
+              "p",
+              "e",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi có một cây bút mực xanh mới và một chiếc thước kẻ vàng.' in English?",
+            "en": "How do you say 'Tôi có một cây bút mực xanh mới và một chiếc thước kẻ vàng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi có một cây bút mực xanh mới và một chiếc thước kẻ vàng.' in English?",
+            "en": "How do you say 'Tôi có một cây bút mực xanh mới và một chiếc thước kẻ vàng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi có một cây bút mực xanh mới và một chiếc thước kẻ vàng.",
+            "en": "Choose the English sentence that means: Tôi có một cây bút mực xanh mới và một chiếc thước kẻ vàng."
+          },
+          "explanation": {
+            "vi": "'I have a new blue pen and a yellow ruler.' means 'Tôi có một cây bút mực xanh mới và một chiếc thước kẻ vàng.'.",
+            "en": "'I have a new blue pen and a yellow ruler.' means 'Tôi có một cây bút mực xanh mới và một chiếc thước kẻ vàng.'."
+          },
+          "data": {
+            "options": [
+              "I have a new blue pen and a yellow ruler.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I have a new blue pen and a yellow ruler."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 8: I Have a Pen & Ruler'?",
+            "en": "Which of the following is a word from Unit 'Unit 8: I Have a Pen & Ruler'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 8: I Have a Pen & Ruler'?",
+            "en": "Which of the following is a word from Unit 'Unit 8: I Have a Pen & Ruler'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 8: I Have a Pen & Ruler.",
+            "en": "Remember the words in topic: Unit 8: I Have a Pen & Ruler."
+          },
+          "explanation": {
+            "vi": "'pen' is a key vocabulary word in this topic.",
+            "en": "'pen' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "pen",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "pen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'pencil' start with the sound /p/?",
+            "en": "Does the word 'pencil' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'pencil' start with the sound /p/? The word 'pencil' starts with letter 'P'.",
+            "en": "Does the word 'pencil' start with the sound /p/? The word 'pencil' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'pencil'.",
+            "en": "Listen to the first sound of 'pencil'."
+          },
+          "explanation": {
+            "vi": "Yes! 'pencil' starts with the sound /p/.",
+            "en": "Yes! 'pencil' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'pencil' starts with letter 'P'.",
+              "en": "The word 'pencil' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'pen'?",
+            "en": "How many letters are there in the word 'pen'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'pen'?",
+            "en": "How many letters are there in the word 'pen'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'pen': 1, 2, 3...",
+            "en": "Count the letters in 'pen': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'pen' has exactly 3 letters.",
+            "en": "The word 'pen' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'pen':",
+            "en": "Choose the correct phrase with 'pen':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'pen':",
+            "en": "Choose the correct phrase with 'pen':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a pen'.",
+            "en": "Correct! We say 'a pen'."
+          },
+          "data": {
+            "options": [
+              "a pen",
+              "an pen",
+              "two pen",
+              "many pen"
+            ],
+            "correct_answer": "a pen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'pen'.",
+            "en": "Choose the noun: 'pen'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our pen. It is very nice!'",
+            "en": "We say: 'Look! This is our pen. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "pen",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "pen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 8: I Have a Pen & Ruler'?",
+            "en": "Which English sentence best describes the topic 'Unit 8: I Have a Pen & Ruler'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 8: I Have a Pen & Ruler'?",
+            "en": "Which English sentence best describes the topic 'Unit 8: I Have a Pen & Ruler'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 8: I Have a Pen & Ruler'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 8: I Have a Pen & Ruler'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: pen, pencil!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: pen, pencil!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s12_2",
+      "title": {
+        "vi": "Unit 8: School Bag & Rubber",
+        "en": "Unit 8: School Bag & Rubber"
+      },
+      "description": {
+        "vi": "Look at my school bag / It's a pink rubber (eraser)",
+        "en": "Look at my school bag / It's a pink rubber (eraser)"
+      },
+      "icon": "🎒",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s12_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the sturdy backpack used by students to carry textbooks to school. What is it?",
+            "en": "Look at the sturdy backpack used by students to carry textbooks to school. What is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the sturdy backpack used by students to carry textbooks to school. What is it?",
+            "en": "Look at the sturdy backpack used by students to carry textbooks to school. What is it?"
+          },
+          "hint": {
+            "vi": "A bag with shoulder straps for carrying school supplies.",
+            "en": "A bag with shoulder straps for carrying school supplies."
+          },
+          "explanation": {
+            "vi": "It's a school bag.",
+            "en": "It's a school bag."
+          },
+          "data": {
+            "options": [
+              "a school bag (backpack)",
+              "a suitcase",
+              "a handbag",
+              "a plastic shopping bag"
+            ],
+            "correct_answer": "a school bag (backpack)"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u8_school_bag.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s12_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'school bag'?",
+            "en": "What is the first letter of the word 'school bag'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'school bag'?",
+            "en": "What is the first letter of the word 'school bag'?"
+          },
+          "hint": {
+            "vi": "The word 'school bag' starts with the letter S.",
+            "en": "The word 'school bag' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'school bag' begins with the letter 'S'.",
+            "en": "Correct! 'school bag' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "school bag",
+                  "en": "school bag"
+                },
+                "right": {
+                  "vi": "Nghĩa của school bag",
+                  "en": "Nghĩa của school bag"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "rubber",
+                  "en": "rubber"
+                },
+                "right": {
+                  "vi": "Nghĩa của rubber",
+                  "en": "Nghĩa của rubber"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "eraser",
+                  "en": "eraser"
+                },
+                "right": {
+                  "vi": "Nghĩa của eraser",
+                  "en": "Nghĩa của eraser"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? My school bag is blue and red.",
+            "en": "Is this English sentence correct for Grade 3? My school bag is blue and red."
+          },
+          "hint": {
+            "vi": "Remember the pattern: My school bag is blue and red.",
+            "en": "Remember the pattern: My school bag is blue and red."
+          },
+          "explanation": {
+            "vi": "Yes! 'My school bag is blue and red.' is a correct English sentence.",
+            "en": "Yes! 'My school bag is blue and red.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "My school bag is blue and red.",
+              "en": "My school bag is blue and red."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: My school bag is blue and ....",
+            "en": "Drag the correct word to complete the sentence: My school bag is blue and ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'red'.",
+            "en": "Choose the correct word: 'red'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'My school bag is blue and red.'.",
+            "en": "The complete sentence is: 'My school bag is blue and red.'."
+          },
+          "data": {
+            "prefix_text": "My school bag is blue and ",
+            "suffix_text": ".",
+            "options": [
+              "red",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "red"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'school bag':",
+            "en": "Spell the English word 'school bag':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'school bag':",
+            "en": "Spell the English word 'school bag':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'school bag'.",
+            "en": "Tap the letters in order to spell 'school bag'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'school bag' correctly.",
+            "en": "Well done! You spelled 'school bag' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "a",
+              "b",
+              " ",
+              "l",
+              "o",
+              "o",
+              "h",
+              "c",
+              "s"
+            ],
+            "target_word": "school bag",
+            "target_sequence": [
+              "s",
+              "c",
+              "h",
+              "o",
+              "o",
+              "l",
+              " ",
+              "b",
+              "a",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cặp sách của tôi có màu xanh dương và đỏ.' in English?",
+            "en": "How do you say 'Cặp sách của tôi có màu xanh dương và đỏ.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cặp sách của tôi có màu xanh dương và đỏ.' in English?",
+            "en": "How do you say 'Cặp sách của tôi có màu xanh dương và đỏ.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cặp sách của tôi có màu xanh dương và đỏ.",
+            "en": "Choose the English sentence that means: Cặp sách của tôi có màu xanh dương và đỏ."
+          },
+          "explanation": {
+            "vi": "'My school bag is blue and red.' means 'Cặp sách của tôi có màu xanh dương và đỏ.'.",
+            "en": "'My school bag is blue and red.' means 'Cặp sách của tôi có màu xanh dương và đỏ.'."
+          },
+          "data": {
+            "options": [
+              "My school bag is blue and red.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "My school bag is blue and red."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 8: School Bag & Rubber'?",
+            "en": "Which of the following is a word from Unit 'Unit 8: School Bag & Rubber'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 8: School Bag & Rubber'?",
+            "en": "Which of the following is a word from Unit 'Unit 8: School Bag & Rubber'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 8: School Bag & Rubber.",
+            "en": "Remember the words in topic: Unit 8: School Bag & Rubber."
+          },
+          "explanation": {
+            "vi": "'school bag' is a key vocabulary word in this topic.",
+            "en": "'school bag' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "school bag",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "school bag"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'rubber' start with the sound /s/?",
+            "en": "Does the word 'rubber' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'rubber' start with the sound /s/? The word 'rubber' starts with letter 'S'.",
+            "en": "Does the word 'rubber' start with the sound /s/? The word 'rubber' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'rubber'.",
+            "en": "Listen to the first sound of 'rubber'."
+          },
+          "explanation": {
+            "vi": "Yes! 'rubber' starts with the sound /s/.",
+            "en": "Yes! 'rubber' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'rubber' starts with letter 'S'.",
+              "en": "The word 'rubber' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'school bag'?",
+            "en": "How many letters are there in the word 'school bag'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'school bag'?",
+            "en": "How many letters are there in the word 'school bag'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'school bag': 1, 2, 3...",
+            "en": "Count the letters in 'school bag': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'school bag' has exactly 10 letters.",
+            "en": "The word 'school bag' has exactly 10 letters."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'school bag':",
+            "en": "Choose the correct phrase with 'school bag':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'school bag':",
+            "en": "Choose the correct phrase with 'school bag':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a school bag'.",
+            "en": "Correct! We say 'a school bag'."
+          },
+          "data": {
+            "options": [
+              "a school bag",
+              "an school bag",
+              "two school bag",
+              "many school bag"
+            ],
+            "correct_answer": "a school bag"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'school bag'.",
+            "en": "Choose the noun: 'school bag'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our school bag. It is very nice!'",
+            "en": "We say: 'Look! This is our school bag. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "school bag",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "school bag"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s12_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 8: School Bag & Rubber'?",
+            "en": "Which English sentence best describes the topic 'Unit 8: School Bag & Rubber'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 8: School Bag & Rubber'?",
+            "en": "Which English sentence best describes the topic 'Unit 8: School Bag & Rubber'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 8: School Bag & Rubber'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 8: School Bag & Rubber'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: school bag, rubber!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: school bag, rubber!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

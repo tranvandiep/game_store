@@ -1,0 +1,923 @@
+{
+  "id": "m5_stage_18",
+  "stage_number": 18,
+  "title": {
+    "vi": "Chặng 18: Hình Thang & Diện Tích Hình Thang",
+    "en": "Stage 18: Trapezoids & Trapezoid Area Formula"
+  },
+  "subtitle": {
+    "vi": "Đáy lớn, đáy bé, chiều cao; Công thức S = ((a + b) x h) : 2",
+    "en": "Bases and height; Formula S = ((a + b) * h) / 2"
+  },
+  "icon": "⏢",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFF4CAF50",
+  "topics": [
+    {
+      "id": "m5_t18_1",
+      "title": {
+        "vi": "Đặc điểm Hình Thang & Hình Thang Vuông",
+        "en": "Trapezoids & Right Trapezoids"
+      },
+      "description": {
+        "vi": "Hình thang có một cặp cạnh đối diện song song (đáy lớn, đáy bé); Hình thang vuông có một cạnh bên vuông góc với hai đáy",
+        "en": "Trapezoid has one pair of parallel opposite sides; right trapezoid has perpendicular leg"
+      },
+      "icon": "⏢",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t18_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hình thang có đặc điểm nào dưới đây?",
+            "en": "Key characteristic of a trapezoid:"
+          },
+          "tts_prompt": {
+            "vi": "Hình thang có đặc điểm nào dưới đây?",
+            "en": "Key characteristic of a trapezoid:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "Có một cặp cạnh đối diện song song",
+              "Có hai cặp cạnh đối diện song song",
+              "Có 4 cạnh bằng nhau"
+            ],
+            "answer": "Có một cặp cạnh đối diện song song"
+          },
+          "hint": {
+            "vi": "Hình thang có hai cạnh đáy song song với nhau.",
+            "en": "One pair of parallel sides (bases)."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là Có một cặp cạnh đối diện song song. Hình thang có hai cạnh đáy song song với nhau.",
+            "en": "Correct answer is Có một cặp cạnh đối diện song song. One pair of parallel sides (bases)."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối thành phần của hình thang:",
+            "en": "Match trapezoid components:"
+          },
+          "tts_prompt": {
+            "vi": "Nối thành phần của hình thang:",
+            "en": "Match trapezoid components:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "Cạnh đáy lớn (a)",
+                "right": "Cạnh đáy dài hơn trong hai cạnh song song"
+              },
+              {
+                "id": "p2",
+                "left": "Cạnh đáy bé (b)",
+                "right": "Cạnh đáy ngắn hơn trong hai cạnh song song"
+              },
+              {
+                "id": "p3",
+                "left": "Chiều cao (h)",
+                "right": "Khoảng cách vuông góc giữa hai đáy song song"
+              }
+            ]
+          },
+          "hint": {
+            "vi": "Cấu tạo hình thang.",
+            "en": "Trapezoid anatomy."
+          },
+          "explanation": {
+            "vi": "Nối chính xác các cặp tương ứng. Cấu tạo hình thang.",
+            "en": "Match corresponding pairs accurately. Trapezoid anatomy."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 0 đứng liền trước số 1.",
+            "en": "Decide whether the following statement is true or false: Số 0 đứng liền trước số 1."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 0 đứng liền trước số 1.",
+              "en": "Số 0 đứng liền trước số 1."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 6 bé hơn số 5 (6 < 5).",
+            "en": "Decide whether the following statement is true or false: Số 6 bé hơn số 5 (6 < 5)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 6 bé hơn số 5 (6 < 5).",
+              "en": "Số 6 bé hơn số 5 (6 < 5)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 9.4:",
+            "en": "Decimal fraction for 9.4:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 9.4:",
+            "en": "Decimal fraction for 9.4:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "9.4 = 94/10.",
+            "en": "9.4 = 94/10."
+          },
+          "data": {
+            "prefix_text": "9.4 = ",
+            "suffix_text": "",
+            "options": [
+              "9/10",
+              "94/10",
+              "94/100",
+              "95/10"
+            ],
+            "slot_answer": "94/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 20 : 100 = 40.",
+            "en": "Result is 40."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              }
+            ],
+            "correct_answer": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 25% của 400 là bao nhiêu?",
+            "en": "Calculate: 25% of 400 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25 phần trăm của 400",
+            "en": "25 percent of 400"
+          },
+          "hint": {
+            "vi": "Lấy số đó nhân với số phần trăm rồi chia 100.",
+            "en": "Multiply by percent and divide by 100."
+          },
+          "explanation": {
+            "vi": "400 x 25 : 100 = 100.",
+            "en": "400 x 25 : 100 = 100."
+          },
+          "data": {
+            "prefix_text": "25% của 400 = ",
+            "suffix_text": "",
+            "correct_number": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một xe máy đi với vận tốc 60 km/giờ trong 3 giờ. Quãng đường đi được là:",
+            "en": "A vehicle travels at 60 km/h for 3 hours. Distance traveled is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính quãng đường khi vận tốc 60 km trên giờ và thời gian 3 giờ",
+            "en": "Calculate distance with speed 60 and time 3"
+          },
+          "hint": {
+            "vi": "Quãng đường = Vận tốc x Thời gian.",
+            "en": "Distance = Speed x Time."
+          },
+          "explanation": {
+            "vi": "60 x 3 = 180 km.",
+            "en": "60 x 3 = 180 km."
+          },
+          "data": {
+            "prefix_text": "Quãng đường là: ",
+            "suffix_text": " km",
+            "correct_number": "180"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t18_2",
+      "title": {
+        "vi": "Diện tích Hình Thang (Công thức chuẩn)",
+        "en": "Area of Trapezoid Formula"
+      },
+      "description": {
+        "vi": "Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao (cùng đơn vị đo) rồi chia cho 2: S = ((a + b) x h) : 2",
+        "en": "Area = ((Base1 + Base2) * Height) / 2"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t18_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu ca dao vui: 'Muốn tính diện tích hình thang / Đáy lớn đáy nhỏ ta mang cộng vào / Thế rồi nhân với chiều cao / Chia đôi lấy nửa thế nào cũng ra'. Công thức là:",
+            "en": "Trapezoid area formula mnemonic: S ="
+          },
+          "tts_prompt": {
+            "vi": "Câu ca dao vui: 'Muốn tính diện tích hình thang / Đáy lớn đáy nhỏ ta mang cộng vào / Thế rồi nhân với chiều cao / Chia đôi lấy nửa thế nào cũng ra'. Công thức là:",
+            "en": "Trapezoid area formula mnemonic: S ="
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "S = (a + b) x h : 2",
+              "S = (a + b) x h",
+              "S = a x b : 2"
+            ],
+            "answer": "S = (a + b) x h : 2"
+          },
+          "hint": {
+            "vi": "S = (a + b) x h : 2.",
+            "en": "S = ((a + b) * h) / 2."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là S = (a + b) x h : 2. S = (a + b) x h : 2.",
+            "en": "Correct answer is S = (a + b) x h : 2. S = ((a + b) * h) / 2."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một hình thang có đáy lớn a = 12 cm, đáy bé b = 8 cm, chiều cao h = 5 cm. Diện tích hình thang là mấy cm²?",
+            "en": "Trapezoid with bases 12cm, 8cm and height 5cm. Area in cm²:"
+          },
+          "tts_prompt": {
+            "vi": "Một hình thang có đáy lớn a = 12 cm, đáy bé b = 8 cm, chiều cao h = 5 cm. Diện tích hình thang là mấy cm²?",
+            "en": "Trapezoid with bases 12cm, 8cm and height 5cm. Area in cm²:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 50,
+            "unit": "cm²"
+          },
+          "hint": {
+            "vi": "S = (12 + 8) x 5 : 2 = 20 x 5 : 2 = 50 cm².",
+            "en": "S = (12 + 8) * 5 / 2 = 50 cm²."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 50 cm². S = (12 + 8) x 5 : 2 = 20 x 5 : 2 = 50 cm².",
+            "en": "The exact result is 50 cm². S = (12 + 8) * 5 / 2 = 50 cm²."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_2_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép công thức: S = (a + b) x h : 2",
+            "en": "Arrange formula: S = (a + b) * h : 2"
+          },
+          "tts_prompt": {
+            "vi": "Ghép công thức: S = (a + b) x h : 2",
+            "en": "Arrange formula: S = (a + b) * h : 2"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "target_word": "S = (a + b) x h : 2",
+            "letters": [
+              "S",
+              "=",
+              "(a + b)",
+              "x",
+              "h",
+              ":",
+              "2"
+            ]
+          },
+          "hint": {
+            "vi": "S = (a + b) x h : 2.",
+            "en": "S = ((a + b) * h) / 2."
+          },
+          "explanation": {
+            "vi": "Kết quả ghép chuẩn là: S = (a + b) x h : 2. S = (a + b) x h : 2.",
+            "en": "Target arrangement is: S = (a + b) x h : 2. S = ((a + b) * h) / 2."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'DIỆN'",
+            "en": "Arrange the letters to spell the keyword: 'DIỆN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa DIỆN",
+            "en": "Arrange the letters to spell DIỆN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: DIỆN",
+            "en": "The keyword is: DIỆN"
+          },
+          "data": {
+            "target_word": "DIỆN",
+            "scrambled_letters": [
+              "Ệ",
+              "N",
+              "I",
+              "D"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 50 : 100 = 100.",
+            "en": "Result is 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "100",
+                "en": "100"
+              },
+              {
+                "vi": "110",
+                "en": "110"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              }
+            ],
+            "correct_answer": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t18_3",
+      "title": {
+        "vi": "Bài toán thực tế diện tích thửa ruộng hình thang",
+        "en": "Practical Trapezoid Problems"
+      },
+      "description": {
+        "vi": "Tính diện tích thửa ruộng và sản lượng thóc thu hoạch",
+        "en": "Agricultural land area and grain yield calculations"
+      },
+      "icon": "🌾",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t18_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một thửa ruộng hình thang có đáy lớn 150 m, đáy bé 100 m, chiều cao 80 m. Diện tích thửa ruộng là bao nhiêu m²?",
+            "en": "Trapezoid field: base 150m, 100m, height 80m. Area in m²:"
+          },
+          "tts_prompt": {
+            "vi": "Một thửa ruộng hình thang có đáy lớn 150 m, đáy bé 100 m, chiều cao 80 m. Diện tích thửa ruộng là bao nhiêu m²?",
+            "en": "Trapezoid field: base 150m, 100m, height 80m. Area in m²:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 10000,
+            "unit": "m²"
+          },
+          "hint": {
+            "vi": "S = (150 + 100) x 80 : 2 = 250 x 40 = 10 000 m² (1 ha).",
+            "en": "10,000 m² (1 hectare)."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 10000 m². S = (150 + 100) x 80 : 2 = 250 x 40 = 10 000 m² (1 ha).",
+            "en": "The exact result is 10000 m². 10,000 m² (1 hectare)."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Tổng hai đáy của hình thang có thể tính bằng công thức: (a + b) = S x 2 : h.",
+            "en": "Decide whether the following statement is true or false: Tổng hai đáy của hình thang có thể tính bằng công thức: (a + b) = S x 2 : h."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Tổng hai đáy của hình thang có thể tính bằng công thức: (a + b) = S x 2 : h.",
+              "en": "Tổng hai đáy của hình thang có thể tính bằng công thức: (a + b) = S x 2 : h."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 10 : 100 = 20.",
+            "en": "Result is 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "20",
+                "en": "20"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t18_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

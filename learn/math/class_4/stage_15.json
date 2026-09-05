@@ -1,0 +1,732 @@
+{
+  "id": "m4_stage_15",
+  "stage_number": 15,
+  "title": {
+    "vi": "Tuần 15: Chia Cho Số Có 3 Chữ Số & Luyện Tập 4 Phép Tính",
+    "en": "Week 15: Division by 3-Digit Numbers & Review"
+  },
+  "subtitle": {
+    "vi": "Trang 86-93: Hoàn thiện kỹ năng chia nhiều chữ số và giải toán",
+    "en": "Pages 86-93: Long division by 3-digit numbers & arithmetic"
+  },
+  "icon": "📝",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.558,
+  "required_stars": 42,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "m4_t15_1",
+      "title": {
+        "vi": "Chia cho số có ba chữ số",
+        "en": "Division by 3-Digit Numbers"
+      },
+      "description": {
+        "vi": "Kỹ năng đặt tính và ước lượng thương cho số chia 3 chữ số",
+        "en": "Long division by 3-digit divisor"
+      },
+      "icon": "➗",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t15_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Thực hiện phép chia: 1 944 : 162 = ?",
+            "en": "Divide 1,944 by 162:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thực hiện phép chia: 1 944 : 162 = ?",
+            "en": "Divide 1,944 by 162:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "1944 : 162 = 12.",
+            "en": "1,944 / 162 = 12."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Thực hiện phép chia: 8 135 : 235 = ?",
+            "en": "Divide 8,135 by 235 (round quotient):"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thực hiện phép chia: 8 135 : 235 = ?",
+            "en": "Divide 8,135 by 235 (round quotient):"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "8135 : 235 = 34 (dư 145).",
+            "en": "Quotient 34, rem 145."
+          },
+          "data": {
+            "correct_number": "34",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép chia với thương tương ứng:",
+            "en": "Match 3-digit division with quotients:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép chia với thương tương ứng:",
+            "en": "Match 3-digit division with quotients:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Chia nhẩm số chia có 3 chữ số.",
+            "en": "Division with 3-digit round numbers."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "4 500 : 150",
+                  "en": "4 500 : 150"
+                },
+                "right": {
+                  "vi": "30",
+                  "en": "30"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "7 200 : 240",
+                  "en": "7 200 : 240"
+                },
+                "right": {
+                  "vi": "30",
+                  "en": "30"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "9 600 : 320",
+                  "en": "9 600 : 320"
+                },
+                "right": {
+                  "vi": "30",
+                  "en": "30"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của hai số 10 và 18 là:",
+            "en": "The average of 10 and 18 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 10 và 18",
+            "en": "Average of 10 and 18"
+          },
+          "hint": {
+            "vi": "Lấy tổng chia cho 2.",
+            "en": "Sum divided by 2."
+          },
+          "explanation": {
+            "vi": "(10 + 18) : 2 = 14.",
+            "en": "(10 + 18) : 2 = 14."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "14"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đơn vị đo với giá trị quy đổi tương đương:",
+            "en": "Match units with equivalent values:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đơn vị đo tương đương",
+            "en": "Match units"
+          },
+          "hint": {
+            "vi": "Quy đổi đơn vị cẩn thận.",
+            "en": "Convert units."
+          },
+          "explanation": {
+            "vi": "Quy đổi đại lượng chuẩn xác.",
+            "en": "Correct unit conversion."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1,000 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t15_2",
+      "title": {
+        "vi": "Thực hiện phối hợp 4 phép tính (+, -, x, :)",
+        "en": "Combined 4 Operations (+ - * /)"
+      },
+      "description": {
+        "vi": "Thứ tự thực hiện phép tính và dấu ngoặc",
+        "en": "Order of operations with parentheses"
+      },
+      "icon": "🧮",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t15_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị biểu thức: 450 + 150 x 4 - 200 = ?",
+            "en": "Calculate: 450 + 150 * 4 - 200 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính giá trị biểu thức: 450 + 150 x 4 - 200 = ?",
+            "en": "Calculate: 450 + 150 * 4 - 200 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "150 x 4 = 600; 450 + 600 - 200 = 850.",
+            "en": "850."
+          },
+          "data": {
+            "correct_number": "850",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị biểu thức: (3 500 - 1 500) : 25 = ?",
+            "en": "Calculate: (3,500 - 1,500) : 25 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính giá trị biểu thức: (3 500 - 1 500) : 25 = ?",
+            "en": "Calculate: (3,500 - 1,500) : 25 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "2 000 : 25 = 80.",
+            "en": "80."
+          },
+          "data": {
+            "correct_number": "80",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy tắc thứ tự phép tính.",
+            "en": "Decide whether the following statement is true or false: Quy tắc thứ tự phép tính."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Luôn tuân thủ thứ tự ưu tiên.",
+            "en": "True! Standard precedence rules."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy tắc thứ tự phép tính.",
+              "en": "Quy tắc thứ tự phép tính."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 38 và 22 là:",
+            "en": "Average of 38 and 22 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 38 và 22 là:",
+            "en": "Average of 38 and 22 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(38 + 22) : 2 = 30.",
+            "en": "Average is 30."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "30"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t15_3",
+      "title": {
+        "vi": "Luyện tập tổng hợp giải bài toán 4 phép tính",
+        "en": "Multi-Step Problem Solving Review"
+      },
+      "description": {
+        "vi": "Phân tích đề bài nhiều bước tính",
+        "en": "Multi-step word problems synthesis"
+      },
+      "icon": "🏆",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t15_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một đội xe có 5 xe tải lớn mỗi xe chở 35 tạ hàng và 4 xe tải nhỏ mỗi xe chở 20 tạ hàng. Đội xe đó chở được tất cả:",
+            "en": "5 big trucks carry 35 quintals each, 4 small trucks carry 20 each. Total quintals?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một đội xe có 5 xe tải lớn mỗi xe chở 35 tạ hàng và 4 xe tải nhỏ mỗi xe chở 20 tạ hàng. Đội xe đó chở được tất cả:",
+            "en": "5 big trucks carry 35 quintals each, 4 small trucks carry 20 each. Total quintals?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "5 x 35 + 4 x 20 = 175 + 80 = 255 tạ.",
+            "en": "5*35 + 4*20 = 255 quintals."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "245 tạ",
+                "en": "245 tạ"
+              },
+              {
+                "vi": "255 tạ",
+                "en": "255 tạ"
+              },
+              {
+                "vi": "265 tạ",
+                "en": "265 tạ"
+              }
+            ],
+            "correct_answer": "255 tạ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "255 tạ đổi ra tấn và tạ là bao nhiêu tạ dư?",
+            "en": "255 quintals = 25 tons and how many quintals?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "255 tạ đổi ra tấn và tạ là bao nhiêu tạ dư?",
+            "en": "255 quintals = 25 tons and how many quintals?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "255 tạ = 25 tấn 5 tạ.",
+            "en": "5 quintals."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "tạ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_3_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép phép tính: 100 x 25 = 2500",
+            "en": "Arrange tiles for: 100 * 25 = 2500"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép phép tính: 100 x 25 = 2500",
+            "en": "Arrange tiles for: 100 * 25 = 2500"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "100 x 25 = 2 500.",
+            "en": "100 * 25 = 2,500."
+          },
+          "data": {
+            "target_word": "100 x 25 = 2500",
+            "pool_tokens": [
+              "100",
+              "x",
+              "25",
+              "=",
+              "2500"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tập tổng hợp giải bài toán 4 phép tính': Một đội xe có 5 xe tải lớn mỗi xe chở 35 tạ hàng và 4 xe tải nhỏ mỗi xe chở 20 tạ hàng. Đội xe đó chở được tất cả:",
+            "en": "Practice 'Multi-Step Problem Solving Review': 5 big trucks carry 35 quintals each, 4 small trucks carry 20 each. Total quintals?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một đội xe có 5 xe tải lớn mỗi xe chở 35 tạ hàng và 4 xe tải nhỏ mỗi xe chở 20 tạ hàng. Đội xe đó chở được tất cả:",
+            "en": "5 big trucks carry 35 quintals each, 4 small trucks carry 20 each. Total quintals?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "5 x 35 + 4 x 20 = 175 + 80 = 255 tạ.",
+            "en": "5*35 + 4*20 = 255 quintals."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "245 tạ",
+                "en": "245 tạ"
+              },
+              {
+                "vi": "255 tạ",
+                "en": "255 tạ"
+              },
+              {
+                "vi": "265 tạ",
+                "en": "265 tạ"
+              }
+            ],
+            "correct_answer": "255 tạ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_3_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'LUYỆN'",
+            "en": "Arrange the letters to spell the keyword: 'LUYỆN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa LUYỆN",
+            "en": "Arrange the letters to spell LUYỆN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: LUYỆN",
+            "en": "The keyword is: LUYỆN"
+          },
+          "data": {
+            "target_word": "LUYỆN",
+            "scrambled_letters": [
+              "Y",
+              "U",
+              "L",
+              "N",
+              "Ệ"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 31 và 29 là:",
+            "en": "Average of 31 and 29 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 31 và 29 là:",
+            "en": "Average of 31 and 29 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(31 + 29) : 2 = 30.",
+            "en": "Average is 30."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "30"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t15_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 44 và 50 là:",
+            "en": "Average of 44 and 50 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 44 và 50 là:",
+            "en": "Average of 44 and 50 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(44 + 50) : 2 = 47.",
+            "en": "Average is 47."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "47"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

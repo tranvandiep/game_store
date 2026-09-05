@@ -1,0 +1,1132 @@
+{
+  "id": "e4_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Week 1: Starter & Unit 1 - My Friends",
+    "en": "Week 1: Starter & Unit 1 - My Friends"
+  },
+  "subtitle": {
+    "vi": "Where are you from? I'm from Vietnam / Britain / America / Japan / Australia",
+    "en": "Where are you from? I'm from Vietnam / Britain / America / Japan / Australia"
+  },
+  "icon": "🌏",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e4_s1_1",
+      "title": {
+        "vi": "Starter: Welcome to Grade 4!",
+        "en": "Starter: Welcome to Grade 4!"
+      },
+      "description": {
+        "vi": "Meeting international classmates (Ben, Lucy, Mai, Nam)",
+        "en": "Meeting international classmates (Ben, Lucy, Mai, Nam)"
+      },
+      "icon": "🎒",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the students from different countries holding hands around the globe. Where is Mai from?",
+            "en": "Look at the students from different countries holding hands around the globe. Where is Mai from?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the students from different countries holding hands around the globe. Where is Mai from?",
+            "en": "Look at the students from different countries holding hands around the globe. Where is Mai from?"
+          },
+          "hint": {
+            "vi": "She wears the red flag with yellow star shirt.",
+            "en": "She wears the red flag with yellow star shirt."
+          },
+          "explanation": {
+            "vi": "She is from Vietnam.",
+            "en": "She is from Vietnam."
+          },
+          "data": {
+            "options": [
+              "She is from Vietnam.",
+              "She is from the Moon.",
+              "She is from Mars.",
+              "She is from the ocean."
+            ],
+            "correct_answer": "She is from Vietnam."
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_starter_friends.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s1_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'Vietnam'?",
+            "en": "What is the first letter of the word 'Vietnam'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'Vietnam'?",
+            "en": "What is the first letter of the word 'Vietnam'?"
+          },
+          "hint": {
+            "vi": "The word 'Vietnam' starts with the letter V.",
+            "en": "The word 'Vietnam' starts with the letter V."
+          },
+          "explanation": {
+            "vi": "Correct! 'Vietnam' begins with the letter 'V'.",
+            "en": "Correct! 'Vietnam' begins with the letter 'V'."
+          },
+          "data": {
+            "options": [
+              "Letter V",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter V"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Vietnam",
+                  "en": "Vietnam"
+                },
+                "right": {
+                  "vi": "Nghĩa của Vietnam",
+                  "en": "Nghĩa của Vietnam"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "America",
+                  "en": "America"
+                },
+                "right": {
+                  "vi": "Nghĩa của America",
+                  "en": "Nghĩa của America"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Britain",
+                  "en": "Britain"
+                },
+                "right": {
+                  "vi": "Nghĩa của Britain",
+                  "en": "Nghĩa của Britain"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Where are you from? - I'm from Vietnam.",
+            "en": "Is this English sentence correct for Grade 4? Where are you from? - I'm from Vietnam."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Where are you from? - I'm from Vietnam.",
+            "en": "Remember the pattern: Where are you from? - I'm from Vietnam."
+          },
+          "explanation": {
+            "vi": "Yes! 'Where are you from? - I'm from Vietnam.' is a correct English sentence.",
+            "en": "Yes! 'Where are you from? - I'm from Vietnam.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Where are you from? - I'm from Vietnam.",
+              "en": "Where are you from? - I'm from Vietnam."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Where are you from? - I'm from ....",
+            "en": "Drag the correct word to complete the sentence: Where are you from? - I'm from ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Vietnam'.",
+            "en": "Choose the correct word: 'Vietnam'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Where are you from? - I'm from Vietnam.'.",
+            "en": "The complete sentence is: 'Where are you from? - I'm from Vietnam.'."
+          },
+          "data": {
+            "prefix_text": "Where are you from? - I'm from ",
+            "suffix_text": ".",
+            "options": [
+              "Vietnam",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Vietnam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'vietnam':",
+            "en": "Spell the English word 'vietnam':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'vietnam':",
+            "en": "Spell the English word 'vietnam':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'vietnam'.",
+            "en": "Tap the letters in order to spell 'vietnam'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'vietnam' correctly.",
+            "en": "Well done! You spelled 'vietnam' correctly."
+          },
+          "data": {
+            "letters": [
+              "m",
+              "a",
+              "n",
+              "t",
+              "e",
+              "i",
+              "v"
+            ],
+            "target_word": "vietnam",
+            "target_sequence": [
+              "v",
+              "i",
+              "e",
+              "t",
+              "n",
+              "a",
+              "m"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Bạn đến từ đâu? - Tôi đến từ Việt Nam.' in English?",
+            "en": "How do you say 'Bạn đến từ đâu? - Tôi đến từ Việt Nam.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Bạn đến từ đâu? - Tôi đến từ Việt Nam.' in English?",
+            "en": "How do you say 'Bạn đến từ đâu? - Tôi đến từ Việt Nam.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Bạn đến từ đâu? - Tôi đến từ Việt Nam.",
+            "en": "Choose the English sentence that means: Bạn đến từ đâu? - Tôi đến từ Việt Nam."
+          },
+          "explanation": {
+            "vi": "'Where are you from? - I'm from Vietnam.' means 'Bạn đến từ đâu? - Tôi đến từ Việt Nam.'.",
+            "en": "'Where are you from? - I'm from Vietnam.' means 'Bạn đến từ đâu? - Tôi đến từ Việt Nam.'."
+          },
+          "data": {
+            "options": [
+              "Where are you from? - I'm from Vietnam.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Where are you from? - I'm from Vietnam."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Starter: Welcome to Grade 4!'?",
+            "en": "Which of the following is a key word from Unit 'Starter: Welcome to Grade 4!'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Starter: Welcome to Grade 4!'?",
+            "en": "Which of the following is a key word from Unit 'Starter: Welcome to Grade 4!'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Starter: Welcome to Grade 4!.",
+            "en": "Remember the words in topic: Starter: Welcome to Grade 4!."
+          },
+          "explanation": {
+            "vi": "'Vietnam' is a key vocabulary word in this topic.",
+            "en": "'Vietnam' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "Vietnam",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "Vietnam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'America' start with the sound /v/?",
+            "en": "Does the word 'America' start with the sound /v/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'America' start with the sound /v/? The word 'America' starts with letter 'V'.",
+            "en": "Does the word 'America' start with the sound /v/? The word 'America' starts with letter 'V'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'America'.",
+            "en": "Listen to the first sound of 'America'."
+          },
+          "explanation": {
+            "vi": "Yes! 'America' starts with the sound /v/.",
+            "en": "Yes! 'America' starts with the sound /v/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'America' starts with letter 'V'.",
+              "en": "The word 'America' starts with letter 'V'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'vietnam'?",
+            "en": "How many letters are there in the word 'vietnam'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'vietnam'?",
+            "en": "How many letters are there in the word 'vietnam'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'vietnam': 1, 2, 3...",
+            "en": "Count the letters in 'vietnam': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'vietnam' has exactly 7 letters.",
+            "en": "The word 'vietnam' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'vietnam':",
+            "en": "Choose the correct phrase with 'vietnam':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'vietnam':",
+            "en": "Choose the correct phrase with 'vietnam':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a vietnam'.",
+            "en": "Correct! We say 'a vietnam'."
+          },
+          "data": {
+            "options": [
+              "a vietnam",
+              "an vietnam",
+              "two vietnam",
+              "many vietnam"
+            ],
+            "correct_answer": "a vietnam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'Vietnam'.",
+            "en": "Choose the word: 'Vietnam'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is Vietnam. It is wonderful!'",
+            "en": "We say: 'Look! This is Vietnam. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "Vietnam",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "Vietnam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Starter: Welcome to Grade 4!'?",
+            "en": "Which English sentence best summarizes the topic 'Starter: Welcome to Grade 4!'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Starter: Welcome to Grade 4!'?",
+            "en": "Which English sentence best summarizes the topic 'Starter: Welcome to Grade 4!'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Starter: Welcome to Grade 4!'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Starter: Welcome to Grade 4!'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: Vietnam, America!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: Vietnam, America!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s1_2",
+      "title": {
+        "vi": "Unit 1: International Friends & Flags",
+        "en": "Unit 1: International Friends & Flags"
+      },
+      "description": {
+        "vi": "Nationalities: Vietnamese, British, American, Japanese, Australian",
+        "en": "Nationalities: Vietnamese, British, American, Japanese, Australian"
+      },
+      "icon": "🚩",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s1_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the colorful national flags of Vietnam, Britain, America, and Japan. What are they?",
+            "en": "Look at the colorful national flags of Vietnam, Britain, America, and Japan. What are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the colorful national flags of Vietnam, Britain, America, and Japan. What are they?",
+            "en": "Look at the colorful national flags of Vietnam, Britain, America, and Japan. What are they?"
+          },
+          "hint": {
+            "vi": "Banners representing nations.",
+            "en": "Banners representing nations."
+          },
+          "explanation": {
+            "vi": "They are international national flags.",
+            "en": "They are international national flags."
+          },
+          "data": {
+            "options": [
+              "national flags of different countries",
+              "postage stamps",
+              "board games",
+              "currency coins"
+            ],
+            "correct_answer": "national flags of different countries"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u1_flags_countries.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s1_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'flags'?",
+            "en": "What is the first letter of the word 'flags'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'flags'?",
+            "en": "What is the first letter of the word 'flags'?"
+          },
+          "hint": {
+            "vi": "The word 'flags' starts with the letter F.",
+            "en": "The word 'flags' starts with the letter F."
+          },
+          "explanation": {
+            "vi": "Correct! 'flags' begins with the letter 'F'.",
+            "en": "Correct! 'flags' begins with the letter 'F'."
+          },
+          "data": {
+            "options": [
+              "Letter F",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter F"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "flags",
+                  "en": "flags"
+                },
+                "right": {
+                  "vi": "Nghĩa của flags",
+                  "en": "Nghĩa của flags"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "countries",
+                  "en": "countries"
+                },
+                "right": {
+                  "vi": "Nghĩa của countries",
+                  "en": "Nghĩa của countries"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Australia",
+                  "en": "Australia"
+                },
+                "right": {
+                  "vi": "Nghĩa của Australia",
+                  "en": "Nghĩa của Australia"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? He is from Britain. He is British.",
+            "en": "Is this English sentence correct for Grade 4? He is from Britain. He is British."
+          },
+          "hint": {
+            "vi": "Remember the pattern: He is from Britain. He is British.",
+            "en": "Remember the pattern: He is from Britain. He is British."
+          },
+          "explanation": {
+            "vi": "Yes! 'He is from Britain. He is British.' is a correct English sentence.",
+            "en": "Yes! 'He is from Britain. He is British.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "He is from Britain. He is British.",
+              "en": "He is from Britain. He is British."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: He is from Britain. He is ....",
+            "en": "Drag the correct word to complete the sentence: He is from Britain. He is ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'British'.",
+            "en": "Choose the correct word: 'British'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'He is from Britain. He is British.'.",
+            "en": "The complete sentence is: 'He is from Britain. He is British.'."
+          },
+          "data": {
+            "prefix_text": "He is from Britain. He is ",
+            "suffix_text": ".",
+            "options": [
+              "British",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "British"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'flags':",
+            "en": "Spell the English word 'flags':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'flags':",
+            "en": "Spell the English word 'flags':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'flags'.",
+            "en": "Tap the letters in order to spell 'flags'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'flags' correctly.",
+            "en": "Well done! You spelled 'flags' correctly."
+          },
+          "data": {
+            "letters": [
+              "s",
+              "g",
+              "a",
+              "l",
+              "f"
+            ],
+            "target_word": "flags",
+            "target_sequence": [
+              "f",
+              "l",
+              "a",
+              "g",
+              "s"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cậu ấy đến từ nước Anh. Cậu ấy mang quốc tịch Anh.' in English?",
+            "en": "How do you say 'Cậu ấy đến từ nước Anh. Cậu ấy mang quốc tịch Anh.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cậu ấy đến từ nước Anh. Cậu ấy mang quốc tịch Anh.' in English?",
+            "en": "How do you say 'Cậu ấy đến từ nước Anh. Cậu ấy mang quốc tịch Anh.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cậu ấy đến từ nước Anh. Cậu ấy mang quốc tịch Anh.",
+            "en": "Choose the English sentence that means: Cậu ấy đến từ nước Anh. Cậu ấy mang quốc tịch Anh."
+          },
+          "explanation": {
+            "vi": "'He is from Britain. He is British.' means 'Cậu ấy đến từ nước Anh. Cậu ấy mang quốc tịch Anh.'.",
+            "en": "'He is from Britain. He is British.' means 'Cậu ấy đến từ nước Anh. Cậu ấy mang quốc tịch Anh.'."
+          },
+          "data": {
+            "options": [
+              "He is from Britain. He is British.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "He is from Britain. He is British."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 1: International Friends & Flags'?",
+            "en": "Which of the following is a key word from Unit 'Unit 1: International Friends & Flags'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 1: International Friends & Flags'?",
+            "en": "Which of the following is a key word from Unit 'Unit 1: International Friends & Flags'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 1: International Friends & Flags.",
+            "en": "Remember the words in topic: Unit 1: International Friends & Flags."
+          },
+          "explanation": {
+            "vi": "'flags' is a key vocabulary word in this topic.",
+            "en": "'flags' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "flags",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "flags"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'countries' start with the sound /f/?",
+            "en": "Does the word 'countries' start with the sound /f/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'countries' start with the sound /f/? The word 'countries' starts with letter 'F'.",
+            "en": "Does the word 'countries' start with the sound /f/? The word 'countries' starts with letter 'F'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'countries'.",
+            "en": "Listen to the first sound of 'countries'."
+          },
+          "explanation": {
+            "vi": "Yes! 'countries' starts with the sound /f/.",
+            "en": "Yes! 'countries' starts with the sound /f/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'countries' starts with letter 'F'.",
+              "en": "The word 'countries' starts with letter 'F'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'flags'?",
+            "en": "How many letters are there in the word 'flags'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'flags'?",
+            "en": "How many letters are there in the word 'flags'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'flags': 1, 2, 3...",
+            "en": "Count the letters in 'flags': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'flags' has exactly 5 letters.",
+            "en": "The word 'flags' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'flags':",
+            "en": "Choose the correct phrase with 'flags':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'flags':",
+            "en": "Choose the correct phrase with 'flags':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a flags'.",
+            "en": "Correct! We say 'a flags'."
+          },
+          "data": {
+            "options": [
+              "a flags",
+              "an flags",
+              "two flags",
+              "many flags"
+            ],
+            "correct_answer": "a flags"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'flags'.",
+            "en": "Choose the word: 'flags'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is flags. It is wonderful!'",
+            "en": "We say: 'Look! This is flags. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "flags",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "flags"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s1_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 1: International Friends & Flags'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 1: International Friends & Flags'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 1: International Friends & Flags'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 1: International Friends & Flags'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 1: International Friends & Flags'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 1: International Friends & Flags'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: flags, countries!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: flags, countries!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1130 @@
+{
+  "id": "e4_stage_21",
+  "stage_number": 21,
+  "title": {
+    "vi": "Week 21: Unit 14 - Daily Chores",
+    "en": "Week 21: Unit 14 - Daily Chores"
+  },
+  "subtitle": {
+    "vi": "Chores: wash the dishes, clean the floor, water the flowers, cook meals, do homework",
+    "en": "Chores: wash the dishes, clean the floor, water the flowers, cook meals, do homework"
+  },
+  "icon": "🧹",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.369,
+  "required_stars": 60,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "e4_s21_1",
+      "title": {
+        "vi": "Unit 14: Washing the Dishes",
+        "en": "Unit 14: Washing the Dishes"
+      },
+      "description": {
+        "vi": "What does he do after dinner? - He washes the dishes",
+        "en": "What does he do after dinner? - He washes the dishes"
+      },
+      "icon": "🍽️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s21_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the child at the kitchen sink cleaning plates with soapy sponge and water. What chore is he doing?",
+            "en": "Look at the child at the kitchen sink cleaning plates with soapy sponge and water. What chore is he doing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the child at the kitchen sink cleaning plates with soapy sponge and water. What chore is he doing?",
+            "en": "Look at the child at the kitchen sink cleaning plates with soapy sponge and water. What chore is he doing?"
+          },
+          "hint": {
+            "vi": "Cleaning plates and bowls with water and soap.",
+            "en": "Cleaning plates and bowls with water and soap."
+          },
+          "explanation": {
+            "vi": "He is washing the dinner dishes.",
+            "en": "He is washing the dinner dishes."
+          },
+          "data": {
+            "options": [
+              "washing the dishes",
+              "painting a fence",
+              "sleeping in bed",
+              "playing video games"
+            ],
+            "correct_answer": "washing the dishes"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u14_wash_dishes.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s21_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'dishes'?",
+            "en": "What is the first letter of the word 'dishes'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'dishes'?",
+            "en": "What is the first letter of the word 'dishes'?"
+          },
+          "hint": {
+            "vi": "The word 'dishes' starts with the letter W.",
+            "en": "The word 'dishes' starts with the letter W."
+          },
+          "explanation": {
+            "vi": "Correct! 'dishes' begins with the letter 'W'.",
+            "en": "Correct! 'dishes' begins with the letter 'W'."
+          },
+          "data": {
+            "options": [
+              "Letter W",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter W"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "dishes",
+                  "en": "dishes"
+                },
+                "right": {
+                  "vi": "Nghĩa của dishes",
+                  "en": "Nghĩa của dishes"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "wash",
+                  "en": "wash"
+                },
+                "right": {
+                  "vi": "Nghĩa của wash",
+                  "en": "Nghĩa của wash"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "clean",
+                  "en": "clean"
+                },
+                "right": {
+                  "vi": "Nghĩa của clean",
+                  "en": "Nghĩa của clean"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? He helps his parents by washing the dinner dishes.",
+            "en": "Is this English sentence correct for Grade 4? He helps his parents by washing the dinner dishes."
+          },
+          "hint": {
+            "vi": "Remember the pattern: He helps his parents by washing the dinner dishes.",
+            "en": "Remember the pattern: He helps his parents by washing the dinner dishes."
+          },
+          "explanation": {
+            "vi": "Yes! 'He helps his parents by washing the dinner dishes.' is a correct English sentence.",
+            "en": "Yes! 'He helps his parents by washing the dinner dishes.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "He helps his parents by washing the dinner dishes.",
+              "en": "He helps his parents by washing the dinner dishes."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: He helps his parents by washing the dinner ....",
+            "en": "Drag the correct word to complete the sentence: He helps his parents by washing the dinner ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'dishes'.",
+            "en": "Choose the correct word: 'dishes'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'He helps his parents by washing the dinner dishes.'.",
+            "en": "The complete sentence is: 'He helps his parents by washing the dinner dishes.'."
+          },
+          "data": {
+            "prefix_text": "He helps his parents by washing the dinner ",
+            "suffix_text": ".",
+            "options": [
+              "dishes",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "dishes"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'dishes':",
+            "en": "Spell the English word 'dishes':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'dishes':",
+            "en": "Spell the English word 'dishes':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'dishes'.",
+            "en": "Tap the letters in order to spell 'dishes'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'dishes' correctly.",
+            "en": "Well done! You spelled 'dishes' correctly."
+          },
+          "data": {
+            "letters": [
+              "s",
+              "e",
+              "h",
+              "s",
+              "i",
+              "d"
+            ],
+            "target_word": "dishes",
+            "target_sequence": [
+              "d",
+              "i",
+              "s",
+              "h",
+              "e",
+              "s"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cậu ấy giúp đỡ bố mẹ bằng cách rửa bát sau bữa tối.' in English?",
+            "en": "How do you say 'Cậu ấy giúp đỡ bố mẹ bằng cách rửa bát sau bữa tối.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cậu ấy giúp đỡ bố mẹ bằng cách rửa bát sau bữa tối.' in English?",
+            "en": "How do you say 'Cậu ấy giúp đỡ bố mẹ bằng cách rửa bát sau bữa tối.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cậu ấy giúp đỡ bố mẹ bằng cách rửa bát sau bữa tối.",
+            "en": "Choose the English sentence that means: Cậu ấy giúp đỡ bố mẹ bằng cách rửa bát sau bữa tối."
+          },
+          "explanation": {
+            "vi": "'He helps his parents by washing the dinner dishes.' means 'Cậu ấy giúp đỡ bố mẹ bằng cách rửa bát sau bữa tối.'.",
+            "en": "'He helps his parents by washing the dinner dishes.' means 'Cậu ấy giúp đỡ bố mẹ bằng cách rửa bát sau bữa tối.'."
+          },
+          "data": {
+            "options": [
+              "He helps his parents by washing the dinner dishes.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "He helps his parents by washing the dinner dishes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 14: Washing the Dishes'?",
+            "en": "Which of the following is a key word from Unit 'Unit 14: Washing the Dishes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 14: Washing the Dishes'?",
+            "en": "Which of the following is a key word from Unit 'Unit 14: Washing the Dishes'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 14: Washing the Dishes.",
+            "en": "Remember the words in topic: Unit 14: Washing the Dishes."
+          },
+          "explanation": {
+            "vi": "'dishes' is a key vocabulary word in this topic.",
+            "en": "'dishes' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "dishes",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "dishes"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'wash' start with the sound /w/?",
+            "en": "Does the word 'wash' start with the sound /w/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'wash' start with the sound /w/? The word 'wash' starts with letter 'W'.",
+            "en": "Does the word 'wash' start with the sound /w/? The word 'wash' starts with letter 'W'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'wash'.",
+            "en": "Listen to the first sound of 'wash'."
+          },
+          "explanation": {
+            "vi": "Yes! 'wash' starts with the sound /w/.",
+            "en": "Yes! 'wash' starts with the sound /w/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'wash' starts with letter 'W'.",
+              "en": "The word 'wash' starts with letter 'W'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'dishes'?",
+            "en": "How many letters are there in the word 'dishes'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'dishes'?",
+            "en": "How many letters are there in the word 'dishes'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'dishes': 1, 2, 3...",
+            "en": "Count the letters in 'dishes': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'dishes' has exactly 6 letters.",
+            "en": "The word 'dishes' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'dishes':",
+            "en": "Choose the correct phrase with 'dishes':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'dishes':",
+            "en": "Choose the correct phrase with 'dishes':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a dishes'.",
+            "en": "Correct! We say 'a dishes'."
+          },
+          "data": {
+            "options": [
+              "a dishes",
+              "an dishes",
+              "two dishes",
+              "many dishes"
+            ],
+            "correct_answer": "a dishes"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'dishes'.",
+            "en": "Choose the word: 'dishes'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is dishes. It is wonderful!'",
+            "en": "We say: 'Look! This is dishes. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "dishes",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "dishes"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 14: Washing the Dishes'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 14: Washing the Dishes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 14: Washing the Dishes'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 14: Washing the Dishes'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 14: Washing the Dishes'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 14: Washing the Dishes'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: dishes, wash!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: dishes, wash!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s21_2",
+      "title": {
+        "vi": "Unit 14: Sweeping and Mopping the Floor",
+        "en": "Unit 14: Sweeping and Mopping the Floor"
+      },
+      "description": {
+        "vi": "She cleans the living room floor with a broom",
+        "en": "She cleans the living room floor with a broom"
+      },
+      "icon": "🧹",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s21_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the girl using a broom and dustpan to clean the floor. What chore is she doing?",
+            "en": "Look at the girl using a broom and dustpan to clean the floor. What chore is she doing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the girl using a broom and dustpan to clean the floor. What chore is she doing?",
+            "en": "Look at the girl using a broom and dustpan to clean the floor. What chore is she doing?"
+          },
+          "hint": {
+            "vi": "Cleaning floor surfaces with a broom.",
+            "en": "Cleaning floor surfaces with a broom."
+          },
+          "explanation": {
+            "vi": "She is sweeping the floor.",
+            "en": "She is sweeping the floor."
+          },
+          "data": {
+            "options": [
+              "sweeping the floor",
+              "watching TV",
+              "eating ice cream",
+              "reading a comic"
+            ],
+            "correct_answer": "sweeping the floor"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u14_sweep_floor.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s21_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'sweep'?",
+            "en": "What is the first letter of the word 'sweep'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'sweep'?",
+            "en": "What is the first letter of the word 'sweep'?"
+          },
+          "hint": {
+            "vi": "The word 'sweep' starts with the letter S.",
+            "en": "The word 'sweep' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'sweep' begins with the letter 'S'.",
+            "en": "Correct! 'sweep' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sweep",
+                  "en": "sweep"
+                },
+                "right": {
+                  "vi": "Nghĩa của sweep",
+                  "en": "Nghĩa của sweep"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "mop",
+                  "en": "mop"
+                },
+                "right": {
+                  "vi": "Nghĩa của mop",
+                  "en": "Nghĩa của mop"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "floor",
+                  "en": "floor"
+                },
+                "right": {
+                  "vi": "Nghĩa của floor",
+                  "en": "Nghĩa của floor"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? She sweeps the floor to keep the house tidy.",
+            "en": "Is this English sentence correct for Grade 4? She sweeps the floor to keep the house tidy."
+          },
+          "hint": {
+            "vi": "Remember the pattern: She sweeps the floor to keep the house tidy.",
+            "en": "Remember the pattern: She sweeps the floor to keep the house tidy."
+          },
+          "explanation": {
+            "vi": "Yes! 'She sweeps the floor to keep the house tidy.' is a correct English sentence.",
+            "en": "Yes! 'She sweeps the floor to keep the house tidy.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "She sweeps the floor to keep the house tidy.",
+              "en": "She sweeps the floor to keep the house tidy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: She sweeps the floor to keep the house ....",
+            "en": "Drag the correct word to complete the sentence: She sweeps the floor to keep the house ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'tidy'.",
+            "en": "Choose the correct word: 'tidy'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'She sweeps the floor to keep the house tidy.'.",
+            "en": "The complete sentence is: 'She sweeps the floor to keep the house tidy.'."
+          },
+          "data": {
+            "prefix_text": "She sweeps the floor to keep the house ",
+            "suffix_text": ".",
+            "options": [
+              "tidy",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "tidy"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'sweep':",
+            "en": "Spell the English word 'sweep':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'sweep':",
+            "en": "Spell the English word 'sweep':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'sweep'.",
+            "en": "Tap the letters in order to spell 'sweep'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'sweep' correctly.",
+            "en": "Well done! You spelled 'sweep' correctly."
+          },
+          "data": {
+            "letters": [
+              "p",
+              "e",
+              "e",
+              "w",
+              "s"
+            ],
+            "target_word": "sweep",
+            "target_sequence": [
+              "s",
+              "w",
+              "e",
+              "e",
+              "p"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cô bé quét nhà để giữ cho ngôi nhà luôn ngăn nắp.' in English?",
+            "en": "How do you say 'Cô bé quét nhà để giữ cho ngôi nhà luôn ngăn nắp.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cô bé quét nhà để giữ cho ngôi nhà luôn ngăn nắp.' in English?",
+            "en": "How do you say 'Cô bé quét nhà để giữ cho ngôi nhà luôn ngăn nắp.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cô bé quét nhà để giữ cho ngôi nhà luôn ngăn nắp.",
+            "en": "Choose the English sentence that means: Cô bé quét nhà để giữ cho ngôi nhà luôn ngăn nắp."
+          },
+          "explanation": {
+            "vi": "'She sweeps the floor to keep the house tidy.' means 'Cô bé quét nhà để giữ cho ngôi nhà luôn ngăn nắp.'.",
+            "en": "'She sweeps the floor to keep the house tidy.' means 'Cô bé quét nhà để giữ cho ngôi nhà luôn ngăn nắp.'."
+          },
+          "data": {
+            "options": [
+              "She sweeps the floor to keep the house tidy.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "She sweeps the floor to keep the house tidy."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 14: Sweeping and Mopping the Floor'?",
+            "en": "Which of the following is a key word from Unit 'Unit 14: Sweeping and Mopping the Floor'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 14: Sweeping and Mopping the Floor'?",
+            "en": "Which of the following is a key word from Unit 'Unit 14: Sweeping and Mopping the Floor'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 14: Sweeping and Mopping the Floor.",
+            "en": "Remember the words in topic: Unit 14: Sweeping and Mopping the Floor."
+          },
+          "explanation": {
+            "vi": "'sweep' is a key vocabulary word in this topic.",
+            "en": "'sweep' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "sweep",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "sweep"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'mop' start with the sound /s/?",
+            "en": "Does the word 'mop' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'mop' start with the sound /s/? The word 'mop' starts with letter 'S'.",
+            "en": "Does the word 'mop' start with the sound /s/? The word 'mop' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'mop'.",
+            "en": "Listen to the first sound of 'mop'."
+          },
+          "explanation": {
+            "vi": "Yes! 'mop' starts with the sound /s/.",
+            "en": "Yes! 'mop' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'mop' starts with letter 'S'.",
+              "en": "The word 'mop' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'sweep'?",
+            "en": "How many letters are there in the word 'sweep'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'sweep'?",
+            "en": "How many letters are there in the word 'sweep'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'sweep': 1, 2, 3...",
+            "en": "Count the letters in 'sweep': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'sweep' has exactly 5 letters.",
+            "en": "The word 'sweep' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'sweep':",
+            "en": "Choose the correct phrase with 'sweep':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'sweep':",
+            "en": "Choose the correct phrase with 'sweep':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a sweep'.",
+            "en": "Correct! We say 'a sweep'."
+          },
+          "data": {
+            "options": [
+              "a sweep",
+              "an sweep",
+              "two sweep",
+              "many sweep"
+            ],
+            "correct_answer": "a sweep"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'sweep'.",
+            "en": "Choose the word: 'sweep'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is sweep. It is wonderful!'",
+            "en": "We say: 'Look! This is sweep. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "sweep",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "sweep"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s21_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 14: Sweeping and Mopping the Floor'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 14: Sweeping and Mopping the Floor'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 14: Sweeping and Mopping the Floor'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 14: Sweeping and Mopping the Floor'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 14: Sweeping and Mopping the Floor'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 14: Sweeping and Mopping the Floor'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: sweep, mop!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: sweep, mop!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

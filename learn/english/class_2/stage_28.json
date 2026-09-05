@@ -1,0 +1,1130 @@
+{
+  "id": "e2_stage_28",
+  "stage_number": 28,
+  "title": {
+    "vi": "Week 28: My Favorite Toy Collection",
+    "en": "Week 28: My Favorite Toy Collection"
+  },
+  "subtitle": {
+    "vi": "Describing toys: It is big/small/red/blue",
+    "en": "Describing toys: It is big/small/red/blue"
+  },
+  "icon": "🧸",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.166,
+  "required_stars": 81,
+  "theme_color": "0xFF0D9488",
+  "topics": [
+    {
+      "id": "e2_s28_1",
+      "title": {
+        "vi": "Assembling a 100-piece Puzzle",
+        "en": "Assembling a 100-piece Puzzle"
+      },
+      "description": {
+        "vi": "Putting puzzle pieces together",
+        "en": "Putting puzzle pieces together"
+      },
+      "icon": "🧩",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s28_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the jigsaw board game with interlocking picture pieces. What game is it?",
+            "en": "Look at the jigsaw board game with interlocking picture pieces. What game is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the jigsaw board game with interlocking picture pieces. What game is it?",
+            "en": "Look at the jigsaw board game with interlocking picture pieces. What game is it?"
+          },
+          "hint": {
+            "vi": "A tiling puzzle that requires assembly of interlocking pieces.",
+            "en": "A tiling puzzle that requires assembly of interlocking pieces."
+          },
+          "explanation": {
+            "vi": "It's a fun jigsaw picture puzzle.",
+            "en": "It's a fun jigsaw picture puzzle."
+          },
+          "data": {
+            "options": [
+              "a jigsaw picture puzzle",
+              "a deck of cards",
+              "a video game console",
+              "a dart board"
+            ],
+            "correct_answer": "a jigsaw picture puzzle"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u14_jigsaw_puzzle.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s28_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'puzzle'?",
+            "en": "What is the first letter of the word 'puzzle'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'puzzle'?",
+            "en": "What is the first letter of the word 'puzzle'?"
+          },
+          "hint": {
+            "vi": "The word 'puzzle' starts with the letter P.",
+            "en": "The word 'puzzle' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'puzzle' begins with the letter 'P'.",
+            "en": "Correct! 'puzzle' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "puzzle",
+                  "en": "puzzle"
+                },
+                "right": {
+                  "vi": "Nghĩa của puzzle",
+                  "en": "Nghĩa của puzzle"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "piece",
+                  "en": "piece"
+                },
+                "right": {
+                  "vi": "Nghĩa của piece",
+                  "en": "Nghĩa của piece"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "assemble",
+                  "en": "assemble"
+                },
+                "right": {
+                  "vi": "Nghĩa của assemble",
+                  "en": "Nghĩa của assemble"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Complete the colorful animal puzzle.",
+            "en": "Is this English sentence correct for Grade 2? Complete the colorful animal puzzle."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Complete the colorful animal puzzle.",
+            "en": "Remember the pattern: Complete the colorful animal puzzle."
+          },
+          "explanation": {
+            "vi": "Yes! 'Complete the colorful animal puzzle.' is a correct English sentence.",
+            "en": "Yes! 'Complete the colorful animal puzzle.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Complete the colorful animal puzzle.",
+              "en": "Complete the colorful animal puzzle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Complete the colorful animal ....",
+            "en": "Drag the correct word to complete the sentence: Complete the colorful animal ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'puzzle'.",
+            "en": "Choose the correct word: 'puzzle'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Complete the colorful animal puzzle.'.",
+            "en": "The complete sentence is: 'Complete the colorful animal puzzle.'."
+          },
+          "data": {
+            "prefix_text": "Complete the colorful animal ",
+            "suffix_text": ".",
+            "options": [
+              "puzzle",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "puzzle"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'puzzle':",
+            "en": "Spell the English word 'puzzle':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'puzzle':",
+            "en": "Spell the English word 'puzzle':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'puzzle'.",
+            "en": "Tap the letters in order to spell 'puzzle'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'puzzle' correctly.",
+            "en": "Well done! You spelled 'puzzle' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "l",
+              "z",
+              "z",
+              "u",
+              "p"
+            ],
+            "target_word": "puzzle",
+            "target_sequence": [
+              "p",
+              "u",
+              "z",
+              "z",
+              "l",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Hoàn thành bức tranh ghép hình con vật rực rỡ.' in English?",
+            "en": "How do you say 'Hoàn thành bức tranh ghép hình con vật rực rỡ.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Hoàn thành bức tranh ghép hình con vật rực rỡ.' in English?",
+            "en": "How do you say 'Hoàn thành bức tranh ghép hình con vật rực rỡ.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Hoàn thành bức tranh ghép hình con vật rực rỡ.",
+            "en": "Choose the English sentence that means: Hoàn thành bức tranh ghép hình con vật rực rỡ."
+          },
+          "explanation": {
+            "vi": "'Complete the colorful animal puzzle.' means 'Hoàn thành bức tranh ghép hình con vật rực rỡ.'.",
+            "en": "'Complete the colorful animal puzzle.' means 'Hoàn thành bức tranh ghép hình con vật rực rỡ.'."
+          },
+          "data": {
+            "options": [
+              "Complete the colorful animal puzzle.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Complete the colorful animal puzzle."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Assembling a 100-piece Puzzle'?",
+            "en": "Which of the following is a word from Unit 'Assembling a 100-piece Puzzle'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Assembling a 100-piece Puzzle'?",
+            "en": "Which of the following is a word from Unit 'Assembling a 100-piece Puzzle'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Assembling a 100-piece Puzzle.",
+            "en": "Remember the words in topic: Assembling a 100-piece Puzzle."
+          },
+          "explanation": {
+            "vi": "'puzzle' is a key vocabulary word in this topic.",
+            "en": "'puzzle' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "puzzle",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "puzzle"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'piece' start with the sound /p/?",
+            "en": "Does the word 'piece' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'piece' start with the sound /p/? The word 'piece' starts with letter 'P'.",
+            "en": "Does the word 'piece' start with the sound /p/? The word 'piece' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'piece'.",
+            "en": "Listen to the first sound of 'piece'."
+          },
+          "explanation": {
+            "vi": "Yes! 'piece' starts with the sound /p/.",
+            "en": "Yes! 'piece' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'piece' starts with letter 'P'.",
+              "en": "The word 'piece' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'puzzle'?",
+            "en": "How many letters are there in the word 'puzzle'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'puzzle'?",
+            "en": "How many letters are there in the word 'puzzle'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'puzzle': 1, 2, 3...",
+            "en": "Count the letters in 'puzzle': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'puzzle' has exactly 6 letters.",
+            "en": "The word 'puzzle' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'puzzle':",
+            "en": "Choose the correct phrase with 'puzzle':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'puzzle':",
+            "en": "Choose the correct phrase with 'puzzle':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a puzzle'.",
+            "en": "Correct! We say 'a puzzle'."
+          },
+          "data": {
+            "options": [
+              "a puzzle",
+              "an puzzle",
+              "five puzzle",
+              "many puzzle"
+            ],
+            "correct_answer": "a puzzle"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'puzzle'.",
+            "en": "Choose the food or object: 'puzzle'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like puzzle? - Yes, I do!'",
+            "en": "We ask: 'Do you like puzzle? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "puzzle",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "puzzle"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Assembling a 100-piece Puzzle'?",
+            "en": "Which English sentence best describes the topic 'Assembling a 100-piece Puzzle'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Assembling a 100-piece Puzzle'?",
+            "en": "Which English sentence best describes the topic 'Assembling a 100-piece Puzzle'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Assembling a 100-piece Puzzle'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Assembling a 100-piece Puzzle'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: puzzle, piece!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: puzzle, piece!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s28_2",
+      "title": {
+        "vi": "Soaring Toy Airplane",
+        "en": "Soaring Toy Airplane"
+      },
+      "description": {
+        "vi": "Flying a white and blue model airplane",
+        "en": "Flying a white and blue model airplane"
+      },
+      "icon": "✈️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s28_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the model aircraft with wings and propellers held by a child. What toy is it?",
+            "en": "Look at the model aircraft with wings and propellers held by a child. What toy is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the model aircraft with wings and propellers held by a child. What toy is it?",
+            "en": "Look at the model aircraft with wings and propellers held by a child. What toy is it?"
+          },
+          "hint": {
+            "vi": "An aircraft toy with wings.",
+            "en": "An aircraft toy with wings."
+          },
+          "explanation": {
+            "vi": "It's a model toy airplane.",
+            "en": "It's a model toy airplane."
+          },
+          "data": {
+            "options": [
+              "a model toy airplane",
+              "a sailboat",
+              "a bicycle wheel",
+              "a yo-yo"
+            ],
+            "correct_answer": "a model toy airplane"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u14_toy_plane.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s28_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'plane'?",
+            "en": "What is the first letter of the word 'plane'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'plane'?",
+            "en": "What is the first letter of the word 'plane'?"
+          },
+          "hint": {
+            "vi": "The word 'plane' starts with the letter P.",
+            "en": "The word 'plane' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'plane' begins with the letter 'P'.",
+            "en": "Correct! 'plane' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "plane",
+                  "en": "plane"
+                },
+                "right": {
+                  "vi": "Nghĩa của plane",
+                  "en": "Nghĩa của plane"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "wings",
+                  "en": "wings"
+                },
+                "right": {
+                  "vi": "Nghĩa của wings",
+                  "en": "Nghĩa của wings"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fly",
+                  "en": "fly"
+                },
+                "right": {
+                  "vi": "Nghĩa của fly",
+                  "en": "Nghĩa của fly"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? The toy airplane has two white wings.",
+            "en": "Is this English sentence correct for Grade 2? The toy airplane has two white wings."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The toy airplane has two white wings.",
+            "en": "Remember the pattern: The toy airplane has two white wings."
+          },
+          "explanation": {
+            "vi": "Yes! 'The toy airplane has two white wings.' is a correct English sentence.",
+            "en": "Yes! 'The toy airplane has two white wings.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The toy airplane has two white wings.",
+              "en": "The toy airplane has two white wings."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The toy airplane has two white ....",
+            "en": "Drag the correct word to complete the sentence: The toy airplane has two white ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'wings'.",
+            "en": "Choose the correct word: 'wings'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The toy airplane has two white wings.'.",
+            "en": "The complete sentence is: 'The toy airplane has two white wings.'."
+          },
+          "data": {
+            "prefix_text": "The toy airplane has two white ",
+            "suffix_text": ".",
+            "options": [
+              "wings",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "wings"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'plane':",
+            "en": "Spell the English word 'plane':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'plane':",
+            "en": "Spell the English word 'plane':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'plane'.",
+            "en": "Tap the letters in order to spell 'plane'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'plane' correctly.",
+            "en": "Well done! You spelled 'plane' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "n",
+              "a",
+              "l",
+              "p"
+            ],
+            "target_word": "plane",
+            "target_sequence": [
+              "p",
+              "l",
+              "a",
+              "n",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chiếc máy bay đồ chơi có hai chiếc cánh màu trắng.' in English?",
+            "en": "How do you say 'Chiếc máy bay đồ chơi có hai chiếc cánh màu trắng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chiếc máy bay đồ chơi có hai chiếc cánh màu trắng.' in English?",
+            "en": "How do you say 'Chiếc máy bay đồ chơi có hai chiếc cánh màu trắng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chiếc máy bay đồ chơi có hai chiếc cánh màu trắng.",
+            "en": "Choose the English sentence that means: Chiếc máy bay đồ chơi có hai chiếc cánh màu trắng."
+          },
+          "explanation": {
+            "vi": "'The toy airplane has two white wings.' means 'Chiếc máy bay đồ chơi có hai chiếc cánh màu trắng.'.",
+            "en": "'The toy airplane has two white wings.' means 'Chiếc máy bay đồ chơi có hai chiếc cánh màu trắng.'."
+          },
+          "data": {
+            "options": [
+              "The toy airplane has two white wings.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The toy airplane has two white wings."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Soaring Toy Airplane'?",
+            "en": "Which of the following is a word from Unit 'Soaring Toy Airplane'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Soaring Toy Airplane'?",
+            "en": "Which of the following is a word from Unit 'Soaring Toy Airplane'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Soaring Toy Airplane.",
+            "en": "Remember the words in topic: Soaring Toy Airplane."
+          },
+          "explanation": {
+            "vi": "'plane' is a key vocabulary word in this topic.",
+            "en": "'plane' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "plane",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "plane"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'wings' start with the sound /p/?",
+            "en": "Does the word 'wings' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'wings' start with the sound /p/? The word 'wings' starts with letter 'P'.",
+            "en": "Does the word 'wings' start with the sound /p/? The word 'wings' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'wings'.",
+            "en": "Listen to the first sound of 'wings'."
+          },
+          "explanation": {
+            "vi": "Yes! 'wings' starts with the sound /p/.",
+            "en": "Yes! 'wings' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'wings' starts with letter 'P'.",
+              "en": "The word 'wings' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'plane'?",
+            "en": "How many letters are there in the word 'plane'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'plane'?",
+            "en": "How many letters are there in the word 'plane'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'plane': 1, 2, 3...",
+            "en": "Count the letters in 'plane': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'plane' has exactly 5 letters.",
+            "en": "The word 'plane' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'plane':",
+            "en": "Choose the correct phrase with 'plane':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'plane':",
+            "en": "Choose the correct phrase with 'plane':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a plane'.",
+            "en": "Correct! We say 'a plane'."
+          },
+          "data": {
+            "options": [
+              "a plane",
+              "an plane",
+              "five plane",
+              "many plane"
+            ],
+            "correct_answer": "a plane"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'plane'.",
+            "en": "Choose the food or object: 'plane'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like plane? - Yes, I do!'",
+            "en": "We ask: 'Do you like plane? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "plane",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "plane"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s28_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Soaring Toy Airplane'?",
+            "en": "Which English sentence best describes the topic 'Soaring Toy Airplane'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Soaring Toy Airplane'?",
+            "en": "Which English sentence best describes the topic 'Soaring Toy Airplane'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Soaring Toy Airplane'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Soaring Toy Airplane'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: plane, wings!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: plane, wings!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

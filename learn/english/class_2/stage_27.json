@@ -1,0 +1,1128 @@
+{
+  "id": "e2_stage_27",
+  "stage_number": 27,
+  "title": {
+    "vi": "Week 27: Unit 14 - At the Toy Store",
+    "en": "Week 27: Unit 14 - At the Toy Store"
+  },
+  "subtitle": {
+    "vi": "Toys: robot, puzzle, plane, train, car",
+    "en": "Toys: robot, puzzle, plane, train, car"
+  },
+  "icon": "🤖",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.195,
+  "required_stars": 78,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "e2_s27_1",
+      "title": {
+        "vi": "Unit 14: Talking Robot & Jigsaw Puzzle",
+        "en": "Unit 14: Talking Robot & Jigsaw Puzzle"
+      },
+      "description": {
+        "vi": "Building robot and piecing jigsaw puzzles",
+        "en": "Building robot and piecing jigsaw puzzles"
+      },
+      "icon": "🧩",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s27_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the toy mechanical android with blinking lights. What toy is it?",
+            "en": "Look at the toy mechanical android with blinking lights. What toy is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the toy mechanical android with blinking lights. What toy is it?",
+            "en": "Look at the toy mechanical android with blinking lights. What toy is it?"
+          },
+          "hint": {
+            "vi": "An electronic mechanical toy humanoid.",
+            "en": "An electronic mechanical toy humanoid."
+          },
+          "explanation": {
+            "vi": "It's a cool toy robot.",
+            "en": "It's a cool toy robot."
+          },
+          "data": {
+            "options": [
+              "a shiny toy robot",
+              "a wooden chair",
+              "a pair of scissors",
+              "a baseball bat"
+            ],
+            "correct_answer": "a shiny toy robot"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u14_robot_puzzle.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s27_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'robot'?",
+            "en": "What is the first letter of the word 'robot'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'robot'?",
+            "en": "What is the first letter of the word 'robot'?"
+          },
+          "hint": {
+            "vi": "The word 'robot' starts with the letter R.",
+            "en": "The word 'robot' starts with the letter R."
+          },
+          "explanation": {
+            "vi": "Correct! 'robot' begins with the letter 'R'.",
+            "en": "Correct! 'robot' begins with the letter 'R'."
+          },
+          "data": {
+            "options": [
+              "Letter R",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter R"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "robot",
+                  "en": "robot"
+                },
+                "right": {
+                  "vi": "Nghĩa của robot",
+                  "en": "Nghĩa của robot"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "puzzle",
+                  "en": "puzzle"
+                },
+                "right": {
+                  "vi": "Nghĩa của puzzle",
+                  "en": "Nghĩa của puzzle"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "toy",
+                  "en": "toy"
+                },
+                "right": {
+                  "vi": "Nghĩa của toy",
+                  "en": "Nghĩa của toy"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? I have a shiny toy robot.",
+            "en": "Is this English sentence correct for Grade 2? I have a shiny toy robot."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I have a shiny toy robot.",
+            "en": "Remember the pattern: I have a shiny toy robot."
+          },
+          "explanation": {
+            "vi": "Yes! 'I have a shiny toy robot.' is a correct English sentence.",
+            "en": "Yes! 'I have a shiny toy robot.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I have a shiny toy robot.",
+              "en": "I have a shiny toy robot."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I have a shiny toy ....",
+            "en": "Drag the correct word to complete the sentence: I have a shiny toy ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'robot'.",
+            "en": "Choose the correct word: 'robot'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I have a shiny toy robot.'.",
+            "en": "The complete sentence is: 'I have a shiny toy robot.'."
+          },
+          "data": {
+            "prefix_text": "I have a shiny toy ",
+            "suffix_text": ".",
+            "options": [
+              "robot",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "robot"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'robot':",
+            "en": "Spell the English word 'robot':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'robot':",
+            "en": "Spell the English word 'robot':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'robot'.",
+            "en": "Tap the letters in order to spell 'robot'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'robot' correctly.",
+            "en": "Well done! You spelled 'robot' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "o",
+              "b",
+              "o",
+              "r"
+            ],
+            "target_word": "robot",
+            "target_sequence": [
+              "r",
+              "o",
+              "b",
+              "o",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi có một chú rô-bốt đồ chơi sáng bóng.' in English?",
+            "en": "How do you say 'Tôi có một chú rô-bốt đồ chơi sáng bóng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi có một chú rô-bốt đồ chơi sáng bóng.' in English?",
+            "en": "How do you say 'Tôi có một chú rô-bốt đồ chơi sáng bóng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi có một chú rô-bốt đồ chơi sáng bóng.",
+            "en": "Choose the English sentence that means: Tôi có một chú rô-bốt đồ chơi sáng bóng."
+          },
+          "explanation": {
+            "vi": "'I have a shiny toy robot.' means 'Tôi có một chú rô-bốt đồ chơi sáng bóng.'.",
+            "en": "'I have a shiny toy robot.' means 'Tôi có một chú rô-bốt đồ chơi sáng bóng.'."
+          },
+          "data": {
+            "options": [
+              "I have a shiny toy robot.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I have a shiny toy robot."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 14: Talking Robot & Jigsaw Puzzle'?",
+            "en": "Which of the following is a word from Unit 'Unit 14: Talking Robot & Jigsaw Puzzle'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 14: Talking Robot & Jigsaw Puzzle'?",
+            "en": "Which of the following is a word from Unit 'Unit 14: Talking Robot & Jigsaw Puzzle'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 14: Talking Robot & Jigsaw Puzzle.",
+            "en": "Remember the words in topic: Unit 14: Talking Robot & Jigsaw Puzzle."
+          },
+          "explanation": {
+            "vi": "'robot' is a key vocabulary word in this topic.",
+            "en": "'robot' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "robot",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "robot"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'puzzle' start with the sound /r/?",
+            "en": "Does the word 'puzzle' start with the sound /r/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'puzzle' start with the sound /r/? The word 'puzzle' starts with letter 'R'.",
+            "en": "Does the word 'puzzle' start with the sound /r/? The word 'puzzle' starts with letter 'R'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'puzzle'.",
+            "en": "Listen to the first sound of 'puzzle'."
+          },
+          "explanation": {
+            "vi": "Yes! 'puzzle' starts with the sound /r/.",
+            "en": "Yes! 'puzzle' starts with the sound /r/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'puzzle' starts with letter 'R'.",
+              "en": "The word 'puzzle' starts with letter 'R'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'robot'?",
+            "en": "How many letters are there in the word 'robot'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'robot'?",
+            "en": "How many letters are there in the word 'robot'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'robot': 1, 2, 3...",
+            "en": "Count the letters in 'robot': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'robot' has exactly 5 letters.",
+            "en": "The word 'robot' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'robot':",
+            "en": "Choose the correct phrase with 'robot':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'robot':",
+            "en": "Choose the correct phrase with 'robot':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a robot'.",
+            "en": "Correct! We say 'a robot'."
+          },
+          "data": {
+            "options": [
+              "a robot",
+              "an robot",
+              "five robot",
+              "many robot"
+            ],
+            "correct_answer": "a robot"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'robot'.",
+            "en": "Choose the food or object: 'robot'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like robot? - Yes, I do!'",
+            "en": "We ask: 'Do you like robot? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "robot",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "robot"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 14: Talking Robot & Jigsaw Puzzle'?",
+            "en": "Which English sentence best describes the topic 'Unit 14: Talking Robot & Jigsaw Puzzle'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 14: Talking Robot & Jigsaw Puzzle'?",
+            "en": "Which English sentence best describes the topic 'Unit 14: Talking Robot & Jigsaw Puzzle'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unit 14: Talking Robot & Jigsaw Puzzle'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unit 14: Talking Robot & Jigsaw Puzzle'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: robot, puzzle!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: robot, puzzle!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s27_2",
+      "title": {
+        "vi": "Unit 14: Toy Train on Tracks & Plane",
+        "en": "Unit 14: Toy Train on Tracks & Plane"
+      },
+      "description": {
+        "vi": "Zooming toy planes and chugging toy trains",
+        "en": "Zooming toy planes and chugging toy trains"
+      },
+      "icon": "🚂",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s27_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the wooden miniature train with carriages moving along tracks. What toy is it?",
+            "en": "Look at the wooden miniature train with carriages moving along tracks. What toy is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the wooden miniature train with carriages moving along tracks. What toy is it?",
+            "en": "Look at the wooden miniature train with carriages moving along tracks. What toy is it?"
+          },
+          "hint": {
+            "vi": "Locomotive engine with carriages on rails.",
+            "en": "Locomotive engine with carriages on rails."
+          },
+          "explanation": {
+            "vi": "It's a miniature toy train on tracks.",
+            "en": "It's a miniature toy train on tracks."
+          },
+          "data": {
+            "options": [
+              "a toy train on tracks",
+              "a big submarine",
+              "a racing motorbike",
+              "a speedboat"
+            ],
+            "correct_answer": "a toy train on tracks"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u14_train_plane.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s27_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'train'?",
+            "en": "What is the first letter of the word 'train'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'train'?",
+            "en": "What is the first letter of the word 'train'?"
+          },
+          "hint": {
+            "vi": "The word 'train' starts with the letter T.",
+            "en": "The word 'train' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'train' begins with the letter 'T'.",
+            "en": "Correct! 'train' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "train",
+                  "en": "train"
+                },
+                "right": {
+                  "vi": "Nghĩa của train",
+                  "en": "Nghĩa của train"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "plane",
+                  "en": "plane"
+                },
+                "right": {
+                  "vi": "Nghĩa của plane",
+                  "en": "Nghĩa của plane"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tracks",
+                  "en": "tracks"
+                },
+                "right": {
+                  "vi": "Nghĩa của tracks",
+                  "en": "Nghĩa của tracks"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? The toy train goes choo-choo on the track.",
+            "en": "Is this English sentence correct for Grade 2? The toy train goes choo-choo on the track."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The toy train goes choo-choo on the track.",
+            "en": "Remember the pattern: The toy train goes choo-choo on the track."
+          },
+          "explanation": {
+            "vi": "Yes! 'The toy train goes choo-choo on the track.' is a correct English sentence.",
+            "en": "Yes! 'The toy train goes choo-choo on the track.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The toy train goes choo-choo on the track.",
+              "en": "The toy train goes choo-choo on the track."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The toy train goes choo-choo on the ....",
+            "en": "Drag the correct word to complete the sentence: The toy train goes choo-choo on the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'track'.",
+            "en": "Choose the correct word: 'track'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The toy train goes choo-choo on the track.'.",
+            "en": "The complete sentence is: 'The toy train goes choo-choo on the track.'."
+          },
+          "data": {
+            "prefix_text": "The toy train goes choo-choo on the ",
+            "suffix_text": ".",
+            "options": [
+              "track",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "track"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'train':",
+            "en": "Spell the English word 'train':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'train':",
+            "en": "Spell the English word 'train':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'train'.",
+            "en": "Tap the letters in order to spell 'train'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'train' correctly.",
+            "en": "Well done! You spelled 'train' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "i",
+              "a",
+              "r",
+              "t"
+            ],
+            "target_word": "train",
+            "target_sequence": [
+              "t",
+              "r",
+              "a",
+              "i",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Đoàn tàu hoả đồ chơi chạy xình xịch trên đường ray.' in English?",
+            "en": "How do you say 'Đoàn tàu hoả đồ chơi chạy xình xịch trên đường ray.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Đoàn tàu hoả đồ chơi chạy xình xịch trên đường ray.' in English?",
+            "en": "How do you say 'Đoàn tàu hoả đồ chơi chạy xình xịch trên đường ray.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Đoàn tàu hoả đồ chơi chạy xình xịch trên đường ray.",
+            "en": "Choose the English sentence that means: Đoàn tàu hoả đồ chơi chạy xình xịch trên đường ray."
+          },
+          "explanation": {
+            "vi": "'The toy train goes choo-choo on the track.' means 'Đoàn tàu hoả đồ chơi chạy xình xịch trên đường ray.'.",
+            "en": "'The toy train goes choo-choo on the track.' means 'Đoàn tàu hoả đồ chơi chạy xình xịch trên đường ray.'."
+          },
+          "data": {
+            "options": [
+              "The toy train goes choo-choo on the track.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The toy train goes choo-choo on the track."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 14: Toy Train on Tracks & Plane'?",
+            "en": "Which of the following is a word from Unit 'Unit 14: Toy Train on Tracks & Plane'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 14: Toy Train on Tracks & Plane'?",
+            "en": "Which of the following is a word from Unit 'Unit 14: Toy Train on Tracks & Plane'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 14: Toy Train on Tracks & Plane.",
+            "en": "Remember the words in topic: Unit 14: Toy Train on Tracks & Plane."
+          },
+          "explanation": {
+            "vi": "'train' is a key vocabulary word in this topic.",
+            "en": "'train' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "train",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "train"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'plane' start with the sound /t/?",
+            "en": "Does the word 'plane' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'plane' start with the sound /t/? The word 'plane' starts with letter 'T'.",
+            "en": "Does the word 'plane' start with the sound /t/? The word 'plane' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'plane'.",
+            "en": "Listen to the first sound of 'plane'."
+          },
+          "explanation": {
+            "vi": "Yes! 'plane' starts with the sound /t/.",
+            "en": "Yes! 'plane' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'plane' starts with letter 'T'.",
+              "en": "The word 'plane' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'train'?",
+            "en": "How many letters are there in the word 'train'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'train'?",
+            "en": "How many letters are there in the word 'train'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'train': 1, 2, 3...",
+            "en": "Count the letters in 'train': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'train' has exactly 5 letters.",
+            "en": "The word 'train' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'train':",
+            "en": "Choose the correct phrase with 'train':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'train':",
+            "en": "Choose the correct phrase with 'train':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a train'.",
+            "en": "Correct! We say 'a train'."
+          },
+          "data": {
+            "options": [
+              "a train",
+              "an train",
+              "five train",
+              "many train"
+            ],
+            "correct_answer": "a train"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'train'.",
+            "en": "Choose the food or object: 'train'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like train? - Yes, I do!'",
+            "en": "We ask: 'Do you like train? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "train",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "train"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s27_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 14: Toy Train on Tracks & Plane'?",
+            "en": "Which English sentence best describes the topic 'Unit 14: Toy Train on Tracks & Plane'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 14: Toy Train on Tracks & Plane'?",
+            "en": "Which English sentence best describes the topic 'Unit 14: Toy Train on Tracks & Plane'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unit 14: Toy Train on Tracks & Plane'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unit 14: Toy Train on Tracks & Plane'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: train, plane!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: train, plane!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

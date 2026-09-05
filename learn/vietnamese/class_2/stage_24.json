@@ -1,0 +1,1136 @@
+{
+  "id": "v2_stage_24",
+  "stage_number": 24,
+  "title": {
+    "vi": "Tuần 24: Bảo Vệ Động Vật Hoang Dã",
+    "en": "Tuần 24: Bảo Vệ Động Vật Hoang Dã"
+  },
+  "subtitle": {
+    "vi": "Bài 15 & 16 - Những con sao biển & Tạm biệt cánh cam",
+    "en": "Bài 15 & 16 - Những con sao biển & Tạm biệt cánh cam"
+  },
+  "icon": "⭐",
+  "banner_image": null,
+  "x_percent": 0.8,
+  "y_percent": 0.282,
+  "required_stars": 69,
+  "theme_color": "0xFFEAB308",
+  "topics": [
+    {
+      "id": "v2_t24_1",
+      "title": {
+        "vi": "Tập đọc: Những con sao biển",
+        "en": "Tập đọc: Những con sao biển"
+      },
+      "description": {
+        "vi": "Hành động nhỏ cứu giúp từng sinh linh bé nhỏ",
+        "en": "Hành động nhỏ cứu giúp từng sinh linh bé nhỏ"
+      },
+      "icon": "🌊",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t24_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Cậu bé trong câu chuyện đã làm hành động tốt bụng nào trên bãi cát biển?",
+            "en": "Cậu bé trong câu chuyện đã làm hành động tốt bụng nào trên bãi cát biển?"
+          },
+          "tts_prompt": {
+            "vi": "Cậu bé trong câu chuyện đã làm hành động tốt bụng nào trên bãi cát biển?",
+            "en": "Cậu bé trong câu chuyện đã làm hành động tốt bụng nào trên bãi cát biển?"
+          },
+          "hint": {
+            "vi": "Bé nhặt từng chú sao biển bị sóng đánh dạt vào bờ để cứu sống chúng.",
+            "en": "Bé nhặt từng chú sao biển bị sóng đánh dạt vào bờ để cứu sống chúng."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài học: 'Những con sao biển'.",
+            "en": "Bức tranh minh hoạ bài học: 'Những con sao biển'."
+          },
+          "data": {
+            "options": [
+              "nhặt sao biển thả về đại dương",
+              "bắt ốc đem bán",
+              "vứt rác ra biển",
+              "đào hố trên cát"
+            ],
+            "correct_answer": "nhặt sao biển thả về đại dương"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_nhung_con_sao_bien.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'sao biển'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'sao biển'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'sao biển'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'sao biển'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'sao biển' và 'cứu giúp' cùng thuộc chủ điểm bài học.",
+            "en": "'sao biển' và 'cứu giúp' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "cứu giúp",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "cứu giúp"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sao biển",
+                  "en": "sao biển"
+                },
+                "right": {
+                  "vi": "Nghĩa của sao biển",
+                  "en": "Nghĩa của sao biển"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "cứu giúp",
+                  "en": "cứu giúp"
+                },
+                "right": {
+                  "vi": "Nghĩa của cứu giúp",
+                  "en": "Nghĩa của cứu giúp"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "sóng biển",
+                  "en": "sóng biển"
+                },
+                "right": {
+                  "vi": "Nghĩa của sóng biển",
+                  "en": "Nghĩa của sóng biển"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'sao biển' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'sao biển' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'sao biển' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'sao biển' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'sao biển' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'sao biển' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'sao biển'.",
+            "en": "Từ chính xác là 'sao biển'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "sao biển",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "sao biển"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'saobiển':",
+            "en": "Ghép các chữ cái để tạo thành từ 'saobiển':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'saobiển':",
+            "en": "Ghép các chữ cái để tạo thành từ 'saobiển':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'saobiển'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'saobiển'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'saobiển'.",
+            "en": "Ghép các chữ cái tạo thành 'saobiển'."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "ể",
+              "i",
+              "b",
+              "o",
+              "a",
+              "s"
+            ],
+            "target_word": "saobiển",
+            "target_sequence": [
+              "s",
+              "a",
+              "o",
+              "b",
+              "i",
+              "ể",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'sao biển' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'sao biển' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'sao biển' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'sao biển' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'sao biển'.",
+            "en": "Xác định bản chất của từ 'sao biển'."
+          },
+          "explanation": {
+            "vi": "'sao biển' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'sao biển' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Những con sao biển'.",
+            "en": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Những con sao biển'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Những con sao biển",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Những con sao biển"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Mỗi việc làm tốt dù nhỏ đều có ý nghĩa to lớn với sự sống.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Mỗi việc làm tốt dù nhỏ đều có ý nghĩa to lớn với sự sống."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Mỗi việc làm tốt dù nhỏ đều có ý nghĩa to lớn với sự sống.",
+            "en": "Đúng! Mỗi việc làm tốt dù nhỏ đều có ý nghĩa to lớn với sự sống."
+          },
+          "data": {
+            "statement": {
+              "vi": "Mỗi việc làm tốt dù nhỏ đều có ý nghĩa to lớn với sự sống.",
+              "en": "Mỗi việc làm tốt dù nhỏ đều có ý nghĩa to lớn với sự sống."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh..",
+            "en": "Đếm từng tiếng trong câu: Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.."
+          },
+          "explanation": {
+            "vi": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' có đúng 14 tiếng.",
+            "en": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' có đúng 14 tiếng."
+          },
+          "data": {
+            "correct_number": "14",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' Cậu ... nhặt từng con sao biển thả lại vào lòng đại dương xanh.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.' Cậu ... nhặt từng con sao biển thả lại vào lòng đại dương xanh."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh..",
+            "en": "Nhớ lại câu mẫu trong bài học: Cậu bé nhặt từng con sao biển thả lại vào lòng đại dương xanh.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'bé'.",
+            "en": "Từ chính xác là 'bé'."
+          },
+          "data": {
+            "prefix_text": "Cậu ",
+            "suffix_text": " nhặt từng con sao biển thả lại vào lòng đại dương xanh.",
+            "options": [
+              "bé",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "bé"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'sao biển' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'sao biển' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'sao biển' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'sao biển' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý sao biển.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý sao biển.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý sao biển.",
+              "sao biển đang bay trên trời cao.",
+              "sao biển nở hoa rực rỡ.",
+              "sao biển có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý sao biển."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Những con sao biển', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Những con sao biển', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Những con sao biển', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Những con sao biển', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương sao biển",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương sao biển"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t24_2",
+      "title": {
+        "vi": "Tập đọc: Tạm biệt cánh cam",
+        "en": "Tập đọc: Tạm biệt cánh cam"
+      },
+      "description": {
+        "vi": "Tình yêu thương và trả tự do cho muôn loài",
+        "en": "Tình yêu thương và trả tự do cho muôn loài"
+      },
+      "icon": "🐞",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t24_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chú bọ cánh cam óng ánh trong tranh đã được bạn nhỏ làm điều gì tốt lành?",
+            "en": "Chú bọ cánh cam óng ánh trong tranh đã được bạn nhỏ làm điều gì tốt lành?"
+          },
+          "tts_prompt": {
+            "vi": "Chú bọ cánh cam óng ánh trong tranh đã được bạn nhỏ làm điều gì tốt lành?",
+            "en": "Chú bọ cánh cam óng ánh trong tranh đã được bạn nhỏ làm điều gì tốt lành?"
+          },
+          "hint": {
+            "vi": "Chú bọ cánh cam xao xuyến giương cánh bay lượn trên cành hoa.",
+            "en": "Chú bọ cánh cam xao xuyến giương cánh bay lượn trên cành hoa."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ câu chuyện: 'Tạm biệt cánh cam'.",
+            "en": "Bức tranh minh hoạ câu chuyện: 'Tạm biệt cánh cam'."
+          },
+          "data": {
+            "options": [
+              "thả tự do về với thiên nhiên",
+              "nhốt trong lọ thuỷ tinh",
+              "buộc chỉ vào chân",
+              "đem đi bán"
+            ],
+            "correct_answer": "thả tự do về với thiên nhiên"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_tam_biet_canh_cam.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cánh cam'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cánh cam'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cánh cam'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cánh cam'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'cánh cam' và 'tự do' cùng thuộc chủ điểm bài học.",
+            "en": "'cánh cam' và 'tự do' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "tự do",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "tự do"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cánh cam",
+                  "en": "cánh cam"
+                },
+                "right": {
+                  "vi": "Nghĩa của cánh cam",
+                  "en": "Nghĩa của cánh cam"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "tự do",
+                  "en": "tự do"
+                },
+                "right": {
+                  "vi": "Nghĩa của tự do",
+                  "en": "Nghĩa của tự do"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "thiên nhiên",
+                  "en": "thiên nhiên"
+                },
+                "right": {
+                  "vi": "Nghĩa của thiên nhiên",
+                  "en": "Nghĩa của thiên nhiên"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cánh cam' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cánh cam' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'cánh cam' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'cánh cam' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'cánh cam' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'cánh cam' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cánh cam'.",
+            "en": "Từ chính xác là 'cánh cam'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "cánh cam",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "cánh cam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cánhcam':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cánhcam':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cánhcam':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cánhcam':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'cánhcam'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'cánhcam'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'cánhcam'.",
+            "en": "Ghép các chữ cái tạo thành 'cánhcam'."
+          },
+          "data": {
+            "letters": [
+              "m",
+              "a",
+              "c",
+              "h",
+              "n",
+              "á",
+              "c"
+            ],
+            "target_word": "cánhcam",
+            "target_sequence": [
+              "c",
+              "á",
+              "n",
+              "h",
+              "c",
+              "a",
+              "m"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'cánh cam' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cánh cam' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'cánh cam' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cánh cam' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'cánh cam'.",
+            "en": "Xác định bản chất của từ 'cánh cam'."
+          },
+          "explanation": {
+            "vi": "'cánh cam' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'cánh cam' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Tạm biệt cánh cam'.",
+            "en": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Tạm biệt cánh cam'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Tạm biệt cánh cam",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Tạm biệt cánh cam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Để các loài động vật hoang dã được sống tự do trong môi trường tự nhiên.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Để các loài động vật hoang dã được sống tự do trong môi trường tự nhiên."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Để các loài động vật hoang dã được sống tự do trong môi trường tự nhiên.",
+            "en": "Đúng! Để các loài động vật hoang dã được sống tự do trong môi trường tự nhiên."
+          },
+          "data": {
+            "statement": {
+              "vi": "Để các loài động vật hoang dã được sống tự do trong môi trường tự nhiên.",
+              "en": "Để các loài động vật hoang dã được sống tự do trong môi trường tự nhiên."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do..",
+            "en": "Đếm từng tiếng trong câu: Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.."
+          },
+          "explanation": {
+            "vi": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' có đúng 14 tiếng.",
+            "en": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' có đúng 14 tiếng."
+          },
+          "data": {
+            "correct_number": "14",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' Bé ... chú bọ cánh cam về với khu vườn xanh ngát tự do.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.' Bé ... chú bọ cánh cam về với khu vườn xanh ngát tự do."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do..",
+            "en": "Nhớ lại câu mẫu trong bài học: Bé thả chú bọ cánh cam về với khu vườn xanh ngát tự do.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'thả'.",
+            "en": "Từ chính xác là 'thả'."
+          },
+          "data": {
+            "prefix_text": "Bé ",
+            "suffix_text": " chú bọ cánh cam về với khu vườn xanh ngát tự do.",
+            "options": [
+              "thả",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "thả"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cánh cam' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cánh cam' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cánh cam' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cánh cam' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý cánh cam.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý cánh cam.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý cánh cam.",
+              "cánh cam đang bay trên trời cao.",
+              "cánh cam nở hoa rực rỡ.",
+              "cánh cam có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý cánh cam."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t24_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Tạm biệt cánh cam', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Tạm biệt cánh cam', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Tạm biệt cánh cam', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Tạm biệt cánh cam', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương cánh cam",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương cánh cam"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

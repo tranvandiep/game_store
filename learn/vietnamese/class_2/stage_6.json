@@ -1,0 +1,1146 @@
+{
+  "id": "v2_stage_6",
+  "stage_number": 6,
+  "title": {
+    "vi": "Tuần 6: Âm Vang Trường Lớp",
+    "en": "Tuần 6: Âm Vang Trường Lớp"
+  },
+  "subtitle": {
+    "vi": "Bài 11 & 12 - Cái trống trường em & Danh sách học sinh",
+    "en": "Bài 11 & 12 - Cái trống trường em & Danh sách học sinh"
+  },
+  "icon": "🥁",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.805,
+  "required_stars": 15,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "v2_t6_1",
+      "title": {
+        "vi": "Tập đọc: Cái trống trường em",
+        "en": "Tập đọc: Cái trống trường em"
+      },
+      "description": {
+        "vi": "Tiếng trống rộn rã gắn liền với năm học mới",
+        "en": "Tiếng trống rộn rã gắn liền với năm học mới"
+      },
+      "icon": "🔔",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t6_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bác trống trường gỗ tròn màu đỏ trong tranh vang lên âm thanh gì quen thuộc?",
+            "en": "Bác trống trường gỗ tròn màu đỏ trong tranh vang lên âm thanh gì quen thuộc?"
+          },
+          "tts_prompt": {
+            "vi": "Bác trống trường gỗ tròn màu đỏ trong tranh vang lên âm thanh gì quen thuộc?",
+            "en": "Bác trống trường gỗ tròn màu đỏ trong tranh vang lên âm thanh gì quen thuộc?"
+          },
+          "hint": {
+            "vi": "Tiếng trống điểm giờ học rộn vang sân trường.",
+            "en": "Tiếng trống điểm giờ học rộn vang sân trường."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài thơ: 'Cái trống trường em'.",
+            "en": "Bức tranh minh hoạ bài thơ: 'Cái trống trường em'."
+          },
+          "data": {
+            "options": [
+              "tùng... tùng... tùng...",
+              "reng... reng...",
+              "tích... tắc...",
+              "leng... keng..."
+            ],
+            "correct_answer": "tùng... tùng... tùng..."
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_cai_trong_truong_em.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trống trường'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trống trường'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trống trường'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trống trường'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'trống trường' và 'nghiêng đầu' cùng thuộc chủ điểm bài học.",
+            "en": "'trống trường' và 'nghiêng đầu' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "nghiêng đầu",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "nghiêng đầu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "trống trường",
+                  "en": "trống trường"
+                },
+                "right": {
+                  "vi": "Nghĩa của trống trường",
+                  "en": "Nghĩa của trống trường"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "nghiêng đầu",
+                  "en": "nghiêng đầu"
+                },
+                "right": {
+                  "vi": "Nghĩa của nghiêng đầu",
+                  "en": "Nghĩa của nghiêng đầu"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tùng tùng",
+                  "en": "tùng tùng"
+                },
+                "right": {
+                  "vi": "Nghĩa của tùng tùng",
+                  "en": "Nghĩa của tùng tùng"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'trống trường' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'trống trường' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'trống trường' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'trống trường' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'trống trường' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'trống trường' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'trống trường'.",
+            "en": "Từ chính xác là 'trống trường'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "trống trường",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "trống trường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'trốngtrường':",
+            "en": "Ghép các chữ cái để tạo thành từ 'trốngtrường':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'trốngtrường':",
+            "en": "Ghép các chữ cái để tạo thành từ 'trốngtrường':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'trốngtrường'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'trốngtrường'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'trốngtrường'.",
+            "en": "Ghép các chữ cái tạo thành 'trốngtrường'."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "ờ",
+              "ư",
+              "r",
+              "t",
+              "g",
+              "n",
+              "ố",
+              "r",
+              "t"
+            ],
+            "target_word": "trốngtrường",
+            "target_sequence": [
+              "t",
+              "r",
+              "ố",
+              "n",
+              "g",
+              "t",
+              "r",
+              "ư",
+              "ờ",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'trống trường' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'trống trường' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'trống trường' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'trống trường' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'trống trường'.",
+            "en": "Xác định bản chất của từ 'trống trường'."
+          },
+          "explanation": {
+            "vi": "'trống trường' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'trống trường' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Cái trống trường em'.",
+            "en": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Cái trống trường em'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Cái trống trường em",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Cái trống trường em"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Tiếng trống trường giục giã bước chân em vào lớp học.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Tiếng trống trường giục giã bước chân em vào lớp học."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Tiếng trống trường giục giã bước chân em vào lớp học.",
+            "en": "Đúng! Tiếng trống trường giục giã bước chân em vào lớp học."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tiếng trống trường giục giã bước chân em vào lớp học.",
+              "en": "Tiếng trống trường giục giã bước chân em vào lớp học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng..",
+            "en": "Đếm từng tiếng trong câu: Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.."
+          },
+          "explanation": {
+            "vi": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' có đúng 12 tiếng.",
+            "en": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' Cái ... trường em mùa hè nằm nghỉ giờ vang tùng tùng.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.' Cái ... trường em mùa hè nằm nghỉ giờ vang tùng tùng."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng..",
+            "en": "Nhớ lại câu mẫu trong bài học: Cái trống trường em mùa hè nằm nghỉ, giờ vang tùng tùng.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'trống'.",
+            "en": "Từ chính xác là 'trống'."
+          },
+          "data": {
+            "prefix_text": "Cái ",
+            "suffix_text": " trường em mùa hè nằm nghỉ giờ vang tùng tùng.",
+            "options": [
+              "trống",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "trống"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'trống trường' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'trống trường' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'trống trường' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'trống trường' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý trống trường.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý trống trường.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý trống trường.",
+              "trống trường đang bay trên trời cao.",
+              "trống trường nở hoa rực rỡ.",
+              "trống trường có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý trống trường."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Cái trống trường em', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Cái trống trường em', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Cái trống trường em', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Cái trống trường em', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương trống trường",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương trống trường"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t6_2",
+      "title": {
+        "vi": "Tập đọc: Danh sách học sinh",
+        "en": "Tập đọc: Danh sách học sinh"
+      },
+      "description": {
+        "vi": "Tra cứu tên theo bảng chữ cái an-pha-bê",
+        "en": "Tra cứu tên theo bảng chữ cái an-pha-bê"
+      },
+      "icon": "📋",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t6_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bảng danh sách học sinh của lớp được sắp xếp theo quy tắc khoa học nào?",
+            "en": "Bảng danh sách học sinh của lớp được sắp xếp theo quy tắc khoa học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Bảng danh sách học sinh của lớp được sắp xếp theo quy tắc khoa học nào?",
+            "en": "Bảng danh sách học sinh của lớp được sắp xếp theo quy tắc khoa học nào?"
+          },
+          "hint": {
+            "vi": "Tên bạn bắt đầu bằng chữ A xếp trước, chữ B xếp sau.",
+            "en": "Tên bạn bắt đầu bằng chữ A xếp trước, chữ B xếp sau."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài học: 'Danh sách học sinh theo bảng chữ cái'.",
+            "en": "Bức tranh minh hoạ bài học: 'Danh sách học sinh theo bảng chữ cái'."
+          },
+          "data": {
+            "options": [
+              "thứ tự bảng chữ cái",
+              "chiều cao học sinh",
+              "màu áo mặc",
+              "tháng sinh"
+            ],
+            "correct_answer": "thứ tự bảng chữ cái"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_danh_sach_hoc_sinh.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'danh sách'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'danh sách'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'danh sách'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'danh sách'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'danh sách' và 'bảng chữ cái' cùng thuộc chủ điểm bài học.",
+            "en": "'danh sách' và 'bảng chữ cái' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "bảng chữ cái",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "bảng chữ cái"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "danh sách",
+                  "en": "danh sách"
+                },
+                "right": {
+                  "vi": "Nghĩa của danh sách",
+                  "en": "Nghĩa của danh sách"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bảng chữ cái",
+                  "en": "bảng chữ cái"
+                },
+                "right": {
+                  "vi": "Nghĩa của bảng chữ cái",
+                  "en": "Nghĩa của bảng chữ cái"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "họ tên",
+                  "en": "họ tên"
+                },
+                "right": {
+                  "vi": "Nghĩa của họ tên",
+                  "en": "Nghĩa của họ tên"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'danh sách' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'danh sách' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'danh sách' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'danh sách' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'danh sách' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'danh sách' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'danh sách'.",
+            "en": "Từ chính xác là 'danh sách'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "danh sách",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "danh sách"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'danhsách':",
+            "en": "Ghép các chữ cái để tạo thành từ 'danhsách':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'danhsách':",
+            "en": "Ghép các chữ cái để tạo thành từ 'danhsách':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'danhsách'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'danhsách'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'danhsách'.",
+            "en": "Ghép các chữ cái tạo thành 'danhsách'."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "c",
+              "á",
+              "s",
+              "h",
+              "n",
+              "a",
+              "d"
+            ],
+            "target_word": "danhsách",
+            "target_sequence": [
+              "d",
+              "a",
+              "n",
+              "h",
+              "s",
+              "á",
+              "c",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'danh sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'danh sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'danh sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'danh sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'danh sách'.",
+            "en": "Xác định bản chất của từ 'danh sách'."
+          },
+          "explanation": {
+            "vi": "'danh sách' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'danh sách' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Danh sách học sinh'.",
+            "en": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Danh sách học sinh'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Danh sách học sinh",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Danh sách học sinh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Xếp theo thứ tự A, B, C giúp việc tra cứu nhanh chóng.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Xếp theo thứ tự A, B, C giúp việc tra cứu nhanh chóng."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Xếp theo thứ tự A, B, C giúp việc tra cứu nhanh chóng.",
+            "en": "Đúng! Xếp theo thứ tự A, B, C giúp việc tra cứu nhanh chóng."
+          },
+          "data": {
+            "statement": {
+              "vi": "Xếp theo thứ tự A, B, C giúp việc tra cứu nhanh chóng.",
+              "en": "Xếp theo thứ tự A, B, C giúp việc tra cứu nhanh chóng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Danh sách học sinh được xếp theo thứ tự bảng chữ cái..",
+            "en": "Đếm từng tiếng trong câu: Danh sách học sinh được xếp theo thứ tự bảng chữ cái.."
+          },
+          "explanation": {
+            "vi": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' có đúng 12 tiếng.",
+            "en": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' Danh ... học sinh được xếp theo thứ tự bảng chữ cái.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Danh sách học sinh được xếp theo thứ tự bảng chữ cái.' Danh ... học sinh được xếp theo thứ tự bảng chữ cái."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Danh sách học sinh được xếp theo thứ tự bảng chữ cái..",
+            "en": "Nhớ lại câu mẫu trong bài học: Danh sách học sinh được xếp theo thứ tự bảng chữ cái.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'sách'.",
+            "en": "Từ chính xác là 'sách'."
+          },
+          "data": {
+            "prefix_text": "Danh ",
+            "suffix_text": " học sinh được xếp theo thứ tự bảng chữ cái.",
+            "options": [
+              "sách",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "sách"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'danh sách' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'danh sách' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'danh sách' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'danh sách' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý danh sách.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý danh sách.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý danh sách.",
+              "danh sách đang bay trên trời cao.",
+              "danh sách nở hoa rực rỡ.",
+              "danh sách có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý danh sách."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t6_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Danh sách học sinh', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Danh sách học sinh', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Danh sách học sinh', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Danh sách học sinh', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương danh sách",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương danh sách"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

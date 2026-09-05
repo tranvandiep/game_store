@@ -1,0 +1,1130 @@
+{
+  "id": "e5_stage_2",
+  "stage_number": 2,
+  "title": {
+    "vi": "Week 2: Unit 2 - Our Homes",
+    "en": "Week 2: Unit 2 - Our Homes"
+  },
+  "subtitle": {
+    "vi": "Where do you live? Who do you live with? What is your house like? Modern flat / town house",
+    "en": "Where do you live? Who do you live with? What is your house like? Modern flat / town house"
+  },
+  "icon": "🏢",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.921,
+  "required_stars": 3,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "e5_s2_1",
+      "title": {
+        "vi": "Unit 2: High-rise Apartment Living",
+        "en": "Unit 2: High-rise Apartment Living"
+      },
+      "description": {
+        "vi": "Where do you live? - I live in a modern flat on the 18th floor",
+        "en": "Where do you live? - I live in a modern flat on the 18th floor"
+      },
+      "icon": "🏙️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e5_s2_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the high-rise city apartment building with balconies and elevators. Where does the family live?",
+            "en": "Look at the high-rise city apartment building with balconies and elevators. Where does the family live?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the high-rise city apartment building with balconies and elevators. Where does the family live?",
+            "en": "Look at the high-rise city apartment building with balconies and elevators. Where does the family live?"
+          },
+          "hint": {
+            "vi": "Multi-storey urban residential building.",
+            "en": "Multi-storey urban residential building."
+          },
+          "explanation": {
+            "vi": "They live in a modern apartment flat.",
+            "en": "They live in a modern apartment flat."
+          },
+          "data": {
+            "options": [
+              "in a modern apartment flat",
+              "in a dark cave",
+              "on a desert island",
+              "in a submarine"
+            ],
+            "correct_answer": "in a modern apartment flat"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u2_modern_flat.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s2_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'flat'?",
+            "en": "What is the first letter of the word 'flat'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'flat'?",
+            "en": "What is the first letter of the word 'flat'?"
+          },
+          "hint": {
+            "vi": "The word 'flat' starts with the letter F.",
+            "en": "The word 'flat' starts with the letter F."
+          },
+          "explanation": {
+            "vi": "Correct! 'flat' begins with the letter 'F'.",
+            "en": "Correct! 'flat' begins with the letter 'F'."
+          },
+          "data": {
+            "options": [
+              "Letter F",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter F"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "flat",
+                  "en": "flat"
+                },
+                "right": {
+                  "vi": "Nghĩa của flat",
+                  "en": "Nghĩa của flat"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "tower",
+                  "en": "tower"
+                },
+                "right": {
+                  "vi": "Nghĩa của tower",
+                  "en": "Nghĩa của tower"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "floor",
+                  "en": "floor"
+                },
+                "right": {
+                  "vi": "Nghĩa của floor",
+                  "en": "Nghĩa của floor"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? I live in a modern flat in Landmark Tower.",
+            "en": "Is this English sentence correct for Grade 5? I live in a modern flat in Landmark Tower."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I live in a modern flat in Landmark Tower.",
+            "en": "Remember the pattern: I live in a modern flat in Landmark Tower."
+          },
+          "explanation": {
+            "vi": "Yes! 'I live in a modern flat in Landmark Tower.' is a correct English sentence.",
+            "en": "Yes! 'I live in a modern flat in Landmark Tower.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I live in a modern flat in Landmark Tower.",
+              "en": "I live in a modern flat in Landmark Tower."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I live in a modern flat in Landmark ....",
+            "en": "Drag the correct word to complete the sentence: I live in a modern flat in Landmark ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Tower'.",
+            "en": "Choose the correct word: 'Tower'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I live in a modern flat in Landmark Tower.'.",
+            "en": "The complete sentence is: 'I live in a modern flat in Landmark Tower.'."
+          },
+          "data": {
+            "prefix_text": "I live in a modern flat in Landmark ",
+            "suffix_text": ".",
+            "options": [
+              "Tower",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Tower"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'flat':",
+            "en": "Spell the English word 'flat':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'flat':",
+            "en": "Spell the English word 'flat':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'flat'.",
+            "en": "Tap the letters in order to spell 'flat'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'flat' correctly.",
+            "en": "Well done! You spelled 'flat' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "a",
+              "l",
+              "f"
+            ],
+            "target_word": "flat",
+            "target_sequence": [
+              "f",
+              "l",
+              "a",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi sống trong một căn hộ hiện đại tại toà tháp Landmark.' in English?",
+            "en": "How do you say 'Tôi sống trong một căn hộ hiện đại tại toà tháp Landmark.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi sống trong một căn hộ hiện đại tại toà tháp Landmark.' in English?",
+            "en": "How do you say 'Tôi sống trong một căn hộ hiện đại tại toà tháp Landmark.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi sống trong một căn hộ hiện đại tại toà tháp Landmark.",
+            "en": "Choose the English sentence that means: Tôi sống trong một căn hộ hiện đại tại toà tháp Landmark."
+          },
+          "explanation": {
+            "vi": "'I live in a modern flat in Landmark Tower.' means 'Tôi sống trong một căn hộ hiện đại tại toà tháp Landmark.'.",
+            "en": "'I live in a modern flat in Landmark Tower.' means 'Tôi sống trong một căn hộ hiện đại tại toà tháp Landmark.'."
+          },
+          "data": {
+            "options": [
+              "I live in a modern flat in Landmark Tower.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I live in a modern flat in Landmark Tower."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 2: High-rise Apartment Living'?",
+            "en": "Which of the following is a key word from Unit 'Unit 2: High-rise Apartment Living'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 2: High-rise Apartment Living'?",
+            "en": "Which of the following is a key word from Unit 'Unit 2: High-rise Apartment Living'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 2: High-rise Apartment Living.",
+            "en": "Remember the words in topic: Unit 2: High-rise Apartment Living."
+          },
+          "explanation": {
+            "vi": "'flat' is a key vocabulary word in this topic.",
+            "en": "'flat' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "flat",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "flat"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'tower' start with the sound /f/?",
+            "en": "Does the word 'tower' start with the sound /f/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'tower' start with the sound /f/? The word 'tower' starts with letter 'F'.",
+            "en": "Does the word 'tower' start with the sound /f/? The word 'tower' starts with letter 'F'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'tower'.",
+            "en": "Listen to the first sound of 'tower'."
+          },
+          "explanation": {
+            "vi": "Yes! 'tower' starts with the sound /f/.",
+            "en": "Yes! 'tower' starts with the sound /f/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'tower' starts with letter 'F'.",
+              "en": "The word 'tower' starts with letter 'F'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'flat'?",
+            "en": "How many letters are there in the word 'flat'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'flat'?",
+            "en": "How many letters are there in the word 'flat'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'flat': 1, 2, 3...",
+            "en": "Count the letters in 'flat': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'flat' has exactly 4 letters.",
+            "en": "The word 'flat' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'flat':",
+            "en": "Choose the correct phrase with 'flat':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'flat':",
+            "en": "Choose the correct phrase with 'flat':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a flat'.",
+            "en": "Correct! We say 'a flat'."
+          },
+          "data": {
+            "options": [
+              "a flat",
+              "an flat",
+              "two flat",
+              "many flat"
+            ],
+            "correct_answer": "a flat"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'flat'.",
+            "en": "Choose the word: 'flat'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is flat. It is wonderful!'",
+            "en": "We say: 'Look! This is flat. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "flat",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "flat"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 2: High-rise Apartment Living'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 2: High-rise Apartment Living'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 2: High-rise Apartment Living'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 2: High-rise Apartment Living'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 2: High-rise Apartment Living'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 2: High-rise Apartment Living'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: flat, tower!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: flat, tower!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e5_s2_2",
+      "title": {
+        "vi": "Unit 2: Who Do You Live With?",
+        "en": "Unit 2: Who Do You Live With?"
+      },
+      "description": {
+        "vi": "I live with my parents, grandparents, and younger sister",
+        "en": "I live with my parents, grandparents, and younger sister"
+      },
+      "icon": "👨‍👩‍👧‍👦",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e5_s2_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the family gathered cheerfully in the cozy living room. Who does he live with?",
+            "en": "Look at the family gathered cheerfully in the cozy living room. Who does he live with?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the family gathered cheerfully in the cozy living room. Who does he live with?",
+            "en": "Look at the family gathered cheerfully in the cozy living room. Who does he live with?"
+          },
+          "hint": {
+            "vi": "Parents, siblings, and grandparents.",
+            "en": "Parents, siblings, and grandparents."
+          },
+          "explanation": {
+            "vi": "He lives with his loving family.",
+            "en": "He lives with his loving family."
+          },
+          "data": {
+            "options": [
+              "with his loving family",
+              "all alone with no one",
+              "with robots",
+              "with wild animals"
+            ],
+            "correct_answer": "with his loving family"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u2_family_home.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s2_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'parents'?",
+            "en": "What is the first letter of the word 'parents'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'parents'?",
+            "en": "What is the first letter of the word 'parents'?"
+          },
+          "hint": {
+            "vi": "The word 'parents' starts with the letter P.",
+            "en": "The word 'parents' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'parents' begins with the letter 'P'.",
+            "en": "Correct! 'parents' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "parents",
+                  "en": "parents"
+                },
+                "right": {
+                  "vi": "Nghĩa của parents",
+                  "en": "Nghĩa của parents"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "grandparents",
+                  "en": "grandparents"
+                },
+                "right": {
+                  "vi": "Nghĩa của grandparents",
+                  "en": "Nghĩa của grandparents"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "family",
+                  "en": "family"
+                },
+                "right": {
+                  "vi": "Nghĩa của family",
+                  "en": "Nghĩa của family"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? I live happily with my warm family.",
+            "en": "Is this English sentence correct for Grade 5? I live happily with my warm family."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I live happily with my warm family.",
+            "en": "Remember the pattern: I live happily with my warm family."
+          },
+          "explanation": {
+            "vi": "Yes! 'I live happily with my warm family.' is a correct English sentence.",
+            "en": "Yes! 'I live happily with my warm family.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I live happily with my warm family.",
+              "en": "I live happily with my warm family."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I live happily with my warm ....",
+            "en": "Drag the correct word to complete the sentence: I live happily with my warm ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'family'.",
+            "en": "Choose the correct word: 'family'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I live happily with my warm family.'.",
+            "en": "The complete sentence is: 'I live happily with my warm family.'."
+          },
+          "data": {
+            "prefix_text": "I live happily with my warm ",
+            "suffix_text": ".",
+            "options": [
+              "family",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "family"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'parents':",
+            "en": "Spell the English word 'parents':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'parents':",
+            "en": "Spell the English word 'parents':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'parents'.",
+            "en": "Tap the letters in order to spell 'parents'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'parents' correctly.",
+            "en": "Well done! You spelled 'parents' correctly."
+          },
+          "data": {
+            "letters": [
+              "s",
+              "t",
+              "n",
+              "e",
+              "r",
+              "a",
+              "p"
+            ],
+            "target_word": "parents",
+            "target_sequence": [
+              "p",
+              "a",
+              "r",
+              "e",
+              "n",
+              "t",
+              "s"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi sống vui vẻ cùng gia đình ấm áp của mình.' in English?",
+            "en": "How do you say 'Tôi sống vui vẻ cùng gia đình ấm áp của mình.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi sống vui vẻ cùng gia đình ấm áp của mình.' in English?",
+            "en": "How do you say 'Tôi sống vui vẻ cùng gia đình ấm áp của mình.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi sống vui vẻ cùng gia đình ấm áp của mình.",
+            "en": "Choose the English sentence that means: Tôi sống vui vẻ cùng gia đình ấm áp của mình."
+          },
+          "explanation": {
+            "vi": "'I live happily with my warm family.' means 'Tôi sống vui vẻ cùng gia đình ấm áp của mình.'.",
+            "en": "'I live happily with my warm family.' means 'Tôi sống vui vẻ cùng gia đình ấm áp của mình.'."
+          },
+          "data": {
+            "options": [
+              "I live happily with my warm family.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I live happily with my warm family."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 2: Who Do You Live With?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 2: Who Do You Live With?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 2: Who Do You Live With?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 2: Who Do You Live With?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 2: Who Do You Live With?.",
+            "en": "Remember the words in topic: Unit 2: Who Do You Live With?."
+          },
+          "explanation": {
+            "vi": "'parents' is a key vocabulary word in this topic.",
+            "en": "'parents' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "parents",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "parents"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'grandparents' start with the sound /p/?",
+            "en": "Does the word 'grandparents' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'grandparents' start with the sound /p/? The word 'grandparents' starts with letter 'P'.",
+            "en": "Does the word 'grandparents' start with the sound /p/? The word 'grandparents' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'grandparents'.",
+            "en": "Listen to the first sound of 'grandparents'."
+          },
+          "explanation": {
+            "vi": "Yes! 'grandparents' starts with the sound /p/.",
+            "en": "Yes! 'grandparents' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'grandparents' starts with letter 'P'.",
+              "en": "The word 'grandparents' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'parents'?",
+            "en": "How many letters are there in the word 'parents'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'parents'?",
+            "en": "How many letters are there in the word 'parents'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'parents': 1, 2, 3...",
+            "en": "Count the letters in 'parents': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'parents' has exactly 7 letters.",
+            "en": "The word 'parents' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'parents':",
+            "en": "Choose the correct phrase with 'parents':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'parents':",
+            "en": "Choose the correct phrase with 'parents':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a parents'.",
+            "en": "Correct! We say 'a parents'."
+          },
+          "data": {
+            "options": [
+              "a parents",
+              "an parents",
+              "two parents",
+              "many parents"
+            ],
+            "correct_answer": "a parents"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'parents'.",
+            "en": "Choose the word: 'parents'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is parents. It is wonderful!'",
+            "en": "We say: 'Look! This is parents. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "parents",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "parents"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s2_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 2: Who Do You Live With?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 2: Who Do You Live With?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 2: Who Do You Live With?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 2: Who Do You Live With?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 2: Who Do You Live With?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 2: Who Do You Live With?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: parents, grandparents!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: parents, grandparents!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

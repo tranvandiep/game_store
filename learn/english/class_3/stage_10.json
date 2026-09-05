@@ -1,0 +1,1144 @@
+{
+  "id": "e3_stage_10",
+  "stage_number": 10,
+  "title": {
+    "vi": "Week 10: School Playground & Computer Room",
+    "en": "Week 10: School Playground & Computer Room"
+  },
+  "subtitle": {
+    "vi": "Places: Playground, computer room, music room, art room",
+    "en": "Places: Playground, computer room, music room, art room"
+  },
+  "icon": "💻",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.689,
+  "required_stars": 27,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "e3_s10_1",
+      "title": {
+        "vi": "Green School Playground",
+        "en": "Green School Playground"
+      },
+      "description": {
+        "vi": "Playing games in the spacious school playground",
+        "en": "Playing games in the spacious school playground"
+      },
+      "icon": "🛝",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s10_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the outdoor school yard with swings, slides, and kids running around. What area is it?",
+            "en": "Look at the outdoor school yard with swings, slides, and kids running around. What area is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the outdoor school yard with swings, slides, and kids running around. What area is it?",
+            "en": "Look at the outdoor school yard with swings, slides, and kids running around. What area is it?"
+          },
+          "hint": {
+            "vi": "Outdoor area provided for children to play in.",
+            "en": "Outdoor area provided for children to play in."
+          },
+          "explanation": {
+            "vi": "It's the sunny school playground.",
+            "en": "It's the sunny school playground."
+          },
+          "data": {
+            "options": [
+              "the school playground",
+              "the principal's office",
+              "a parking lot",
+              "a basement"
+            ],
+            "correct_answer": "the school playground"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u6_playground.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s10_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'playground'?",
+            "en": "What is the first letter of the word 'playground'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'playground'?",
+            "en": "What is the first letter of the word 'playground'?"
+          },
+          "hint": {
+            "vi": "The word 'playground' starts with the letter P.",
+            "en": "The word 'playground' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'playground' begins with the letter 'P'.",
+            "en": "Correct! 'playground' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "playground",
+                  "en": "playground"
+                },
+                "right": {
+                  "vi": "Nghĩa của playground",
+                  "en": "Nghĩa của playground"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "play",
+                  "en": "play"
+                },
+                "right": {
+                  "vi": "Nghĩa của play",
+                  "en": "Nghĩa của play"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "trees",
+                  "en": "trees"
+                },
+                "right": {
+                  "vi": "Nghĩa của trees",
+                  "en": "Nghĩa của trees"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? We play fun games in the school playground.",
+            "en": "Is this English sentence correct for Grade 3? We play fun games in the school playground."
+          },
+          "hint": {
+            "vi": "Remember the pattern: We play fun games in the school playground.",
+            "en": "Remember the pattern: We play fun games in the school playground."
+          },
+          "explanation": {
+            "vi": "Yes! 'We play fun games in the school playground.' is a correct English sentence.",
+            "en": "Yes! 'We play fun games in the school playground.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "We play fun games in the school playground.",
+              "en": "We play fun games in the school playground."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: We play fun games in the school ....",
+            "en": "Drag the correct word to complete the sentence: We play fun games in the school ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'playground'.",
+            "en": "Choose the correct word: 'playground'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'We play fun games in the school playground.'.",
+            "en": "The complete sentence is: 'We play fun games in the school playground.'."
+          },
+          "data": {
+            "prefix_text": "We play fun games in the school ",
+            "suffix_text": ".",
+            "options": [
+              "playground",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "playground"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'playground':",
+            "en": "Spell the English word 'playground':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'playground':",
+            "en": "Spell the English word 'playground':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'playground'.",
+            "en": "Tap the letters in order to spell 'playground'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'playground' correctly.",
+            "en": "Well done! You spelled 'playground' correctly."
+          },
+          "data": {
+            "letters": [
+              "d",
+              "n",
+              "u",
+              "o",
+              "r",
+              "g",
+              "y",
+              "a",
+              "l",
+              "p"
+            ],
+            "target_word": "playground",
+            "target_sequence": [
+              "p",
+              "l",
+              "a",
+              "y",
+              "g",
+              "r",
+              "o",
+              "u",
+              "n",
+              "d"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chúng tôi chơi những trò chơi vui vẻ trên sân trường.' in English?",
+            "en": "How do you say 'Chúng tôi chơi những trò chơi vui vẻ trên sân trường.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chúng tôi chơi những trò chơi vui vẻ trên sân trường.' in English?",
+            "en": "How do you say 'Chúng tôi chơi những trò chơi vui vẻ trên sân trường.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chúng tôi chơi những trò chơi vui vẻ trên sân trường.",
+            "en": "Choose the English sentence that means: Chúng tôi chơi những trò chơi vui vẻ trên sân trường."
+          },
+          "explanation": {
+            "vi": "'We play fun games in the school playground.' means 'Chúng tôi chơi những trò chơi vui vẻ trên sân trường.'.",
+            "en": "'We play fun games in the school playground.' means 'Chúng tôi chơi những trò chơi vui vẻ trên sân trường.'."
+          },
+          "data": {
+            "options": [
+              "We play fun games in the school playground.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "We play fun games in the school playground."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Green School Playground'?",
+            "en": "Which of the following is a word from Unit 'Green School Playground'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Green School Playground'?",
+            "en": "Which of the following is a word from Unit 'Green School Playground'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Green School Playground.",
+            "en": "Remember the words in topic: Green School Playground."
+          },
+          "explanation": {
+            "vi": "'playground' is a key vocabulary word in this topic.",
+            "en": "'playground' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "playground",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "playground"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'play' start with the sound /p/?",
+            "en": "Does the word 'play' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'play' start with the sound /p/? The word 'play' starts with letter 'P'.",
+            "en": "Does the word 'play' start with the sound /p/? The word 'play' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'play'.",
+            "en": "Listen to the first sound of 'play'."
+          },
+          "explanation": {
+            "vi": "Yes! 'play' starts with the sound /p/.",
+            "en": "Yes! 'play' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'play' starts with letter 'P'.",
+              "en": "The word 'play' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'playground'?",
+            "en": "How many letters are there in the word 'playground'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'playground'?",
+            "en": "How many letters are there in the word 'playground'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'playground': 1, 2, 3...",
+            "en": "Count the letters in 'playground': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'playground' has exactly 10 letters.",
+            "en": "The word 'playground' has exactly 10 letters."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'playground':",
+            "en": "Choose the correct phrase with 'playground':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'playground':",
+            "en": "Choose the correct phrase with 'playground':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a playground'.",
+            "en": "Correct! We say 'a playground'."
+          },
+          "data": {
+            "options": [
+              "a playground",
+              "an playground",
+              "two playground",
+              "many playground"
+            ],
+            "correct_answer": "a playground"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'playground'.",
+            "en": "Choose the noun: 'playground'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our playground. It is very nice!'",
+            "en": "We say: 'Look! This is our playground. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "playground",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "playground"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Green School Playground'?",
+            "en": "Which English sentence best describes the topic 'Green School Playground'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Green School Playground'?",
+            "en": "Which English sentence best describes the topic 'Green School Playground'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Green School Playground'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Green School Playground'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: playground, play!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: playground, play!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s10_2",
+      "title": {
+        "vi": "Modern Computer Room",
+        "en": "Modern Computer Room"
+      },
+      "description": {
+        "vi": "Practicing typing and coding in computer room",
+        "en": "Practicing typing and coding in computer room"
+      },
+      "icon": "🖥️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s10_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the modern classroom equipped with desktop computers and screens. What room is it?",
+            "en": "Look at the modern classroom equipped with desktop computers and screens. What room is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the modern classroom equipped with desktop computers and screens. What room is it?",
+            "en": "Look at the modern classroom equipped with desktop computers and screens. What room is it?"
+          },
+          "hint": {
+            "vi": "A room full of computers used for IT lessons.",
+            "en": "A room full of computers used for IT lessons."
+          },
+          "explanation": {
+            "vi": "It's the school computer room.",
+            "en": "It's the school computer room."
+          },
+          "data": {
+            "options": [
+              "the computer room",
+              "the school canteen",
+              "the gym hall",
+              "the restroom"
+            ],
+            "correct_answer": "the computer room"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u6_computer_room.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s10_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'computer'?",
+            "en": "What is the first letter of the word 'computer'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'computer'?",
+            "en": "What is the first letter of the word 'computer'?"
+          },
+          "hint": {
+            "vi": "The word 'computer' starts with the letter C.",
+            "en": "The word 'computer' starts with the letter C."
+          },
+          "explanation": {
+            "vi": "Correct! 'computer' begins with the letter 'C'.",
+            "en": "Correct! 'computer' begins with the letter 'C'."
+          },
+          "data": {
+            "options": [
+              "Letter C",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter C"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "computer",
+                  "en": "computer"
+                },
+                "right": {
+                  "vi": "Nghĩa của computer",
+                  "en": "Nghĩa của computer"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "room",
+                  "en": "room"
+                },
+                "right": {
+                  "vi": "Nghĩa của room",
+                  "en": "Nghĩa của room"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "keyboard",
+                  "en": "keyboard"
+                },
+                "right": {
+                  "vi": "Nghĩa của keyboard",
+                  "en": "Nghĩa của keyboard"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? We learn English in the computer room.",
+            "en": "Is this English sentence correct for Grade 3? We learn English in the computer room."
+          },
+          "hint": {
+            "vi": "Remember the pattern: We learn English in the computer room.",
+            "en": "Remember the pattern: We learn English in the computer room."
+          },
+          "explanation": {
+            "vi": "Yes! 'We learn English in the computer room.' is a correct English sentence.",
+            "en": "Yes! 'We learn English in the computer room.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "We learn English in the computer room.",
+              "en": "We learn English in the computer room."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: We learn English in the computer ....",
+            "en": "Drag the correct word to complete the sentence: We learn English in the computer ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'room'.",
+            "en": "Choose the correct word: 'room'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'We learn English in the computer room.'.",
+            "en": "The complete sentence is: 'We learn English in the computer room.'."
+          },
+          "data": {
+            "prefix_text": "We learn English in the computer ",
+            "suffix_text": ".",
+            "options": [
+              "room",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "room"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'computer':",
+            "en": "Spell the English word 'computer':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'computer':",
+            "en": "Spell the English word 'computer':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'computer'.",
+            "en": "Tap the letters in order to spell 'computer'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'computer' correctly.",
+            "en": "Well done! You spelled 'computer' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "t",
+              "u",
+              "p",
+              "m",
+              "o",
+              "c"
+            ],
+            "target_word": "computer",
+            "target_sequence": [
+              "c",
+              "o",
+              "m",
+              "p",
+              "u",
+              "t",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chúng tôi học tiếng Anh trong phòng tin học.' in English?",
+            "en": "How do you say 'Chúng tôi học tiếng Anh trong phòng tin học.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chúng tôi học tiếng Anh trong phòng tin học.' in English?",
+            "en": "How do you say 'Chúng tôi học tiếng Anh trong phòng tin học.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chúng tôi học tiếng Anh trong phòng tin học.",
+            "en": "Choose the English sentence that means: Chúng tôi học tiếng Anh trong phòng tin học."
+          },
+          "explanation": {
+            "vi": "'We learn English in the computer room.' means 'Chúng tôi học tiếng Anh trong phòng tin học.'.",
+            "en": "'We learn English in the computer room.' means 'Chúng tôi học tiếng Anh trong phòng tin học.'."
+          },
+          "data": {
+            "options": [
+              "We learn English in the computer room.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "We learn English in the computer room."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Modern Computer Room'?",
+            "en": "Which of the following is a word from Unit 'Modern Computer Room'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Modern Computer Room'?",
+            "en": "Which of the following is a word from Unit 'Modern Computer Room'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Modern Computer Room.",
+            "en": "Remember the words in topic: Modern Computer Room."
+          },
+          "explanation": {
+            "vi": "'computer' is a key vocabulary word in this topic.",
+            "en": "'computer' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "computer",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "computer"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'room' start with the sound /c/?",
+            "en": "Does the word 'room' start with the sound /c/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'room' start with the sound /c/? The word 'room' starts with letter 'C'.",
+            "en": "Does the word 'room' start with the sound /c/? The word 'room' starts with letter 'C'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'room'.",
+            "en": "Listen to the first sound of 'room'."
+          },
+          "explanation": {
+            "vi": "Yes! 'room' starts with the sound /c/.",
+            "en": "Yes! 'room' starts with the sound /c/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'room' starts with letter 'C'.",
+              "en": "The word 'room' starts with letter 'C'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'computer'?",
+            "en": "How many letters are there in the word 'computer'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'computer'?",
+            "en": "How many letters are there in the word 'computer'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'computer': 1, 2, 3...",
+            "en": "Count the letters in 'computer': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'computer' has exactly 8 letters.",
+            "en": "The word 'computer' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'computer':",
+            "en": "Choose the correct phrase with 'computer':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'computer':",
+            "en": "Choose the correct phrase with 'computer':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a computer'.",
+            "en": "Correct! We say 'a computer'."
+          },
+          "data": {
+            "options": [
+              "a computer",
+              "an computer",
+              "two computer",
+              "many computer"
+            ],
+            "correct_answer": "a computer"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'computer'.",
+            "en": "Choose the noun: 'computer'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our computer. It is very nice!'",
+            "en": "We say: 'Look! This is our computer. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "computer",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "computer"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s10_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Modern Computer Room'?",
+            "en": "Which English sentence best describes the topic 'Modern Computer Room'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Modern Computer Room'?",
+            "en": "Which English sentence best describes the topic 'Modern Computer Room'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Modern Computer Room'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Modern Computer Room'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: computer, room!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: computer, room!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

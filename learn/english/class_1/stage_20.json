@@ -1,0 +1,1124 @@
+{
+  "id": "e1_stage_20",
+  "stage_number": 20,
+  "title": {
+    "vi": "Week 20: Sweet Mangoes & Zoo Fun",
+    "en": "Week 20: Sweet Mangoes & Zoo Fun"
+  },
+  "subtitle": {
+    "vi": "Delicious tropical fruits and animal sounds",
+    "en": "Delicious tropical fruits and animal sounds"
+  },
+  "icon": "🍌",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.398,
+  "required_stars": 57,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "e1_s20_1",
+      "title": {
+        "vi": "Sweet Ripe Mangoes",
+        "en": "Sweet Ripe Mangoes"
+      },
+      "description": {
+        "vi": "Tasting sweet yellow mangoes",
+        "en": "Tasting sweet yellow mangoes"
+      },
+      "icon": "🥭",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s20_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the tropical yellow fruit with sweet juice in the bowl. What fruit is it?",
+            "en": "Look at the tropical yellow fruit with sweet juice in the bowl. What fruit is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the tropical yellow fruit with sweet juice in the bowl. What fruit is it?",
+            "en": "Look at the tropical yellow fruit with sweet juice in the bowl. What fruit is it?"
+          },
+          "hint": {
+            "vi": "Yellow, juicy, and delicious tropical fruit.",
+            "en": "Yellow, juicy, and delicious tropical fruit."
+          },
+          "explanation": {
+            "vi": "It's a delicious ripe yellow mango.",
+            "en": "It's a delicious ripe yellow mango."
+          },
+          "data": {
+            "options": [
+              "a sweet ripe mango",
+              "a sour lemon",
+              "a hard coconut",
+              "a spicy pepper"
+            ],
+            "correct_answer": "a sweet ripe mango"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u10_sweet_mango.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'mango'?",
+            "en": "What is the first letter of the word 'mango'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'mango'?",
+            "en": "What is the first letter of the word 'mango'?"
+          },
+          "hint": {
+            "vi": "The word 'mango' starts with the letter M.",
+            "en": "The word 'mango' starts with the letter M."
+          },
+          "explanation": {
+            "vi": "Correct! 'mango' begins with the letter 'M'.",
+            "en": "Correct! 'mango' begins with the letter 'M'."
+          },
+          "data": {
+            "options": [
+              "Letter M",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter M"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "mango",
+                  "en": "mango"
+                },
+                "right": {
+                  "vi": "Nghĩa của mango",
+                  "en": "Nghĩa của mango"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "yellow",
+                  "en": "yellow"
+                },
+                "right": {
+                  "vi": "Nghĩa của yellow",
+                  "en": "Nghĩa của yellow"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "sweet",
+                  "en": "sweet"
+                },
+                "right": {
+                  "vi": "Nghĩa của sweet",
+                  "en": "Nghĩa của sweet"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? I like sweet ripe mangoes.",
+            "en": "Is this English sentence correct for Grade 1? I like sweet ripe mangoes."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I like sweet ripe mangoes.",
+            "en": "Remember the pattern: I like sweet ripe mangoes."
+          },
+          "explanation": {
+            "vi": "Yes! 'I like sweet ripe mangoes.' is a correct English sentence.",
+            "en": "Yes! 'I like sweet ripe mangoes.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I like sweet ripe mangoes.",
+              "en": "I like sweet ripe mangoes."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I like sweet ripe ....",
+            "en": "Drag the correct word to complete the sentence: I like sweet ripe ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'mangoes'.",
+            "en": "Choose the correct word: 'mangoes'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I like sweet ripe mangoes.'.",
+            "en": "The complete sentence is: 'I like sweet ripe mangoes.'."
+          },
+          "data": {
+            "prefix_text": "I like sweet ripe ",
+            "suffix_text": ".",
+            "options": [
+              "mangoes",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "mangoes"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'mango':",
+            "en": "Spell the English word 'mango':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'mango':",
+            "en": "Spell the English word 'mango':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'mango'.",
+            "en": "Tap the letters in order to spell 'mango'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'mango' correctly.",
+            "en": "Well done! You spelled 'mango' correctly."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "g",
+              "n",
+              "a",
+              "m"
+            ],
+            "target_word": "mango",
+            "target_sequence": [
+              "m",
+              "a",
+              "n",
+              "g",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi thích những quả xoài chín ngọt.' in English?",
+            "en": "How do you say 'Tôi thích những quả xoài chín ngọt.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi thích những quả xoài chín ngọt.' in English?",
+            "en": "How do you say 'Tôi thích những quả xoài chín ngọt.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi thích những quả xoài chín ngọt.",
+            "en": "Choose the English sentence that means: Tôi thích những quả xoài chín ngọt."
+          },
+          "explanation": {
+            "vi": "'I like sweet ripe mangoes.' means 'Tôi thích những quả xoài chín ngọt.'.",
+            "en": "'I like sweet ripe mangoes.' means 'Tôi thích những quả xoài chín ngọt.'."
+          },
+          "data": {
+            "options": [
+              "I like sweet ripe mangoes.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I like sweet ripe mangoes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Sweet Ripe Mangoes'?",
+            "en": "Which of the following is a word from Unit 'Sweet Ripe Mangoes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Sweet Ripe Mangoes'?",
+            "en": "Which of the following is a word from Unit 'Sweet Ripe Mangoes'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Sweet Ripe Mangoes.",
+            "en": "Remember the words in topic: Sweet Ripe Mangoes."
+          },
+          "explanation": {
+            "vi": "'mango' is a key vocabulary word in this topic.",
+            "en": "'mango' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "mango",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "mango"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'yellow' start with the sound /m/?",
+            "en": "Does the word 'yellow' start with the sound /m/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'yellow' start with the sound /m/? The word 'yellow' starts with letter 'M'.",
+            "en": "Does the word 'yellow' start with the sound /m/? The word 'yellow' starts with letter 'M'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'yellow'.",
+            "en": "Listen to the first sound of 'yellow'."
+          },
+          "explanation": {
+            "vi": "Yes! 'yellow' starts with the sound /m/.",
+            "en": "Yes! 'yellow' starts with the sound /m/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'yellow' starts with letter 'M'.",
+              "en": "The word 'yellow' starts with letter 'M'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'mango'?",
+            "en": "How many letters are there in the word 'mango'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'mango'?",
+            "en": "How many letters are there in the word 'mango'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'mango': 1, 2, 3...",
+            "en": "Count the letters in 'mango': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'mango' has exactly 5 letters.",
+            "en": "The word 'mango' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'mango':",
+            "en": "Choose the correct article before 'mango':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'mango':",
+            "en": "Choose the correct article before 'mango':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a mango'.",
+            "en": "Correct! We say 'a mango'."
+          },
+          "data": {
+            "options": [
+              "a mango",
+              "an mango",
+              "two mango",
+              "many mango"
+            ],
+            "correct_answer": "a mango"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "M",
+                  "en": "M"
+                },
+                "right": {
+                  "vi": "m",
+                  "en": "m"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Sweet Ripe Mangoes'?",
+            "en": "Which English sentence best describes the topic 'Sweet Ripe Mangoes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Sweet Ripe Mangoes'?",
+            "en": "Which English sentence best describes the topic 'Sweet Ripe Mangoes'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Sweet Ripe Mangoes'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Sweet Ripe Mangoes'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: mango, yellow!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: mango, yellow!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s20_2",
+      "title": {
+        "vi": "Zoo Tour: Animals Galore",
+        "en": "Zoo Tour: Animals Galore"
+      },
+      "description": {
+        "vi": "Seeing elephants, tigers, and monkeys",
+        "en": "Seeing elephants, tigers, and monkeys"
+      },
+      "icon": "🐘",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s20_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the colorful zoo entrance with friendly animal statues. What place is it?",
+            "en": "Look at the colorful zoo entrance with friendly animal statues. What place is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the colorful zoo entrance with friendly animal statues. What place is it?",
+            "en": "Look at the colorful zoo entrance with friendly animal statues. What place is it?"
+          },
+          "hint": {
+            "vi": "A park where you can see live animals.",
+            "en": "A park where you can see live animals."
+          },
+          "explanation": {
+            "vi": "It's a wonderful animal zoo park.",
+            "en": "It's a wonderful animal zoo park."
+          },
+          "data": {
+            "options": [
+              "a wonderful animal zoo",
+              "a train station",
+              "a supermarket",
+              "a hospital"
+            ],
+            "correct_answer": "a wonderful animal zoo"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u10_zoo_animals.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'zoo'?",
+            "en": "What is the first letter of the word 'zoo'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'zoo'?",
+            "en": "What is the first letter of the word 'zoo'?"
+          },
+          "hint": {
+            "vi": "The word 'zoo' starts with the letter Z.",
+            "en": "The word 'zoo' starts with the letter Z."
+          },
+          "explanation": {
+            "vi": "Correct! 'zoo' begins with the letter 'Z'.",
+            "en": "Correct! 'zoo' begins with the letter 'Z'."
+          },
+          "data": {
+            "options": [
+              "Letter Z",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter Z"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "zoo",
+                  "en": "zoo"
+                },
+                "right": {
+                  "vi": "Nghĩa của zoo",
+                  "en": "Nghĩa của zoo"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "animal",
+                  "en": "animal"
+                },
+                "right": {
+                  "vi": "Nghĩa của animal",
+                  "en": "Nghĩa của animal"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tour",
+                  "en": "tour"
+                },
+                "right": {
+                  "vi": "Nghĩa của tour",
+                  "en": "Nghĩa của tour"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? We see many animals at the zoo.",
+            "en": "Is this English sentence correct for Grade 1? We see many animals at the zoo."
+          },
+          "hint": {
+            "vi": "Remember the pattern: We see many animals at the zoo.",
+            "en": "Remember the pattern: We see many animals at the zoo."
+          },
+          "explanation": {
+            "vi": "Yes! 'We see many animals at the zoo.' is a correct English sentence.",
+            "en": "Yes! 'We see many animals at the zoo.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "We see many animals at the zoo.",
+              "en": "We see many animals at the zoo."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: We see many animals at the ....",
+            "en": "Drag the correct word to complete the sentence: We see many animals at the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'zoo'.",
+            "en": "Choose the correct word: 'zoo'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'We see many animals at the zoo.'.",
+            "en": "The complete sentence is: 'We see many animals at the zoo.'."
+          },
+          "data": {
+            "prefix_text": "We see many animals at the ",
+            "suffix_text": ".",
+            "options": [
+              "zoo",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "zoo"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'zoo':",
+            "en": "Spell the English word 'zoo':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'zoo':",
+            "en": "Spell the English word 'zoo':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'zoo'.",
+            "en": "Tap the letters in order to spell 'zoo'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'zoo' correctly.",
+            "en": "Well done! You spelled 'zoo' correctly."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "o",
+              "z"
+            ],
+            "target_word": "zoo",
+            "target_sequence": [
+              "z",
+              "o",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chúng tôi thấy nhiều loài động vật tại vườn thú.' in English?",
+            "en": "How do you say 'Chúng tôi thấy nhiều loài động vật tại vườn thú.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chúng tôi thấy nhiều loài động vật tại vườn thú.' in English?",
+            "en": "How do you say 'Chúng tôi thấy nhiều loài động vật tại vườn thú.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chúng tôi thấy nhiều loài động vật tại vườn thú.",
+            "en": "Choose the English sentence that means: Chúng tôi thấy nhiều loài động vật tại vườn thú."
+          },
+          "explanation": {
+            "vi": "'We see many animals at the zoo.' means 'Chúng tôi thấy nhiều loài động vật tại vườn thú.'.",
+            "en": "'We see many animals at the zoo.' means 'Chúng tôi thấy nhiều loài động vật tại vườn thú.'."
+          },
+          "data": {
+            "options": [
+              "We see many animals at the zoo.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "We see many animals at the zoo."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Zoo Tour: Animals Galore'?",
+            "en": "Which of the following is a word from Unit 'Zoo Tour: Animals Galore'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Zoo Tour: Animals Galore'?",
+            "en": "Which of the following is a word from Unit 'Zoo Tour: Animals Galore'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Zoo Tour: Animals Galore.",
+            "en": "Remember the words in topic: Zoo Tour: Animals Galore."
+          },
+          "explanation": {
+            "vi": "'zoo' is a key vocabulary word in this topic.",
+            "en": "'zoo' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "zoo",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "zoo"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'animal' start with the sound /z/?",
+            "en": "Does the word 'animal' start with the sound /z/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'animal' start with the sound /z/? The word 'animal' starts with letter 'Z'.",
+            "en": "Does the word 'animal' start with the sound /z/? The word 'animal' starts with letter 'Z'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'animal'.",
+            "en": "Listen to the first sound of 'animal'."
+          },
+          "explanation": {
+            "vi": "Yes! 'animal' starts with the sound /z/.",
+            "en": "Yes! 'animal' starts with the sound /z/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'animal' starts with letter 'Z'.",
+              "en": "The word 'animal' starts with letter 'Z'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'zoo'?",
+            "en": "How many letters are there in the word 'zoo'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'zoo'?",
+            "en": "How many letters are there in the word 'zoo'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'zoo': 1, 2, 3...",
+            "en": "Count the letters in 'zoo': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'zoo' has exactly 3 letters.",
+            "en": "The word 'zoo' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'zoo':",
+            "en": "Choose the correct article before 'zoo':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'zoo':",
+            "en": "Choose the correct article before 'zoo':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a zoo'.",
+            "en": "Correct! We say 'a zoo'."
+          },
+          "data": {
+            "options": [
+              "a zoo",
+              "an zoo",
+              "two zoo",
+              "many zoo"
+            ],
+            "correct_answer": "a zoo"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Z",
+                  "en": "Z"
+                },
+                "right": {
+                  "vi": "z",
+                  "en": "z"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s20_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Zoo Tour: Animals Galore'?",
+            "en": "Which English sentence best describes the topic 'Zoo Tour: Animals Galore'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Zoo Tour: Animals Galore'?",
+            "en": "Which English sentence best describes the topic 'Zoo Tour: Animals Galore'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Zoo Tour: Animals Galore'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Zoo Tour: Animals Galore'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: zoo, animal!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: zoo, animal!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1128 @@
+{
+  "id": "e2_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Week 1: Starter - Hello Again!",
+    "en": "Week 1: Starter - Hello Again!"
+  },
+  "subtitle": {
+    "vi": "Welcome back to Grade 2 English with friends!",
+    "en": "Welcome back to Grade 2 English with friends!"
+  },
+  "icon": "👋",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e2_s1_1",
+      "title": {
+        "vi": "Starter: Welcome Back Friends!",
+        "en": "Starter: Welcome Back Friends!"
+      },
+      "description": {
+        "vi": "Greetings: Hello again, How are you? I'm fine, thank you!",
+        "en": "Greetings: Hello again, How are you? I'm fine, thank you!"
+      },
+      "icon": "🎒",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the happy students waving their hands on the first day of Grade 2. What are they saying?",
+            "en": "Look at the happy students waving their hands on the first day of Grade 2. What are they saying?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the happy students waving their hands on the first day of Grade 2. What are they saying?",
+            "en": "Look at the happy students waving their hands on the first day of Grade 2. What are they saying?"
+          },
+          "hint": {
+            "vi": "They are greeting each other joyfully at school.",
+            "en": "They are greeting each other joyfully at school."
+          },
+          "explanation": {
+            "vi": "They are saying: 'Hello again! How are you?'",
+            "en": "They are saying: 'Hello again! How are you?'"
+          },
+          "data": {
+            "options": [
+              "Hello again! How are you?",
+              "Good night, go to bed!",
+              "I am so angry!",
+              "Goodbye forever!"
+            ],
+            "correct_answer": "Hello again! How are you?"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_starter_hello.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s1_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'hello'?",
+            "en": "What is the first letter of the word 'hello'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'hello'?",
+            "en": "What is the first letter of the word 'hello'?"
+          },
+          "hint": {
+            "vi": "The word 'hello' starts with the letter H.",
+            "en": "The word 'hello' starts with the letter H."
+          },
+          "explanation": {
+            "vi": "Correct! 'hello' begins with the letter 'H'.",
+            "en": "Correct! 'hello' begins with the letter 'H'."
+          },
+          "data": {
+            "options": [
+              "Letter H",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter H"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "hello",
+                  "en": "hello"
+                },
+                "right": {
+                  "vi": "Nghĩa của hello",
+                  "en": "Nghĩa của hello"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "friends",
+                  "en": "friends"
+                },
+                "right": {
+                  "vi": "Nghĩa của friends",
+                  "en": "Nghĩa của friends"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "welcome",
+                  "en": "welcome"
+                },
+                "right": {
+                  "vi": "Nghĩa của welcome",
+                  "en": "Nghĩa của welcome"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Hello again! How are you today?",
+            "en": "Is this English sentence correct for Grade 2? Hello again! How are you today?"
+          },
+          "hint": {
+            "vi": "Remember the pattern: Hello again! How are you today?",
+            "en": "Remember the pattern: Hello again! How are you today?"
+          },
+          "explanation": {
+            "vi": "Yes! 'Hello again! How are you today?' is a correct English sentence.",
+            "en": "Yes! 'Hello again! How are you today?' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Hello again! How are you today?",
+              "en": "Hello again! How are you today?"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Hello again! How are you ....",
+            "en": "Drag the correct word to complete the sentence: Hello again! How are you ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'today?'.",
+            "en": "Choose the correct word: 'today?'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Hello again! How are you today?.'.",
+            "en": "The complete sentence is: 'Hello again! How are you today?.'."
+          },
+          "data": {
+            "prefix_text": "Hello again! How are you ",
+            "suffix_text": ".",
+            "options": [
+              "today?",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "today?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'hello':",
+            "en": "Spell the English word 'hello':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'hello':",
+            "en": "Spell the English word 'hello':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'hello'.",
+            "en": "Tap the letters in order to spell 'hello'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'hello' correctly.",
+            "en": "Well done! You spelled 'hello' correctly."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "l",
+              "l",
+              "e",
+              "h"
+            ],
+            "target_word": "hello",
+            "target_sequence": [
+              "h",
+              "e",
+              "l",
+              "l",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Xin chào gặp lại! Hôm nay bạn có khoẻ không?' in English?",
+            "en": "How do you say 'Xin chào gặp lại! Hôm nay bạn có khoẻ không?' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Xin chào gặp lại! Hôm nay bạn có khoẻ không?' in English?",
+            "en": "How do you say 'Xin chào gặp lại! Hôm nay bạn có khoẻ không?' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Xin chào gặp lại! Hôm nay bạn có khoẻ không?",
+            "en": "Choose the English sentence that means: Xin chào gặp lại! Hôm nay bạn có khoẻ không?"
+          },
+          "explanation": {
+            "vi": "'Hello again! How are you today?' means 'Xin chào gặp lại! Hôm nay bạn có khoẻ không?'.",
+            "en": "'Hello again! How are you today?' means 'Xin chào gặp lại! Hôm nay bạn có khoẻ không?'."
+          },
+          "data": {
+            "options": [
+              "Hello again! How are you today?",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Hello again! How are you today?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Starter: Welcome Back Friends!'?",
+            "en": "Which of the following is a word from Unit 'Starter: Welcome Back Friends!'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Starter: Welcome Back Friends!'?",
+            "en": "Which of the following is a word from Unit 'Starter: Welcome Back Friends!'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Starter: Welcome Back Friends!.",
+            "en": "Remember the words in topic: Starter: Welcome Back Friends!."
+          },
+          "explanation": {
+            "vi": "'hello' is a key vocabulary word in this topic.",
+            "en": "'hello' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "hello",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "hello"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'friends' start with the sound /h/?",
+            "en": "Does the word 'friends' start with the sound /h/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'friends' start with the sound /h/? The word 'friends' starts with letter 'H'.",
+            "en": "Does the word 'friends' start with the sound /h/? The word 'friends' starts with letter 'H'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'friends'.",
+            "en": "Listen to the first sound of 'friends'."
+          },
+          "explanation": {
+            "vi": "Yes! 'friends' starts with the sound /h/.",
+            "en": "Yes! 'friends' starts with the sound /h/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'friends' starts with letter 'H'.",
+              "en": "The word 'friends' starts with letter 'H'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'hello'?",
+            "en": "How many letters are there in the word 'hello'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'hello'?",
+            "en": "How many letters are there in the word 'hello'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'hello': 1, 2, 3...",
+            "en": "Count the letters in 'hello': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'hello' has exactly 5 letters.",
+            "en": "The word 'hello' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'hello':",
+            "en": "Choose the correct phrase with 'hello':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'hello':",
+            "en": "Choose the correct phrase with 'hello':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a hello'.",
+            "en": "Correct! We say 'a hello'."
+          },
+          "data": {
+            "options": [
+              "a hello",
+              "an hello",
+              "five hello",
+              "many hello"
+            ],
+            "correct_answer": "a hello"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'hello'.",
+            "en": "Choose the food or object: 'hello'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like hello? - Yes, I do!'",
+            "en": "We ask: 'Do you like hello? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "hello",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "hello"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Starter: Welcome Back Friends!'?",
+            "en": "Which English sentence best describes the topic 'Starter: Welcome Back Friends!'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Starter: Welcome Back Friends!'?",
+            "en": "Which English sentence best describes the topic 'Starter: Welcome Back Friends!'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Starter: Welcome Back Friends!'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Starter: Welcome Back Friends!'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: hello, friends!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: hello, friends!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s1_2",
+      "title": {
+        "vi": "Starter: Classroom Action Commands",
+        "en": "Starter: Classroom Action Commands"
+      },
+      "description": {
+        "vi": "Stand up, sit down, open your book, hands up",
+        "en": "Stand up, sit down, open your book, hands up"
+      },
+      "icon": "🙋",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s1_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the teacher giving cheerful commands to the class. What action are students doing?",
+            "en": "Look at the teacher giving cheerful commands to the class. What action are students doing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the teacher giving cheerful commands to the class. What action are students doing?",
+            "en": "Look at the teacher giving cheerful commands to the class. What action are students doing?"
+          },
+          "hint": {
+            "vi": "They are on their feet, clapping hands happily.",
+            "en": "They are on their feet, clapping hands happily."
+          },
+          "explanation": {
+            "vi": "The students are standing up and clapping their hands.",
+            "en": "The students are standing up and clapping their hands."
+          },
+          "data": {
+            "options": [
+              "standing up and clapping hands",
+              "sleeping on the floor",
+              "eating lunch",
+              "riding a bike"
+            ],
+            "correct_answer": "standing up and clapping hands"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_starter_commands.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s1_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'stand'?",
+            "en": "What is the first letter of the word 'stand'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'stand'?",
+            "en": "What is the first letter of the word 'stand'?"
+          },
+          "hint": {
+            "vi": "The word 'stand' starts with the letter S.",
+            "en": "The word 'stand' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'stand' begins with the letter 'S'.",
+            "en": "Correct! 'stand' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "stand",
+                  "en": "stand"
+                },
+                "right": {
+                  "vi": "Nghĩa của stand",
+                  "en": "Nghĩa của stand"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "sit",
+                  "en": "sit"
+                },
+                "right": {
+                  "vi": "Nghĩa của sit",
+                  "en": "Nghĩa của sit"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "listen",
+                  "en": "listen"
+                },
+                "right": {
+                  "vi": "Nghĩa của listen",
+                  "en": "Nghĩa của listen"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Stand up and clap your hands!",
+            "en": "Is this English sentence correct for Grade 2? Stand up and clap your hands!"
+          },
+          "hint": {
+            "vi": "Remember the pattern: Stand up and clap your hands!",
+            "en": "Remember the pattern: Stand up and clap your hands!"
+          },
+          "explanation": {
+            "vi": "Yes! 'Stand up and clap your hands!' is a correct English sentence.",
+            "en": "Yes! 'Stand up and clap your hands!' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Stand up and clap your hands!",
+              "en": "Stand up and clap your hands!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Stand up and clap your ....",
+            "en": "Drag the correct word to complete the sentence: Stand up and clap your ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'hands!'.",
+            "en": "Choose the correct word: 'hands!'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Stand up and clap your hands!.'.",
+            "en": "The complete sentence is: 'Stand up and clap your hands!.'."
+          },
+          "data": {
+            "prefix_text": "Stand up and clap your ",
+            "suffix_text": ".",
+            "options": [
+              "hands!",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "hands!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'stand':",
+            "en": "Spell the English word 'stand':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'stand':",
+            "en": "Spell the English word 'stand':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'stand'.",
+            "en": "Tap the letters in order to spell 'stand'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'stand' correctly.",
+            "en": "Well done! You spelled 'stand' correctly."
+          },
+          "data": {
+            "letters": [
+              "d",
+              "n",
+              "a",
+              "t",
+              "s"
+            ],
+            "target_word": "stand",
+            "target_sequence": [
+              "s",
+              "t",
+              "a",
+              "n",
+              "d"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Đứng lên và vỗ tay nào!' in English?",
+            "en": "How do you say 'Đứng lên và vỗ tay nào!' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Đứng lên và vỗ tay nào!' in English?",
+            "en": "How do you say 'Đứng lên và vỗ tay nào!' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Đứng lên và vỗ tay nào!",
+            "en": "Choose the English sentence that means: Đứng lên và vỗ tay nào!"
+          },
+          "explanation": {
+            "vi": "'Stand up and clap your hands!' means 'Đứng lên và vỗ tay nào!'.",
+            "en": "'Stand up and clap your hands!' means 'Đứng lên và vỗ tay nào!'."
+          },
+          "data": {
+            "options": [
+              "Stand up and clap your hands!",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Stand up and clap your hands!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Starter: Classroom Action Commands'?",
+            "en": "Which of the following is a word from Unit 'Starter: Classroom Action Commands'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Starter: Classroom Action Commands'?",
+            "en": "Which of the following is a word from Unit 'Starter: Classroom Action Commands'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Starter: Classroom Action Commands.",
+            "en": "Remember the words in topic: Starter: Classroom Action Commands."
+          },
+          "explanation": {
+            "vi": "'stand' is a key vocabulary word in this topic.",
+            "en": "'stand' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "stand",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "stand"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'sit' start with the sound /s/?",
+            "en": "Does the word 'sit' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'sit' start with the sound /s/? The word 'sit' starts with letter 'S'.",
+            "en": "Does the word 'sit' start with the sound /s/? The word 'sit' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'sit'.",
+            "en": "Listen to the first sound of 'sit'."
+          },
+          "explanation": {
+            "vi": "Yes! 'sit' starts with the sound /s/.",
+            "en": "Yes! 'sit' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'sit' starts with letter 'S'.",
+              "en": "The word 'sit' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'stand'?",
+            "en": "How many letters are there in the word 'stand'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'stand'?",
+            "en": "How many letters are there in the word 'stand'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'stand': 1, 2, 3...",
+            "en": "Count the letters in 'stand': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'stand' has exactly 5 letters.",
+            "en": "The word 'stand' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'stand':",
+            "en": "Choose the correct phrase with 'stand':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'stand':",
+            "en": "Choose the correct phrase with 'stand':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a stand'.",
+            "en": "Correct! We say 'a stand'."
+          },
+          "data": {
+            "options": [
+              "a stand",
+              "an stand",
+              "five stand",
+              "many stand"
+            ],
+            "correct_answer": "a stand"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'stand'.",
+            "en": "Choose the food or object: 'stand'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like stand? - Yes, I do!'",
+            "en": "We ask: 'Do you like stand? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "stand",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "stand"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s1_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Starter: Classroom Action Commands'?",
+            "en": "Which English sentence best describes the topic 'Starter: Classroom Action Commands'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Starter: Classroom Action Commands'?",
+            "en": "Which English sentence best describes the topic 'Starter: Classroom Action Commands'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Starter: Classroom Action Commands'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Starter: Classroom Action Commands'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: stand, sit!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: stand, sit!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

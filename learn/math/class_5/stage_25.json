@@ -1,0 +1,977 @@
+{
+  "id": "m5_stage_25",
+  "stage_number": 25,
+  "title": {
+    "vi": "Chặng 25: Bảng Đơn Vị Thời Gian & Phép Cộng, Trừ Thời Gian",
+    "en": "Stage 25: Time Units Table & Adding/Subtracting Time"
+  },
+  "subtitle": {
+    "vi": "Quy đổi đơn vị thời gian và tính toán có chuyển đổi",
+    "en": "Converting time units and regrouping hours, minutes, seconds"
+  },
+  "icon": "⏰",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFF00BCD4",
+  "topics": [
+    {
+      "id": "m5_t25_1",
+      "title": {
+        "vi": "Bảng đơn vị đo Thời Gian",
+        "en": "Time Units Table"
+      },
+      "description": {
+        "vi": "1 thế kỉ = 100 năm; 1 năm = 12 tháng; 1 tuần = 7 ngày; 1 ngày = 24 giờ; 1 giờ = 60 phút; 1 phút = 60 giây",
+        "en": "Standard time conversions: century, year, month, week, day, hour, minute, second"
+      },
+      "icon": "⏰",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t25_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "1,5 giờ đổi ra phút là bao nhiêu phút?",
+            "en": "Convert 1.5 hours to minutes:"
+          },
+          "tts_prompt": {
+            "vi": "1,5 giờ đổi ra phút là bao nhiêu phút?",
+            "en": "Convert 1.5 hours to minutes:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 90,
+            "unit": "phút"
+          },
+          "hint": {
+            "vi": "1,5 x 60 = 90 phút.",
+            "en": "90 minutes."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 90 phút. 1,5 x 60 = 90 phút.",
+            "en": "The exact result is 90 phút. 90 minutes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các khoảng thời gian tương đương:",
+            "en": "Match equivalent time intervals:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các khoảng thời gian tương đương:",
+            "en": "Match equivalent time intervals:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "3/4 giờ (0,75 giờ)",
+                "right": "45 phút"
+              },
+              {
+                "id": "p2",
+                "left": "1/2 giờ (0,5 giờ)",
+                "right": "30 phút"
+              },
+              {
+                "id": "p3",
+                "left": "1/4 giờ (0,25 giờ)",
+                "right": "15 phút"
+              }
+            ]
+          },
+          "hint": {
+            "vi": "Đổi phân số giờ sang phút.",
+            "en": "Fraction of hour to minutes."
+          },
+          "explanation": {
+            "vi": "Nối chính xác các cặp tương ứng. Đổi phân số giờ sang phút.",
+            "en": "Match corresponding pairs accurately. Fraction of hour to minutes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 20 : 100 = 40.",
+            "en": "Result is 40."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              }
+            ],
+            "correct_answer": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một xe máy đi với vận tốc 30 km/giờ trong 3 giờ. Quãng đường đi được là:",
+            "en": "A vehicle travels at 30 km/h for 3 hours. Distance traveled is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính quãng đường khi vận tốc 30 km trên giờ và thời gian 3 giờ",
+            "en": "Calculate distance with speed 30 and time 3"
+          },
+          "hint": {
+            "vi": "Quãng đường = Vận tốc x Thời gian.",
+            "en": "Distance = Speed x Time."
+          },
+          "explanation": {
+            "vi": "30 x 3 = 90 km.",
+            "en": "30 x 3 = 90 km."
+          },
+          "data": {
+            "prefix_text": "Quãng đường là: ",
+            "suffix_text": " km",
+            "correct_number": "90"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t25_2",
+      "title": {
+        "vi": "Phép cộng Số Đo Thời Gian",
+        "en": "Adding Time Measurements"
+      },
+      "description": {
+        "vi": "Cộng từng loại đơn vị từ phải sang trái; Đổi sang đơn vị lớn hơn nếu đủ 60 phút, 60 giây, 24 giờ",
+        "en": "Add unit by unit, convert and carry when reaching 60s, 60m, 24h"
+      },
+      "icon": "➕",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t25_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 3 giờ 15 phút + 2 giờ 35 phút = ?",
+            "en": "Calculate: 3h 15m + 2h 35m = ?"
+          },
+          "tts_prompt": {
+            "vi": "Tính: 3 giờ 15 phút + 2 giờ 35 phút = ?",
+            "en": "Calculate: 3h 15m + 2h 35m = ?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "5 giờ 50 phút",
+              "5 giờ 40 phút",
+              "6 giờ"
+            ],
+            "answer": "5 giờ 50 phút"
+          },
+          "hint": {
+            "vi": "(3 + 2) giờ (15 + 35) phút = 5 giờ 50 phút.",
+            "en": "5 hours 50 minutes."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 5 giờ 50 phút. (3 + 2) giờ (15 + 35) phút = 5 giờ 50 phút.",
+            "en": "Correct answer is 5 giờ 50 phút. 5 hours 50 minutes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 1 giờ 45 phút + 2 giờ 30 phút = ?",
+            "en": "Calculate: 1h 45m + 2h 30m = ?"
+          },
+          "tts_prompt": {
+            "vi": "Tính: 1 giờ 45 phút + 2 giờ 30 phút = ?",
+            "en": "Calculate: 1h 45m + 2h 30m = ?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "4 giờ 15 phút",
+              "3 giờ 75 phút",
+              "4 giờ 30 phút"
+            ],
+            "answer": "4 giờ 15 phút"
+          },
+          "hint": {
+            "vi": "3 giờ 75 phút = 3 giờ + 1 giờ 15 phút = 4 giờ 15 phút.",
+            "en": "4 hours 15 minutes."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 4 giờ 15 phút. 3 giờ 75 phút = 3 giờ + 1 giờ 15 phút = 4 giờ 15 phút.",
+            "en": "Correct answer is 4 giờ 15 phút. 4 hours 15 minutes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Khi cộng số đo thời gian, nếu số phút lớn hơn hoặc bằng 60, ta chuyển đổi 60 phút thành 1 giờ và cộng vào hàng giờ.",
+            "en": "Decide whether the following statement is true or false: Khi cộng số đo thời gian, nếu số phút lớn hơn hoặc bằng 60, ta chuyển đổi 60 phút thành 1 giờ và cộng vào hàng giờ."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi cộng số đo thời gian, nếu số phút lớn hơn hoặc bằng 60, ta chuyển đổi 60 phút thành 1 giờ và cộng vào hàng giờ.",
+              "en": "Khi cộng số đo thời gian, nếu số phút lớn hơn hoặc bằng 60, ta chuyển đổi 60 phút thành 1 giờ và cộng vào hàng giờ."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_5",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_6",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 20% của 100 là bao nhiêu?",
+            "en": "Calculate: 20% of 100 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20 phần trăm của 100",
+            "en": "20 percent of 100"
+          },
+          "hint": {
+            "vi": "Lấy số đó nhân với số phần trăm rồi chia 100.",
+            "en": "Multiply by percent and divide by 100."
+          },
+          "explanation": {
+            "vi": "100 x 20 : 100 = 20.",
+            "en": "100 x 20 : 100 = 20."
+          },
+          "data": {
+            "prefix_text": "20% của 100 = ",
+            "suffix_text": "",
+            "correct_number": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_7",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 đề-xi-mét khối bằng 1 lít nước.",
+            "en": "1 dm3 equals 1 liter."
+          },
+          "hint": {
+            "vi": "Quy đổi thể tích sang đơn vị lít.",
+            "en": "Volume to liter conversion."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 đề-xi-mét khối (dm³) tương đương với 1 lít nước (l).",
+              "en": "1 cubic decimeter (dm³) equals 1 liter (l)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chuyển số thập phân 5.8 thành phân số thập phân:",
+            "en": "Convert decimal 5.8 to decimal fraction:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chuyển 5.8 thành phân số thập phân",
+            "en": "Convert 5.8 to decimal fraction"
+          },
+          "hint": {
+            "vi": "Phần thập phân có 1 chữ số nên mẫu số là 10.",
+            "en": "Denominator is 10."
+          },
+          "explanation": {
+            "vi": "5.8 = 58/10.",
+            "en": "5.8 = 58/10."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "58/10",
+                "en": "58/10"
+              },
+              {
+                "vi": "58/100",
+                "en": "58/100"
+              },
+              {
+                "vi": "5/10",
+                "en": "5/10"
+              }
+            ],
+            "correct_answer": "58/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một xe máy đi với vận tốc 40 km/giờ trong 2 giờ. Quãng đường đi được là:",
+            "en": "A vehicle travels at 40 km/h for 2 hours. Distance traveled is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính quãng đường khi vận tốc 40 km trên giờ và thời gian 2 giờ",
+            "en": "Calculate distance with speed 40 and time 2"
+          },
+          "hint": {
+            "vi": "Quãng đường = Vận tốc x Thời gian.",
+            "en": "Distance = Speed x Time."
+          },
+          "explanation": {
+            "vi": "40 x 2 = 80 km.",
+            "en": "40 x 2 = 80 km."
+          },
+          "data": {
+            "prefix_text": "Quãng đường là: ",
+            "suffix_text": " km",
+            "correct_number": "80"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một xe máy đi với vận tốc 60 km/giờ trong 2 giờ. Quãng đường đi được là:",
+            "en": "A vehicle travels at 60 km/h for 2 hours. Distance traveled is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính quãng đường khi vận tốc 60 km trên giờ và thời gian 2 giờ",
+            "en": "Calculate distance with speed 60 and time 2"
+          },
+          "hint": {
+            "vi": "Quãng đường = Vận tốc x Thời gian.",
+            "en": "Distance = Speed x Time."
+          },
+          "explanation": {
+            "vi": "60 x 2 = 120 km.",
+            "en": "60 x 2 = 120 km."
+          },
+          "data": {
+            "prefix_text": "Quãng đường là: ",
+            "suffix_text": " km",
+            "correct_number": "120"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t25_3",
+      "title": {
+        "vi": "Phép trừ Số Đo Thời Gian",
+        "en": "Subtracting Time Measurements"
+      },
+      "description": {
+        "vi": "Trừ từng loại đơn vị; Nếu số bé không trừ được thì mượn 1 đơn vị lớn hơn liền kề (1 giờ = 60 phút)",
+        "en": "Subtract unit by unit, borrowing 60 minutes from 1 hour if necessary"
+      },
+      "icon": "➖",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t25_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 4 giờ 20 phút - 1 giờ 35 phút = ?",
+            "en": "Calculate: 4h 20m - 1h 35m = ?"
+          },
+          "tts_prompt": {
+            "vi": "Tính: 4 giờ 20 phút - 1 giờ 35 phút = ?",
+            "en": "Calculate: 4h 20m - 1h 35m = ?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "2 giờ 45 phút",
+              "3 giờ 15 phút",
+              "2 giờ 15 phút"
+            ],
+            "answer": "2 giờ 45 phút"
+          },
+          "hint": {
+            "vi": "Đổi 4 giờ 20 phút = 3 giờ 80 phút; 3 giờ 80 phút - 1 giờ 35 phút = 2 giờ 45 phút.",
+            "en": "2 hours 45 minutes."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 2 giờ 45 phút. Đổi 4 giờ 20 phút = 3 giờ 80 phút; 3 giờ 80 phút - 1 giờ 35 phút = 2 giờ 45 phút.",
+            "en": "Correct answer is 2 giờ 45 phút. 2 hours 45 minutes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một trận bóng đá bắt đầu lúc 15 giờ 30 phút và kết thúc lúc 17 giờ 15 phút. Thời gian diễn ra trận đấu là bao nhiêu phút?",
+            "en": "Match started at 15:30 and ended at 17:15. Duration in minutes:"
+          },
+          "tts_prompt": {
+            "vi": "Một trận bóng đá bắt đầu lúc 15 giờ 30 phút và kết thúc lúc 17 giờ 15 phút. Thời gian diễn ra trận đấu là bao nhiêu phút?",
+            "en": "Match started at 15:30 and ended at 17:15. Duration in minutes:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 105,
+            "unit": "phút"
+          },
+          "hint": {
+            "vi": "17h 15m - 15h 30m = 1h 45m = 105 phút.",
+            "en": "105 minutes."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 105 phút. 17h 15m - 15h 30m = 1h 45m = 105 phút.",
+            "en": "The exact result is 105 phút. 105 minutes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Khi trừ thời gian mà số phút của số bị trừ bé hơn số trừ, ta đổi 1 giờ ở phần giờ thành 60 phút rồi cộng vào số phút trước khi trừ.",
+            "en": "Decide whether the following statement is true or false: Khi trừ thời gian mà số phút của số bị trừ bé hơn số trừ, ta đổi 1 giờ ở phần giờ thành 60 phút rồi cộng vào số phút trước khi trừ."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi trừ thời gian mà số phút của số bị trừ bé hơn số trừ, ta đổi 1 giờ ở phần giờ thành 60 phút rồi cộng vào số phút trước khi trừ.",
+              "en": "Khi trừ thời gian mà số phút của số bị trừ bé hơn số trừ, ta đổi 1 giờ ở phần giờ thành 60 phút rồi cộng vào số phút trước khi trừ."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_3_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 9.8:",
+            "en": "Decimal fraction for 9.8:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 9.8:",
+            "en": "Decimal fraction for 9.8:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "9.8 = 98/10.",
+            "en": "9.8 = 98/10."
+          },
+          "data": {
+            "prefix_text": "9.8 = ",
+            "suffix_text": "",
+            "options": [
+              "9/10",
+              "98/10",
+              "99/10",
+              "98/100"
+            ],
+            "slot_answer": "98/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 2.4:",
+            "en": "Decimal fraction for 2.4:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 2.4:",
+            "en": "Decimal fraction for 2.4:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2.4 = 24/10.",
+            "en": "2.4 = 24/10."
+          },
+          "data": {
+            "prefix_text": "2.4 = ",
+            "suffix_text": "",
+            "options": [
+              "2/10",
+              "24/10",
+              "25/10",
+              "24/100"
+            ],
+            "slot_answer": "24/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t25_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

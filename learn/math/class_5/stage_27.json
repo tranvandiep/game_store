@@ -1,0 +1,955 @@
+{
+  "id": "m5_stage_27",
+  "stage_number": 27,
+  "title": {
+    "vi": "Chặng 27: Toán Chuyển Động Đều: Vận Tốc, Quãng Đường, Thời Gian",
+    "en": "Stage 27: Uniform Motion: Speed, Distance, Time"
+  },
+  "subtitle": {
+    "vi": "Bộ ba công thức v = s : t; s = v x t; t = s : v",
+    "en": "Trio formulas v = s / t; s = v * t; t = s / v"
+  },
+  "icon": "🚗",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFFFF5722",
+  "topics": [
+    {
+      "id": "m5_t27_1",
+      "title": {
+        "vi": "Toán chuyển động đều: Vận Tốc (v = s : t)",
+        "en": "Uniform Motion: Speed (v = s / t)"
+      },
+      "description": {
+        "vi": "Vận tốc là quãng đường đi được trong một đơn vị thời gian (km/h, m/phút, m/s)",
+        "en": "Speed is distance traveled per unit time: v = s / t"
+      },
+      "icon": "🚗",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t27_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Muốn tính vận tốc của một vật chuyển động đều, ta làm thế nào?",
+            "en": "How to compute speed in uniform motion?"
+          },
+          "tts_prompt": {
+            "vi": "Muốn tính vận tốc của một vật chuyển động đều, ta làm thế nào?",
+            "en": "How to compute speed in uniform motion?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "Lấy Quãng đường chia cho Thời gian (v = s : t)",
+              "Lấy Quãng đường nhân với Thời gian",
+              "Lấy Thời gian chia cho Quãng đường"
+            ],
+            "answer": "Lấy Quãng đường chia cho Thời gian (v = s : t)"
+          },
+          "hint": {
+            "vi": "v = s : t.",
+            "en": "v = s / t."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là Lấy Quãng đường chia cho Thời gian (v = s : t). v = s : t.",
+            "en": "Correct answer is Lấy Quãng đường chia cho Thời gian (v = s : t). v = s / t."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một ô tô đi được quãng đường 180 km trong 3 giờ. Vận tốc của ô tô là bao nhiêu km/giờ?",
+            "en": "Car travels 180 km in 3 hours. Speed in km/h:"
+          },
+          "tts_prompt": {
+            "vi": "Một ô tô đi được quãng đường 180 km trong 3 giờ. Vận tốc của ô tô là bao nhiêu km/giờ?",
+            "en": "Car travels 180 km in 3 hours. Speed in km/h:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 60,
+            "unit": "km/giờ"
+          },
+          "hint": {
+            "vi": "v = 180 : 3 = 60 km/giờ.",
+            "en": "v = 180 / 3 = 60 km/h."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 60 km/giờ. v = 180 : 3 = 60 km/giờ.",
+            "en": "The exact result is 60 km/giờ. v = 180 / 3 = 60 km/h."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_1_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép công thức tính vận tốc: v = s : t",
+            "en": "Arrange speed formula: v = s : t"
+          },
+          "tts_prompt": {
+            "vi": "Ghép công thức tính vận tốc: v = s : t",
+            "en": "Arrange speed formula: v = s : t"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "target_word": "v = s : t",
+            "letters": [
+              "v",
+              "=",
+              "s",
+              ":",
+              "t"
+            ]
+          },
+          "hint": {
+            "vi": "v = s : t.",
+            "en": "v = s : t."
+          },
+          "explanation": {
+            "vi": "Kết quả ghép chuẩn là: v = s : t. v = s : t.",
+            "en": "Target arrangement is: v = s : t. v = s : t."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'TOÁN'",
+            "en": "Arrange the letters to spell the keyword: 'TOÁN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa TOÁN",
+            "en": "Arrange the letters to spell TOÁN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: TOÁN",
+            "en": "The keyword is: TOÁN"
+          },
+          "data": {
+            "target_word": "TOÁN",
+            "scrambled_letters": [
+              "T",
+              "N",
+              "O",
+              "Á"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 10 : 100 = 20.",
+            "en": "Result is 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "20",
+                "en": "20"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t27_2",
+      "title": {
+        "vi": "Toán chuyển động đều: Quãng Đường (s = v x t)",
+        "en": "Uniform Motion: Distance (s = v * t)"
+      },
+      "description": {
+        "vi": "Quãng đường = Vận tốc x Thời gian (s = v x t, các đơn vị phải tương ứng)",
+        "en": "Distance = Speed * Time: s = v * t"
+      },
+      "icon": "🛣️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t27_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một người đi xe máy với vận tốc 40 km/giờ trong 2,5 giờ (2 giờ 30 phút). Quãng đường người đó đi được là:",
+            "en": "Motorcycle speed 40 km/h for 2.5 hours. Distance traveled:"
+          },
+          "tts_prompt": {
+            "vi": "Một người đi xe máy với vận tốc 40 km/giờ trong 2,5 giờ (2 giờ 30 phút). Quãng đường người đó đi được là:",
+            "en": "Motorcycle speed 40 km/h for 2.5 hours. Distance traveled:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "100 km",
+              "80 km",
+              "120 km"
+            ],
+            "answer": "100 km"
+          },
+          "hint": {
+            "vi": "s = 40 x 2,5 = 100 km.",
+            "en": "s = 40 * 2.5 = 100 km."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 100 km. s = 40 x 2,5 = 100 km.",
+            "en": "Correct answer is 100 km. s = 40 * 2.5 = 100 km."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một con ong bay với vận tốc 8 km/giờ. Trong 15 phút (0,25 giờ), con ong bay được bao nhiêu km?",
+            "en": "Bee flies at 8 km/h for 15 mins (0.25h). Distance in km:"
+          },
+          "tts_prompt": {
+            "vi": "Một con ong bay với vận tốc 8 km/giờ. Trong 15 phút (0,25 giờ), con ong bay được bao nhiêu km?",
+            "en": "Bee flies at 8 km/h for 15 mins (0.25h). Distance in km:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 2,
+            "unit": "km"
+          },
+          "hint": {
+            "vi": "15 phút = 0,25 giờ; s = 8 x 0,25 = 2 km.",
+            "en": "8 * 0.25 = 2 km."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 2 km. 15 phút = 0,25 giờ; s = 8 x 0,25 = 2 km.",
+            "en": "The exact result is 2 km. 8 * 0.25 = 2 km."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Trước khi nhân vận tốc với thời gian để tìm quãng đường, đơn vị thời gian của vận tốc (giờ) và thời gian chuyển động (giờ) bắt buộc phải đồng nhất.",
+            "en": "Decide whether the following statement is true or false: Trước khi nhân vận tốc với thời gian để tìm quãng đường, đơn vị thời gian của vận tốc (giờ) và thời gian chuyển động (giờ) bắt buộc phải đồng nhất."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Trước khi nhân vận tốc với thời gian để tìm quãng đường, đơn vị thời gian của vận tốc (giờ) và thời gian chuyển động (giờ) bắt buộc phải đồng nhất.",
+              "en": "Trước khi nhân vận tốc với thời gian để tìm quãng đường, đơn vị thời gian của vận tốc (giờ) và thời gian chuyển động (giờ) bắt buộc phải đồng nhất."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_2_6",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_2_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 8.4:",
+            "en": "Decimal fraction for 8.4:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 8.4:",
+            "en": "Decimal fraction for 8.4:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "8.4 = 84/10.",
+            "en": "8.4 = 84/10."
+          },
+          "data": {
+            "prefix_text": "8.4 = ",
+            "suffix_text": "",
+            "options": [
+              "85/10",
+              "8/10",
+              "84/100",
+              "84/10"
+            ],
+            "slot_answer": "84/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 1.1:",
+            "en": "Decimal fraction for 1.1:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 1.1:",
+            "en": "Decimal fraction for 1.1:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "1.1 = 11/10.",
+            "en": "1.1 = 11/10."
+          },
+          "data": {
+            "prefix_text": "1.1 = ",
+            "suffix_text": "",
+            "options": [
+              "1/10",
+              "11/100",
+              "11/10",
+              "12/10"
+            ],
+            "slot_answer": "11/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 50 : 100 = 100.",
+            "en": "Result is 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "100",
+                "en": "100"
+              },
+              {
+                "vi": "110",
+                "en": "110"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              }
+            ],
+            "correct_answer": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t27_3",
+      "title": {
+        "vi": "Toán chuyển động đều: Thời Gian (t = s : v)",
+        "en": "Uniform Motion: Time (t = s / v)"
+      },
+      "description": {
+        "vi": "Thời gian = Quãng đường : Vận tốc (t = s : v)",
+        "en": "Time = Distance / Speed: t = s / v"
+      },
+      "icon": "⏱️",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t27_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một người đi bộ đi quãng đường 12 km với vận tốc 4 km/giờ. Thời gian người đó đi hết quãng đường là:",
+            "en": "Walking 12km at 4km/h. Time taken:"
+          },
+          "tts_prompt": {
+            "vi": "Một người đi bộ đi quãng đường 12 km với vận tốc 4 km/giờ. Thời gian người đó đi hết quãng đường là:",
+            "en": "Walking 12km at 4km/h. Time taken:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "3 giờ",
+              "4 giờ",
+              "2 giờ"
+            ],
+            "answer": "3 giờ"
+          },
+          "hint": {
+            "vi": "t = 12 : 4 = 3 giờ.",
+            "en": "t = 12 / 4 = 3 hours."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 3 giờ. t = 12 : 4 = 3 giờ.",
+            "en": "Correct answer is 3 giờ. t = 12 / 4 = 3 hours."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một máy bay bay quãng đường 1800 km với vận tốc 900 km/giờ. Máy bay bay hết bao nhiêu giờ?",
+            "en": "Airplane travels 1800 km at 900 km/h. Hours taken:"
+          },
+          "tts_prompt": {
+            "vi": "Một máy bay bay quãng đường 1800 km với vận tốc 900 km/giờ. Máy bay bay hết bao nhiêu giờ?",
+            "en": "Airplane travels 1800 km at 900 km/h. Hours taken:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 2,
+            "unit": "giờ"
+          },
+          "hint": {
+            "vi": "t = 1800 : 900 = 2 giờ.",
+            "en": "1800 / 900 = 2 hours."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 2 giờ. t = 1800 : 900 = 2 giờ.",
+            "en": "The exact result is 2 giờ. 1800 / 900 = 2 hours."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_3_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng chuyển động với công thức tương ứng:",
+            "en": "Match motion quantities with formulas:"
+          },
+          "tts_prompt": {
+            "vi": "Nối đại lượng chuyển động với công thức tương ứng:",
+            "en": "Match motion quantities with formulas:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "Vận tốc (v)",
+                "right": "v = s : t"
+              },
+              {
+                "id": "p2",
+                "left": "Quãng đường (s)",
+                "right": "s = v x t"
+              },
+              {
+                "id": "p3",
+                "left": "Thời gian (t)",
+                "right": "t = s : v"
+              }
+            ]
+          },
+          "hint": {
+            "vi": "Bộ ba công thức chuyển động vàng.",
+            "en": "Trio of uniform motion formulas."
+          },
+          "explanation": {
+            "vi": "Nối chính xác các cặp tương ứng. Bộ ba công thức chuyển động vàng.",
+            "en": "Match corresponding pairs accurately. Trio of uniform motion formulas."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_3_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một xe máy đi với vận tốc 30 km/giờ trong 3 giờ. Quãng đường đi được là:",
+            "en": "A vehicle travels at 30 km/h for 3 hours. Distance traveled is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính quãng đường khi vận tốc 30 km trên giờ và thời gian 3 giờ",
+            "en": "Calculate distance with speed 30 and time 3"
+          },
+          "hint": {
+            "vi": "Quãng đường = Vận tốc x Thời gian.",
+            "en": "Distance = Speed x Time."
+          },
+          "explanation": {
+            "vi": "30 x 3 = 90 km.",
+            "en": "30 x 3 = 90 km."
+          },
+          "data": {
+            "prefix_text": "Quãng đường là: ",
+            "suffix_text": " km",
+            "correct_number": "90"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t27_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

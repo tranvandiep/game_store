@@ -1,0 +1,977 @@
+{
+  "id": "m3_stage_19",
+  "stage_number": 19,
+  "title": {
+    "vi": "Tuần 19: Chu Vi Tam Giác, Tứ Giác, Chữ Nhật, Hình Vuông",
+    "en": "Week 19: Perimeters of 2D Shapes"
+  },
+  "subtitle": {
+    "vi": "Bài 50 - Công thức tính chu vi các hình phẳng",
+    "en": "Lesson 50 - Formulas for perimeters of shapes"
+  },
+  "icon": "📐",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.446,
+  "required_stars": 54,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "m3_t19_1",
+      "title": {
+        "vi": "Chu vi Hình Tam Giác & Hình Tứ Giác",
+        "en": "Perimeter of Triangles & Quadrilaterals"
+      },
+      "description": {
+        "vi": "Chu vi là tổng độ dài tất cả các cạnh",
+        "en": "Perimeter is sum of all side lengths"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t19_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Hình tam giác có độ dài 3 cạnh lần lượt là 7cm, 8cm, 10cm. Chu vi hình tam giác là:",
+            "en": "Triangle sides are 7cm, 8cm, 10cm. Perimeter in cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình tam giác có độ dài 3 cạnh lần lượt là 7cm, 8cm, 10cm. Chu vi hình tam giác là:",
+            "en": "Triangle sides are 7cm, 8cm, 10cm. Perimeter in cm:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "7 + 8 + 10 = 25 cm.",
+            "en": "7 + 8 + 10 = 25 cm."
+          },
+          "data": {
+            "correct_number": "25",
+            "unit": "cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Hình tứ giác có độ dài 4 cạnh là 5cm, 6cm, 7cm, 8cm. Chu vi hình tứ giác là:",
+            "en": "Quadrilateral sides are 5cm, 6cm, 7cm, 8cm. Perimeter:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình tứ giác có độ dài 4 cạnh là 5cm, 6cm, 7cm, 8cm. Chu vi hình tứ giác là:",
+            "en": "Quadrilateral sides are 5cm, 6cm, 7cm, 8cm. Perimeter:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 + 6 + 7 + 8 = 26 cm.",
+            "en": "5 + 6 + 7 + 8 = 26 cm."
+          },
+          "data": {
+            "correct_number": "26",
+            "unit": "cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Định nghĩa chu vi.",
+            "en": "Decide whether the following statement is true or false: Định nghĩa chu vi."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Chu vi là tổng độ dài các cạnh bao quanh.",
+            "en": "True! Perimeter is total boundary length."
+          },
+          "data": {
+            "statement": {
+              "vi": "Định nghĩa chu vi.",
+              "en": "Định nghĩa chu vi."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 3 đứng liền trước số 4.",
+            "en": "Decide whether the following statement is true or false: Số 3 đứng liền trước số 4."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3 đứng liền trước số 4.",
+              "en": "Số 3 đứng liền trước số 4."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 bé hơn số 3 (4 < 3).",
+            "en": "Decide whether the following statement is true or false: Số 4 bé hơn số 3 (4 < 3)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 bé hơn số 3 (4 < 3).",
+              "en": "Số 4 bé hơn số 3 (4 < 3)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_1_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 7 x 5 = ?",
+            "en": "Calculate: 7 x 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 7 x 5 = ?",
+            "en": "Calculate: 7 x 5 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "7 x 5 = 35.",
+            "en": "7 x 5 = 35."
+          },
+          "data": {
+            "prefix_text": "7 x 5 = ",
+            "suffix_text": "",
+            "correct_number": "35"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 21 : 7 = ?",
+            "en": "Calculate: 21 : 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 21 : 7 = ?",
+            "en": "Calculate: 21 : 7 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "21 : 7 = 3.",
+            "en": "21 : 7 = 3."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3",
+                "en": "3"
+              },
+              {
+                "vi": "2",
+                "en": "2"
+              },
+              {
+                "vi": "4",
+                "en": "4"
+              },
+              {
+                "vi": "5",
+                "en": "5"
+              }
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 1530 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 1530 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 1530 có đúng 4 chữ số.",
+            "en": "1530 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 1530 là số có 4 chữ số.",
+              "en": "1530 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t19_2",
+      "title": {
+        "vi": "Chu vi Hình Chữ Nhật (Công thức chuẩn)",
+        "en": "Perimeter of Rectangle"
+      },
+      "description": {
+        "vi": "Chu vi = (Chiều dài + Chiều rộng) x 2 (cùng đơn vị đo)",
+        "en": "P = (Length + Width) * 2 (same unit)"
+      },
+      "icon": "🔲",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t19_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Muốn tính chu vi hình chữ nhật, ta làm thế nào?",
+            "en": "How do you calculate perimeter of a rectangle?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Muốn tính chu vi hình chữ nhật, ta làm thế nào?",
+            "en": "How do you calculate perimeter of a rectangle?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "P = (a + b) x 2 (cùng đơn vị đo).",
+            "en": "P = (Length + Width) * 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Lấy (Chiều dài + Chiều rộng) rồi nhân với 2",
+                "en": "Lấy (Chiều dài + Chiều rộng) rồi nhân với 2"
+              },
+              {
+                "vi": "Lấy Chiều dài nhân Chiều rộng",
+                "en": "Lấy Chiều dài nhân Chiều rộng"
+              },
+              {
+                "vi": "Lấy Chiều dài cộng Chiều rộng",
+                "en": "Lấy Chiều dài cộng Chiều rộng"
+              }
+            ],
+            "correct_answer": "Lấy (Chiều dài + Chiều rộng) rồi nhân với 2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một mảnh vườn hình chữ nhật có chiều dài 15 m, chiều rộng 10 m. Chu vi mảnh vườn là:",
+            "en": "Rectangular garden length 15m, width 10m. Perimeter in m:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một mảnh vườn hình chữ nhật có chiều dài 15 m, chiều rộng 10 m. Chu vi mảnh vườn là:",
+            "en": "Rectangular garden length 15m, width 10m. Perimeter in m:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "(15 + 10) x 2 = 25 x 2 = 50 m.",
+            "en": "(15 + 10) * 2 = 50 m."
+          },
+          "data": {
+            "correct_number": "50",
+            "unit": "m"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Chu vi Hình Chữ Nhật (Công thức chuẩn)': Muốn tính chu vi hình chữ nhật, ta làm thế nào?",
+            "en": "Practice 'Perimeter of Rectangle': How do you calculate perimeter of a rectangle?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Muốn tính chu vi hình chữ nhật, ta làm thế nào?",
+            "en": "How do you calculate perimeter of a rectangle?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "P = (a + b) x 2 (cùng đơn vị đo).",
+            "en": "P = (Length + Width) * 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Lấy Chiều dài nhân Chiều rộng",
+                "en": "Lấy Chiều dài nhân Chiều rộng"
+              },
+              {
+                "vi": "Lấy (Chiều dài + Chiều rộng) rồi nhân với 2",
+                "en": "Lấy (Chiều dài + Chiều rộng) rồi nhân với 2"
+              },
+              {
+                "vi": "Lấy Chiều dài cộng Chiều rộng",
+                "en": "Lấy Chiều dài cộng Chiều rộng"
+              }
+            ],
+            "correct_answer": "Lấy (Chiều dài + Chiều rộng) rồi nhân với 2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_2_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 2, 3,  ... , 5",
+            "en": "Drag the correct answer into the slot:\nDãy số: 2, 3,  ... , 5"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 2, 3,  ... , 5",
+            "en": "Drag the correct answer: Dãy số: 2, 3,  ... , 5"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 2, 3,  4 , 5",
+            "en": "Dãy số: 2, 3,  4 , 5"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 2, 3, ",
+            "suffix_text": ", 5",
+            "options": [
+              "3",
+              "4",
+              "6"
+            ],
+            "slot_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_2_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 6 x 8 = ?",
+            "en": "Calculate: 6 x 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 6 x 8 = ?",
+            "en": "Calculate: 6 x 8 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "6 x 8 = 48.",
+            "en": "6 x 8 = 48."
+          },
+          "data": {
+            "prefix_text": "6 x 8 = ",
+            "suffix_text": "",
+            "correct_number": "48"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 18 : 9 = ?",
+            "en": "Calculate: 18 : 9 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 18 : 9 = ?",
+            "en": "Calculate: 18 : 9 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "18 : 9 = 2.",
+            "en": "18 : 9 = 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "2",
+                "en": "2"
+              },
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "3",
+                "en": "3"
+              },
+              {
+                "vi": "4",
+                "en": "4"
+              }
+            ],
+            "correct_answer": "2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 7132 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 7132 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 7132 có đúng 4 chữ số.",
+            "en": "7132 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 7132 là số có 4 chữ số.",
+              "en": "7132 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t19_3",
+      "title": {
+        "vi": "Chu vi Hình Vuông (Công thức chuẩn)",
+        "en": "Perimeter of Square"
+      },
+      "description": {
+        "vi": "Chu vi = Độ dài một cạnh x 4",
+        "en": "P = Side * 4"
+      },
+      "icon": "🟩",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t19_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Muốn tính chu vi hình vuông, ta làm thế nào?",
+            "en": "How do you calculate perimeter of a square?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Muốn tính chu vi hình vuông, ta làm thế nào?",
+            "en": "How do you calculate perimeter of a square?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "P = a x 4.",
+            "en": "P = Side * 4."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Lấy Độ dài một cạnh nhân với 4",
+                "en": "Lấy Độ dài một cạnh nhân với 4"
+              },
+              {
+                "vi": "Lấy Độ dài một cạnh nhân với chính nó",
+                "en": "Lấy Độ dài một cạnh nhân với chính nó"
+              },
+              {
+                "vi": "Lấy Độ dài một cạnh cộng với 4",
+                "en": "Lấy Độ dài một cạnh cộng với 4"
+              }
+            ],
+            "correct_answer": "Lấy Độ dài một cạnh nhân với 4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một cái ao hình vuông có cạnh dài 25 m. Chu vi của ao nước là bao nhiêu mét?",
+            "en": "Square pond has side 25m. Perimeter in meters:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một cái ao hình vuông có cạnh dài 25 m. Chu vi của ao nước là bao nhiêu mét?",
+            "en": "Square pond has side 25m. Perimeter in meters:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "25 x 4 = 100 m.",
+            "en": "25 * 4 = 100 m."
+          },
+          "data": {
+            "correct_number": "100",
+            "unit": "m"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 36 : 4 = 9 cm.",
+            "en": "Decide whether the following statement is true or false: 36 : 4 = 9 cm."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Cạnh hình vuông = 36 : 4 = 9 cm.",
+            "en": "True! Side = 36 : 4 = 9 cm."
+          },
+          "data": {
+            "statement": {
+              "vi": "36 : 4 = 9 cm.",
+              "en": "36 : 4 = 9 cm."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Chu vi Hình Vuông (Công thức chuẩn)': Muốn tính chu vi hình vuông, ta làm thế nào?",
+            "en": "Practice 'Perimeter of Square': How do you calculate perimeter of a square?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Muốn tính chu vi hình vuông, ta làm thế nào?",
+            "en": "How do you calculate perimeter of a square?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "P = a x 4.",
+            "en": "P = Side * 4."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Lấy Độ dài một cạnh nhân với 4",
+                "en": "Lấy Độ dài một cạnh nhân với 4"
+              },
+              {
+                "vi": "Lấy Độ dài một cạnh cộng với 4",
+                "en": "Lấy Độ dài một cạnh cộng với 4"
+              },
+              {
+                "vi": "Lấy Độ dài một cạnh nhân với chính nó",
+                "en": "Lấy Độ dài một cạnh nhân với chính nó"
+              }
+            ],
+            "correct_answer": "Lấy Độ dài một cạnh nhân với 4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_3_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 9 x 9 = ?",
+            "en": "Calculate: 9 x 9 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 9 x 9 = ?",
+            "en": "Calculate: 9 x 9 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "9 x 9 = 81.",
+            "en": "9 x 9 = 81."
+          },
+          "data": {
+            "prefix_text": "9 x 9 = ",
+            "suffix_text": "",
+            "correct_number": "81"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 56 : 8 = ?",
+            "en": "Calculate: 56 : 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 56 : 8 = ?",
+            "en": "Calculate: 56 : 8 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "56 : 8 = 7.",
+            "en": "56 : 8 = 7."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "7",
+                "en": "7"
+              },
+              {
+                "vi": "6",
+                "en": "6"
+              },
+              {
+                "vi": "8",
+                "en": "8"
+              },
+              {
+                "vi": "9",
+                "en": "9"
+              }
+            ],
+            "correct_answer": "7"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 4024 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 4024 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 4024 có đúng 4 chữ số.",
+            "en": "4024 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4024 là số có 4 chữ số.",
+              "en": "4024 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t19_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

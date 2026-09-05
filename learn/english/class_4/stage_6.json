@@ -1,0 +1,1132 @@
+{
+  "id": "e4_stage_6",
+  "stage_number": 6,
+  "title": {
+    "vi": "Week 6: School Talent Show",
+    "en": "Week 6: School Talent Show"
+  },
+  "subtitle": {
+    "vi": "Talents: singing, dancing, painting, playing acoustic guitar",
+    "en": "Talents: singing, dancing, painting, playing acoustic guitar"
+  },
+  "icon": "🎸",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.805,
+  "required_stars": 15,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "e4_s6_1",
+      "title": {
+        "vi": "Strumming the Acoustic Guitar",
+        "en": "Strumming the Acoustic Guitar"
+      },
+      "description": {
+        "vi": "Can you play the guitar? - Yes, I can strum nice chords",
+        "en": "Can you play the guitar? - Yes, I can strum nice chords"
+      },
+      "icon": "🎸",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s6_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the musician holding a wooden 6-string instrument and singing. What instrument is it?",
+            "en": "Look at the musician holding a wooden 6-string instrument and singing. What instrument is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the musician holding a wooden 6-string instrument and singing. What instrument is it?",
+            "en": "Look at the musician holding a wooden 6-string instrument and singing. What instrument is it?"
+          },
+          "hint": {
+            "vi": "Stringed musical instrument played by strumming strings.",
+            "en": "Stringed musical instrument played by strumming strings."
+          },
+          "explanation": {
+            "vi": "It's an acoustic guitar.",
+            "en": "It's an acoustic guitar."
+          },
+          "data": {
+            "options": [
+              "an acoustic guitar",
+              "a trombone",
+              "a saxophone",
+              "a flute"
+            ],
+            "correct_answer": "an acoustic guitar"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u5_play_guitar.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s6_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'guitar'?",
+            "en": "What is the first letter of the word 'guitar'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'guitar'?",
+            "en": "What is the first letter of the word 'guitar'?"
+          },
+          "hint": {
+            "vi": "The word 'guitar' starts with the letter G.",
+            "en": "The word 'guitar' starts with the letter G."
+          },
+          "explanation": {
+            "vi": "Correct! 'guitar' begins with the letter 'G'.",
+            "en": "Correct! 'guitar' begins with the letter 'G'."
+          },
+          "data": {
+            "options": [
+              "Letter G",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter G"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "guitar",
+                  "en": "guitar"
+                },
+                "right": {
+                  "vi": "Nghĩa của guitar",
+                  "en": "Nghĩa của guitar"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "strum",
+                  "en": "strum"
+                },
+                "right": {
+                  "vi": "Nghĩa của strum",
+                  "en": "Nghĩa của strum"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "chords",
+                  "en": "chords"
+                },
+                "right": {
+                  "vi": "Nghĩa của chords",
+                  "en": "Nghĩa của chords"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? He plays the acoustic guitar and sings songs.",
+            "en": "Is this English sentence correct for Grade 4? He plays the acoustic guitar and sings songs."
+          },
+          "hint": {
+            "vi": "Remember the pattern: He plays the acoustic guitar and sings songs.",
+            "en": "Remember the pattern: He plays the acoustic guitar and sings songs."
+          },
+          "explanation": {
+            "vi": "Yes! 'He plays the acoustic guitar and sings songs.' is a correct English sentence.",
+            "en": "Yes! 'He plays the acoustic guitar and sings songs.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "He plays the acoustic guitar and sings songs.",
+              "en": "He plays the acoustic guitar and sings songs."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: He plays the acoustic guitar and sings ....",
+            "en": "Drag the correct word to complete the sentence: He plays the acoustic guitar and sings ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'songs'.",
+            "en": "Choose the correct word: 'songs'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'He plays the acoustic guitar and sings songs.'.",
+            "en": "The complete sentence is: 'He plays the acoustic guitar and sings songs.'."
+          },
+          "data": {
+            "prefix_text": "He plays the acoustic guitar and sings ",
+            "suffix_text": ".",
+            "options": [
+              "songs",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "songs"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'guitar':",
+            "en": "Spell the English word 'guitar':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'guitar':",
+            "en": "Spell the English word 'guitar':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'guitar'.",
+            "en": "Tap the letters in order to spell 'guitar'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'guitar' correctly.",
+            "en": "Well done! You spelled 'guitar' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "a",
+              "t",
+              "i",
+              "u",
+              "g"
+            ],
+            "target_word": "guitar",
+            "target_sequence": [
+              "g",
+              "u",
+              "i",
+              "t",
+              "a",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cậu ấy chơi đàn ghi-ta mộc và hát những bài ca.' in English?",
+            "en": "How do you say 'Cậu ấy chơi đàn ghi-ta mộc và hát những bài ca.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cậu ấy chơi đàn ghi-ta mộc và hát những bài ca.' in English?",
+            "en": "How do you say 'Cậu ấy chơi đàn ghi-ta mộc và hát những bài ca.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cậu ấy chơi đàn ghi-ta mộc và hát những bài ca.",
+            "en": "Choose the English sentence that means: Cậu ấy chơi đàn ghi-ta mộc và hát những bài ca."
+          },
+          "explanation": {
+            "vi": "'He plays the acoustic guitar and sings songs.' means 'Cậu ấy chơi đàn ghi-ta mộc và hát những bài ca.'.",
+            "en": "'He plays the acoustic guitar and sings songs.' means 'Cậu ấy chơi đàn ghi-ta mộc và hát những bài ca.'."
+          },
+          "data": {
+            "options": [
+              "He plays the acoustic guitar and sings songs.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "He plays the acoustic guitar and sings songs."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Strumming the Acoustic Guitar'?",
+            "en": "Which of the following is a key word from Unit 'Strumming the Acoustic Guitar'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Strumming the Acoustic Guitar'?",
+            "en": "Which of the following is a key word from Unit 'Strumming the Acoustic Guitar'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Strumming the Acoustic Guitar.",
+            "en": "Remember the words in topic: Strumming the Acoustic Guitar."
+          },
+          "explanation": {
+            "vi": "'guitar' is a key vocabulary word in this topic.",
+            "en": "'guitar' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "guitar",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "guitar"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'strum' start with the sound /g/?",
+            "en": "Does the word 'strum' start with the sound /g/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'strum' start with the sound /g/? The word 'strum' starts with letter 'G'.",
+            "en": "Does the word 'strum' start with the sound /g/? The word 'strum' starts with letter 'G'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'strum'.",
+            "en": "Listen to the first sound of 'strum'."
+          },
+          "explanation": {
+            "vi": "Yes! 'strum' starts with the sound /g/.",
+            "en": "Yes! 'strum' starts with the sound /g/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'strum' starts with letter 'G'.",
+              "en": "The word 'strum' starts with letter 'G'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'guitar'?",
+            "en": "How many letters are there in the word 'guitar'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'guitar'?",
+            "en": "How many letters are there in the word 'guitar'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'guitar': 1, 2, 3...",
+            "en": "Count the letters in 'guitar': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'guitar' has exactly 6 letters.",
+            "en": "The word 'guitar' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'guitar':",
+            "en": "Choose the correct phrase with 'guitar':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'guitar':",
+            "en": "Choose the correct phrase with 'guitar':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a guitar'.",
+            "en": "Correct! We say 'a guitar'."
+          },
+          "data": {
+            "options": [
+              "a guitar",
+              "an guitar",
+              "two guitar",
+              "many guitar"
+            ],
+            "correct_answer": "a guitar"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'guitar'.",
+            "en": "Choose the word: 'guitar'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is guitar. It is wonderful!'",
+            "en": "We say: 'Look! This is guitar. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "guitar",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "guitar"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Strumming the Acoustic Guitar'?",
+            "en": "Which English sentence best summarizes the topic 'Strumming the Acoustic Guitar'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Strumming the Acoustic Guitar'?",
+            "en": "Which English sentence best summarizes the topic 'Strumming the Acoustic Guitar'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Strumming the Acoustic Guitar'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Strumming the Acoustic Guitar'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: guitar, strum!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: guitar, strum!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s6_2",
+      "title": {
+        "vi": "School Talent Show Contest",
+        "en": "School Talent Show Contest"
+      },
+      "description": {
+        "vi": "Performing on stage in front of the whole school",
+        "en": "Performing on stage in front of the whole school"
+      },
+      "icon": "🌟",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s6_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the stage lit with colorful spotlights and students performing music and dance. What event is it?",
+            "en": "Look at the stage lit with colorful spotlights and students performing music and dance. What event is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the stage lit with colorful spotlights and students performing music and dance. What event is it?",
+            "en": "Look at the stage lit with colorful spotlights and students performing music and dance. What event is it?"
+          },
+          "hint": {
+            "vi": "An event where students showcase their performing abilities.",
+            "en": "An event where students showcase their performing abilities."
+          },
+          "explanation": {
+            "vi": "It's the school talent show contest.",
+            "en": "It's the school talent show contest."
+          },
+          "data": {
+            "options": [
+              "the school talent show contest",
+              "a silent study hall",
+              "a fire drill",
+              "a cafeteria lunch"
+            ],
+            "correct_answer": "the school talent show contest"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u5_talent_show.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s6_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'talent'?",
+            "en": "What is the first letter of the word 'talent'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'talent'?",
+            "en": "What is the first letter of the word 'talent'?"
+          },
+          "hint": {
+            "vi": "The word 'talent' starts with the letter T.",
+            "en": "The word 'talent' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'talent' begins with the letter 'T'.",
+            "en": "Correct! 'talent' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "talent",
+                  "en": "talent"
+                },
+                "right": {
+                  "vi": "Nghĩa của talent",
+                  "en": "Nghĩa của talent"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "stage",
+                  "en": "stage"
+                },
+                "right": {
+                  "vi": "Nghĩa của stage",
+                  "en": "Nghĩa của stage"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "perform",
+                  "en": "perform"
+                },
+                "right": {
+                  "vi": "Nghĩa của perform",
+                  "en": "Nghĩa của perform"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? The students perform wonderful talents on the stage.",
+            "en": "Is this English sentence correct for Grade 4? The students perform wonderful talents on the stage."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The students perform wonderful talents on the stage.",
+            "en": "Remember the pattern: The students perform wonderful talents on the stage."
+          },
+          "explanation": {
+            "vi": "Yes! 'The students perform wonderful talents on the stage.' is a correct English sentence.",
+            "en": "Yes! 'The students perform wonderful talents on the stage.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The students perform wonderful talents on the stage.",
+              "en": "The students perform wonderful talents on the stage."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The students perform wonderful talents on the ....",
+            "en": "Drag the correct word to complete the sentence: The students perform wonderful talents on the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'stage'.",
+            "en": "Choose the correct word: 'stage'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The students perform wonderful talents on the stage.'.",
+            "en": "The complete sentence is: 'The students perform wonderful talents on the stage.'."
+          },
+          "data": {
+            "prefix_text": "The students perform wonderful talents on the ",
+            "suffix_text": ".",
+            "options": [
+              "stage",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "stage"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'talent':",
+            "en": "Spell the English word 'talent':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'talent':",
+            "en": "Spell the English word 'talent':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'talent'.",
+            "en": "Tap the letters in order to spell 'talent'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'talent' correctly.",
+            "en": "Well done! You spelled 'talent' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "n",
+              "e",
+              "l",
+              "a",
+              "t"
+            ],
+            "target_word": "talent",
+            "target_sequence": [
+              "t",
+              "a",
+              "l",
+              "e",
+              "n",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Các bạn học sinh biểu diễn những tài năng tuyệt vời trên sân khấu.' in English?",
+            "en": "How do you say 'Các bạn học sinh biểu diễn những tài năng tuyệt vời trên sân khấu.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Các bạn học sinh biểu diễn những tài năng tuyệt vời trên sân khấu.' in English?",
+            "en": "How do you say 'Các bạn học sinh biểu diễn những tài năng tuyệt vời trên sân khấu.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Các bạn học sinh biểu diễn những tài năng tuyệt vời trên sân khấu.",
+            "en": "Choose the English sentence that means: Các bạn học sinh biểu diễn những tài năng tuyệt vời trên sân khấu."
+          },
+          "explanation": {
+            "vi": "'The students perform wonderful talents on the stage.' means 'Các bạn học sinh biểu diễn những tài năng tuyệt vời trên sân khấu.'.",
+            "en": "'The students perform wonderful talents on the stage.' means 'Các bạn học sinh biểu diễn những tài năng tuyệt vời trên sân khấu.'."
+          },
+          "data": {
+            "options": [
+              "The students perform wonderful talents on the stage.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The students perform wonderful talents on the stage."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'School Talent Show Contest'?",
+            "en": "Which of the following is a key word from Unit 'School Talent Show Contest'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'School Talent Show Contest'?",
+            "en": "Which of the following is a key word from Unit 'School Talent Show Contest'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: School Talent Show Contest.",
+            "en": "Remember the words in topic: School Talent Show Contest."
+          },
+          "explanation": {
+            "vi": "'talent' is a key vocabulary word in this topic.",
+            "en": "'talent' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "talent",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "talent"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'stage' start with the sound /t/?",
+            "en": "Does the word 'stage' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'stage' start with the sound /t/? The word 'stage' starts with letter 'T'.",
+            "en": "Does the word 'stage' start with the sound /t/? The word 'stage' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'stage'.",
+            "en": "Listen to the first sound of 'stage'."
+          },
+          "explanation": {
+            "vi": "Yes! 'stage' starts with the sound /t/.",
+            "en": "Yes! 'stage' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'stage' starts with letter 'T'.",
+              "en": "The word 'stage' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'talent'?",
+            "en": "How many letters are there in the word 'talent'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'talent'?",
+            "en": "How many letters are there in the word 'talent'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'talent': 1, 2, 3...",
+            "en": "Count the letters in 'talent': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'talent' has exactly 6 letters.",
+            "en": "The word 'talent' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'talent':",
+            "en": "Choose the correct phrase with 'talent':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'talent':",
+            "en": "Choose the correct phrase with 'talent':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a talent'.",
+            "en": "Correct! We say 'a talent'."
+          },
+          "data": {
+            "options": [
+              "a talent",
+              "an talent",
+              "two talent",
+              "many talent"
+            ],
+            "correct_answer": "a talent"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'talent'.",
+            "en": "Choose the word: 'talent'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is talent. It is wonderful!'",
+            "en": "We say: 'Look! This is talent. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "talent",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "talent"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s6_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'School Talent Show Contest'?",
+            "en": "Which English sentence best summarizes the topic 'School Talent Show Contest'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'School Talent Show Contest'?",
+            "en": "Which English sentence best summarizes the topic 'School Talent Show Contest'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'School Talent Show Contest'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'School Talent Show Contest'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: talent, stage!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: talent, stage!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1134 @@
+{
+  "id": "v2_stage_2",
+  "stage_number": 2,
+  "title": {
+    "vi": "Tuần 2: Niềm Vui Lao Động & Tuổi Thơ",
+    "en": "Tuần 2: Niềm Vui Lao Động & Tuổi Thơ"
+  },
+  "subtitle": {
+    "vi": "Bài 3 & 4 - Niềm vui của Bi và Bống & Làm việc thật là vui",
+    "en": "Bài 3 & 4 - Niềm vui của Bi và Bống & Làm việc thật là vui"
+  },
+  "icon": "🌈",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.921,
+  "required_stars": 3,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "v2_t2_1",
+      "title": {
+        "vi": "Tập đọc: Niềm vui của Bi và Bống",
+        "en": "Tập đọc: Niềm vui của Bi và Bống"
+      },
+      "description": {
+        "vi": "Ước mơ tuổi thơ và tình cảm anh em gắn bó",
+        "en": "Ước mơ tuổi thơ và tình cảm anh em gắn bó"
+      },
+      "icon": "🎨",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t2_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hai bạn nhỏ Bi và Bống trong bức tranh đang ngắm nhìn hiện tượng kỳ diệu nào trên bầu trời?",
+            "en": "Hai bạn nhỏ Bi và Bống trong bức tranh đang ngắm nhìn hiện tượng kỳ diệu nào trên bầu trời?"
+          },
+          "tts_prompt": {
+            "vi": "Hai bạn nhỏ Bi và Bống trong bức tranh đang ngắm nhìn hiện tượng kỳ diệu nào trên bầu trời?",
+            "en": "Hai bạn nhỏ Bi và Bống trong bức tranh đang ngắm nhìn hiện tượng kỳ diệu nào trên bầu trời?"
+          },
+          "hint": {
+            "vi": "Dải cầu vồng cong cong rực rỡ sau cơn mưa rào.",
+            "en": "Dải cầu vồng cong cong rực rỡ sau cơn mưa rào."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài tập đọc: 'Niềm vui của Bi và Bống'.",
+            "en": "Bức tranh minh hoạ bài tập đọc: 'Niềm vui của Bi và Bống'."
+          },
+          "data": {
+            "options": [
+              "cầu vồng bảy sắc",
+              "sao băng rơi",
+              "máy bay trực thăng",
+              "cơn bão tuyết"
+            ],
+            "correct_answer": "cầu vồng bảy sắc"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_niem_vui_bi_va_bong.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cầu vồng'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cầu vồng'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cầu vồng'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cầu vồng'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'cầu vồng' và 'ước mơ' cùng thuộc chủ điểm bài học.",
+            "en": "'cầu vồng' và 'ước mơ' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "ước mơ",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "ước mơ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cầu vồng",
+                  "en": "cầu vồng"
+                },
+                "right": {
+                  "vi": "Nghĩa của cầu vồng",
+                  "en": "Nghĩa của cầu vồng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "ước mơ",
+                  "en": "ước mơ"
+                },
+                "right": {
+                  "vi": "Nghĩa của ước mơ",
+                  "en": "Nghĩa của ước mơ"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "anh em",
+                  "en": "anh em"
+                },
+                "right": {
+                  "vi": "Nghĩa của anh em",
+                  "en": "Nghĩa của anh em"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cầu vồng' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cầu vồng' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'cầu vồng' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'cầu vồng' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'cầu vồng' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'cầu vồng' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cầu vồng'.",
+            "en": "Từ chính xác là 'cầu vồng'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "cầu vồng",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "cầu vồng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cầuvồng':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cầuvồng':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cầuvồng':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cầuvồng':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'cầuvồng'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'cầuvồng'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'cầuvồng'.",
+            "en": "Ghép các chữ cái tạo thành 'cầuvồng'."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "ồ",
+              "v",
+              "u",
+              "ầ",
+              "c"
+            ],
+            "target_word": "cầuvồng",
+            "target_sequence": [
+              "c",
+              "ầ",
+              "u",
+              "v",
+              "ồ",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'cầu vồng' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cầu vồng' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'cầu vồng' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cầu vồng' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'cầu vồng'.",
+            "en": "Xác định bản chất của từ 'cầu vồng'."
+          },
+          "explanation": {
+            "vi": "'cầu vồng' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'cầu vồng' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Niềm vui của Bi và Bống'.",
+            "en": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Niềm vui của Bi và Bống'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Niềm vui của Bi và Bống",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Niềm vui của Bi và Bống"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Tình cảm anh em ruột thịt luôn nhường nhịn và sẻ chia.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Tình cảm anh em ruột thịt luôn nhường nhịn và sẻ chia."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Tình cảm anh em ruột thịt luôn nhường nhịn và sẻ chia.",
+            "en": "Đúng! Tình cảm anh em ruột thịt luôn nhường nhịn và sẻ chia."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tình cảm anh em ruột thịt luôn nhường nhịn và sẻ chia.",
+              "en": "Tình cảm anh em ruột thịt luôn nhường nhịn và sẻ chia."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Bi và Bống ước mơ vẽ cầu vồng bảy sắc..",
+            "en": "Đếm từng tiếng trong câu: Bi và Bống ước mơ vẽ cầu vồng bảy sắc.."
+          },
+          "explanation": {
+            "vi": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' có đúng 10 tiếng.",
+            "en": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' có đúng 10 tiếng."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' Bi ... Bống ước mơ vẽ cầu vồng bảy sắc.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bi và Bống ước mơ vẽ cầu vồng bảy sắc.' Bi ... Bống ước mơ vẽ cầu vồng bảy sắc."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Bi và Bống ước mơ vẽ cầu vồng bảy sắc..",
+            "en": "Nhớ lại câu mẫu trong bài học: Bi và Bống ước mơ vẽ cầu vồng bảy sắc.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'và'.",
+            "en": "Từ chính xác là 'và'."
+          },
+          "data": {
+            "prefix_text": "Bi ",
+            "suffix_text": " Bống ước mơ vẽ cầu vồng bảy sắc.",
+            "options": [
+              "và",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "và"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cầu vồng' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cầu vồng' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cầu vồng' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cầu vồng' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý cầu vồng.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý cầu vồng.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý cầu vồng.",
+              "cầu vồng đang bay trên trời cao.",
+              "cầu vồng nở hoa rực rỡ.",
+              "cầu vồng có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý cầu vồng."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Niềm vui của Bi và Bống', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Niềm vui của Bi và Bống', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Niềm vui của Bi và Bống', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Niềm vui của Bi và Bống', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương cầu vồng",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương cầu vồng"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t2_2",
+      "title": {
+        "vi": "Tập đọc: Làm việc thật là vui",
+        "en": "Tập đọc: Làm việc thật là vui"
+      },
+      "description": {
+        "vi": "Vạn vật xung quanh đều chăm chỉ làm việc có ích",
+        "en": "Vạn vật xung quanh đều chăm chỉ làm việc có ích"
+      },
+      "icon": "🐝",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t2_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Những con vật và đồ vật nào trong tranh đang chăm chỉ làm việc mỗi ngày?",
+            "en": "Những con vật và đồ vật nào trong tranh đang chăm chỉ làm việc mỗi ngày?"
+          },
+          "tts_prompt": {
+            "vi": "Những con vật và đồ vật nào trong tranh đang chăm chỉ làm việc mỗi ngày?",
+            "en": "Những con vật và đồ vật nào trong tranh đang chăm chỉ làm việc mỗi ngày?"
+          },
+          "hint": {
+            "vi": "Chú ong bay đi tìm hoa làm mật ngọt cho đời.",
+            "en": "Chú ong bay đi tìm hoa làm mật ngọt cho đời."
+          },
+          "explanation": {
+            "vi": "Con ong làm mật, đồng hồ báo giờ, gà gáy sáng - Làm việc thật là vui!",
+            "en": "Con ong làm mật, đồng hồ báo giờ, gà gáy sáng - Làm việc thật là vui!"
+          },
+          "data": {
+            "options": [
+              "chú ong chăm chỉ",
+              "chú gấu ngủ say",
+              "con mèo lười",
+              "chú cá nằm im"
+            ],
+            "correct_answer": "chú ong chăm chỉ"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_lam_viec_that_la_vui.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'con ong'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'con ong'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'con ong'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'con ong'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'con ong' và 'đồng hồ' cùng thuộc chủ điểm bài học.",
+            "en": "'con ong' và 'đồng hồ' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "đồng hồ",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "đồng hồ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "con ong",
+                  "en": "con ong"
+                },
+                "right": {
+                  "vi": "Nghĩa của con ong",
+                  "en": "Nghĩa của con ong"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "đồng hồ",
+                  "en": "đồng hồ"
+                },
+                "right": {
+                  "vi": "Nghĩa của đồng hồ",
+                  "en": "Nghĩa của đồng hồ"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "gà trống",
+                  "en": "gà trống"
+                },
+                "right": {
+                  "vi": "Nghĩa của gà trống",
+                  "en": "Nghĩa của gà trống"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'con ong' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'con ong' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'con ong' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'con ong' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'con ong' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'con ong' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'con ong'.",
+            "en": "Từ chính xác là 'con ong'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "con ong",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "con ong"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'conong':",
+            "en": "Ghép các chữ cái để tạo thành từ 'conong':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'conong':",
+            "en": "Ghép các chữ cái để tạo thành từ 'conong':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'conong'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'conong'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'conong'.",
+            "en": "Ghép các chữ cái tạo thành 'conong'."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "o",
+              "n",
+              "o",
+              "c"
+            ],
+            "target_word": "conong",
+            "target_sequence": [
+              "c",
+              "o",
+              "n",
+              "o",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'con ong' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'con ong' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'con ong' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'con ong' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'con ong'.",
+            "en": "Xác định bản chất của từ 'con ong'."
+          },
+          "explanation": {
+            "vi": "'con ong' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'con ong' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Làm việc thật là vui'.",
+            "en": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Làm việc thật là vui'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Làm việc thật là vui",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Làm việc thật là vui"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Lao động chăm chỉ mang lại niềm vui và hạnh phúc.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Lao động chăm chỉ mang lại niềm vui và hạnh phúc."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Lao động chăm chỉ mang lại niềm vui và hạnh phúc.",
+            "en": "Đúng! Lao động chăm chỉ mang lại niềm vui và hạnh phúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Lao động chăm chỉ mang lại niềm vui và hạnh phúc.",
+              "en": "Lao động chăm chỉ mang lại niềm vui và hạnh phúc."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã..",
+            "en": "Đếm từng tiếng trong câu: Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.."
+          },
+          "explanation": {
+            "vi": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' có đúng 12 tiếng.",
+            "en": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' Làm ... thật là vui ai cũng bận rộn nhưng rộn rã.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.' Làm ... thật là vui ai cũng bận rộn nhưng rộn rã."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã..",
+            "en": "Nhớ lại câu mẫu trong bài học: Làm việc thật là vui, ai cũng bận rộn nhưng rộn rã.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'việc'.",
+            "en": "Từ chính xác là 'việc'."
+          },
+          "data": {
+            "prefix_text": "Làm ",
+            "suffix_text": " thật là vui ai cũng bận rộn nhưng rộn rã.",
+            "options": [
+              "việc",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "việc"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'con ong' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'con ong' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'con ong' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'con ong' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý con ong.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý con ong.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý con ong.",
+              "con ong đang bay trên trời cao.",
+              "con ong nở hoa rực rỡ.",
+              "con ong có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý con ong."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t2_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Làm việc thật là vui', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Làm việc thật là vui', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Làm việc thật là vui', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Làm việc thật là vui', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương con ong",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương con ong"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

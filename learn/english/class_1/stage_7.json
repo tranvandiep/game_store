@@ -1,0 +1,1120 @@
+{
+  "id": "e1_stage_7",
+  "stage_number": 7,
+  "title": {
+    "vi": "Week 7: Fruit Shopping & Colors",
+    "en": "Week 7: Fruit Shopping & Colors"
+  },
+  "subtitle": {
+    "vi": "Colors: Red, Green, Yellow & Numbers: One, Two",
+    "en": "Colors: Red, Green, Yellow & Numbers: One, Two"
+  },
+  "icon": "🎨",
+  "banner_image": null,
+  "x_percent": 0.2,
+  "y_percent": 0.776,
+  "required_stars": 18,
+  "theme_color": "0xFF059669",
+  "topics": [
+    {
+      "id": "e1_s7_1",
+      "title": {
+        "vi": "Counting Apples at Market",
+        "en": "Counting Apples at Market"
+      },
+      "description": {
+        "vi": "One red apple, two green apples",
+        "en": "One red apple, two green apples"
+      },
+      "icon": "🍏",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s7_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How many shiny red apples are there in the fruit basket in the picture?",
+            "en": "How many shiny red apples are there in the fruit basket in the picture?"
+          },
+          "tts_prompt": {
+            "vi": "How many shiny red apples are there in the fruit basket in the picture?",
+            "en": "How many shiny red apples are there in the fruit basket in the picture?"
+          },
+          "hint": {
+            "vi": "Count them: one, two!",
+            "en": "Count them: one, two!"
+          },
+          "explanation": {
+            "vi": "There are two sweet red apples in the basket.",
+            "en": "There are two sweet red apples in the basket."
+          },
+          "data": {
+            "options": [
+              "two sweet apples",
+              "ten big melons",
+              "zero apples",
+              "twenty grapes"
+            ],
+            "correct_answer": "two sweet apples"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u3_counting_apples.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s7_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'one'?",
+            "en": "What is the first letter of the word 'one'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'one'?",
+            "en": "What is the first letter of the word 'one'?"
+          },
+          "hint": {
+            "vi": "The word 'one' starts with the letter O.",
+            "en": "The word 'one' starts with the letter O."
+          },
+          "explanation": {
+            "vi": "Correct! 'one' begins with the letter 'O'.",
+            "en": "Correct! 'one' begins with the letter 'O'."
+          },
+          "data": {
+            "options": [
+              "Letter O",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter O"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "one",
+                  "en": "one"
+                },
+                "right": {
+                  "vi": "Nghĩa của one",
+                  "en": "Nghĩa của one"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "two",
+                  "en": "two"
+                },
+                "right": {
+                  "vi": "Nghĩa của two",
+                  "en": "Nghĩa của two"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "red",
+                  "en": "red"
+                },
+                "right": {
+                  "vi": "Nghĩa của red",
+                  "en": "Nghĩa của red"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? Two red apples in the bag.",
+            "en": "Is this English sentence correct for Grade 1? Two red apples in the bag."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Two red apples in the bag.",
+            "en": "Remember the pattern: Two red apples in the bag."
+          },
+          "explanation": {
+            "vi": "Yes! 'Two red apples in the bag.' is a correct English sentence.",
+            "en": "Yes! 'Two red apples in the bag.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Two red apples in the bag.",
+              "en": "Two red apples in the bag."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Two red apples in the ....",
+            "en": "Drag the correct word to complete the sentence: Two red apples in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'bag'.",
+            "en": "Choose the correct word: 'bag'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Two red apples in the bag.'.",
+            "en": "The complete sentence is: 'Two red apples in the bag.'."
+          },
+          "data": {
+            "prefix_text": "Two red apples in the ",
+            "suffix_text": ".",
+            "options": [
+              "bag",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "bag"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'one':",
+            "en": "Spell the English word 'one':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'one':",
+            "en": "Spell the English word 'one':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'one'.",
+            "en": "Tap the letters in order to spell 'one'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'one' correctly.",
+            "en": "Well done! You spelled 'one' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "n",
+              "o"
+            ],
+            "target_word": "one",
+            "target_sequence": [
+              "o",
+              "n",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Hai quả táo đỏ trong túi.' in English?",
+            "en": "How do you say 'Hai quả táo đỏ trong túi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Hai quả táo đỏ trong túi.' in English?",
+            "en": "How do you say 'Hai quả táo đỏ trong túi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Hai quả táo đỏ trong túi.",
+            "en": "Choose the English sentence that means: Hai quả táo đỏ trong túi."
+          },
+          "explanation": {
+            "vi": "'Two red apples in the bag.' means 'Hai quả táo đỏ trong túi.'.",
+            "en": "'Two red apples in the bag.' means 'Hai quả táo đỏ trong túi.'."
+          },
+          "data": {
+            "options": [
+              "Two red apples in the bag.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Two red apples in the bag."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Counting Apples at Market'?",
+            "en": "Which of the following is a word from Unit 'Counting Apples at Market'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Counting Apples at Market'?",
+            "en": "Which of the following is a word from Unit 'Counting Apples at Market'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Counting Apples at Market.",
+            "en": "Remember the words in topic: Counting Apples at Market."
+          },
+          "explanation": {
+            "vi": "'one' is a key vocabulary word in this topic.",
+            "en": "'one' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "one",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "one"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'two' start with the sound /o/?",
+            "en": "Does the word 'two' start with the sound /o/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'two' start with the sound /o/? The word 'two' starts with letter 'O'.",
+            "en": "Does the word 'two' start with the sound /o/? The word 'two' starts with letter 'O'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'two'.",
+            "en": "Listen to the first sound of 'two'."
+          },
+          "explanation": {
+            "vi": "Yes! 'two' starts with the sound /o/.",
+            "en": "Yes! 'two' starts with the sound /o/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'two' starts with letter 'O'.",
+              "en": "The word 'two' starts with letter 'O'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'one'?",
+            "en": "How many letters are there in the word 'one'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'one'?",
+            "en": "How many letters are there in the word 'one'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'one': 1, 2, 3...",
+            "en": "Count the letters in 'one': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'one' has exactly 3 letters.",
+            "en": "The word 'one' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'one':",
+            "en": "Choose the correct article before 'one':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'one':",
+            "en": "Choose the correct article before 'one':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an one'.",
+            "en": "Correct! We say 'an one'."
+          },
+          "data": {
+            "options": [
+              "an one",
+              "a one",
+              "two one",
+              "many one"
+            ],
+            "correct_answer": "an one"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "O",
+                  "en": "O"
+                },
+                "right": {
+                  "vi": "o",
+                  "en": "o"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Counting Apples at Market'?",
+            "en": "Which English sentence best describes the topic 'Counting Apples at Market'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Counting Apples at Market'?",
+            "en": "Which English sentence best describes the topic 'Counting Apples at Market'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Counting Apples at Market'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Counting Apples at Market'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: one, two!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: one, two!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s7_2",
+      "title": {
+        "vi": "Can of Juice & Big Bag",
+        "en": "Can of Juice & Big Bag"
+      },
+      "description": {
+        "vi": "Buying a can of fresh juice",
+        "en": "Buying a can of fresh juice"
+      },
+      "icon": "🥤",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s7_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What beverage container is the boy holding in his hand at the market stand?",
+            "en": "What beverage container is the boy holding in his hand at the market stand?"
+          },
+          "tts_prompt": {
+            "vi": "What beverage container is the boy holding in his hand at the market stand?",
+            "en": "What beverage container is the boy holding in his hand at the market stand?"
+          },
+          "hint": {
+            "vi": "It's a metal can with fruit drink.",
+            "en": "It's a metal can with fruit drink."
+          },
+          "explanation": {
+            "vi": "He is holding a can of fresh juice.",
+            "en": "He is holding a can of fresh juice."
+          },
+          "data": {
+            "options": [
+              "a can of fruit juice",
+              "a heavy rock",
+              "a wooden ruler",
+              "a football"
+            ],
+            "correct_answer": "a can of fruit juice"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u3_can_juice.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s7_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'can'?",
+            "en": "What is the first letter of the word 'can'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'can'?",
+            "en": "What is the first letter of the word 'can'?"
+          },
+          "hint": {
+            "vi": "The word 'can' starts with the letter C.",
+            "en": "The word 'can' starts with the letter C."
+          },
+          "explanation": {
+            "vi": "Correct! 'can' begins with the letter 'C'.",
+            "en": "Correct! 'can' begins with the letter 'C'."
+          },
+          "data": {
+            "options": [
+              "Letter C",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter C"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "can",
+                  "en": "can"
+                },
+                "right": {
+                  "vi": "Nghĩa của can",
+                  "en": "Nghĩa của can"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "juice",
+                  "en": "juice"
+                },
+                "right": {
+                  "vi": "Nghĩa của juice",
+                  "en": "Nghĩa của juice"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "bag",
+                  "en": "bag"
+                },
+                "right": {
+                  "vi": "Nghĩa của bag",
+                  "en": "Nghĩa của bag"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? A can of orange juice.",
+            "en": "Is this English sentence correct for Grade 1? A can of orange juice."
+          },
+          "hint": {
+            "vi": "Remember the pattern: A can of orange juice.",
+            "en": "Remember the pattern: A can of orange juice."
+          },
+          "explanation": {
+            "vi": "Yes! 'A can of orange juice.' is a correct English sentence.",
+            "en": "Yes! 'A can of orange juice.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "A can of orange juice.",
+              "en": "A can of orange juice."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: A can of orange ....",
+            "en": "Drag the correct word to complete the sentence: A can of orange ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'juice'.",
+            "en": "Choose the correct word: 'juice'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'A can of orange juice.'.",
+            "en": "The complete sentence is: 'A can of orange juice.'."
+          },
+          "data": {
+            "prefix_text": "A can of orange ",
+            "suffix_text": ".",
+            "options": [
+              "juice",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "juice"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'can':",
+            "en": "Spell the English word 'can':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'can':",
+            "en": "Spell the English word 'can':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'can'.",
+            "en": "Tap the letters in order to spell 'can'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'can' correctly.",
+            "en": "Well done! You spelled 'can' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "a",
+              "c"
+            ],
+            "target_word": "can",
+            "target_sequence": [
+              "c",
+              "a",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Một lon nước cam ép.' in English?",
+            "en": "How do you say 'Một lon nước cam ép.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Một lon nước cam ép.' in English?",
+            "en": "How do you say 'Một lon nước cam ép.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Một lon nước cam ép.",
+            "en": "Choose the English sentence that means: Một lon nước cam ép."
+          },
+          "explanation": {
+            "vi": "'A can of orange juice.' means 'Một lon nước cam ép.'.",
+            "en": "'A can of orange juice.' means 'Một lon nước cam ép.'."
+          },
+          "data": {
+            "options": [
+              "A can of orange juice.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "A can of orange juice."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Can of Juice & Big Bag'?",
+            "en": "Which of the following is a word from Unit 'Can of Juice & Big Bag'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Can of Juice & Big Bag'?",
+            "en": "Which of the following is a word from Unit 'Can of Juice & Big Bag'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Can of Juice & Big Bag.",
+            "en": "Remember the words in topic: Can of Juice & Big Bag."
+          },
+          "explanation": {
+            "vi": "'can' is a key vocabulary word in this topic.",
+            "en": "'can' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "can",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "can"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'juice' start with the sound /c/?",
+            "en": "Does the word 'juice' start with the sound /c/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'juice' start with the sound /c/? The word 'juice' starts with letter 'C'.",
+            "en": "Does the word 'juice' start with the sound /c/? The word 'juice' starts with letter 'C'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'juice'.",
+            "en": "Listen to the first sound of 'juice'."
+          },
+          "explanation": {
+            "vi": "Yes! 'juice' starts with the sound /c/.",
+            "en": "Yes! 'juice' starts with the sound /c/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'juice' starts with letter 'C'.",
+              "en": "The word 'juice' starts with letter 'C'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'can'?",
+            "en": "How many letters are there in the word 'can'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'can'?",
+            "en": "How many letters are there in the word 'can'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'can': 1, 2, 3...",
+            "en": "Count the letters in 'can': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'can' has exactly 3 letters.",
+            "en": "The word 'can' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'can':",
+            "en": "Choose the correct article before 'can':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'can':",
+            "en": "Choose the correct article before 'can':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a can'.",
+            "en": "Correct! We say 'a can'."
+          },
+          "data": {
+            "options": [
+              "a can",
+              "an can",
+              "two can",
+              "many can"
+            ],
+            "correct_answer": "a can"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s7_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Can of Juice & Big Bag'?",
+            "en": "Which English sentence best describes the topic 'Can of Juice & Big Bag'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Can of Juice & Big Bag'?",
+            "en": "Which English sentence best describes the topic 'Can of Juice & Big Bag'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Can of Juice & Big Bag'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Can of Juice & Big Bag'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: can, juice!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: can, juice!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

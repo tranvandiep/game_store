@@ -1,0 +1,1128 @@
+{
+  "id": "e3_stage_3",
+  "stage_number": 3,
+  "title": {
+    "vi": "Week 3: Unit 3 - Our Friends",
+    "en": "Week 3: Unit 3 - Our Friends"
+  },
+  "subtitle": {
+    "vi": "Introducing friends: This is Nam. Is that Linh? Yes, it is",
+    "en": "Introducing friends: This is Nam. Is that Linh? Yes, it is"
+  },
+  "icon": "👫",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.892,
+  "required_stars": 6,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "e3_s3_1",
+      "title": {
+        "vi": "Unit 3: This is My Friend",
+        "en": "Unit 3: This is My Friend"
+      },
+      "description": {
+        "vi": "Introducing friends: This is Tony / This is Mai",
+        "en": "Introducing friends: This is Tony / This is Mai"
+      },
+      "icon": "🤝",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s3_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy introducing his friend with an open hand. Who is he introducing?",
+            "en": "Look at the boy introducing his friend with an open hand. Who is he introducing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy introducing his friend with an open hand. Who is he introducing?",
+            "en": "Look at the boy introducing his friend with an open hand. Who is he introducing?"
+          },
+          "hint": {
+            "vi": "He is introducing his classmate Tony.",
+            "en": "He is introducing his classmate Tony."
+          },
+          "explanation": {
+            "vi": "He is saying: 'This is my good friend, Tony.'",
+            "en": "He is saying: 'This is my good friend, Tony.'"
+          },
+          "data": {
+            "options": [
+              "his good friend Tony",
+              "a wild animal",
+              "his pet dog",
+              "a robot"
+            ],
+            "correct_answer": "his good friend Tony"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u3_this_friend.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s3_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'friend'?",
+            "en": "What is the first letter of the word 'friend'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'friend'?",
+            "en": "What is the first letter of the word 'friend'?"
+          },
+          "hint": {
+            "vi": "The word 'friend' starts with the letter F.",
+            "en": "The word 'friend' starts with the letter F."
+          },
+          "explanation": {
+            "vi": "Correct! 'friend' begins with the letter 'F'.",
+            "en": "Correct! 'friend' begins with the letter 'F'."
+          },
+          "data": {
+            "options": [
+              "Letter F",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter F"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "friend",
+                  "en": "friend"
+                },
+                "right": {
+                  "vi": "Nghĩa của friend",
+                  "en": "Nghĩa của friend"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Tony",
+                  "en": "Tony"
+                },
+                "right": {
+                  "vi": "Nghĩa của Tony",
+                  "en": "Nghĩa của Tony"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Mai",
+                  "en": "Mai"
+                },
+                "right": {
+                  "vi": "Nghĩa của Mai",
+                  "en": "Nghĩa của Mai"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? This is my good friend, Tony.",
+            "en": "Is this English sentence correct for Grade 3? This is my good friend, Tony."
+          },
+          "hint": {
+            "vi": "Remember the pattern: This is my good friend, Tony.",
+            "en": "Remember the pattern: This is my good friend, Tony."
+          },
+          "explanation": {
+            "vi": "Yes! 'This is my good friend, Tony.' is a correct English sentence.",
+            "en": "Yes! 'This is my good friend, Tony.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "This is my good friend, Tony.",
+              "en": "This is my good friend, Tony."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: This is my good friend, ....",
+            "en": "Drag the correct word to complete the sentence: This is my good friend, ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Tony'.",
+            "en": "Choose the correct word: 'Tony'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'This is my good friend, Tony.'.",
+            "en": "The complete sentence is: 'This is my good friend, Tony.'."
+          },
+          "data": {
+            "prefix_text": "This is my good friend, ",
+            "suffix_text": ".",
+            "options": [
+              "Tony",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Tony"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'friend':",
+            "en": "Spell the English word 'friend':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'friend':",
+            "en": "Spell the English word 'friend':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'friend'.",
+            "en": "Tap the letters in order to spell 'friend'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'friend' correctly.",
+            "en": "Well done! You spelled 'friend' correctly."
+          },
+          "data": {
+            "letters": [
+              "d",
+              "n",
+              "e",
+              "i",
+              "r",
+              "f"
+            ],
+            "target_word": "friend",
+            "target_sequence": [
+              "f",
+              "r",
+              "i",
+              "e",
+              "n",
+              "d"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Đây là người bạn tốt của tôi, Tony.' in English?",
+            "en": "How do you say 'Đây là người bạn tốt của tôi, Tony.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Đây là người bạn tốt của tôi, Tony.' in English?",
+            "en": "How do you say 'Đây là người bạn tốt của tôi, Tony.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Đây là người bạn tốt của tôi, Tony.",
+            "en": "Choose the English sentence that means: Đây là người bạn tốt của tôi, Tony."
+          },
+          "explanation": {
+            "vi": "'This is my good friend, Tony.' means 'Đây là người bạn tốt của tôi, Tony.'.",
+            "en": "'This is my good friend, Tony.' means 'Đây là người bạn tốt của tôi, Tony.'."
+          },
+          "data": {
+            "options": [
+              "This is my good friend, Tony.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "This is my good friend, Tony."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 3: This is My Friend'?",
+            "en": "Which of the following is a word from Unit 'Unit 3: This is My Friend'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 3: This is My Friend'?",
+            "en": "Which of the following is a word from Unit 'Unit 3: This is My Friend'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 3: This is My Friend.",
+            "en": "Remember the words in topic: Unit 3: This is My Friend."
+          },
+          "explanation": {
+            "vi": "'friend' is a key vocabulary word in this topic.",
+            "en": "'friend' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "friend",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "friend"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Tony' start with the sound /f/?",
+            "en": "Does the word 'Tony' start with the sound /f/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Tony' start with the sound /f/? The word 'Tony' starts with letter 'F'.",
+            "en": "Does the word 'Tony' start with the sound /f/? The word 'Tony' starts with letter 'F'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Tony'.",
+            "en": "Listen to the first sound of 'Tony'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Tony' starts with the sound /f/.",
+            "en": "Yes! 'Tony' starts with the sound /f/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Tony' starts with letter 'F'.",
+              "en": "The word 'Tony' starts with letter 'F'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'friend'?",
+            "en": "How many letters are there in the word 'friend'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'friend'?",
+            "en": "How many letters are there in the word 'friend'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'friend': 1, 2, 3...",
+            "en": "Count the letters in 'friend': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'friend' has exactly 6 letters.",
+            "en": "The word 'friend' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'friend':",
+            "en": "Choose the correct phrase with 'friend':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'friend':",
+            "en": "Choose the correct phrase with 'friend':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a friend'.",
+            "en": "Correct! We say 'a friend'."
+          },
+          "data": {
+            "options": [
+              "a friend",
+              "an friend",
+              "two friend",
+              "many friend"
+            ],
+            "correct_answer": "a friend"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'friend'.",
+            "en": "Choose the noun: 'friend'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our friend. It is very nice!'",
+            "en": "We say: 'Look! This is our friend. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "friend",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "friend"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 3: This is My Friend'?",
+            "en": "Which English sentence best describes the topic 'Unit 3: This is My Friend'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 3: This is My Friend'?",
+            "en": "Which English sentence best describes the topic 'Unit 3: This is My Friend'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 3: This is My Friend'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 3: This is My Friend'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: friend, Tony!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: friend, Tony!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s3_2",
+      "title": {
+        "vi": "Unit 3: Is That Lucy?",
+        "en": "Unit 3: Is That Lucy?"
+      },
+      "description": {
+        "vi": "Asking: Is that Lucy? - Yes, it is / No, it isn't",
+        "en": "Asking: Is that Lucy? - Yes, it is / No, it isn't"
+      },
+      "icon": "👧",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s3_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the girl pointing to a friend across the school yard. What is she asking?",
+            "en": "Look at the girl pointing to a friend across the school yard. What is she asking?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the girl pointing to a friend across the school yard. What is she asking?",
+            "en": "Look at the girl pointing to a friend across the school yard. What is she asking?"
+          },
+          "hint": {
+            "vi": "She points at Lucy standing near the flowerbed.",
+            "en": "She points at Lucy standing near the flowerbed."
+          },
+          "explanation": {
+            "vi": "She asks: 'Is that Lucy? - Yes, it is.'",
+            "en": "She asks: 'Is that Lucy? - Yes, it is.'"
+          },
+          "data": {
+            "options": [
+              "Is that Lucy? - Yes, it is.",
+              "What time is it?",
+              "Where is my book?",
+              "How much is this?"
+            ],
+            "correct_answer": "Is that Lucy? - Yes, it is."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u3_is_that_lucy.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s3_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'that'?",
+            "en": "What is the first letter of the word 'that'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'that'?",
+            "en": "What is the first letter of the word 'that'?"
+          },
+          "hint": {
+            "vi": "The word 'that' starts with the letter T.",
+            "en": "The word 'that' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'that' begins with the letter 'T'.",
+            "en": "Correct! 'that' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "that",
+                  "en": "that"
+                },
+                "right": {
+                  "vi": "Nghĩa của that",
+                  "en": "Nghĩa của that"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Lucy",
+                  "en": "Lucy"
+                },
+                "right": {
+                  "vi": "Nghĩa của Lucy",
+                  "en": "Nghĩa của Lucy"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "yes",
+                  "en": "yes"
+                },
+                "right": {
+                  "vi": "Nghĩa của yes",
+                  "en": "Nghĩa của yes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Is that Lucy? - Yes, it is.",
+            "en": "Is this English sentence correct for Grade 3? Is that Lucy? - Yes, it is."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Is that Lucy? - Yes, it is.",
+            "en": "Remember the pattern: Is that Lucy? - Yes, it is."
+          },
+          "explanation": {
+            "vi": "Yes! 'Is that Lucy? - Yes, it is.' is a correct English sentence.",
+            "en": "Yes! 'Is that Lucy? - Yes, it is.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Is that Lucy? - Yes, it is.",
+              "en": "Is that Lucy? - Yes, it is."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Is that Lucy? - Yes, it ....",
+            "en": "Drag the correct word to complete the sentence: Is that Lucy? - Yes, it ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'is'.",
+            "en": "Choose the correct word: 'is'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Is that Lucy? - Yes, it is.'.",
+            "en": "The complete sentence is: 'Is that Lucy? - Yes, it is.'."
+          },
+          "data": {
+            "prefix_text": "Is that Lucy? - Yes, it ",
+            "suffix_text": ".",
+            "options": [
+              "is",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "is"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'that':",
+            "en": "Spell the English word 'that':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'that':",
+            "en": "Spell the English word 'that':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'that'.",
+            "en": "Tap the letters in order to spell 'that'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'that' correctly.",
+            "en": "Well done! You spelled 'that' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "a",
+              "h",
+              "t"
+            ],
+            "target_word": "that",
+            "target_sequence": [
+              "t",
+              "h",
+              "a",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Kia có phải là Lucy không? - Đúng vậy.' in English?",
+            "en": "How do you say 'Kia có phải là Lucy không? - Đúng vậy.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Kia có phải là Lucy không? - Đúng vậy.' in English?",
+            "en": "How do you say 'Kia có phải là Lucy không? - Đúng vậy.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Kia có phải là Lucy không? - Đúng vậy.",
+            "en": "Choose the English sentence that means: Kia có phải là Lucy không? - Đúng vậy."
+          },
+          "explanation": {
+            "vi": "'Is that Lucy? - Yes, it is.' means 'Kia có phải là Lucy không? - Đúng vậy.'.",
+            "en": "'Is that Lucy? - Yes, it is.' means 'Kia có phải là Lucy không? - Đúng vậy.'."
+          },
+          "data": {
+            "options": [
+              "Is that Lucy? - Yes, it is.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Is that Lucy? - Yes, it is."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 3: Is That Lucy?'?",
+            "en": "Which of the following is a word from Unit 'Unit 3: Is That Lucy?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 3: Is That Lucy?'?",
+            "en": "Which of the following is a word from Unit 'Unit 3: Is That Lucy?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 3: Is That Lucy?.",
+            "en": "Remember the words in topic: Unit 3: Is That Lucy?."
+          },
+          "explanation": {
+            "vi": "'that' is a key vocabulary word in this topic.",
+            "en": "'that' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "that",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "that"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Lucy' start with the sound /t/?",
+            "en": "Does the word 'Lucy' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Lucy' start with the sound /t/? The word 'Lucy' starts with letter 'T'.",
+            "en": "Does the word 'Lucy' start with the sound /t/? The word 'Lucy' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Lucy'.",
+            "en": "Listen to the first sound of 'Lucy'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Lucy' starts with the sound /t/.",
+            "en": "Yes! 'Lucy' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Lucy' starts with letter 'T'.",
+              "en": "The word 'Lucy' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'that'?",
+            "en": "How many letters are there in the word 'that'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'that'?",
+            "en": "How many letters are there in the word 'that'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'that': 1, 2, 3...",
+            "en": "Count the letters in 'that': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'that' has exactly 4 letters.",
+            "en": "The word 'that' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'that':",
+            "en": "Choose the correct phrase with 'that':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'that':",
+            "en": "Choose the correct phrase with 'that':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a that'.",
+            "en": "Correct! We say 'a that'."
+          },
+          "data": {
+            "options": [
+              "a that",
+              "an that",
+              "two that",
+              "many that"
+            ],
+            "correct_answer": "a that"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'that'.",
+            "en": "Choose the noun: 'that'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our that. It is very nice!'",
+            "en": "We say: 'Look! This is our that. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "that",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "that"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s3_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 3: Is That Lucy?'?",
+            "en": "Which English sentence best describes the topic 'Unit 3: Is That Lucy?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 3: Is That Lucy?'?",
+            "en": "Which English sentence best describes the topic 'Unit 3: Is That Lucy?'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 3: Is That Lucy?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 3: Is That Lucy?'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: that, Lucy!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: that, Lucy!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

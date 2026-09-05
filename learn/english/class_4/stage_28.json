@@ -1,0 +1,1138 @@
+{
+  "id": "e4_stage_28",
+  "stage_number": 28,
+  "title": {
+    "vi": "Week 28: Smart Shopping & Trying On",
+    "en": "Week 28: Smart Shopping & Trying On"
+  },
+  "subtitle": {
+    "vi": "Trying on clothes: size S/M/L, discounts, cash register, receipts",
+    "en": "Trying on clothes: size S/M/L, discounts, cash register, receipts"
+  },
+  "icon": "💳",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.166,
+  "required_stars": 81,
+  "theme_color": "0xFF0D9488",
+  "topics": [
+    {
+      "id": "e4_s28_1",
+      "title": {
+        "vi": "Paying at the Cash Register",
+        "en": "Paying at the Cash Register"
+      },
+      "description": {
+        "vi": "Paying for clothes and receiving change and receipt",
+        "en": "Paying for clothes and receiving change and receipt"
+      },
+      "icon": "💵",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s28_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the customer at the checkout counter paying the cashier with a barcode scanner. What action is it?",
+            "en": "Look at the customer at the checkout counter paying the cashier with a barcode scanner. What action is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the customer at the checkout counter paying the cashier with a barcode scanner. What action is it?",
+            "en": "Look at the customer at the checkout counter paying the cashier with a barcode scanner. What action is it?"
+          },
+          "hint": {
+            "vi": "Completing a purchase at the checkout counter.",
+            "en": "Completing a purchase at the checkout counter."
+          },
+          "explanation": {
+            "vi": "The customer is paying at the cash register.",
+            "en": "The customer is paying at the cash register."
+          },
+          "data": {
+            "options": [
+              "paying at the shopping cashier checkout",
+              "sleeping in a tent",
+              "planting a tree",
+              "washing dishes"
+            ],
+            "correct_answer": "paying at the shopping cashier checkout"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u18_cashier_pay.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s28_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'cashier'?",
+            "en": "What is the first letter of the word 'cashier'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'cashier'?",
+            "en": "What is the first letter of the word 'cashier'?"
+          },
+          "hint": {
+            "vi": "The word 'cashier' starts with the letter C.",
+            "en": "The word 'cashier' starts with the letter C."
+          },
+          "explanation": {
+            "vi": "Correct! 'cashier' begins with the letter 'C'.",
+            "en": "Correct! 'cashier' begins with the letter 'C'."
+          },
+          "data": {
+            "options": [
+              "Letter C",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter C"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cashier",
+                  "en": "cashier"
+                },
+                "right": {
+                  "vi": "Nghĩa của cashier",
+                  "en": "Nghĩa của cashier"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "receipt",
+                  "en": "receipt"
+                },
+                "right": {
+                  "vi": "Nghĩa của receipt",
+                  "en": "Nghĩa của receipt"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "change",
+                  "en": "change"
+                },
+                "right": {
+                  "vi": "Nghĩa của change",
+                  "en": "Nghĩa của change"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Pay for your shopping and get the receipt from the cashier.",
+            "en": "Is this English sentence correct for Grade 4? Pay for your shopping and get the receipt from the cashier."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Pay for your shopping and get the receipt from the cashier.",
+            "en": "Remember the pattern: Pay for your shopping and get the receipt from the cashier."
+          },
+          "explanation": {
+            "vi": "Yes! 'Pay for your shopping and get the receipt from the cashier.' is a correct English sentence.",
+            "en": "Yes! 'Pay for your shopping and get the receipt from the cashier.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Pay for your shopping and get the receipt from the cashier.",
+              "en": "Pay for your shopping and get the receipt from the cashier."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Pay for your shopping and get the receipt from the ....",
+            "en": "Drag the correct word to complete the sentence: Pay for your shopping and get the receipt from the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'cashier'.",
+            "en": "Choose the correct word: 'cashier'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Pay for your shopping and get the receipt from the cashier.'.",
+            "en": "The complete sentence is: 'Pay for your shopping and get the receipt from the cashier.'."
+          },
+          "data": {
+            "prefix_text": "Pay for your shopping and get the receipt from the ",
+            "suffix_text": ".",
+            "options": [
+              "cashier",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "cashier"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'cashier':",
+            "en": "Spell the English word 'cashier':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'cashier':",
+            "en": "Spell the English word 'cashier':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'cashier'.",
+            "en": "Tap the letters in order to spell 'cashier'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'cashier' correctly.",
+            "en": "Well done! You spelled 'cashier' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "i",
+              "h",
+              "s",
+              "a",
+              "c"
+            ],
+            "target_word": "cashier",
+            "target_sequence": [
+              "c",
+              "a",
+              "s",
+              "h",
+              "i",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Thanh toán cho món hàng và nhận hoá đơn từ nhân viên thu ngân.' in English?",
+            "en": "How do you say 'Thanh toán cho món hàng và nhận hoá đơn từ nhân viên thu ngân.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Thanh toán cho món hàng và nhận hoá đơn từ nhân viên thu ngân.' in English?",
+            "en": "How do you say 'Thanh toán cho món hàng và nhận hoá đơn từ nhân viên thu ngân.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Thanh toán cho món hàng và nhận hoá đơn từ nhân viên thu ngân.",
+            "en": "Choose the English sentence that means: Thanh toán cho món hàng và nhận hoá đơn từ nhân viên thu ngân."
+          },
+          "explanation": {
+            "vi": "'Pay for your shopping and get the receipt from the cashier.' means 'Thanh toán cho món hàng và nhận hoá đơn từ nhân viên thu ngân.'.",
+            "en": "'Pay for your shopping and get the receipt from the cashier.' means 'Thanh toán cho món hàng và nhận hoá đơn từ nhân viên thu ngân.'."
+          },
+          "data": {
+            "options": [
+              "Pay for your shopping and get the receipt from the cashier.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Pay for your shopping and get the receipt from the cashier."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Paying at the Cash Register'?",
+            "en": "Which of the following is a key word from Unit 'Paying at the Cash Register'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Paying at the Cash Register'?",
+            "en": "Which of the following is a key word from Unit 'Paying at the Cash Register'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Paying at the Cash Register.",
+            "en": "Remember the words in topic: Paying at the Cash Register."
+          },
+          "explanation": {
+            "vi": "'cashier' is a key vocabulary word in this topic.",
+            "en": "'cashier' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "cashier",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "cashier"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'receipt' start with the sound /c/?",
+            "en": "Does the word 'receipt' start with the sound /c/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'receipt' start with the sound /c/? The word 'receipt' starts with letter 'C'.",
+            "en": "Does the word 'receipt' start with the sound /c/? The word 'receipt' starts with letter 'C'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'receipt'.",
+            "en": "Listen to the first sound of 'receipt'."
+          },
+          "explanation": {
+            "vi": "Yes! 'receipt' starts with the sound /c/.",
+            "en": "Yes! 'receipt' starts with the sound /c/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'receipt' starts with letter 'C'.",
+              "en": "The word 'receipt' starts with letter 'C'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'cashier'?",
+            "en": "How many letters are there in the word 'cashier'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'cashier'?",
+            "en": "How many letters are there in the word 'cashier'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'cashier': 1, 2, 3...",
+            "en": "Count the letters in 'cashier': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'cashier' has exactly 7 letters.",
+            "en": "The word 'cashier' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'cashier':",
+            "en": "Choose the correct phrase with 'cashier':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'cashier':",
+            "en": "Choose the correct phrase with 'cashier':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a cashier'.",
+            "en": "Correct! We say 'a cashier'."
+          },
+          "data": {
+            "options": [
+              "a cashier",
+              "an cashier",
+              "two cashier",
+              "many cashier"
+            ],
+            "correct_answer": "a cashier"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'cashier'.",
+            "en": "Choose the word: 'cashier'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is cashier. It is wonderful!'",
+            "en": "We say: 'Look! This is cashier. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "cashier",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "cashier"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Paying at the Cash Register'?",
+            "en": "Which English sentence best summarizes the topic 'Paying at the Cash Register'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Paying at the Cash Register'?",
+            "en": "Which English sentence best summarizes the topic 'Paying at the Cash Register'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Paying at the Cash Register'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Paying at the Cash Register'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: cashier, receipt!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: cashier, receipt!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s28_2",
+      "title": {
+        "vi": "Colorful Shopping Bags of Goodies",
+        "en": "Colorful Shopping Bags of Goodies"
+      },
+      "description": {
+        "vi": "Carrying shopping bags happily after shopping",
+        "en": "Carrying shopping bags happily after shopping"
+      },
+      "icon": "🛍️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s28_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the happy shoppers holding paper bags with fashion logos in the mall. What are they carrying?",
+            "en": "Look at the happy shoppers holding paper bags with fashion logos in the mall. What are they carrying?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the happy shoppers holding paper bags with fashion logos in the mall. What are they carrying?",
+            "en": "Look at the happy shoppers holding paper bags with fashion logos in the mall. What are they carrying?"
+          },
+          "hint": {
+            "vi": "Bags containing newly purchased goods.",
+            "en": "Bags containing newly purchased goods."
+          },
+          "explanation": {
+            "vi": "They are carrying shopping bags.",
+            "en": "They are carrying shopping bags."
+          },
+          "data": {
+            "options": [
+              "shopping bags from the mall",
+              "heavy rocks",
+              "car tires",
+              "buckets of water"
+            ],
+            "correct_answer": "shopping bags from the mall"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u18_shopping_bags.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s28_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'shopping'?",
+            "en": "What is the first letter of the word 'shopping'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'shopping'?",
+            "en": "What is the first letter of the word 'shopping'?"
+          },
+          "hint": {
+            "vi": "The word 'shopping' starts with the letter S.",
+            "en": "The word 'shopping' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'shopping' begins with the letter 'S'.",
+            "en": "Correct! 'shopping' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "shopping",
+                  "en": "shopping"
+                },
+                "right": {
+                  "vi": "Nghĩa của shopping",
+                  "en": "Nghĩa của shopping"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bags",
+                  "en": "bags"
+                },
+                "right": {
+                  "vi": "Nghĩa của bags",
+                  "en": "Nghĩa của bags"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "mall",
+                  "en": "mall"
+                },
+                "right": {
+                  "vi": "Nghĩa của mall",
+                  "en": "Nghĩa của mall"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Walking happily with colorful shopping bags.",
+            "en": "Is this English sentence correct for Grade 4? Walking happily with colorful shopping bags."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Walking happily with colorful shopping bags.",
+            "en": "Remember the pattern: Walking happily with colorful shopping bags."
+          },
+          "explanation": {
+            "vi": "Yes! 'Walking happily with colorful shopping bags.' is a correct English sentence.",
+            "en": "Yes! 'Walking happily with colorful shopping bags.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Walking happily with colorful shopping bags.",
+              "en": "Walking happily with colorful shopping bags."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Walking happily with colorful shopping ....",
+            "en": "Drag the correct word to complete the sentence: Walking happily with colorful shopping ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'bags'.",
+            "en": "Choose the correct word: 'bags'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Walking happily with colorful shopping bags.'.",
+            "en": "The complete sentence is: 'Walking happily with colorful shopping bags.'."
+          },
+          "data": {
+            "prefix_text": "Walking happily with colorful shopping ",
+            "suffix_text": ".",
+            "options": [
+              "bags",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "bags"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'shopping':",
+            "en": "Spell the English word 'shopping':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'shopping':",
+            "en": "Spell the English word 'shopping':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'shopping'.",
+            "en": "Tap the letters in order to spell 'shopping'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'shopping' correctly.",
+            "en": "Well done! You spelled 'shopping' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "p",
+              "p",
+              "o",
+              "h",
+              "s"
+            ],
+            "target_word": "shopping",
+            "target_sequence": [
+              "s",
+              "h",
+              "o",
+              "p",
+              "p",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Vui vẻ bước đi cùng những túi mua sắm nhiều màu sắc.' in English?",
+            "en": "How do you say 'Vui vẻ bước đi cùng những túi mua sắm nhiều màu sắc.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Vui vẻ bước đi cùng những túi mua sắm nhiều màu sắc.' in English?",
+            "en": "How do you say 'Vui vẻ bước đi cùng những túi mua sắm nhiều màu sắc.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Vui vẻ bước đi cùng những túi mua sắm nhiều màu sắc.",
+            "en": "Choose the English sentence that means: Vui vẻ bước đi cùng những túi mua sắm nhiều màu sắc."
+          },
+          "explanation": {
+            "vi": "'Walking happily with colorful shopping bags.' means 'Vui vẻ bước đi cùng những túi mua sắm nhiều màu sắc.'.",
+            "en": "'Walking happily with colorful shopping bags.' means 'Vui vẻ bước đi cùng những túi mua sắm nhiều màu sắc.'."
+          },
+          "data": {
+            "options": [
+              "Walking happily with colorful shopping bags.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Walking happily with colorful shopping bags."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Colorful Shopping Bags of Goodies'?",
+            "en": "Which of the following is a key word from Unit 'Colorful Shopping Bags of Goodies'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Colorful Shopping Bags of Goodies'?",
+            "en": "Which of the following is a key word from Unit 'Colorful Shopping Bags of Goodies'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Colorful Shopping Bags of Goodies.",
+            "en": "Remember the words in topic: Colorful Shopping Bags of Goodies."
+          },
+          "explanation": {
+            "vi": "'shopping' is a key vocabulary word in this topic.",
+            "en": "'shopping' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "shopping",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "shopping"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'bags' start with the sound /s/?",
+            "en": "Does the word 'bags' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'bags' start with the sound /s/? The word 'bags' starts with letter 'S'.",
+            "en": "Does the word 'bags' start with the sound /s/? The word 'bags' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'bags'.",
+            "en": "Listen to the first sound of 'bags'."
+          },
+          "explanation": {
+            "vi": "Yes! 'bags' starts with the sound /s/.",
+            "en": "Yes! 'bags' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'bags' starts with letter 'S'.",
+              "en": "The word 'bags' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'shopping'?",
+            "en": "How many letters are there in the word 'shopping'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'shopping'?",
+            "en": "How many letters are there in the word 'shopping'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'shopping': 1, 2, 3...",
+            "en": "Count the letters in 'shopping': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'shopping' has exactly 8 letters.",
+            "en": "The word 'shopping' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'shopping':",
+            "en": "Choose the correct phrase with 'shopping':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'shopping':",
+            "en": "Choose the correct phrase with 'shopping':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a shopping'.",
+            "en": "Correct! We say 'a shopping'."
+          },
+          "data": {
+            "options": [
+              "a shopping",
+              "an shopping",
+              "two shopping",
+              "many shopping"
+            ],
+            "correct_answer": "a shopping"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'shopping'.",
+            "en": "Choose the word: 'shopping'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is shopping. It is wonderful!'",
+            "en": "We say: 'Look! This is shopping. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "shopping",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "shopping"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s28_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Colorful Shopping Bags of Goodies'?",
+            "en": "Which English sentence best summarizes the topic 'Colorful Shopping Bags of Goodies'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Colorful Shopping Bags of Goodies'?",
+            "en": "Which English sentence best summarizes the topic 'Colorful Shopping Bags of Goodies'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Colorful Shopping Bags of Goodies'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Colorful Shopping Bags of Goodies'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: shopping, bags!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: shopping, bags!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

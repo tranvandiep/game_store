@@ -1,0 +1,1124 @@
+{
+  "id": "e2_stage_3",
+  "stage_number": 3,
+  "title": {
+    "vi": "Week 3: Happy Birthday Songs & Gifts",
+    "en": "Week 3: Happy Birthday Songs & Gifts"
+  },
+  "subtitle": {
+    "vi": "Singing Happy Birthday and blowing candles",
+    "en": "Singing Happy Birthday and blowing candles"
+  },
+  "icon": "🎂",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.892,
+  "required_stars": 6,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "e2_s3_1",
+      "title": {
+        "vi": "Singing Happy Birthday",
+        "en": "Singing Happy Birthday"
+      },
+      "description": {
+        "vi": "Singing along: Happy Birthday to you!",
+        "en": "Singing along: Happy Birthday to you!"
+      },
+      "icon": "🎵",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s3_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the beautiful two-tier birthday cake with glowing candles. What are friends doing?",
+            "en": "Look at the beautiful two-tier birthday cake with glowing candles. What are friends doing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the beautiful two-tier birthday cake with glowing candles. What are friends doing?",
+            "en": "Look at the beautiful two-tier birthday cake with glowing candles. What are friends doing?"
+          },
+          "hint": {
+            "vi": "They are wearing party hats and singing around the cake.",
+            "en": "They are wearing party hats and singing around the cake."
+          },
+          "explanation": {
+            "vi": "They are singing the Happy Birthday song together.",
+            "en": "They are singing the Happy Birthday song together."
+          },
+          "data": {
+            "options": [
+              "singing Happy Birthday song",
+              "taking a test",
+              "sleeping in bed",
+              "sweeping the yard"
+            ],
+            "correct_answer": "singing Happy Birthday song"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u1_birthday_cake.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s3_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'sing'?",
+            "en": "What is the first letter of the word 'sing'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'sing'?",
+            "en": "What is the first letter of the word 'sing'?"
+          },
+          "hint": {
+            "vi": "The word 'sing' starts with the letter B.",
+            "en": "The word 'sing' starts with the letter B."
+          },
+          "explanation": {
+            "vi": "Correct! 'sing' begins with the letter 'B'.",
+            "en": "Correct! 'sing' begins with the letter 'B'."
+          },
+          "data": {
+            "options": [
+              "Letter B",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter B"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sing",
+                  "en": "sing"
+                },
+                "right": {
+                  "vi": "Nghĩa của sing",
+                  "en": "Nghĩa của sing"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "birthday",
+                  "en": "birthday"
+                },
+                "right": {
+                  "vi": "Nghĩa của birthday",
+                  "en": "Nghĩa của birthday"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "candle",
+                  "en": "candle"
+                },
+                "right": {
+                  "vi": "Nghĩa của candle",
+                  "en": "Nghĩa của candle"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Happy Birthday to our dear friend!",
+            "en": "Is this English sentence correct for Grade 2? Happy Birthday to our dear friend!"
+          },
+          "hint": {
+            "vi": "Remember the pattern: Happy Birthday to our dear friend!",
+            "en": "Remember the pattern: Happy Birthday to our dear friend!"
+          },
+          "explanation": {
+            "vi": "Yes! 'Happy Birthday to our dear friend!' is a correct English sentence.",
+            "en": "Yes! 'Happy Birthday to our dear friend!' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Happy Birthday to our dear friend!",
+              "en": "Happy Birthday to our dear friend!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Happy Birthday to our dear ....",
+            "en": "Drag the correct word to complete the sentence: Happy Birthday to our dear ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'friend!'.",
+            "en": "Choose the correct word: 'friend!'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Happy Birthday to our dear friend!.'.",
+            "en": "The complete sentence is: 'Happy Birthday to our dear friend!.'."
+          },
+          "data": {
+            "prefix_text": "Happy Birthday to our dear ",
+            "suffix_text": ".",
+            "options": [
+              "friend!",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "friend!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'sing':",
+            "en": "Spell the English word 'sing':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'sing':",
+            "en": "Spell the English word 'sing':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'sing'.",
+            "en": "Tap the letters in order to spell 'sing'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'sing' correctly.",
+            "en": "Well done! You spelled 'sing' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "s"
+            ],
+            "target_word": "sing",
+            "target_sequence": [
+              "s",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chúc mừng sinh nhật người bạn thân yêu!' in English?",
+            "en": "How do you say 'Chúc mừng sinh nhật người bạn thân yêu!' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chúc mừng sinh nhật người bạn thân yêu!' in English?",
+            "en": "How do you say 'Chúc mừng sinh nhật người bạn thân yêu!' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chúc mừng sinh nhật người bạn thân yêu!",
+            "en": "Choose the English sentence that means: Chúc mừng sinh nhật người bạn thân yêu!"
+          },
+          "explanation": {
+            "vi": "'Happy Birthday to our dear friend!' means 'Chúc mừng sinh nhật người bạn thân yêu!'.",
+            "en": "'Happy Birthday to our dear friend!' means 'Chúc mừng sinh nhật người bạn thân yêu!'."
+          },
+          "data": {
+            "options": [
+              "Happy Birthday to our dear friend!",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Happy Birthday to our dear friend!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Singing Happy Birthday'?",
+            "en": "Which of the following is a word from Unit 'Singing Happy Birthday'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Singing Happy Birthday'?",
+            "en": "Which of the following is a word from Unit 'Singing Happy Birthday'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Singing Happy Birthday.",
+            "en": "Remember the words in topic: Singing Happy Birthday."
+          },
+          "explanation": {
+            "vi": "'sing' is a key vocabulary word in this topic.",
+            "en": "'sing' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "sing",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "sing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'birthday' start with the sound /b/?",
+            "en": "Does the word 'birthday' start with the sound /b/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'birthday' start with the sound /b/? The word 'birthday' starts with letter 'B'.",
+            "en": "Does the word 'birthday' start with the sound /b/? The word 'birthday' starts with letter 'B'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'birthday'.",
+            "en": "Listen to the first sound of 'birthday'."
+          },
+          "explanation": {
+            "vi": "Yes! 'birthday' starts with the sound /b/.",
+            "en": "Yes! 'birthday' starts with the sound /b/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'birthday' starts with letter 'B'.",
+              "en": "The word 'birthday' starts with letter 'B'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'sing'?",
+            "en": "How many letters are there in the word 'sing'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'sing'?",
+            "en": "How many letters are there in the word 'sing'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'sing': 1, 2, 3...",
+            "en": "Count the letters in 'sing': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'sing' has exactly 4 letters.",
+            "en": "The word 'sing' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'sing':",
+            "en": "Choose the correct phrase with 'sing':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'sing':",
+            "en": "Choose the correct phrase with 'sing':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a sing'.",
+            "en": "Correct! We say 'a sing'."
+          },
+          "data": {
+            "options": [
+              "a sing",
+              "an sing",
+              "five sing",
+              "many sing"
+            ],
+            "correct_answer": "a sing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'sing'.",
+            "en": "Choose the food or object: 'sing'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like sing? - Yes, I do!'",
+            "en": "We ask: 'Do you like sing? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "sing",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "sing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Singing Happy Birthday'?",
+            "en": "Which English sentence best describes the topic 'Singing Happy Birthday'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Singing Happy Birthday'?",
+            "en": "Which English sentence best describes the topic 'Singing Happy Birthday'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Singing Happy Birthday'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Singing Happy Birthday'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: sing, birthday!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: sing, birthday!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s3_2",
+      "title": {
+        "vi": "Unwrapping Birthday Presents",
+        "en": "Unwrapping Birthday Presents"
+      },
+      "description": {
+        "vi": "Receiving colorful gift boxes from classmates",
+        "en": "Receiving colorful gift boxes from classmates"
+      },
+      "icon": "🎁",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s3_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the colorful box wrapped with shiny paper and a ribbon bow. What is it?",
+            "en": "Look at the colorful box wrapped with shiny paper and a ribbon bow. What is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the colorful box wrapped with shiny paper and a ribbon bow. What is it?",
+            "en": "Look at the colorful box wrapped with shiny paper and a ribbon bow. What is it?"
+          },
+          "hint": {
+            "vi": "A wrapped box given on special days like birthdays.",
+            "en": "A wrapped box given on special days like birthdays."
+          },
+          "explanation": {
+            "vi": "It's a lovely birthday gift box.",
+            "en": "It's a lovely birthday gift box."
+          },
+          "data": {
+            "options": [
+              "a lovely birthday present",
+              "a trash can",
+              "a shoebox",
+              "a brick"
+            ],
+            "correct_answer": "a lovely birthday present"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u1_gift_boxes.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s3_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'gift'?",
+            "en": "What is the first letter of the word 'gift'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'gift'?",
+            "en": "What is the first letter of the word 'gift'?"
+          },
+          "hint": {
+            "vi": "The word 'gift' starts with the letter G.",
+            "en": "The word 'gift' starts with the letter G."
+          },
+          "explanation": {
+            "vi": "Correct! 'gift' begins with the letter 'G'.",
+            "en": "Correct! 'gift' begins with the letter 'G'."
+          },
+          "data": {
+            "options": [
+              "Letter G",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter G"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "gift",
+                  "en": "gift"
+                },
+                "right": {
+                  "vi": "Nghĩa của gift",
+                  "en": "Nghĩa của gift"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "present",
+                  "en": "present"
+                },
+                "right": {
+                  "vi": "Nghĩa của present",
+                  "en": "Nghĩa của present"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "box",
+                  "en": "box"
+                },
+                "right": {
+                  "vi": "Nghĩa của box",
+                  "en": "Nghĩa của box"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? A big gift box with a red ribbon.",
+            "en": "Is this English sentence correct for Grade 2? A big gift box with a red ribbon."
+          },
+          "hint": {
+            "vi": "Remember the pattern: A big gift box with a red ribbon.",
+            "en": "Remember the pattern: A big gift box with a red ribbon."
+          },
+          "explanation": {
+            "vi": "Yes! 'A big gift box with a red ribbon.' is a correct English sentence.",
+            "en": "Yes! 'A big gift box with a red ribbon.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "A big gift box with a red ribbon.",
+              "en": "A big gift box with a red ribbon."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: A big gift box with a red ....",
+            "en": "Drag the correct word to complete the sentence: A big gift box with a red ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'ribbon'.",
+            "en": "Choose the correct word: 'ribbon'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'A big gift box with a red ribbon.'.",
+            "en": "The complete sentence is: 'A big gift box with a red ribbon.'."
+          },
+          "data": {
+            "prefix_text": "A big gift box with a red ",
+            "suffix_text": ".",
+            "options": [
+              "ribbon",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "ribbon"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'gift':",
+            "en": "Spell the English word 'gift':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'gift':",
+            "en": "Spell the English word 'gift':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'gift'.",
+            "en": "Tap the letters in order to spell 'gift'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'gift' correctly.",
+            "en": "Well done! You spelled 'gift' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "f",
+              "i",
+              "g"
+            ],
+            "target_word": "gift",
+            "target_sequence": [
+              "g",
+              "i",
+              "f",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Một hộp quà lớn với chiếc nơ ruy băng đỏ.' in English?",
+            "en": "How do you say 'Một hộp quà lớn với chiếc nơ ruy băng đỏ.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Một hộp quà lớn với chiếc nơ ruy băng đỏ.' in English?",
+            "en": "How do you say 'Một hộp quà lớn với chiếc nơ ruy băng đỏ.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Một hộp quà lớn với chiếc nơ ruy băng đỏ.",
+            "en": "Choose the English sentence that means: Một hộp quà lớn với chiếc nơ ruy băng đỏ."
+          },
+          "explanation": {
+            "vi": "'A big gift box with a red ribbon.' means 'Một hộp quà lớn với chiếc nơ ruy băng đỏ.'.",
+            "en": "'A big gift box with a red ribbon.' means 'Một hộp quà lớn với chiếc nơ ruy băng đỏ.'."
+          },
+          "data": {
+            "options": [
+              "A big gift box with a red ribbon.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "A big gift box with a red ribbon."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unwrapping Birthday Presents'?",
+            "en": "Which of the following is a word from Unit 'Unwrapping Birthday Presents'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unwrapping Birthday Presents'?",
+            "en": "Which of the following is a word from Unit 'Unwrapping Birthday Presents'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unwrapping Birthday Presents.",
+            "en": "Remember the words in topic: Unwrapping Birthday Presents."
+          },
+          "explanation": {
+            "vi": "'gift' is a key vocabulary word in this topic.",
+            "en": "'gift' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "gift",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "gift"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'present' start with the sound /g/?",
+            "en": "Does the word 'present' start with the sound /g/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'present' start with the sound /g/? The word 'present' starts with letter 'G'.",
+            "en": "Does the word 'present' start with the sound /g/? The word 'present' starts with letter 'G'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'present'.",
+            "en": "Listen to the first sound of 'present'."
+          },
+          "explanation": {
+            "vi": "Yes! 'present' starts with the sound /g/.",
+            "en": "Yes! 'present' starts with the sound /g/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'present' starts with letter 'G'.",
+              "en": "The word 'present' starts with letter 'G'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'gift'?",
+            "en": "How many letters are there in the word 'gift'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'gift'?",
+            "en": "How many letters are there in the word 'gift'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'gift': 1, 2, 3...",
+            "en": "Count the letters in 'gift': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'gift' has exactly 4 letters.",
+            "en": "The word 'gift' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'gift':",
+            "en": "Choose the correct phrase with 'gift':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'gift':",
+            "en": "Choose the correct phrase with 'gift':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a gift'.",
+            "en": "Correct! We say 'a gift'."
+          },
+          "data": {
+            "options": [
+              "a gift",
+              "an gift",
+              "five gift",
+              "many gift"
+            ],
+            "correct_answer": "a gift"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'gift'.",
+            "en": "Choose the food or object: 'gift'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like gift? - Yes, I do!'",
+            "en": "We ask: 'Do you like gift? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "gift",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "gift"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "G",
+                  "en": "G"
+                },
+                "right": {
+                  "vi": "g",
+                  "en": "g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s3_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unwrapping Birthday Presents'?",
+            "en": "Which English sentence best describes the topic 'Unwrapping Birthday Presents'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unwrapping Birthday Presents'?",
+            "en": "Which English sentence best describes the topic 'Unwrapping Birthday Presents'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unwrapping Birthday Presents'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unwrapping Birthday Presents'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: gift, present!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: gift, present!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

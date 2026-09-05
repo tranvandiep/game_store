@@ -1,0 +1,713 @@
+{
+  "id": "m4_stage_9",
+  "stage_number": 9,
+  "title": {
+    "vi": "Tuần 9: Phép Nhân Số Tự Nhiên & Tính Chất Phép Nhân",
+    "en": "Week 9: Multiplication & Core Properties"
+  },
+  "subtitle": {
+    "vi": "Trang 57-61: Nhân với 10, 100, 1 000; Tính chất giao hoán và kết hợp",
+    "en": "Pages 57-61: Multiply by 10, 100, 1,000; commutative & associative"
+  },
+  "icon": "✖️",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.726,
+  "required_stars": 24,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "m4_t9_1",
+      "title": {
+        "vi": "Phép nhân với số có một chữ số & Nhân với 10, 100, 1000...",
+        "en": "Multiply by 1-Digit & by 10, 100, 1,000"
+      },
+      "description": {
+        "vi": "Khi nhân với 10, 100, 1000... ta chỉ việc viết thêm 1, 2, 3 chữ số 0 vào bên phải",
+        "en": "Multiply by 10, 100, 1000 by adding 1, 2, 3 zeros to the right"
+      },
+      "icon": "✖️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t9_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 345 x 100 = ?",
+            "en": "Calculate: 345 * 100 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 345 x 100 = ?",
+            "en": "Calculate: 345 * 100 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Thêm 2 chữ số 0 vào sau: 34 500.",
+            "en": "34,500."
+          },
+          "data": {
+            "correct_number": "34500",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 1 425 x 6 = ?",
+            "en": "Calculate: 1,425 * 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 1 425 x 6 = ?",
+            "en": "Calculate: 1,425 * 6 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "1425 x 6 = 8550.",
+            "en": "8,550."
+          },
+          "data": {
+            "correct_number": "8550",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with products:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with products:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Nhân nhẩm với 10, 100, 1 000.",
+            "en": "Multiply by powers of 10."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "25 x 1 000",
+                  "en": "25 x 1 000"
+                },
+                "right": {
+                  "vi": "25 000",
+                  "en": "25 000"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "180 x 100",
+                  "en": "180 x 100"
+                },
+                "right": {
+                  "vi": "18 000",
+                  "en": "18 000"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "70 x 10",
+                  "en": "70 x 10"
+                },
+                "right": {
+                  "vi": "700",
+                  "en": "700"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 49 và 47 là:",
+            "en": "Average of 49 and 47 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 49 và 47 là:",
+            "en": "Average of 49 and 47 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(49 + 47) : 2 = 48.",
+            "en": "Average is 48."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "48"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đơn vị đo với giá trị quy đổi tương đương:",
+            "en": "Match units with equivalent values:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đơn vị đo tương đương",
+            "en": "Match units"
+          },
+          "hint": {
+            "vi": "Quy đổi đơn vị cẩn thận.",
+            "en": "Convert units."
+          },
+          "explanation": {
+            "vi": "Quy đổi đại lượng chuẩn xác.",
+            "en": "Correct unit conversion."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1,000 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t9_2",
+      "title": {
+        "vi": "Tính chất Giao Hoán & Kết Hợp của phép nhân",
+        "en": "Commutative & Associative Properties of Multiplication"
+      },
+      "description": {
+        "vi": "a x b = b x a và (a x b) x c = a x (b x c)",
+        "en": "a * b = b * a and (a * b) * c = a * (b * c)"
+      },
+      "icon": "🔄",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t9_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Biểu thức biểu thị tính chất kết hợp của phép nhân là:",
+            "en": "Which expression shows associative property of multiplication?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Biểu thức biểu thị tính chất kết hợp của phép nhân là:",
+            "en": "Which expression shows associative property of multiplication?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "(a x b) x c = a x (b x c).",
+            "en": "(a * b) * c = a * (b * c)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "(a x b) x c = a x (b x c)",
+                "en": "(a x b) x c = a x (b x c)"
+              },
+              {
+                "vi": "a x b = b x a",
+                "en": "a x b = b x a"
+              },
+              {
+                "vi": "a x (b + c) = a x b + a x c",
+                "en": "a x (b + c) = a x b + a x c"
+              }
+            ],
+            "correct_answer": "(a x b) x c = a x (b x c)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhanh: 25 x 17 x 4 = ?",
+            "en": "Compute efficiently: 25 * 17 * 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhanh: 25 x 17 x 4 = ?",
+            "en": "Compute efficiently: 25 * 17 * 4 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "(25 x 4) x 17 = 100 x 17 = 1 700.",
+            "en": "(25*4)*17 = 1,700."
+          },
+          "data": {
+            "correct_number": "1700",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Tính chất giao hoán phép nhân.",
+            "en": "Decide whether the following statement is true or false: Tính chất giao hoán phép nhân."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! a x b = b x a.",
+            "en": "True! Commutative law."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tính chất giao hoán phép nhân.",
+              "en": "Tính chất giao hoán phép nhân."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Tính chất Giao Hoán & Kết Hợp của phép nhân': Biểu thức biểu thị tính chất kết hợp của phép nhân là:",
+            "en": "Practice 'Commutative & Associative Properties of Multiplication': Which expression shows associative property of multiplication?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Biểu thức biểu thị tính chất kết hợp của phép nhân là:",
+            "en": "Which expression shows associative property of multiplication?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "(a x b) x c = a x (b x c).",
+            "en": "(a * b) * c = a * (b * c)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "(a x b) x c = a x (b x c)",
+                "en": "(a x b) x c = a x (b x c)"
+              },
+              {
+                "vi": "a x b = b x a",
+                "en": "a x b = b x a"
+              },
+              {
+                "vi": "a x (b + c) = a x b + a x c",
+                "en": "a x (b + c) = a x b + a x c"
+              }
+            ],
+            "correct_answer": "(a x b) x c = a x (b x c)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 84036 đến hàng nghìn:",
+            "en": "Round 84036 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 84036 đến hàng nghìn:",
+            "en": "Round 84036 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "84000",
+                "en": "84000"
+              },
+              {
+                "vi": "85000",
+                "en": "85000"
+              },
+              {
+                "vi": "83000",
+                "en": "83000"
+              }
+            ],
+            "correct_answer": "84000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 11 và 39 là:",
+            "en": "Average of 11 and 39 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 11 và 39 là:",
+            "en": "Average of 11 and 39 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(11 + 39) : 2 = 25.",
+            "en": "Average is 25."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "25"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t9_3",
+      "title": {
+        "vi": "Nhân với các số có tận cùng là chữ số 0",
+        "en": "Multiplication with Trailing Zeros"
+      },
+      "description": {
+        "vi": "Ví dụ: 130 x 40 = 13 x 4 x 100 = 5 200",
+        "en": "Example: 130 * 40 = 13 * 4 * 100 = 5,200"
+      },
+      "icon": "⚡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t9_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 230 x 30 = ?",
+            "en": "Calculate: 230 * 30 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 230 x 30 = ?",
+            "en": "Calculate: 230 * 30 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "23 x 3 = 69, thêm hai số 0 được 6 900.",
+            "en": "6,900."
+          },
+          "data": {
+            "correct_number": "6900",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 400 x 50 = ?",
+            "en": "Calculate: 400 * 50 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 400 x 50 = ?",
+            "en": "Calculate: 400 * 50 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "4 x 5 = 20, thêm ba số 0 được 20 000.",
+            "en": "20,000."
+          },
+          "data": {
+            "correct_number": "20000",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_3_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép phép tính: 50 x 20 = 1000",
+            "en": "Arrange tiles for: 50 * 20 = 1000"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép phép tính: 50 x 20 = 1000",
+            "en": "Arrange tiles for: 50 * 20 = 1000"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "50 x 20 = 1 000.",
+            "en": "50 * 20 = 1,000."
+          },
+          "data": {
+            "target_word": "50 x 20 = 1000",
+            "pool_tokens": [
+              "50",
+              "x",
+              "20",
+              "=",
+              "1000"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_3_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'NHÂN'",
+            "en": "Arrange the letters to spell the keyword: 'NHÂN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa NHÂN",
+            "en": "Arrange the letters to spell NHÂN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: NHÂN",
+            "en": "The keyword is: NHÂN"
+          },
+          "data": {
+            "target_word": "NHÂN",
+            "scrambled_letters": [
+              "Â",
+              "H",
+              "N",
+              "N"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t9_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 28 và 22 là:",
+            "en": "Average of 28 and 22 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 28 và 22 là:",
+            "en": "Average of 28 and 22 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(28 + 22) : 2 = 25.",
+            "en": "Average is 25."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "25"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

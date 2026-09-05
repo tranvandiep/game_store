@@ -1,0 +1,1134 @@
+{
+  "id": "e3_stage_9",
+  "stage_number": 9,
+  "title": {
+    "vi": "Week 9: Unit 6 - Our School",
+    "en": "Week 9: Unit 6 - Our School"
+  },
+  "subtitle": {
+    "vi": "School facilities: school, classroom, library, playground, gym, computer room",
+    "en": "School facilities: school, classroom, library, playground, gym, computer room"
+  },
+  "icon": "🏫",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.718,
+  "required_stars": 24,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e3_s9_1",
+      "title": {
+        "vi": "Unit 6: This is Our School",
+        "en": "Unit 6: This is Our School"
+      },
+      "description": {
+        "vi": "Is this our school? - Yes, it is / That is our classroom",
+        "en": "Is this our school? - Yes, it is / That is our classroom"
+      },
+      "icon": "🏫",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s9_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the bright multi-storey school building with a clock tower and flag. What place is it?",
+            "en": "Look at the bright multi-storey school building with a clock tower and flag. What place is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the bright multi-storey school building with a clock tower and flag. What place is it?",
+            "en": "Look at the bright multi-storey school building with a clock tower and flag. What place is it?"
+          },
+          "hint": {
+            "vi": "The place where children go to learn and study.",
+            "en": "The place where children go to learn and study."
+          },
+          "explanation": {
+            "vi": "It's our primary school building.",
+            "en": "It's our primary school building."
+          },
+          "data": {
+            "options": [
+              "our school",
+              "a supermarket",
+              "a movie cinema",
+              "a police station"
+            ],
+            "correct_answer": "our school"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u6_our_school.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s9_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'school'?",
+            "en": "What is the first letter of the word 'school'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'school'?",
+            "en": "What is the first letter of the word 'school'?"
+          },
+          "hint": {
+            "vi": "The word 'school' starts with the letter S.",
+            "en": "The word 'school' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'school' begins with the letter 'S'.",
+            "en": "Correct! 'school' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "school",
+                  "en": "school"
+                },
+                "right": {
+                  "vi": "Nghĩa của school",
+                  "en": "Nghĩa của school"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "classroom",
+                  "en": "classroom"
+                },
+                "right": {
+                  "vi": "Nghĩa của classroom",
+                  "en": "Nghĩa của classroom"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "building",
+                  "en": "building"
+                },
+                "right": {
+                  "vi": "Nghĩa của building",
+                  "en": "Nghĩa của building"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? This is our big and beautiful school.",
+            "en": "Is this English sentence correct for Grade 3? This is our big and beautiful school."
+          },
+          "hint": {
+            "vi": "Remember the pattern: This is our big and beautiful school.",
+            "en": "Remember the pattern: This is our big and beautiful school."
+          },
+          "explanation": {
+            "vi": "Yes! 'This is our big and beautiful school.' is a correct English sentence.",
+            "en": "Yes! 'This is our big and beautiful school.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "This is our big and beautiful school.",
+              "en": "This is our big and beautiful school."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: This is our big and beautiful ....",
+            "en": "Drag the correct word to complete the sentence: This is our big and beautiful ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'school'.",
+            "en": "Choose the correct word: 'school'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'This is our big and beautiful school.'.",
+            "en": "The complete sentence is: 'This is our big and beautiful school.'."
+          },
+          "data": {
+            "prefix_text": "This is our big and beautiful ",
+            "suffix_text": ".",
+            "options": [
+              "school",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "school"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'school':",
+            "en": "Spell the English word 'school':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'school':",
+            "en": "Spell the English word 'school':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'school'.",
+            "en": "Tap the letters in order to spell 'school'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'school' correctly.",
+            "en": "Well done! You spelled 'school' correctly."
+          },
+          "data": {
+            "letters": [
+              "l",
+              "o",
+              "o",
+              "h",
+              "c",
+              "s"
+            ],
+            "target_word": "school",
+            "target_sequence": [
+              "s",
+              "c",
+              "h",
+              "o",
+              "o",
+              "l"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Đây là ngôi trường to lớn và tươi đẹp của chúng tôi.' in English?",
+            "en": "How do you say 'Đây là ngôi trường to lớn và tươi đẹp của chúng tôi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Đây là ngôi trường to lớn và tươi đẹp của chúng tôi.' in English?",
+            "en": "How do you say 'Đây là ngôi trường to lớn và tươi đẹp của chúng tôi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Đây là ngôi trường to lớn và tươi đẹp của chúng tôi.",
+            "en": "Choose the English sentence that means: Đây là ngôi trường to lớn và tươi đẹp của chúng tôi."
+          },
+          "explanation": {
+            "vi": "'This is our big and beautiful school.' means 'Đây là ngôi trường to lớn và tươi đẹp của chúng tôi.'.",
+            "en": "'This is our big and beautiful school.' means 'Đây là ngôi trường to lớn và tươi đẹp của chúng tôi.'."
+          },
+          "data": {
+            "options": [
+              "This is our big and beautiful school.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "This is our big and beautiful school."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 6: This is Our School'?",
+            "en": "Which of the following is a word from Unit 'Unit 6: This is Our School'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 6: This is Our School'?",
+            "en": "Which of the following is a word from Unit 'Unit 6: This is Our School'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 6: This is Our School.",
+            "en": "Remember the words in topic: Unit 6: This is Our School."
+          },
+          "explanation": {
+            "vi": "'school' is a key vocabulary word in this topic.",
+            "en": "'school' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "school",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "school"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'classroom' start with the sound /s/?",
+            "en": "Does the word 'classroom' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'classroom' start with the sound /s/? The word 'classroom' starts with letter 'S'.",
+            "en": "Does the word 'classroom' start with the sound /s/? The word 'classroom' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'classroom'.",
+            "en": "Listen to the first sound of 'classroom'."
+          },
+          "explanation": {
+            "vi": "Yes! 'classroom' starts with the sound /s/.",
+            "en": "Yes! 'classroom' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'classroom' starts with letter 'S'.",
+              "en": "The word 'classroom' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'school'?",
+            "en": "How many letters are there in the word 'school'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'school'?",
+            "en": "How many letters are there in the word 'school'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'school': 1, 2, 3...",
+            "en": "Count the letters in 'school': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'school' has exactly 6 letters.",
+            "en": "The word 'school' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'school':",
+            "en": "Choose the correct phrase with 'school':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'school':",
+            "en": "Choose the correct phrase with 'school':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a school'.",
+            "en": "Correct! We say 'a school'."
+          },
+          "data": {
+            "options": [
+              "a school",
+              "an school",
+              "two school",
+              "many school"
+            ],
+            "correct_answer": "a school"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'school'.",
+            "en": "Choose the noun: 'school'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our school. It is very nice!'",
+            "en": "We say: 'Look! This is our school. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "school",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "school"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 6: This is Our School'?",
+            "en": "Which English sentence best describes the topic 'Unit 6: This is Our School'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 6: This is Our School'?",
+            "en": "Which English sentence best describes the topic 'Unit 6: This is Our School'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 6: This is Our School'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 6: This is Our School'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: school, classroom!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: school, classroom!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s9_2",
+      "title": {
+        "vi": "Unit 6: School Library & Gym",
+        "en": "Unit 6: School Library & Gym"
+      },
+      "description": {
+        "vi": "That's the library / Is that the gym? - Yes, it is",
+        "en": "That's the library / Is that the gym? - Yes, it is"
+      },
+      "icon": "📖",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s9_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the quiet room with long bookshelves full of books and reading tables. What room is it?",
+            "en": "Look at the quiet room with long bookshelves full of books and reading tables. What room is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the quiet room with long bookshelves full of books and reading tables. What room is it?",
+            "en": "Look at the quiet room with long bookshelves full of books and reading tables. What room is it?"
+          },
+          "hint": {
+            "vi": "A room containing collections of books for reading.",
+            "en": "A room containing collections of books for reading."
+          },
+          "explanation": {
+            "vi": "It's the school library.",
+            "en": "It's the school library."
+          },
+          "data": {
+            "options": [
+              "the school library",
+              "the kitchen",
+              "the school bus",
+              "the garden shed"
+            ],
+            "correct_answer": "the school library"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u6_library_gym.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s9_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'library'?",
+            "en": "What is the first letter of the word 'library'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'library'?",
+            "en": "What is the first letter of the word 'library'?"
+          },
+          "hint": {
+            "vi": "The word 'library' starts with the letter L.",
+            "en": "The word 'library' starts with the letter L."
+          },
+          "explanation": {
+            "vi": "Correct! 'library' begins with the letter 'L'.",
+            "en": "Correct! 'library' begins with the letter 'L'."
+          },
+          "data": {
+            "options": [
+              "Letter L",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter L"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "library",
+                  "en": "library"
+                },
+                "right": {
+                  "vi": "Nghĩa của library",
+                  "en": "Nghĩa của library"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "gym",
+                  "en": "gym"
+                },
+                "right": {
+                  "vi": "Nghĩa của gym",
+                  "en": "Nghĩa của gym"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "books",
+                  "en": "books"
+                },
+                "right": {
+                  "vi": "Nghĩa của books",
+                  "en": "Nghĩa của books"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? That is the quiet school library.",
+            "en": "Is this English sentence correct for Grade 3? That is the quiet school library."
+          },
+          "hint": {
+            "vi": "Remember the pattern: That is the quiet school library.",
+            "en": "Remember the pattern: That is the quiet school library."
+          },
+          "explanation": {
+            "vi": "Yes! 'That is the quiet school library.' is a correct English sentence.",
+            "en": "Yes! 'That is the quiet school library.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "That is the quiet school library.",
+              "en": "That is the quiet school library."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: That is the quiet school ....",
+            "en": "Drag the correct word to complete the sentence: That is the quiet school ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'library'.",
+            "en": "Choose the correct word: 'library'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'That is the quiet school library.'.",
+            "en": "The complete sentence is: 'That is the quiet school library.'."
+          },
+          "data": {
+            "prefix_text": "That is the quiet school ",
+            "suffix_text": ".",
+            "options": [
+              "library",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "library"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'library':",
+            "en": "Spell the English word 'library':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'library':",
+            "en": "Spell the English word 'library':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'library'.",
+            "en": "Tap the letters in order to spell 'library'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'library' correctly.",
+            "en": "Well done! You spelled 'library' correctly."
+          },
+          "data": {
+            "letters": [
+              "y",
+              "r",
+              "a",
+              "r",
+              "b",
+              "i",
+              "l"
+            ],
+            "target_word": "library",
+            "target_sequence": [
+              "l",
+              "i",
+              "b",
+              "r",
+              "a",
+              "r",
+              "y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Kia là thư viện trường học yên tĩnh.' in English?",
+            "en": "How do you say 'Kia là thư viện trường học yên tĩnh.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Kia là thư viện trường học yên tĩnh.' in English?",
+            "en": "How do you say 'Kia là thư viện trường học yên tĩnh.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Kia là thư viện trường học yên tĩnh.",
+            "en": "Choose the English sentence that means: Kia là thư viện trường học yên tĩnh."
+          },
+          "explanation": {
+            "vi": "'That is the quiet school library.' means 'Kia là thư viện trường học yên tĩnh.'.",
+            "en": "'That is the quiet school library.' means 'Kia là thư viện trường học yên tĩnh.'."
+          },
+          "data": {
+            "options": [
+              "That is the quiet school library.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "That is the quiet school library."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 6: School Library & Gym'?",
+            "en": "Which of the following is a word from Unit 'Unit 6: School Library & Gym'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 6: School Library & Gym'?",
+            "en": "Which of the following is a word from Unit 'Unit 6: School Library & Gym'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 6: School Library & Gym.",
+            "en": "Remember the words in topic: Unit 6: School Library & Gym."
+          },
+          "explanation": {
+            "vi": "'library' is a key vocabulary word in this topic.",
+            "en": "'library' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "library",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "library"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'gym' start with the sound /l/?",
+            "en": "Does the word 'gym' start with the sound /l/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'gym' start with the sound /l/? The word 'gym' starts with letter 'L'.",
+            "en": "Does the word 'gym' start with the sound /l/? The word 'gym' starts with letter 'L'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'gym'.",
+            "en": "Listen to the first sound of 'gym'."
+          },
+          "explanation": {
+            "vi": "Yes! 'gym' starts with the sound /l/.",
+            "en": "Yes! 'gym' starts with the sound /l/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'gym' starts with letter 'L'.",
+              "en": "The word 'gym' starts with letter 'L'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'library'?",
+            "en": "How many letters are there in the word 'library'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'library'?",
+            "en": "How many letters are there in the word 'library'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'library': 1, 2, 3...",
+            "en": "Count the letters in 'library': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'library' has exactly 7 letters.",
+            "en": "The word 'library' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'library':",
+            "en": "Choose the correct phrase with 'library':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'library':",
+            "en": "Choose the correct phrase with 'library':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a library'.",
+            "en": "Correct! We say 'a library'."
+          },
+          "data": {
+            "options": [
+              "a library",
+              "an library",
+              "two library",
+              "many library"
+            ],
+            "correct_answer": "a library"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'library'.",
+            "en": "Choose the noun: 'library'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our library. It is very nice!'",
+            "en": "We say: 'Look! This is our library. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "library",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "library"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s9_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 6: School Library & Gym'?",
+            "en": "Which English sentence best describes the topic 'Unit 6: School Library & Gym'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 6: School Library & Gym'?",
+            "en": "Which English sentence best describes the topic 'Unit 6: School Library & Gym'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 6: School Library & Gym'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 6: School Library & Gym'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: library, gym!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: library, gym!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

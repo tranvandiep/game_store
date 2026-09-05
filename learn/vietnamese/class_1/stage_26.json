@@ -1,0 +1,1132 @@
+{
+  "id": "v1_stage_26",
+  "stage_number": 26,
+  "title": {
+    "vi": "Tuần 26: Chủ Điểm Bài Học Từ Cuộc Sống (Phần 1)",
+    "en": "Tuần 26: Chủ Điểm Bài Học Từ Cuộc Sống (Phần 1)"
+  },
+  "subtitle": {
+    "vi": "Bài 1, 2 & 3 - Kiến và chim bồ câu, Câu chuyện của rễ, Câu hỏi của sói",
+    "en": "Bài 1, 2 & 3 - Kiến và chim bồ câu, Câu chuyện của rễ, Câu hỏi của sói"
+  },
+  "icon": "🕊️",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.224,
+  "required_stars": 75,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "v1_t26_1",
+      "title": {
+        "vi": "Tập đọc: Kiến và chim bồ câu",
+        "en": "Tập đọc: Kiến và chim bồ câu"
+      },
+      "description": {
+        "vi": "Bài học về sự giúp đỡ và đền ơn đáp nghĩa",
+        "en": "Bài học về sự giúp đỡ và đền ơn đáp nghĩa"
+      },
+      "icon": "🐜",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t26_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong câu chuyện, chú kiến nhỏ đã làm gì để cứu bạn chim bồ câu khỏi nỏ của bác thợ săn?",
+            "en": "Trong câu chuyện, chú kiến nhỏ đã làm gì để cứu bạn chim bồ câu khỏi nỏ của bác thợ săn?"
+          },
+          "tts_prompt": {
+            "vi": "Trong câu chuyện, chú kiến nhỏ đã làm gì để cứu bạn chim bồ câu khỏi nỏ của bác thợ săn?",
+            "en": "Trong câu chuyện, chú kiến nhỏ đã làm gì để cứu bạn chim bồ câu khỏi nỏ của bác thợ săn?"
+          },
+          "hint": {
+            "vi": "Kiến dũng cảm bò đến cắn thật đau vào chân bác thợ săn.",
+            "en": "Kiến dũng cảm bò đến cắn thật đau vào chân bác thợ săn."
+          },
+          "explanation": {
+            "vi": "Kiến cắn vào chân bác thợ săn làm mũi tên chệch hướng, cứu sống bồ câu.",
+            "en": "Kiến cắn vào chân bác thợ săn làm mũi tên chệch hướng, cứu sống bồ câu."
+          },
+          "data": {
+            "options": [
+              "cắn vào chân bác thợ săn",
+              "kêu to báo động",
+              "ném cành cây",
+              "bay lên trời"
+            ],
+            "correct_answer": "cắn vào chân bác thợ săn"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_kien_va_chim_bo_cau.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'chú kiến', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'chú kiến', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'chú kiến', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'chú kiến', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'chú kiến'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'chú kiến'."
+          },
+          "explanation": {
+            "vi": "Trong 'chú kiến', âm 'c' là âm đầu đứng trước.",
+            "en": "Trong 'chú kiến', âm 'c' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "c",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "c"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "chú kiến",
+                  "en": "chú kiến"
+                },
+                "right": {
+                  "vi": "Tiếng chú kiến",
+                  "en": "Tiếng chú kiến"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bồ câu",
+                  "en": "bồ câu"
+                },
+                "right": {
+                  "vi": "Tiếng bồ câu",
+                  "en": "Tiếng bồ câu"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cứu mạng",
+                  "en": "cứu mạng"
+                },
+                "right": {
+                  "vi": "Tiếng cứu mạng",
+                  "en": "Tiếng cứu mạng"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'bồ câu' xuất hiện trong bài học về 'bồ câu'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'bồ câu' xuất hiện trong bài học về 'bồ câu'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'bồ câu'.",
+            "en": "Nhớ lại nội dung bài học về 'bồ câu'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'bồ câu' là trọng tâm trong bài học về 'bồ câu'.",
+            "en": "Đúng! Nội dung 'bồ câu' là trọng tâm trong bài học về 'bồ câu'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'bồ câu' xuất hiện trong bài học về 'bồ câu'.",
+              "en": "Từ hoặc câu liên quan đến 'bồ câu' xuất hiện trong bài học về 'bồ câu'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'chú kiến'.",
+            "en": "Chọn từ đang học trong bài: 'chú kiến'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'chú kiến'.",
+            "en": "Từ chính xác là 'chú kiến'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "chú kiến",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "chú kiến"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'chúkiến':",
+            "en": "Ghép các chữ cái để tạo thành từ 'chúkiến':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'chúkiến':",
+            "en": "Ghép các chữ cái để tạo thành từ 'chúkiến':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'chúkiến'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'chúkiến'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'chúkiến'.",
+            "en": "Ghép các chữ cái tạo thành 'chúkiến'."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "ế",
+              "i",
+              "k",
+              "ú",
+              "h",
+              "c"
+            ],
+            "target_word": "chúkiến",
+            "target_sequence": [
+              "c",
+              "h",
+              "ú",
+              "k",
+              "i",
+              "ế",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'chú kiến' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'chú kiến' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'chú kiến' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'chú kiến' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'chú kiến'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'chú kiến'."
+          },
+          "explanation": {
+            "vi": "'chú kiến bồ câu' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'chú kiến bồ câu' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "bồ câu",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "bồ câu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' thuộc chủ đề 'Tập đọc: Kiến và chim bồ câu'.",
+            "en": "Câu 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' thuộc chủ đề 'Tập đọc: Kiến và chim bồ câu'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Kiến và chim bồ câu",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Kiến và chim bồ câu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Làm việc tốt giúp đỡ người khác sẽ nhận lại điều tốt lành.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Làm việc tốt giúp đỡ người khác sẽ nhận lại điều tốt lành."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Làm việc tốt giúp đỡ người khác sẽ nhận lại điều tốt lành.",
+            "en": "Đúng! Làm việc tốt giúp đỡ người khác sẽ nhận lại điều tốt lành."
+          },
+          "data": {
+            "statement": {
+              "vi": "Làm việc tốt giúp đỡ người khác sẽ nhận lại điều tốt lành.",
+              "en": "Làm việc tốt giúp đỡ người khác sẽ nhận lại điều tốt lành."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Kiến cắn vào chân bác thợ săn để cứu chim bồ câu..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.."
+          },
+          "explanation": {
+            "vi": "Câu 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' có đúng 12 tiếng.",
+            "en": "Câu 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'bồ câu' mang dấu thanh gì?",
+            "en": "Tiếng 'bồ câu' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'bồ câu' mang dấu thanh gì?",
+            "en": "Tiếng 'bồ câu' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'bồ câu' mang dấu thanh chính xác.",
+            "en": "Tiếng 'bồ câu' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' Kiến ... vào chân bác thợ săn để cứu chim bồ câu.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.' Kiến ... vào chân bác thợ săn để cứu chim bồ câu."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Kiến cắn vào chân bác thợ săn để cứu chim bồ câu..",
+            "en": "Nhớ lại câu mẫu: Kiến cắn vào chân bác thợ săn để cứu chim bồ câu.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cắn'.",
+            "en": "Từ chính xác là 'cắn'."
+          },
+          "data": {
+            "prefix_text": "Kiến ",
+            "suffix_text": " vào chân bác thợ săn để cứu chim bồ câu.",
+            "options": [
+              "cắn",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "cắn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'chú kiến'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'chú kiến'."
+          },
+          "explanation": {
+            "vi": "'chú kiến' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'chú kiến' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "chú kiến",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "chú kiến"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'bồ câu'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'bồ câu'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'bồ câu'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'bồ câu'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'bồ câu' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'bồ câu' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'chú kiến'.",
+            "en": "Tiếng mẫu của bài là 'chú kiến'."
+          },
+          "data": {
+            "options": [
+              "chú kiến",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "chú kiến"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t26_2",
+      "title": {
+        "vi": "Tập đọc: Câu chuyện của rễ cây & Câu hỏi của sói",
+        "en": "Tập đọc: Câu chuyện của rễ cây & Câu hỏi của sói"
+      },
+      "description": {
+        "vi": "Giá trị âm thầm cống hiến và lòng nhân ái",
+        "en": "Giá trị âm thầm cống hiến và lòng nhân ái"
+      },
+      "icon": "🌱",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t26_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bộ phận nào của cây âm thầm cắm sâu vào lòng đất để hút nước và nuôi cây ra hoa kết trái?",
+            "en": "Bộ phận nào của cây âm thầm cắm sâu vào lòng đất để hút nước và nuôi cây ra hoa kết trái?"
+          },
+          "tts_prompt": {
+            "vi": "Bộ phận nào của cây âm thầm cắm sâu vào lòng đất để hút nước và nuôi cây ra hoa kết trái?",
+            "en": "Bộ phận nào của cây âm thầm cắm sâu vào lòng đất để hút nước và nuôi cây ra hoa kết trái?"
+          },
+          "hint": {
+            "vi": "Những chùm rễ cây bám chặt dưới mặt đất.",
+            "en": "Những chùm rễ cây bám chặt dưới mặt đất."
+          },
+          "explanation": {
+            "vi": "Rễ cây âm thầm cống hiến, hút nước và chất dinh dưỡng nuôi cây tươi tốt.",
+            "en": "Rễ cây âm thầm cống hiến, hút nước và chất dinh dưỡng nuôi cây tươi tốt."
+          },
+          "data": {
+            "options": [
+              "rễ cây",
+              "ngọn cây",
+              "hoa cây",
+              "lá cây"
+            ],
+            "correct_answer": "rễ cây"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_cau_chuyen_cua_re_cay.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'rễ cây', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'rễ cây', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'rễ cây', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'rễ cây', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'rễ cây'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'rễ cây'."
+          },
+          "explanation": {
+            "vi": "Trong 'rễ cây', âm 'r' là âm đầu đứng trước.",
+            "en": "Trong 'rễ cây', âm 'r' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "r",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "r"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "rễ cây",
+                  "en": "rễ cây"
+                },
+                "right": {
+                  "vi": "Tiếng rễ cây",
+                  "en": "Tiếng rễ cây"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "hút nước",
+                  "en": "hút nước"
+                },
+                "right": {
+                  "vi": "Tiếng hút nước",
+                  "en": "Tiếng hút nước"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "hoa thơm",
+                  "en": "hoa thơm"
+                },
+                "right": {
+                  "vi": "Tiếng hoa thơm",
+                  "en": "Tiếng hoa thơm"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'hút nước' xuất hiện trong bài học về 'rễ cây'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'hút nước' xuất hiện trong bài học về 'rễ cây'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'rễ cây'.",
+            "en": "Nhớ lại nội dung bài học về 'rễ cây'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'hút nước' là trọng tâm trong bài học về 'rễ cây'.",
+            "en": "Đúng! Nội dung 'hút nước' là trọng tâm trong bài học về 'rễ cây'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'hút nước' xuất hiện trong bài học về 'rễ cây'.",
+              "en": "Từ hoặc câu liên quan đến 'hút nước' xuất hiện trong bài học về 'rễ cây'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'rễ cây'.",
+            "en": "Chọn từ đang học trong bài: 'rễ cây'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'rễ cây'.",
+            "en": "Từ chính xác là 'rễ cây'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "rễ cây",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "rễ cây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'rễcây':",
+            "en": "Ghép các chữ cái để tạo thành từ 'rễcây':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'rễcây':",
+            "en": "Ghép các chữ cái để tạo thành từ 'rễcây':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'rễcây'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'rễcây'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'rễcây'.",
+            "en": "Ghép các chữ cái tạo thành 'rễcây'."
+          },
+          "data": {
+            "letters": [
+              "y",
+              "â",
+              "c",
+              "ễ",
+              "r"
+            ],
+            "target_word": "rễcây",
+            "target_sequence": [
+              "r",
+              "ễ",
+              "c",
+              "â",
+              "y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'rễ cây' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'rễ cây' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'rễ cây' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'rễ cây' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'rễ cây'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'rễ cây'."
+          },
+          "explanation": {
+            "vi": "'rễ cây hút nước' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'rễ cây hút nước' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "hút nước",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "hút nước"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' thuộc chủ đề 'Tập đọc: Câu chuyện của rễ cây & Câu hỏi của sói'.",
+            "en": "Câu 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' thuộc chủ đề 'Tập đọc: Câu chuyện của rễ cây & Câu hỏi của sói'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Câu chuyện của rễ cây & Câu hỏi của sói",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Câu chuyện của rễ cây & Câu hỏi của sói"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Lòng tốt và sự chăm chỉ luôn đem lại giá trị bền lâu.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Lòng tốt và sự chăm chỉ luôn đem lại giá trị bền lâu."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Lòng tốt và sự chăm chỉ luôn đem lại giá trị bền lâu.",
+            "en": "Đúng! Lòng tốt và sự chăm chỉ luôn đem lại giá trị bền lâu."
+          },
+          "data": {
+            "statement": {
+              "vi": "Lòng tốt và sự chăm chỉ luôn đem lại giá trị bền lâu.",
+              "en": "Lòng tốt và sự chăm chỉ luôn đem lại giá trị bền lâu."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.."
+          },
+          "explanation": {
+            "vi": "Câu 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' có đúng 12 tiếng.",
+            "en": "Câu 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'hút nước' mang dấu thanh gì?",
+            "en": "Tiếng 'hút nước' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'hút nước' mang dấu thanh gì?",
+            "en": "Tiếng 'hút nước' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'hút nước' mang dấu thanh chính xác.",
+            "en": "Tiếng 'hút nước' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu sắc (/)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' Rễ ... âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.' Rễ ... âm thầm hút chất dinh dưỡng nuôi cây xanh tốt."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt..",
+            "en": "Nhớ lại câu mẫu: Rễ cây âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cây'.",
+            "en": "Từ chính xác là 'cây'."
+          },
+          "data": {
+            "prefix_text": "Rễ ",
+            "suffix_text": " âm thầm hút chất dinh dưỡng nuôi cây xanh tốt.",
+            "options": [
+              "cây",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "cây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'rễ cây'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'rễ cây'."
+          },
+          "explanation": {
+            "vi": "'rễ cây' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'rễ cây' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "rễ cây",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "rễ cây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t26_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'rễ cây'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'rễ cây'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'rễ cây'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'rễ cây'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'rễ cây' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'rễ cây' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'rễ cây'.",
+            "en": "Tiếng mẫu của bài là 'rễ cây'."
+          },
+          "data": {
+            "options": [
+              "rễ cây",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "rễ cây"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

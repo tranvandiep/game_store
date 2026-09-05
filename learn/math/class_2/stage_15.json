@@ -1,0 +1,1221 @@
+{
+  "id": "m2_stage_15",
+  "stage_number": 15,
+  "title": {
+    "vi": "Tuần 15: Ngày – Giờ, Giờ – Phút, Ngày – Tháng",
+    "en": "Week 15: Hours, Minutes, Days & Months"
+  },
+  "subtitle": {
+    "vi": "Bài 29, 30, 31, 32 - Đồng hồ và lịch",
+    "en": "Lesson 29-32 - Clock and calendar"
+  },
+  "icon": "⏰",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.558,
+  "required_stars": 42,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "m2_t15_1",
+      "title": {
+        "vi": "Ngày – Giờ & Giờ – Phút (1 giờ = 60 phút)",
+        "en": "Days, Hours & Minutes (1h = 60m)"
+      },
+      "description": {
+        "vi": "Khám phá 1 ngày có 24 giờ, 1 giờ có 60 phút",
+        "en": "1 day = 24 hours, 1 hour = 60 minutes"
+      },
+      "icon": "⏰",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m2_t15_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một ngày có bao nhiêu giờ?",
+            "en": "How many hours are there in a day?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một ngày có bao nhiêu giờ?",
+            "en": "How many hours are there in a day?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Một ngày có đúng 24 giờ (từ 0 giờ đêm đến 24 giờ đêm).",
+            "en": "A day has 24 hours."
+          },
+          "data": {
+            "correct_number": "24",
+            "unit": "giờ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một giờ có bao nhiêu phút?",
+            "en": "How many minutes are there in an hour?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một giờ có bao nhiêu phút?",
+            "en": "How many minutes are there in an hour?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "1 giờ = 60 phút.",
+            "en": "1 hour = 60 minutes."
+          },
+          "data": {
+            "correct_number": "60",
+            "unit": "phút"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Kim phút chỉ số 3 trên mặt đồng hồ ứng với bao nhiêu phút?",
+            "en": "Minute hand at 3 represents how many minutes?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kim phút chỉ số 3 trên mặt đồng hồ ứng với bao nhiêu phút?",
+            "en": "Minute hand at 3 represents how many minutes?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Mỗi khoảng cách giữa hai số là 5 phút: 3 x 5 = 15 phút.",
+            "en": "Minute hand at 3 is 15 minutes."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3 phút",
+                "en": "3 phút"
+              },
+              {
+                "vi": "15 phút",
+                "en": "15 phút"
+              },
+              {
+                "vi": "30 phút",
+                "en": "30 phút"
+              }
+            ],
+            "correct_answer": "15 phút"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Ngày – Giờ & Giờ – Phút (1 giờ = 60 phút)': Kim phút chỉ số 3 trên mặt đồng hồ ứng với bao nhiêu phút?",
+            "en": "Practice 'Days, Hours & Minutes (1h = 60m)': Minute hand at 3 represents how many minutes?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kim phút chỉ số 3 trên mặt đồng hồ ứng với bao nhiêu phút?",
+            "en": "Minute hand at 3 represents how many minutes?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Mỗi khoảng cách giữa hai số là 5 phút: 3 x 5 = 15 phút.",
+            "en": "Minute hand at 3 is 15 minutes."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "15 phút",
+                "en": "15 phút"
+              },
+              {
+                "vi": "3 phút",
+                "en": "3 phút"
+              },
+              {
+                "vi": "30 phút",
+                "en": "30 phút"
+              }
+            ],
+            "correct_answer": "15 phút"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 5 = ...",
+            "en": "Calculate:\n2 x 5 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 5 = ...",
+            "en": "Calculate:\n2 x 5 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2 x 5 = 10.",
+            "en": "2 x 5 = 10."
+          },
+          "data": {
+            "prefix_text": "2 x 5 = ",
+            "suffix_text": "",
+            "options": [
+              "10",
+              "12",
+              "12",
+              "8"
+            ],
+            "slot_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_1_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 14 + 18 = ?",
+            "en": "Calculate: 14 + 18 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 14 + 18 = ?",
+            "en": "Calculate: 14 + 18 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "14 + 18 = 32.",
+            "en": "14 + 18 = 32."
+          },
+          "data": {
+            "prefix_text": "14 + 18 = ",
+            "suffix_text": "",
+            "correct_number": "32"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 48 gồm 4 chục và 8 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 48 has 4 tens and 8 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 48 gồm 4 chục và 8 đơn vị.",
+              "en": "Number 48 has 4 tens and 8 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t15_2",
+      "title": {
+        "vi": "Đọc giờ chính xác: Giờ hơn, Giờ rưỡi (30 phút)",
+        "en": "Telling Exact Time & Half Past"
+      },
+      "description": {
+        "vi": "Đọc 8 giờ 15 phút, 8 giờ 30 phút (8 rưỡi)",
+        "en": "Tell 8:15, 8:30 (half past eight)"
+      },
+      "icon": "🕒",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m2_t15_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Kim ngắn chỉ qua số 7, kim dài chỉ số 6. Đồng hồ chỉ mấy giờ?",
+            "en": "Short hand past 7, long hand at 6. What time is it?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kim ngắn chỉ qua số 7, kim dài chỉ số 6. Đồng hồ chỉ mấy giờ?",
+            "en": "Short hand past 7, long hand at 6. What time is it?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Đồng hồ chỉ 7 giờ 30 phút (tức 7 rưỡi).",
+            "en": "It is 7:30 (half past 7)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "7 giờ 6 phút",
+                "en": "7 giờ 6 phút"
+              },
+              {
+                "vi": "7 giờ 30 phút (7 giờ rưỡi)",
+                "en": "7 giờ 30 phút (7 giờ rưỡi)"
+              },
+              {
+                "vi": "8 giờ rưỡi",
+                "en": "8 giờ rưỡi"
+              }
+            ],
+            "correct_answer": "7 giờ 30 phút (7 giờ rưỡi)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối vị trí kim dài với số phút tương ứng:",
+            "en": "Match minute hand with minutes:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối vị trí kim dài với số phút tương ứng:",
+            "en": "Match minute hand with minutes:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Cách xem phút cơ bản trên đồng hồ kim.",
+            "en": "Clock minute reading rules."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Kim dài chỉ số 12",
+                  "en": "Kim dài chỉ số 12"
+                },
+                "right": {
+                  "vi": "00 phút (Giờ đúng)",
+                  "en": "00 phút (Giờ đúng)"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Kim dài chỉ số 3",
+                  "en": "Kim dài chỉ số 3"
+                },
+                "right": {
+                  "vi": "15 phút",
+                  "en": "15 phút"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Kim dài chỉ số 6",
+                  "en": "Kim dài chỉ số 6"
+                },
+                "right": {
+                  "vi": "30 phút (Giờ rưỡi)",
+                  "en": "30 phút (Giờ rưỡi)"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy đổi giờ 24h.",
+            "en": "Decide whether the following statement is true or false: Quy đổi giờ 24h."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 14 - 12 = 2 giờ chiều.",
+            "en": "True! 14:00 = 2 PM."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy đổi giờ 24h.",
+              "en": "Quy đổi giờ 24h."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Đọc giờ chính xác: Giờ hơn, Giờ rưỡi (30 phút)': Kim ngắn chỉ qua số 7, kim dài chỉ số 6. Đồng hồ chỉ mấy giờ?",
+            "en": "Practice 'Telling Exact Time & Half Past': Short hand past 7, long hand at 6. What time is it?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kim ngắn chỉ qua số 7, kim dài chỉ số 6. Đồng hồ chỉ mấy giờ?",
+            "en": "Short hand past 7, long hand at 6. What time is it?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Đồng hồ chỉ 7 giờ 30 phút (tức 7 rưỡi).",
+            "en": "It is 7:30 (half past 7)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "7 giờ 6 phút",
+                "en": "7 giờ 6 phút"
+              },
+              {
+                "vi": "7 giờ 30 phút (7 giờ rưỡi)",
+                "en": "7 giờ 30 phút (7 giờ rưỡi)"
+              },
+              {
+                "vi": "8 giờ rưỡi",
+                "en": "8 giờ rưỡi"
+              }
+            ],
+            "correct_answer": "7 giờ 30 phút (7 giờ rưỡi)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n4 x 2 = ...",
+            "en": "Calculate:\n4 x 2 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n4 x 2 = ...",
+            "en": "Calculate:\n4 x 2 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "4 x 2 = 8.",
+            "en": "4 x 2 = 8."
+          },
+          "data": {
+            "prefix_text": "4 x 2 = ",
+            "suffix_text": "",
+            "options": [
+              "4",
+              "10",
+              "12",
+              "8"
+            ],
+            "slot_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n4 x 1 = ...",
+            "en": "Calculate:\n4 x 1 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n4 x 1 = ...",
+            "en": "Calculate:\n4 x 1 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "4 x 1 = 4.",
+            "en": "4 x 1 = 4."
+          },
+          "data": {
+            "prefix_text": "4 x 1 = ",
+            "suffix_text": "",
+            "options": [
+              "0",
+              "4",
+              "6",
+              "8"
+            ],
+            "slot_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 60 + 11 = ?",
+            "en": "Calculate: 60 + 11 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 60 + 11 = ?",
+            "en": "Calculate: 60 + 11 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "60 + 11 = 71.",
+            "en": "60 + 11 = 71."
+          },
+          "data": {
+            "prefix_text": "60 + 11 = ",
+            "suffix_text": "",
+            "correct_number": "71"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 65 gồm 6 chục và 5 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 65 has 6 tens and 5 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 65 gồm 6 chục và 5 đơn vị.",
+              "en": "Number 65 has 6 tens and 5 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Kết quả của phép tính 10 + 17 là:",
+            "en": "Result of 10 + 17 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10 cộng 17 bằng bao nhiêu?",
+            "en": "10 plus 17 is?"
+          },
+          "hint": {
+            "vi": "Cộng hàng đơn vị rồi cộng hàng chục.",
+            "en": "Add ones then tens."
+          },
+          "explanation": {
+            "vi": "10 + 17 = 27.",
+            "en": "10 + 17 = 27."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "27",
+                "en": "27"
+              },
+              {
+                "vi": "29",
+                "en": "29"
+              },
+              {
+                "vi": "25",
+                "en": "25"
+              }
+            ],
+            "correct_answer": "27"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 47 gồm 4 chục và 7 đơn vị.",
+            "en": "Number 47 has 4 tens and 7 ones."
+          },
+          "hint": {
+            "vi": "Xác định chữ số hàng chục và hàng đơn vị.",
+            "en": "Check tens and ones."
+          },
+          "explanation": {
+            "vi": "Số 47 gồm 4 chục và 7 đơn vị.",
+            "en": "47 has 4 tens and 7 ones."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 47 gồm 4 chục và 7 đơn vị.",
+              "en": "Number 47 consists of 4 tens and 7 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t15_3",
+      "title": {
+        "vi": "Ngày – Tháng & Xem Tờ Lịch Tháng",
+        "en": "Days, Months & Calendar Reading"
+      },
+      "description": {
+        "vi": "Biết các tháng có 30, 31 ngày và tháng 2 đặc biệt",
+        "en": "Months with 30, 31 days and February"
+      },
+      "icon": "📅",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m2_t15_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một năm có bao nhiêu tháng?",
+            "en": "How many months are there in a year?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một năm có bao nhiêu tháng?",
+            "en": "How many months are there in a year?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Một năm có 12 tháng: từ Tháng 1 đến Tháng 12.",
+            "en": "A year has 12 months."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "10 tháng",
+                "en": "10 tháng"
+              },
+              {
+                "vi": "12 tháng",
+                "en": "12 tháng"
+              },
+              {
+                "vi": "14 tháng",
+                "en": "14 tháng"
+              }
+            ],
+            "correct_answer": "12 tháng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_2",
+          "type": "multipleChoice",
+          "text": {
+            "vi": "Những tháng nào dưới đây luôn có 31 ngày?",
+            "en": "Which months have 31 days?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Những tháng nào dưới đây luôn có 31 ngày?",
+            "en": "Which months have 31 days?"
+          },
+          "hint": {
+            "vi": "Bé chú ý có thể có nhiều hơn 1 đáp án đúng nhé.",
+            "en": "There may be more than one correct answer."
+          },
+          "explanation": {
+            "vi": "Tháng 1, 3, 5, 7, 8, 10, 12 có 31 ngày.",
+            "en": "January and March have 31 days."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Tháng 1",
+                "en": "Tháng 1"
+              },
+              {
+                "vi": "Tháng 3",
+                "en": "Tháng 3"
+              },
+              {
+                "vi": "Tháng 4",
+                "en": "Tháng 4"
+              }
+            ],
+            "correct_answers": [
+              "Tháng 1",
+              "Tháng 3"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Đặc điểm tháng 2.",
+            "en": "Decide whether the following statement is true or false: Đặc điểm tháng 2."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Tháng 2 có 28 ngày (năm nhuận có 29 ngày).",
+            "en": "True! February has 28 or 29 days."
+          },
+          "data": {
+            "statement": {
+              "vi": "Đặc điểm tháng 2.",
+              "en": "Đặc điểm tháng 2."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Ngày – Tháng & Xem Tờ Lịch Tháng': Một năm có bao nhiêu tháng?",
+            "en": "Practice 'Days, Months & Calendar Reading': How many months are there in a year?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một năm có bao nhiêu tháng?",
+            "en": "How many months are there in a year?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Một năm có 12 tháng: từ Tháng 1 đến Tháng 12.",
+            "en": "A year has 12 months."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "14 tháng",
+                "en": "14 tháng"
+              },
+              {
+                "vi": "10 tháng",
+                "en": "10 tháng"
+              },
+              {
+                "vi": "12 tháng",
+                "en": "12 tháng"
+              }
+            ],
+            "correct_answer": "12 tháng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_5",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số tròn trăm liền sau số 500 là:",
+            "en": "The next round hundred is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số tròn trăm liền sau số 500 là:",
+            "en": "The next round hundred is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Số tròn trăm liền sau là 600.",
+            "en": "Next hundred is 600."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "600",
+                "en": "600"
+              },
+              {
+                "vi": "700",
+                "en": "700"
+              },
+              {
+                "vi": "400",
+                "en": "400"
+              }
+            ],
+            "correct_answer": "600"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 1 = ...",
+            "en": "Calculate:\n5 x 1 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 1 = ...",
+            "en": "Calculate:\n5 x 1 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "5 x 1 = 5.",
+            "en": "5 x 1 = 5."
+          },
+          "data": {
+            "prefix_text": "5 x 1 = ",
+            "suffix_text": "",
+            "options": [
+              "5",
+              "7",
+              "0",
+              "10"
+            ],
+            "slot_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 5 = ...",
+            "en": "Calculate:\n2 x 5 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 5 = ...",
+            "en": "Calculate:\n2 x 5 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2 x 5 = 10.",
+            "en": "2 x 5 = 10."
+          },
+          "data": {
+            "prefix_text": "2 x 5 = ",
+            "suffix_text": "",
+            "options": [
+              "12",
+              "12",
+              "8",
+              "10"
+            ],
+            "slot_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 18 + 13 = ?",
+            "en": "Calculate: 18 + 13 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 18 + 13 = ?",
+            "en": "Calculate: 18 + 13 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "18 + 13 = 31.",
+            "en": "18 + 13 = 31."
+          },
+          "data": {
+            "prefix_text": "18 + 13 = ",
+            "suffix_text": "",
+            "correct_number": "31"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 52 gồm 5 chục và 2 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 52 has 5 tens and 2 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 52 gồm 5 chục và 2 đơn vị.",
+              "en": "Number 52 has 5 tens and 2 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t15_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 1",
+                  "en": "2 x 1"
+                },
+                "right": {
+                  "vi": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 2",
+                  "en": "2 x 2"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 3",
+                  "en": "2 x 3"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

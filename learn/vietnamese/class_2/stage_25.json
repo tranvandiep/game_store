@@ -1,0 +1,1136 @@
+{
+  "id": "v2_stage_25",
+  "stage_number": 25,
+  "title": {
+    "vi": "Tuần 25: Ôn Tập Giữa Học Kỳ 2",
+    "en": "Tuần 25: Ôn Tập Giữa Học Kỳ 2"
+  },
+  "subtitle": {
+    "vi": "Ôn tập dấu câu, câu Ai làm gì?, Ai thế nào? và mở rộng vốn từ",
+    "en": "Ôn tập dấu câu, câu Ai làm gì?, Ai thế nào? và mở rộng vốn từ"
+  },
+  "icon": "📝",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.253,
+  "required_stars": 72,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "v2_t25_1",
+      "title": {
+        "vi": "Ôn tập Đọc hiểu văn bản & Luyện câu",
+        "en": "Ôn tập Đọc hiểu văn bản & Luyện câu"
+      },
+      "description": {
+        "vi": "Rèn kỹ năng đọc diễn cảm và nắm bắt ý chính",
+        "en": "Rèn kỹ năng đọc diễn cảm và nắm bắt ý chính"
+      },
+      "icon": "📖",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t25_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh ôn tập giữa kỳ 2 thể hiện hoạt động đọc sách hăng say nào của các bạn nhỏ?",
+            "en": "Bức tranh ôn tập giữa kỳ 2 thể hiện hoạt động đọc sách hăng say nào của các bạn nhỏ?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh ôn tập giữa kỳ 2 thể hiện hoạt động đọc sách hăng say nào của các bạn nhỏ?",
+            "en": "Bức tranh ôn tập giữa kỳ 2 thể hiện hoạt động đọc sách hăng say nào của các bạn nhỏ?"
+          },
+          "hint": {
+            "vi": "Các bạn cùng nhau đọc truyện và trao đổi bài học sôi nổi.",
+            "en": "Các bạn cùng nhau đọc truyện và trao đổi bài học sôi nổi."
+          },
+          "explanation": {
+            "vi": "Bức tranh ôn tập: 'Đọc sách mở mang trí tuệ'.",
+            "en": "Bức tranh ôn tập: 'Đọc sách mở mang trí tuệ'."
+          },
+          "data": {
+            "options": [
+              "say mê đọc sách tại thư viện",
+              "chơi trò chơi điện tử",
+              "ngủ gật trong lớp",
+              "xem tivi cả ngày"
+            ],
+            "correct_answer": "say mê đọc sách tại thư viện"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_on_tap_giua_hk2.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'đọc hiểu'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'đọc hiểu'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'đọc hiểu'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'đọc hiểu'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'đọc hiểu' và 'ý chính' cùng thuộc chủ điểm bài học.",
+            "en": "'đọc hiểu' và 'ý chính' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "ý chính",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "ý chính"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "đọc hiểu",
+                  "en": "đọc hiểu"
+                },
+                "right": {
+                  "vi": "Nghĩa của đọc hiểu",
+                  "en": "Nghĩa của đọc hiểu"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "ý chính",
+                  "en": "ý chính"
+                },
+                "right": {
+                  "vi": "Nghĩa của ý chính",
+                  "en": "Nghĩa của ý chính"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "luyện câu",
+                  "en": "luyện câu"
+                },
+                "right": {
+                  "vi": "Nghĩa của luyện câu",
+                  "en": "Nghĩa của luyện câu"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'đọc hiểu' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'đọc hiểu' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'đọc hiểu' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'đọc hiểu' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'đọc hiểu' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'đọc hiểu' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'đọc hiểu'.",
+            "en": "Từ chính xác là 'đọc hiểu'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "đọc hiểu",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "đọc hiểu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'đọchiểu':",
+            "en": "Ghép các chữ cái để tạo thành từ 'đọchiểu':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'đọchiểu':",
+            "en": "Ghép các chữ cái để tạo thành từ 'đọchiểu':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'đọchiểu'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'đọchiểu'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'đọchiểu'.",
+            "en": "Ghép các chữ cái tạo thành 'đọchiểu'."
+          },
+          "data": {
+            "letters": [
+              "u",
+              "ể",
+              "i",
+              "h",
+              "c",
+              "ọ",
+              "đ"
+            ],
+            "target_word": "đọchiểu",
+            "target_sequence": [
+              "đ",
+              "ọ",
+              "c",
+              "h",
+              "i",
+              "ể",
+              "u"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'đọc hiểu' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'đọc hiểu' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'đọc hiểu' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'đọc hiểu' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'đọc hiểu'.",
+            "en": "Xác định bản chất của từ 'đọc hiểu'."
+          },
+          "explanation": {
+            "vi": "'đọc hiểu' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'đọc hiểu' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Em tự tin đọc trôi chảy các bài văn bài thơ.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Em tự tin đọc trôi chảy các bài văn bài thơ.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Em tự tin đọc trôi chảy các bài văn bài thơ.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Em tự tin đọc trôi chảy các bài văn bài thơ.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' nằm trong bài đọc thuộc chủ đề 'Ôn tập Đọc hiểu văn bản & Luyện câu'.",
+            "en": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' nằm trong bài đọc thuộc chủ đề 'Ôn tập Đọc hiểu văn bản & Luyện câu'."
+          },
+          "data": {
+            "options": [
+              "Ôn tập Đọc hiểu văn bản & Luyện câu",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Ôn tập Đọc hiểu văn bản & Luyện câu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Luyện đọc mỗi ngày giúp phát âm chuẩn và mở rộng kiến thức.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Luyện đọc mỗi ngày giúp phát âm chuẩn và mở rộng kiến thức."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Luyện đọc mỗi ngày giúp phát âm chuẩn và mở rộng kiến thức.",
+            "en": "Đúng! Luyện đọc mỗi ngày giúp phát âm chuẩn và mở rộng kiến thức."
+          },
+          "data": {
+            "statement": {
+              "vi": "Luyện đọc mỗi ngày giúp phát âm chuẩn và mở rộng kiến thức.",
+              "en": "Luyện đọc mỗi ngày giúp phát âm chuẩn và mở rộng kiến thức."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Em tự tin đọc trôi chảy các bài văn bài thơ..",
+            "en": "Đếm từng tiếng trong câu: Em tự tin đọc trôi chảy các bài văn bài thơ.."
+          },
+          "explanation": {
+            "vi": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' có đúng 11 tiếng.",
+            "en": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' có đúng 11 tiếng."
+          },
+          "data": {
+            "correct_number": "11",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Em tự tin đọc trôi chảy các bài văn bài thơ.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em tự tin đọc trôi chảy các bài văn bài thơ.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em tự tin đọc trôi chảy các bài văn bài thơ.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em tự tin đọc trôi chảy các bài văn bài thơ.' Em ... tin đọc trôi chảy các bài văn bài thơ.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em tự tin đọc trôi chảy các bài văn bài thơ.' Em ... tin đọc trôi chảy các bài văn bài thơ."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Em tự tin đọc trôi chảy các bài văn bài thơ..",
+            "en": "Nhớ lại câu mẫu trong bài học: Em tự tin đọc trôi chảy các bài văn bài thơ.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'tự'.",
+            "en": "Từ chính xác là 'tự'."
+          },
+          "data": {
+            "prefix_text": "Em ",
+            "suffix_text": " tin đọc trôi chảy các bài văn bài thơ.",
+            "options": [
+              "tự",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "tự"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'đọc hiểu' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'đọc hiểu' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'đọc hiểu' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'đọc hiểu' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý đọc hiểu.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý đọc hiểu.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý đọc hiểu.",
+              "đọc hiểu đang bay trên trời cao.",
+              "đọc hiểu nở hoa rực rỡ.",
+              "đọc hiểu có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý đọc hiểu."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Ôn tập Đọc hiểu văn bản & Luyện câu', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Ôn tập Đọc hiểu văn bản & Luyện câu', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Ôn tập Đọc hiểu văn bản & Luyện câu', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Ôn tập Đọc hiểu văn bản & Luyện câu', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương đọc hiểu",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương đọc hiểu"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t25_2",
+      "title": {
+        "vi": "Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x",
+        "en": "Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x"
+      },
+      "description": {
+        "vi": "Quy tắc viết đúng chính tả các phụ âm đầu dễ lẫn",
+        "en": "Quy tắc viết đúng chính tả các phụ âm đầu dễ lẫn"
+      },
+      "icon": "✍️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t25_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hình ảnh bạn học sinh chăm chỉ sửa lỗi chính tả để bài viết đạt điểm 10 trong tranh là gì?",
+            "en": "Hình ảnh bạn học sinh chăm chỉ sửa lỗi chính tả để bài viết đạt điểm 10 trong tranh là gì?"
+          },
+          "tts_prompt": {
+            "vi": "Hình ảnh bạn học sinh chăm chỉ sửa lỗi chính tả để bài viết đạt điểm 10 trong tranh là gì?",
+            "en": "Hình ảnh bạn học sinh chăm chỉ sửa lỗi chính tả để bài viết đạt điểm 10 trong tranh là gì?"
+          },
+          "hint": {
+            "vi": "Trang vở sạch chữ đẹp không mắc lỗi chính tả.",
+            "en": "Trang vở sạch chữ đẹp không mắc lỗi chính tả."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài: 'Luyện viết chính tả đúng chuẩn'.",
+            "en": "Bức tranh minh hoạ bài: 'Luyện viết chính tả đúng chuẩn'."
+          },
+          "data": {
+            "options": [
+              "luyện viết chính tả chuẩn xác",
+              "vẽ tranh hoạt hình",
+              "gấp máy bay giấy",
+              "nghe nhạc"
+            ],
+            "correct_answer": "luyện viết chính tả chuẩn xác"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_chinh_ta_phan_biet.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'chính tả'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'chính tả'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'chính tả'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'chính tả'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'chính tả' và 'phân biệt' cùng thuộc chủ điểm bài học.",
+            "en": "'chính tả' và 'phân biệt' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "phân biệt",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "phân biệt"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "chính tả",
+                  "en": "chính tả"
+                },
+                "right": {
+                  "vi": "Nghĩa của chính tả",
+                  "en": "Nghĩa của chính tả"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "phân biệt",
+                  "en": "phân biệt"
+                },
+                "right": {
+                  "vi": "Nghĩa của phân biệt",
+                  "en": "Nghĩa của phân biệt"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "viết đúng",
+                  "en": "viết đúng"
+                },
+                "right": {
+                  "vi": "Nghĩa của viết đúng",
+                  "en": "Nghĩa của viết đúng"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'chính tả' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'chính tả' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'chính tả' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'chính tả' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'chính tả' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'chính tả' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'chính tả'.",
+            "en": "Từ chính xác là 'chính tả'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "chính tả",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "chính tả"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'chínhtả':",
+            "en": "Ghép các chữ cái để tạo thành từ 'chínhtả':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'chínhtả':",
+            "en": "Ghép các chữ cái để tạo thành từ 'chínhtả':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'chínhtả'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'chínhtả'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'chínhtả'.",
+            "en": "Ghép các chữ cái tạo thành 'chínhtả'."
+          },
+          "data": {
+            "letters": [
+              "ả",
+              "t",
+              "h",
+              "n",
+              "í",
+              "h",
+              "c"
+            ],
+            "target_word": "chínhtả",
+            "target_sequence": [
+              "c",
+              "h",
+              "í",
+              "n",
+              "h",
+              "t",
+              "ả"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'chính tả' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'chính tả' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'chính tả' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'chính tả' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'chính tả'.",
+            "en": "Xác định bản chất của từ 'chính tả'."
+          },
+          "explanation": {
+            "vi": "'chính tả' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'chính tả' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' nằm trong bài đọc thuộc chủ đề 'Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x'.",
+            "en": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' nằm trong bài đọc thuộc chủ đề 'Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x'."
+          },
+          "data": {
+            "options": [
+              "Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Hiểu nghĩa của từ giúp viết đúng phụ âm đầu r, d, gi.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Hiểu nghĩa của từ giúp viết đúng phụ âm đầu r, d, gi."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Hiểu nghĩa của từ giúp viết đúng phụ âm đầu r, d, gi.",
+            "en": "Đúng! Hiểu nghĩa của từ giúp viết đúng phụ âm đầu r, d, gi."
+          },
+          "data": {
+            "statement": {
+              "vi": "Hiểu nghĩa của từ giúp viết đúng phụ âm đầu r, d, gi.",
+              "en": "Hiểu nghĩa của từ giúp viết đúng phụ âm đầu r, d, gi."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Rừng xanh bát ngát, dòng suối trong veo chảy róc rách..",
+            "en": "Đếm từng tiếng trong câu: Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.."
+          },
+          "explanation": {
+            "vi": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' có đúng 11 tiếng.",
+            "en": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' có đúng 11 tiếng."
+          },
+          "data": {
+            "correct_number": "11",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' Rừng ... bát ngát dòng suối trong veo chảy róc rách.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.' Rừng ... bát ngát dòng suối trong veo chảy róc rách."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Rừng xanh bát ngát, dòng suối trong veo chảy róc rách..",
+            "en": "Nhớ lại câu mẫu trong bài học: Rừng xanh bát ngát, dòng suối trong veo chảy róc rách.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'xanh'.",
+            "en": "Từ chính xác là 'xanh'."
+          },
+          "data": {
+            "prefix_text": "Rừng ",
+            "suffix_text": " bát ngát dòng suối trong veo chảy róc rách.",
+            "options": [
+              "xanh",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "xanh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'chính tả' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'chính tả' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'chính tả' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'chính tả' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý chính tả.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý chính tả.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý chính tả.",
+              "chính tả đang bay trên trời cao.",
+              "chính tả nở hoa rực rỡ.",
+              "chính tả có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý chính tả."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t25_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Luyện viết chính tả phân biệt r/d/gi, ch/tr, s/x', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương chính tả",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương chính tả"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

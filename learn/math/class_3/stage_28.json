@@ -1,0 +1,846 @@
+{
+  "id": "m3_stage_28",
+  "stage_number": 28,
+  "title": {
+    "vi": "Tuần 28: Nhân & Chia Số Có 5 Chữ Số Cho Số Có 1 Chữ Số",
+    "en": "Week 28: 5-Digit Multiply & Divide by 1-Digit"
+  },
+  "subtitle": {
+    "vi": "Bài 70, 71, 72 - Nhân chia số lớn có nhớ",
+    "en": "Lesson 70-72 - Large number multiplication & division"
+  },
+  "icon": "✖️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.194,
+  "required_stars": 81,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "m3_t28_1",
+      "title": {
+        "vi": "Nhân số có 5 chữ số với số có 1 chữ số",
+        "en": "5-Digit x 1-Digit Multiplication"
+      },
+      "description": {
+        "vi": "Ví dụ: 12 314 x 2, 23 150 x 3, 15 200 x 4",
+        "en": "Form: 12,314*2, 23,150*3, 15,200*4"
+      },
+      "icon": "✖️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t28_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 14 231 x 2 = ?",
+            "en": "Calculate: 14,231 x 2 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 14 231 x 2 = ?",
+            "en": "Calculate: 14,231 x 2 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "14231 x 2 = 28462.",
+            "en": "14,231 * 2 = 28,462."
+          },
+          "data": {
+            "correct_number": "28462",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 18 200 x 4 = ?",
+            "en": "Calculate: 18,200 x 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 18 200 x 4 = ?",
+            "en": "Calculate: 18,200 x 4 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "18200 x 4 = 72800.",
+            "en": "18,200 * 4 = 72,800."
+          },
+          "data": {
+            "correct_number": "72800",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 25 000 x 3 = ?",
+            "en": "Calculate: 25,000 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 25 000 x 3 = ?",
+            "en": "Calculate: 25,000 x 3 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "25000 x 3 = 75000.",
+            "en": "25,000 * 3 = 75,000."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "65 000",
+                "en": "65 000"
+              },
+              {
+                "vi": "75 000",
+                "en": "75 000"
+              },
+              {
+                "vi": "85 000",
+                "en": "85 000"
+              }
+            ],
+            "correct_answer": "75 000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Nhân số có 5 chữ số với số có 1 chữ số': Tính: 25 000 x 3 = ?",
+            "en": "Practice '5-Digit x 1-Digit Multiplication': Calculate: 25,000 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 25 000 x 3 = ?",
+            "en": "Calculate: 25,000 x 3 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "25000 x 3 = 75000.",
+            "en": "25,000 * 3 = 75,000."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "85 000",
+                "en": "85 000"
+              },
+              {
+                "vi": "75 000",
+                "en": "75 000"
+              },
+              {
+                "vi": "65 000",
+                "en": "65 000"
+              }
+            ],
+            "correct_answer": "75 000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t28_2",
+      "title": {
+        "vi": "Chia số có 5 chữ số cho số có 1 chữ số",
+        "en": "5-Digit / 1-Digit Division"
+      },
+      "description": {
+        "vi": "Ví dụ: 48 624 : 2, 69 369 : 3, 56 400 : 4",
+        "en": "Form: 48,624:2, 69,369:3, 56,400:4"
+      },
+      "icon": "➗",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t28_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 84 624 : 2 = ?",
+            "en": "Calculate: 84,624 : 2 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 84 624 : 2 = ?",
+            "en": "Calculate: 84,624 : 2 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "84624 : 2 = 42312.",
+            "en": "84,624 : 2 = 42,312."
+          },
+          "data": {
+            "correct_number": "42312",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 75 500 : 5 = ?",
+            "en": "Calculate: 75,500 : 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 75 500 : 5 = ?",
+            "en": "Calculate: 75,500 : 5 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "75500 : 5 = 15100.",
+            "en": "75,500 : 5 = 15,100."
+          },
+          "data": {
+            "correct_number": "15100",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép chia với kết quả đúng:",
+            "en": "Match equations with quotients:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép chia với kết quả đúng:",
+            "en": "Match equations with quotients:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Chia số 5 chữ số thành thạo.",
+            "en": "Mastery of 5-digit division."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "60 000 : 3",
+                  "en": "60 000 : 3"
+                },
+                "right": {
+                  "vi": "20 000",
+                  "en": "20 000"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "96 000 : 3",
+                  "en": "96 000 : 3"
+                },
+                "right": {
+                  "vi": "32 000",
+                  "en": "32 000"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "80 000 : 4",
+                  "en": "80 000 : 4"
+                },
+                "right": {
+                  "vi": "20 000",
+                  "en": "20 000"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_2_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chu vi hình vuông có cạnh 9 cm là:",
+            "en": "Perimeter of square with side 9 cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chu vi hình vuông có cạnh 9 cm là bao nhiêu?",
+            "en": "Perimeter of square with side 9 cm:"
+          },
+          "hint": {
+            "vi": "Chu vi hình vuông = Độ dài cạnh x 4.",
+            "en": "Perimeter = side x 4."
+          },
+          "explanation": {
+            "vi": "9 x 4 = 36 cm.",
+            "en": "9 x 4 = 36 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "36 cm",
+                "en": "36 cm"
+              },
+              {
+                "vi": "40 cm",
+                "en": "40 cm"
+              },
+              {
+                "vi": "81 cm",
+                "en": "81 cm"
+              }
+            ],
+            "correct_answer": "36 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t28_3",
+      "title": {
+        "vi": "Luyện tập chung nhân chia phạm vi 100 000",
+        "en": "Operations to 100,000 Review"
+      },
+      "description": {
+        "vi": "Giải toán đố thực tế nhiều bước",
+        "en": "Multi-step practical large number arithmetic"
+      },
+      "icon": "🏆",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t28_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một nông trại đóng gói được 12 500 hộp sữa mỗi ngày. Hỏi trong 4 ngày nông trại đóng gói được bao nhiêu hộp sữa?",
+            "en": "Dairy packs 12,500 milk boxes daily. How many in 4 days?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một nông trại đóng gói được 12 500 hộp sữa mỗi ngày. Hỏi trong 4 ngày nông trại đóng gói được bao nhiêu hộp sữa?",
+            "en": "Dairy packs 12,500 milk boxes daily. How many in 4 days?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "12 500 x 4 = 50 000 hộp sữa.",
+            "en": "12,500 * 4 = 50,000 boxes."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "45 000 hộp",
+                "en": "45 000 hộp"
+              },
+              {
+                "vi": "50 000 hộp",
+                "en": "50 000 hộp"
+              },
+              {
+                "vi": "55 000 hộp",
+                "en": "55 000 hộp"
+              }
+            ],
+            "correct_answer": "50 000 hộp"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy tắc nhân có nhớ.",
+            "en": "Decide whether the following statement is true or false: Quy tắc nhân có nhớ."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Luôn nhớ sang hàng bên trái liền kề.",
+            "en": "True! Always carry to next left place value."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy tắc nhân có nhớ.",
+              "en": "Quy tắc nhân có nhớ."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tập chung nhân chia phạm vi 100 000': Một nông trại đóng gói được 12 500 hộp sữa mỗi ngày. Hỏi trong 4 ngày nông trại đóng gói được bao nhiêu hộp sữa?",
+            "en": "Practice 'Operations to 100,000 Review': Dairy packs 12,500 milk boxes daily. How many in 4 days?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một nông trại đóng gói được 12 500 hộp sữa mỗi ngày. Hỏi trong 4 ngày nông trại đóng gói được bao nhiêu hộp sữa?",
+            "en": "Dairy packs 12,500 milk boxes daily. How many in 4 days?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "12 500 x 4 = 50 000 hộp sữa.",
+            "en": "12,500 * 4 = 50,000 boxes."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "45 000 hộp",
+                "en": "45 000 hộp"
+              },
+              {
+                "vi": "55 000 hộp",
+                "en": "55 000 hộp"
+              },
+              {
+                "vi": "50 000 hộp",
+                "en": "50 000 hộp"
+              }
+            ],
+            "correct_answer": "50 000 hộp"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 175, 176,  ... , 178",
+            "en": "Drag the correct answer into the slot:\nDãy số: 175, 176,  ... , 178"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 175, 176,  ... , 178",
+            "en": "Drag the correct answer: Dãy số: 175, 176,  ... , 178"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 175, 176,  177 , 178",
+            "en": "Dãy số: 175, 176,  177 , 178"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 175, 176, ",
+            "suffix_text": ", 178",
+            "options": [
+              "177",
+              "179",
+              "176"
+            ],
+            "slot_answer": "177"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 211, 212,  ... , 214",
+            "en": "Drag the correct answer into the slot:\nDãy số: 211, 212,  ... , 214"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 211, 212,  ... , 214",
+            "en": "Drag the correct answer: Dãy số: 211, 212,  ... , 214"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 211, 212,  213 , 214",
+            "en": "Dãy số: 211, 212,  213 , 214"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 211, 212, ",
+            "suffix_text": ", 214",
+            "options": [
+              "213",
+              "212",
+              "215"
+            ],
+            "slot_answer": "213"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_11",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 364, 365,  ... , 367",
+            "en": "Drag the correct answer into the slot:\nDãy số: 364, 365,  ... , 367"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 364, 365,  ... , 367",
+            "en": "Drag the correct answer: Dãy số: 364, 365,  ... , 367"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 364, 365,  366 , 367",
+            "en": "Dãy số: 364, 365,  366 , 367"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 364, 365, ",
+            "suffix_text": ", 367",
+            "options": [
+              "365",
+              "366",
+              "368"
+            ],
+            "slot_answer": "366"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_7",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 8 x 5 = ?",
+            "en": "Calculate: 8 x 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 8 x 5 = ?",
+            "en": "Calculate: 8 x 5 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "8 x 5 = 40.",
+            "en": "8 x 5 = 40."
+          },
+          "data": {
+            "prefix_text": "8 x 5 = ",
+            "suffix_text": "",
+            "correct_number": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 9 x 3 = ?",
+            "en": "Calculate: 9 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 9 x 3 = ?",
+            "en": "Calculate: 9 x 3 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "9 x 3 = 27.",
+            "en": "9 x 3 = 27."
+          },
+          "data": {
+            "prefix_text": "9 x 3 = ",
+            "suffix_text": "",
+            "correct_number": "27"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 56 : 7 = ?",
+            "en": "Calculate: 56 : 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 56 : 7 = ?",
+            "en": "Calculate: 56 : 7 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "56 : 7 = 8.",
+            "en": "56 : 7 = 8."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "8",
+                "en": "8"
+              },
+              {
+                "vi": "7",
+                "en": "7"
+              },
+              {
+                "vi": "9",
+                "en": "9"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 6014 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 6014 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 6014 có đúng 4 chữ số.",
+            "en": "6014 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 6014 là số có 4 chữ số.",
+              "en": "6014 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t28_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

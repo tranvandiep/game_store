@@ -1,0 +1,798 @@
+{
+  "id": "m3_stage_5",
+  "stage_number": 5,
+  "title": {
+    "vi": "Tuần 5: Bảng Nhân 6, Chia 6 & Nhân 7, Chia 7",
+    "en": "Week 5: 6 and 7 Times Tables"
+  },
+  "subtitle": {
+    "vi": "Bài 9 & 10 - Bảng nhân và chia 6, 7",
+    "en": "Lesson 9 & 10 - 6 & 7 times tables"
+  },
+  "icon": "⚡",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.838,
+  "required_stars": 12,
+  "theme_color": "0xFFDB2777",
+  "topics": [
+    {
+      "id": "m3_t5_1",
+      "title": {
+        "vi": "Bảng nhân 6 và Bảng chia 6",
+        "en": "6 Times & Division Tables"
+      },
+      "description": {
+        "vi": "Học thuộc lòng bảng nhân 6 và chia 6",
+        "en": "Master 6 multiplication and division tables"
+      },
+      "icon": "🎲",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t5_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 6 x 7 = ?",
+            "en": "Calculate: 6 x 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 6 x 7 = ?",
+            "en": "Calculate: 6 x 7 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "6 x 7 = 42.",
+            "en": "6 x 7 = 42."
+          },
+          "data": {
+            "correct_number": "42",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 54 : 6 = ?",
+            "en": "Calculate: 54 : 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 54 : 6 = ?",
+            "en": "Calculate: 54 : 6 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "54 : 6 = 9.",
+            "en": "54 : 6 = 9."
+          },
+          "data": {
+            "correct_number": "9",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with results:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with results:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Bảng nhân chia 6 thành thạo.",
+            "en": "Mastery of table 6."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "6 x 4",
+                  "en": "6 x 4"
+                },
+                "right": {
+                  "vi": "24",
+                  "en": "24"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "6 x 8",
+                  "en": "6 x 8"
+                },
+                "right": {
+                  "vi": "48",
+                  "en": "48"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "36 : 6",
+                  "en": "36 : 6"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t5_2",
+      "title": {
+        "vi": "Bảng nhân 7 và Bảng chia 7",
+        "en": "7 Times & Division Tables"
+      },
+      "description": {
+        "vi": "Học thuộc lòng bảng nhân 7 và chia 7",
+        "en": "Master 7 multiplication and division tables"
+      },
+      "icon": "🌈",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t5_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 7 x 6 = ?",
+            "en": "Calculate: 7 x 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 7 x 6 = ?",
+            "en": "Calculate: 7 x 6 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "7 x 6 = 42.",
+            "en": "7 x 6 = 42."
+          },
+          "data": {
+            "correct_number": "42",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 7 x 8 = ?",
+            "en": "Calculate: 7 x 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 7 x 8 = ?",
+            "en": "Calculate: 7 x 8 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "7 x 8 = 56.",
+            "en": "7 x 8 = 56."
+          },
+          "data": {
+            "correct_number": "56",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 63 : 7 = ?",
+            "en": "Calculate: 63 : 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 63 : 7 = ?",
+            "en": "Calculate: 63 : 7 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "63 : 7 = 9.",
+            "en": "63 : 7 = 9."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "8",
+                "en": "8"
+              },
+              {
+                "vi": "9",
+                "en": "9"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "9"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_2_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 12 : 4 = ?",
+            "en": "Calculate: 12 : 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 12 : 4 = ?",
+            "en": "Calculate: 12 : 4 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 12 : 4.",
+            "en": "Calculate 12 : 4."
+          },
+          "explanation": {
+            "vi": "12 : 4 = 3",
+            "en": "12 : 4 = 3"
+          },
+          "data": {
+            "options": [
+              "4",
+              "2",
+              "3",
+              "5"
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 9 : 3 = ?",
+            "en": "Calculate: 9 : 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 9 : 3 = ?",
+            "en": "Calculate: 9 : 3 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 9 : 3.",
+            "en": "Calculate 9 : 3."
+          },
+          "explanation": {
+            "vi": "9 : 3 = 3",
+            "en": "9 : 3 = 3"
+          },
+          "data": {
+            "options": [
+              "3",
+              "2",
+              "4",
+              "5"
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t5_3",
+      "title": {
+        "vi": "Luyện tập tính nhẩm bảng 6 và 7",
+        "en": "6 & 7 Times Tables Practice"
+      },
+      "description": {
+        "vi": "Ứng dụng đếm số ngày trong tuần (1 tuần = 7 ngày)",
+        "en": "Apply 7 times table to days in weeks"
+      },
+      "icon": "📅",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t5_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một tuần lễ có 7 ngày. Hỏi 5 tuần lễ có bao nhiêu ngày?",
+            "en": "A week has 7 days. How many days in 5 weeks?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một tuần lễ có 7 ngày. Hỏi 5 tuần lễ có bao nhiêu ngày?",
+            "en": "A week has 7 days. How many days in 5 weeks?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "7 x 5 = 35 ngày.",
+            "en": "7 x 5 = 35 days in 5 weeks."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "30 ngày",
+                "en": "30 ngày"
+              },
+              {
+                "vi": "35 ngày",
+                "en": "35 ngày"
+              },
+              {
+                "vi": "40 ngày",
+                "en": "40 ngày"
+              }
+            ],
+            "correct_answer": "35 ngày"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Có 48 cái kẹo chia đều cho 6 bạn. Mỗi bạn nhận được mấy cái kẹo?",
+            "en": "48 candies divided equally among 6 kids. How many candies each?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Có 48 cái kẹo chia đều cho 6 bạn. Mỗi bạn nhận được mấy cái kẹo?",
+            "en": "48 candies divided equally among 6 kids. How many candies each?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "48 : 6 = 8 cái kẹo.",
+            "en": "48 : 6 = 8 candies each."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "cái"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_3_3",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp tích từ bé đến lớn: 6x6, 7x4, 6x9",
+            "en": "Sort products ascending: 7x4 (28), 6x6 (36), 6x9 (54)"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp tích từ bé đến lớn: 6x6, 7x4, 6x9",
+            "en": "Sort products ascending: 7x4 (28), 6x6 (36), 6x9 (54)"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct sequence."
+          },
+          "explanation": {
+            "vi": "Thứ tự: 28 < 36 < 54.",
+            "en": "Order: 28, 36, 54."
+          },
+          "data": {
+            "items": [
+              "28",
+              "36",
+              "54"
+            ],
+            "correct_order": [
+              "28",
+              "36",
+              "54"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tập tính nhẩm bảng 6 và 7': Một tuần lễ có 7 ngày. Hỏi 5 tuần lễ có bao nhiêu ngày?",
+            "en": "Practice '6 & 7 Times Tables Practice': A week has 7 days. How many days in 5 weeks?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một tuần lễ có 7 ngày. Hỏi 5 tuần lễ có bao nhiêu ngày?",
+            "en": "A week has 7 days. How many days in 5 weeks?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "7 x 5 = 35 ngày.",
+            "en": "7 x 5 = 35 days in 5 weeks."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "30 ngày",
+                "en": "30 ngày"
+              },
+              {
+                "vi": "40 ngày",
+                "en": "40 ngày"
+              },
+              {
+                "vi": "35 ngày",
+                "en": "35 ngày"
+              }
+            ],
+            "correct_answer": "35 ngày"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_3_6",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 17, 31, 38, 46",
+            "en": "Correct order: 17, 31, 38, 46"
+          },
+          "data": {
+            "items": [
+              "38",
+              "31",
+              "46",
+              "17"
+            ],
+            "correct_order": [
+              "17",
+              "31",
+              "38",
+              "46"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_3_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 41, 39, 36, 27",
+            "en": "Correct order: 41, 39, 36, 27"
+          },
+          "data": {
+            "items": [
+              "39",
+              "41",
+              "36",
+              "27"
+            ],
+            "correct_order": [
+              "41",
+              "39",
+              "36",
+              "27"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 2175 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 2175 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 2175 có đúng 4 chữ số.",
+            "en": "2175 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 2175 là số có 4 chữ số.",
+              "en": "2175 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t5_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

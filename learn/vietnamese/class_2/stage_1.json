@@ -1,0 +1,1146 @@
+{
+  "id": "v2_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Tuần 1: Em Lớn Lên Từng Ngày",
+    "en": "Tuần 1: Em Lớn Lên Từng Ngày"
+  },
+  "subtitle": {
+    "vi": "Bài 1 & 2 - Tôi là học sinh lớp 2 & Ngày hôm qua đâu rồi?",
+    "en": "Bài 1 & 2 - Tôi là học sinh lớp 2 & Ngày hôm qua đâu rồi?"
+  },
+  "icon": "🎒",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "v2_t1_1",
+      "title": {
+        "vi": "Tập đọc: Tôi là học sinh lớp 2",
+        "en": "Tập đọc: Tôi là học sinh lớp 2"
+      },
+      "description": {
+        "vi": "Cảm xúc tự hào và háo hức ngày khai trường",
+        "en": "Cảm xúc tự hào và háo hức ngày khai trường"
+      },
+      "icon": "👦",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh dưới đây thể hiện niềm vui của bạn nhỏ trong ngày đầu bước vào lớp mấy?",
+            "en": "Bức tranh dưới đây thể hiện niềm vui của bạn nhỏ trong ngày đầu bước vào lớp mấy?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh dưới đây thể hiện niềm vui của bạn nhỏ trong ngày đầu bước vào lớp mấy?",
+            "en": "Bức tranh dưới đây thể hiện niềm vui của bạn nhỏ trong ngày đầu bước vào lớp mấy?"
+          },
+          "hint": {
+            "vi": "Bạn nhỏ mặc đồng phục mới và đeo ba lô vui tươi tới trường.",
+            "en": "Bạn nhỏ mặc đồng phục mới và đeo ba lô vui tươi tới trường."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài tập đọc: 'Tôi là học sinh lớp 2'.",
+            "en": "Bức tranh minh hoạ bài tập đọc: 'Tôi là học sinh lớp 2'."
+          },
+          "data": {
+            "options": [
+              "học sinh lớp 2",
+              "học sinh mầm non",
+              "học sinh đại học",
+              "bạn nhỏ đi chợ"
+            ],
+            "correct_answer": "học sinh lớp 2"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_hoc_sinh_lop_2.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'học sinh lớp 2'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'học sinh lớp 2'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'học sinh lớp 2'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'học sinh lớp 2'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'học sinh lớp 2' và 'khai trường' cùng thuộc chủ điểm bài học.",
+            "en": "'học sinh lớp 2' và 'khai trường' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "khai trường",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "khai trường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "học sinh lớp 2",
+                  "en": "học sinh lớp 2"
+                },
+                "right": {
+                  "vi": "Nghĩa của học sinh lớp 2",
+                  "en": "Nghĩa của học sinh lớp 2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "khai trường",
+                  "en": "khai trường"
+                },
+                "right": {
+                  "vi": "Nghĩa của khai trường",
+                  "en": "Nghĩa của khai trường"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "hãnh diện",
+                  "en": "hãnh diện"
+                },
+                "right": {
+                  "vi": "Nghĩa của hãnh diện",
+                  "en": "Nghĩa của hãnh diện"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'học sinh lớp 2' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'học sinh lớp 2' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'học sinh lớp 2' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'học sinh lớp 2' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'học sinh lớp 2' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'học sinh lớp 2' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'học sinh lớp 2'.",
+            "en": "Từ chính xác là 'học sinh lớp 2'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "học sinh lớp 2",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "học sinh lớp 2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'họcsinhlớp2':",
+            "en": "Ghép các chữ cái để tạo thành từ 'họcsinhlớp2':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'họcsinhlớp2':",
+            "en": "Ghép các chữ cái để tạo thành từ 'họcsinhlớp2':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'họcsinhlớp2'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'họcsinhlớp2'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'họcsinhlớp2'.",
+            "en": "Ghép các chữ cái tạo thành 'họcsinhlớp2'."
+          },
+          "data": {
+            "letters": [
+              "2",
+              "p",
+              "ớ",
+              "l",
+              "h",
+              "n",
+              "i",
+              "s",
+              "c",
+              "ọ",
+              "h"
+            ],
+            "target_word": "họcsinhlớp2",
+            "target_sequence": [
+              "h",
+              "ọ",
+              "c",
+              "s",
+              "i",
+              "n",
+              "h",
+              "l",
+              "ớ",
+              "p",
+              "2"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'học sinh lớp 2' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'học sinh lớp 2' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'học sinh lớp 2' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'học sinh lớp 2' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'học sinh lớp 2'.",
+            "en": "Xác định bản chất của từ 'học sinh lớp 2'."
+          },
+          "explanation": {
+            "vi": "'học sinh lớp 2' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'học sinh lớp 2' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Tôi là học sinh lớp 2'.",
+            "en": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Tôi là học sinh lớp 2'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Tôi là học sinh lớp 2",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Tôi là học sinh lớp 2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Tên riêng của người và trường học luôn viết hoa chữ cái đầu.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Tên riêng của người và trường học luôn viết hoa chữ cái đầu."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Tên riêng của người và trường học luôn viết hoa chữ cái đầu.",
+            "en": "Đúng! Tên riêng của người và trường học luôn viết hoa chữ cái đầu."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tên riêng của người và trường học luôn viết hoa chữ cái đầu.",
+              "en": "Tên riêng của người và trường học luôn viết hoa chữ cái đầu."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái..",
+            "en": "Đếm từng tiếng trong câu: Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.."
+          },
+          "explanation": {
+            "vi": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' có đúng 12 tiếng.",
+            "en": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' Tôi ... học sinh lớp 2 tôi đã lớn hơn năm ngoái.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.' Tôi ... học sinh lớp 2 tôi đã lớn hơn năm ngoái."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái..",
+            "en": "Nhớ lại câu mẫu trong bài học: Tôi là học sinh lớp 2, tôi đã lớn hơn năm ngoái.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'là'.",
+            "en": "Từ chính xác là 'là'."
+          },
+          "data": {
+            "prefix_text": "Tôi ",
+            "suffix_text": " học sinh lớp 2 tôi đã lớn hơn năm ngoái.",
+            "options": [
+              "là",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "là"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'học sinh lớp 2' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'học sinh lớp 2' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'học sinh lớp 2' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'học sinh lớp 2' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý học sinh lớp 2.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý học sinh lớp 2.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý học sinh lớp 2.",
+              "học sinh lớp 2 đang bay trên trời cao.",
+              "học sinh lớp 2 nở hoa rực rỡ.",
+              "học sinh lớp 2 có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý học sinh lớp 2."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Tôi là học sinh lớp 2', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Tôi là học sinh lớp 2', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Tôi là học sinh lớp 2', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Tôi là học sinh lớp 2', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương học sinh lớp 2",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương học sinh lớp 2"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t1_2",
+      "title": {
+        "vi": "Tập đọc: Ngày hôm qua đâu rồi?",
+        "en": "Tập đọc: Ngày hôm qua đâu rồi?"
+      },
+      "description": {
+        "vi": "Giá trị quý báu của thời gian và sự chăm chỉ",
+        "en": "Giá trị quý báu của thời gian và sự chăm chỉ"
+      },
+      "icon": "⏳",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t1_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong bài thơ 'Ngày hôm qua đâu rồi?', ngày hôm qua được lưu giữ lại ở đâu trong vườn nhà?",
+            "en": "Trong bài thơ 'Ngày hôm qua đâu rồi?', ngày hôm qua được lưu giữ lại ở đâu trong vườn nhà?"
+          },
+          "tts_prompt": {
+            "vi": "Trong bài thơ 'Ngày hôm qua đâu rồi?', ngày hôm qua được lưu giữ lại ở đâu trong vườn nhà?",
+            "en": "Trong bài thơ 'Ngày hôm qua đâu rồi?', ngày hôm qua được lưu giữ lại ở đâu trong vườn nhà?"
+          },
+          "hint": {
+            "vi": "Ngày hôm qua ở lại trong nụ hồng ngát hương em chăm sóc.",
+            "en": "Ngày hôm qua ở lại trong nụ hồng ngát hương em chăm sóc."
+          },
+          "explanation": {
+            "vi": "Ngày hôm qua ở lại trong hạt lúa mẹ trồng và trong nụ hồng toả hương.",
+            "en": "Ngày hôm qua ở lại trong hạt lúa mẹ trồng và trong nụ hồng toả hương."
+          },
+          "data": {
+            "options": [
+              "trong nụ hoa hồng",
+              "trong ngăn tủ khoá",
+              "dưới đáy hồ",
+              "trên ngọn cây cao"
+            ],
+            "correct_answer": "trong nụ hoa hồng"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_ngay_hom_qua_dau_roi.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'thời gian'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'thời gian'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'thời gian'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'thời gian'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'thời gian' và 'tờ lịch' cùng thuộc chủ điểm bài học.",
+            "en": "'thời gian' và 'tờ lịch' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "tờ lịch",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "tờ lịch"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "thời gian",
+                  "en": "thời gian"
+                },
+                "right": {
+                  "vi": "Nghĩa của thời gian",
+                  "en": "Nghĩa của thời gian"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "tờ lịch",
+                  "en": "tờ lịch"
+                },
+                "right": {
+                  "vi": "Nghĩa của tờ lịch",
+                  "en": "Nghĩa của tờ lịch"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "chăm học",
+                  "en": "chăm học"
+                },
+                "right": {
+                  "vi": "Nghĩa của chăm học",
+                  "en": "Nghĩa của chăm học"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'thời gian' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'thời gian' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'thời gian' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'thời gian' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'thời gian' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'thời gian' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'thời gian'.",
+            "en": "Từ chính xác là 'thời gian'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "thời gian",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "thời gian"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'thờigian':",
+            "en": "Ghép các chữ cái để tạo thành từ 'thờigian':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'thờigian':",
+            "en": "Ghép các chữ cái để tạo thành từ 'thờigian':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'thờigian'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'thờigian'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'thờigian'.",
+            "en": "Ghép các chữ cái tạo thành 'thờigian'."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "a",
+              "i",
+              "g",
+              "i",
+              "ờ",
+              "h",
+              "t"
+            ],
+            "target_word": "thờigian",
+            "target_sequence": [
+              "t",
+              "h",
+              "ờ",
+              "i",
+              "g",
+              "i",
+              "a",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'thời gian' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'thời gian' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'thời gian' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'thời gian' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'thời gian'.",
+            "en": "Xác định bản chất của từ 'thời gian'."
+          },
+          "explanation": {
+            "vi": "'thời gian' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'thời gian' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Ngày hôm qua đâu rồi?'.",
+            "en": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Ngày hôm qua đâu rồi?'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Ngày hôm qua đâu rồi?",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Ngày hôm qua đâu rồi?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Thời gian trôi qua không lấy lại được, cần chăm chỉ học hành.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Thời gian trôi qua không lấy lại được, cần chăm chỉ học hành."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Thời gian trôi qua không lấy lại được, cần chăm chỉ học hành.",
+            "en": "Đúng! Thời gian trôi qua không lấy lại được, cần chăm chỉ học hành."
+          },
+          "data": {
+            "statement": {
+              "vi": "Thời gian trôi qua không lấy lại được, cần chăm chỉ học hành.",
+              "en": "Thời gian trôi qua không lấy lại được, cần chăm chỉ học hành."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Ngày hôm qua ở lại trong hạt lúa mẹ trồng..",
+            "en": "Đếm từng tiếng trong câu: Ngày hôm qua ở lại trong hạt lúa mẹ trồng.."
+          },
+          "explanation": {
+            "vi": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' có đúng 10 tiếng.",
+            "en": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' có đúng 10 tiếng."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' Ngày ... qua ở lại trong hạt lúa mẹ trồng.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Ngày hôm qua ở lại trong hạt lúa mẹ trồng.' Ngày ... qua ở lại trong hạt lúa mẹ trồng."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Ngày hôm qua ở lại trong hạt lúa mẹ trồng..",
+            "en": "Nhớ lại câu mẫu trong bài học: Ngày hôm qua ở lại trong hạt lúa mẹ trồng.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'hôm'.",
+            "en": "Từ chính xác là 'hôm'."
+          },
+          "data": {
+            "prefix_text": "Ngày ",
+            "suffix_text": " qua ở lại trong hạt lúa mẹ trồng.",
+            "options": [
+              "hôm",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "hôm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'thời gian' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'thời gian' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'thời gian' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'thời gian' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý thời gian.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý thời gian.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý thời gian.",
+              "thời gian đang bay trên trời cao.",
+              "thời gian nở hoa rực rỡ.",
+              "thời gian có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý thời gian."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t1_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Ngày hôm qua đâu rồi?', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Ngày hôm qua đâu rồi?', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Ngày hôm qua đâu rồi?', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Ngày hôm qua đâu rồi?', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương thời gian",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương thời gian"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

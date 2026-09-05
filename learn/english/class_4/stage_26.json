@@ -1,0 +1,1148 @@
+{
+  "id": "e4_stage_26",
+  "stage_number": 26,
+  "title": {
+    "vi": "Week 26: Unit 17 - City Directions",
+    "en": "Week 26: Unit 17 - City Directions"
+  },
+  "subtitle": {
+    "vi": "Directions: turn left, turn right, go straight, cross the road (How can I get to...?)",
+    "en": "Directions: turn left, turn right, go straight, cross the road (How can I get to...?)"
+  },
+  "icon": "🗺️",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.224,
+  "required_stars": 75,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "e4_s26_1",
+      "title": {
+        "vi": "Unit 17: How Can I Get to the Museum?",
+        "en": "Unit 17: How Can I Get to the Museum?"
+      },
+      "description": {
+        "vi": "How can I get to the city museum? - Turn left and go straight",
+        "en": "How can I get to the city museum? - Turn left and go straight"
+      },
+      "icon": "🏛️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s26_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the magnificent historical museum building with columns in the city center. What place is it?",
+            "en": "Look at the magnificent historical museum building with columns in the city center. What place is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the magnificent historical museum building with columns in the city center. What place is it?",
+            "en": "Look at the magnificent historical museum building with columns in the city center. What place is it?"
+          },
+          "hint": {
+            "vi": "A building in which objects of historical or artistic interest are exhibited.",
+            "en": "A building in which objects of historical or artistic interest are exhibited."
+          },
+          "explanation": {
+            "vi": "It's the city museum.",
+            "en": "It's the city museum."
+          },
+          "data": {
+            "options": [
+              "the city museum",
+              "a fast food stall",
+              "a swimming pool",
+              "a bus stop"
+            ],
+            "correct_answer": "the city museum"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u17_city_museum.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s26_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'museum'?",
+            "en": "What is the first letter of the word 'museum'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'museum'?",
+            "en": "What is the first letter of the word 'museum'?"
+          },
+          "hint": {
+            "vi": "The word 'museum' starts with the letter M.",
+            "en": "The word 'museum' starts with the letter M."
+          },
+          "explanation": {
+            "vi": "Correct! 'museum' begins with the letter 'M'.",
+            "en": "Correct! 'museum' begins with the letter 'M'."
+          },
+          "data": {
+            "options": [
+              "Letter M",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter M"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "museum",
+                  "en": "museum"
+                },
+                "right": {
+                  "vi": "Nghĩa của museum",
+                  "en": "Nghĩa của museum"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "straight",
+                  "en": "straight"
+                },
+                "right": {
+                  "vi": "Nghĩa của straight",
+                  "en": "Nghĩa của straight"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "turn left",
+                  "en": "turn left"
+                },
+                "right": {
+                  "vi": "Nghĩa của turn left",
+                  "en": "Nghĩa của turn left"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? How can I get to the museum? - Go straight and turn left.",
+            "en": "Is this English sentence correct for Grade 4? How can I get to the museum? - Go straight and turn left."
+          },
+          "hint": {
+            "vi": "Remember the pattern: How can I get to the museum? - Go straight and turn left.",
+            "en": "Remember the pattern: How can I get to the museum? - Go straight and turn left."
+          },
+          "explanation": {
+            "vi": "Yes! 'How can I get to the museum? - Go straight and turn left.' is a correct English sentence.",
+            "en": "Yes! 'How can I get to the museum? - Go straight and turn left.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "How can I get to the museum? - Go straight and turn left.",
+              "en": "How can I get to the museum? - Go straight and turn left."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: How can I get to the museum? - Go straight and turn ....",
+            "en": "Drag the correct word to complete the sentence: How can I get to the museum? - Go straight and turn ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'left'.",
+            "en": "Choose the correct word: 'left'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'How can I get to the museum? - Go straight and turn left.'.",
+            "en": "The complete sentence is: 'How can I get to the museum? - Go straight and turn left.'."
+          },
+          "data": {
+            "prefix_text": "How can I get to the museum? - Go straight and turn ",
+            "suffix_text": ".",
+            "options": [
+              "left",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "left"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'museum':",
+            "en": "Spell the English word 'museum':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'museum':",
+            "en": "Spell the English word 'museum':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'museum'.",
+            "en": "Tap the letters in order to spell 'museum'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'museum' correctly.",
+            "en": "Well done! You spelled 'museum' correctly."
+          },
+          "data": {
+            "letters": [
+              "m",
+              "u",
+              "e",
+              "s",
+              "u",
+              "m"
+            ],
+            "target_word": "museum",
+            "target_sequence": [
+              "m",
+              "u",
+              "s",
+              "e",
+              "u",
+              "m"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Làm thế nào để tôi đến được bảo tàng? - Đi thẳng rồi rẽ trái.' in English?",
+            "en": "How do you say 'Làm thế nào để tôi đến được bảo tàng? - Đi thẳng rồi rẽ trái.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Làm thế nào để tôi đến được bảo tàng? - Đi thẳng rồi rẽ trái.' in English?",
+            "en": "How do you say 'Làm thế nào để tôi đến được bảo tàng? - Đi thẳng rồi rẽ trái.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Làm thế nào để tôi đến được bảo tàng? - Đi thẳng rồi rẽ trái.",
+            "en": "Choose the English sentence that means: Làm thế nào để tôi đến được bảo tàng? - Đi thẳng rồi rẽ trái."
+          },
+          "explanation": {
+            "vi": "'How can I get to the museum? - Go straight and turn left.' means 'Làm thế nào để tôi đến được bảo tàng? - Đi thẳng rồi rẽ trái.'.",
+            "en": "'How can I get to the museum? - Go straight and turn left.' means 'Làm thế nào để tôi đến được bảo tàng? - Đi thẳng rồi rẽ trái.'."
+          },
+          "data": {
+            "options": [
+              "How can I get to the museum? - Go straight and turn left.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "How can I get to the museum? - Go straight and turn left."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 17: How Can I Get to the Museum?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 17: How Can I Get to the Museum?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 17: How Can I Get to the Museum?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 17: How Can I Get to the Museum?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 17: How Can I Get to the Museum?.",
+            "en": "Remember the words in topic: Unit 17: How Can I Get to the Museum?."
+          },
+          "explanation": {
+            "vi": "'museum' is a key vocabulary word in this topic.",
+            "en": "'museum' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "museum",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "museum"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'straight' start with the sound /m/?",
+            "en": "Does the word 'straight' start with the sound /m/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'straight' start with the sound /m/? The word 'straight' starts with letter 'M'.",
+            "en": "Does the word 'straight' start with the sound /m/? The word 'straight' starts with letter 'M'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'straight'.",
+            "en": "Listen to the first sound of 'straight'."
+          },
+          "explanation": {
+            "vi": "Yes! 'straight' starts with the sound /m/.",
+            "en": "Yes! 'straight' starts with the sound /m/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'straight' starts with letter 'M'.",
+              "en": "The word 'straight' starts with letter 'M'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'museum'?",
+            "en": "How many letters are there in the word 'museum'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'museum'?",
+            "en": "How many letters are there in the word 'museum'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'museum': 1, 2, 3...",
+            "en": "Count the letters in 'museum': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'museum' has exactly 6 letters.",
+            "en": "The word 'museum' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'museum':",
+            "en": "Choose the correct phrase with 'museum':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'museum':",
+            "en": "Choose the correct phrase with 'museum':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a museum'.",
+            "en": "Correct! We say 'a museum'."
+          },
+          "data": {
+            "options": [
+              "a museum",
+              "an museum",
+              "two museum",
+              "many museum"
+            ],
+            "correct_answer": "a museum"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'museum'.",
+            "en": "Choose the word: 'museum'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is museum. It is wonderful!'",
+            "en": "We say: 'Look! This is museum. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "museum",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "museum"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 17: How Can I Get to the Museum?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 17: How Can I Get to the Museum?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 17: How Can I Get to the Museum?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 17: How Can I Get to the Museum?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 17: How Can I Get to the Museum?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 17: How Can I Get to the Museum?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: museum, straight!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: museum, straight!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s26_2",
+      "title": {
+        "vi": "Unit 17: Turn Right at the Traffic Lights",
+        "en": "Unit 17: Turn Right at the Traffic Lights"
+      },
+      "description": {
+        "vi": "Turn right at the corner / The supermarket is on your left",
+        "en": "Turn right at the corner / The supermarket is on your left"
+      },
+      "icon": "🚦",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s26_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the city street corner with green, yellow, and red traffic lights and arrow signs. What direction is indicated?",
+            "en": "Look at the city street corner with green, yellow, and red traffic lights and arrow signs. What direction is indicated?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the city street corner with green, yellow, and red traffic lights and arrow signs. What direction is indicated?",
+            "en": "Look at the city street corner with green, yellow, and red traffic lights and arrow signs. What direction is indicated?"
+          },
+          "hint": {
+            "vi": "Making a right turn at the signal.",
+            "en": "Making a right turn at the signal."
+          },
+          "explanation": {
+            "vi": "It indicates turning right at the traffic lights.",
+            "en": "It indicates turning right at the traffic lights."
+          },
+          "data": {
+            "options": [
+              "turn right at the traffic lights",
+              "fly up into the clouds",
+              "dig a hole",
+              "stop forever"
+            ],
+            "correct_answer": "turn right at the traffic lights"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u17_traffic_lights.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s26_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'traffic lights'?",
+            "en": "What is the first letter of the word 'traffic lights'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'traffic lights'?",
+            "en": "What is the first letter of the word 'traffic lights'?"
+          },
+          "hint": {
+            "vi": "The word 'traffic lights' starts with the letter T.",
+            "en": "The word 'traffic lights' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'traffic lights' begins with the letter 'T'.",
+            "en": "Correct! 'traffic lights' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "traffic lights",
+                  "en": "traffic lights"
+                },
+                "right": {
+                  "vi": "Nghĩa của traffic lights",
+                  "en": "Nghĩa của traffic lights"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "turn right",
+                  "en": "turn right"
+                },
+                "right": {
+                  "vi": "Nghĩa của turn right",
+                  "en": "Nghĩa của turn right"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "corner",
+                  "en": "corner"
+                },
+                "right": {
+                  "vi": "Nghĩa của corner",
+                  "en": "Nghĩa của corner"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Turn right at the traffic lights to reach the bookstore.",
+            "en": "Is this English sentence correct for Grade 4? Turn right at the traffic lights to reach the bookstore."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Turn right at the traffic lights to reach the bookstore.",
+            "en": "Remember the pattern: Turn right at the traffic lights to reach the bookstore."
+          },
+          "explanation": {
+            "vi": "Yes! 'Turn right at the traffic lights to reach the bookstore.' is a correct English sentence.",
+            "en": "Yes! 'Turn right at the traffic lights to reach the bookstore.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Turn right at the traffic lights to reach the bookstore.",
+              "en": "Turn right at the traffic lights to reach the bookstore."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Turn right at the traffic lights to reach the ....",
+            "en": "Drag the correct word to complete the sentence: Turn right at the traffic lights to reach the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'bookstore'.",
+            "en": "Choose the correct word: 'bookstore'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Turn right at the traffic lights to reach the bookstore.'.",
+            "en": "The complete sentence is: 'Turn right at the traffic lights to reach the bookstore.'."
+          },
+          "data": {
+            "prefix_text": "Turn right at the traffic lights to reach the ",
+            "suffix_text": ".",
+            "options": [
+              "bookstore",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "bookstore"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'traffic lights':",
+            "en": "Spell the English word 'traffic lights':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'traffic lights':",
+            "en": "Spell the English word 'traffic lights':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'traffic lights'.",
+            "en": "Tap the letters in order to spell 'traffic lights'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'traffic lights' correctly.",
+            "en": "Well done! You spelled 'traffic lights' correctly."
+          },
+          "data": {
+            "letters": [
+              "s",
+              "t",
+              "h",
+              "g",
+              "i",
+              "l",
+              " ",
+              "c",
+              "i",
+              "f",
+              "f",
+              "a",
+              "r",
+              "t"
+            ],
+            "target_word": "traffic lights",
+            "target_sequence": [
+              "t",
+              "r",
+              "a",
+              "f",
+              "f",
+              "i",
+              "c",
+              " ",
+              "l",
+              "i",
+              "g",
+              "h",
+              "t",
+              "s"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Rẽ phải ở cột đèn giao thông để đến hiệu sách.' in English?",
+            "en": "How do you say 'Rẽ phải ở cột đèn giao thông để đến hiệu sách.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Rẽ phải ở cột đèn giao thông để đến hiệu sách.' in English?",
+            "en": "How do you say 'Rẽ phải ở cột đèn giao thông để đến hiệu sách.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Rẽ phải ở cột đèn giao thông để đến hiệu sách.",
+            "en": "Choose the English sentence that means: Rẽ phải ở cột đèn giao thông để đến hiệu sách."
+          },
+          "explanation": {
+            "vi": "'Turn right at the traffic lights to reach the bookstore.' means 'Rẽ phải ở cột đèn giao thông để đến hiệu sách.'.",
+            "en": "'Turn right at the traffic lights to reach the bookstore.' means 'Rẽ phải ở cột đèn giao thông để đến hiệu sách.'."
+          },
+          "data": {
+            "options": [
+              "Turn right at the traffic lights to reach the bookstore.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Turn right at the traffic lights to reach the bookstore."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 17: Turn Right at the Traffic Lights'?",
+            "en": "Which of the following is a key word from Unit 'Unit 17: Turn Right at the Traffic Lights'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 17: Turn Right at the Traffic Lights'?",
+            "en": "Which of the following is a key word from Unit 'Unit 17: Turn Right at the Traffic Lights'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 17: Turn Right at the Traffic Lights.",
+            "en": "Remember the words in topic: Unit 17: Turn Right at the Traffic Lights."
+          },
+          "explanation": {
+            "vi": "'traffic lights' is a key vocabulary word in this topic.",
+            "en": "'traffic lights' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "traffic lights",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "traffic lights"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'turn right' start with the sound /t/?",
+            "en": "Does the word 'turn right' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'turn right' start with the sound /t/? The word 'turn right' starts with letter 'T'.",
+            "en": "Does the word 'turn right' start with the sound /t/? The word 'turn right' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'turn right'.",
+            "en": "Listen to the first sound of 'turn right'."
+          },
+          "explanation": {
+            "vi": "Yes! 'turn right' starts with the sound /t/.",
+            "en": "Yes! 'turn right' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'turn right' starts with letter 'T'.",
+              "en": "The word 'turn right' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'traffic lights'?",
+            "en": "How many letters are there in the word 'traffic lights'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'traffic lights'?",
+            "en": "How many letters are there in the word 'traffic lights'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'traffic lights': 1, 2, 3...",
+            "en": "Count the letters in 'traffic lights': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'traffic lights' has exactly 14 letters.",
+            "en": "The word 'traffic lights' has exactly 14 letters."
+          },
+          "data": {
+            "correct_number": "14",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'traffic lights':",
+            "en": "Choose the correct phrase with 'traffic lights':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'traffic lights':",
+            "en": "Choose the correct phrase with 'traffic lights':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a traffic lights'.",
+            "en": "Correct! We say 'a traffic lights'."
+          },
+          "data": {
+            "options": [
+              "a traffic lights",
+              "an traffic lights",
+              "two traffic lights",
+              "many traffic lights"
+            ],
+            "correct_answer": "a traffic lights"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'traffic lights'.",
+            "en": "Choose the word: 'traffic lights'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is traffic lights. It is wonderful!'",
+            "en": "We say: 'Look! This is traffic lights. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "traffic lights",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "traffic lights"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s26_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 17: Turn Right at the Traffic Lights'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 17: Turn Right at the Traffic Lights'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 17: Turn Right at the Traffic Lights'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 17: Turn Right at the Traffic Lights'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 17: Turn Right at the Traffic Lights'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 17: Turn Right at the Traffic Lights'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: traffic lights, turn right!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: traffic lights, turn right!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1109 @@
+{
+  "id": "m3_stage_18",
+  "stage_number": 18,
+  "title": {
+    "vi": "Tuần 18: Chữ Số La Mã (I, V, X) & Làm Tròn Số",
+    "en": "Week 18: Roman Numerals & Rounding Numbers"
+  },
+  "subtitle": {
+    "vi": "Bài 47, 48, 49 - Đọc đồng hồ La Mã và làm tròn chục, trăm",
+    "en": "Lesson 47-49 - Roman clock & rounding tens, hundreds"
+  },
+  "icon": "🏛️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.474,
+  "required_stars": 51,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "m3_t18_1",
+      "title": {
+        "vi": "Làm quen Chữ Số La Mã (I, V, X)",
+        "en": "Roman Numerals (I, V, X)"
+      },
+      "description": {
+        "vi": "I = 1, V = 5, X = 10, VI = 6, IX = 9, XI = 11, XII = 12...",
+        "en": "Read I, V, X, IV, VI, IX, XI, XII on clocks"
+      },
+      "icon": "🏛️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t18_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong hệ chữ số La Mã, chữ số V có giá trị là bao nhiêu?",
+            "en": "In Roman numerals, what is the value of V?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong hệ chữ số La Mã, chữ số V có giá trị là bao nhiêu?",
+            "en": "In Roman numerals, what is the value of V?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "V biểu thị số 5.",
+            "en": "V represents 5."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "5",
+                "en": "5"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ số La Mã với số tự nhiên tương ứng:",
+            "en": "Match Roman numerals with numbers:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối chữ số La Mã với số tự nhiên tương ứng:",
+            "en": "Match Roman numerals with numbers:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Đọc số La Mã từ 1 đến 20.",
+            "en": "Roman numerals 1 to 20."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "IV",
+                  "en": "IV"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "IX",
+                  "en": "IX"
+                },
+                "right": {
+                  "vi": "9",
+                  "en": "9"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "XII",
+                  "en": "XII"
+                },
+                "right": {
+                  "vi": "12",
+                  "en": "12"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số 20 trong chữ số La Mã được viết là gì?",
+            "en": "How is 20 written in Roman numerals?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 20 trong chữ số La Mã được viết là gì?",
+            "en": "How is 20 written in Roman numerals?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "X là 10, hai chữ X gộp lại là XX = 20.",
+            "en": "XX represents 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "VV",
+                "en": "VV"
+              },
+              {
+                "vi": "XX",
+                "en": "XX"
+              },
+              {
+                "vi": "VX",
+                "en": "VX"
+              }
+            ],
+            "correct_answer": "XX"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Làm quen Chữ Số La Mã (I, V, X)': Trong hệ chữ số La Mã, chữ số V có giá trị là bao nhiêu?",
+            "en": "Practice 'Roman Numerals (I, V, X)': In Roman numerals, what is the value of V?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong hệ chữ số La Mã, chữ số V có giá trị là bao nhiêu?",
+            "en": "In Roman numerals, what is the value of V?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "V biểu thị số 5.",
+            "en": "V represents 5."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "10",
+                "en": "10"
+              },
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "5",
+                "en": "5"
+              }
+            ],
+            "correct_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Làm quen Chữ Số La Mã (I, V, X)': Số 20 trong chữ số La Mã được viết là gì?",
+            "en": "Practice 'Roman Numerals (I, V, X)': How is 20 written in Roman numerals?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 20 trong chữ số La Mã được viết là gì?",
+            "en": "How is 20 written in Roman numerals?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "X là 10, hai chữ X gộp lại là XX = 20.",
+            "en": "XX represents 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "VV",
+                "en": "VV"
+              },
+              {
+                "vi": "XX",
+                "en": "XX"
+              },
+              {
+                "vi": "VX",
+                "en": "VX"
+              }
+            ],
+            "correct_answer": "XX"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 27 : 9 = ?",
+            "en": "Calculate: 27 : 9 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 27 : 9 = ?",
+            "en": "Calculate: 27 : 9 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "27 : 9 = 3.",
+            "en": "27 : 9 = 3."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3",
+                "en": "3"
+              },
+              {
+                "vi": "2",
+                "en": "2"
+              },
+              {
+                "vi": "4",
+                "en": "4"
+              },
+              {
+                "vi": "5",
+                "en": "5"
+              }
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 2972 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 2972 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 2972 có đúng 4 chữ số.",
+            "en": "2972 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 2972 là số có 4 chữ số.",
+              "en": "2972 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tìm kết quả phép tính: 9 x 6 = ?",
+            "en": "Calculate: 9 x 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "9 nhân 6 bằng bao nhiêu?",
+            "en": "9 times 6 equals?"
+          },
+          "hint": {
+            "vi": "Nhớ lại bảng nhân.",
+            "en": "Recall multiplication table."
+          },
+          "explanation": {
+            "vi": "9 x 6 = 54.",
+            "en": "9 x 6 = 54."
+          },
+          "data": {
+            "prefix_text": "9 x 6 = ",
+            "suffix_text": "",
+            "correct_number": "54"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chu vi hình vuông có cạnh 4 cm là:",
+            "en": "Perimeter of square with side 4 cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chu vi hình vuông có cạnh 4 cm là bao nhiêu?",
+            "en": "Perimeter of square with side 4 cm:"
+          },
+          "hint": {
+            "vi": "Chu vi hình vuông = Độ dài cạnh x 4.",
+            "en": "Perimeter = side x 4."
+          },
+          "explanation": {
+            "vi": "4 x 4 = 16 cm.",
+            "en": "4 x 4 = 16 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "16 cm",
+                "en": "16 cm"
+              },
+              {
+                "vi": "20 cm",
+                "en": "20 cm"
+              },
+              {
+                "vi": "16 cm",
+                "en": "16 cm"
+              }
+            ],
+            "correct_answer": "16 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t18_2",
+      "title": {
+        "vi": "Làm tròn số đến hàng chục, hàng trăm",
+        "en": "Rounding to Tens & Hundreds"
+      },
+      "description": {
+        "vi": "Quy tắc làm tròn: từ 5 trở lên thì làm tròn lên, dưới 5 làm tròn xuống",
+        "en": "Rounding rule: 5 or more rounds up, less than 5 rounds down"
+      },
+      "icon": "🎯",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t18_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 57 đến hàng chục ta được số nào?",
+            "en": "Round 57 to the nearest ten:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 57 đến hàng chục ta được số nào?",
+            "en": "Round 57 to the nearest ten:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Chữ số hàng đơn vị là 7 (>= 5) nên làm tròn lên 60.",
+            "en": "7 >= 5 so rounds up to 60."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "70",
+                "en": "70"
+              }
+            ],
+            "correct_answer": "60"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Làm tròn số 432 đến hàng trăm ta được số nào?",
+            "en": "Round 432 to nearest hundred:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 432 đến hàng trăm ta được số nào?",
+            "en": "Round 432 to nearest hundred:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Chữ số hàng chục là 3 (< 5) nên làm tròn xuống 400.",
+            "en": "3 < 5 so rounds down to 400."
+          },
+          "data": {
+            "correct_number": "400",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy tắc làm tròn số.",
+            "en": "Decide whether the following statement is true or false: Quy tắc làm tròn số."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Từ 5 trở lên làm tròn lên.",
+            "en": "True! 5+ rounds up."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy tắc làm tròn số.",
+              "en": "Quy tắc làm tròn số."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Làm tròn số đến hàng chục, hàng trăm': Làm tròn số 57 đến hàng chục ta được số nào?",
+            "en": "Practice 'Rounding to Tens & Hundreds': Round 57 to the nearest ten:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 57 đến hàng chục ta được số nào?",
+            "en": "Round 57 to the nearest ten:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Chữ số hàng đơn vị là 7 (>= 5) nên làm tròn lên 60.",
+            "en": "7 >= 5 so rounds up to 60."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "70",
+                "en": "70"
+              }
+            ],
+            "correct_answer": "60"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_2_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 9 x 6 = ?",
+            "en": "Calculate: 9 x 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 9 x 6 = ?",
+            "en": "Calculate: 9 x 6 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "9 x 6 = 54.",
+            "en": "9 x 6 = 54."
+          },
+          "data": {
+            "prefix_text": "9 x 6 = ",
+            "suffix_text": "",
+            "correct_number": "54"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 32 : 8 = ?",
+            "en": "Calculate: 32 : 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 32 : 8 = ?",
+            "en": "Calculate: 32 : 8 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "32 : 8 = 4.",
+            "en": "32 : 8 = 4."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "4",
+                "en": "4"
+              },
+              {
+                "vi": "3",
+                "en": "3"
+              },
+              {
+                "vi": "5",
+                "en": "5"
+              },
+              {
+                "vi": "6",
+                "en": "6"
+              }
+            ],
+            "correct_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 3117 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 3117 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 3117 có đúng 4 chữ số.",
+            "en": "3117 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3117 là số có 4 chữ số.",
+              "en": "3117 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t18_3",
+      "title": {
+        "vi": "Thực hành xem đồng hồ La Mã & Làm tròn số",
+        "en": "Roman Clock & Rounding Practice"
+      },
+      "description": {
+        "vi": "Đọc mặt đồng hồ La Mã và ứng dụng ước lượng",
+        "en": "Read Roman clocks & practical estimations"
+      },
+      "icon": "⏰",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t18_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Kim ngắn chỉ số IX, kim dài chỉ số XII trên mặt đồng hồ La Mã. Đồng hồ chỉ mấy giờ?",
+            "en": "Hour hand at IX, minute at XII. What time is it?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kim ngắn chỉ số IX, kim dài chỉ số XII trên mặt đồng hồ La Mã. Đồng hồ chỉ mấy giờ?",
+            "en": "Hour hand at IX, minute at XII. What time is it?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "IX là số 9, đồng hồ chỉ 9 giờ đúng.",
+            "en": "IX is 9, so it is 9 o'clock."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "9 giờ đúng",
+                "en": "9 giờ đúng"
+              },
+              {
+                "vi": "11 giờ đúng",
+                "en": "11 giờ đúng"
+              },
+              {
+                "vi": "4 giờ đúng",
+                "en": "4 giờ đúng"
+              }
+            ],
+            "correct_answer": "9 giờ đúng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Làm tròn số 875 đến hàng trăm ta được số nào?",
+            "en": "Round 875 to nearest hundred:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 875 đến hàng trăm ta được số nào?",
+            "en": "Round 875 to nearest hundred:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Chữ số hàng chục là 7 (>= 5) nên làm tròn lên 900.",
+            "en": "7 >= 5 so rounds up to 900."
+          },
+          "data": {
+            "correct_number": "900",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_3_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép chữ số La Mã cho số 15: X + V = XV",
+            "en": "Arrange tiles for 15 in Roman: XV"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép chữ số La Mã cho số 15: X + V = XV",
+            "en": "Arrange tiles for 15 in Roman: XV"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "X (10) + V (5) = XV (15).",
+            "en": "XV represents 15."
+          },
+          "data": {
+            "target_word": "XV",
+            "pool_tokens": [
+              "X",
+              "V"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Thực hành xem đồng hồ La Mã & Làm tròn số': Kim ngắn chỉ số IX, kim dài chỉ số XII trên mặt đồng hồ La Mã. Đồng hồ chỉ mấy giờ?",
+            "en": "Practice 'Roman Clock & Rounding Practice': Hour hand at IX, minute at XII. What time is it?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kim ngắn chỉ số IX, kim dài chỉ số XII trên mặt đồng hồ La Mã. Đồng hồ chỉ mấy giờ?",
+            "en": "Hour hand at IX, minute at XII. What time is it?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "IX là số 9, đồng hồ chỉ 9 giờ đúng.",
+            "en": "IX is 9, so it is 9 o'clock."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "4 giờ đúng",
+                "en": "4 giờ đúng"
+              },
+              {
+                "vi": "11 giờ đúng",
+                "en": "11 giờ đúng"
+              },
+              {
+                "vi": "9 giờ đúng",
+                "en": "9 giờ đúng"
+              }
+            ],
+            "correct_answer": "9 giờ đúng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_3_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'THỰC'",
+            "en": "Arrange the letters to spell the keyword: 'THỰC'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa THỰC",
+            "en": "Arrange the letters to spell THỰC"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: THỰC",
+            "en": "The keyword is: THỰC"
+          },
+          "data": {
+            "target_word": "THỰC",
+            "scrambled_letters": [
+              "H",
+              "T",
+              "C",
+              "Ự"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 3063 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 3063 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 3063 có đúng 4 chữ số.",
+            "en": "3063 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3063 là số có 4 chữ số.",
+              "en": "3063 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t18_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

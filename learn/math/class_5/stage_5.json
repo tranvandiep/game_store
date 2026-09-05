@@ -1,0 +1,862 @@
+{
+  "id": "m5_stage_5",
+  "stage_number": 5,
+  "title": {
+    "vi": "Chặng 5: Bảng đơn vị Đo lường & dam², hm², ha, mm²",
+    "en": "Stage 5: Units of Measure & Area Units Table"
+  },
+  "subtitle": {
+    "vi": "Bảng độ dài, khối lượng và đơn vị diện tích mới",
+    "en": "Length, mass, and new area units table"
+  },
+  "icon": "📐",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFF009688",
+  "topics": [
+    {
+      "id": "m5_t5_1",
+      "title": {
+        "vi": "Bảng đơn vị đo Độ dài & Khối lượng",
+        "en": "Length & Mass Units Table"
+      },
+      "description": {
+        "vi": "Hai đơn vị đo liền kề gấp kém nhau 10 lần: km, hm, dam, m, dm, cm, mm; tấn, tạ, yến, kg, hg, dag, g",
+        "en": "Consecutive metric units differ by factor of 10"
+      },
+      "icon": "📏",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t5_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "5 km 25 m đổi ra mét là bao nhiêu mét?",
+            "en": "Convert 5 km 25 m to meters:"
+          },
+          "tts_prompt": {
+            "vi": "5 km 25 m đổi ra mét là bao nhiêu mét?",
+            "en": "Convert 5 km 25 m to meters:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 5025,
+            "unit": "m"
+          },
+          "hint": {
+            "vi": "5 km = 5 000 m; 5 000 + 25 = 5 025 m.",
+            "en": "5,025 meters."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 5025 m. 5 km = 5 000 m; 5 000 + 25 = 5 025 m.",
+            "en": "The exact result is 5025 m. 5,025 meters."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Trong bảng đơn vị đo độ dài và khối lượng, mỗi đơn vị lớn gấp 10 lần đơn vị bé hơn liền kề.",
+            "en": "Decide whether the following statement is true or false: Trong bảng đơn vị đo độ dài và khối lượng, mỗi đơn vị lớn gấp 10 lần đơn vị bé hơn liền kề."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Trong bảng đơn vị đo độ dài và khối lượng, mỗi đơn vị lớn gấp 10 lần đơn vị bé hơn liền kề.",
+              "en": "Trong bảng đơn vị đo độ dài và khối lượng, mỗi đơn vị lớn gấp 10 lần đơn vị bé hơn liền kề."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 5.9:",
+            "en": "Decimal fraction for 5.9:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 5.9:",
+            "en": "Decimal fraction for 5.9:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "5.9 = 59/10.",
+            "en": "5.9 = 59/10."
+          },
+          "data": {
+            "prefix_text": "5.9 = ",
+            "suffix_text": "",
+            "options": [
+              "5/10",
+              "59/10",
+              "59/100",
+              "60/10"
+            ],
+            "slot_answer": "59/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 50 : 100 = 100.",
+            "en": "Result is 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "100",
+                "en": "100"
+              },
+              {
+                "vi": "110",
+                "en": "110"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              }
+            ],
+            "correct_answer": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t5_2",
+      "title": {
+        "vi": "Đơn vị đo diện tích Đề-ca-mét vuông (dam²), Héc-tô-mét vuông (hm²), Héc-ta (ha)",
+        "en": "Square Decameter (dam²), Square Hectometer (hm²), Hectare (ha)"
+      },
+      "description": {
+        "vi": "1 dam² = 100 m²; 1 hm² = 100 dam² = 10 000 m²; 1 ha = 1 hm² = 10 000 m²",
+        "en": "1 dam² = 100 m²; 1 hm² = 1 ha = 10,000 m²"
+      },
+      "icon": "🌾",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t5_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "1 héc-ta (ha) bằng bao nhiêu mét vuông (m²)?",
+            "en": "How many square meters is 1 hectare (ha)?"
+          },
+          "tts_prompt": {
+            "vi": "1 héc-ta (ha) bằng bao nhiêu mét vuông (m²)?",
+            "en": "How many square meters is 1 hectare (ha)?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 10000,
+            "unit": "m²"
+          },
+          "hint": {
+            "vi": "1 ha = 1 hm² = 10 000 m².",
+            "en": "1 ha = 10,000 m²."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 10000 m². 1 ha = 1 hm² = 10 000 m².",
+            "en": "The exact result is 10000 m². 1 ha = 10,000 m²."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tên gọi khác của 1 héc-tô-mét vuông (hm²) thường dùng trong nông nghiệp và lâm nghiệp là:",
+            "en": "Another common name for 1 hm² in agriculture:"
+          },
+          "tts_prompt": {
+            "vi": "Tên gọi khác của 1 héc-tô-mét vuông (hm²) thường dùng trong nông nghiệp và lâm nghiệp là:",
+            "en": "Another common name for 1 hm² in agriculture:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "Héc-ta (ha)",
+              "A (sào)",
+              "Mẫu"
+            ],
+            "answer": "Héc-ta (ha)"
+          },
+          "hint": {
+            "vi": "1 ha = 1 hm² = 10 000 m².",
+            "en": "Hectare (ha)."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là Héc-ta (ha). 1 ha = 1 hm² = 10 000 m².",
+            "en": "Correct answer is Héc-ta (ha). Hectare (ha)."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_2_6",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_2_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 6.2:",
+            "en": "Decimal fraction for 6.2:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 6.2:",
+            "en": "Decimal fraction for 6.2:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "6.2 = 62/10.",
+            "en": "6.2 = 62/10."
+          },
+          "data": {
+            "prefix_text": "6.2 = ",
+            "suffix_text": "",
+            "options": [
+              "62/10",
+              "6/10",
+              "63/10",
+              "62/100"
+            ],
+            "slot_answer": "62/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 9.8:",
+            "en": "Decimal fraction for 9.8:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 9.8:",
+            "en": "Decimal fraction for 9.8:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "9.8 = 98/10.",
+            "en": "9.8 = 98/10."
+          },
+          "data": {
+            "prefix_text": "9.8 = ",
+            "suffix_text": "",
+            "options": [
+              "9/10",
+              "98/10",
+              "98/100",
+              "99/10"
+            ],
+            "slot_answer": "98/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t5_3",
+      "title": {
+        "vi": "Mi-li-mét vuông (mm²) & Bảng đơn vị đo diện tích",
+        "en": "Square Millimeter (mm²) & Area Units Table"
+      },
+      "description": {
+        "vi": "Hai đơn vị đo diện tích liền kề gấp kém nhau 100 lần: km², hm² (ha), dam², m², dm², cm², mm²",
+        "en": "Consecutive area units differ by factor of 100"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t5_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "1 cm² bằng bao nhiêu mm²?",
+            "en": "How many mm² is 1 cm²?"
+          },
+          "tts_prompt": {
+            "vi": "1 cm² bằng bao nhiêu mm²?",
+            "en": "How many mm² is 1 cm²?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 100,
+            "unit": "mm²"
+          },
+          "hint": {
+            "vi": "1 cm² = 100 mm².",
+            "en": "1 cm² = 100 mm²."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 100 mm². 1 cm² = 100 mm².",
+            "en": "The exact result is 100 mm². 1 cm² = 100 mm²."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_3_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo diện tích tương đương:",
+            "en": "Match equivalent area measurements:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo diện tích tương đương:",
+            "en": "Match equivalent area measurements:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "1 km²",
+                "right": "100 ha (1 000 000 m²)"
+              },
+              {
+                "id": "p2",
+                "left": "1 ha",
+                "right": "100 dam² (10 000 m²)"
+              },
+              {
+                "id": "p3",
+                "left": "1 m²",
+                "right": "100 dm² (10 000 cm²)"
+              }
+            ]
+          },
+          "hint": {
+            "vi": "Bảng quy đổi diện tích.",
+            "en": "Area conversion table."
+          },
+          "explanation": {
+            "vi": "Nối chính xác các cặp tương ứng. Bảng quy đổi diện tích.",
+            "en": "Match corresponding pairs accurately. Area conversion table."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Trong bảng đơn vị đo diện tích, mỗi đơn vị đo gấp 100 lần đơn vị bé hơn liền kề.",
+            "en": "Decide whether the following statement is true or false: Trong bảng đơn vị đo diện tích, mỗi đơn vị đo gấp 100 lần đơn vị bé hơn liền kề."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Trong bảng đơn vị đo diện tích, mỗi đơn vị đo gấp 100 lần đơn vị bé hơn liền kề.",
+              "en": "Trong bảng đơn vị đo diện tích, mỗi đơn vị đo gấp 100 lần đơn vị bé hơn liền kề."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_3_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một xe máy đi với vận tốc 60 km/giờ trong 2 giờ. Quãng đường đi được là:",
+            "en": "A vehicle travels at 60 km/h for 2 hours. Distance traveled is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính quãng đường khi vận tốc 60 km trên giờ và thời gian 2 giờ",
+            "en": "Calculate distance with speed 60 and time 2"
+          },
+          "hint": {
+            "vi": "Quãng đường = Vận tốc x Thời gian.",
+            "en": "Distance = Speed x Time."
+          },
+          "explanation": {
+            "vi": "60 x 2 = 120 km.",
+            "en": "60 x 2 = 120 km."
+          },
+          "data": {
+            "prefix_text": "Quãng đường là: ",
+            "suffix_text": " km",
+            "correct_number": "120"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t5_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

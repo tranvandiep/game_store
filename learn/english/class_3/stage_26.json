@@ -1,0 +1,1136 @@
+{
+  "id": "e3_stage_26",
+  "stage_number": 26,
+  "title": {
+    "vi": "Week 26: Little Goldfish & Pet Care",
+    "en": "Week 26: Little Goldfish & Pet Care"
+  },
+  "subtitle": {
+    "vi": "Goldfish, hamsters, feeding pets, giving water",
+    "en": "Goldfish, hamsters, feeding pets, giving water"
+  },
+  "icon": "🐠",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.224,
+  "required_stars": 75,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "e3_s26_1",
+      "title": {
+        "vi": "Golden Swimming Goldfish",
+        "en": "Golden Swimming Goldfish"
+      },
+      "description": {
+        "vi": "Watching goldfish swim in the clean aquarium",
+        "en": "Watching goldfish swim in the clean aquarium"
+      },
+      "icon": "🐠",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s26_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the orange fish swimming among green aquatic plants in the glass bowl. What are they?",
+            "en": "Look at the orange fish swimming among green aquatic plants in the glass bowl. What are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the orange fish swimming among green aquatic plants in the glass bowl. What are they?",
+            "en": "Look at the orange fish swimming among green aquatic plants in the glass bowl. What are they?"
+          },
+          "hint": {
+            "vi": "Small orange domestic freshwater fish.",
+            "en": "Small orange domestic freshwater fish."
+          },
+          "explanation": {
+            "vi": "They are little pet goldfish.",
+            "en": "They are little pet goldfish."
+          },
+          "data": {
+            "options": [
+              "little goldfish",
+              "wild sharks",
+              "sea crabs",
+              "sea turtles"
+            ],
+            "correct_answer": "little goldfish"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u16_goldfish_bowl.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s26_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'goldfish'?",
+            "en": "What is the first letter of the word 'goldfish'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'goldfish'?",
+            "en": "What is the first letter of the word 'goldfish'?"
+          },
+          "hint": {
+            "vi": "The word 'goldfish' starts with the letter G.",
+            "en": "The word 'goldfish' starts with the letter G."
+          },
+          "explanation": {
+            "vi": "Correct! 'goldfish' begins with the letter 'G'.",
+            "en": "Correct! 'goldfish' begins with the letter 'G'."
+          },
+          "data": {
+            "options": [
+              "Letter G",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter G"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "goldfish",
+                  "en": "goldfish"
+                },
+                "right": {
+                  "vi": "Nghĩa của goldfish",
+                  "en": "Nghĩa của goldfish"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "aquarium",
+                  "en": "aquarium"
+                },
+                "right": {
+                  "vi": "Nghĩa của aquarium",
+                  "en": "Nghĩa của aquarium"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "swim",
+                  "en": "swim"
+                },
+                "right": {
+                  "vi": "Nghĩa của swim",
+                  "en": "Nghĩa của swim"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Three little goldfish swim in the aquarium.",
+            "en": "Is this English sentence correct for Grade 3? Three little goldfish swim in the aquarium."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Three little goldfish swim in the aquarium.",
+            "en": "Remember the pattern: Three little goldfish swim in the aquarium."
+          },
+          "explanation": {
+            "vi": "Yes! 'Three little goldfish swim in the aquarium.' is a correct English sentence.",
+            "en": "Yes! 'Three little goldfish swim in the aquarium.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Three little goldfish swim in the aquarium.",
+              "en": "Three little goldfish swim in the aquarium."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Three little goldfish swim in the ....",
+            "en": "Drag the correct word to complete the sentence: Three little goldfish swim in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'aquarium'.",
+            "en": "Choose the correct word: 'aquarium'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Three little goldfish swim in the aquarium.'.",
+            "en": "The complete sentence is: 'Three little goldfish swim in the aquarium.'."
+          },
+          "data": {
+            "prefix_text": "Three little goldfish swim in the ",
+            "suffix_text": ".",
+            "options": [
+              "aquarium",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "aquarium"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'goldfish':",
+            "en": "Spell the English word 'goldfish':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'goldfish':",
+            "en": "Spell the English word 'goldfish':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'goldfish'.",
+            "en": "Tap the letters in order to spell 'goldfish'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'goldfish' correctly.",
+            "en": "Well done! You spelled 'goldfish' correctly."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "s",
+              "i",
+              "f",
+              "d",
+              "l",
+              "o",
+              "g"
+            ],
+            "target_word": "goldfish",
+            "target_sequence": [
+              "g",
+              "o",
+              "l",
+              "d",
+              "f",
+              "i",
+              "s",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Ba chú cá vàng nhỏ bơi trong bể cá.' in English?",
+            "en": "How do you say 'Ba chú cá vàng nhỏ bơi trong bể cá.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Ba chú cá vàng nhỏ bơi trong bể cá.' in English?",
+            "en": "How do you say 'Ba chú cá vàng nhỏ bơi trong bể cá.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Ba chú cá vàng nhỏ bơi trong bể cá.",
+            "en": "Choose the English sentence that means: Ba chú cá vàng nhỏ bơi trong bể cá."
+          },
+          "explanation": {
+            "vi": "'Three little goldfish swim in the aquarium.' means 'Ba chú cá vàng nhỏ bơi trong bể cá.'.",
+            "en": "'Three little goldfish swim in the aquarium.' means 'Ba chú cá vàng nhỏ bơi trong bể cá.'."
+          },
+          "data": {
+            "options": [
+              "Three little goldfish swim in the aquarium.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Three little goldfish swim in the aquarium."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Golden Swimming Goldfish'?",
+            "en": "Which of the following is a word from Unit 'Golden Swimming Goldfish'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Golden Swimming Goldfish'?",
+            "en": "Which of the following is a word from Unit 'Golden Swimming Goldfish'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Golden Swimming Goldfish.",
+            "en": "Remember the words in topic: Golden Swimming Goldfish."
+          },
+          "explanation": {
+            "vi": "'goldfish' is a key vocabulary word in this topic.",
+            "en": "'goldfish' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "goldfish",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "goldfish"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'aquarium' start with the sound /g/?",
+            "en": "Does the word 'aquarium' start with the sound /g/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'aquarium' start with the sound /g/? The word 'aquarium' starts with letter 'G'.",
+            "en": "Does the word 'aquarium' start with the sound /g/? The word 'aquarium' starts with letter 'G'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'aquarium'.",
+            "en": "Listen to the first sound of 'aquarium'."
+          },
+          "explanation": {
+            "vi": "Yes! 'aquarium' starts with the sound /g/.",
+            "en": "Yes! 'aquarium' starts with the sound /g/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'aquarium' starts with letter 'G'.",
+              "en": "The word 'aquarium' starts with letter 'G'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'goldfish'?",
+            "en": "How many letters are there in the word 'goldfish'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'goldfish'?",
+            "en": "How many letters are there in the word 'goldfish'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'goldfish': 1, 2, 3...",
+            "en": "Count the letters in 'goldfish': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'goldfish' has exactly 8 letters.",
+            "en": "The word 'goldfish' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'goldfish':",
+            "en": "Choose the correct phrase with 'goldfish':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'goldfish':",
+            "en": "Choose the correct phrase with 'goldfish':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a goldfish'.",
+            "en": "Correct! We say 'a goldfish'."
+          },
+          "data": {
+            "options": [
+              "a goldfish",
+              "an goldfish",
+              "two goldfish",
+              "many goldfish"
+            ],
+            "correct_answer": "a goldfish"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'goldfish'.",
+            "en": "Choose the noun: 'goldfish'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our goldfish. It is very nice!'",
+            "en": "We say: 'Look! This is our goldfish. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "goldfish",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "goldfish"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Golden Swimming Goldfish'?",
+            "en": "Which English sentence best describes the topic 'Golden Swimming Goldfish'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Golden Swimming Goldfish'?",
+            "en": "Which English sentence best describes the topic 'Golden Swimming Goldfish'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Golden Swimming Goldfish'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Golden Swimming Goldfish'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: goldfish, aquarium!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: goldfish, aquarium!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s26_2",
+      "title": {
+        "vi": "Feeding Crunchy Carrots to Rabbit",
+        "en": "Feeding Crunchy Carrots to Rabbit"
+      },
+      "description": {
+        "vi": "Caring for pets with fresh vegetables",
+        "en": "Caring for pets with fresh vegetables"
+      },
+      "icon": "🥕",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s26_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the child gently giving an orange carrot to a white bunny with long ears. What animal is being fed?",
+            "en": "Look at the child gently giving an orange carrot to a white bunny with long ears. What animal is being fed?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the child gently giving an orange carrot to a white bunny with long ears. What animal is being fed?",
+            "en": "Look at the child gently giving an orange carrot to a white bunny with long ears. What animal is being fed?"
+          },
+          "hint": {
+            "vi": "A small mammal with long ears that hops and loves carrots.",
+            "en": "A small mammal with long ears that hops and loves carrots."
+          },
+          "explanation": {
+            "vi": "It's a pet rabbit eating a carrot.",
+            "en": "It's a pet rabbit eating a carrot."
+          },
+          "data": {
+            "options": [
+              "a fluffy white rabbit",
+              "a scary lion",
+              "a giant elephant",
+              "a polar bear"
+            ],
+            "correct_answer": "a fluffy white rabbit"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u16_feed_rabbit.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s26_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'rabbit'?",
+            "en": "What is the first letter of the word 'rabbit'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'rabbit'?",
+            "en": "What is the first letter of the word 'rabbit'?"
+          },
+          "hint": {
+            "vi": "The word 'rabbit' starts with the letter R.",
+            "en": "The word 'rabbit' starts with the letter R."
+          },
+          "explanation": {
+            "vi": "Correct! 'rabbit' begins with the letter 'R'.",
+            "en": "Correct! 'rabbit' begins with the letter 'R'."
+          },
+          "data": {
+            "options": [
+              "Letter R",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter R"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "rabbit",
+                  "en": "rabbit"
+                },
+                "right": {
+                  "vi": "Nghĩa của rabbit",
+                  "en": "Nghĩa của rabbit"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "carrot",
+                  "en": "carrot"
+                },
+                "right": {
+                  "vi": "Nghĩa của carrot",
+                  "en": "Nghĩa của carrot"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "feed",
+                  "en": "feed"
+                },
+                "right": {
+                  "vi": "Nghĩa của feed",
+                  "en": "Nghĩa của feed"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Feed fresh orange carrots to the fluffy rabbit.",
+            "en": "Is this English sentence correct for Grade 3? Feed fresh orange carrots to the fluffy rabbit."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Feed fresh orange carrots to the fluffy rabbit.",
+            "en": "Remember the pattern: Feed fresh orange carrots to the fluffy rabbit."
+          },
+          "explanation": {
+            "vi": "Yes! 'Feed fresh orange carrots to the fluffy rabbit.' is a correct English sentence.",
+            "en": "Yes! 'Feed fresh orange carrots to the fluffy rabbit.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Feed fresh orange carrots to the fluffy rabbit.",
+              "en": "Feed fresh orange carrots to the fluffy rabbit."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Feed fresh orange carrots to the fluffy ....",
+            "en": "Drag the correct word to complete the sentence: Feed fresh orange carrots to the fluffy ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'rabbit'.",
+            "en": "Choose the correct word: 'rabbit'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Feed fresh orange carrots to the fluffy rabbit.'.",
+            "en": "The complete sentence is: 'Feed fresh orange carrots to the fluffy rabbit.'."
+          },
+          "data": {
+            "prefix_text": "Feed fresh orange carrots to the fluffy ",
+            "suffix_text": ".",
+            "options": [
+              "rabbit",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "rabbit"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'rabbit':",
+            "en": "Spell the English word 'rabbit':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'rabbit':",
+            "en": "Spell the English word 'rabbit':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'rabbit'.",
+            "en": "Tap the letters in order to spell 'rabbit'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'rabbit' correctly.",
+            "en": "Well done! You spelled 'rabbit' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "i",
+              "b",
+              "b",
+              "a",
+              "r"
+            ],
+            "target_word": "rabbit",
+            "target_sequence": [
+              "r",
+              "a",
+              "b",
+              "b",
+              "i",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cho chú thỏ bông ăn những củ cà rốt cam tươi ngon.' in English?",
+            "en": "How do you say 'Cho chú thỏ bông ăn những củ cà rốt cam tươi ngon.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cho chú thỏ bông ăn những củ cà rốt cam tươi ngon.' in English?",
+            "en": "How do you say 'Cho chú thỏ bông ăn những củ cà rốt cam tươi ngon.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cho chú thỏ bông ăn những củ cà rốt cam tươi ngon.",
+            "en": "Choose the English sentence that means: Cho chú thỏ bông ăn những củ cà rốt cam tươi ngon."
+          },
+          "explanation": {
+            "vi": "'Feed fresh orange carrots to the fluffy rabbit.' means 'Cho chú thỏ bông ăn những củ cà rốt cam tươi ngon.'.",
+            "en": "'Feed fresh orange carrots to the fluffy rabbit.' means 'Cho chú thỏ bông ăn những củ cà rốt cam tươi ngon.'."
+          },
+          "data": {
+            "options": [
+              "Feed fresh orange carrots to the fluffy rabbit.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Feed fresh orange carrots to the fluffy rabbit."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Feeding Crunchy Carrots to Rabbit'?",
+            "en": "Which of the following is a word from Unit 'Feeding Crunchy Carrots to Rabbit'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Feeding Crunchy Carrots to Rabbit'?",
+            "en": "Which of the following is a word from Unit 'Feeding Crunchy Carrots to Rabbit'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Feeding Crunchy Carrots to Rabbit.",
+            "en": "Remember the words in topic: Feeding Crunchy Carrots to Rabbit."
+          },
+          "explanation": {
+            "vi": "'rabbit' is a key vocabulary word in this topic.",
+            "en": "'rabbit' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "rabbit",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "rabbit"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'carrot' start with the sound /r/?",
+            "en": "Does the word 'carrot' start with the sound /r/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'carrot' start with the sound /r/? The word 'carrot' starts with letter 'R'.",
+            "en": "Does the word 'carrot' start with the sound /r/? The word 'carrot' starts with letter 'R'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'carrot'.",
+            "en": "Listen to the first sound of 'carrot'."
+          },
+          "explanation": {
+            "vi": "Yes! 'carrot' starts with the sound /r/.",
+            "en": "Yes! 'carrot' starts with the sound /r/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'carrot' starts with letter 'R'.",
+              "en": "The word 'carrot' starts with letter 'R'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'rabbit'?",
+            "en": "How many letters are there in the word 'rabbit'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'rabbit'?",
+            "en": "How many letters are there in the word 'rabbit'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'rabbit': 1, 2, 3...",
+            "en": "Count the letters in 'rabbit': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'rabbit' has exactly 6 letters.",
+            "en": "The word 'rabbit' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'rabbit':",
+            "en": "Choose the correct phrase with 'rabbit':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'rabbit':",
+            "en": "Choose the correct phrase with 'rabbit':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a rabbit'.",
+            "en": "Correct! We say 'a rabbit'."
+          },
+          "data": {
+            "options": [
+              "a rabbit",
+              "an rabbit",
+              "two rabbit",
+              "many rabbit"
+            ],
+            "correct_answer": "a rabbit"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'rabbit'.",
+            "en": "Choose the noun: 'rabbit'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our rabbit. It is very nice!'",
+            "en": "We say: 'Look! This is our rabbit. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "rabbit",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "rabbit"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s26_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Feeding Crunchy Carrots to Rabbit'?",
+            "en": "Which English sentence best describes the topic 'Feeding Crunchy Carrots to Rabbit'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Feeding Crunchy Carrots to Rabbit'?",
+            "en": "Which English sentence best describes the topic 'Feeding Crunchy Carrots to Rabbit'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Feeding Crunchy Carrots to Rabbit'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Feeding Crunchy Carrots to Rabbit'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: rabbit, carrot!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: rabbit, carrot!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

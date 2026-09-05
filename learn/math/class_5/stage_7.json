@@ -1,0 +1,1240 @@
+{
+  "id": "m5_stage_7",
+  "stage_number": 7,
+  "title": {
+    "vi": "Chặng 7: Số Thập Phân Bằng Nhau & So Sánh Số Thập Phân",
+    "en": "Stage 7: Equivalent Decimals & Comparing Decimals"
+  },
+  "subtitle": {
+    "vi": "Thêm bớt chữ số 0 tận cùng và quy tắc so sánh",
+    "en": "Trailing zeros rules and decimal comparison order"
+  },
+  "icon": "📊",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFFE91E63",
+  "topics": [
+    {
+      "id": "m5_t7_1",
+      "title": {
+        "vi": "Số thập phân bằng nhau",
+        "en": "Equivalent Decimals"
+      },
+      "description": {
+        "vi": "Nếu viết thêm hoặc bỏ bớt chữ số 0 ở tận cùng bên phải phần thập phân thì giá trị số thập phân không đổi",
+        "en": "Adding or removing trailing zeros after decimal point does not change value"
+      },
+      "icon": "⚖️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t7_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số thập phân 0,9 bằng với số nào dưới đây?",
+            "en": "0.9 is equal to:"
+          },
+          "tts_prompt": {
+            "vi": "Số thập phân 0,9 bằng với số nào dưới đây?",
+            "en": "0.9 is equal to:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "0,90",
+              "0,09",
+              "9,0"
+            ],
+            "answer": "0,90"
+          },
+          "hint": {
+            "vi": "0,9 = 0,90 = 0,900.",
+            "en": "0.9 = 0.90."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 0,90. 0,9 = 0,90 = 0,900.",
+            "en": "Correct answer is 0,90. 0.9 = 0.90."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các số thập phân bằng nhau:",
+            "en": "Match equivalent decimals:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các số thập phân bằng nhau:",
+            "en": "Match equivalent decimals:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "3,4",
+                "right": "3,400"
+              },
+              {
+                "id": "p2",
+                "left": "12,50",
+                "right": "12,5"
+              },
+              {
+                "id": "p3",
+                "left": "0,200",
+                "right": "0,2"
+              }
+            ]
+          },
+          "hint": {
+            "vi": "Số thập phân bằng nhau.",
+            "en": "Equivalent decimals."
+          },
+          "explanation": {
+            "vi": "Nối chính xác các cặp tương ứng. Số thập phân bằng nhau.",
+            "en": "Match corresponding pairs accurately. Equivalent decimals."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 8 đứng liền trước số 9.",
+            "en": "Decide whether the following statement is true or false: Số 8 đứng liền trước số 9."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 8 đứng liền trước số 9.",
+              "en": "Số 8 đứng liền trước số 9."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 2 bé hơn số 1 (2 < 1).",
+            "en": "Decide whether the following statement is true or false: Số 2 bé hơn số 1 (2 < 1)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 2 bé hơn số 1 (2 < 1).",
+              "en": "Số 2 bé hơn số 1 (2 < 1)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 7.6:",
+            "en": "Decimal fraction for 7.6:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 7.6:",
+            "en": "Decimal fraction for 7.6:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "7.6 = 76/10.",
+            "en": "7.6 = 76/10."
+          },
+          "data": {
+            "prefix_text": "7.6 = ",
+            "suffix_text": "",
+            "options": [
+              "77/10",
+              "76/100",
+              "7/10",
+              "76/10"
+            ],
+            "slot_answer": "76/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 3.9:",
+            "en": "Decimal fraction for 3.9:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 3.9:",
+            "en": "Decimal fraction for 3.9:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "3.9 = 39/10.",
+            "en": "3.9 = 39/10."
+          },
+          "data": {
+            "prefix_text": "3.9 = ",
+            "suffix_text": "",
+            "options": [
+              "3/10",
+              "39/100",
+              "40/10",
+              "39/10"
+            ],
+            "slot_answer": "39/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 38 ... 60",
+            "en": "Choose the right sign: 38 ... 60"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 38 và 60",
+            "en": "Choose the sign for 38 and 60"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 38 < 60 nên chọn dấu <.",
+            "en": "Since 38 < 60, choose <."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 21 ... 40",
+            "en": "Choose the right sign: 21 ... 40"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 21 và 40",
+            "en": "Choose the sign for 21 and 40"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 21 < 40 nên chọn dấu <.",
+            "en": "Since 21 < 40, choose <."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t7_2",
+      "title": {
+        "vi": "So sánh hai số thập phân",
+        "en": "Comparing Two Decimals"
+      },
+      "description": {
+        "vi": "So sánh phần nguyên trước. Nếu phần nguyên bằng nhau, so sánh từng hàng phần mười, phần trăm, phần nghìn...",
+        "en": "Compare integer parts first; if equal, compare tenths, hundredths, thousandths"
+      },
+      "icon": "🔍",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t7_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "So sánh 8,4 và 8,39:",
+            "en": "Compare 8.4 and 8.39:"
+          },
+          "tts_prompt": {
+            "vi": "So sánh 8,4 và 8,39:",
+            "en": "Compare 8.4 and 8.39:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "8,4 > 8,39",
+              "8,4 < 8,39",
+              "8,4 = 8,39"
+            ],
+            "answer": "8,4 > 8,39"
+          },
+          "hint": {
+            "vi": "Phần nguyên bằng nhau (8). Hàng phần mười: 4 > 3 nên 8,4 > 8,39.",
+            "en": "Tenths digit: 4 > 3 -> 8.4 > 8.39."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 8,4 > 8,39. Phần nguyên bằng nhau (8). Hàng phần mười: 4 > 3 nên 8,4 > 8,39.",
+            "en": "Correct answer is 8,4 > 8,39. Tenths digit: 4 > 3 -> 8.4 > 8.39."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu thích hợp: 12,35 ... 12,350",
+            "en": "Fill sign: 12.35 ... 12.350"
+          },
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 12,35 ... 12,350",
+            "en": "Fill sign: 12.35 ... 12.350"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "=",
+              ">",
+              "<"
+            ],
+            "answer": "="
+          },
+          "hint": {
+            "vi": "12,35 = 12,350 (hai số bằng nhau).",
+            "en": "12.35 = 12.350."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là =. 12,35 = 12,350 (hai số bằng nhau).",
+            "en": "Correct answer is =. 12.35 = 12.350."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Trong hai số thập phân có phần nguyên khác nhau, số thập phân nào có phần nguyên lớn hơn thì số đó lớn hơn.",
+            "en": "Decide whether the following statement is true or false: Trong hai số thập phân có phần nguyên khác nhau, số thập phân nào có phần nguyên lớn hơn thì số đó lớn hơn."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Trong hai số thập phân có phần nguyên khác nhau, số thập phân nào có phần nguyên lớn hơn thì số đó lớn hơn.",
+              "en": "Trong hai số thập phân có phần nguyên khác nhau, số thập phân nào có phần nguyên lớn hơn thì số đó lớn hơn."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_5",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 20 ... 13",
+            "en": "Choose the right sign: 20 ... 13"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 20 và 13",
+            "en": "Choose the sign for 20 and 13"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 20 > 13 nên chọn dấu >.",
+            "en": "Since 20 > 13, choose >."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": ">"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 10 ... 41",
+            "en": "Choose the right sign: 10 ... 41"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 10 và 41",
+            "en": "Choose the sign for 10 and 41"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 10 < 41 nên chọn dấu <.",
+            "en": "Since 10 < 41, choose <."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 84 ... 63",
+            "en": "Choose the right sign: 84 ... 63"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 84 và 63",
+            "en": "Choose the sign for 84 and 63"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 84 > 63 nên chọn dấu >.",
+            "en": "Since 84 > 63, choose >."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": ">"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 25 ... 77",
+            "en": "Choose the right sign: 25 ... 77"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 25 và 77",
+            "en": "Choose the sign for 25 and 77"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 25 < 77 nên chọn dấu <.",
+            "en": "Since 25 < 77, choose <."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 36 ... 56",
+            "en": "Choose the right sign: 36 ... 56"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 36 và 56",
+            "en": "Choose the sign for 36 and 56"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 36 < 56 nên chọn dấu <.",
+            "en": "Since 36 < 56, choose <."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 31 ... 18",
+            "en": "Choose the right sign: 31 ... 18"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 31 và 18",
+            "en": "Choose the sign for 31 and 18"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 31 > 18 nên chọn dấu >.",
+            "en": "Since 31 > 18, choose >."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": ">"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t7_3",
+      "title": {
+        "vi": "Sắp xếp thứ tự các số thập phân",
+        "en": "Ordering Decimals"
+      },
+      "description": {
+        "vi": "Sắp xếp dãy số thập phân từ bé đến lớn hoặc từ lớn đến bé",
+        "en": "Sorting list of decimals in ascending or descending order"
+      },
+      "icon": "📊",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t7_3_1",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp theo thứ tự từ bé đến lớn: 4,23; 4,5; 4,18; 4,3",
+            "en": "Sort ascending: 4.23; 4.5; 4.18; 4.3"
+          },
+          "tts_prompt": {
+            "vi": "Sắp xếp theo thứ tự từ bé đến lớn: 4,23; 4,5; 4,18; 4,3",
+            "en": "Sort ascending: 4.23; 4.5; 4.18; 4.3"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "items": [
+              "4,18",
+              "4,23",
+              "4,3",
+              "4,5"
+            ],
+            "correct_order": [
+              "4,18",
+              "4,23",
+              "4,3",
+              "4,5"
+            ]
+          },
+          "hint": {
+            "vi": "4,18 < 4,23 < 4,30 < 4,50.",
+            "en": "Order: 4.18, 4.23, 4.3, 4.5."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 4,18 < 4,23 < 4,3 < 4,5. 4,18 < 4,23 < 4,30 < 4,50.",
+            "en": "Correct sequence: 4,18 < 4,23 < 4,3 < 4,5. Order: 4.18, 4.23, 4.3, 4.5."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_3_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm số lớn nhất trong các số: 9,08; 9,1; 9,099; 9,078",
+            "en": "Find the largest number among: 9.08; 9.1; 9.099; 9.078"
+          },
+          "tts_prompt": {
+            "vi": "Tìm số lớn nhất trong các số: 9,08; 9,1; 9,099; 9,078",
+            "en": "Find the largest number among: 9.08; 9.1; 9.099; 9.078"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "9,1",
+              "9,099",
+              "9,08"
+            ],
+            "answer": "9,1"
+          },
+          "hint": {
+            "vi": "9,1 = 9,100 có hàng phần mười là 1 lớn nhất.",
+            "en": "9.1 is largest."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 9,1. 9,1 = 9,100 có hàng phần mười là 1 lớn nhất.",
+            "en": "Correct answer is 9,1. 9.1 is largest."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_3_3",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tìm số tự nhiên x biết: 3,8 < x < 4,9. Giá trị của x là:",
+            "en": "Find natural number x where 3.8 < x < 4.9. x is:"
+          },
+          "tts_prompt": {
+            "vi": "Tìm số tự nhiên x biết: 3,8 < x < 4,9. Giá trị của x là:",
+            "en": "Find natural number x where 3.8 < x < 4.9. x is:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 4,
+            "unit": ""
+          },
+          "hint": {
+            "vi": "Số tự nhiên duy nhất nằm giữa 3,8 và 4,9 là 4.",
+            "en": "x = 4."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 4 . Số tự nhiên duy nhất nằm giữa 3,8 và 4,9 là 4.",
+            "en": "The exact result is 4 . x = 4."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_3_4",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 21, 84, 89, 92",
+            "en": "Correct order: 21, 84, 89, 92"
+          },
+          "data": {
+            "items": [
+              "84",
+              "92",
+              "21",
+              "89"
+            ],
+            "correct_order": [
+              "21",
+              "84",
+              "89",
+              "92"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_3_7",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 91, 68, 47, 11",
+            "en": "Correct order: 91, 68, 47, 11"
+          },
+          "data": {
+            "items": [
+              "11",
+              "47",
+              "68",
+              "91"
+            ],
+            "correct_order": [
+              "91",
+              "68",
+              "47",
+              "11"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_3_10",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 22, 43, 73, 99",
+            "en": "Correct order: 22, 43, 73, 99"
+          },
+          "data": {
+            "items": [
+              "73",
+              "43",
+              "99",
+              "22"
+            ],
+            "correct_order": [
+              "22",
+              "43",
+              "73",
+              "99"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t7_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1140 @@
+{
+  "id": "e3_stage_13",
+  "stage_number": 13,
+  "title": {
+    "vi": "Week 13: School Supplies Collection",
+    "en": "Week 13: School Supplies Collection"
+  },
+  "subtitle": {
+    "vi": "Demonstratives: These are my rulers / Those are my pencils",
+    "en": "Demonstratives: These are my rulers / Those are my pencils"
+  },
+  "icon": "📏",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.602,
+  "required_stars": 36,
+  "theme_color": "0xFFBE185D",
+  "topics": [
+    {
+      "id": "e3_s13_1",
+      "title": {
+        "vi": "These Are My Colored Pencils",
+        "en": "These Are My Colored Pencils"
+      },
+      "description": {
+        "vi": "These are my pencils / Those are my notebooks",
+        "en": "These are my pencils / Those are my notebooks"
+      },
+      "icon": "✏️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s13_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the set of 12 rainbow coloring pencils neatly lined up. What are they?",
+            "en": "Look at the set of 12 rainbow coloring pencils neatly lined up. What are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the set of 12 rainbow coloring pencils neatly lined up. What are they?",
+            "en": "Look at the set of 12 rainbow coloring pencils neatly lined up. What are they?"
+          },
+          "hint": {
+            "vi": "Pencils with pigments used for coloring drawings.",
+            "en": "Pencils with pigments used for coloring drawings."
+          },
+          "explanation": {
+            "vi": "They are colored pencils.",
+            "en": "They are colored pencils."
+          },
+          "data": {
+            "options": [
+              "colored pencils",
+              "chopsticks",
+              "wooden rulers",
+              "glue sticks"
+            ],
+            "correct_answer": "colored pencils"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u8_colored_pencils.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s13_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'these'?",
+            "en": "What is the first letter of the word 'these'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'these'?",
+            "en": "What is the first letter of the word 'these'?"
+          },
+          "hint": {
+            "vi": "The word 'these' starts with the letter T.",
+            "en": "The word 'these' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'these' begins with the letter 'T'.",
+            "en": "Correct! 'these' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "these",
+                  "en": "these"
+                },
+                "right": {
+                  "vi": "Nghĩa của these",
+                  "en": "Nghĩa của these"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "those",
+                  "en": "those"
+                },
+                "right": {
+                  "vi": "Nghĩa của those",
+                  "en": "Nghĩa của those"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "pencils",
+                  "en": "pencils"
+                },
+                "right": {
+                  "vi": "Nghĩa của pencils",
+                  "en": "Nghĩa của pencils"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? These are my bright colored pencils.",
+            "en": "Is this English sentence correct for Grade 3? These are my bright colored pencils."
+          },
+          "hint": {
+            "vi": "Remember the pattern: These are my bright colored pencils.",
+            "en": "Remember the pattern: These are my bright colored pencils."
+          },
+          "explanation": {
+            "vi": "Yes! 'These are my bright colored pencils.' is a correct English sentence.",
+            "en": "Yes! 'These are my bright colored pencils.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "These are my bright colored pencils.",
+              "en": "These are my bright colored pencils."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: These are my bright colored ....",
+            "en": "Drag the correct word to complete the sentence: These are my bright colored ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'pencils'.",
+            "en": "Choose the correct word: 'pencils'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'These are my bright colored pencils.'.",
+            "en": "The complete sentence is: 'These are my bright colored pencils.'."
+          },
+          "data": {
+            "prefix_text": "These are my bright colored ",
+            "suffix_text": ".",
+            "options": [
+              "pencils",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "pencils"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'these':",
+            "en": "Spell the English word 'these':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'these':",
+            "en": "Spell the English word 'these':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'these'.",
+            "en": "Tap the letters in order to spell 'these'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'these' correctly.",
+            "en": "Well done! You spelled 'these' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "s",
+              "e",
+              "h",
+              "t"
+            ],
+            "target_word": "these",
+            "target_sequence": [
+              "t",
+              "h",
+              "e",
+              "s",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Đây là những chiếc bút chì màu rực rỡ của tôi.' in English?",
+            "en": "How do you say 'Đây là những chiếc bút chì màu rực rỡ của tôi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Đây là những chiếc bút chì màu rực rỡ của tôi.' in English?",
+            "en": "How do you say 'Đây là những chiếc bút chì màu rực rỡ của tôi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Đây là những chiếc bút chì màu rực rỡ của tôi.",
+            "en": "Choose the English sentence that means: Đây là những chiếc bút chì màu rực rỡ của tôi."
+          },
+          "explanation": {
+            "vi": "'These are my bright colored pencils.' means 'Đây là những chiếc bút chì màu rực rỡ của tôi.'.",
+            "en": "'These are my bright colored pencils.' means 'Đây là những chiếc bút chì màu rực rỡ của tôi.'."
+          },
+          "data": {
+            "options": [
+              "These are my bright colored pencils.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "These are my bright colored pencils."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'These Are My Colored Pencils'?",
+            "en": "Which of the following is a word from Unit 'These Are My Colored Pencils'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'These Are My Colored Pencils'?",
+            "en": "Which of the following is a word from Unit 'These Are My Colored Pencils'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: These Are My Colored Pencils.",
+            "en": "Remember the words in topic: These Are My Colored Pencils."
+          },
+          "explanation": {
+            "vi": "'these' is a key vocabulary word in this topic.",
+            "en": "'these' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "these",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "these"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'those' start with the sound /t/?",
+            "en": "Does the word 'those' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'those' start with the sound /t/? The word 'those' starts with letter 'T'.",
+            "en": "Does the word 'those' start with the sound /t/? The word 'those' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'those'.",
+            "en": "Listen to the first sound of 'those'."
+          },
+          "explanation": {
+            "vi": "Yes! 'those' starts with the sound /t/.",
+            "en": "Yes! 'those' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'those' starts with letter 'T'.",
+              "en": "The word 'those' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'these'?",
+            "en": "How many letters are there in the word 'these'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'these'?",
+            "en": "How many letters are there in the word 'these'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'these': 1, 2, 3...",
+            "en": "Count the letters in 'these': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'these' has exactly 5 letters.",
+            "en": "The word 'these' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'these':",
+            "en": "Choose the correct phrase with 'these':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'these':",
+            "en": "Choose the correct phrase with 'these':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a these'.",
+            "en": "Correct! We say 'a these'."
+          },
+          "data": {
+            "options": [
+              "a these",
+              "an these",
+              "two these",
+              "many these"
+            ],
+            "correct_answer": "a these"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'these'.",
+            "en": "Choose the noun: 'these'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our these. It is very nice!'",
+            "en": "We say: 'Look! This is our these. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "these",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "these"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'These Are My Colored Pencils'?",
+            "en": "Which English sentence best describes the topic 'These Are My Colored Pencils'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'These Are My Colored Pencils'?",
+            "en": "Which English sentence best describes the topic 'These Are My Colored Pencils'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'These Are My Colored Pencils'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'These Are My Colored Pencils'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: these, those!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: these, those!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s13_2",
+      "title": {
+        "vi": "Zipping the Pencil Case",
+        "en": "Zipping the Pencil Case"
+      },
+      "description": {
+        "vi": "Organizing sharpeners, rubbers, and pens inside",
+        "en": "Organizing sharpeners, rubbers, and pens inside"
+      },
+      "icon": "👝",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s13_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the pouch holding pens, erasers, and sharpeners. What is it?",
+            "en": "Look at the pouch holding pens, erasers, and sharpeners. What is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the pouch holding pens, erasers, and sharpeners. What is it?",
+            "en": "Look at the pouch holding pens, erasers, and sharpeners. What is it?"
+          },
+          "hint": {
+            "vi": "A container used to store pencils and pens.",
+            "en": "A container used to store pencils and pens."
+          },
+          "explanation": {
+            "vi": "It's a neat pencil case.",
+            "en": "It's a neat pencil case."
+          },
+          "data": {
+            "options": [
+              "a neat pencil case",
+              "a lunchbox",
+              "a coin purse",
+              "a medicine box"
+            ],
+            "correct_answer": "a neat pencil case"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u8_pencil_case.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s13_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'pencil case'?",
+            "en": "What is the first letter of the word 'pencil case'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'pencil case'?",
+            "en": "What is the first letter of the word 'pencil case'?"
+          },
+          "hint": {
+            "vi": "The word 'pencil case' starts with the letter P.",
+            "en": "The word 'pencil case' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'pencil case' begins with the letter 'P'.",
+            "en": "Correct! 'pencil case' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "pencil case",
+                  "en": "pencil case"
+                },
+                "right": {
+                  "vi": "Nghĩa của pencil case",
+                  "en": "Nghĩa của pencil case"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "sharpener",
+                  "en": "sharpener"
+                },
+                "right": {
+                  "vi": "Nghĩa của sharpener",
+                  "en": "Nghĩa của sharpener"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "neat",
+                  "en": "neat"
+                },
+                "right": {
+                  "vi": "Nghĩa của neat",
+                  "en": "Nghĩa của neat"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Keep your stationery neat inside the pencil case.",
+            "en": "Is this English sentence correct for Grade 3? Keep your stationery neat inside the pencil case."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Keep your stationery neat inside the pencil case.",
+            "en": "Remember the pattern: Keep your stationery neat inside the pencil case."
+          },
+          "explanation": {
+            "vi": "Yes! 'Keep your stationery neat inside the pencil case.' is a correct English sentence.",
+            "en": "Yes! 'Keep your stationery neat inside the pencil case.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Keep your stationery neat inside the pencil case.",
+              "en": "Keep your stationery neat inside the pencil case."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Keep your stationery neat inside the pencil ....",
+            "en": "Drag the correct word to complete the sentence: Keep your stationery neat inside the pencil ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'case'.",
+            "en": "Choose the correct word: 'case'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Keep your stationery neat inside the pencil case.'.",
+            "en": "The complete sentence is: 'Keep your stationery neat inside the pencil case.'."
+          },
+          "data": {
+            "prefix_text": "Keep your stationery neat inside the pencil ",
+            "suffix_text": ".",
+            "options": [
+              "case",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "case"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'pencil case':",
+            "en": "Spell the English word 'pencil case':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'pencil case':",
+            "en": "Spell the English word 'pencil case':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'pencil case'.",
+            "en": "Tap the letters in order to spell 'pencil case'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'pencil case' correctly.",
+            "en": "Well done! You spelled 'pencil case' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "s",
+              "a",
+              "c",
+              " ",
+              "l",
+              "i",
+              "c",
+              "n",
+              "e",
+              "p"
+            ],
+            "target_word": "pencil case",
+            "target_sequence": [
+              "p",
+              "e",
+              "n",
+              "c",
+              "i",
+              "l",
+              " ",
+              "c",
+              "a",
+              "s",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Giữ đồ dùng học tập gọn gàng trong hộp bút.' in English?",
+            "en": "How do you say 'Giữ đồ dùng học tập gọn gàng trong hộp bút.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Giữ đồ dùng học tập gọn gàng trong hộp bút.' in English?",
+            "en": "How do you say 'Giữ đồ dùng học tập gọn gàng trong hộp bút.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Giữ đồ dùng học tập gọn gàng trong hộp bút.",
+            "en": "Choose the English sentence that means: Giữ đồ dùng học tập gọn gàng trong hộp bút."
+          },
+          "explanation": {
+            "vi": "'Keep your stationery neat inside the pencil case.' means 'Giữ đồ dùng học tập gọn gàng trong hộp bút.'.",
+            "en": "'Keep your stationery neat inside the pencil case.' means 'Giữ đồ dùng học tập gọn gàng trong hộp bút.'."
+          },
+          "data": {
+            "options": [
+              "Keep your stationery neat inside the pencil case.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Keep your stationery neat inside the pencil case."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Zipping the Pencil Case'?",
+            "en": "Which of the following is a word from Unit 'Zipping the Pencil Case'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Zipping the Pencil Case'?",
+            "en": "Which of the following is a word from Unit 'Zipping the Pencil Case'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Zipping the Pencil Case.",
+            "en": "Remember the words in topic: Zipping the Pencil Case."
+          },
+          "explanation": {
+            "vi": "'pencil case' is a key vocabulary word in this topic.",
+            "en": "'pencil case' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "pencil case",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "pencil case"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'sharpener' start with the sound /p/?",
+            "en": "Does the word 'sharpener' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'sharpener' start with the sound /p/? The word 'sharpener' starts with letter 'P'.",
+            "en": "Does the word 'sharpener' start with the sound /p/? The word 'sharpener' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'sharpener'.",
+            "en": "Listen to the first sound of 'sharpener'."
+          },
+          "explanation": {
+            "vi": "Yes! 'sharpener' starts with the sound /p/.",
+            "en": "Yes! 'sharpener' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'sharpener' starts with letter 'P'.",
+              "en": "The word 'sharpener' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'pencil case'?",
+            "en": "How many letters are there in the word 'pencil case'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'pencil case'?",
+            "en": "How many letters are there in the word 'pencil case'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'pencil case': 1, 2, 3...",
+            "en": "Count the letters in 'pencil case': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'pencil case' has exactly 11 letters.",
+            "en": "The word 'pencil case' has exactly 11 letters."
+          },
+          "data": {
+            "correct_number": "11",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'pencil case':",
+            "en": "Choose the correct phrase with 'pencil case':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'pencil case':",
+            "en": "Choose the correct phrase with 'pencil case':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a pencil case'.",
+            "en": "Correct! We say 'a pencil case'."
+          },
+          "data": {
+            "options": [
+              "a pencil case",
+              "an pencil case",
+              "two pencil case",
+              "many pencil case"
+            ],
+            "correct_answer": "a pencil case"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'pencil case'.",
+            "en": "Choose the noun: 'pencil case'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our pencil case. It is very nice!'",
+            "en": "We say: 'Look! This is our pencil case. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "pencil case",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "pencil case"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s13_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Zipping the Pencil Case'?",
+            "en": "Which English sentence best describes the topic 'Zipping the Pencil Case'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Zipping the Pencil Case'?",
+            "en": "Which English sentence best describes the topic 'Zipping the Pencil Case'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Zipping the Pencil Case'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Zipping the Pencil Case'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: pencil case, sharpener!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: pencil case, sharpener!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

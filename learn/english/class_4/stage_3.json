@@ -1,0 +1,1132 @@
+{
+  "id": "e4_stage_3",
+  "stage_number": 3,
+  "title": {
+    "vi": "Week 3: Unit 3 - My Week",
+    "en": "Week 3: Unit 3 - My Week"
+  },
+  "subtitle": {
+    "vi": "Days of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+    "en": "Days of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+  },
+  "icon": "📅",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.892,
+  "required_stars": 6,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "e4_s3_1",
+      "title": {
+        "vi": "Unit 3: What Day is It Today?",
+        "en": "Unit 3: What Day is It Today?"
+      },
+      "description": {
+        "vi": "What day is it today? - It's Monday / Tuesday / Wednesday",
+        "en": "What day is it today? - It's Monday / Tuesday / Wednesday"
+      },
+      "icon": "📆",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s3_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the calendar page showing the days of the week. Which day is in the middle of the school week?",
+            "en": "Look at the calendar page showing the days of the week. Which day is in the middle of the school week?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the calendar page showing the days of the week. Which day is in the middle of the school week?",
+            "en": "Look at the calendar page showing the days of the week. Which day is in the middle of the school week?"
+          },
+          "hint": {
+            "vi": "The day between Tuesday and Thursday.",
+            "en": "The day between Tuesday and Thursday."
+          },
+          "explanation": {
+            "vi": "It is Wednesday.",
+            "en": "It is Wednesday."
+          },
+          "data": {
+            "options": [
+              "Wednesday",
+              "Sunday",
+              "Saturday",
+              "Midnight"
+            ],
+            "correct_answer": "Wednesday"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u3_what_day.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s3_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'Monday'?",
+            "en": "What is the first letter of the word 'Monday'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'Monday'?",
+            "en": "What is the first letter of the word 'Monday'?"
+          },
+          "hint": {
+            "vi": "The word 'Monday' starts with the letter M.",
+            "en": "The word 'Monday' starts with the letter M."
+          },
+          "explanation": {
+            "vi": "Correct! 'Monday' begins with the letter 'M'.",
+            "en": "Correct! 'Monday' begins with the letter 'M'."
+          },
+          "data": {
+            "options": [
+              "Letter M",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter M"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Monday",
+                  "en": "Monday"
+                },
+                "right": {
+                  "vi": "Nghĩa của Monday",
+                  "en": "Nghĩa của Monday"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Tuesday",
+                  "en": "Tuesday"
+                },
+                "right": {
+                  "vi": "Nghĩa của Tuesday",
+                  "en": "Nghĩa của Tuesday"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Wednesday",
+                  "en": "Wednesday"
+                },
+                "right": {
+                  "vi": "Nghĩa của Wednesday",
+                  "en": "Nghĩa của Wednesday"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? What day is it today? - It's Wednesday.",
+            "en": "Is this English sentence correct for Grade 4? What day is it today? - It's Wednesday."
+          },
+          "hint": {
+            "vi": "Remember the pattern: What day is it today? - It's Wednesday.",
+            "en": "Remember the pattern: What day is it today? - It's Wednesday."
+          },
+          "explanation": {
+            "vi": "Yes! 'What day is it today? - It's Wednesday.' is a correct English sentence.",
+            "en": "Yes! 'What day is it today? - It's Wednesday.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "What day is it today? - It's Wednesday.",
+              "en": "What day is it today? - It's Wednesday."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: What day is it today? - It's ....",
+            "en": "Drag the correct word to complete the sentence: What day is it today? - It's ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Wednesday'.",
+            "en": "Choose the correct word: 'Wednesday'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'What day is it today? - It's Wednesday.'.",
+            "en": "The complete sentence is: 'What day is it today? - It's Wednesday.'."
+          },
+          "data": {
+            "prefix_text": "What day is it today? - It's ",
+            "suffix_text": ".",
+            "options": [
+              "Wednesday",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Wednesday"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'monday':",
+            "en": "Spell the English word 'monday':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'monday':",
+            "en": "Spell the English word 'monday':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'monday'.",
+            "en": "Tap the letters in order to spell 'monday'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'monday' correctly.",
+            "en": "Well done! You spelled 'monday' correctly."
+          },
+          "data": {
+            "letters": [
+              "y",
+              "a",
+              "d",
+              "n",
+              "o",
+              "m"
+            ],
+            "target_word": "monday",
+            "target_sequence": [
+              "m",
+              "o",
+              "n",
+              "d",
+              "a",
+              "y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Hôm nay là thứ mấy? - Hôm nay là Thứ Tư.' in English?",
+            "en": "How do you say 'Hôm nay là thứ mấy? - Hôm nay là Thứ Tư.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Hôm nay là thứ mấy? - Hôm nay là Thứ Tư.' in English?",
+            "en": "How do you say 'Hôm nay là thứ mấy? - Hôm nay là Thứ Tư.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Hôm nay là thứ mấy? - Hôm nay là Thứ Tư.",
+            "en": "Choose the English sentence that means: Hôm nay là thứ mấy? - Hôm nay là Thứ Tư."
+          },
+          "explanation": {
+            "vi": "'What day is it today? - It's Wednesday.' means 'Hôm nay là thứ mấy? - Hôm nay là Thứ Tư.'.",
+            "en": "'What day is it today? - It's Wednesday.' means 'Hôm nay là thứ mấy? - Hôm nay là Thứ Tư.'."
+          },
+          "data": {
+            "options": [
+              "What day is it today? - It's Wednesday.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "What day is it today? - It's Wednesday."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 3: What Day is It Today?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 3: What Day is It Today?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 3: What Day is It Today?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 3: What Day is It Today?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 3: What Day is It Today?.",
+            "en": "Remember the words in topic: Unit 3: What Day is It Today?."
+          },
+          "explanation": {
+            "vi": "'Monday' is a key vocabulary word in this topic.",
+            "en": "'Monday' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "Monday",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "Monday"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Tuesday' start with the sound /m/?",
+            "en": "Does the word 'Tuesday' start with the sound /m/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Tuesday' start with the sound /m/? The word 'Tuesday' starts with letter 'M'.",
+            "en": "Does the word 'Tuesday' start with the sound /m/? The word 'Tuesday' starts with letter 'M'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Tuesday'.",
+            "en": "Listen to the first sound of 'Tuesday'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Tuesday' starts with the sound /m/.",
+            "en": "Yes! 'Tuesday' starts with the sound /m/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Tuesday' starts with letter 'M'.",
+              "en": "The word 'Tuesday' starts with letter 'M'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'monday'?",
+            "en": "How many letters are there in the word 'monday'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'monday'?",
+            "en": "How many letters are there in the word 'monday'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'monday': 1, 2, 3...",
+            "en": "Count the letters in 'monday': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'monday' has exactly 6 letters.",
+            "en": "The word 'monday' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'monday':",
+            "en": "Choose the correct phrase with 'monday':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'monday':",
+            "en": "Choose the correct phrase with 'monday':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a monday'.",
+            "en": "Correct! We say 'a monday'."
+          },
+          "data": {
+            "options": [
+              "a monday",
+              "an monday",
+              "two monday",
+              "many monday"
+            ],
+            "correct_answer": "a monday"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'Monday'.",
+            "en": "Choose the word: 'Monday'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is Monday. It is wonderful!'",
+            "en": "We say: 'Look! This is Monday. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "Monday",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "Monday"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 3: What Day is It Today?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 3: What Day is It Today?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 3: What Day is It Today?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 3: What Day is It Today?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 3: What Day is It Today?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 3: What Day is It Today?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: Monday, Tuesday!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: Monday, Tuesday!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s3_2",
+      "title": {
+        "vi": "Unit 3: Weekend Activities",
+        "en": "Unit 3: Weekend Activities"
+      },
+      "description": {
+        "vi": "What do you do at weekends? - I go swimming / I visit my grandparents",
+        "en": "What do you do at weekends? - I go swimming / I visit my grandparents"
+      },
+      "icon": "🏊",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s3_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the children riding bicycles and visiting their grandparents at the weekend. When do they visit?",
+            "en": "Look at the children riding bicycles and visiting their grandparents at the weekend. When do they visit?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the children riding bicycles and visiting their grandparents at the weekend. When do they visit?",
+            "en": "Look at the children riding bicycles and visiting their grandparents at the weekend. When do they visit?"
+          },
+          "hint": {
+            "vi": "Weekend leisure time.",
+            "en": "Weekend leisure time."
+          },
+          "explanation": {
+            "vi": "They visit their grandparents at the weekend.",
+            "en": "They visit their grandparents at the weekend."
+          },
+          "data": {
+            "options": [
+              "at the weekend on Sundays",
+              "at midnight on Monday",
+              "during exam week",
+              "on a rainy Tuesday night"
+            ],
+            "correct_answer": "at the weekend on Sundays"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u3_weekend_fun.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s3_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'Friday'?",
+            "en": "What is the first letter of the word 'Friday'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'Friday'?",
+            "en": "What is the first letter of the word 'Friday'?"
+          },
+          "hint": {
+            "vi": "The word 'Friday' starts with the letter W.",
+            "en": "The word 'Friday' starts with the letter W."
+          },
+          "explanation": {
+            "vi": "Correct! 'Friday' begins with the letter 'W'.",
+            "en": "Correct! 'Friday' begins with the letter 'W'."
+          },
+          "data": {
+            "options": [
+              "Letter W",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter W"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Friday",
+                  "en": "Friday"
+                },
+                "right": {
+                  "vi": "Nghĩa của Friday",
+                  "en": "Nghĩa của Friday"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Saturday",
+                  "en": "Saturday"
+                },
+                "right": {
+                  "vi": "Nghĩa của Saturday",
+                  "en": "Nghĩa của Saturday"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Sunday",
+                  "en": "Sunday"
+                },
+                "right": {
+                  "vi": "Nghĩa của Sunday",
+                  "en": "Nghĩa của Sunday"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? On Sundays, I visit my grandparents in the countryside.",
+            "en": "Is this English sentence correct for Grade 4? On Sundays, I visit my grandparents in the countryside."
+          },
+          "hint": {
+            "vi": "Remember the pattern: On Sundays, I visit my grandparents in the countryside.",
+            "en": "Remember the pattern: On Sundays, I visit my grandparents in the countryside."
+          },
+          "explanation": {
+            "vi": "Yes! 'On Sundays, I visit my grandparents in the countryside.' is a correct English sentence.",
+            "en": "Yes! 'On Sundays, I visit my grandparents in the countryside.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "On Sundays, I visit my grandparents in the countryside.",
+              "en": "On Sundays, I visit my grandparents in the countryside."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: On Sundays, I visit my grandparents in the ....",
+            "en": "Drag the correct word to complete the sentence: On Sundays, I visit my grandparents in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'countryside'.",
+            "en": "Choose the correct word: 'countryside'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'On Sundays, I visit my grandparents in the countryside.'.",
+            "en": "The complete sentence is: 'On Sundays, I visit my grandparents in the countryside.'."
+          },
+          "data": {
+            "prefix_text": "On Sundays, I visit my grandparents in the ",
+            "suffix_text": ".",
+            "options": [
+              "countryside",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "countryside"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'friday':",
+            "en": "Spell the English word 'friday':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'friday':",
+            "en": "Spell the English word 'friday':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'friday'.",
+            "en": "Tap the letters in order to spell 'friday'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'friday' correctly.",
+            "en": "Well done! You spelled 'friday' correctly."
+          },
+          "data": {
+            "letters": [
+              "y",
+              "a",
+              "d",
+              "i",
+              "r",
+              "f"
+            ],
+            "target_word": "friday",
+            "target_sequence": [
+              "f",
+              "r",
+              "i",
+              "d",
+              "a",
+              "y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Vào các ngày Chủ Nhật, tôi về thăm ông bà ở quê.' in English?",
+            "en": "How do you say 'Vào các ngày Chủ Nhật, tôi về thăm ông bà ở quê.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Vào các ngày Chủ Nhật, tôi về thăm ông bà ở quê.' in English?",
+            "en": "How do you say 'Vào các ngày Chủ Nhật, tôi về thăm ông bà ở quê.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Vào các ngày Chủ Nhật, tôi về thăm ông bà ở quê.",
+            "en": "Choose the English sentence that means: Vào các ngày Chủ Nhật, tôi về thăm ông bà ở quê."
+          },
+          "explanation": {
+            "vi": "'On Sundays, I visit my grandparents in the countryside.' means 'Vào các ngày Chủ Nhật, tôi về thăm ông bà ở quê.'.",
+            "en": "'On Sundays, I visit my grandparents in the countryside.' means 'Vào các ngày Chủ Nhật, tôi về thăm ông bà ở quê.'."
+          },
+          "data": {
+            "options": [
+              "On Sundays, I visit my grandparents in the countryside.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "On Sundays, I visit my grandparents in the countryside."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 3: Weekend Activities'?",
+            "en": "Which of the following is a key word from Unit 'Unit 3: Weekend Activities'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 3: Weekend Activities'?",
+            "en": "Which of the following is a key word from Unit 'Unit 3: Weekend Activities'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 3: Weekend Activities.",
+            "en": "Remember the words in topic: Unit 3: Weekend Activities."
+          },
+          "explanation": {
+            "vi": "'Friday' is a key vocabulary word in this topic.",
+            "en": "'Friday' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "Friday",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "Friday"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Saturday' start with the sound /w/?",
+            "en": "Does the word 'Saturday' start with the sound /w/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Saturday' start with the sound /w/? The word 'Saturday' starts with letter 'W'.",
+            "en": "Does the word 'Saturday' start with the sound /w/? The word 'Saturday' starts with letter 'W'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Saturday'.",
+            "en": "Listen to the first sound of 'Saturday'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Saturday' starts with the sound /w/.",
+            "en": "Yes! 'Saturday' starts with the sound /w/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Saturday' starts with letter 'W'.",
+              "en": "The word 'Saturday' starts with letter 'W'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'friday'?",
+            "en": "How many letters are there in the word 'friday'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'friday'?",
+            "en": "How many letters are there in the word 'friday'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'friday': 1, 2, 3...",
+            "en": "Count the letters in 'friday': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'friday' has exactly 6 letters.",
+            "en": "The word 'friday' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'friday':",
+            "en": "Choose the correct phrase with 'friday':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'friday':",
+            "en": "Choose the correct phrase with 'friday':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a friday'.",
+            "en": "Correct! We say 'a friday'."
+          },
+          "data": {
+            "options": [
+              "a friday",
+              "an friday",
+              "two friday",
+              "many friday"
+            ],
+            "correct_answer": "a friday"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'Friday'.",
+            "en": "Choose the word: 'Friday'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is Friday. It is wonderful!'",
+            "en": "We say: 'Look! This is Friday. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "Friday",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "Friday"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s3_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 3: Weekend Activities'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 3: Weekend Activities'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 3: Weekend Activities'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 3: Weekend Activities'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 3: Weekend Activities'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 3: Weekend Activities'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: Friday, Saturday!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: Friday, Saturday!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

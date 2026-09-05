@@ -1,0 +1,900 @@
+{
+  "id": "m3_stage_3",
+  "stage_number": 3,
+  "title": {
+    "vi": "Tuần 3: Bảng Nhân 3, Chia 3 & Nhân 4, Chia 4",
+    "en": "Week 3: 3 and 4 Times Tables"
+  },
+  "subtitle": {
+    "vi": "Bài 5 & 6 - Học thuộc bảng nhân chia 3 và 4",
+    "en": "Lesson 5 & 6 - Master 3 & 4 multiplication/division"
+  },
+  "icon": "📐",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.894,
+  "required_stars": 6,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "m3_t3_1",
+      "title": {
+        "vi": "Bảng nhân 3 và Bảng chia 3",
+        "en": "3 Times & Division Tables"
+      },
+      "description": {
+        "vi": "Học thuộc lòng bảng nhân 3 và chia 3",
+        "en": "Master 3 multiplication and division tables"
+      },
+      "icon": "☘️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t3_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 3 x 7 = ?",
+            "en": "Calculate: 3 x 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 3 x 7 = ?",
+            "en": "Calculate: 3 x 7 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "3 x 7 = 21.",
+            "en": "3 x 7 = 21."
+          },
+          "data": {
+            "correct_number": "21",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 24 : 3 = ?",
+            "en": "Calculate: 24 : 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 24 : 3 = ?",
+            "en": "Calculate: 24 : 3 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "24 : 3 = 8.",
+            "en": "24 : 3 = 8."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép nhân 3 với kết quả:",
+            "en": "Match 3x with products:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép nhân 3 với kết quả:",
+            "en": "Match 3x with products:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Bảng 3 thành thạo.",
+            "en": "Mastery of table 3."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "3 x 6",
+                  "en": "3 x 6"
+                },
+                "right": {
+                  "vi": "18",
+                  "en": "18"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "3 x 9",
+                  "en": "3 x 9"
+                },
+                "right": {
+                  "vi": "27",
+                  "en": "27"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "27 : 3",
+                  "en": "27 : 3"
+                },
+                "right": {
+                  "vi": "9",
+                  "en": "9"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 8465 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 8465 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 8465 có đúng 4 chữ số.",
+            "en": "8465 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 8465 là số có 4 chữ số.",
+              "en": "8465 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t3_2",
+      "title": {
+        "vi": "Bảng nhân 4 và Bảng chia 4",
+        "en": "4 Times & Division Tables"
+      },
+      "description": {
+        "vi": "Học thuộc lòng bảng nhân 4 và chia 4",
+        "en": "Master 4 multiplication and division tables"
+      },
+      "icon": "🍀",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t3_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 4 x 8 = ?",
+            "en": "Calculate: 4 x 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 4 x 8 = ?",
+            "en": "Calculate: 4 x 8 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "4 x 8 = 32.",
+            "en": "4 x 8 = 32."
+          },
+          "data": {
+            "correct_number": "32",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 36 : 4 = ?",
+            "en": "Calculate: 36 : 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 36 : 4 = ?",
+            "en": "Calculate: 36 : 4 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "36 : 4 = 9.",
+            "en": "36 : 4 = 9."
+          },
+          "data": {
+            "correct_number": "9",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một chiếc xe ô tô con có 4 bánh xe. Hỏi 7 chiếc ô tô như thế có bao nhiêu bánh xe?",
+            "en": "A car has 4 wheels. How many wheels do 7 cars have?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một chiếc xe ô tô con có 4 bánh xe. Hỏi 7 chiếc ô tô như thế có bao nhiêu bánh xe?",
+            "en": "A car has 4 wheels. How many wheels do 7 cars have?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "4 x 7 = 28 bánh xe.",
+            "en": "4 x 7 = 28 wheels."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "24 bánh",
+                "en": "24 bánh"
+              },
+              {
+                "vi": "28 bánh",
+                "en": "28 bánh"
+              },
+              {
+                "vi": "32 bánh",
+                "en": "32 bánh"
+              }
+            ],
+            "correct_answer": "28 bánh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_2_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Bảng nhân 4 và Bảng chia 4': Một chiếc xe ô tô con có 4 bánh xe. Hỏi 7 chiếc ô tô như thế có bao nhiêu bánh xe?",
+            "en": "Practice '4 Times & Division Tables': A car has 4 wheels. How many wheels do 7 cars have?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một chiếc xe ô tô con có 4 bánh xe. Hỏi 7 chiếc ô tô như thế có bao nhiêu bánh xe?",
+            "en": "A car has 4 wheels. How many wheels do 7 cars have?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "4 x 7 = 28 bánh xe.",
+            "en": "4 x 7 = 28 wheels."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "28 bánh",
+                "en": "28 bánh"
+              },
+              {
+                "vi": "24 bánh",
+                "en": "24 bánh"
+              },
+              {
+                "vi": "32 bánh",
+                "en": "32 bánh"
+              }
+            ],
+            "correct_answer": "28 bánh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t3_3",
+      "title": {
+        "vi": "Luyện tập tính nhẩm bảng 3 và bảng 4",
+        "en": "3 & 4 Times Tables Practice"
+      },
+      "description": {
+        "vi": "Tính nhanh và giải bài toán trồng cây, chia kẹo",
+        "en": "Fast mental math & planting word problems"
+      },
+      "icon": "⚡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t3_3_1",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp kết quả từ bé đến lớn: 3x5, 4x6, 3x9",
+            "en": "Sort products ascending: 3x5 (15), 4x6 (24), 3x9 (27)"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp kết quả từ bé đến lớn: 3x5, 4x6, 3x9",
+            "en": "Sort products ascending: 3x5 (15), 4x6 (24), 3x9 (27)"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct sequence."
+          },
+          "explanation": {
+            "vi": "Thứ tự: 15 < 24 < 27.",
+            "en": "Order: 15, 24, 27."
+          },
+          "data": {
+            "items": [
+              "15",
+              "24",
+              "27"
+            ],
+            "correct_order": [
+              "15",
+              "24",
+              "27"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép phép tính: 4 x 9 = 36",
+            "en": "Arrange tiles for: 4 x 9 = 36"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép phép tính: 4 x 9 = 36",
+            "en": "Arrange tiles for: 4 x 9 = 36"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "4 x 9 = 36.",
+            "en": "4 x 9 = 36."
+          },
+          "data": {
+            "target_word": "4 x 9 = 36",
+            "pool_tokens": [
+              "4",
+              "x",
+              "9",
+              "=",
+              "36"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_4",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 18, 21, 24, 32",
+            "en": "Correct order: 18, 21, 24, 32"
+          },
+          "data": {
+            "items": [
+              "32",
+              "21",
+              "18",
+              "24"
+            ],
+            "correct_order": [
+              "18",
+              "21",
+              "24",
+              "32"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 16, 17,  ... , 19",
+            "en": "Drag the correct answer into the slot:\nDãy số: 16, 17,  ... , 19"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 16, 17,  ... , 19",
+            "en": "Drag the correct answer: Dãy số: 16, 17,  ... , 19"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 16, 17,  18 , 19",
+            "en": "Dãy số: 16, 17,  18 , 19"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 16, 17, ",
+            "suffix_text": ", 19",
+            "options": [
+              "17",
+              "18",
+              "20"
+            ],
+            "slot_answer": "18"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'LUYỆN'",
+            "en": "Arrange the letters to spell the keyword: 'LUYỆN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa LUYỆN",
+            "en": "Arrange the letters to spell LUYỆN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: LUYỆN",
+            "en": "The keyword is: LUYỆN"
+          },
+          "data": {
+            "target_word": "LUYỆN",
+            "scrambled_letters": [
+              "Y",
+              "N",
+              "Ệ",
+              "L",
+              "U"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_7",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 33, 30, 24, 11",
+            "en": "Correct order: 33, 30, 24, 11"
+          },
+          "data": {
+            "items": [
+              "11",
+              "24",
+              "33",
+              "30"
+            ],
+            "correct_order": [
+              "33",
+              "30",
+              "24",
+              "11"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 8, 9,  ... , 11",
+            "en": "Drag the correct answer into the slot:\nDãy số: 8, 9,  ... , 11"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 8, 9,  ... , 11",
+            "en": "Drag the correct answer: Dãy số: 8, 9,  ... , 11"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 8, 9,  10 , 11",
+            "en": "Dãy số: 8, 9,  10 , 11"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 8, 9, ",
+            "suffix_text": ", 11",
+            "options": [
+              "10",
+              "12",
+              "9"
+            ],
+            "slot_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_10",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 6, 13, 17, 24",
+            "en": "Correct order: 6, 13, 17, 24"
+          },
+          "data": {
+            "items": [
+              "17",
+              "13",
+              "24",
+              "6"
+            ],
+            "correct_order": [
+              "6",
+              "13",
+              "17",
+              "24"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_11",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 9, 10,  ... , 12",
+            "en": "Drag the correct answer into the slot:\nDãy số: 9, 10,  ... , 12"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 9, 10,  ... , 12",
+            "en": "Drag the correct answer: Dãy số: 9, 10,  ... , 12"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 9, 10,  11 , 12",
+            "en": "Dãy số: 9, 10,  11 , 12"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 9, 10, ",
+            "suffix_text": ", 12",
+            "options": [
+              "13",
+              "11",
+              "10"
+            ],
+            "slot_answer": "11"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t3_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

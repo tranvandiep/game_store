@@ -1,0 +1,1132 @@
+{
+  "id": "v1_stage_29",
+  "stage_number": 29,
+  "title": {
+    "vi": "Tuần 29: Chủ Điểm Thiên Nhiên Kì Thú (Phần 2)",
+    "en": "Tuần 29: Chủ Điểm Thiên Nhiên Kì Thú (Phần 2)"
+  },
+  "subtitle": {
+    "vi": "Bài 4 & 5 - Cuộc thi tài năng rừng xanh, Cây liễu dẻo dai",
+    "en": "Bài 4 & 5 - Cuộc thi tài năng rừng xanh, Cây liễu dẻo dai"
+  },
+  "icon": "🌳",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.137,
+  "required_stars": 84,
+  "theme_color": "0xFFBE185D",
+  "topics": [
+    {
+      "id": "v1_t29_1",
+      "title": {
+        "vi": "Tập đọc: Cuộc thi tài năng rừng xanh",
+        "en": "Tập đọc: Cuộc thi tài năng rừng xanh"
+      },
+      "description": {
+        "vi": "Mỗi loài chim thú đều có một tài năng đặc biệt",
+        "en": "Mỗi loài chim thú đều có một tài năng đặc biệt"
+      },
+      "icon": "🦉",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t29_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong hội thi tài năng rừng xanh, loài chim nào cất tiếng hót véo von say đắm muôn loài?",
+            "en": "Trong hội thi tài năng rừng xanh, loài chim nào cất tiếng hót véo von say đắm muôn loài?"
+          },
+          "tts_prompt": {
+            "vi": "Trong hội thi tài năng rừng xanh, loài chim nào cất tiếng hót véo von say đắm muôn loài?",
+            "en": "Trong hội thi tài năng rừng xanh, loài chim nào cất tiếng hót véo von say đắm muôn loài?"
+          },
+          "hint": {
+            "vi": "Hoạ mi được mệnh danh là danh ca của muôn loài chim rừng.",
+            "en": "Hoạ mi được mệnh danh là danh ca của muôn loài chim rừng."
+          },
+          "explanation": {
+            "vi": "Hoạ mi cất tiếng hót trong trẻo làm say đắm cả khu rừng.",
+            "en": "Hoạ mi cất tiếng hót trong trẻo làm say đắm cả khu rừng."
+          },
+          "data": {
+            "options": [
+              "chim hoạ mi",
+              "chim quạ",
+              "chim kền kền",
+              "chim cú mèo"
+            ],
+            "correct_answer": "chim hoạ mi"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_chim_hoa_mi_tai_nang.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'họa mi', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'họa mi', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'họa mi', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'họa mi', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'họa mi'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'họa mi'."
+          },
+          "explanation": {
+            "vi": "Trong 'họa mi', âm 'h' là âm đầu đứng trước.",
+            "en": "Trong 'họa mi', âm 'h' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "h",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "h"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "họa mi",
+                  "en": "họa mi"
+                },
+                "right": {
+                  "vi": "Tiếng họa mi",
+                  "en": "Tiếng họa mi"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "khiêu vũ",
+                  "en": "khiêu vũ"
+                },
+                "right": {
+                  "vi": "Tiếng khiêu vũ",
+                  "en": "Tiếng khiêu vũ"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "hót hay",
+                  "en": "hót hay"
+                },
+                "right": {
+                  "vi": "Tiếng hót hay",
+                  "en": "Tiếng hót hay"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'khiêu vũ' xuất hiện trong bài học về 'tài năng'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'khiêu vũ' xuất hiện trong bài học về 'tài năng'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'tài năng'.",
+            "en": "Nhớ lại nội dung bài học về 'tài năng'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'khiêu vũ' là trọng tâm trong bài học về 'tài năng'.",
+            "en": "Đúng! Nội dung 'khiêu vũ' là trọng tâm trong bài học về 'tài năng'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'khiêu vũ' xuất hiện trong bài học về 'tài năng'.",
+              "en": "Từ hoặc câu liên quan đến 'khiêu vũ' xuất hiện trong bài học về 'tài năng'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'họa mi'.",
+            "en": "Chọn từ đang học trong bài: 'họa mi'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'họa mi'.",
+            "en": "Từ chính xác là 'họa mi'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "họa mi",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "họa mi"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'họami':",
+            "en": "Ghép các chữ cái để tạo thành từ 'họami':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'họami':",
+            "en": "Ghép các chữ cái để tạo thành từ 'họami':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'họami'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'họami'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'họami'.",
+            "en": "Ghép các chữ cái tạo thành 'họami'."
+          },
+          "data": {
+            "letters": [
+              "i",
+              "m",
+              "a",
+              "ọ",
+              "h"
+            ],
+            "target_word": "họami",
+            "target_sequence": [
+              "h",
+              "ọ",
+              "a",
+              "m",
+              "i"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'họa mi' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'họa mi' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'họa mi' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'họa mi' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'họa mi'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'họa mi'."
+          },
+          "explanation": {
+            "vi": "'họa mi khiêu vũ' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'họa mi khiêu vũ' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "khiêu vũ",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "khiêu vũ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' thuộc chủ đề 'Tập đọc: Cuộc thi tài năng rừng xanh'.",
+            "en": "Câu 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' thuộc chủ đề 'Tập đọc: Cuộc thi tài năng rừng xanh'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Cuộc thi tài năng rừng xanh",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Cuộc thi tài năng rừng xanh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Mỗi người đều có điểm mạnh riêng đáng quý.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Mỗi người đều có điểm mạnh riêng đáng quý."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Mỗi người đều có điểm mạnh riêng đáng quý.",
+            "en": "Đúng! Mỗi người đều có điểm mạnh riêng đáng quý."
+          },
+          "data": {
+            "statement": {
+              "vi": "Mỗi người đều có điểm mạnh riêng đáng quý.",
+              "en": "Mỗi người đều có điểm mạnh riêng đáng quý."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.."
+          },
+          "explanation": {
+            "vi": "Câu 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' có đúng 12 tiếng.",
+            "en": "Câu 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'khiêu vũ' mang dấu thanh gì?",
+            "en": "Tiếng 'khiêu vũ' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'khiêu vũ' mang dấu thanh gì?",
+            "en": "Tiếng 'khiêu vũ' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'khiêu vũ' mang dấu thanh chính xác.",
+            "en": "Tiếng 'khiêu vũ' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu ngã (~)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' Chim ... mi cất tiếng hót làm say đắm cả khu rừng.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.' Chim ... mi cất tiếng hót làm say đắm cả khu rừng."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng..",
+            "en": "Nhớ lại câu mẫu: Chim hoạ mi cất tiếng hót làm say đắm cả khu rừng.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'hoạ'.",
+            "en": "Từ chính xác là 'hoạ'."
+          },
+          "data": {
+            "prefix_text": "Chim ",
+            "suffix_text": " mi cất tiếng hót làm say đắm cả khu rừng.",
+            "options": [
+              "hoạ",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "hoạ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'họa mi'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'họa mi'."
+          },
+          "explanation": {
+            "vi": "'họa mi' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'họa mi' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "họa mi",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "họa mi"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'tài năng'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'tài năng'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'tài năng'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'tài năng'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'tài năng' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'tài năng' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'họa mi'.",
+            "en": "Tiếng mẫu của bài là 'họa mi'."
+          },
+          "data": {
+            "options": [
+              "họa mi",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "họa mi"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t29_2",
+      "title": {
+        "vi": "Tập đọc: Cây liễu dẻo dai",
+        "en": "Tập đọc: Cây liễu dẻo dai"
+      },
+      "description": {
+        "vi": "Sức sống bền bỉ và sự dẻo dai trước gió bão",
+        "en": "Sức sống bền bỉ và sự dẻo dai trước gió bão"
+      },
+      "icon": "🌿",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t29_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Loài cây nào có cành lá mềm mại nhưng vô cùng dẻo dai đứng vững kiên cường trước gió bão?",
+            "en": "Loài cây nào có cành lá mềm mại nhưng vô cùng dẻo dai đứng vững kiên cường trước gió bão?"
+          },
+          "tts_prompt": {
+            "vi": "Loài cây nào có cành lá mềm mại nhưng vô cùng dẻo dai đứng vững kiên cường trước gió bão?",
+            "en": "Loài cây nào có cành lá mềm mại nhưng vô cùng dẻo dai đứng vững kiên cường trước gió bão?"
+          },
+          "hint": {
+            "vi": "Cây liễu rủ cành xanh mát bên bờ hồ.",
+            "en": "Cây liễu rủ cành xanh mát bên bờ hồ."
+          },
+          "explanation": {
+            "vi": "Cành lá dẻo dai giúp cây liễu vượt qua những cơn gió bão lớn.",
+            "en": "Cành lá dẻo dai giúp cây liễu vượt qua những cơn gió bão lớn."
+          },
+          "data": {
+            "options": [
+              "cây liễu",
+              "cây nấm rơm",
+              "cây bèo tây",
+              "cây cỏ dại"
+            ],
+            "correct_answer": "cây liễu"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_cay_lieu_deo_dai.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'cây liễu', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'cây liễu', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'cây liễu', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'cây liễu', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'cây liễu'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'cây liễu'."
+          },
+          "explanation": {
+            "vi": "Trong 'cây liễu', âm 'c' là âm đầu đứng trước.",
+            "en": "Trong 'cây liễu', âm 'c' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "c",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "c"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cây liễu",
+                  "en": "cây liễu"
+                },
+                "right": {
+                  "vi": "Tiếng cây liễu",
+                  "en": "Tiếng cây liễu"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "dẻo dai",
+                  "en": "dẻo dai"
+                },
+                "right": {
+                  "vi": "Tiếng dẻo dai",
+                  "en": "Tiếng dẻo dai"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "gió bão",
+                  "en": "gió bão"
+                },
+                "right": {
+                  "vi": "Tiếng gió bão",
+                  "en": "Tiếng gió bão"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'dẻo dai' xuất hiện trong bài học về 'dẻo dai'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'dẻo dai' xuất hiện trong bài học về 'dẻo dai'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'dẻo dai'.",
+            "en": "Nhớ lại nội dung bài học về 'dẻo dai'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'dẻo dai' là trọng tâm trong bài học về 'dẻo dai'.",
+            "en": "Đúng! Nội dung 'dẻo dai' là trọng tâm trong bài học về 'dẻo dai'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'dẻo dai' xuất hiện trong bài học về 'dẻo dai'.",
+              "en": "Từ hoặc câu liên quan đến 'dẻo dai' xuất hiện trong bài học về 'dẻo dai'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'cây liễu'.",
+            "en": "Chọn từ đang học trong bài: 'cây liễu'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cây liễu'.",
+            "en": "Từ chính xác là 'cây liễu'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "cây liễu",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "cây liễu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'câyliễu':",
+            "en": "Ghép các chữ cái để tạo thành từ 'câyliễu':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'câyliễu':",
+            "en": "Ghép các chữ cái để tạo thành từ 'câyliễu':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'câyliễu'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'câyliễu'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'câyliễu'.",
+            "en": "Ghép các chữ cái tạo thành 'câyliễu'."
+          },
+          "data": {
+            "letters": [
+              "u",
+              "ễ",
+              "i",
+              "l",
+              "y",
+              "â",
+              "c"
+            ],
+            "target_word": "câyliễu",
+            "target_sequence": [
+              "c",
+              "â",
+              "y",
+              "l",
+              "i",
+              "ễ",
+              "u"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'cây liễu' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'cây liễu' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'cây liễu' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'cây liễu' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'cây liễu'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'cây liễu'."
+          },
+          "explanation": {
+            "vi": "'cây liễu dẻo dai' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'cây liễu dẻo dai' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "dẻo dai",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "dẻo dai"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' thuộc chủ đề 'Tập đọc: Cây liễu dẻo dai'.",
+            "en": "Câu 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' thuộc chủ đề 'Tập đọc: Cây liễu dẻo dai'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Cây liễu dẻo dai",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Cây liễu dẻo dai"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Sự kiên trì và linh hoạt giúp ta vượt qua khó khăn.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Sự kiên trì và linh hoạt giúp ta vượt qua khó khăn."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Sự kiên trì và linh hoạt giúp ta vượt qua khó khăn.",
+            "en": "Đúng! Sự kiên trì và linh hoạt giúp ta vượt qua khó khăn."
+          },
+          "data": {
+            "statement": {
+              "vi": "Sự kiên trì và linh hoạt giúp ta vượt qua khó khăn.",
+              "en": "Sự kiên trì và linh hoạt giúp ta vượt qua khó khăn."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.."
+          },
+          "explanation": {
+            "vi": "Câu 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' có đúng 12 tiếng.",
+            "en": "Câu 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'dẻo dai' mang dấu thanh gì?",
+            "en": "Tiếng 'dẻo dai' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'dẻo dai' mang dấu thanh gì?",
+            "en": "Tiếng 'dẻo dai' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'dẻo dai' mang dấu thanh chính xác.",
+            "en": "Tiếng 'dẻo dai' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu hỏi (?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' Nhờ ... lá dẻo dai, cây liễu đứng vững trước gió bão.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.' Nhờ ... lá dẻo dai, cây liễu đứng vững trước gió bão."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão..",
+            "en": "Nhớ lại câu mẫu: Nhờ cành lá dẻo dai, cây liễu đứng vững trước gió bão.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cành'.",
+            "en": "Từ chính xác là 'cành'."
+          },
+          "data": {
+            "prefix_text": "Nhờ ",
+            "suffix_text": " lá dẻo dai, cây liễu đứng vững trước gió bão.",
+            "options": [
+              "cành",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "cành"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "D",
+                  "en": "D"
+                },
+                "right": {
+                  "vi": "d",
+                  "en": "d"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "G",
+                  "en": "G"
+                },
+                "right": {
+                  "vi": "g",
+                  "en": "g"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'cây liễu'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'cây liễu'."
+          },
+          "explanation": {
+            "vi": "'cây liễu' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'cây liễu' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "cây liễu",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "cây liễu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t29_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'dẻo dai'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'dẻo dai'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'dẻo dai'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'dẻo dai'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'dẻo dai' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'dẻo dai' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'cây liễu'.",
+            "en": "Tiếng mẫu của bài là 'cây liễu'."
+          },
+          "data": {
+            "options": [
+              "cây liễu",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "cây liễu"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

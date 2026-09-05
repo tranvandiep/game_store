@@ -1,0 +1,868 @@
+{
+  "id": "m4_stage_4",
+  "stage_number": 4,
+  "title": {
+    "vi": "Tuần 4: Bảng Đơn Vị Đo Khối Lượng & Đo Thời Gian",
+    "en": "Week 4: Mass Units (Ton, Quintal) & Time Units"
+  },
+  "subtitle": {
+    "vi": "Trang 23-26: Yến, tạ, tấn, bảng khối lượng; Giây, thế kỉ",
+    "en": "Pages 23-26: Ton, quintal, mass table; Seconds, centuries"
+  },
+  "icon": "⚖️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.866,
+  "required_stars": 9,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "m4_t4_1",
+      "title": {
+        "vi": "Bảng đơn vị đo khối lượng: Yến, Tạ, Tấn",
+        "en": "Mass Units: Yen, Quintal, Ton"
+      },
+      "description": {
+        "vi": "1 yến = 10 kg; 1 tạ = 10 yến = 100 kg; 1 tấn = 10 tạ = 1 000 kg",
+        "en": "1 yen = 10kg, 1 quintal = 100kg, 1 ton = 1,000kg"
+      },
+      "icon": "⚖️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t4_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "1 tấn bằng bao nhiêu ki-lô-gam (kg)?",
+            "en": "How many kilograms (kg) is 1 ton?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 tấn bằng bao nhiêu ki-lô-gam (kg)?",
+            "en": "How many kilograms (kg) is 1 ton?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "1 tấn = 1 000 kg.",
+            "en": "1 ton = 1,000 kg."
+          },
+          "data": {
+            "correct_number": "1000",
+            "unit": "kg"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "1 tạ bằng bao nhiêu ki-lô-gam (kg)?",
+            "en": "How many kilograms is 1 quintal (tạ)?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 tạ bằng bao nhiêu ki-lô-gam (kg)?",
+            "en": "How many kilograms is 1 quintal (tạ)?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "1 tạ = 100 kg.",
+            "en": "1 quintal = 100 kg."
+          },
+          "data": {
+            "correct_number": "100",
+            "unit": "kg"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đơn vị khối lượng với giá trị tương đương:",
+            "en": "Match mass units with kg equivalents:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đơn vị khối lượng với giá trị tương đương:",
+            "en": "Match mass units with kg equivalents:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Bảng đơn vị đo khối lượng lớn.",
+            "en": "Large mass unit conversions."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 yến",
+                  "en": "1 yến"
+                },
+                "right": {
+                  "vi": "10 kg",
+                  "en": "10 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 tạ"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 tấn"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1 000 kg"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 47 và 17 là:",
+            "en": "Average of 47 and 17 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 47 và 17 là:",
+            "en": "Average of 47 and 17 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(47 + 17) : 2 = 32.",
+            "en": "Average is 32."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "32"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_1_12",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Góc nhọn là góc bé hơn góc vuông.",
+            "en": "An acute angle is smaller than a right angle."
+          },
+          "hint": {
+            "vi": "Góc vuông có số đo 90 độ.",
+            "en": "A right angle is 90 degrees."
+          },
+          "explanation": {
+            "vi": "Góc nhọn có số đo bé hơn 90 độ.",
+            "en": "Acute angle is less than 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc nhọn là góc có số đo bé hơn góc vuông.",
+              "en": "An acute angle is smaller than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t4_2",
+      "title": {
+        "vi": "Bảng đơn vị đo khối lượng đầy đủ (tấn đến gam)",
+        "en": "Complete Mass Units Table"
+      },
+      "description": {
+        "vi": "Tấn, tạ, yến, kg, hg, dag, g - Mỗi đơn vị gấp 10 lần đơn vị liền sau",
+        "en": "Ton, quintal, yen, kg, hg, dag, g (base 10 ratio)"
+      },
+      "icon": "📋",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t4_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hai đơn vị đo khối lượng liền kề nhau hơn kém nhau bao nhiêu lần?",
+            "en": "Consecutive mass units differ by a factor of:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hai đơn vị đo khối lượng liền kề nhau hơn kém nhau bao nhiêu lần?",
+            "en": "Consecutive mass units differ by a factor of:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Mỗi đơn vị lớn gấp 10 lần đơn vị bé liền kề.",
+            "en": "Factor of 10."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "10 lần",
+                "en": "10 lần"
+              },
+              {
+                "vi": "100 lần",
+                "en": "100 lần"
+              },
+              {
+                "vi": "1 000 lần",
+                "en": "1 000 lần"
+              }
+            ],
+            "correct_answer": "10 lần"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "3 tấn 5 tạ đổi ra tạ là bao nhiêu tạ?",
+            "en": "Convert 3 tons 5 quintals into quintals:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "3 tấn 5 tạ đổi ra tạ là bao nhiêu tạ?",
+            "en": "Convert 3 tons 5 quintals into quintals:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "3 tấn = 30 tạ; 30 + 5 = 35 tạ.",
+            "en": "35 quintals."
+          },
+          "data": {
+            "correct_number": "35",
+            "unit": "tạ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 1 kg = 10 hg = 1 000 g.",
+            "en": "Decide whether the following statement is true or false: 1 kg = 10 hg = 1 000 g."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 1 kg = 10 hg = 100 dag = 1 000 g.",
+            "en": "True! 1kg = 1,000g."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 kg = 10 hg = 1 000 g.",
+              "en": "1 kg = 10 hg = 1 000 g."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Bảng đơn vị đo khối lượng đầy đủ (tấn đến gam)': Hai đơn vị đo khối lượng liền kề nhau hơn kém nhau bao nhiêu lần?",
+            "en": "Practice 'Complete Mass Units Table': Consecutive mass units differ by a factor of:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hai đơn vị đo khối lượng liền kề nhau hơn kém nhau bao nhiêu lần?",
+            "en": "Consecutive mass units differ by a factor of:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Mỗi đơn vị lớn gấp 10 lần đơn vị bé liền kề.",
+            "en": "Factor of 10."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "1 000 lần",
+                "en": "1 000 lần"
+              },
+              {
+                "vi": "100 lần",
+                "en": "100 lần"
+              },
+              {
+                "vi": "10 lần",
+                "en": "10 lần"
+              }
+            ],
+            "correct_answer": "10 lần"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 đứng liền trước số 6.",
+            "en": "Decide whether the following statement is true or false: Số 5 đứng liền trước số 6."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 đứng liền trước số 6.",
+              "en": "Số 5 đứng liền trước số 6."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 8 bé hơn số 7 (8 < 7).",
+            "en": "Decide whether the following statement is true or false: Số 8 bé hơn số 7 (8 < 7)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 8 bé hơn số 7 (8 < 7).",
+              "en": "Số 8 bé hơn số 7 (8 < 7)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 32 và 12 là:",
+            "en": "Average of 32 and 12 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 32 và 12 là:",
+            "en": "Average of 32 and 12 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(32 + 12) : 2 = 22.",
+            "en": "Average is 22."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "22"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t4_3",
+      "title": {
+        "vi": "Đơn vị đo thời gian: Giây & Thế Kỉ",
+        "en": "Time Units: Seconds & Centuries"
+      },
+      "description": {
+        "vi": "1 phút = 60 giây; 1 thế kỉ = 100 năm",
+        "en": "1 minute = 60 seconds; 1 century = 100 years"
+      },
+      "icon": "⏳",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t4_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "1 thế kỉ bằng bao nhiêu năm?",
+            "en": "How many years is 1 century?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 thế kỉ bằng bao nhiêu năm?",
+            "en": "How many years is 1 century?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "1 thế kỉ = 100 năm.",
+            "en": "1 century = 100 years."
+          },
+          "data": {
+            "correct_number": "100",
+            "unit": "năm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_3_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Năm 2024 thuộc thế kỉ thứ mấy?",
+            "en": "Which century is the year 2024 in?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Năm 2024 thuộc thế kỉ thứ mấy?",
+            "en": "Which century is the year 2024 in?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Từ năm 2001 đến năm 2100 thuộc thế kỉ 21 (XXI).",
+            "en": "Century 21 (XXI)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Thế kỉ XX (20)",
+                "en": "Thế kỉ XX (20)"
+              },
+              {
+                "vi": "Thế kỉ XXI (21)",
+                "en": "Thế kỉ XXI (21)"
+              },
+              {
+                "vi": "Thế kỉ XXII (22)",
+                "en": "Thế kỉ XXII (22)"
+              }
+            ],
+            "correct_answer": "Thế kỉ XXI (21)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_3_3",
+          "type": "fillNumber",
+          "text": {
+            "vi": "2 phút 15 giây đổi ra giây là bao nhiêu giây?",
+            "en": "Convert 2 minutes 15 seconds to seconds:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "2 phút 15 giây đổi ra giây là bao nhiêu giây?",
+            "en": "Convert 2 minutes 15 seconds to seconds:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "2 x 60 + 15 = 120 + 15 = 135 giây.",
+            "en": "135 seconds."
+          },
+          "data": {
+            "correct_number": "135",
+            "unit": "giây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_3_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Đơn vị đo thời gian: Giây & Thế Kỉ': Năm 2024 thuộc thế kỉ thứ mấy?",
+            "en": "Practice 'Time Units: Seconds & Centuries': Which century is the year 2024 in?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Năm 2024 thuộc thế kỉ thứ mấy?",
+            "en": "Which century is the year 2024 in?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Từ năm 2001 đến năm 2100 thuộc thế kỉ 21 (XXI).",
+            "en": "Century 21 (XXI)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Thế kỉ XXI (21)",
+                "en": "Thế kỉ XXI (21)"
+              },
+              {
+                "vi": "Thế kỉ XX (20)",
+                "en": "Thế kỉ XX (20)"
+              },
+              {
+                "vi": "Thế kỉ XXII (22)",
+                "en": "Thế kỉ XXII (22)"
+              }
+            ],
+            "correct_answer": "Thế kỉ XXI (21)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t4_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 43 và 19 là:",
+            "en": "Average of 43 and 19 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 43 và 19 là:",
+            "en": "Average of 43 and 19 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(43 + 19) : 2 = 31.",
+            "en": "Average is 31."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "31"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

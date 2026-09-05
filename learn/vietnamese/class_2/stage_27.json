@@ -1,0 +1,1130 @@
+{
+  "id": "v2_stage_27",
+  "stage_number": 27,
+  "title": {
+    "vi": "Tuần 27: Bạn Mới & Con Số Diệu Kỳ",
+    "en": "Tuần 27: Bạn Mới & Con Số Diệu Kỳ"
+  },
+  "subtitle": {
+    "vi": "Bài 19 & 20 - Bạn mới & Bữa tiệc của các chữ số",
+    "en": "Bài 19 & 20 - Bạn mới & Bữa tiệc của các chữ số"
+  },
+  "icon": "🔢",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.195,
+  "required_stars": 78,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "v2_t27_1",
+      "title": {
+        "vi": "Tập đọc: Bạn mới",
+        "en": "Tập đọc: Bạn mới"
+      },
+      "description": {
+        "vi": "Nồng nhiệt chào đón và giúp đỡ bạn học sinh mới",
+        "en": "Nồng nhiệt chào đón và giúp đỡ bạn học sinh mới"
+      },
+      "icon": "🤝",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t27_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hành động ấm áp nào cả lớp dành cho người bạn mới chuyển đến trong tranh?",
+            "en": "Hành động ấm áp nào cả lớp dành cho người bạn mới chuyển đến trong tranh?"
+          },
+          "tts_prompt": {
+            "vi": "Hành động ấm áp nào cả lớp dành cho người bạn mới chuyển đến trong tranh?",
+            "en": "Hành động ấm áp nào cả lớp dành cho người bạn mới chuyển đến trong tranh?"
+          },
+          "hint": {
+            "vi": "Các bạn cùng nắm tay chia sẻ sách vở với bạn mới.",
+            "en": "Các bạn cùng nắm tay chia sẻ sách vở với bạn mới."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài tập đọc: 'Chào đón bạn mới'.",
+            "en": "Bức tranh minh hoạ bài tập đọc: 'Chào đón bạn mới'."
+          },
+          "data": {
+            "options": [
+              "tươi cười chào đón và giúp đỡ bạn mới",
+              "xa lánh không chơi cùng",
+              "trêu chọc bạn",
+              "không nói chuyện"
+            ],
+            "correct_answer": "tươi cười chào đón và giúp đỡ bạn mới"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_chao_don_ban_moi.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'bạn mới'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'bạn mới'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'bạn mới'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'bạn mới'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'bạn mới' và 'chào đón' cùng thuộc chủ điểm bài học.",
+            "en": "'bạn mới' và 'chào đón' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "chào đón",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "chào đón"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "bạn mới",
+                  "en": "bạn mới"
+                },
+                "right": {
+                  "vi": "Nghĩa của bạn mới",
+                  "en": "Nghĩa của bạn mới"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "chào đón",
+                  "en": "chào đón"
+                },
+                "right": {
+                  "vi": "Nghĩa của chào đón",
+                  "en": "Nghĩa của chào đón"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "thân thiện",
+                  "en": "thân thiện"
+                },
+                "right": {
+                  "vi": "Nghĩa của thân thiện",
+                  "en": "Nghĩa của thân thiện"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'bạn mới' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'bạn mới' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'bạn mới' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'bạn mới' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'bạn mới' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'bạn mới' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'bạn mới'.",
+            "en": "Từ chính xác là 'bạn mới'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "bạn mới",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "bạn mới"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'bạnmới':",
+            "en": "Ghép các chữ cái để tạo thành từ 'bạnmới':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'bạnmới':",
+            "en": "Ghép các chữ cái để tạo thành từ 'bạnmới':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'bạnmới'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'bạnmới'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'bạnmới'.",
+            "en": "Ghép các chữ cái tạo thành 'bạnmới'."
+          },
+          "data": {
+            "letters": [
+              "i",
+              "ớ",
+              "m",
+              "n",
+              "ạ",
+              "b"
+            ],
+            "target_word": "bạnmới",
+            "target_sequence": [
+              "b",
+              "ạ",
+              "n",
+              "m",
+              "ớ",
+              "i"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'bạn mới' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'bạn mới' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'bạn mới' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'bạn mới' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'bạn mới'.",
+            "en": "Xác định bản chất của từ 'bạn mới'."
+          },
+          "explanation": {
+            "vi": "'bạn mới' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'bạn mới' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Bạn mới'.",
+            "en": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Bạn mới'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Bạn mới",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Bạn mới"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Thân thiện và cởi mở giúp bạn mới nhanh chóng hoà nhập.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Thân thiện và cởi mở giúp bạn mới nhanh chóng hoà nhập."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Thân thiện và cởi mở giúp bạn mới nhanh chóng hoà nhập.",
+            "en": "Đúng! Thân thiện và cởi mở giúp bạn mới nhanh chóng hoà nhập."
+          },
+          "data": {
+            "statement": {
+              "vi": "Thân thiện và cởi mở giúp bạn mới nhanh chóng hoà nhập.",
+              "en": "Thân thiện và cởi mở giúp bạn mới nhanh chóng hoà nhập."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp..",
+            "en": "Đếm từng tiếng trong câu: Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.."
+          },
+          "explanation": {
+            "vi": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' có đúng 12 tiếng.",
+            "en": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' Cả ... vui vẻ chào đón bạn học sinh mới vào lớp.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.' Cả ... vui vẻ chào đón bạn học sinh mới vào lớp."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp..",
+            "en": "Nhớ lại câu mẫu trong bài học: Cả lớp vui vẻ chào đón bạn học sinh mới vào lớp.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'lớp'.",
+            "en": "Từ chính xác là 'lớp'."
+          },
+          "data": {
+            "prefix_text": "Cả ",
+            "suffix_text": " vui vẻ chào đón bạn học sinh mới vào lớp.",
+            "options": [
+              "lớp",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "lớp"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'bạn mới' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'bạn mới' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'bạn mới' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'bạn mới' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý bạn mới.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý bạn mới.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý bạn mới.",
+              "bạn mới đang bay trên trời cao.",
+              "bạn mới nở hoa rực rỡ.",
+              "bạn mới có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý bạn mới."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Bạn mới', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Bạn mới', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Bạn mới', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Bạn mới', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương bạn mới",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương bạn mới"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t27_2",
+      "title": {
+        "vi": "Tập đọc: Bữa tiệc của các chữ số",
+        "en": "Tập đọc: Bữa tiệc của các chữ số"
+      },
+      "description": {
+        "vi": "Các chữ số từ 0 đến 9 cùng nhau nhảy múa",
+        "en": "Các chữ số từ 0 đến 9 cùng nhau nhảy múa"
+      },
+      "icon": "🎉",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t27_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh hoạt hình mô tả các nhân vật số ngộ nghĩnh đang cùng nhau làm gì?",
+            "en": "Bức tranh hoạt hình mô tả các nhân vật số ngộ nghĩnh đang cùng nhau làm gì?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh hoạt hình mô tả các nhân vật số ngộ nghĩnh đang cùng nhau làm gì?",
+            "en": "Bức tranh hoạt hình mô tả các nhân vật số ngộ nghĩnh đang cùng nhau làm gì?"
+          },
+          "hint": {
+            "vi": "Các chữ số 0, 1, 2, 3... đội mũ tiệc cùng nhau nhảy múa.",
+            "en": "Các chữ số 0, 1, 2, 3... đội mũ tiệc cùng nhau nhảy múa."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài đọc: 'Bữa tiệc của các chữ số'.",
+            "en": "Bức tranh minh hoạ bài đọc: 'Bữa tiệc của các chữ số'."
+          },
+          "data": {
+            "options": [
+              "mở tiệc khiêu vũ sôi động",
+              "đang ngủ say",
+              "đang giận dỗi",
+              "đang trốn dưới đất"
+            ],
+            "correct_answer": "mở tiệc khiêu vũ sôi động"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_bua_tiec_chu_so.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'chữ số'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'chữ số'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'chữ số'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'chữ số'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'chữ số' và 'bữa tiệc' cùng thuộc chủ điểm bài học.",
+            "en": "'chữ số' và 'bữa tiệc' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "bữa tiệc",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "bữa tiệc"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "chữ số",
+                  "en": "chữ số"
+                },
+                "right": {
+                  "vi": "Nghĩa của chữ số",
+                  "en": "Nghĩa của chữ số"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bữa tiệc",
+                  "en": "bữa tiệc"
+                },
+                "right": {
+                  "vi": "Nghĩa của bữa tiệc",
+                  "en": "Nghĩa của bữa tiệc"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "vui nhộn",
+                  "en": "vui nhộn"
+                },
+                "right": {
+                  "vi": "Nghĩa của vui nhộn",
+                  "en": "Nghĩa của vui nhộn"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'chữ số' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'chữ số' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'chữ số' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'chữ số' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'chữ số' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'chữ số' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'chữ số'.",
+            "en": "Từ chính xác là 'chữ số'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "chữ số",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "chữ số"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'chữsố':",
+            "en": "Ghép các chữ cái để tạo thành từ 'chữsố':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'chữsố':",
+            "en": "Ghép các chữ cái để tạo thành từ 'chữsố':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'chữsố'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'chữsố'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'chữsố'.",
+            "en": "Ghép các chữ cái tạo thành 'chữsố'."
+          },
+          "data": {
+            "letters": [
+              "ố",
+              "s",
+              "ữ",
+              "h",
+              "c"
+            ],
+            "target_word": "chữsố",
+            "target_sequence": [
+              "c",
+              "h",
+              "ữ",
+              "s",
+              "ố"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'chữ số' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'chữ số' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'chữ số' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'chữ số' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'chữ số'.",
+            "en": "Xác định bản chất của từ 'chữ số'."
+          },
+          "explanation": {
+            "vi": "'chữ số' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'chữ số' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Bữa tiệc của các chữ số'.",
+            "en": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Bữa tiệc của các chữ số'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Bữa tiệc của các chữ số",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Bữa tiệc của các chữ số"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Các con số giúp ta tính toán và quản lý cuộc sống khoa học.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Các con số giúp ta tính toán và quản lý cuộc sống khoa học."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Các con số giúp ta tính toán và quản lý cuộc sống khoa học.",
+            "en": "Đúng! Các con số giúp ta tính toán và quản lý cuộc sống khoa học."
+          },
+          "data": {
+            "statement": {
+              "vi": "Các con số giúp ta tính toán và quản lý cuộc sống khoa học.",
+              "en": "Các con số giúp ta tính toán và quản lý cuộc sống khoa học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính..",
+            "en": "Đếm từng tiếng trong câu: Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.."
+          },
+          "explanation": {
+            "vi": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' có đúng 15 tiếng.",
+            "en": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' có đúng 15 tiếng."
+          },
+          "data": {
+            "correct_number": "15",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' Các ... số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.' Các ... số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính..",
+            "en": "Nhớ lại câu mẫu trong bài học: Các chữ số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'chữ'.",
+            "en": "Từ chính xác là 'chữ'."
+          },
+          "data": {
+            "prefix_text": "Các ",
+            "suffix_text": " số từ 0 đến 9 kết hợp tạo nên muôn vàn phép tính.",
+            "options": [
+              "chữ",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "chữ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'chữ số' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'chữ số' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'chữ số' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'chữ số' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý chữ số.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý chữ số.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý chữ số.",
+              "chữ số đang bay trên trời cao.",
+              "chữ số nở hoa rực rỡ.",
+              "chữ số có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý chữ số."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t27_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Bữa tiệc của các chữ số', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Bữa tiệc của các chữ số', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Bữa tiệc của các chữ số', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Bữa tiệc của các chữ số', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương chữ số",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương chữ số"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

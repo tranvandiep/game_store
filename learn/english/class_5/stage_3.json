@@ -1,0 +1,1134 @@
+{
+  "id": "e5_stage_3",
+  "stage_number": 3,
+  "title": {
+    "vi": "Week 3: Unit 3 - Foreign Friends",
+    "en": "Week 3: Unit 3 - Foreign Friends"
+  },
+  "subtitle": {
+    "vi": "Nationalities, native languages, physical appearance, and cultural backgrounds",
+    "en": "Nationalities, native languages, physical appearance, and cultural backgrounds"
+  },
+  "icon": "🌏",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.892,
+  "required_stars": 6,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "e5_s3_1",
+      "title": {
+        "vi": "Unit 3: Where is He From?",
+        "en": "Unit 3: Where is He From?"
+      },
+      "description": {
+        "vi": "Where is Akiko from? - She is from Tokyo, Japan. She speaks Japanese",
+        "en": "Where is Akiko from? - She is from Tokyo, Japan. She speaks Japanese"
+      },
+      "icon": "🇯🇵",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e5_s3_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the pen pals holding hands in traditional kimonos, ao dai, and western clothes. Where are they from?",
+            "en": "Look at the pen pals holding hands in traditional kimonos, ao dai, and western clothes. Where are they from?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the pen pals holding hands in traditional kimonos, ao dai, and western clothes. Where are they from?",
+            "en": "Look at the pen pals holding hands in traditional kimonos, ao dai, and western clothes. Where are they from?"
+          },
+          "hint": {
+            "vi": "International exchange students.",
+            "en": "International exchange students."
+          },
+          "explanation": {
+            "vi": "They are international friends from various countries.",
+            "en": "They are international friends from various countries."
+          },
+          "data": {
+            "options": [
+              "from different countries around the world",
+              "all from the same town",
+              "from a spaceship",
+              "from the zoo"
+            ],
+            "correct_answer": "from different countries around the world"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u3_foreign_friends.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s3_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'Japan'?",
+            "en": "What is the first letter of the word 'Japan'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'Japan'?",
+            "en": "What is the first letter of the word 'Japan'?"
+          },
+          "hint": {
+            "vi": "The word 'Japan' starts with the letter J.",
+            "en": "The word 'Japan' starts with the letter J."
+          },
+          "explanation": {
+            "vi": "Correct! 'Japan' begins with the letter 'J'.",
+            "en": "Correct! 'Japan' begins with the letter 'J'."
+          },
+          "data": {
+            "options": [
+              "Letter J",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter J"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Japan",
+                  "en": "Japan"
+                },
+                "right": {
+                  "vi": "Nghĩa của Japan",
+                  "en": "Nghĩa của Japan"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Japanese",
+                  "en": "Japanese"
+                },
+                "right": {
+                  "vi": "Nghĩa của Japanese",
+                  "en": "Nghĩa của Japanese"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Tokyo",
+                  "en": "Tokyo"
+                },
+                "right": {
+                  "vi": "Nghĩa của Tokyo",
+                  "en": "Nghĩa của Tokyo"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? Akiko is from Japan. She is Japanese.",
+            "en": "Is this English sentence correct for Grade 5? Akiko is from Japan. She is Japanese."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Akiko is from Japan. She is Japanese.",
+            "en": "Remember the pattern: Akiko is from Japan. She is Japanese."
+          },
+          "explanation": {
+            "vi": "Yes! 'Akiko is from Japan. She is Japanese.' is a correct English sentence.",
+            "en": "Yes! 'Akiko is from Japan. She is Japanese.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Akiko is from Japan. She is Japanese.",
+              "en": "Akiko is from Japan. She is Japanese."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Akiko is from Japan. She is ....",
+            "en": "Drag the correct word to complete the sentence: Akiko is from Japan. She is ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Japanese'.",
+            "en": "Choose the correct word: 'Japanese'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Akiko is from Japan. She is Japanese.'.",
+            "en": "The complete sentence is: 'Akiko is from Japan. She is Japanese.'."
+          },
+          "data": {
+            "prefix_text": "Akiko is from Japan. She is ",
+            "suffix_text": ".",
+            "options": [
+              "Japanese",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Japanese"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'japan':",
+            "en": "Spell the English word 'japan':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'japan':",
+            "en": "Spell the English word 'japan':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'japan'.",
+            "en": "Tap the letters in order to spell 'japan'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'japan' correctly.",
+            "en": "Well done! You spelled 'japan' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "a",
+              "p",
+              "a",
+              "j"
+            ],
+            "target_word": "japan",
+            "target_sequence": [
+              "j",
+              "a",
+              "p",
+              "a",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Akiko đến từ Nhật Bản. Bạn ấy là người Nhật.' in English?",
+            "en": "How do you say 'Akiko đến từ Nhật Bản. Bạn ấy là người Nhật.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Akiko đến từ Nhật Bản. Bạn ấy là người Nhật.' in English?",
+            "en": "How do you say 'Akiko đến từ Nhật Bản. Bạn ấy là người Nhật.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Akiko đến từ Nhật Bản. Bạn ấy là người Nhật.",
+            "en": "Choose the English sentence that means: Akiko đến từ Nhật Bản. Bạn ấy là người Nhật."
+          },
+          "explanation": {
+            "vi": "'Akiko is from Japan. She is Japanese.' means 'Akiko đến từ Nhật Bản. Bạn ấy là người Nhật.'.",
+            "en": "'Akiko is from Japan. She is Japanese.' means 'Akiko đến từ Nhật Bản. Bạn ấy là người Nhật.'."
+          },
+          "data": {
+            "options": [
+              "Akiko is from Japan. She is Japanese.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Akiko is from Japan. She is Japanese."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 3: Where is He From?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 3: Where is He From?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 3: Where is He From?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 3: Where is He From?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 3: Where is He From?.",
+            "en": "Remember the words in topic: Unit 3: Where is He From?."
+          },
+          "explanation": {
+            "vi": "'Japan' is a key vocabulary word in this topic.",
+            "en": "'Japan' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "Japan",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "Japan"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Japanese' start with the sound /j/?",
+            "en": "Does the word 'Japanese' start with the sound /j/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Japanese' start with the sound /j/? The word 'Japanese' starts with letter 'J'.",
+            "en": "Does the word 'Japanese' start with the sound /j/? The word 'Japanese' starts with letter 'J'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Japanese'.",
+            "en": "Listen to the first sound of 'Japanese'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Japanese' starts with the sound /j/.",
+            "en": "Yes! 'Japanese' starts with the sound /j/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Japanese' starts with letter 'J'.",
+              "en": "The word 'Japanese' starts with letter 'J'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'japan'?",
+            "en": "How many letters are there in the word 'japan'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'japan'?",
+            "en": "How many letters are there in the word 'japan'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'japan': 1, 2, 3...",
+            "en": "Count the letters in 'japan': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'japan' has exactly 5 letters.",
+            "en": "The word 'japan' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'japan':",
+            "en": "Choose the correct phrase with 'japan':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'japan':",
+            "en": "Choose the correct phrase with 'japan':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a japan'.",
+            "en": "Correct! We say 'a japan'."
+          },
+          "data": {
+            "options": [
+              "a japan",
+              "an japan",
+              "two japan",
+              "many japan"
+            ],
+            "correct_answer": "a japan"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'Japan'.",
+            "en": "Choose the word: 'Japan'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is Japan. It is wonderful!'",
+            "en": "We say: 'Look! This is Japan. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "Japan",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "Japan"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 3: Where is He From?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 3: Where is He From?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 3: Where is He From?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 3: Where is He From?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 3: Where is He From?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 3: Where is He From?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: Japan, Japanese!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: Japan, Japanese!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e5_s3_2",
+      "title": {
+        "vi": "Unit 3: Appearance & Language Traits",
+        "en": "Unit 3: Appearance & Language Traits"
+      },
+      "description": {
+        "vi": "He is tall and has blonde hair / He speaks fluent English and French",
+        "en": "He is tall and has blonde hair / He speaks fluent English and French"
+      },
+      "icon": "🗣️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e5_s3_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the students communicating with speech bubbles showing 'Hello', 'Bonjour', and 'Xin chào'. What are they practicing?",
+            "en": "Look at the students communicating with speech bubbles showing 'Hello', 'Bonjour', and 'Xin chào'. What are they practicing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the students communicating with speech bubbles showing 'Hello', 'Bonjour', and 'Xin chào'. What are they practicing?",
+            "en": "Look at the students communicating with speech bubbles showing 'Hello', 'Bonjour', and 'Xin chào'. What are they practicing?"
+          },
+          "hint": {
+            "vi": "Using multiple languages to communicate.",
+            "en": "Using multiple languages to communicate."
+          },
+          "explanation": {
+            "vi": "They are practicing multilingual communication.",
+            "en": "They are practicing multilingual communication."
+          },
+          "data": {
+            "options": [
+              "multilingual communication and friendship",
+              "silent meditation",
+              "sleeping in class",
+              "cleaning blackboards"
+            ],
+            "correct_answer": "multilingual communication and friendship"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u3_multilingual.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s3_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'language'?",
+            "en": "What is the first letter of the word 'language'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'language'?",
+            "en": "What is the first letter of the word 'language'?"
+          },
+          "hint": {
+            "vi": "The word 'language' starts with the letter L.",
+            "en": "The word 'language' starts with the letter L."
+          },
+          "explanation": {
+            "vi": "Correct! 'language' begins with the letter 'L'.",
+            "en": "Correct! 'language' begins with the letter 'L'."
+          },
+          "data": {
+            "options": [
+              "Letter L",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter L"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "language",
+                  "en": "language"
+                },
+                "right": {
+                  "vi": "Nghĩa của language",
+                  "en": "Nghĩa của language"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "fluent",
+                  "en": "fluent"
+                },
+                "right": {
+                  "vi": "Nghĩa của fluent",
+                  "en": "Nghĩa của fluent"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "blonde",
+                  "en": "blonde"
+                },
+                "right": {
+                  "vi": "Nghĩa của blonde",
+                  "en": "Nghĩa của blonde"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? He speaks two languages: English and French.",
+            "en": "Is this English sentence correct for Grade 5? He speaks two languages: English and French."
+          },
+          "hint": {
+            "vi": "Remember the pattern: He speaks two languages: English and French.",
+            "en": "Remember the pattern: He speaks two languages: English and French."
+          },
+          "explanation": {
+            "vi": "Yes! 'He speaks two languages: English and French.' is a correct English sentence.",
+            "en": "Yes! 'He speaks two languages: English and French.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "He speaks two languages: English and French.",
+              "en": "He speaks two languages: English and French."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: He speaks two languages: English and ....",
+            "en": "Drag the correct word to complete the sentence: He speaks two languages: English and ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'French'.",
+            "en": "Choose the correct word: 'French'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'He speaks two languages: English and French.'.",
+            "en": "The complete sentence is: 'He speaks two languages: English and French.'."
+          },
+          "data": {
+            "prefix_text": "He speaks two languages: English and ",
+            "suffix_text": ".",
+            "options": [
+              "French",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "French"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'language':",
+            "en": "Spell the English word 'language':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'language':",
+            "en": "Spell the English word 'language':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'language'.",
+            "en": "Tap the letters in order to spell 'language'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'language' correctly.",
+            "en": "Well done! You spelled 'language' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "g",
+              "a",
+              "u",
+              "g",
+              "n",
+              "a",
+              "l"
+            ],
+            "target_word": "language",
+            "target_sequence": [
+              "l",
+              "a",
+              "n",
+              "g",
+              "u",
+              "a",
+              "g",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cậu ấy nói được hai thứ tiếng: Tiếng Anh và Tiếng Pháp.' in English?",
+            "en": "How do you say 'Cậu ấy nói được hai thứ tiếng: Tiếng Anh và Tiếng Pháp.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cậu ấy nói được hai thứ tiếng: Tiếng Anh và Tiếng Pháp.' in English?",
+            "en": "How do you say 'Cậu ấy nói được hai thứ tiếng: Tiếng Anh và Tiếng Pháp.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cậu ấy nói được hai thứ tiếng: Tiếng Anh và Tiếng Pháp.",
+            "en": "Choose the English sentence that means: Cậu ấy nói được hai thứ tiếng: Tiếng Anh và Tiếng Pháp."
+          },
+          "explanation": {
+            "vi": "'He speaks two languages: English and French.' means 'Cậu ấy nói được hai thứ tiếng: Tiếng Anh và Tiếng Pháp.'.",
+            "en": "'He speaks two languages: English and French.' means 'Cậu ấy nói được hai thứ tiếng: Tiếng Anh và Tiếng Pháp.'."
+          },
+          "data": {
+            "options": [
+              "He speaks two languages: English and French.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "He speaks two languages: English and French."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 3: Appearance & Language Traits'?",
+            "en": "Which of the following is a key word from Unit 'Unit 3: Appearance & Language Traits'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 3: Appearance & Language Traits'?",
+            "en": "Which of the following is a key word from Unit 'Unit 3: Appearance & Language Traits'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 3: Appearance & Language Traits.",
+            "en": "Remember the words in topic: Unit 3: Appearance & Language Traits."
+          },
+          "explanation": {
+            "vi": "'language' is a key vocabulary word in this topic.",
+            "en": "'language' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "language",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "language"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'fluent' start with the sound /l/?",
+            "en": "Does the word 'fluent' start with the sound /l/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'fluent' start with the sound /l/? The word 'fluent' starts with letter 'L'.",
+            "en": "Does the word 'fluent' start with the sound /l/? The word 'fluent' starts with letter 'L'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'fluent'.",
+            "en": "Listen to the first sound of 'fluent'."
+          },
+          "explanation": {
+            "vi": "Yes! 'fluent' starts with the sound /l/.",
+            "en": "Yes! 'fluent' starts with the sound /l/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'fluent' starts with letter 'L'.",
+              "en": "The word 'fluent' starts with letter 'L'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'language'?",
+            "en": "How many letters are there in the word 'language'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'language'?",
+            "en": "How many letters are there in the word 'language'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'language': 1, 2, 3...",
+            "en": "Count the letters in 'language': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'language' has exactly 8 letters.",
+            "en": "The word 'language' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'language':",
+            "en": "Choose the correct phrase with 'language':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'language':",
+            "en": "Choose the correct phrase with 'language':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a language'.",
+            "en": "Correct! We say 'a language'."
+          },
+          "data": {
+            "options": [
+              "a language",
+              "an language",
+              "two language",
+              "many language"
+            ],
+            "correct_answer": "a language"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'language'.",
+            "en": "Choose the word: 'language'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is language. It is wonderful!'",
+            "en": "We say: 'Look! This is language. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "language",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "language"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s3_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 3: Appearance & Language Traits'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 3: Appearance & Language Traits'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 3: Appearance & Language Traits'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 3: Appearance & Language Traits'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 3: Appearance & Language Traits'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 3: Appearance & Language Traits'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: language, fluent!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: language, fluent!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

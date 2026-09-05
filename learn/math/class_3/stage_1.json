@@ -1,0 +1,973 @@
+{
+  "id": "m3_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Tuần 1: Ôn Tập Số & Phép Tính Đến 1 000",
+    "en": "Week 1: Numbers & Ops to 1,000"
+  },
+  "subtitle": {
+    "vi": "Bài 1 & 2 - Đọc viết số và cộng trừ phạm vi 1000",
+    "en": "Lesson 1 & 2 - Reading, writing and +- to 1,000"
+  },
+  "icon": "🔢",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "m3_t1_1",
+      "title": {
+        "vi": "Ôn tập các số trong phạm vi 1 000",
+        "en": "Review Numbers within 1,000"
+      },
+      "description": {
+        "vi": "Đọc, viết, so sánh số có 3 chữ số và số tròn trăm/chục",
+        "en": "Read, write, compare 3-digit numbers"
+      },
+      "icon": "🔢",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số gồm 8 trăm, 0 chục và 5 đơn vị được viết là:",
+            "en": "A number with 8 hundreds, 0 tens, 5 ones is written as:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số gồm 8 trăm, 0 chục và 5 đơn vị được viết là:",
+            "en": "A number with 8 hundreds, 0 tens, 5 ones is written as:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "8 trăm và 5 đơn vị viết là 805 (tám trăm linh năm).",
+            "en": "8 hundreds and 5 ones is 805."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "850",
+                "en": "850"
+              },
+              {
+                "vi": "805",
+                "en": "805"
+              },
+              {
+                "vi": "508",
+                "en": "508"
+              }
+            ],
+            "correct_answer": "805"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối cách đọc với số tương ứng:",
+            "en": "Match reading with 3-digit number:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối cách đọc với số tương ứng:",
+            "en": "Match reading with 3-digit number:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Đọc số chuẩn Tiếng Việt.",
+            "en": "Standard Vietnamese number reading."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Bốn trăm ba mươi mốt",
+                  "en": "Bốn trăm ba mươi mốt"
+                },
+                "right": {
+                  "vi": "431",
+                  "en": "431"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Bảy trăm linh tư",
+                  "en": "Bảy trăm linh tư"
+                },
+                "right": {
+                  "vi": "704",
+                  "en": "704"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Chín trăm chín mươi lăm",
+                  "en": "Chín trăm chín mươi lăm"
+                },
+                "right": {
+                  "vi": "995",
+                  "en": "995"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 999 là số 3 chữ số lớn nhất.",
+            "en": "Decide whether the following statement is true or false: 999 là số 3 chữ số lớn nhất."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 999 là số có 3 chữ số lớn nhất.",
+            "en": "True! 999 is the largest 3-digit number."
+          },
+          "data": {
+            "statement": {
+              "vi": "999 là số 3 chữ số lớn nhất.",
+              "en": "999 là số 3 chữ số lớn nhất."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 9 : 3 = ?",
+            "en": "Calculate: 9 : 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 9 : 3 = ?",
+            "en": "Calculate: 9 : 3 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 9 : 3.",
+            "en": "Calculate 9 : 3."
+          },
+          "explanation": {
+            "vi": "9 : 3 = 3",
+            "en": "9 : 3 = 3"
+          },
+          "data": {
+            "options": [
+              "2",
+              "3",
+              "5",
+              "4"
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 15 : 3 = ?",
+            "en": "Calculate: 15 : 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 15 : 3 = ?",
+            "en": "Calculate: 15 : 3 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 15 : 3.",
+            "en": "Calculate 15 : 3."
+          },
+          "explanation": {
+            "vi": "15 : 3 = 5",
+            "en": "15 : 3 = 5"
+          },
+          "data": {
+            "options": [
+              "6",
+              "4",
+              "7",
+              "5"
+            ],
+            "correct_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 15 : 5 = ?",
+            "en": "Calculate: 15 : 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 15 : 5 = ?",
+            "en": "Calculate: 15 : 5 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 15 : 5.",
+            "en": "Calculate 15 : 5."
+          },
+          "explanation": {
+            "vi": "15 : 5 = 3",
+            "en": "15 : 5 = 3"
+          },
+          "data": {
+            "options": [
+              "4",
+              "2",
+              "3",
+              "5"
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 1860 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 1860 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 1860 có đúng 4 chữ số.",
+            "en": "1860 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 1860 là số có 4 chữ số.",
+              "en": "1860 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tìm kết quả phép tính: 9 x 3 = ?",
+            "en": "Calculate: 9 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "9 nhân 3 bằng bao nhiêu?",
+            "en": "9 times 3 equals?"
+          },
+          "hint": {
+            "vi": "Nhớ lại bảng nhân.",
+            "en": "Recall multiplication table."
+          },
+          "explanation": {
+            "vi": "9 x 3 = 27.",
+            "en": "9 x 3 = 27."
+          },
+          "data": {
+            "prefix_text": "9 x 3 = ",
+            "suffix_text": "",
+            "correct_number": "27"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chu vi hình vuông có cạnh 9 cm là:",
+            "en": "Perimeter of square with side 9 cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chu vi hình vuông có cạnh 9 cm là bao nhiêu?",
+            "en": "Perimeter of square with side 9 cm:"
+          },
+          "hint": {
+            "vi": "Chu vi hình vuông = Độ dài cạnh x 4.",
+            "en": "Perimeter = side x 4."
+          },
+          "explanation": {
+            "vi": "9 x 4 = 36 cm.",
+            "en": "9 x 4 = 36 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "36 cm",
+                "en": "36 cm"
+              },
+              {
+                "vi": "40 cm",
+                "en": "40 cm"
+              },
+              {
+                "vi": "81 cm",
+                "en": "81 cm"
+              }
+            ],
+            "correct_answer": "36 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t1_2",
+      "title": {
+        "vi": "Ôn tập phép cộng, trừ phạm vi 1 000",
+        "en": "Review Addition & Subtraction to 1,000"
+      },
+      "description": {
+        "vi": "Tính nhẩm và đặt tính cộng trừ không nhớ & có nhớ",
+        "en": "Mental math and vertical operations to 1,000"
+      },
+      "icon": "➕",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t1_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 435 + 248 = ?",
+            "en": "Calculate: 435 + 248 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 435 + 248 = ?",
+            "en": "Calculate: 435 + 248 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 + 8 = 13 nhớ 1; 3 + 4 + 1 = 8; 4 + 2 = 6 -> 683.",
+            "en": "435 + 248 = 683."
+          },
+          "data": {
+            "correct_number": "683",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 752 - 329 = ?",
+            "en": "Calculate: 752 - 329 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 752 - 329 = ?",
+            "en": "Calculate: 752 - 329 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "12 - 9 = 3 nhớ 1; 5 - 3 = 2; 7 - 3 = 4 -> 423.",
+            "en": "752 - 329 = 423."
+          },
+          "data": {
+            "correct_number": "423",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_2_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 375, 376,  ... , 378",
+            "en": "Drag the correct answer into the slot:\nDãy số: 375, 376,  ... , 378"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 375, 376,  ... , 378",
+            "en": "Drag the correct answer: Dãy số: 375, 376,  ... , 378"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 375, 376,  377 , 378",
+            "en": "Dãy số: 375, 376,  377 , 378"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 375, 376, ",
+            "suffix_text": ", 378",
+            "options": [
+              "377",
+              "379",
+              "376"
+            ],
+            "slot_answer": "377"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_2_9",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 287, 288,  ... , 290",
+            "en": "Drag the correct answer into the slot:\nDãy số: 287, 288,  ... , 290"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 287, 288,  ... , 290",
+            "en": "Drag the correct answer: Dãy số: 287, 288,  ... , 290"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 287, 288,  289 , 290",
+            "en": "Dãy số: 287, 288,  289 , 290"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 287, 288, ",
+            "suffix_text": ", 290",
+            "options": [
+              "289",
+              "288",
+              "291"
+            ],
+            "slot_answer": "289"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t1_3",
+      "title": {
+        "vi": "Giải bài toán có lời văn trong phạm vi 1 000",
+        "en": "Word Problems within 1,000"
+      },
+      "description": {
+        "vi": "Vận dụng phép tính cộng trừ vào bài toán thực tế",
+        "en": "Apply addition & subtraction to real contexts"
+      },
+      "icon": "📝",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t1_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Thư viện trường có 540 quyển sách Toán và 380 quyển sách Tiếng Việt. Thư viện có tất cả bao nhiêu quyển sách?",
+            "en": "School library has 540 Math books and 380 Vietnamese books. Total books?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thư viện trường có 540 quyển sách Toán và 380 quyển sách Tiếng Việt. Thư viện có tất cả bao nhiêu quyển sách?",
+            "en": "School library has 540 Math books and 380 Vietnamese books. Total books?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "540 + 380 = 920 quyển sách.",
+            "en": "540 + 380 = 920 books in total."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "910 quyển",
+                "en": "910 quyển"
+              },
+              {
+                "vi": "920 quyển",
+                "en": "920 quyển"
+              },
+              {
+                "vi": "930 quyển",
+                "en": "930 quyển"
+              }
+            ],
+            "correct_answer": "920 quyển"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một cửa hàng có 850 kg gạo, đã bán được 420 kg. Cửa hàng còn lại bao nhiêu kg gạo?",
+            "en": "Store had 850kg rice, sold 420kg. How many kg remain?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một cửa hàng có 850 kg gạo, đã bán được 420 kg. Cửa hàng còn lại bao nhiêu kg gạo?",
+            "en": "Store had 850kg rice, sold 420kg. How many kg remain?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "850 - 420 = 430 kg.",
+            "en": "850 - 420 = 430 kg."
+          },
+          "data": {
+            "correct_number": "430",
+            "unit": "kg"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_3_3",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp theo thứ tự từ bé đến lớn: 345, 120, 890, 567",
+            "en": "Sort ascending: 345, 120, 890, 567"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp theo thứ tự từ bé đến lớn: 345, 120, 890, 567",
+            "en": "Sort ascending: 345, 120, 890, 567"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct sequence."
+          },
+          "explanation": {
+            "vi": "Thứ tự: 120 < 345 < 567 < 890.",
+            "en": "Order: 120, 345, 567, 890."
+          },
+          "data": {
+            "items": [
+              "120",
+              "345",
+              "567",
+              "890"
+            ],
+            "correct_order": [
+              "120",
+              "345",
+              "567",
+              "890"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Giải bài toán có lời văn trong phạm vi 1 000': Thư viện trường có 540 quyển sách Toán và 380 quyển sách Tiếng Việt. Thư viện có tất cả bao nhiêu quyển sách?",
+            "en": "Practice 'Word Problems within 1,000': School library has 540 Math books and 380 Vietnamese books. Total books?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thư viện trường có 540 quyển sách Toán và 380 quyển sách Tiếng Việt. Thư viện có tất cả bao nhiêu quyển sách?",
+            "en": "School library has 540 Math books and 380 Vietnamese books. Total books?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "540 + 380 = 920 quyển sách.",
+            "en": "540 + 380 = 920 books in total."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "920 quyển",
+                "en": "920 quyển"
+              },
+              {
+                "vi": "910 quyển",
+                "en": "910 quyển"
+              },
+              {
+                "vi": "930 quyển",
+                "en": "930 quyển"
+              }
+            ],
+            "correct_answer": "920 quyển"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_3_6",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 167, 348, 530, 648",
+            "en": "Correct order: 167, 348, 530, 648"
+          },
+          "data": {
+            "items": [
+              "530",
+              "167",
+              "648",
+              "348"
+            ],
+            "correct_order": [
+              "167",
+              "348",
+              "530",
+              "648"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_3_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 686, 587, 497, 128",
+            "en": "Correct order: 686, 587, 497, 128"
+          },
+          "data": {
+            "items": [
+              "686",
+              "128",
+              "497",
+              "587"
+            ],
+            "correct_order": [
+              "686",
+              "587",
+              "497",
+              "128"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 2773 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 2773 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 2773 có đúng 4 chữ số.",
+            "en": "2773 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 2773 là số có 4 chữ số.",
+              "en": "2773 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t1_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

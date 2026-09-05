@@ -1,0 +1,1138 @@
+{
+  "id": "e5_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Week 1: Starter & Unit 1 - All About Me",
+    "en": "Week 1: Starter & Unit 1 - All About Me"
+  },
+  "subtitle": {
+    "vi": "What's your address? It's 105 Hoa Binh Lane / What's your hometown like? It's quiet and pretty",
+    "en": "What's your address? It's 105 Hoa Binh Lane / What's your hometown like? It's quiet and pretty"
+  },
+  "icon": "🏠",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e5_s1_1",
+      "title": {
+        "vi": "Starter: Welcome to Grade 5!",
+        "en": "Starter: Welcome to Grade 5!"
+      },
+      "description": {
+        "vi": "Introducing oneself, hometown, and address (Hoa Binh Lane, Ba Trieu Street)",
+        "en": "Introducing oneself, hometown, and address (Hoa Binh Lane, Ba Trieu Street)"
+      },
+      "icon": "🎒",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e5_s1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the street sign and house number plate showing '105 Hoa Binh Lane'. What is being shown?",
+            "en": "Look at the street sign and house number plate showing '105 Hoa Binh Lane'. What is being shown?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the street sign and house number plate showing '105 Hoa Binh Lane'. What is being shown?",
+            "en": "Look at the street sign and house number plate showing '105 Hoa Binh Lane'. What is being shown?"
+          },
+          "hint": {
+            "vi": "Location showing house number, lane, and street.",
+            "en": "Location showing house number, lane, and street."
+          },
+          "explanation": {
+            "vi": "It shows a residential address.",
+            "en": "It shows a residential address."
+          },
+          "data": {
+            "options": [
+              "a residential home address",
+              "a movie cinema ticket",
+              "a train schedule",
+              "a grocery receipt"
+            ],
+            "correct_answer": "a residential home address"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_starter_address.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s1_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'address'?",
+            "en": "What is the first letter of the word 'address'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'address'?",
+            "en": "What is the first letter of the word 'address'?"
+          },
+          "hint": {
+            "vi": "The word 'address' starts with the letter A.",
+            "en": "The word 'address' starts with the letter A."
+          },
+          "explanation": {
+            "vi": "Correct! 'address' begins with the letter 'A'.",
+            "en": "Correct! 'address' begins with the letter 'A'."
+          },
+          "data": {
+            "options": [
+              "Letter A",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter A"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "address",
+                  "en": "address"
+                },
+                "right": {
+                  "vi": "Nghĩa của address",
+                  "en": "Nghĩa của address"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "lane",
+                  "en": "lane"
+                },
+                "right": {
+                  "vi": "Nghĩa của lane",
+                  "en": "Nghĩa của lane"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "street",
+                  "en": "street"
+                },
+                "right": {
+                  "vi": "Nghĩa của street",
+                  "en": "Nghĩa của street"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? What's your address? - It's 105 Hoa Binh Lane.",
+            "en": "Is this English sentence correct for Grade 5? What's your address? - It's 105 Hoa Binh Lane."
+          },
+          "hint": {
+            "vi": "Remember the pattern: What's your address? - It's 105 Hoa Binh Lane.",
+            "en": "Remember the pattern: What's your address? - It's 105 Hoa Binh Lane."
+          },
+          "explanation": {
+            "vi": "Yes! 'What's your address? - It's 105 Hoa Binh Lane.' is a correct English sentence.",
+            "en": "Yes! 'What's your address? - It's 105 Hoa Binh Lane.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "What's your address? - It's 105 Hoa Binh Lane.",
+              "en": "What's your address? - It's 105 Hoa Binh Lane."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: What's your address? - It's 105 Hoa Binh ....",
+            "en": "Drag the correct word to complete the sentence: What's your address? - It's 105 Hoa Binh ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Lane'.",
+            "en": "Choose the correct word: 'Lane'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'What's your address? - It's 105 Hoa Binh Lane.'.",
+            "en": "The complete sentence is: 'What's your address? - It's 105 Hoa Binh Lane.'."
+          },
+          "data": {
+            "prefix_text": "What's your address? - It's 105 Hoa Binh ",
+            "suffix_text": ".",
+            "options": [
+              "Lane",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Lane"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'address':",
+            "en": "Spell the English word 'address':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'address':",
+            "en": "Spell the English word 'address':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'address'.",
+            "en": "Tap the letters in order to spell 'address'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'address' correctly.",
+            "en": "Well done! You spelled 'address' correctly."
+          },
+          "data": {
+            "letters": [
+              "s",
+              "s",
+              "e",
+              "r",
+              "d",
+              "d",
+              "a"
+            ],
+            "target_word": "address",
+            "target_sequence": [
+              "a",
+              "d",
+              "d",
+              "r",
+              "e",
+              "s",
+              "s"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Địa chỉ của bạn là gì? - Đó là số 105 ngõ Hoà Bình.' in English?",
+            "en": "How do you say 'Địa chỉ của bạn là gì? - Đó là số 105 ngõ Hoà Bình.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Địa chỉ của bạn là gì? - Đó là số 105 ngõ Hoà Bình.' in English?",
+            "en": "How do you say 'Địa chỉ của bạn là gì? - Đó là số 105 ngõ Hoà Bình.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Địa chỉ của bạn là gì? - Đó là số 105 ngõ Hoà Bình.",
+            "en": "Choose the English sentence that means: Địa chỉ của bạn là gì? - Đó là số 105 ngõ Hoà Bình."
+          },
+          "explanation": {
+            "vi": "'What's your address? - It's 105 Hoa Binh Lane.' means 'Địa chỉ của bạn là gì? - Đó là số 105 ngõ Hoà Bình.'.",
+            "en": "'What's your address? - It's 105 Hoa Binh Lane.' means 'Địa chỉ của bạn là gì? - Đó là số 105 ngõ Hoà Bình.'."
+          },
+          "data": {
+            "options": [
+              "What's your address? - It's 105 Hoa Binh Lane.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "What's your address? - It's 105 Hoa Binh Lane."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Starter: Welcome to Grade 5!'?",
+            "en": "Which of the following is a key word from Unit 'Starter: Welcome to Grade 5!'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Starter: Welcome to Grade 5!'?",
+            "en": "Which of the following is a key word from Unit 'Starter: Welcome to Grade 5!'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Starter: Welcome to Grade 5!.",
+            "en": "Remember the words in topic: Starter: Welcome to Grade 5!."
+          },
+          "explanation": {
+            "vi": "'address' is a key vocabulary word in this topic.",
+            "en": "'address' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "address",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "address"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'lane' start with the sound /a/?",
+            "en": "Does the word 'lane' start with the sound /a/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'lane' start with the sound /a/? The word 'lane' starts with letter 'A'.",
+            "en": "Does the word 'lane' start with the sound /a/? The word 'lane' starts with letter 'A'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'lane'.",
+            "en": "Listen to the first sound of 'lane'."
+          },
+          "explanation": {
+            "vi": "Yes! 'lane' starts with the sound /a/.",
+            "en": "Yes! 'lane' starts with the sound /a/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'lane' starts with letter 'A'.",
+              "en": "The word 'lane' starts with letter 'A'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'address'?",
+            "en": "How many letters are there in the word 'address'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'address'?",
+            "en": "How many letters are there in the word 'address'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'address': 1, 2, 3...",
+            "en": "Count the letters in 'address': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'address' has exactly 7 letters.",
+            "en": "The word 'address' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'address':",
+            "en": "Choose the correct phrase with 'address':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'address':",
+            "en": "Choose the correct phrase with 'address':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an address'.",
+            "en": "Correct! We say 'an address'."
+          },
+          "data": {
+            "options": [
+              "an address",
+              "a address",
+              "two address",
+              "many address"
+            ],
+            "correct_answer": "an address"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'address'.",
+            "en": "Choose the word: 'address'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is address. It is wonderful!'",
+            "en": "We say: 'Look! This is address. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "address",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "address"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Starter: Welcome to Grade 5!'?",
+            "en": "Which English sentence best summarizes the topic 'Starter: Welcome to Grade 5!'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Starter: Welcome to Grade 5!'?",
+            "en": "Which English sentence best summarizes the topic 'Starter: Welcome to Grade 5!'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Starter: Welcome to Grade 5!'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Starter: Welcome to Grade 5!'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: address, lane!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: address, lane!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e5_s1_2",
+      "title": {
+        "vi": "Unit 1: Hometown Description",
+        "en": "Unit 1: Hometown Description"
+      },
+      "description": {
+        "vi": "What's your hometown like? - It's small, quiet, and peaceful",
+        "en": "What's your hometown like? - It's small, quiet, and peaceful"
+      },
+      "icon": "🏞️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e5_s1_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the serene countryside village with green paddy fields and a gentle river. What is the hometown like?",
+            "en": "Look at the serene countryside village with green paddy fields and a gentle river. What is the hometown like?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the serene countryside village with green paddy fields and a gentle river. What is the hometown like?",
+            "en": "Look at the serene countryside village with green paddy fields and a gentle river. What is the hometown like?"
+          },
+          "hint": {
+            "vi": "Tranquil natural landscape.",
+            "en": "Tranquil natural landscape."
+          },
+          "explanation": {
+            "vi": "The hometown is peaceful and green.",
+            "en": "The hometown is peaceful and green."
+          },
+          "data": {
+            "options": [
+              "It is peaceful, quiet, and green.",
+              "It is noisy, dark, and scary.",
+              "It is crowded with factory smoke.",
+              "It is frozen in snow."
+            ],
+            "correct_answer": "It is peaceful, quiet, and green."
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u1_hometown.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s1_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'peaceful'?",
+            "en": "What is the first letter of the word 'peaceful'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'peaceful'?",
+            "en": "What is the first letter of the word 'peaceful'?"
+          },
+          "hint": {
+            "vi": "The word 'peaceful' starts with the letter P.",
+            "en": "The word 'peaceful' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'peaceful' begins with the letter 'P'.",
+            "en": "Correct! 'peaceful' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "peaceful",
+                  "en": "peaceful"
+                },
+                "right": {
+                  "vi": "Nghĩa của peaceful",
+                  "en": "Nghĩa của peaceful"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "quiet",
+                  "en": "quiet"
+                },
+                "right": {
+                  "vi": "Nghĩa của quiet",
+                  "en": "Nghĩa của quiet"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "crowded",
+                  "en": "crowded"
+                },
+                "right": {
+                  "vi": "Nghĩa của crowded",
+                  "en": "Nghĩa của crowded"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? My hometown is a peaceful coastal village.",
+            "en": "Is this English sentence correct for Grade 5? My hometown is a peaceful coastal village."
+          },
+          "hint": {
+            "vi": "Remember the pattern: My hometown is a peaceful coastal village.",
+            "en": "Remember the pattern: My hometown is a peaceful coastal village."
+          },
+          "explanation": {
+            "vi": "Yes! 'My hometown is a peaceful coastal village.' is a correct English sentence.",
+            "en": "Yes! 'My hometown is a peaceful coastal village.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "My hometown is a peaceful coastal village.",
+              "en": "My hometown is a peaceful coastal village."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: My hometown is a peaceful coastal ....",
+            "en": "Drag the correct word to complete the sentence: My hometown is a peaceful coastal ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'village'.",
+            "en": "Choose the correct word: 'village'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'My hometown is a peaceful coastal village.'.",
+            "en": "The complete sentence is: 'My hometown is a peaceful coastal village.'."
+          },
+          "data": {
+            "prefix_text": "My hometown is a peaceful coastal ",
+            "suffix_text": ".",
+            "options": [
+              "village",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "village"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'peaceful':",
+            "en": "Spell the English word 'peaceful':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'peaceful':",
+            "en": "Spell the English word 'peaceful':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'peaceful'.",
+            "en": "Tap the letters in order to spell 'peaceful'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'peaceful' correctly.",
+            "en": "Well done! You spelled 'peaceful' correctly."
+          },
+          "data": {
+            "letters": [
+              "l",
+              "u",
+              "f",
+              "e",
+              "c",
+              "a",
+              "e",
+              "p"
+            ],
+            "target_word": "peaceful",
+            "target_sequence": [
+              "p",
+              "e",
+              "a",
+              "c",
+              "e",
+              "f",
+              "u",
+              "l"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Quê hương của tôi là một ngôi làng ven biển yên bình.' in English?",
+            "en": "How do you say 'Quê hương của tôi là một ngôi làng ven biển yên bình.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Quê hương của tôi là một ngôi làng ven biển yên bình.' in English?",
+            "en": "How do you say 'Quê hương của tôi là một ngôi làng ven biển yên bình.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Quê hương của tôi là một ngôi làng ven biển yên bình.",
+            "en": "Choose the English sentence that means: Quê hương của tôi là một ngôi làng ven biển yên bình."
+          },
+          "explanation": {
+            "vi": "'My hometown is a peaceful coastal village.' means 'Quê hương của tôi là một ngôi làng ven biển yên bình.'.",
+            "en": "'My hometown is a peaceful coastal village.' means 'Quê hương của tôi là một ngôi làng ven biển yên bình.'."
+          },
+          "data": {
+            "options": [
+              "My hometown is a peaceful coastal village.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "My hometown is a peaceful coastal village."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 1: Hometown Description'?",
+            "en": "Which of the following is a key word from Unit 'Unit 1: Hometown Description'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 1: Hometown Description'?",
+            "en": "Which of the following is a key word from Unit 'Unit 1: Hometown Description'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 1: Hometown Description.",
+            "en": "Remember the words in topic: Unit 1: Hometown Description."
+          },
+          "explanation": {
+            "vi": "'peaceful' is a key vocabulary word in this topic.",
+            "en": "'peaceful' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "peaceful",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "peaceful"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'quiet' start with the sound /p/?",
+            "en": "Does the word 'quiet' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'quiet' start with the sound /p/? The word 'quiet' starts with letter 'P'.",
+            "en": "Does the word 'quiet' start with the sound /p/? The word 'quiet' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'quiet'.",
+            "en": "Listen to the first sound of 'quiet'."
+          },
+          "explanation": {
+            "vi": "Yes! 'quiet' starts with the sound /p/.",
+            "en": "Yes! 'quiet' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'quiet' starts with letter 'P'.",
+              "en": "The word 'quiet' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'peaceful'?",
+            "en": "How many letters are there in the word 'peaceful'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'peaceful'?",
+            "en": "How many letters are there in the word 'peaceful'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'peaceful': 1, 2, 3...",
+            "en": "Count the letters in 'peaceful': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'peaceful' has exactly 8 letters.",
+            "en": "The word 'peaceful' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'peaceful':",
+            "en": "Choose the correct phrase with 'peaceful':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'peaceful':",
+            "en": "Choose the correct phrase with 'peaceful':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a peaceful'.",
+            "en": "Correct! We say 'a peaceful'."
+          },
+          "data": {
+            "options": [
+              "a peaceful",
+              "an peaceful",
+              "two peaceful",
+              "many peaceful"
+            ],
+            "correct_answer": "a peaceful"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'peaceful'.",
+            "en": "Choose the word: 'peaceful'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is peaceful. It is wonderful!'",
+            "en": "We say: 'Look! This is peaceful. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "peaceful",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "peaceful"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s1_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 1: Hometown Description'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 1: Hometown Description'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 1: Hometown Description'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 1: Hometown Description'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 1: Hometown Description'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 1: Hometown Description'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: peaceful, quiet!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: peaceful, quiet!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

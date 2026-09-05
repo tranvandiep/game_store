@@ -1,0 +1,1136 @@
+{
+  "id": "v2_stage_4",
+  "stage_number": 4,
+  "title": {
+    "vi": "Tuần 4: Tình Bạn & Sự Thấu Hiểu",
+    "en": "Tuần 4: Tình Bạn & Sự Thấu Hiểu"
+  },
+  "subtitle": {
+    "vi": "Bài 7 & 8 - Cây xấu hổ & Cầu thủ dự bị",
+    "en": "Bài 7 & 8 - Cây xấu hổ & Cầu thủ dự bị"
+  },
+  "icon": "⚽",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.863,
+  "required_stars": 9,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "v2_t4_1",
+      "title": {
+        "vi": "Tập đọc: Cây xấu hổ",
+        "en": "Tập đọc: Cây xấu hổ"
+      },
+      "description": {
+        "vi": "Thiên nhiên kỳ diệu và sự khiêm nhường",
+        "en": "Thiên nhiên kỳ diệu và sự khiêm nhường"
+      },
+      "icon": "🌿",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t4_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Loài cây nhỏ ven đường nào có khả năng khép lá lại khi có chú bướm bay qua?",
+            "en": "Loài cây nhỏ ven đường nào có khả năng khép lá lại khi có chú bướm bay qua?"
+          },
+          "tts_prompt": {
+            "vi": "Loài cây nhỏ ven đường nào có khả năng khép lá lại khi có chú bướm bay qua?",
+            "en": "Loài cây nhỏ ven đường nào có khả năng khép lá lại khi có chú bướm bay qua?"
+          },
+          "hint": {
+            "vi": "Cây nhỏ e ấp khép từng cánh lá mảnh mai.",
+            "en": "Cây nhỏ e ấp khép từng cánh lá mảnh mai."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài tập đọc: 'Cây xấu hổ'.",
+            "en": "Bức tranh minh hoạ bài tập đọc: 'Cây xấu hổ'."
+          },
+          "data": {
+            "options": [
+              "cây xấu hổ",
+              "cây cổ thụ",
+              "cây thông",
+              "cây dừa"
+            ],
+            "correct_answer": "cây xấu hổ"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_cay_xau_ho.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cây xấu hổ'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cây xấu hổ'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cây xấu hổ'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cây xấu hổ'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'cây xấu hổ' và 'khép lá' cùng thuộc chủ điểm bài học.",
+            "en": "'cây xấu hổ' và 'khép lá' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "khép lá",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "khép lá"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cây xấu hổ",
+                  "en": "cây xấu hổ"
+                },
+                "right": {
+                  "vi": "Nghĩa của cây xấu hổ",
+                  "en": "Nghĩa của cây xấu hổ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "khép lá",
+                  "en": "khép lá"
+                },
+                "right": {
+                  "vi": "Nghĩa của khép lá",
+                  "en": "Nghĩa của khép lá"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "bướm xanh",
+                  "en": "bướm xanh"
+                },
+                "right": {
+                  "vi": "Nghĩa của bướm xanh",
+                  "en": "Nghĩa của bướm xanh"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cây xấu hổ' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cây xấu hổ' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'cây xấu hổ' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'cây xấu hổ' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'cây xấu hổ' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'cây xấu hổ' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cây xấu hổ'.",
+            "en": "Từ chính xác là 'cây xấu hổ'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "cây xấu hổ",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "cây xấu hổ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'câyxấuhổ':",
+            "en": "Ghép các chữ cái để tạo thành từ 'câyxấuhổ':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'câyxấuhổ':",
+            "en": "Ghép các chữ cái để tạo thành từ 'câyxấuhổ':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'câyxấuhổ'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'câyxấuhổ'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'câyxấuhổ'.",
+            "en": "Ghép các chữ cái tạo thành 'câyxấuhổ'."
+          },
+          "data": {
+            "letters": [
+              "ổ",
+              "h",
+              "u",
+              "ấ",
+              "x",
+              "y",
+              "â",
+              "c"
+            ],
+            "target_word": "câyxấuhổ",
+            "target_sequence": [
+              "c",
+              "â",
+              "y",
+              "x",
+              "ấ",
+              "u",
+              "h",
+              "ổ"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'cây xấu hổ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cây xấu hổ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'cây xấu hổ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cây xấu hổ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'cây xấu hổ'.",
+            "en": "Xác định bản chất của từ 'cây xấu hổ'."
+          },
+          "explanation": {
+            "vi": "'cây xấu hổ' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'cây xấu hổ' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Cây xấu hổ'.",
+            "en": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Cây xấu hổ'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Cây xấu hổ",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Cây xấu hổ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Cây xấu hổ (cây trinh nữ) tự động khép lá khi chạm vào.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Cây xấu hổ (cây trinh nữ) tự động khép lá khi chạm vào."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Cây xấu hổ (cây trinh nữ) tự động khép lá khi chạm vào.",
+            "en": "Đúng! Cây xấu hổ (cây trinh nữ) tự động khép lá khi chạm vào."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cây xấu hổ (cây trinh nữ) tự động khép lá khi chạm vào.",
+              "en": "Cây xấu hổ (cây trinh nữ) tự động khép lá khi chạm vào."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại..",
+            "en": "Đếm từng tiếng trong câu: Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.."
+          },
+          "explanation": {
+            "vi": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' có đúng 11 tiếng.",
+            "en": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' có đúng 11 tiếng."
+          },
+          "data": {
+            "correct_number": "11",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' Cây ... hổ e thẹn khép những chiếc lá nhỏ lại.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.' Cây ... hổ e thẹn khép những chiếc lá nhỏ lại."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại..",
+            "en": "Nhớ lại câu mẫu trong bài học: Cây xấu hổ e thẹn khép những chiếc lá nhỏ lại.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'xấu'.",
+            "en": "Từ chính xác là 'xấu'."
+          },
+          "data": {
+            "prefix_text": "Cây ",
+            "suffix_text": " hổ e thẹn khép những chiếc lá nhỏ lại.",
+            "options": [
+              "xấu",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "xấu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cây xấu hổ' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cây xấu hổ' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cây xấu hổ' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cây xấu hổ' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý cây xấu hổ.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý cây xấu hổ.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý cây xấu hổ.",
+              "cây xấu hổ đang bay trên trời cao.",
+              "cây xấu hổ nở hoa rực rỡ.",
+              "cây xấu hổ có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý cây xấu hổ."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Cây xấu hổ', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Cây xấu hổ', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Cây xấu hổ', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Cây xấu hổ', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương cây xấu hổ",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương cây xấu hổ"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t4_2",
+      "title": {
+        "vi": "Tập đọc: Cầu thủ dự bị",
+        "en": "Tập đọc: Cầu thủ dự bị"
+      },
+      "description": {
+        "vi": "Tinh thần đồng đội và nỗ lực không ngừng",
+        "en": "Tinh thần đồng đội và nỗ lực không ngừng"
+      },
+      "icon": "🏃",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t4_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Môn thể thao sôi nổi nào các bạn nhỏ đang thi đấu hào hứng trên sân cỏ trong tranh?",
+            "en": "Môn thể thao sôi nổi nào các bạn nhỏ đang thi đấu hào hứng trên sân cỏ trong tranh?"
+          },
+          "tts_prompt": {
+            "vi": "Môn thể thao sôi nổi nào các bạn nhỏ đang thi đấu hào hứng trên sân cỏ trong tranh?",
+            "en": "Môn thể thao sôi nổi nào các bạn nhỏ đang thi đấu hào hứng trên sân cỏ trong tranh?"
+          },
+          "hint": {
+            "vi": "Các bạn cùng đuổi theo trái bóng tròn trên sân cỏ xanh.",
+            "en": "Các bạn cùng đuổi theo trái bóng tròn trên sân cỏ xanh."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài đọc: 'Cầu thủ dự bị'.",
+            "en": "Bức tranh minh hoạ bài đọc: 'Cầu thủ dự bị'."
+          },
+          "data": {
+            "options": [
+              "đá bóng",
+              "đua thuyền",
+              "bắn cung",
+              "bơi lội"
+            ],
+            "correct_answer": "đá bóng"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_cau_thu_du_bi.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cầu thủ'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cầu thủ'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cầu thủ'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cầu thủ'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'cầu thủ' và 'bóng đá' cùng thuộc chủ điểm bài học.",
+            "en": "'cầu thủ' và 'bóng đá' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "bóng đá",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "bóng đá"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cầu thủ",
+                  "en": "cầu thủ"
+                },
+                "right": {
+                  "vi": "Nghĩa của cầu thủ",
+                  "en": "Nghĩa của cầu thủ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bóng đá",
+                  "en": "bóng đá"
+                },
+                "right": {
+                  "vi": "Nghĩa của bóng đá",
+                  "en": "Nghĩa của bóng đá"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "dự bị",
+                  "en": "dự bị"
+                },
+                "right": {
+                  "vi": "Nghĩa của dự bị",
+                  "en": "Nghĩa của dự bị"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cầu thủ' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cầu thủ' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'cầu thủ' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'cầu thủ' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'cầu thủ' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'cầu thủ' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cầu thủ'.",
+            "en": "Từ chính xác là 'cầu thủ'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "cầu thủ",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "cầu thủ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cầuthủ':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cầuthủ':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cầuthủ':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cầuthủ':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'cầuthủ'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'cầuthủ'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'cầuthủ'.",
+            "en": "Ghép các chữ cái tạo thành 'cầuthủ'."
+          },
+          "data": {
+            "letters": [
+              "ủ",
+              "h",
+              "t",
+              "u",
+              "ầ",
+              "c"
+            ],
+            "target_word": "cầuthủ",
+            "target_sequence": [
+              "c",
+              "ầ",
+              "u",
+              "t",
+              "h",
+              "ủ"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'cầu thủ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cầu thủ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'cầu thủ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cầu thủ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'cầu thủ'.",
+            "en": "Xác định bản chất của từ 'cầu thủ'."
+          },
+          "explanation": {
+            "vi": "'cầu thủ' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'cầu thủ' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Cầu thủ dự bị'.",
+            "en": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Cầu thủ dự bị'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Cầu thủ dự bị",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Cầu thủ dự bị"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Kiên trì rèn luyện và đoàn kết là chìa khoá thành công.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Kiên trì rèn luyện và đoàn kết là chìa khoá thành công."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Kiên trì rèn luyện và đoàn kết là chìa khoá thành công.",
+            "en": "Đúng! Kiên trì rèn luyện và đoàn kết là chìa khoá thành công."
+          },
+          "data": {
+            "statement": {
+              "vi": "Kiên trì rèn luyện và đoàn kết là chìa khoá thành công.",
+              "en": "Kiên trì rèn luyện và đoàn kết là chìa khoá thành công."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc..",
+            "en": "Đếm từng tiếng trong câu: Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.."
+          },
+          "explanation": {
+            "vi": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' có đúng 12 tiếng.",
+            "en": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' Dũng ... trì tập luyện và trở thành cầu thủ xuất sắc.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.' Dũng ... trì tập luyện và trở thành cầu thủ xuất sắc."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc..",
+            "en": "Nhớ lại câu mẫu trong bài học: Dũng kiên trì tập luyện và trở thành cầu thủ xuất sắc.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'kiên'.",
+            "en": "Từ chính xác là 'kiên'."
+          },
+          "data": {
+            "prefix_text": "Dũng ",
+            "suffix_text": " trì tập luyện và trở thành cầu thủ xuất sắc.",
+            "options": [
+              "kiên",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "kiên"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cầu thủ' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cầu thủ' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cầu thủ' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cầu thủ' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý cầu thủ.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý cầu thủ.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý cầu thủ.",
+              "cầu thủ đang bay trên trời cao.",
+              "cầu thủ nở hoa rực rỡ.",
+              "cầu thủ có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý cầu thủ."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t4_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Cầu thủ dự bị', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Cầu thủ dự bị', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Cầu thủ dự bị', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Cầu thủ dự bị', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương cầu thủ",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương cầu thủ"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

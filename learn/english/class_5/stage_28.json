@@ -1,0 +1,1152 @@
+{
+  "id": "e5_stage_28",
+  "stage_number": 28,
+  "title": {
+    "vi": "Week 28: World Wonders Exploration",
+    "en": "Week 28: World Wonders Exploration"
+  },
+  "subtitle": {
+    "vi": "Landmarks: Big Ben Clock (London), Eiffel Tower (Paris), Sydney Opera House (Australia)",
+    "en": "Landmarks: Big Ben Clock (London), Eiffel Tower (Paris), Sydney Opera House (Australia)"
+  },
+  "icon": "🎡",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.166,
+  "required_stars": 81,
+  "theme_color": "0xFF0D9488",
+  "topics": [
+    {
+      "id": "e5_s28_1",
+      "title": {
+        "vi": "The Famous London Eye & Big Ben",
+        "en": "The Famous London Eye & Big Ben"
+      },
+      "description": {
+        "vi": "Which place would you like to visit in London? - I'd like to see Big Ben and ride the London Eye",
+        "en": "Which place would you like to visit in London? - I'd like to see Big Ben and ride the London Eye"
+      },
+      "icon": "🎡",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e5_s28_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the iconic giant observation wheel on the South Bank of the River Thames in London. What landmark is it?",
+            "en": "Look at the iconic giant observation wheel on the South Bank of the River Thames in London. What landmark is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the iconic giant observation wheel on the South Bank of the River Thames in London. What landmark is it?",
+            "en": "Look at the iconic giant observation wheel on the South Bank of the River Thames in London. What landmark is it?"
+          },
+          "hint": {
+            "vi": "Giant observation ferris wheel in London.",
+            "en": "Giant observation ferris wheel in London."
+          },
+          "explanation": {
+            "vi": "It's the famous London Eye.",
+            "en": "It's the famous London Eye."
+          },
+          "data": {
+            "options": [
+              "the London Eye and Big Ben",
+              "Golden Gate Bridge",
+              "Taj Mahal",
+              "Pyramids of Giza"
+            ],
+            "correct_answer": "the London Eye and Big Ben"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u19_london_eye.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s28_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'London Eye'?",
+            "en": "What is the first letter of the word 'London Eye'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'London Eye'?",
+            "en": "What is the first letter of the word 'London Eye'?"
+          },
+          "hint": {
+            "vi": "The word 'London Eye' starts with the letter L.",
+            "en": "The word 'London Eye' starts with the letter L."
+          },
+          "explanation": {
+            "vi": "Correct! 'London Eye' begins with the letter 'L'.",
+            "en": "Correct! 'London Eye' begins with the letter 'L'."
+          },
+          "data": {
+            "options": [
+              "Letter L",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter L"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "London Eye",
+                  "en": "London Eye"
+                },
+                "right": {
+                  "vi": "Nghĩa của London Eye",
+                  "en": "Nghĩa của London Eye"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Big Ben",
+                  "en": "Big Ben"
+                },
+                "right": {
+                  "vi": "Nghĩa của Big Ben",
+                  "en": "Nghĩa của Big Ben"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "London",
+                  "en": "London"
+                },
+                "right": {
+                  "vi": "Nghĩa của London",
+                  "en": "Nghĩa của London"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? The giant London Eye ferris wheel gives a panorama of London.",
+            "en": "Is this English sentence correct for Grade 5? The giant London Eye ferris wheel gives a panorama of London."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The giant London Eye ferris wheel gives a panorama of London.",
+            "en": "Remember the pattern: The giant London Eye ferris wheel gives a panorama of London."
+          },
+          "explanation": {
+            "vi": "Yes! 'The giant London Eye ferris wheel gives a panorama of London.' is a correct English sentence.",
+            "en": "Yes! 'The giant London Eye ferris wheel gives a panorama of London.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The giant London Eye ferris wheel gives a panorama of London.",
+              "en": "The giant London Eye ferris wheel gives a panorama of London."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The giant London Eye ferris wheel gives a panorama of ....",
+            "en": "Drag the correct word to complete the sentence: The giant London Eye ferris wheel gives a panorama of ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'London'.",
+            "en": "Choose the correct word: 'London'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The giant London Eye ferris wheel gives a panorama of London.'.",
+            "en": "The complete sentence is: 'The giant London Eye ferris wheel gives a panorama of London.'."
+          },
+          "data": {
+            "prefix_text": "The giant London Eye ferris wheel gives a panorama of ",
+            "suffix_text": ".",
+            "options": [
+              "London",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "London"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'london eye':",
+            "en": "Spell the English word 'london eye':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'london eye':",
+            "en": "Spell the English word 'london eye':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'london eye'.",
+            "en": "Tap the letters in order to spell 'london eye'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'london eye' correctly.",
+            "en": "Well done! You spelled 'london eye' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "y",
+              "e",
+              " ",
+              "n",
+              "o",
+              "d",
+              "n",
+              "o",
+              "l"
+            ],
+            "target_word": "london eye",
+            "target_sequence": [
+              "l",
+              "o",
+              "n",
+              "d",
+              "o",
+              "n",
+              " ",
+              "e",
+              "y",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Vòng quay khổng lồ London Eye mang đến góc nhìn toàn cảnh thành phố Luân Đôn.' in English?",
+            "en": "How do you say 'Vòng quay khổng lồ London Eye mang đến góc nhìn toàn cảnh thành phố Luân Đôn.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Vòng quay khổng lồ London Eye mang đến góc nhìn toàn cảnh thành phố Luân Đôn.' in English?",
+            "en": "How do you say 'Vòng quay khổng lồ London Eye mang đến góc nhìn toàn cảnh thành phố Luân Đôn.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Vòng quay khổng lồ London Eye mang đến góc nhìn toàn cảnh thành phố Luân Đôn.",
+            "en": "Choose the English sentence that means: Vòng quay khổng lồ London Eye mang đến góc nhìn toàn cảnh thành phố Luân Đôn."
+          },
+          "explanation": {
+            "vi": "'The giant London Eye ferris wheel gives a panorama of London.' means 'Vòng quay khổng lồ London Eye mang đến góc nhìn toàn cảnh thành phố Luân Đôn.'.",
+            "en": "'The giant London Eye ferris wheel gives a panorama of London.' means 'Vòng quay khổng lồ London Eye mang đến góc nhìn toàn cảnh thành phố Luân Đôn.'."
+          },
+          "data": {
+            "options": [
+              "The giant London Eye ferris wheel gives a panorama of London.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The giant London Eye ferris wheel gives a panorama of London."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'The Famous London Eye & Big Ben'?",
+            "en": "Which of the following is a key word from Unit 'The Famous London Eye & Big Ben'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'The Famous London Eye & Big Ben'?",
+            "en": "Which of the following is a key word from Unit 'The Famous London Eye & Big Ben'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: The Famous London Eye & Big Ben.",
+            "en": "Remember the words in topic: The Famous London Eye & Big Ben."
+          },
+          "explanation": {
+            "vi": "'London Eye' is a key vocabulary word in this topic.",
+            "en": "'London Eye' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "London Eye",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "London Eye"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Big Ben' start with the sound /l/?",
+            "en": "Does the word 'Big Ben' start with the sound /l/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Big Ben' start with the sound /l/? The word 'Big Ben' starts with letter 'L'.",
+            "en": "Does the word 'Big Ben' start with the sound /l/? The word 'Big Ben' starts with letter 'L'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Big Ben'.",
+            "en": "Listen to the first sound of 'Big Ben'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Big Ben' starts with the sound /l/.",
+            "en": "Yes! 'Big Ben' starts with the sound /l/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Big Ben' starts with letter 'L'.",
+              "en": "The word 'Big Ben' starts with letter 'L'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'london eye'?",
+            "en": "How many letters are there in the word 'london eye'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'london eye'?",
+            "en": "How many letters are there in the word 'london eye'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'london eye': 1, 2, 3...",
+            "en": "Count the letters in 'london eye': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'london eye' has exactly 10 letters.",
+            "en": "The word 'london eye' has exactly 10 letters."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'london eye':",
+            "en": "Choose the correct phrase with 'london eye':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'london eye':",
+            "en": "Choose the correct phrase with 'london eye':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a london eye'.",
+            "en": "Correct! We say 'a london eye'."
+          },
+          "data": {
+            "options": [
+              "a london eye",
+              "an london eye",
+              "two london eye",
+              "many london eye"
+            ],
+            "correct_answer": "a london eye"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'London Eye'.",
+            "en": "Choose the word: 'London Eye'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is London Eye. It is wonderful!'",
+            "en": "We say: 'Look! This is London Eye. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "London Eye",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "London Eye"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'The Famous London Eye & Big Ben'?",
+            "en": "Which English sentence best summarizes the topic 'The Famous London Eye & Big Ben'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'The Famous London Eye & Big Ben'?",
+            "en": "Which English sentence best summarizes the topic 'The Famous London Eye & Big Ben'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'The Famous London Eye & Big Ben'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'The Famous London Eye & Big Ben'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: London Eye, Big Ben!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: London Eye, Big Ben!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e5_s28_2",
+      "title": {
+        "vi": "The Eiffel Tower in Paris, France",
+        "en": "The Eiffel Tower in Paris, France"
+      },
+      "description": {
+        "vi": "The iron lattice tower illuminates the Paris night sky",
+        "en": "The iron lattice tower illuminates the Paris night sky"
+      },
+      "icon": "🗼",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e5_s28_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the wrought-iron lattice tower standing tall on the Champ de Mars in Paris. What landmark is it?",
+            "en": "Look at the wrought-iron lattice tower standing tall on the Champ de Mars in Paris. What landmark is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the wrought-iron lattice tower standing tall on the Champ de Mars in Paris. What landmark is it?",
+            "en": "Look at the wrought-iron lattice tower standing tall on the Champ de Mars in Paris. What landmark is it?"
+          },
+          "hint": {
+            "vi": "Iconic iron architectural landmark of France.",
+            "en": "Iconic iron architectural landmark of France."
+          },
+          "explanation": {
+            "vi": "It's the Eiffel Tower in Paris.",
+            "en": "It's the Eiffel Tower in Paris."
+          },
+          "data": {
+            "options": [
+              "the Eiffel Tower in Paris",
+              "Leaning Tower of Pisa",
+              "Colosseum",
+              "Great Wall of China"
+            ],
+            "correct_answer": "the Eiffel Tower in Paris"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u19_eiffel_tower.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s28_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'Eiffel Tower'?",
+            "en": "What is the first letter of the word 'Eiffel Tower'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'Eiffel Tower'?",
+            "en": "What is the first letter of the word 'Eiffel Tower'?"
+          },
+          "hint": {
+            "vi": "The word 'Eiffel Tower' starts with the letter E.",
+            "en": "The word 'Eiffel Tower' starts with the letter E."
+          },
+          "explanation": {
+            "vi": "Correct! 'Eiffel Tower' begins with the letter 'E'.",
+            "en": "Correct! 'Eiffel Tower' begins with the letter 'E'."
+          },
+          "data": {
+            "options": [
+              "Letter E",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter E"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Eiffel Tower",
+                  "en": "Eiffel Tower"
+                },
+                "right": {
+                  "vi": "Nghĩa của Eiffel Tower",
+                  "en": "Nghĩa của Eiffel Tower"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Paris",
+                  "en": "Paris"
+                },
+                "right": {
+                  "vi": "Nghĩa của Paris",
+                  "en": "Nghĩa của Paris"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "France",
+                  "en": "France"
+                },
+                "right": {
+                  "vi": "Nghĩa của France",
+                  "en": "Nghĩa của France"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? The Eiffel Tower is the world-famous iron monument in Paris.",
+            "en": "Is this English sentence correct for Grade 5? The Eiffel Tower is the world-famous iron monument in Paris."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The Eiffel Tower is the world-famous iron monument in Paris.",
+            "en": "Remember the pattern: The Eiffel Tower is the world-famous iron monument in Paris."
+          },
+          "explanation": {
+            "vi": "Yes! 'The Eiffel Tower is the world-famous iron monument in Paris.' is a correct English sentence.",
+            "en": "Yes! 'The Eiffel Tower is the world-famous iron monument in Paris.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The Eiffel Tower is the world-famous iron monument in Paris.",
+              "en": "The Eiffel Tower is the world-famous iron monument in Paris."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The Eiffel Tower is the world-famous iron monument in ....",
+            "en": "Drag the correct word to complete the sentence: The Eiffel Tower is the world-famous iron monument in ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Paris'.",
+            "en": "Choose the correct word: 'Paris'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The Eiffel Tower is the world-famous iron monument in Paris.'.",
+            "en": "The complete sentence is: 'The Eiffel Tower is the world-famous iron monument in Paris.'."
+          },
+          "data": {
+            "prefix_text": "The Eiffel Tower is the world-famous iron monument in ",
+            "suffix_text": ".",
+            "options": [
+              "Paris",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Paris"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'eiffel tower':",
+            "en": "Spell the English word 'eiffel tower':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'eiffel tower':",
+            "en": "Spell the English word 'eiffel tower':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'eiffel tower'.",
+            "en": "Tap the letters in order to spell 'eiffel tower'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'eiffel tower' correctly.",
+            "en": "Well done! You spelled 'eiffel tower' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "w",
+              "o",
+              "t",
+              " ",
+              "l",
+              "e",
+              "f",
+              "f",
+              "i",
+              "e"
+            ],
+            "target_word": "eiffel tower",
+            "target_sequence": [
+              "e",
+              "i",
+              "f",
+              "f",
+              "e",
+              "l",
+              " ",
+              "t",
+              "o",
+              "w",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tháp Eiffel là công trình bằng sắt nổi tiếng thế giới tại Paris.' in English?",
+            "en": "How do you say 'Tháp Eiffel là công trình bằng sắt nổi tiếng thế giới tại Paris.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tháp Eiffel là công trình bằng sắt nổi tiếng thế giới tại Paris.' in English?",
+            "en": "How do you say 'Tháp Eiffel là công trình bằng sắt nổi tiếng thế giới tại Paris.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tháp Eiffel là công trình bằng sắt nổi tiếng thế giới tại Paris.",
+            "en": "Choose the English sentence that means: Tháp Eiffel là công trình bằng sắt nổi tiếng thế giới tại Paris."
+          },
+          "explanation": {
+            "vi": "'The Eiffel Tower is the world-famous iron monument in Paris.' means 'Tháp Eiffel là công trình bằng sắt nổi tiếng thế giới tại Paris.'.",
+            "en": "'The Eiffel Tower is the world-famous iron monument in Paris.' means 'Tháp Eiffel là công trình bằng sắt nổi tiếng thế giới tại Paris.'."
+          },
+          "data": {
+            "options": [
+              "The Eiffel Tower is the world-famous iron monument in Paris.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The Eiffel Tower is the world-famous iron monument in Paris."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'The Eiffel Tower in Paris, France'?",
+            "en": "Which of the following is a key word from Unit 'The Eiffel Tower in Paris, France'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'The Eiffel Tower in Paris, France'?",
+            "en": "Which of the following is a key word from Unit 'The Eiffel Tower in Paris, France'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: The Eiffel Tower in Paris, France.",
+            "en": "Remember the words in topic: The Eiffel Tower in Paris, France."
+          },
+          "explanation": {
+            "vi": "'Eiffel Tower' is a key vocabulary word in this topic.",
+            "en": "'Eiffel Tower' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "Eiffel Tower",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "Eiffel Tower"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Paris' start with the sound /e/?",
+            "en": "Does the word 'Paris' start with the sound /e/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Paris' start with the sound /e/? The word 'Paris' starts with letter 'E'.",
+            "en": "Does the word 'Paris' start with the sound /e/? The word 'Paris' starts with letter 'E'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Paris'.",
+            "en": "Listen to the first sound of 'Paris'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Paris' starts with the sound /e/.",
+            "en": "Yes! 'Paris' starts with the sound /e/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Paris' starts with letter 'E'.",
+              "en": "The word 'Paris' starts with letter 'E'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'eiffel tower'?",
+            "en": "How many letters are there in the word 'eiffel tower'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'eiffel tower'?",
+            "en": "How many letters are there in the word 'eiffel tower'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'eiffel tower': 1, 2, 3...",
+            "en": "Count the letters in 'eiffel tower': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'eiffel tower' has exactly 12 letters.",
+            "en": "The word 'eiffel tower' has exactly 12 letters."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'eiffel tower':",
+            "en": "Choose the correct phrase with 'eiffel tower':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'eiffel tower':",
+            "en": "Choose the correct phrase with 'eiffel tower':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an eiffel tower'.",
+            "en": "Correct! We say 'an eiffel tower'."
+          },
+          "data": {
+            "options": [
+              "an eiffel tower",
+              "a eiffel tower",
+              "two eiffel tower",
+              "many eiffel tower"
+            ],
+            "correct_answer": "an eiffel tower"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'Eiffel Tower'.",
+            "en": "Choose the word: 'Eiffel Tower'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is Eiffel Tower. It is wonderful!'",
+            "en": "We say: 'Look! This is Eiffel Tower. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "Eiffel Tower",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "Eiffel Tower"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s28_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'The Eiffel Tower in Paris, France'?",
+            "en": "Which English sentence best summarizes the topic 'The Eiffel Tower in Paris, France'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'The Eiffel Tower in Paris, France'?",
+            "en": "Which English sentence best summarizes the topic 'The Eiffel Tower in Paris, France'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'The Eiffel Tower in Paris, France'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'The Eiffel Tower in Paris, France'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: Eiffel Tower, Paris!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: Eiffel Tower, Paris!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

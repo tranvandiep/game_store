@@ -1,0 +1,1126 @@
+{
+  "id": "e2_stage_9",
+  "stage_number": 9,
+  "title": {
+    "vi": "Week 9: Review 1 & Fun Time",
+    "en": "Week 9: Review 1 & Fun Time"
+  },
+  "subtitle": {
+    "vi": "Review Letters P, K, S, R & Phonics",
+    "en": "Review Letters P, K, S, R & Phonics"
+  },
+  "icon": "🎉",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.718,
+  "required_stars": 24,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e2_s9_1",
+      "title": {
+        "vi": "Review 1: Letters P, K, S, R",
+        "en": "Review 1: Letters P, K, S, R"
+      },
+      "description": {
+        "vi": "Phonics challenge: Pizza, Kite, Sun, Rainbow",
+        "en": "Phonics challenge: Pizza, Kite, Sun, Rainbow"
+      },
+      "icon": "🔤",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s9_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the review phonics board showing Pizza, Kite, Sun, and Rainbow. What letters are they?",
+            "en": "Look at the review phonics board showing Pizza, Kite, Sun, and Rainbow. What letters are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the review phonics board showing Pizza, Kite, Sun, and Rainbow. What letters are they?",
+            "en": "Look at the review phonics board showing Pizza, Kite, Sun, and Rainbow. What letters are they?"
+          },
+          "hint": {
+            "vi": "P for Pizza, K for Kite, S for Sun, R for Rainbow.",
+            "en": "P for Pizza, K for Kite, S for Sun, R for Rainbow."
+          },
+          "explanation": {
+            "vi": "They represent the Phonics letters P, K, S, and R.",
+            "en": "They represent the Phonics letters P, K, S, and R."
+          },
+          "data": {
+            "options": [
+              "Letters P, K, S, R",
+              "Letters A, B, C, D",
+              "Letters X, Y, Z",
+              "Numbers 1, 2, 3"
+            ],
+            "correct_answer": "Letters P, K, S, R"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_rev1_phonics.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s9_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'pizza'?",
+            "en": "What is the first letter of the word 'pizza'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'pizza'?",
+            "en": "What is the first letter of the word 'pizza'?"
+          },
+          "hint": {
+            "vi": "The word 'pizza' starts with the letter P.",
+            "en": "The word 'pizza' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'pizza' begins with the letter 'P'.",
+            "en": "Correct! 'pizza' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "pizza",
+                  "en": "pizza"
+                },
+                "right": {
+                  "vi": "Nghĩa của pizza",
+                  "en": "Nghĩa của pizza"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "kite",
+                  "en": "kite"
+                },
+                "right": {
+                  "vi": "Nghĩa của kite",
+                  "en": "Nghĩa của kite"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "sun",
+                  "en": "sun"
+                },
+                "right": {
+                  "vi": "Nghĩa của sun",
+                  "en": "Nghĩa của sun"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Review phonics sounds: /p/, /k/, /s/, /r/.",
+            "en": "Is this English sentence correct for Grade 2? Review phonics sounds: /p/, /k/, /s/, /r/."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Review phonics sounds: /p/, /k/, /s/, /r/.",
+            "en": "Remember the pattern: Review phonics sounds: /p/, /k/, /s/, /r/."
+          },
+          "explanation": {
+            "vi": "Yes! 'Review phonics sounds: /p/, /k/, /s/, /r/.' is a correct English sentence.",
+            "en": "Yes! 'Review phonics sounds: /p/, /k/, /s/, /r/.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Review phonics sounds: /p/, /k/, /s/, /r/.",
+              "en": "Review phonics sounds: /p/, /k/, /s/, /r/."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Review phonics sounds: /p/, /k/, /s/, ....",
+            "en": "Drag the correct word to complete the sentence: Review phonics sounds: /p/, /k/, /s/, ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: '/r/'.",
+            "en": "Choose the correct word: '/r/'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Review phonics sounds: /p/, /k/, /s/, /r/.'.",
+            "en": "The complete sentence is: 'Review phonics sounds: /p/, /k/, /s/, /r/.'."
+          },
+          "data": {
+            "prefix_text": "Review phonics sounds: /p/, /k/, /s/, ",
+            "suffix_text": ".",
+            "options": [
+              "/r/",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "/r/"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'pizza':",
+            "en": "Spell the English word 'pizza':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'pizza':",
+            "en": "Spell the English word 'pizza':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'pizza'.",
+            "en": "Tap the letters in order to spell 'pizza'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'pizza' correctly.",
+            "en": "Well done! You spelled 'pizza' correctly."
+          },
+          "data": {
+            "letters": [
+              "a",
+              "z",
+              "z",
+              "i",
+              "p"
+            ],
+            "target_word": "pizza",
+            "target_sequence": [
+              "p",
+              "i",
+              "z",
+              "z",
+              "a"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Ôn tập các âm phát âm: /p/, /k/, /s/, /r/.' in English?",
+            "en": "How do you say 'Ôn tập các âm phát âm: /p/, /k/, /s/, /r/.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Ôn tập các âm phát âm: /p/, /k/, /s/, /r/.' in English?",
+            "en": "How do you say 'Ôn tập các âm phát âm: /p/, /k/, /s/, /r/.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Ôn tập các âm phát âm: /p/, /k/, /s/, /r/.",
+            "en": "Choose the English sentence that means: Ôn tập các âm phát âm: /p/, /k/, /s/, /r/."
+          },
+          "explanation": {
+            "vi": "'Review phonics sounds: /p/, /k/, /s/, /r/.' means 'Ôn tập các âm phát âm: /p/, /k/, /s/, /r/.'.",
+            "en": "'Review phonics sounds: /p/, /k/, /s/, /r/.' means 'Ôn tập các âm phát âm: /p/, /k/, /s/, /r/.'."
+          },
+          "data": {
+            "options": [
+              "Review phonics sounds: /p/, /k/, /s/, /r/.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Review phonics sounds: /p/, /k/, /s/, /r/."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Review 1: Letters P, K, S, R'?",
+            "en": "Which of the following is a word from Unit 'Review 1: Letters P, K, S, R'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Review 1: Letters P, K, S, R'?",
+            "en": "Which of the following is a word from Unit 'Review 1: Letters P, K, S, R'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Review 1: Letters P, K, S, R.",
+            "en": "Remember the words in topic: Review 1: Letters P, K, S, R."
+          },
+          "explanation": {
+            "vi": "'pizza' is a key vocabulary word in this topic.",
+            "en": "'pizza' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "pizza",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "pizza"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'kite' start with the sound /p/?",
+            "en": "Does the word 'kite' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'kite' start with the sound /p/? The word 'kite' starts with letter 'P'.",
+            "en": "Does the word 'kite' start with the sound /p/? The word 'kite' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'kite'.",
+            "en": "Listen to the first sound of 'kite'."
+          },
+          "explanation": {
+            "vi": "Yes! 'kite' starts with the sound /p/.",
+            "en": "Yes! 'kite' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'kite' starts with letter 'P'.",
+              "en": "The word 'kite' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'pizza'?",
+            "en": "How many letters are there in the word 'pizza'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'pizza'?",
+            "en": "How many letters are there in the word 'pizza'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'pizza': 1, 2, 3...",
+            "en": "Count the letters in 'pizza': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'pizza' has exactly 5 letters.",
+            "en": "The word 'pizza' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'pizza':",
+            "en": "Choose the correct phrase with 'pizza':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'pizza':",
+            "en": "Choose the correct phrase with 'pizza':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a pizza'.",
+            "en": "Correct! We say 'a pizza'."
+          },
+          "data": {
+            "options": [
+              "a pizza",
+              "an pizza",
+              "five pizza",
+              "many pizza"
+            ],
+            "correct_answer": "a pizza"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'pizza'.",
+            "en": "Choose the food or object: 'pizza'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like pizza? - Yes, I do!'",
+            "en": "We ask: 'Do you like pizza? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "pizza",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "pizza"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Review 1: Letters P, K, S, R'?",
+            "en": "Which English sentence best describes the topic 'Review 1: Letters P, K, S, R'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Review 1: Letters P, K, S, R'?",
+            "en": "Which English sentence best describes the topic 'Review 1: Letters P, K, S, R'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Review 1: Letters P, K, S, R'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Review 1: Letters P, K, S, R'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: pizza, kite!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: pizza, kite!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s9_2",
+      "title": {
+        "vi": "Fun Time 1: Countryside Song & Game",
+        "en": "Fun Time 1: Countryside Song & Game"
+      },
+      "description": {
+        "vi": "Singing along to the Rainbow song",
+        "en": "Singing along to the Rainbow song"
+      },
+      "icon": "🎵",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s9_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the kids holding hands and singing in the countryside meadow. What are they doing?",
+            "en": "Look at the kids holding hands and singing in the countryside meadow. What are they doing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the kids holding hands and singing in the countryside meadow. What are they doing?",
+            "en": "Look at the kids holding hands and singing in the countryside meadow. What are they doing?"
+          },
+          "hint": {
+            "vi": "They have smiles and songbooks singing outdoors.",
+            "en": "They have smiles and songbooks singing outdoors."
+          },
+          "explanation": {
+            "vi": "They are singing the joyful Rainbow song together.",
+            "en": "They are singing the joyful Rainbow song together."
+          },
+          "data": {
+            "options": [
+              "singing a joyful English nature song",
+              "taking an exam",
+              "washing dishes",
+              "crying sadly"
+            ],
+            "correct_answer": "singing a joyful English nature song"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_rev1_song_game.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s9_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'song'?",
+            "en": "What is the first letter of the word 'song'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'song'?",
+            "en": "What is the first letter of the word 'song'?"
+          },
+          "hint": {
+            "vi": "The word 'song' starts with the letter S.",
+            "en": "The word 'song' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'song' begins with the letter 'S'.",
+            "en": "Correct! 'song' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "song",
+                  "en": "song"
+                },
+                "right": {
+                  "vi": "Nghĩa của song",
+                  "en": "Nghĩa của song"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "sing",
+                  "en": "sing"
+                },
+                "right": {
+                  "vi": "Nghĩa của sing",
+                  "en": "Nghĩa của sing"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "rainbow",
+                  "en": "rainbow"
+                },
+                "right": {
+                  "vi": "Nghĩa của rainbow",
+                  "en": "Nghĩa của rainbow"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Sing the beautiful Rainbow Song!",
+            "en": "Is this English sentence correct for Grade 2? Sing the beautiful Rainbow Song!"
+          },
+          "hint": {
+            "vi": "Remember the pattern: Sing the beautiful Rainbow Song!",
+            "en": "Remember the pattern: Sing the beautiful Rainbow Song!"
+          },
+          "explanation": {
+            "vi": "Yes! 'Sing the beautiful Rainbow Song!' is a correct English sentence.",
+            "en": "Yes! 'Sing the beautiful Rainbow Song!' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Sing the beautiful Rainbow Song!",
+              "en": "Sing the beautiful Rainbow Song!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Sing the beautiful Rainbow ....",
+            "en": "Drag the correct word to complete the sentence: Sing the beautiful Rainbow ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Song!'.",
+            "en": "Choose the correct word: 'Song!'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Sing the beautiful Rainbow Song!.'.",
+            "en": "The complete sentence is: 'Sing the beautiful Rainbow Song!.'."
+          },
+          "data": {
+            "prefix_text": "Sing the beautiful Rainbow ",
+            "suffix_text": ".",
+            "options": [
+              "Song!",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "Song!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'song':",
+            "en": "Spell the English word 'song':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'song':",
+            "en": "Spell the English word 'song':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'song'.",
+            "en": "Tap the letters in order to spell 'song'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'song' correctly.",
+            "en": "Well done! You spelled 'song' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "o",
+              "s"
+            ],
+            "target_word": "song",
+            "target_sequence": [
+              "s",
+              "o",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Hát vang bài ca Cầu vồng tươi đẹp!' in English?",
+            "en": "How do you say 'Hát vang bài ca Cầu vồng tươi đẹp!' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Hát vang bài ca Cầu vồng tươi đẹp!' in English?",
+            "en": "How do you say 'Hát vang bài ca Cầu vồng tươi đẹp!' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Hát vang bài ca Cầu vồng tươi đẹp!",
+            "en": "Choose the English sentence that means: Hát vang bài ca Cầu vồng tươi đẹp!"
+          },
+          "explanation": {
+            "vi": "'Sing the beautiful Rainbow Song!' means 'Hát vang bài ca Cầu vồng tươi đẹp!'.",
+            "en": "'Sing the beautiful Rainbow Song!' means 'Hát vang bài ca Cầu vồng tươi đẹp!'."
+          },
+          "data": {
+            "options": [
+              "Sing the beautiful Rainbow Song!",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Sing the beautiful Rainbow Song!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Fun Time 1: Countryside Song & Game'?",
+            "en": "Which of the following is a word from Unit 'Fun Time 1: Countryside Song & Game'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Fun Time 1: Countryside Song & Game'?",
+            "en": "Which of the following is a word from Unit 'Fun Time 1: Countryside Song & Game'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Fun Time 1: Countryside Song & Game.",
+            "en": "Remember the words in topic: Fun Time 1: Countryside Song & Game."
+          },
+          "explanation": {
+            "vi": "'song' is a key vocabulary word in this topic.",
+            "en": "'song' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "song",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "song"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'sing' start with the sound /s/?",
+            "en": "Does the word 'sing' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'sing' start with the sound /s/? The word 'sing' starts with letter 'S'.",
+            "en": "Does the word 'sing' start with the sound /s/? The word 'sing' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'sing'.",
+            "en": "Listen to the first sound of 'sing'."
+          },
+          "explanation": {
+            "vi": "Yes! 'sing' starts with the sound /s/.",
+            "en": "Yes! 'sing' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'sing' starts with letter 'S'.",
+              "en": "The word 'sing' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'song'?",
+            "en": "How many letters are there in the word 'song'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'song'?",
+            "en": "How many letters are there in the word 'song'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'song': 1, 2, 3...",
+            "en": "Count the letters in 'song': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'song' has exactly 4 letters.",
+            "en": "The word 'song' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'song':",
+            "en": "Choose the correct phrase with 'song':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'song':",
+            "en": "Choose the correct phrase with 'song':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a song'.",
+            "en": "Correct! We say 'a song'."
+          },
+          "data": {
+            "options": [
+              "a song",
+              "an song",
+              "five song",
+              "many song"
+            ],
+            "correct_answer": "a song"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'song'.",
+            "en": "Choose the food or object: 'song'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like song? - Yes, I do!'",
+            "en": "We ask: 'Do you like song? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "song",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "song"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s9_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Fun Time 1: Countryside Song & Game'?",
+            "en": "Which English sentence best describes the topic 'Fun Time 1: Countryside Song & Game'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Fun Time 1: Countryside Song & Game'?",
+            "en": "Which English sentence best describes the topic 'Fun Time 1: Countryside Song & Game'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Fun Time 1: Countryside Song & Game'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Fun Time 1: Countryside Song & Game'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: song, sing!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: song, sing!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

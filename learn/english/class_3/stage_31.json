@@ -1,0 +1,1126 @@
+{
+  "id": "e3_stage_31",
+  "stage_number": 31,
+  "title": {
+    "vi": "Week 31: Animal Traits & Habitats",
+    "en": "Week 31: Animal Traits & Habitats"
+  },
+  "subtitle": {
+    "vi": "Describing animals: The elephant is big, the monkey is swinging, the lion is roaring",
+    "en": "Describing animals: The elephant is big, the monkey is swinging, the lion is roaring"
+  },
+  "icon": "🦁",
+  "banner_image": null,
+  "x_percent": 0.2,
+  "y_percent": 0.079,
+  "required_stars": 90,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "e3_s31_1",
+      "title": {
+        "vi": "Roaring Lion - King of the Jungle",
+        "en": "Roaring Lion - King of the Jungle"
+      },
+      "description": {
+        "vi": "The lion has a golden mane and roars loudly",
+        "en": "The lion has a golden mane and roars loudly"
+      },
+      "icon": "🦁",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s31_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the majestic big cat with a thick golden mane around its neck. What animal is it?",
+            "en": "Look at the majestic big cat with a thick golden mane around its neck. What animal is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the majestic big cat with a thick golden mane around its neck. What animal is it?",
+            "en": "Look at the majestic big cat with a thick golden mane around its neck. What animal is it?"
+          },
+          "hint": {
+            "vi": "Known as the king of the beasts with a thick mane.",
+            "en": "Known as the king of the beasts with a thick mane."
+          },
+          "explanation": {
+            "vi": "It's a proud lion.",
+            "en": "It's a proud lion."
+          },
+          "data": {
+            "options": [
+              "a proud lion",
+              "a grey donkey",
+              "a spotted deer",
+              "a baby duck"
+            ],
+            "correct_answer": "a proud lion"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u20_proud_lion.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s31_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'lion'?",
+            "en": "What is the first letter of the word 'lion'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'lion'?",
+            "en": "What is the first letter of the word 'lion'?"
+          },
+          "hint": {
+            "vi": "The word 'lion' starts with the letter L.",
+            "en": "The word 'lion' starts with the letter L."
+          },
+          "explanation": {
+            "vi": "Correct! 'lion' begins with the letter 'L'.",
+            "en": "Correct! 'lion' begins with the letter 'L'."
+          },
+          "data": {
+            "options": [
+              "Letter L",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter L"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "lion",
+                  "en": "lion"
+                },
+                "right": {
+                  "vi": "Nghĩa của lion",
+                  "en": "Nghĩa của lion"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "roar",
+                  "en": "roar"
+                },
+                "right": {
+                  "vi": "Nghĩa của roar",
+                  "en": "Nghĩa của roar"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "mane",
+                  "en": "mane"
+                },
+                "right": {
+                  "vi": "Nghĩa của mane",
+                  "en": "Nghĩa của mane"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? The proud lion rests on the rocky cliff.",
+            "en": "Is this English sentence correct for Grade 3? The proud lion rests on the rocky cliff."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The proud lion rests on the rocky cliff.",
+            "en": "Remember the pattern: The proud lion rests on the rocky cliff."
+          },
+          "explanation": {
+            "vi": "Yes! 'The proud lion rests on the rocky cliff.' is a correct English sentence.",
+            "en": "Yes! 'The proud lion rests on the rocky cliff.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The proud lion rests on the rocky cliff.",
+              "en": "The proud lion rests on the rocky cliff."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The proud lion rests on the rocky ....",
+            "en": "Drag the correct word to complete the sentence: The proud lion rests on the rocky ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'cliff'.",
+            "en": "Choose the correct word: 'cliff'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The proud lion rests on the rocky cliff.'.",
+            "en": "The complete sentence is: 'The proud lion rests on the rocky cliff.'."
+          },
+          "data": {
+            "prefix_text": "The proud lion rests on the rocky ",
+            "suffix_text": ".",
+            "options": [
+              "cliff",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "cliff"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'lion':",
+            "en": "Spell the English word 'lion':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'lion':",
+            "en": "Spell the English word 'lion':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'lion'.",
+            "en": "Tap the letters in order to spell 'lion'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'lion' correctly.",
+            "en": "Well done! You spelled 'lion' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "o",
+              "i",
+              "l"
+            ],
+            "target_word": "lion",
+            "target_sequence": [
+              "l",
+              "i",
+              "o",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chú sư tử oai vệ nghỉ ngơi trên mỏm đá.' in English?",
+            "en": "How do you say 'Chú sư tử oai vệ nghỉ ngơi trên mỏm đá.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chú sư tử oai vệ nghỉ ngơi trên mỏm đá.' in English?",
+            "en": "How do you say 'Chú sư tử oai vệ nghỉ ngơi trên mỏm đá.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chú sư tử oai vệ nghỉ ngơi trên mỏm đá.",
+            "en": "Choose the English sentence that means: Chú sư tử oai vệ nghỉ ngơi trên mỏm đá."
+          },
+          "explanation": {
+            "vi": "'The proud lion rests on the rocky cliff.' means 'Chú sư tử oai vệ nghỉ ngơi trên mỏm đá.'.",
+            "en": "'The proud lion rests on the rocky cliff.' means 'Chú sư tử oai vệ nghỉ ngơi trên mỏm đá.'."
+          },
+          "data": {
+            "options": [
+              "The proud lion rests on the rocky cliff.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The proud lion rests on the rocky cliff."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Roaring Lion - King of the Jungle'?",
+            "en": "Which of the following is a word from Unit 'Roaring Lion - King of the Jungle'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Roaring Lion - King of the Jungle'?",
+            "en": "Which of the following is a word from Unit 'Roaring Lion - King of the Jungle'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Roaring Lion - King of the Jungle.",
+            "en": "Remember the words in topic: Roaring Lion - King of the Jungle."
+          },
+          "explanation": {
+            "vi": "'lion' is a key vocabulary word in this topic.",
+            "en": "'lion' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "lion",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "lion"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'roar' start with the sound /l/?",
+            "en": "Does the word 'roar' start with the sound /l/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'roar' start with the sound /l/? The word 'roar' starts with letter 'L'.",
+            "en": "Does the word 'roar' start with the sound /l/? The word 'roar' starts with letter 'L'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'roar'.",
+            "en": "Listen to the first sound of 'roar'."
+          },
+          "explanation": {
+            "vi": "Yes! 'roar' starts with the sound /l/.",
+            "en": "Yes! 'roar' starts with the sound /l/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'roar' starts with letter 'L'.",
+              "en": "The word 'roar' starts with letter 'L'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'lion'?",
+            "en": "How many letters are there in the word 'lion'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'lion'?",
+            "en": "How many letters are there in the word 'lion'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'lion': 1, 2, 3...",
+            "en": "Count the letters in 'lion': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'lion' has exactly 4 letters.",
+            "en": "The word 'lion' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'lion':",
+            "en": "Choose the correct phrase with 'lion':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'lion':",
+            "en": "Choose the correct phrase with 'lion':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a lion'.",
+            "en": "Correct! We say 'a lion'."
+          },
+          "data": {
+            "options": [
+              "a lion",
+              "an lion",
+              "two lion",
+              "many lion"
+            ],
+            "correct_answer": "a lion"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'lion'.",
+            "en": "Choose the noun: 'lion'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our lion. It is very nice!'",
+            "en": "We say: 'Look! This is our lion. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "lion",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "lion"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Roaring Lion - King of the Jungle'?",
+            "en": "Which English sentence best describes the topic 'Roaring Lion - King of the Jungle'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Roaring Lion - King of the Jungle'?",
+            "en": "Which English sentence best describes the topic 'Roaring Lion - King of the Jungle'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Roaring Lion - King of the Jungle'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Roaring Lion - King of the Jungle'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: lion, roar!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: lion, roar!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s31_2",
+      "title": {
+        "vi": "Friendly Black and White Zebra",
+        "en": "Friendly Black and White Zebra"
+      },
+      "description": {
+        "vi": "The zebra is galloping across the savanna",
+        "en": "The zebra is galloping across the savanna"
+      },
+      "icon": "🦓",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s31_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the African wild horse with distinct black and white striped pattern. What animal is it?",
+            "en": "Look at the African wild horse with distinct black and white striped pattern. What animal is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the African wild horse with distinct black and white striped pattern. What animal is it?",
+            "en": "Look at the African wild horse with distinct black and white striped pattern. What animal is it?"
+          },
+          "hint": {
+            "vi": "African wild horse with black and white stripes.",
+            "en": "African wild horse with black and white stripes."
+          },
+          "explanation": {
+            "vi": "It's a striped zebra.",
+            "en": "It's a striped zebra."
+          },
+          "data": {
+            "options": [
+              "a striped zebra",
+              "a brown horse",
+              "a grey donkey",
+              "a white goat"
+            ],
+            "correct_answer": "a striped zebra"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u20_zebra_grassland.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s31_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'zebra'?",
+            "en": "What is the first letter of the word 'zebra'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'zebra'?",
+            "en": "What is the first letter of the word 'zebra'?"
+          },
+          "hint": {
+            "vi": "The word 'zebra' starts with the letter Z.",
+            "en": "The word 'zebra' starts with the letter Z."
+          },
+          "explanation": {
+            "vi": "Correct! 'zebra' begins with the letter 'Z'.",
+            "en": "Correct! 'zebra' begins with the letter 'Z'."
+          },
+          "data": {
+            "options": [
+              "Letter Z",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter Z"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "zebra",
+                  "en": "zebra"
+                },
+                "right": {
+                  "vi": "Nghĩa của zebra",
+                  "en": "Nghĩa của zebra"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "savanna",
+                  "en": "savanna"
+                },
+                "right": {
+                  "vi": "Nghĩa của savanna",
+                  "en": "Nghĩa của savanna"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "gallop",
+                  "en": "gallop"
+                },
+                "right": {
+                  "vi": "Nghĩa của gallop",
+                  "en": "Nghĩa của gallop"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? A herd of zebras grazing on the grassland.",
+            "en": "Is this English sentence correct for Grade 3? A herd of zebras grazing on the grassland."
+          },
+          "hint": {
+            "vi": "Remember the pattern: A herd of zebras grazing on the grassland.",
+            "en": "Remember the pattern: A herd of zebras grazing on the grassland."
+          },
+          "explanation": {
+            "vi": "Yes! 'A herd of zebras grazing on the grassland.' is a correct English sentence.",
+            "en": "Yes! 'A herd of zebras grazing on the grassland.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "A herd of zebras grazing on the grassland.",
+              "en": "A herd of zebras grazing on the grassland."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: A herd of zebras grazing on the ....",
+            "en": "Drag the correct word to complete the sentence: A herd of zebras grazing on the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'grassland'.",
+            "en": "Choose the correct word: 'grassland'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'A herd of zebras grazing on the grassland.'.",
+            "en": "The complete sentence is: 'A herd of zebras grazing on the grassland.'."
+          },
+          "data": {
+            "prefix_text": "A herd of zebras grazing on the ",
+            "suffix_text": ".",
+            "options": [
+              "grassland",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "grassland"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'zebra':",
+            "en": "Spell the English word 'zebra':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'zebra':",
+            "en": "Spell the English word 'zebra':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'zebra'.",
+            "en": "Tap the letters in order to spell 'zebra'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'zebra' correctly.",
+            "en": "Well done! You spelled 'zebra' correctly."
+          },
+          "data": {
+            "letters": [
+              "a",
+              "r",
+              "b",
+              "e",
+              "z"
+            ],
+            "target_word": "zebra",
+            "target_sequence": [
+              "z",
+              "e",
+              "b",
+              "r",
+              "a"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Một đàn ngựa vằn đang gặm cỏ trên đồng cỏ.' in English?",
+            "en": "How do you say 'Một đàn ngựa vằn đang gặm cỏ trên đồng cỏ.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Một đàn ngựa vằn đang gặm cỏ trên đồng cỏ.' in English?",
+            "en": "How do you say 'Một đàn ngựa vằn đang gặm cỏ trên đồng cỏ.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Một đàn ngựa vằn đang gặm cỏ trên đồng cỏ.",
+            "en": "Choose the English sentence that means: Một đàn ngựa vằn đang gặm cỏ trên đồng cỏ."
+          },
+          "explanation": {
+            "vi": "'A herd of zebras grazing on the grassland.' means 'Một đàn ngựa vằn đang gặm cỏ trên đồng cỏ.'.",
+            "en": "'A herd of zebras grazing on the grassland.' means 'Một đàn ngựa vằn đang gặm cỏ trên đồng cỏ.'."
+          },
+          "data": {
+            "options": [
+              "A herd of zebras grazing on the grassland.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "A herd of zebras grazing on the grassland."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Friendly Black and White Zebra'?",
+            "en": "Which of the following is a word from Unit 'Friendly Black and White Zebra'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Friendly Black and White Zebra'?",
+            "en": "Which of the following is a word from Unit 'Friendly Black and White Zebra'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Friendly Black and White Zebra.",
+            "en": "Remember the words in topic: Friendly Black and White Zebra."
+          },
+          "explanation": {
+            "vi": "'zebra' is a key vocabulary word in this topic.",
+            "en": "'zebra' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "zebra",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "zebra"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'savanna' start with the sound /z/?",
+            "en": "Does the word 'savanna' start with the sound /z/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'savanna' start with the sound /z/? The word 'savanna' starts with letter 'Z'.",
+            "en": "Does the word 'savanna' start with the sound /z/? The word 'savanna' starts with letter 'Z'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'savanna'.",
+            "en": "Listen to the first sound of 'savanna'."
+          },
+          "explanation": {
+            "vi": "Yes! 'savanna' starts with the sound /z/.",
+            "en": "Yes! 'savanna' starts with the sound /z/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'savanna' starts with letter 'Z'.",
+              "en": "The word 'savanna' starts with letter 'Z'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'zebra'?",
+            "en": "How many letters are there in the word 'zebra'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'zebra'?",
+            "en": "How many letters are there in the word 'zebra'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'zebra': 1, 2, 3...",
+            "en": "Count the letters in 'zebra': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'zebra' has exactly 5 letters.",
+            "en": "The word 'zebra' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'zebra':",
+            "en": "Choose the correct phrase with 'zebra':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'zebra':",
+            "en": "Choose the correct phrase with 'zebra':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a zebra'.",
+            "en": "Correct! We say 'a zebra'."
+          },
+          "data": {
+            "options": [
+              "a zebra",
+              "an zebra",
+              "two zebra",
+              "many zebra"
+            ],
+            "correct_answer": "a zebra"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'zebra'.",
+            "en": "Choose the noun: 'zebra'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our zebra. It is very nice!'",
+            "en": "We say: 'Look! This is our zebra. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "zebra",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "zebra"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s31_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Friendly Black and White Zebra'?",
+            "en": "Which English sentence best describes the topic 'Friendly Black and White Zebra'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Friendly Black and White Zebra'?",
+            "en": "Which English sentence best describes the topic 'Friendly Black and White Zebra'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Friendly Black and White Zebra'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Friendly Black and White Zebra'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: zebra, savanna!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: zebra, savanna!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

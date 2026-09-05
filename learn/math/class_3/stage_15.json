@@ -1,0 +1,749 @@
+{
+  "id": "m3_stage_15",
+  "stage_number": 15,
+  "title": {
+    "vi": "Tuần 15: Nhân Chia Số Có 3 Chữ Số & Biểu Thức Số",
+    "en": "Week 15: 3-Digit Operations & Numerical Expressions"
+  },
+  "subtitle": {
+    "vi": "Bài 36, 37, 38, 39, 40 - Thứ tự thực hiện phép tính",
+    "en": "Lesson 36-40 - Order of operations and expressions"
+  },
+  "icon": "🧮",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.558,
+  "required_stars": 42,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "m3_t15_1",
+      "title": {
+        "vi": "Nhân & Chia số có 3 chữ số cho số có 1 chữ số",
+        "en": "3-Digit Multiply & Divide by 1-Digit"
+      },
+      "description": {
+        "vi": "Ví dụ: 123 x 3, 215 x 4, 648 : 2, 455 : 5",
+        "en": "Form: 123*3, 215*4, 648:2, 455:5"
+      },
+      "icon": "🧮",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t15_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 124 x 3 = ?",
+            "en": "Calculate: 124 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 124 x 3 = ?",
+            "en": "Calculate: 124 x 3 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "4 x 3 = 12 nhớ 1; 2 x 3 + 1 = 7; 1 x 3 = 3 -> 372.",
+            "en": "124 x 3 = 372."
+          },
+          "data": {
+            "correct_number": "372",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 639 : 3 = ?",
+            "en": "Calculate: 639 : 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 639 : 3 = ?",
+            "en": "Calculate: 639 : 3 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "6:3=2, 3:3=1, 9:3=3 -> 213.",
+            "en": "639 : 3 = 213."
+          },
+          "data": {
+            "correct_number": "213",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with results:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with results:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Nhân chia 3 chữ số thành thạo.",
+            "en": "Mastery of 3-digit operations."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "215 x 4",
+                  "en": "215 x 4"
+                },
+                "right": {
+                  "vi": "860",
+                  "en": "860"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "848 : 4",
+                  "en": "848 : 4"
+                },
+                "right": {
+                  "vi": "212",
+                  "en": "212"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "150 x 5",
+                  "en": "150 x 5"
+                },
+                "right": {
+                  "vi": "750",
+                  "en": "750"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_1_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chu vi hình vuông có cạnh 7 cm là:",
+            "en": "Perimeter of square with side 7 cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chu vi hình vuông có cạnh 7 cm là bao nhiêu?",
+            "en": "Perimeter of square with side 7 cm:"
+          },
+          "hint": {
+            "vi": "Chu vi hình vuông = Độ dài cạnh x 4.",
+            "en": "Perimeter = side x 4."
+          },
+          "explanation": {
+            "vi": "7 x 4 = 28 cm.",
+            "en": "7 x 4 = 28 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "28 cm",
+                "en": "28 cm"
+              },
+              {
+                "vi": "32 cm",
+                "en": "32 cm"
+              },
+              {
+                "vi": "49 cm",
+                "en": "49 cm"
+              }
+            ],
+            "correct_answer": "28 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t15_2",
+      "title": {
+        "vi": "Biểu thức số & Quy tắc tính giá trị biểu thức",
+        "en": "Order of Operations & Expressions"
+      },
+      "description": {
+        "vi": "Nhân chia trước cộng trừ sau; Tính trong ngoặc trước",
+        "en": "Multiply/divide before add/subtract; brackets first"
+      },
+      "icon": "🔗",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t15_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị biểu thức: 45 + 15 x 3 = ?",
+            "en": "Calculate: 45 + 15 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính giá trị biểu thức: 45 + 15 x 3 = ?",
+            "en": "Calculate: 45 + 15 x 3 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Thực hiện nhân trước: 15 x 3 = 45, sau đó 45 + 45 = 90.",
+            "en": "15 * 3 = 45; 45 + 45 = 90."
+          },
+          "data": {
+            "correct_number": "90",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong biểu thức có dấu ngoặc ( ), thứ tự ưu tiên tính là gì?",
+            "en": "What is the priority for brackets ( ) in expressions?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong biểu thức có dấu ngoặc ( ), thứ tự ưu tiên tính là gì?",
+            "en": "What is the priority for brackets ( ) in expressions?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Luôn ưu tiên tính toán các phép tính trong ngoặc trước.",
+            "en": "Always compute expressions inside brackets first."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Tính trong ngoặc trước tiên",
+                "en": "Tính trong ngoặc trước tiên"
+              },
+              {
+                "vi": "Tính ngoài ngoặc trước",
+                "en": "Tính ngoài ngoặc trước"
+              },
+              {
+                "vi": "Tính từ trái sang phải bỏ qua ngoặc",
+                "en": "Tính từ trái sang phải bỏ qua ngoặc"
+              }
+            ],
+            "correct_answer": "Tính trong ngoặc trước tiên"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_2_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Biểu thức số & Quy tắc tính giá trị biểu thức': Trong biểu thức có dấu ngoặc ( ), thứ tự ưu tiên tính là gì?",
+            "en": "Practice 'Order of Operations & Expressions': What is the priority for brackets ( ) in expressions?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong biểu thức có dấu ngoặc ( ), thứ tự ưu tiên tính là gì?",
+            "en": "What is the priority for brackets ( ) in expressions?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Luôn ưu tiên tính toán các phép tính trong ngoặc trước.",
+            "en": "Always compute expressions inside brackets first."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Tính từ trái sang phải bỏ qua ngoặc",
+                "en": "Tính từ trái sang phải bỏ qua ngoặc"
+              },
+              {
+                "vi": "Tính ngoài ngoặc trước",
+                "en": "Tính ngoài ngoặc trước"
+              },
+              {
+                "vi": "Tính trong ngoặc trước tiên",
+                "en": "Tính trong ngoặc trước tiên"
+              }
+            ],
+            "correct_answer": "Tính trong ngoặc trước tiên"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 7391 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 7391 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 7391 có đúng 4 chữ số.",
+            "en": "7391 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 7391 là số có 4 chữ số.",
+              "en": "7391 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t15_3",
+      "title": {
+        "vi": "So sánh Số lớn gấp mấy lần Số bé",
+        "en": "Comparing Multiples: Larger vs Smaller"
+      },
+      "description": {
+        "vi": "Muốn biết số lớn gấp mấy lần số bé, ta lấy số lớn chia cho số bé",
+        "en": "To find how many times larger, compute Larger : Smaller"
+      },
+      "icon": "⚖️",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t15_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bố 36 tuổi, con 6 tuổi. Hỏi tuổi bố gấp mấy lần tuổi con?",
+            "en": "Dad is 36, child is 6. How many times older is dad?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bố 36 tuổi, con 6 tuổi. Hỏi tuổi bố gấp mấy lần tuổi con?",
+            "en": "Dad is 36, child is 6. How many times older is dad?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "36 : 6 = 6 lần.",
+            "en": "36 : 6 = 6 times older."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "5 lần",
+                "en": "5 lần"
+              },
+              {
+                "vi": "6 lần",
+                "en": "6 lần"
+              },
+              {
+                "vi": "7 lần",
+                "en": "7 lần"
+              }
+            ],
+            "correct_answer": "6 lần"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Đoạn thẳng AB dài 32 cm, đoạn thẳng CD dài 8 cm. Đoạn AB gấp mấy lần đoạn CD?",
+            "en": "Segment AB is 32cm, CD is 8cm. How many times longer is AB?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đoạn thẳng AB dài 32 cm, đoạn thẳng CD dài 8 cm. Đoạn AB gấp mấy lần đoạn CD?",
+            "en": "Segment AB is 32cm, CD is 8cm. How many times longer is AB?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "32 : 8 = 4 lần.",
+            "en": "32 : 8 = 4 times."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "lần"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy tắc so sánh số lần.",
+            "en": "Decide whether the following statement is true or false: Quy tắc so sánh số lần."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Lấy Số lớn chia cho Số bé.",
+            "en": "True! Larger divided by Smaller."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy tắc so sánh số lần.",
+              "en": "Quy tắc so sánh số lần."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'So sánh Số lớn gấp mấy lần Số bé': Bố 36 tuổi, con 6 tuổi. Hỏi tuổi bố gấp mấy lần tuổi con?",
+            "en": "Practice 'Comparing Multiples: Larger vs Smaller': Dad is 36, child is 6. How many times older is dad?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bố 36 tuổi, con 6 tuổi. Hỏi tuổi bố gấp mấy lần tuổi con?",
+            "en": "Dad is 36, child is 6. How many times older is dad?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "36 : 6 = 6 lần.",
+            "en": "36 : 6 = 6 times older."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "6 lần",
+                "en": "6 lần"
+              },
+              {
+                "vi": "7 lần",
+                "en": "7 lần"
+              },
+              {
+                "vi": "5 lần",
+                "en": "5 lần"
+              }
+            ],
+            "correct_answer": "6 lần"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_3_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 9 x 6 = ?",
+            "en": "Calculate: 9 x 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 9 x 6 = ?",
+            "en": "Calculate: 9 x 6 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "9 x 6 = 54.",
+            "en": "9 x 6 = 54."
+          },
+          "data": {
+            "prefix_text": "9 x 6 = ",
+            "suffix_text": "",
+            "correct_number": "54"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 16 : 8 = ?",
+            "en": "Calculate: 16 : 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 16 : 8 = ?",
+            "en": "Calculate: 16 : 8 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "16 : 8 = 2.",
+            "en": "16 : 8 = 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "2",
+                "en": "2"
+              },
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "3",
+                "en": "3"
+              },
+              {
+                "vi": "4",
+                "en": "4"
+              }
+            ],
+            "correct_answer": "2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 1438 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 1438 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 1438 có đúng 4 chữ số.",
+            "en": "1438 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 1438 là số có 4 chữ số.",
+              "en": "1438 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t15_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

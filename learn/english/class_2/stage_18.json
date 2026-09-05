@@ -1,0 +1,1130 @@
+{
+  "id": "e2_stage_18",
+  "stage_number": 18,
+  "title": {
+    "vi": "Week 18: Healthy Foods & Sweet Yams",
+    "en": "Week 18: Healthy Foods & Sweet Yams"
+  },
+  "subtitle": {
+    "vi": "Shopping list: Yogurt, yam, yellow bananas, apples",
+    "en": "Shopping list: Yogurt, yam, yellow bananas, apples"
+  },
+  "icon": "🛒",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.456,
+  "required_stars": 51,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "e2_s18_1",
+      "title": {
+        "vi": "Roasted Sweet Yams",
+        "en": "Roasted Sweet Yams"
+      },
+      "description": {
+        "vi": "Healthy roasted sweet yams from the store",
+        "en": "Healthy roasted sweet yams from the store"
+      },
+      "icon": "🍠",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s18_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the warm roasted purple/orange root vegetable. What healthy food is it?",
+            "en": "Look at the warm roasted purple/orange root vegetable. What healthy food is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the warm roasted purple/orange root vegetable. What healthy food is it?",
+            "en": "Look at the warm roasted purple/orange root vegetable. What healthy food is it?"
+          },
+          "hint": {
+            "vi": "A nutritious sweet root vegetable similar to sweet potato.",
+            "en": "A nutritious sweet root vegetable similar to sweet potato."
+          },
+          "explanation": {
+            "vi": "It's a warm sweet roasted yam.",
+            "en": "It's a warm sweet roasted yam."
+          },
+          "data": {
+            "options": [
+              "a sweet roasted yam",
+              "a cold ice cream",
+              "a slice of cheese",
+              "a piece of candy"
+            ],
+            "correct_answer": "a sweet roasted yam"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u9_roasted_yam.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s18_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'yam'?",
+            "en": "What is the first letter of the word 'yam'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'yam'?",
+            "en": "What is the first letter of the word 'yam'?"
+          },
+          "hint": {
+            "vi": "The word 'yam' starts with the letter Y.",
+            "en": "The word 'yam' starts with the letter Y."
+          },
+          "explanation": {
+            "vi": "Correct! 'yam' begins with the letter 'Y'.",
+            "en": "Correct! 'yam' begins with the letter 'Y'."
+          },
+          "data": {
+            "options": [
+              "Letter Y",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter Y"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "yam",
+                  "en": "yam"
+                },
+                "right": {
+                  "vi": "Nghĩa của yam",
+                  "en": "Nghĩa của yam"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "sweet",
+                  "en": "sweet"
+                },
+                "right": {
+                  "vi": "Nghĩa của sweet",
+                  "en": "Nghĩa của sweet"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "roasted",
+                  "en": "roasted"
+                },
+                "right": {
+                  "vi": "Nghĩa của roasted",
+                  "en": "Nghĩa của roasted"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Sweet roasted yams are warm and tasty.",
+            "en": "Is this English sentence correct for Grade 2? Sweet roasted yams are warm and tasty."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Sweet roasted yams are warm and tasty.",
+            "en": "Remember the pattern: Sweet roasted yams are warm and tasty."
+          },
+          "explanation": {
+            "vi": "Yes! 'Sweet roasted yams are warm and tasty.' is a correct English sentence.",
+            "en": "Yes! 'Sweet roasted yams are warm and tasty.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Sweet roasted yams are warm and tasty.",
+              "en": "Sweet roasted yams are warm and tasty."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Sweet roasted yams are warm and ....",
+            "en": "Drag the correct word to complete the sentence: Sweet roasted yams are warm and ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'tasty'.",
+            "en": "Choose the correct word: 'tasty'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Sweet roasted yams are warm and tasty.'.",
+            "en": "The complete sentence is: 'Sweet roasted yams are warm and tasty.'."
+          },
+          "data": {
+            "prefix_text": "Sweet roasted yams are warm and ",
+            "suffix_text": ".",
+            "options": [
+              "tasty",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "tasty"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'yam':",
+            "en": "Spell the English word 'yam':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'yam':",
+            "en": "Spell the English word 'yam':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'yam'.",
+            "en": "Tap the letters in order to spell 'yam'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'yam' correctly.",
+            "en": "Well done! You spelled 'yam' correctly."
+          },
+          "data": {
+            "letters": [
+              "m",
+              "a",
+              "y"
+            ],
+            "target_word": "yam",
+            "target_sequence": [
+              "y",
+              "a",
+              "m"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Những củ khoai lang ngọt nướng ấm áp và thơm ngon.' in English?",
+            "en": "How do you say 'Những củ khoai lang ngọt nướng ấm áp và thơm ngon.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Những củ khoai lang ngọt nướng ấm áp và thơm ngon.' in English?",
+            "en": "How do you say 'Những củ khoai lang ngọt nướng ấm áp và thơm ngon.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Những củ khoai lang ngọt nướng ấm áp và thơm ngon.",
+            "en": "Choose the English sentence that means: Những củ khoai lang ngọt nướng ấm áp và thơm ngon."
+          },
+          "explanation": {
+            "vi": "'Sweet roasted yams are warm and tasty.' means 'Những củ khoai lang ngọt nướng ấm áp và thơm ngon.'.",
+            "en": "'Sweet roasted yams are warm and tasty.' means 'Những củ khoai lang ngọt nướng ấm áp và thơm ngon.'."
+          },
+          "data": {
+            "options": [
+              "Sweet roasted yams are warm and tasty.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Sweet roasted yams are warm and tasty."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Roasted Sweet Yams'?",
+            "en": "Which of the following is a word from Unit 'Roasted Sweet Yams'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Roasted Sweet Yams'?",
+            "en": "Which of the following is a word from Unit 'Roasted Sweet Yams'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Roasted Sweet Yams.",
+            "en": "Remember the words in topic: Roasted Sweet Yams."
+          },
+          "explanation": {
+            "vi": "'yam' is a key vocabulary word in this topic.",
+            "en": "'yam' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "yam",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "yam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'sweet' start with the sound /y/?",
+            "en": "Does the word 'sweet' start with the sound /y/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'sweet' start with the sound /y/? The word 'sweet' starts with letter 'Y'.",
+            "en": "Does the word 'sweet' start with the sound /y/? The word 'sweet' starts with letter 'Y'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'sweet'.",
+            "en": "Listen to the first sound of 'sweet'."
+          },
+          "explanation": {
+            "vi": "Yes! 'sweet' starts with the sound /y/.",
+            "en": "Yes! 'sweet' starts with the sound /y/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'sweet' starts with letter 'Y'.",
+              "en": "The word 'sweet' starts with letter 'Y'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'yam'?",
+            "en": "How many letters are there in the word 'yam'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'yam'?",
+            "en": "How many letters are there in the word 'yam'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'yam': 1, 2, 3...",
+            "en": "Count the letters in 'yam': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'yam' has exactly 3 letters.",
+            "en": "The word 'yam' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'yam':",
+            "en": "Choose the correct phrase with 'yam':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'yam':",
+            "en": "Choose the correct phrase with 'yam':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a yam'.",
+            "en": "Correct! We say 'a yam'."
+          },
+          "data": {
+            "options": [
+              "a yam",
+              "an yam",
+              "five yam",
+              "many yam"
+            ],
+            "correct_answer": "a yam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'yam'.",
+            "en": "Choose the food or object: 'yam'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like yam? - Yes, I do!'",
+            "en": "We ask: 'Do you like yam? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "yam",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "yam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Y",
+                  "en": "Y"
+                },
+                "right": {
+                  "vi": "y",
+                  "en": "y"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Roasted Sweet Yams'?",
+            "en": "Which English sentence best describes the topic 'Roasted Sweet Yams'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Roasted Sweet Yams'?",
+            "en": "Which English sentence best describes the topic 'Roasted Sweet Yams'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Roasted Sweet Yams'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Roasted Sweet Yams'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: yam, sweet!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: yam, sweet!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s18_2",
+      "title": {
+        "vi": "Pushing the Shopping Cart",
+        "en": "Pushing the Shopping Cart"
+      },
+      "description": {
+        "vi": "Filling the shopping cart with groceries",
+        "en": "Filling the shopping cart with groceries"
+      },
+      "icon": "🛒",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s18_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the metal wheeled basket used to carry goods around the supermarket. What is it?",
+            "en": "Look at the metal wheeled basket used to carry goods around the supermarket. What is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the metal wheeled basket used to carry goods around the supermarket. What is it?",
+            "en": "Look at the metal wheeled basket used to carry goods around the supermarket. What is it?"
+          },
+          "hint": {
+            "vi": "Wheeled cart used for holding items while shopping.",
+            "en": "Wheeled cart used for holding items while shopping."
+          },
+          "explanation": {
+            "vi": "It's a full supermarket shopping cart.",
+            "en": "It's a full supermarket shopping cart."
+          },
+          "data": {
+            "options": [
+              "a grocery shopping cart",
+              "a baby stroller",
+              "a skateboard",
+              "a wheelbarrow"
+            ],
+            "correct_answer": "a grocery shopping cart"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u9_shopping_cart.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s18_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'shopping'?",
+            "en": "What is the first letter of the word 'shopping'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'shopping'?",
+            "en": "What is the first letter of the word 'shopping'?"
+          },
+          "hint": {
+            "vi": "The word 'shopping' starts with the letter S.",
+            "en": "The word 'shopping' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'shopping' begins with the letter 'S'.",
+            "en": "Correct! 'shopping' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "shopping",
+                  "en": "shopping"
+                },
+                "right": {
+                  "vi": "Nghĩa của shopping",
+                  "en": "Nghĩa của shopping"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "cart",
+                  "en": "cart"
+                },
+                "right": {
+                  "vi": "Nghĩa của cart",
+                  "en": "Nghĩa của cart"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "store",
+                  "en": "store"
+                },
+                "right": {
+                  "vi": "Nghĩa của store",
+                  "en": "Nghĩa của store"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Put the groceries into the shopping cart.",
+            "en": "Is this English sentence correct for Grade 2? Put the groceries into the shopping cart."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Put the groceries into the shopping cart.",
+            "en": "Remember the pattern: Put the groceries into the shopping cart."
+          },
+          "explanation": {
+            "vi": "Yes! 'Put the groceries into the shopping cart.' is a correct English sentence.",
+            "en": "Yes! 'Put the groceries into the shopping cart.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Put the groceries into the shopping cart.",
+              "en": "Put the groceries into the shopping cart."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Put the groceries into the shopping ....",
+            "en": "Drag the correct word to complete the sentence: Put the groceries into the shopping ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'cart'.",
+            "en": "Choose the correct word: 'cart'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Put the groceries into the shopping cart.'.",
+            "en": "The complete sentence is: 'Put the groceries into the shopping cart.'."
+          },
+          "data": {
+            "prefix_text": "Put the groceries into the shopping ",
+            "suffix_text": ".",
+            "options": [
+              "cart",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "cart"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'shopping':",
+            "en": "Spell the English word 'shopping':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'shopping':",
+            "en": "Spell the English word 'shopping':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'shopping'.",
+            "en": "Tap the letters in order to spell 'shopping'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'shopping' correctly.",
+            "en": "Well done! You spelled 'shopping' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "p",
+              "p",
+              "o",
+              "h",
+              "s"
+            ],
+            "target_word": "shopping",
+            "target_sequence": [
+              "s",
+              "h",
+              "o",
+              "p",
+              "p",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Đặt đồ mua sắm vào xe đẩy hàng.' in English?",
+            "en": "How do you say 'Đặt đồ mua sắm vào xe đẩy hàng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Đặt đồ mua sắm vào xe đẩy hàng.' in English?",
+            "en": "How do you say 'Đặt đồ mua sắm vào xe đẩy hàng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Đặt đồ mua sắm vào xe đẩy hàng.",
+            "en": "Choose the English sentence that means: Đặt đồ mua sắm vào xe đẩy hàng."
+          },
+          "explanation": {
+            "vi": "'Put the groceries into the shopping cart.' means 'Đặt đồ mua sắm vào xe đẩy hàng.'.",
+            "en": "'Put the groceries into the shopping cart.' means 'Đặt đồ mua sắm vào xe đẩy hàng.'."
+          },
+          "data": {
+            "options": [
+              "Put the groceries into the shopping cart.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Put the groceries into the shopping cart."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Pushing the Shopping Cart'?",
+            "en": "Which of the following is a word from Unit 'Pushing the Shopping Cart'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Pushing the Shopping Cart'?",
+            "en": "Which of the following is a word from Unit 'Pushing the Shopping Cart'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Pushing the Shopping Cart.",
+            "en": "Remember the words in topic: Pushing the Shopping Cart."
+          },
+          "explanation": {
+            "vi": "'shopping' is a key vocabulary word in this topic.",
+            "en": "'shopping' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "shopping",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "shopping"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'cart' start with the sound /s/?",
+            "en": "Does the word 'cart' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'cart' start with the sound /s/? The word 'cart' starts with letter 'S'.",
+            "en": "Does the word 'cart' start with the sound /s/? The word 'cart' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'cart'.",
+            "en": "Listen to the first sound of 'cart'."
+          },
+          "explanation": {
+            "vi": "Yes! 'cart' starts with the sound /s/.",
+            "en": "Yes! 'cart' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'cart' starts with letter 'S'.",
+              "en": "The word 'cart' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'shopping'?",
+            "en": "How many letters are there in the word 'shopping'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'shopping'?",
+            "en": "How many letters are there in the word 'shopping'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'shopping': 1, 2, 3...",
+            "en": "Count the letters in 'shopping': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'shopping' has exactly 8 letters.",
+            "en": "The word 'shopping' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'shopping':",
+            "en": "Choose the correct phrase with 'shopping':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'shopping':",
+            "en": "Choose the correct phrase with 'shopping':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a shopping'.",
+            "en": "Correct! We say 'a shopping'."
+          },
+          "data": {
+            "options": [
+              "a shopping",
+              "an shopping",
+              "five shopping",
+              "many shopping"
+            ],
+            "correct_answer": "a shopping"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'shopping'.",
+            "en": "Choose the food or object: 'shopping'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like shopping? - Yes, I do!'",
+            "en": "We ask: 'Do you like shopping? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "shopping",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "shopping"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s18_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Pushing the Shopping Cart'?",
+            "en": "Which English sentence best describes the topic 'Pushing the Shopping Cart'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Pushing the Shopping Cart'?",
+            "en": "Which English sentence best describes the topic 'Pushing the Shopping Cart'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Pushing the Shopping Cart'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Pushing the Shopping Cart'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: shopping, cart!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: shopping, cart!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

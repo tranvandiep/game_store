@@ -1,0 +1,1126 @@
+{
+  "id": "e3_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Week 1: Starter & Unit 1 - Hello!",
+    "en": "Week 1: Starter & Unit 1 - Hello!"
+  },
+  "subtitle": {
+    "vi": "Greetings: Hello, Hi, How are you? I'm fine, thank you",
+    "en": "Greetings: Hello, Hi, How are you? I'm fine, thank you"
+  },
+  "icon": "👋",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e3_s1_1",
+      "title": {
+        "vi": "Starter: Nice to Meet You!",
+        "en": "Starter: Nice to Meet You!"
+      },
+      "description": {
+        "vi": "Friendly greetings with classmates (Bill, Minh, Lucy, Mai)",
+        "en": "Friendly greetings with classmates (Bill, Minh, Lucy, Mai)"
+      },
+      "icon": "🎒",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the students waving and smiling at the school gate. What are they saying?",
+            "en": "Look at the students waving and smiling at the school gate. What are they saying?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the students waving and smiling at the school gate. What are they saying?",
+            "en": "Look at the students waving and smiling at the school gate. What are they saying?"
+          },
+          "hint": {
+            "vi": "They are meeting each other warmly on the first day of school.",
+            "en": "They are meeting each other warmly on the first day of school."
+          },
+          "explanation": {
+            "vi": "They are greeting: 'Hello! Nice to meet you.'",
+            "en": "They are greeting: 'Hello! Nice to meet you.'"
+          },
+          "data": {
+            "options": [
+              "Hello! Nice to meet you.",
+              "Good night, go to sleep.",
+              "I am angry.",
+              "Goodbye forever."
+            ],
+            "correct_answer": "Hello! Nice to meet you."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_starter_hello.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s1_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'hello'?",
+            "en": "What is the first letter of the word 'hello'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'hello'?",
+            "en": "What is the first letter of the word 'hello'?"
+          },
+          "hint": {
+            "vi": "The word 'hello' starts with the letter H.",
+            "en": "The word 'hello' starts with the letter H."
+          },
+          "explanation": {
+            "vi": "Correct! 'hello' begins with the letter 'H'.",
+            "en": "Correct! 'hello' begins with the letter 'H'."
+          },
+          "data": {
+            "options": [
+              "Letter H",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter H"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "hello",
+                  "en": "hello"
+                },
+                "right": {
+                  "vi": "Nghĩa của hello",
+                  "en": "Nghĩa của hello"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "friends",
+                  "en": "friends"
+                },
+                "right": {
+                  "vi": "Nghĩa của friends",
+                  "en": "Nghĩa của friends"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "meet",
+                  "en": "meet"
+                },
+                "right": {
+                  "vi": "Nghĩa của meet",
+                  "en": "Nghĩa của meet"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Hello! Nice to meet you.",
+            "en": "Is this English sentence correct for Grade 3? Hello! Nice to meet you."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Hello! Nice to meet you.",
+            "en": "Remember the pattern: Hello! Nice to meet you."
+          },
+          "explanation": {
+            "vi": "Yes! 'Hello! Nice to meet you.' is a correct English sentence.",
+            "en": "Yes! 'Hello! Nice to meet you.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Hello! Nice to meet you.",
+              "en": "Hello! Nice to meet you."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Hello! Nice to meet ....",
+            "en": "Drag the correct word to complete the sentence: Hello! Nice to meet ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'you'.",
+            "en": "Choose the correct word: 'you'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Hello! Nice to meet you.'.",
+            "en": "The complete sentence is: 'Hello! Nice to meet you.'."
+          },
+          "data": {
+            "prefix_text": "Hello! Nice to meet ",
+            "suffix_text": ".",
+            "options": [
+              "you",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "you"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'hello':",
+            "en": "Spell the English word 'hello':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'hello':",
+            "en": "Spell the English word 'hello':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'hello'.",
+            "en": "Tap the letters in order to spell 'hello'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'hello' correctly.",
+            "en": "Well done! You spelled 'hello' correctly."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "l",
+              "l",
+              "e",
+              "h"
+            ],
+            "target_word": "hello",
+            "target_sequence": [
+              "h",
+              "e",
+              "l",
+              "l",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Xin chào! Rất vui được gặp bạn.' in English?",
+            "en": "How do you say 'Xin chào! Rất vui được gặp bạn.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Xin chào! Rất vui được gặp bạn.' in English?",
+            "en": "How do you say 'Xin chào! Rất vui được gặp bạn.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Xin chào! Rất vui được gặp bạn.",
+            "en": "Choose the English sentence that means: Xin chào! Rất vui được gặp bạn."
+          },
+          "explanation": {
+            "vi": "'Hello! Nice to meet you.' means 'Xin chào! Rất vui được gặp bạn.'.",
+            "en": "'Hello! Nice to meet you.' means 'Xin chào! Rất vui được gặp bạn.'."
+          },
+          "data": {
+            "options": [
+              "Hello! Nice to meet you.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Hello! Nice to meet you."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Starter: Nice to Meet You!'?",
+            "en": "Which of the following is a word from Unit 'Starter: Nice to Meet You!'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Starter: Nice to Meet You!'?",
+            "en": "Which of the following is a word from Unit 'Starter: Nice to Meet You!'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Starter: Nice to Meet You!.",
+            "en": "Remember the words in topic: Starter: Nice to Meet You!."
+          },
+          "explanation": {
+            "vi": "'hello' is a key vocabulary word in this topic.",
+            "en": "'hello' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "hello",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "hello"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'friends' start with the sound /h/?",
+            "en": "Does the word 'friends' start with the sound /h/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'friends' start with the sound /h/? The word 'friends' starts with letter 'H'.",
+            "en": "Does the word 'friends' start with the sound /h/? The word 'friends' starts with letter 'H'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'friends'.",
+            "en": "Listen to the first sound of 'friends'."
+          },
+          "explanation": {
+            "vi": "Yes! 'friends' starts with the sound /h/.",
+            "en": "Yes! 'friends' starts with the sound /h/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'friends' starts with letter 'H'.",
+              "en": "The word 'friends' starts with letter 'H'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'hello'?",
+            "en": "How many letters are there in the word 'hello'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'hello'?",
+            "en": "How many letters are there in the word 'hello'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'hello': 1, 2, 3...",
+            "en": "Count the letters in 'hello': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'hello' has exactly 5 letters.",
+            "en": "The word 'hello' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'hello':",
+            "en": "Choose the correct phrase with 'hello':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'hello':",
+            "en": "Choose the correct phrase with 'hello':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a hello'.",
+            "en": "Correct! We say 'a hello'."
+          },
+          "data": {
+            "options": [
+              "a hello",
+              "an hello",
+              "two hello",
+              "many hello"
+            ],
+            "correct_answer": "a hello"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'hello'.",
+            "en": "Choose the noun: 'hello'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our hello. It is very nice!'",
+            "en": "We say: 'Look! This is our hello. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "hello",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "hello"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Starter: Nice to Meet You!'?",
+            "en": "Which English sentence best describes the topic 'Starter: Nice to Meet You!'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Starter: Nice to Meet You!'?",
+            "en": "Which English sentence best describes the topic 'Starter: Nice to Meet You!'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Starter: Nice to Meet You!'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Starter: Nice to Meet You!'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: hello, friends!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: hello, friends!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s1_2",
+      "title": {
+        "vi": "Unit 1: How Are You Today?",
+        "en": "Unit 1: How Are You Today?"
+      },
+      "description": {
+        "vi": "Asking about feelings: I'm fine, thank you / Fine, thanks",
+        "en": "Asking about feelings: I'm fine, thank you / Fine, thanks"
+      },
+      "icon": "😊",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s1_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the friendly conversation between two classmates. How is the boy feeling?",
+            "en": "Look at the friendly conversation between two classmates. How is the boy feeling?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the friendly conversation between two classmates. How is the boy feeling?",
+            "en": "Look at the friendly conversation between two classmates. How is the boy feeling?"
+          },
+          "hint": {
+            "vi": "He is smiling and giving a thumbs up.",
+            "en": "He is smiling and giving a thumbs up."
+          },
+          "explanation": {
+            "vi": "He is feeling fine and saying thank you.",
+            "en": "He is feeling fine and saying thank you."
+          },
+          "data": {
+            "options": [
+              "He is fine, thank you.",
+              "He is very sick.",
+              "He is sleeping.",
+              "He is crying."
+            ],
+            "correct_answer": "He is fine, thank you."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u1_how_are_you.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s1_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'fine'?",
+            "en": "What is the first letter of the word 'fine'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'fine'?",
+            "en": "What is the first letter of the word 'fine'?"
+          },
+          "hint": {
+            "vi": "The word 'fine' starts with the letter F.",
+            "en": "The word 'fine' starts with the letter F."
+          },
+          "explanation": {
+            "vi": "Correct! 'fine' begins with the letter 'F'.",
+            "en": "Correct! 'fine' begins with the letter 'F'."
+          },
+          "data": {
+            "options": [
+              "Letter F",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter F"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "fine",
+                  "en": "fine"
+                },
+                "right": {
+                  "vi": "Nghĩa của fine",
+                  "en": "Nghĩa của fine"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "thank you",
+                  "en": "thank you"
+                },
+                "right": {
+                  "vi": "Nghĩa của thank you",
+                  "en": "Nghĩa của thank you"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "today",
+                  "en": "today"
+                },
+                "right": {
+                  "vi": "Nghĩa của today",
+                  "en": "Nghĩa của today"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? How are you? - I'm fine, thank you.",
+            "en": "Is this English sentence correct for Grade 3? How are you? - I'm fine, thank you."
+          },
+          "hint": {
+            "vi": "Remember the pattern: How are you? - I'm fine, thank you.",
+            "en": "Remember the pattern: How are you? - I'm fine, thank you."
+          },
+          "explanation": {
+            "vi": "Yes! 'How are you? - I'm fine, thank you.' is a correct English sentence.",
+            "en": "Yes! 'How are you? - I'm fine, thank you.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "How are you? - I'm fine, thank you.",
+              "en": "How are you? - I'm fine, thank you."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: How are you? - I'm fine, thank ....",
+            "en": "Drag the correct word to complete the sentence: How are you? - I'm fine, thank ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'you'.",
+            "en": "Choose the correct word: 'you'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'How are you? - I'm fine, thank you.'.",
+            "en": "The complete sentence is: 'How are you? - I'm fine, thank you.'."
+          },
+          "data": {
+            "prefix_text": "How are you? - I'm fine, thank ",
+            "suffix_text": ".",
+            "options": [
+              "you",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "you"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'fine':",
+            "en": "Spell the English word 'fine':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'fine':",
+            "en": "Spell the English word 'fine':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'fine'.",
+            "en": "Tap the letters in order to spell 'fine'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'fine' correctly.",
+            "en": "Well done! You spelled 'fine' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "n",
+              "i",
+              "f"
+            ],
+            "target_word": "fine",
+            "target_sequence": [
+              "f",
+              "i",
+              "n",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Bạn có khoẻ không? - Tôi khoẻ, cảm ơn bạn.' in English?",
+            "en": "How do you say 'Bạn có khoẻ không? - Tôi khoẻ, cảm ơn bạn.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Bạn có khoẻ không? - Tôi khoẻ, cảm ơn bạn.' in English?",
+            "en": "How do you say 'Bạn có khoẻ không? - Tôi khoẻ, cảm ơn bạn.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Bạn có khoẻ không? - Tôi khoẻ, cảm ơn bạn.",
+            "en": "Choose the English sentence that means: Bạn có khoẻ không? - Tôi khoẻ, cảm ơn bạn."
+          },
+          "explanation": {
+            "vi": "'How are you? - I'm fine, thank you.' means 'Bạn có khoẻ không? - Tôi khoẻ, cảm ơn bạn.'.",
+            "en": "'How are you? - I'm fine, thank you.' means 'Bạn có khoẻ không? - Tôi khoẻ, cảm ơn bạn.'."
+          },
+          "data": {
+            "options": [
+              "How are you? - I'm fine, thank you.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "How are you? - I'm fine, thank you."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: How Are You Today?'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: How Are You Today?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: How Are You Today?'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: How Are You Today?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 1: How Are You Today?.",
+            "en": "Remember the words in topic: Unit 1: How Are You Today?."
+          },
+          "explanation": {
+            "vi": "'fine' is a key vocabulary word in this topic.",
+            "en": "'fine' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "fine",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "fine"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'thank you' start with the sound /f/?",
+            "en": "Does the word 'thank you' start with the sound /f/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'thank you' start with the sound /f/? The word 'thank you' starts with letter 'F'.",
+            "en": "Does the word 'thank you' start with the sound /f/? The word 'thank you' starts with letter 'F'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'thank you'.",
+            "en": "Listen to the first sound of 'thank you'."
+          },
+          "explanation": {
+            "vi": "Yes! 'thank you' starts with the sound /f/.",
+            "en": "Yes! 'thank you' starts with the sound /f/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'thank you' starts with letter 'F'.",
+              "en": "The word 'thank you' starts with letter 'F'."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'fine'?",
+            "en": "How many letters are there in the word 'fine'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'fine'?",
+            "en": "How many letters are there in the word 'fine'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'fine': 1, 2, 3...",
+            "en": "Count the letters in 'fine': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'fine' has exactly 4 letters.",
+            "en": "The word 'fine' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'fine':",
+            "en": "Choose the correct phrase with 'fine':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'fine':",
+            "en": "Choose the correct phrase with 'fine':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a fine'.",
+            "en": "Correct! We say 'a fine'."
+          },
+          "data": {
+            "options": [
+              "a fine",
+              "an fine",
+              "two fine",
+              "many fine"
+            ],
+            "correct_answer": "a fine"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'fine'.",
+            "en": "Choose the noun: 'fine'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our fine. It is very nice!'",
+            "en": "We say: 'Look! This is our fine. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "fine",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "fine"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s1_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: How Are You Today?'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: How Are You Today?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: How Are You Today?'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: How Are You Today?'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 1: How Are You Today?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 1: How Are You Today?'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: fine, thank you!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: fine, thank you!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1001 @@
+{
+  "id": "m1_stage_20",
+  "stage_number": 20,
+  "title": {
+    "vi": "Tuần 20: Bảng Các Số Từ 1 Đến 100",
+    "en": "Week 20: 1-100 Hundred Chart"
+  },
+  "subtitle": {
+    "vi": "Bài 23 & 24 - Bảng 100 ô số và luyện tập",
+    "en": "Lesson 23 & 24 - 100 chart & review"
+  },
+  "icon": "📋",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.418,
+  "required_stars": 57,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "m1_t20_1",
+      "title": {
+        "vi": "Khám phá Bảng các số từ 1 đến 100",
+        "en": "100 Number Chart Exploration"
+      },
+      "description": {
+        "vi": "Quy luật các hàng, các cột trong bảng 100 số",
+        "en": "Rows and columns in 100 chart"
+      },
+      "icon": "📋",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m1_t20_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Số nào đứng ngay phía sau số 99 trong bảng 100?",
+            "en": "What number is right after 99 in 100 chart?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào đứng ngay phía sau số 99 trong bảng 100?",
+            "en": "What number is right after 99 in 100 chart?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "Số 100 đứng sau số 99.",
+            "en": "100 comes right after 99."
+          },
+          "data": {
+            "correct_number": "100",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_1_2",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền số thích hợp vào ô trống:",
+            "en": "Fill in the missing number:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền số thích hợp vào ô trống:",
+            "en": "Fill in the missing number:"
+          },
+          "hint": {
+            "vi": "Chạm vào thẻ số thích hợp để điền vào ô trống.",
+            "en": "Tap the correct number card to fill the slot."
+          },
+          "explanation": {
+            "vi": "Số tiếp theo là 50.",
+            "en": "Next number is 50."
+          },
+          "data": {
+            "prefix_text": "48, 49, ",
+            "suffix_text": "",
+            "options": [
+              "49",
+              "50",
+              "51",
+              "52"
+            ],
+            "slot_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 10 hàng x 10 cột = 100 ô.",
+            "en": "Decide whether the following statement is true or false: 10 hàng x 10 cột = 100 ô."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! Bảng 100 gồm 10 hàng, mỗi hàng có 10 số.",
+            "en": "True! 10 rows of 10 numbers."
+          },
+          "data": {
+            "statement": {
+              "vi": "10 hàng x 10 cột = 100 ô.",
+              "en": "10 hàng x 10 cột = 100 ô."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_1_4",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 78, 79,  ... , 81",
+            "en": "Drag the correct answer into the slot:\nDãy số: 78, 79,  ... , 81"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 78, 79,  ... , 81",
+            "en": "Drag the correct answer: Dãy số: 78, 79,  ... , 81"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 78, 79,  80 , 81",
+            "en": "Dãy số: 78, 79,  80 , 81"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 78, 79, ",
+            "suffix_text": ", 81",
+            "options": [
+              "82",
+              "79",
+              "80"
+            ],
+            "slot_answer": "80"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 57, 58,  ... , 60",
+            "en": "Drag the correct answer into the slot:\nDãy số: 57, 58,  ... , 60"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 57, 58,  ... , 60",
+            "en": "Drag the correct answer: Dãy số: 57, 58,  ... , 60"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 57, 58,  59 , 60",
+            "en": "Dãy số: 57, 58,  59 , 60"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 57, 58, ",
+            "suffix_text": ", 60",
+            "options": [
+              "59",
+              "58",
+              "61"
+            ],
+            "slot_answer": "59"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_1_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 29, 30,  ... , 32",
+            "en": "Drag the correct answer into the slot:\nDãy số: 29, 30,  ... , 32"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 29, 30,  ... , 32",
+            "en": "Drag the correct answer: Dãy số: 29, 30,  ... , 32"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 29, 30,  31 , 32",
+            "en": "Dãy số: 29, 30,  31 , 32"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 29, 30, ",
+            "suffix_text": ", 32",
+            "options": [
+              "33",
+              "31",
+              "30"
+            ],
+            "slot_answer": "31"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_1_7",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 5 đứng liền trước số 6.",
+            "en": "Is the statement TRUE or FALSE:: Number 5 comes before 6."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 đứng liền trước số 6.",
+              "en": "Number 5 comes before 6."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_1_8",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 74, 75, 76, 77.",
+            "en": "Ascending order: 74, 75, 76, 77."
+          },
+          "data": {
+            "items": [
+              "76",
+              "77",
+              "74",
+              "75"
+            ],
+            "correct_order": [
+              "74",
+              "75",
+              "76",
+              "77"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t20_2",
+      "title": {
+        "vi": "Tìm Số Liền Trước & Số Liền Sau",
+        "en": "Predecessor & Successor Numbers"
+      },
+      "description": {
+        "vi": "Quy tắc tìm số liền trước (bớt 1) và liền sau (thêm 1)",
+        "en": "Number before (-1) and number after (+1)"
+      },
+      "icon": "⏮️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m1_t20_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Số liền trước của số 70 là số mấy?",
+            "en": "What is the number right before 70?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số liền trước của số 70 là số mấy?",
+            "en": "What is the number right before 70?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "Số liền trước 70 là 69 (70 - 1 = 69).",
+            "en": "70 - 1 = 69."
+          },
+          "data": {
+            "correct_number": "69",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Số liền sau của số 85 là số mấy?",
+            "en": "What is the number right after 85?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số liền sau của số 85 là số mấy?",
+            "en": "What is the number right after 85?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "Số liền sau 85 là 86 (85 + 1 = 86).",
+            "en": "85 + 1 = 86."
+          },
+          "data": {
+            "correct_number": "86",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối số với số liền sau của nó:",
+            "en": "Match number with its successor:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối số với số liền sau của nó:",
+            "en": "Match number with its successor:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Số liền sau hơn số đã cho 1 đơn vị.",
+            "en": "Successor is 1 unit greater."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Số 39",
+                  "en": "Số 39"
+                },
+                "right": {
+                  "vi": "Số liền sau là 40",
+                  "en": "Số liền sau là 40"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Số 59",
+                  "en": "Số 59"
+                },
+                "right": {
+                  "vi": "Số liền sau là 60",
+                  "en": "Số liền sau là 60"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Số 79",
+                  "en": "Số 79"
+                },
+                "right": {
+                  "vi": "Số liền sau là 80",
+                  "en": "Số liền sau là 80"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_2_4",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 94, 95, 96, 97.",
+            "en": "Ascending order: 94, 95, 96, 97."
+          },
+          "data": {
+            "items": [
+              "97",
+              "95",
+              "94",
+              "96"
+            ],
+            "correct_order": [
+              "94",
+              "95",
+              "96",
+              "97"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_2_5",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🎈 ở đây nhé:",
+            "en": "Count how many 🎈 icons there are:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đếm số hình 🎈",
+            "en": "Count 🎈 icons"
+          },
+          "hint": {
+            "vi": "Chạm ngón tay và đếm từng hình.",
+            "en": "Count each object."
+          },
+          "explanation": {
+            "vi": "Có tất cả 1 hình 🎈.",
+            "en": "There are 1 items."
+          },
+          "data": {
+            "item_icon": "🎈",
+            "item_count": 1,
+            "options": [
+              "1",
+              "2",
+              "3"
+            ],
+            "correct_answer": "1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 73 đứng liền trước số 74.",
+            "en": "Number 73 comes before 74."
+          },
+          "hint": {
+            "vi": "Nhớ lại thứ tự các số.",
+            "en": "Remember number order."
+          },
+          "explanation": {
+            "vi": "Số 73 đứng liền trước số 74 là ĐÚNG.",
+            "en": "73 comes before 74 is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 73 đứng liền trước số 74.",
+              "en": "Number 73 comes right before 74."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số liền trước của số 24 là:",
+            "en": "The number right before 24 is:"
+          },
+          "tts_prompt": {
+            "vi": "Số liền trước của số 24 là bao nhiêu?",
+            "en": "What is the number right before 24?"
+          },
+          "hint": {
+            "vi": "Số liền trước bé hơn số đã cho 1 đơn vị.",
+            "en": "The predecessor is 1 unit smaller."
+          },
+          "explanation": {
+            "vi": "Số liền trước của 24 là 23 (24 - 1 = 23).",
+            "en": "The predecessor of 24 is 23."
+          },
+          "data": {
+            "options": [
+              "23",
+              "25",
+              "26",
+              "22"
+            ],
+            "correct_answer": "23"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_2_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Số liền sau của số 64 là số mấy?",
+            "en": "What is the number right after 64?"
+          },
+          "tts_prompt": {
+            "vi": "Số liền sau của số 64 là số mấy?",
+            "en": "What is the number right after 64?"
+          },
+          "hint": {
+            "vi": "Số liền sau lớn hơn số đã cho 1 đơn vị.",
+            "en": "The successor is 1 unit greater."
+          },
+          "explanation": {
+            "vi": "Số liền sau của 64 là 65 (64 + 1 = 65).",
+            "en": "The number right after 64 is 65."
+          },
+          "data": {
+            "correct_number": "65",
+            "unit": ""
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t20_3",
+      "title": {
+        "vi": "Luyện tập tổng hợp số đến 100",
+        "en": "General Review to 100"
+      },
+      "description": {
+        "vi": "Trò chơi giải ô số kỳ diệu trong bảng 100",
+        "en": "Number chart puzzle challenge"
+      },
+      "icon": "⭐",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m1_t20_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số tròn chục lớn nhất bé hơn 100 là số nào?",
+            "en": "What is the largest multiple of 10 less than 100?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số tròn chục lớn nhất bé hơn 100 là số nào?",
+            "en": "What is the largest multiple of 10 less than 100?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Số 90 là số tròn chục lớn nhất trước 100.",
+            "en": "90 is the largest multiple of 10 under 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "80",
+                "en": "80"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              },
+              {
+                "vi": "100",
+                "en": "100"
+              }
+            ],
+            "correct_answer": "90"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_2",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp theo thứ tự giảm dần: 100, 75, 92, 58",
+            "en": "Sort descending: 100, 75, 92, 58"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp theo thứ tự giảm dần: 100, 75, 92, 58",
+            "en": "Sort descending: 100, 75, 92, 58"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct order."
+          },
+          "explanation": {
+            "vi": "Thứ tự giảm dần: 100, 92, 75, 58.",
+            "en": "Descending: 100, 92, 75, 58."
+          },
+          "data": {
+            "items": [
+              "100",
+              "92",
+              "75",
+              "58"
+            ],
+            "correct_order": [
+              "100",
+              "92",
+              "75",
+              "58"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Ví dụ: 10, 20, 30, 40...",
+            "en": "Decide whether the following statement is true or false: Ví dụ: 10, 20, 30, 40..."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! 10, 20, 30... đều là các số tròn chục.",
+            "en": "True! Standard definition."
+          },
+          "data": {
+            "statement": {
+              "vi": "Ví dụ: 10, 20, 30, 40...",
+              "en": "Ví dụ: 10, 20, 30, 40..."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tập tổng hợp số đến 100': Số tròn chục lớn nhất bé hơn 100 là số nào?",
+            "en": "Practice 'General Review to 100': What is the largest multiple of 10 less than 100?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số tròn chục lớn nhất bé hơn 100 là số nào?",
+            "en": "What is the largest multiple of 10 less than 100?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Số 90 là số tròn chục lớn nhất trước 100.",
+            "en": "90 is the largest multiple of 10 under 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "100",
+                "en": "100"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              },
+              {
+                "vi": "80",
+                "en": "80"
+              }
+            ],
+            "correct_answer": "90"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_5",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 82, 69, 45, 7",
+            "en": "Correct order: 82, 69, 45, 7"
+          },
+          "data": {
+            "items": [
+              "45",
+              "69",
+              "82",
+              "7"
+            ],
+            "correct_order": [
+              "82",
+              "69",
+              "45",
+              "7"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_6",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 11, 27, 82, 84",
+            "en": "Correct order: 11, 27, 82, 84"
+          },
+          "data": {
+            "items": [
+              "27",
+              "84",
+              "82",
+              "11"
+            ],
+            "correct_order": [
+              "11",
+              "27",
+              "82",
+              "84"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_7",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 100, 72, 26, 8",
+            "en": "Correct order: 100, 72, 26, 8"
+          },
+          "data": {
+            "items": [
+              "8",
+              "100",
+              "26",
+              "72"
+            ],
+            "correct_order": [
+              "100",
+              "72",
+              "26",
+              "8"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 38, ... , 40",
+            "en": "Fill in the missing number:\nSequence: 38, ... , 40"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 38, ... , 40",
+            "en": "Fill in the missing number:\nSequence: 38, ... , 40"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "Số còn thiếu là 39.",
+            "en": "The missing number is 39."
+          },
+          "data": {
+            "prefix_text": "Dãy số: 38, ",
+            "suffix_text": ", 40",
+            "options": [
+              "40",
+              "37",
+              "39",
+              "42"
+            ],
+            "slot_answer": "39"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 4 ... 8",
+            "en": "Choose the right sign: 4 ... 8"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 4 ... 8",
+            "en": "Choose the right sign: 4 ... 8"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "4 < 8 là chính xác.",
+            "en": "4 < 8 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 15 đứng liền trước số 16.",
+            "en": "Is the statement TRUE or FALSE:: Number 15 comes before 16."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 15 đứng liền trước số 16.",
+              "en": "Number 15 comes before 16."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t20_3_11",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 65, 66, 67, 68.",
+            "en": "Ascending order: 65, 66, 67, 68."
+          },
+          "data": {
+            "items": [
+              "68",
+              "66",
+              "65",
+              "67"
+            ],
+            "correct_order": [
+              "65",
+              "66",
+              "67",
+              "68"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1128 @@
+{
+  "id": "e4_stage_2",
+  "stage_number": 2,
+  "title": {
+    "vi": "Week 2: Unit 2 - Daily Routines",
+    "en": "Week 2: Unit 2 - Daily Routines"
+  },
+  "subtitle": {
+    "vi": "Telling time: What time is it? & Routines: get up, have breakfast, go to school",
+    "en": "Telling time: What time is it? & Routines: get up, have breakfast, go to school"
+  },
+  "icon": "⏰",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.921,
+  "required_stars": 3,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "e4_s2_1",
+      "title": {
+        "vi": "Unit 2: What Time is It?",
+        "en": "Unit 2: What Time is It?"
+      },
+      "description": {
+        "vi": "What time is it? - It's seven o'clock / seven fifteen / seven thirty",
+        "en": "What time is it? - It's seven o'clock / seven fifteen / seven thirty"
+      },
+      "icon": "⏱️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s2_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the wall clock showing the hands pointing to 7:00. What time is it?",
+            "en": "Look at the wall clock showing the hands pointing to 7:00. What time is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the wall clock showing the hands pointing to 7:00. What time is it?",
+            "en": "Look at the wall clock showing the hands pointing to 7:00. What time is it?"
+          },
+          "hint": {
+            "vi": "Short hand on 7, long hand on 12.",
+            "en": "Short hand on 7, long hand on 12."
+          },
+          "explanation": {
+            "vi": "The clock shows seven o'clock.",
+            "en": "The clock shows seven o'clock."
+          },
+          "data": {
+            "options": [
+              "It is seven o'clock.",
+              "It is twelve o'clock.",
+              "It is midnight.",
+              "It is four o'clock."
+            ],
+            "correct_answer": "It is seven o'clock."
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u2_what_time.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s2_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'time'?",
+            "en": "What is the first letter of the word 'time'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'time'?",
+            "en": "What is the first letter of the word 'time'?"
+          },
+          "hint": {
+            "vi": "The word 'time' starts with the letter T.",
+            "en": "The word 'time' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'time' begins with the letter 'T'.",
+            "en": "Correct! 'time' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "time",
+                  "en": "time"
+                },
+                "right": {
+                  "vi": "Nghĩa của time",
+                  "en": "Nghĩa của time"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "o'clock",
+                  "en": "o'clock"
+                },
+                "right": {
+                  "vi": "Nghĩa của o'clock",
+                  "en": "Nghĩa của o'clock"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "seven",
+                  "en": "seven"
+                },
+                "right": {
+                  "vi": "Nghĩa của seven",
+                  "en": "Nghĩa của seven"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? What time is it? - It's seven o'clock in the morning.",
+            "en": "Is this English sentence correct for Grade 4? What time is it? - It's seven o'clock in the morning."
+          },
+          "hint": {
+            "vi": "Remember the pattern: What time is it? - It's seven o'clock in the morning.",
+            "en": "Remember the pattern: What time is it? - It's seven o'clock in the morning."
+          },
+          "explanation": {
+            "vi": "Yes! 'What time is it? - It's seven o'clock in the morning.' is a correct English sentence.",
+            "en": "Yes! 'What time is it? - It's seven o'clock in the morning.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "What time is it? - It's seven o'clock in the morning.",
+              "en": "What time is it? - It's seven o'clock in the morning."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: What time is it? - It's seven o'clock in the ....",
+            "en": "Drag the correct word to complete the sentence: What time is it? - It's seven o'clock in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'morning'.",
+            "en": "Choose the correct word: 'morning'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'What time is it? - It's seven o'clock in the morning.'.",
+            "en": "The complete sentence is: 'What time is it? - It's seven o'clock in the morning.'."
+          },
+          "data": {
+            "prefix_text": "What time is it? - It's seven o'clock in the ",
+            "suffix_text": ".",
+            "options": [
+              "morning",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "morning"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'time':",
+            "en": "Spell the English word 'time':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'time':",
+            "en": "Spell the English word 'time':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'time'.",
+            "en": "Tap the letters in order to spell 'time'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'time' correctly.",
+            "en": "Well done! You spelled 'time' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "m",
+              "i",
+              "t"
+            ],
+            "target_word": "time",
+            "target_sequence": [
+              "t",
+              "i",
+              "m",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Mấy giờ rồi? - Bây giờ là bảy giờ sáng.' in English?",
+            "en": "How do you say 'Mấy giờ rồi? - Bây giờ là bảy giờ sáng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Mấy giờ rồi? - Bây giờ là bảy giờ sáng.' in English?",
+            "en": "How do you say 'Mấy giờ rồi? - Bây giờ là bảy giờ sáng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Mấy giờ rồi? - Bây giờ là bảy giờ sáng.",
+            "en": "Choose the English sentence that means: Mấy giờ rồi? - Bây giờ là bảy giờ sáng."
+          },
+          "explanation": {
+            "vi": "'What time is it? - It's seven o'clock in the morning.' means 'Mấy giờ rồi? - Bây giờ là bảy giờ sáng.'.",
+            "en": "'What time is it? - It's seven o'clock in the morning.' means 'Mấy giờ rồi? - Bây giờ là bảy giờ sáng.'."
+          },
+          "data": {
+            "options": [
+              "What time is it? - It's seven o'clock in the morning.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "What time is it? - It's seven o'clock in the morning."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 2: What Time is It?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 2: What Time is It?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 2: What Time is It?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 2: What Time is It?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 2: What Time is It?.",
+            "en": "Remember the words in topic: Unit 2: What Time is It?."
+          },
+          "explanation": {
+            "vi": "'time' is a key vocabulary word in this topic.",
+            "en": "'time' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "time",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "time"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'o'clock' start with the sound /t/?",
+            "en": "Does the word 'o'clock' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'o'clock' start with the sound /t/? The word 'o'clock' starts with letter 'T'.",
+            "en": "Does the word 'o'clock' start with the sound /t/? The word 'o'clock' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'o'clock'.",
+            "en": "Listen to the first sound of 'o'clock'."
+          },
+          "explanation": {
+            "vi": "Yes! 'o'clock' starts with the sound /t/.",
+            "en": "Yes! 'o'clock' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'o'clock' starts with letter 'T'.",
+              "en": "The word 'o'clock' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'time'?",
+            "en": "How many letters are there in the word 'time'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'time'?",
+            "en": "How many letters are there in the word 'time'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'time': 1, 2, 3...",
+            "en": "Count the letters in 'time': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'time' has exactly 4 letters.",
+            "en": "The word 'time' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'time':",
+            "en": "Choose the correct phrase with 'time':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'time':",
+            "en": "Choose the correct phrase with 'time':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a time'.",
+            "en": "Correct! We say 'a time'."
+          },
+          "data": {
+            "options": [
+              "a time",
+              "an time",
+              "two time",
+              "many time"
+            ],
+            "correct_answer": "a time"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'time'.",
+            "en": "Choose the word: 'time'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is time. It is wonderful!'",
+            "en": "We say: 'Look! This is time. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "time",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "time"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 2: What Time is It?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 2: What Time is It?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 2: What Time is It?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 2: What Time is It?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 2: What Time is It?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 2: What Time is It?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: time, o'clock!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: time, o'clock!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s2_2",
+      "title": {
+        "vi": "Unit 2: Morning Routines & Breakfast",
+        "en": "Unit 2: Morning Routines & Breakfast"
+      },
+      "description": {
+        "vi": "I get up at six o'clock and have breakfast at six thirty",
+        "en": "I get up at six o'clock and have breakfast at six thirty"
+      },
+      "icon": "🥣",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s2_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy waking up with sunshine through the window and stretching cheerfully. What is he doing?",
+            "en": "Look at the boy waking up with sunshine through the window and stretching cheerfully. What is he doing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy waking up with sunshine through the window and stretching cheerfully. What is he doing?",
+            "en": "Look at the boy waking up with sunshine through the window and stretching cheerfully. What is he doing?"
+          },
+          "hint": {
+            "vi": "Waking up from bed to start the day.",
+            "en": "Waking up from bed to start the day."
+          },
+          "explanation": {
+            "vi": "He is getting up in the morning.",
+            "en": "He is getting up in the morning."
+          },
+          "data": {
+            "options": [
+              "He is getting up early in the morning.",
+              "He is going to sleep.",
+              "He is washing the car.",
+              "He is cooking dinner."
+            ],
+            "correct_answer": "He is getting up early in the morning."
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u2_morning_routine.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s2_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'get up'?",
+            "en": "What is the first letter of the word 'get up'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'get up'?",
+            "en": "What is the first letter of the word 'get up'?"
+          },
+          "hint": {
+            "vi": "The word 'get up' starts with the letter G.",
+            "en": "The word 'get up' starts with the letter G."
+          },
+          "explanation": {
+            "vi": "Correct! 'get up' begins with the letter 'G'.",
+            "en": "Correct! 'get up' begins with the letter 'G'."
+          },
+          "data": {
+            "options": [
+              "Letter G",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter G"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "get up",
+                  "en": "get up"
+                },
+                "right": {
+                  "vi": "Nghĩa của get up",
+                  "en": "Nghĩa của get up"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "breakfast",
+                  "en": "breakfast"
+                },
+                "right": {
+                  "vi": "Nghĩa của breakfast",
+                  "en": "Nghĩa của breakfast"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "school",
+                  "en": "school"
+                },
+                "right": {
+                  "vi": "Nghĩa của school",
+                  "en": "Nghĩa của school"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? I get up early and have breakfast with my family.",
+            "en": "Is this English sentence correct for Grade 4? I get up early and have breakfast with my family."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I get up early and have breakfast with my family.",
+            "en": "Remember the pattern: I get up early and have breakfast with my family."
+          },
+          "explanation": {
+            "vi": "Yes! 'I get up early and have breakfast with my family.' is a correct English sentence.",
+            "en": "Yes! 'I get up early and have breakfast with my family.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I get up early and have breakfast with my family.",
+              "en": "I get up early and have breakfast with my family."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I get up early and have breakfast with my ....",
+            "en": "Drag the correct word to complete the sentence: I get up early and have breakfast with my ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'family'.",
+            "en": "Choose the correct word: 'family'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I get up early and have breakfast with my family.'.",
+            "en": "The complete sentence is: 'I get up early and have breakfast with my family.'."
+          },
+          "data": {
+            "prefix_text": "I get up early and have breakfast with my ",
+            "suffix_text": ".",
+            "options": [
+              "family",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "family"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'get up':",
+            "en": "Spell the English word 'get up':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'get up':",
+            "en": "Spell the English word 'get up':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'get up'.",
+            "en": "Tap the letters in order to spell 'get up'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'get up' correctly.",
+            "en": "Well done! You spelled 'get up' correctly."
+          },
+          "data": {
+            "letters": [
+              "p",
+              "u",
+              " ",
+              "t",
+              "e",
+              "g"
+            ],
+            "target_word": "get up",
+            "target_sequence": [
+              "g",
+              "e",
+              "t",
+              " ",
+              "u",
+              "p"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi thức dậy sớm và ăn sáng cùng gia đình.' in English?",
+            "en": "How do you say 'Tôi thức dậy sớm và ăn sáng cùng gia đình.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi thức dậy sớm và ăn sáng cùng gia đình.' in English?",
+            "en": "How do you say 'Tôi thức dậy sớm và ăn sáng cùng gia đình.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi thức dậy sớm và ăn sáng cùng gia đình.",
+            "en": "Choose the English sentence that means: Tôi thức dậy sớm và ăn sáng cùng gia đình."
+          },
+          "explanation": {
+            "vi": "'I get up early and have breakfast with my family.' means 'Tôi thức dậy sớm và ăn sáng cùng gia đình.'.",
+            "en": "'I get up early and have breakfast with my family.' means 'Tôi thức dậy sớm và ăn sáng cùng gia đình.'."
+          },
+          "data": {
+            "options": [
+              "I get up early and have breakfast with my family.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I get up early and have breakfast with my family."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 2: Morning Routines & Breakfast'?",
+            "en": "Which of the following is a key word from Unit 'Unit 2: Morning Routines & Breakfast'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 2: Morning Routines & Breakfast'?",
+            "en": "Which of the following is a key word from Unit 'Unit 2: Morning Routines & Breakfast'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 2: Morning Routines & Breakfast.",
+            "en": "Remember the words in topic: Unit 2: Morning Routines & Breakfast."
+          },
+          "explanation": {
+            "vi": "'get up' is a key vocabulary word in this topic.",
+            "en": "'get up' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "get up",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "get up"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'breakfast' start with the sound /g/?",
+            "en": "Does the word 'breakfast' start with the sound /g/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'breakfast' start with the sound /g/? The word 'breakfast' starts with letter 'G'.",
+            "en": "Does the word 'breakfast' start with the sound /g/? The word 'breakfast' starts with letter 'G'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'breakfast'.",
+            "en": "Listen to the first sound of 'breakfast'."
+          },
+          "explanation": {
+            "vi": "Yes! 'breakfast' starts with the sound /g/.",
+            "en": "Yes! 'breakfast' starts with the sound /g/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'breakfast' starts with letter 'G'.",
+              "en": "The word 'breakfast' starts with letter 'G'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'get up'?",
+            "en": "How many letters are there in the word 'get up'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'get up'?",
+            "en": "How many letters are there in the word 'get up'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'get up': 1, 2, 3...",
+            "en": "Count the letters in 'get up': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'get up' has exactly 6 letters.",
+            "en": "The word 'get up' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'get up':",
+            "en": "Choose the correct phrase with 'get up':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'get up':",
+            "en": "Choose the correct phrase with 'get up':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a get up'.",
+            "en": "Correct! We say 'a get up'."
+          },
+          "data": {
+            "options": [
+              "a get up",
+              "an get up",
+              "two get up",
+              "many get up"
+            ],
+            "correct_answer": "a get up"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'get up'.",
+            "en": "Choose the word: 'get up'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is get up. It is wonderful!'",
+            "en": "We say: 'Look! This is get up. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "get up",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "get up"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s2_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 2: Morning Routines & Breakfast'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 2: Morning Routines & Breakfast'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 2: Morning Routines & Breakfast'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 2: Morning Routines & Breakfast'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 2: Morning Routines & Breakfast'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 2: Morning Routines & Breakfast'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: get up, breakfast!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: get up, breakfast!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

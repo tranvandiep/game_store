@@ -1,0 +1,901 @@
+{
+  "id": "m3_stage_11",
+  "stage_number": 11,
+  "title": {
+    "vi": "Tuần 11: Phép Chia Hết, Chia Có Dư & Chia Số Có 2 Chữ Số",
+    "en": "Week 11: Exact & Remainder Division"
+  },
+  "subtitle": {
+    "vi": "Bài 25 & 26 - Quy tắc số dư luôn bé hơn số chia",
+    "en": "Lesson 25 & 26 - Remainder is always less than divisor"
+  },
+  "icon": "➗",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.67,
+  "required_stars": 30,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "m3_t11_1",
+      "title": {
+        "vi": "Phép chia hết và Phép chia có dư",
+        "en": "Exact Division & Division with Remainder"
+      },
+      "description": {
+        "vi": "Quy tắc số dư luôn bé hơn số chia (r < d)",
+        "en": "Remainder is strictly less than divisor (r < d)"
+      },
+      "icon": "➗",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t11_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong phép chia có dư, số dư luôn luôn như thế nào so với số chia?",
+            "en": "In division with remainder, the remainder is always:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong phép chia có dư, số dư luôn luôn như thế nào so với số chia?",
+            "en": "In division with remainder, the remainder is always:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Số dư luôn luôn phải bé hơn số chia (r < d).",
+            "en": "Remainder is always strictly less than divisor."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Bé hơn số chia",
+                "en": "Bé hơn số chia"
+              },
+              {
+                "vi": "Lớn hơn số chia",
+                "en": "Lớn hơn số chia"
+              },
+              {
+                "vi": "Bằng số chia",
+                "en": "Bằng số chia"
+              }
+            ],
+            "correct_answer": "Bé hơn số chia"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Thực hiện phép chia: 19 : 4 được thương là 4 và số dư là mấy?",
+            "en": "Divide 19 by 4: quotient is 4, what is remainder?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thực hiện phép chia: 19 : 4 được thương là 4 và số dư là mấy?",
+            "en": "Divide 19 by 4: quotient is 4, what is remainder?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "19 = 4 x 4 + 3 nên số dư là 3.",
+            "en": "19 = 4 * 4 + 3 -> remainder is 3."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong phép chia cho 5, số dư lớn nhất có thể có là số mấy?",
+            "en": "In division by 5, what is the largest possible remainder?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong phép chia cho 5, số dư lớn nhất có thể có là số mấy?",
+            "en": "In division by 5, what is the largest possible remainder?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Vì số chia là 5 nên số dư lớn nhất là 4 (5 - 1 = 4).",
+            "en": "Largest remainder for divisor 5 is 4."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3",
+                "en": "3"
+              },
+              {
+                "vi": "4",
+                "en": "4"
+              },
+              {
+                "vi": "5",
+                "en": "5"
+              }
+            ],
+            "correct_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Phép chia hết và Phép chia có dư': Trong phép chia có dư, số dư luôn luôn như thế nào so với số chia?",
+            "en": "Practice 'Exact Division & Division with Remainder': In division with remainder, the remainder is always:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong phép chia có dư, số dư luôn luôn như thế nào so với số chia?",
+            "en": "In division with remainder, the remainder is always:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Số dư luôn luôn phải bé hơn số chia (r < d).",
+            "en": "Remainder is always strictly less than divisor."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Bằng số chia",
+                "en": "Bằng số chia"
+              },
+              {
+                "vi": "Lớn hơn số chia",
+                "en": "Lớn hơn số chia"
+              },
+              {
+                "vi": "Bé hơn số chia",
+                "en": "Bé hơn số chia"
+              }
+            ],
+            "correct_answer": "Bé hơn số chia"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Phép chia hết và Phép chia có dư': Trong phép chia cho 5, số dư lớn nhất có thể có là số mấy?",
+            "en": "Practice 'Exact Division & Division with Remainder': In division by 5, what is the largest possible remainder?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong phép chia cho 5, số dư lớn nhất có thể có là số mấy?",
+            "en": "In division by 5, what is the largest possible remainder?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Vì số chia là 5 nên số dư lớn nhất là 4 (5 - 1 = 4).",
+            "en": "Largest remainder for divisor 5 is 4."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "4",
+                "en": "4"
+              },
+              {
+                "vi": "5",
+                "en": "5"
+              },
+              {
+                "vi": "3",
+                "en": "3"
+              }
+            ],
+            "correct_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 28 : 7 = ?",
+            "en": "Calculate: 28 : 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 28 : 7 = ?",
+            "en": "Calculate: 28 : 7 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "28 : 7 = 4.",
+            "en": "28 : 7 = 4."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "4",
+                "en": "4"
+              },
+              {
+                "vi": "3",
+                "en": "3"
+              },
+              {
+                "vi": "5",
+                "en": "5"
+              },
+              {
+                "vi": "6",
+                "en": "6"
+              }
+            ],
+            "correct_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 8486 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 8486 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 8486 có đúng 4 chữ số.",
+            "en": "8486 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 8486 là số có 4 chữ số.",
+              "en": "8486 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t11_2",
+      "title": {
+        "vi": "Chia số có 2 chữ số cho số có 1 chữ số (Chia hết)",
+        "en": "2-Digit / 1-Digit (Exact Division)"
+      },
+      "description": {
+        "vi": "Ví dụ: 48 : 2, 69 : 3, 84 : 4, 96 : 3",
+        "en": "Form: 48:2, 69:3, 84:4, 96:3"
+      },
+      "icon": "🎯",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t11_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 68 : 2 = ?",
+            "en": "Calculate: 68 : 2 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 68 : 2 = ?",
+            "en": "Calculate: 68 : 2 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "6 : 2 = 3, 8 : 2 = 4 -> 34.",
+            "en": "68 : 2 = 34."
+          },
+          "data": {
+            "correct_number": "34",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 96 : 3 = ?",
+            "en": "Calculate: 96 : 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 96 : 3 = ?",
+            "en": "Calculate: 96 : 3 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "9 : 3 = 3, 6 : 3 = 2 -> 32.",
+            "en": "96 : 3 = 32."
+          },
+          "data": {
+            "correct_number": "32",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép chia với thương tương ứng:",
+            "en": "Match 2-digit division with quotients:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép chia với thương tương ứng:",
+            "en": "Match 2-digit division with quotients:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Đặt tính chia thẳng cột.",
+            "en": "Column division alignment."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "48 : 4",
+                  "en": "48 : 4"
+                },
+                "right": {
+                  "vi": "12",
+                  "en": "12"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "77 : 7",
+                  "en": "77 : 7"
+                },
+                "right": {
+                  "vi": "11",
+                  "en": "11"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "84 : 2",
+                  "en": "84 : 2"
+                },
+                "right": {
+                  "vi": "42",
+                  "en": "42"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_2_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chu vi hình vuông có cạnh 8 cm là:",
+            "en": "Perimeter of square with side 8 cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chu vi hình vuông có cạnh 8 cm là bao nhiêu?",
+            "en": "Perimeter of square with side 8 cm:"
+          },
+          "hint": {
+            "vi": "Chu vi hình vuông = Độ dài cạnh x 4.",
+            "en": "Perimeter = side x 4."
+          },
+          "explanation": {
+            "vi": "8 x 4 = 32 cm.",
+            "en": "8 x 4 = 32 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "32 cm",
+                "en": "32 cm"
+              },
+              {
+                "vi": "36 cm",
+                "en": "36 cm"
+              },
+              {
+                "vi": "64 cm",
+                "en": "64 cm"
+              }
+            ],
+            "correct_answer": "32 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t11_3",
+      "title": {
+        "vi": "Chia số có 2 chữ số cho số có 1 chữ số (Có dư)",
+        "en": "2-Digit / 1-Digit (With Remainder)"
+      },
+      "description": {
+        "vi": "Ví dụ: 57 : 4, 85 : 3, 79 : 5",
+        "en": "Form: 57:4, 85:3, 79:5 with remainder"
+      },
+      "icon": "💡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t11_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Thực hiện phép chia: 47 : 3 được kết quả là:",
+            "en": "Calculate 47 : 3:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thực hiện phép chia: 47 : 3 được kết quả là:",
+            "en": "Calculate 47 : 3:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "47 = 3 x 15 + 2 -> thương 15, dư 2.",
+            "en": "47 = 3 * 15 + 2 -> quotient 15, remainder 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "15 (dư 2)",
+                "en": "15 (dư 2)"
+              },
+              {
+                "vi": "15 (dư 1)",
+                "en": "15 (dư 1)"
+              },
+              {
+                "vi": "16 (dư 2)",
+                "en": "16 (dư 2)"
+              }
+            ],
+            "correct_answer": "15 (dư 2)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Có 38 quyển vở chia đều cho 5 bạn. Mỗi bạn nhận được nhiều nhất mấy quyển và còn thừa mấy quyển?",
+            "en": "38 notebooks shared among 5 kids. Max per kid?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Có 38 quyển vở chia đều cho 5 bạn. Mỗi bạn nhận được nhiều nhất mấy quyển và còn thừa mấy quyển?",
+            "en": "38 notebooks shared among 5 kids. Max per kid?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "38 : 5 = 7 (dư 3 quyển vở).",
+            "en": "38 : 5 = 7 (rem 3)."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "quyển"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Công thức kiểm tra phép chia.",
+            "en": "Decide whether the following statement is true or false: Công thức kiểm tra phép chia."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Đây là công thức thử lại phép chia có dư.",
+            "en": "True! Dividend = Quotient * Divisor + Remainder."
+          },
+          "data": {
+            "statement": {
+              "vi": "Công thức kiểm tra phép chia.",
+              "en": "Công thức kiểm tra phép chia."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Chia số có 2 chữ số cho số có 1 chữ số (Có dư)': Thực hiện phép chia: 47 : 3 được kết quả là:",
+            "en": "Practice '2-Digit / 1-Digit (With Remainder)': Calculate 47 : 3:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thực hiện phép chia: 47 : 3 được kết quả là:",
+            "en": "Calculate 47 : 3:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "47 = 3 x 15 + 2 -> thương 15, dư 2.",
+            "en": "47 = 3 * 15 + 2 -> quotient 15, remainder 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "15 (dư 2)",
+                "en": "15 (dư 2)"
+              },
+              {
+                "vi": "16 (dư 2)",
+                "en": "16 (dư 2)"
+              },
+              {
+                "vi": "15 (dư 1)",
+                "en": "15 (dư 1)"
+              }
+            ],
+            "correct_answer": "15 (dư 2)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_3_7",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 9 x 7 = ?",
+            "en": "Calculate: 9 x 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 9 x 7 = ?",
+            "en": "Calculate: 9 x 7 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "9 x 7 = 63.",
+            "en": "9 x 7 = 63."
+          },
+          "data": {
+            "prefix_text": "9 x 7 = ",
+            "suffix_text": "",
+            "correct_number": "63"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_3_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 6 x 3 = ?",
+            "en": "Calculate: 6 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 6 x 3 = ?",
+            "en": "Calculate: 6 x 3 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "6 x 3 = 18.",
+            "en": "6 x 3 = 18."
+          },
+          "data": {
+            "prefix_text": "6 x 3 = ",
+            "suffix_text": "",
+            "correct_number": "18"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 56 : 8 = ?",
+            "en": "Calculate: 56 : 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 56 : 8 = ?",
+            "en": "Calculate: 56 : 8 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "56 : 8 = 7.",
+            "en": "56 : 8 = 7."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "7",
+                "en": "7"
+              },
+              {
+                "vi": "6",
+                "en": "6"
+              },
+              {
+                "vi": "8",
+                "en": "8"
+              },
+              {
+                "vi": "9",
+                "en": "9"
+              }
+            ],
+            "correct_answer": "7"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 2072 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 2072 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 2072 có đúng 4 chữ số.",
+            "en": "2072 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 2072 là số có 4 chữ số.",
+              "en": "2072 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t11_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1120 @@
+{
+  "id": "v1_stage_5",
+  "stage_number": 5,
+  "title": {
+    "vi": "Tuần 5: Phụ Âm Ghép Nâng Cao",
+    "en": "Tuần 5: Phụ Âm Ghép Nâng Cao"
+  },
+  "subtitle": {
+    "vi": "Bài 17, 18 & 19 - Âm g, gi, gh, nh, ng, ngh",
+    "en": "Bài 17, 18 & 19 - Âm g, gi, gh, nh, ng, ngh"
+  },
+  "icon": "🦒",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.834,
+  "required_stars": 12,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "v1_t5_1",
+      "title": {
+        "vi": "Phân biệt 'g' và 'gh', 'gi'",
+        "en": "Phân biệt 'g' và 'gh', 'gi'"
+      },
+      "description": {
+        "vi": "Quy tắc chính tả gh đi với e, ê, i",
+        "en": "Quy tắc chính tả gh đi với e, ê, i"
+      },
+      "icon": "🪑",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t5_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé và bà đang ngồi trên chiếc ghế làm bằng chất liệu gì trong tranh?",
+            "en": "Bé và bà đang ngồi trên chiếc ghế làm bằng chất liệu gì trong tranh?"
+          },
+          "tts_prompt": {
+            "vi": "Bé và bà đang ngồi trên chiếc ghế làm bằng chất liệu gì trong tranh?",
+            "en": "Bé và bà đang ngồi trên chiếc ghế làm bằng chất liệu gì trong tranh?"
+          },
+          "hint": {
+            "vi": "Chiếc ghế được đóng bằng gỗ mộc mạc.",
+            "en": "Chiếc ghế được đóng bằng gỗ mộc mạc."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ câu: 'Bé ngồi ghế gỗ'.",
+            "en": "Bức tranh minh hoạ câu: 'Bé ngồi ghế gỗ'."
+          },
+          "data": {
+            "options": [
+              "ghế gỗ",
+              "ghế sắt",
+              "ghế nhựa",
+              "ghế đá"
+            ],
+            "correct_answer": "ghế gỗ"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_ghe_go_va_ga.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'ghế', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'ghế', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'ghế', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'ghế', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'ghế'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'ghế'."
+          },
+          "explanation": {
+            "vi": "Trong 'ghế', âm 'g' là âm đầu đứng trước.",
+            "en": "Trong 'ghế', âm 'g' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "g",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "g"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "ghế",
+                  "en": "ghế"
+                },
+                "right": {
+                  "vi": "Tiếng ghế",
+                  "en": "Tiếng ghế"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "gà",
+                  "en": "gà"
+                },
+                "right": {
+                  "vi": "Tiếng gà",
+                  "en": "Tiếng gà"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "gió",
+                  "en": "gió"
+                },
+                "right": {
+                  "vi": "Tiếng gió",
+                  "en": "Tiếng gió"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'gà' xuất hiện trong bài học về 'gh'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'gà' xuất hiện trong bài học về 'gh'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'gh'.",
+            "en": "Nhớ lại nội dung bài học về 'gh'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'gà' là trọng tâm trong bài học về 'gh'.",
+            "en": "Đúng! Nội dung 'gà' là trọng tâm trong bài học về 'gh'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'gà' xuất hiện trong bài học về 'gh'.",
+              "en": "Từ hoặc câu liên quan đến 'gà' xuất hiện trong bài học về 'gh'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'ghế'.",
+            "en": "Chọn từ đang học trong bài: 'ghế'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'ghế'.",
+            "en": "Từ chính xác là 'ghế'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "ghế",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "ghế"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'ghế':",
+            "en": "Ghép các chữ cái để tạo thành từ 'ghế':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'ghế':",
+            "en": "Ghép các chữ cái để tạo thành từ 'ghế':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'ghế'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'ghế'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'ghế'.",
+            "en": "Ghép các chữ cái tạo thành 'ghế'."
+          },
+          "data": {
+            "letters": [
+              "ế",
+              "h",
+              "g"
+            ],
+            "target_word": "ghế",
+            "target_sequence": [
+              "g",
+              "h",
+              "ế"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'ghế' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'ghế' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'ghế' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'ghế' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'ghế'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'ghế'."
+          },
+          "explanation": {
+            "vi": "'ghế gà' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'ghế gà' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "gà",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "gà"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Bé ngồi ghế gỗ.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bé ngồi ghế gỗ.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Bé ngồi ghế gỗ.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bé ngồi ghế gỗ.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Bé ngồi ghế gỗ.' thuộc chủ đề 'Phân biệt 'g' và 'gh', 'gi''.",
+            "en": "Câu 'Bé ngồi ghế gỗ.' thuộc chủ đề 'Phân biệt 'g' và 'gh', 'gi''."
+          },
+          "data": {
+            "options": [
+              "Phân biệt 'g' và 'gh', 'gi'",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Phân biệt 'g' và 'gh', 'gi'"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Âm gh và ngh chỉ ghép với các chữ e, ê, i.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Âm gh và ngh chỉ ghép với các chữ e, ê, i."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Âm gh và ngh chỉ ghép với các chữ e, ê, i.",
+            "en": "Đúng! Âm gh và ngh chỉ ghép với các chữ e, ê, i."
+          },
+          "data": {
+            "statement": {
+              "vi": "Âm gh và ngh chỉ ghép với các chữ e, ê, i.",
+              "en": "Âm gh và ngh chỉ ghép với các chữ e, ê, i."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Bé ngồi ghế gỗ.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bé ngồi ghế gỗ.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bé ngồi ghế gỗ.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bé ngồi ghế gỗ.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Bé ngồi ghế gỗ..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Bé ngồi ghế gỗ.."
+          },
+          "explanation": {
+            "vi": "Câu 'Bé ngồi ghế gỗ.' có đúng 4 tiếng.",
+            "en": "Câu 'Bé ngồi ghế gỗ.' có đúng 4 tiếng."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'gà' mang dấu thanh gì?",
+            "en": "Tiếng 'gà' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'gà' mang dấu thanh gì?",
+            "en": "Tiếng 'gà' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'gà' mang dấu thanh chính xác.",
+            "en": "Tiếng 'gà' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé ngồi ghế gỗ.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé ngồi ghế gỗ.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé ngồi ghế gỗ.' Bé ... ghế gỗ.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé ngồi ghế gỗ.' Bé ... ghế gỗ."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Bé ngồi ghế gỗ..",
+            "en": "Nhớ lại câu mẫu: Bé ngồi ghế gỗ.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'ngồi'.",
+            "en": "Từ chính xác là 'ngồi'."
+          },
+          "data": {
+            "prefix_text": "Bé ",
+            "suffix_text": " ghế gỗ.",
+            "options": [
+              "ngồi",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "ngồi"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "G",
+                  "en": "G"
+                },
+                "right": {
+                  "vi": "g",
+                  "en": "g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "G",
+                  "en": "G"
+                },
+                "right": {
+                  "vi": "g",
+                  "en": "g"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "G",
+                  "en": "G"
+                },
+                "right": {
+                  "vi": "g",
+                  "en": "g"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'ghế'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'ghế'."
+          },
+          "explanation": {
+            "vi": "'ghế' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'ghế' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "ghế",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "ghế"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'gh'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'gh'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'gh'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'gh'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'gh' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'gh' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'ghế'.",
+            "en": "Tiếng mẫu của bài là 'ghế'."
+          },
+          "data": {
+            "options": [
+              "ghế",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "ghế"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t5_2",
+      "title": {
+        "vi": "Phụ âm ghép 'nh', 'ng', 'ngh'",
+        "en": "Phụ âm ghép 'nh', 'ng', 'ngh'"
+      },
+      "description": {
+        "vi": "Nhận biết tiếng nhà, ngô, nghé",
+        "en": "Nhận biết tiếng nhà, ngô, nghé"
+      },
+      "icon": "🏡",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t5_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Cây trồng quen thuộc nào trổ bắp vàng bên cạnh ngôi nhà trong tranh?",
+            "en": "Cây trồng quen thuộc nào trổ bắp vàng bên cạnh ngôi nhà trong tranh?"
+          },
+          "tts_prompt": {
+            "vi": "Cây trồng quen thuộc nào trổ bắp vàng bên cạnh ngôi nhà trong tranh?",
+            "en": "Cây trồng quen thuộc nào trổ bắp vàng bên cạnh ngôi nhà trong tranh?"
+          },
+          "hint": {
+            "vi": "Cây ngô xanh tốt với những bắp ngô thơm ngọt.",
+            "en": "Cây ngô xanh tốt với những bắp ngô thơm ngọt."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ câu: 'Nhà có cây ngô'.",
+            "en": "Bức tranh minh hoạ câu: 'Nhà có cây ngô'."
+          },
+          "data": {
+            "options": [
+              "cây ngô",
+              "cây dừa",
+              "cây mía",
+              "cây bưởi"
+            ],
+            "correct_answer": "cây ngô"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_ngoi_nha_cay_ngo.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'nhà', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'nhà', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'nhà', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'nhà', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'nhà'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'nhà'."
+          },
+          "explanation": {
+            "vi": "Trong 'nhà', âm 'n' là âm đầu đứng trước.",
+            "en": "Trong 'nhà', âm 'n' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "n",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "n"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "nhà",
+                  "en": "nhà"
+                },
+                "right": {
+                  "vi": "Tiếng nhà",
+                  "en": "Tiếng nhà"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "ngô",
+                  "en": "ngô"
+                },
+                "right": {
+                  "vi": "Tiếng ngô",
+                  "en": "Tiếng ngô"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "nghé",
+                  "en": "nghé"
+                },
+                "right": {
+                  "vi": "Tiếng nghé",
+                  "en": "Tiếng nghé"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'ngô' xuất hiện trong bài học về 'nh'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'ngô' xuất hiện trong bài học về 'nh'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'nh'.",
+            "en": "Nhớ lại nội dung bài học về 'nh'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'ngô' là trọng tâm trong bài học về 'nh'.",
+            "en": "Đúng! Nội dung 'ngô' là trọng tâm trong bài học về 'nh'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'ngô' xuất hiện trong bài học về 'nh'.",
+              "en": "Từ hoặc câu liên quan đến 'ngô' xuất hiện trong bài học về 'nh'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'nhà'.",
+            "en": "Chọn từ đang học trong bài: 'nhà'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'nhà'.",
+            "en": "Từ chính xác là 'nhà'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "nhà",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "nhà"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'nhà':",
+            "en": "Ghép các chữ cái để tạo thành từ 'nhà':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'nhà':",
+            "en": "Ghép các chữ cái để tạo thành từ 'nhà':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'nhà'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'nhà'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'nhà'.",
+            "en": "Ghép các chữ cái tạo thành 'nhà'."
+          },
+          "data": {
+            "letters": [
+              "à",
+              "h",
+              "n"
+            ],
+            "target_word": "nhà",
+            "target_sequence": [
+              "n",
+              "h",
+              "à"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'nhà' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'nhà' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'nhà' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'nhà' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'nhà'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'nhà'."
+          },
+          "explanation": {
+            "vi": "'nhà ngô' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'nhà ngô' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "ngô",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "ngô"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Nhà có cây ngô.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Nhà có cây ngô.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Nhà có cây ngô.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Nhà có cây ngô.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Nhà có cây ngô.' thuộc chủ đề 'Phụ âm ghép 'nh', 'ng', 'ngh''.",
+            "en": "Câu 'Nhà có cây ngô.' thuộc chủ đề 'Phụ âm ghép 'nh', 'ng', 'ngh''."
+          },
+          "data": {
+            "options": [
+              "Phụ âm ghép 'nh', 'ng', 'ngh'",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Phụ âm ghép 'nh', 'ng', 'ngh'"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Âm ngh ghép từ 3 chữ cái n, g, h.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Âm ngh ghép từ 3 chữ cái n, g, h."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Âm ngh ghép từ 3 chữ cái n, g, h.",
+            "en": "Đúng! Âm ngh ghép từ 3 chữ cái n, g, h."
+          },
+          "data": {
+            "statement": {
+              "vi": "Âm ngh ghép từ 3 chữ cái n, g, h.",
+              "en": "Âm ngh ghép từ 3 chữ cái n, g, h."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Nhà có cây ngô.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Nhà có cây ngô.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Nhà có cây ngô.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Nhà có cây ngô.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Nhà có cây ngô..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Nhà có cây ngô.."
+          },
+          "explanation": {
+            "vi": "Câu 'Nhà có cây ngô.' có đúng 4 tiếng.",
+            "en": "Câu 'Nhà có cây ngô.' có đúng 4 tiếng."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'ngô' mang dấu thanh gì?",
+            "en": "Tiếng 'ngô' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'ngô' mang dấu thanh gì?",
+            "en": "Tiếng 'ngô' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'ngô' mang dấu thanh chính xác.",
+            "en": "Tiếng 'ngô' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Nhà có cây ngô.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Nhà có cây ngô.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Nhà có cây ngô.' Nhà ... cây ngô.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Nhà có cây ngô.' Nhà ... cây ngô."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Nhà có cây ngô..",
+            "en": "Nhớ lại câu mẫu: Nhà có cây ngô.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'có'.",
+            "en": "Từ chính xác là 'có'."
+          },
+          "data": {
+            "prefix_text": "Nhà ",
+            "suffix_text": " cây ngô.",
+            "options": [
+              "có",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "có"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "N",
+                  "en": "N"
+                },
+                "right": {
+                  "vi": "n",
+                  "en": "n"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "N",
+                  "en": "N"
+                },
+                "right": {
+                  "vi": "n",
+                  "en": "n"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "N",
+                  "en": "N"
+                },
+                "right": {
+                  "vi": "n",
+                  "en": "n"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'nhà'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'nhà'."
+          },
+          "explanation": {
+            "vi": "'nhà' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'nhà' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "nhà",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "nhà"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t5_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'nh'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'nh'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'nh'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'nh'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'nh' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'nh' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'nhà'.",
+            "en": "Tiếng mẫu của bài là 'nhà'."
+          },
+          "data": {
+            "options": [
+              "nhà",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "nhà"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

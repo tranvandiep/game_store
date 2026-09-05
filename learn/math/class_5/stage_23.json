@@ -1,0 +1,726 @@
+{
+  "id": "m5_stage_23",
+  "stage_number": 23,
+  "title": {
+    "vi": "Chặng 23: Thể Tích Hình Hộp Chữ Nhật & Hình Lập Phương",
+    "en": "Stage 23: Volume of Rectangular Prisms & Cubes"
+  },
+  "subtitle": {
+    "vi": "Công thức V = a x b x c và V = a x a x a trong thực tế",
+    "en": "Formulas V = a * b * c and V = a³ for containers and rooms"
+  },
+  "icon": "🏢",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFFE91E63",
+  "topics": [
+    {
+      "id": "m5_t23_1",
+      "title": {
+        "vi": "Thể Tích Hình Hộp Chữ Nhật",
+        "en": "Volume of Rectangular Prism"
+      },
+      "description": {
+        "vi": "Thể tích hình hộp chữ nhật = Chiều dài x Chiều rộng x Chiều cao: V = a x b x c (cùng đơn vị đo)",
+        "en": "Volume = Length * Width * Height: V = a * b * c"
+      },
+      "icon": "📦",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t23_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Công thức tính thể tích hình hộp chữ nhật có các kích thước a, b, c là:",
+            "en": "Volume formula for rectangular prism with dimensions a, b, c:"
+          },
+          "tts_prompt": {
+            "vi": "Công thức tính thể tích hình hộp chữ nhật có các kích thước a, b, c là:",
+            "en": "Volume formula for rectangular prism with dimensions a, b, c:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "V = a x b x c",
+              "V = (a + b) x c",
+              "V = a x b x 2"
+            ],
+            "answer": "V = a x b x c"
+          },
+          "hint": {
+            "vi": "V = a x b x c (cùng đơn vị đo).",
+            "en": "V = a * b * c."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là V = a x b x c. V = a x b x c (cùng đơn vị đo).",
+            "en": "Correct answer is V = a x b x c. V = a * b * c."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một hình hộp chữ nhật có chiều dài 8 cm, chiều rộng 5 cm, chiều cao 4 cm. Thể tích hình hộp chữ nhật là mấy cm³?",
+            "en": "Prism with length 8cm, width 5cm, height 4cm. Volume in cm³:"
+          },
+          "tts_prompt": {
+            "vi": "Một hình hộp chữ nhật có chiều dài 8 cm, chiều rộng 5 cm, chiều cao 4 cm. Thể tích hình hộp chữ nhật là mấy cm³?",
+            "en": "Prism with length 8cm, width 5cm, height 4cm. Volume in cm³:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 160,
+            "unit": "cm³"
+          },
+          "hint": {
+            "vi": "V = 8 x 5 x 4 = 160 cm³.",
+            "en": "V = 8 * 5 * 4 = 160 cm³."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 160 cm³. V = 8 x 5 x 4 = 160 cm³.",
+            "en": "The exact result is 160 cm³. V = 8 * 5 * 4 = 160 cm³."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_1_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép công thức thể tích hình hộp chữ nhật: V = a x b x c",
+            "en": "Arrange prism volume formula: V = a * b * c"
+          },
+          "tts_prompt": {
+            "vi": "Ghép công thức thể tích hình hộp chữ nhật: V = a x b x c",
+            "en": "Arrange prism volume formula: V = a * b * c"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "target_word": "V = a x b x c",
+            "letters": [
+              "V",
+              "=",
+              "a",
+              "x",
+              "b",
+              "x",
+              "c"
+            ]
+          },
+          "hint": {
+            "vi": "V = a x b x c.",
+            "en": "V = a * b * c."
+          },
+          "explanation": {
+            "vi": "Kết quả ghép chuẩn là: V = a x b x c. V = a x b x c.",
+            "en": "Target arrangement is: V = a x b x c. V = a * b * c."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'THỂ'",
+            "en": "Arrange the letters to spell the keyword: 'THỂ'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa THỂ",
+            "en": "Arrange the letters to spell THỂ"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: THỂ",
+            "en": "The keyword is: THỂ"
+          },
+          "data": {
+            "target_word": "THỂ",
+            "scrambled_letters": [
+              "T",
+              "H",
+              "Ể"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t23_2",
+      "title": {
+        "vi": "Thể Tích Hình Lập Phương",
+        "en": "Volume of a Cube"
+      },
+      "description": {
+        "vi": "Thể tích hình lập phương = Cạnh x Cạnh x Cạnh: V = a x a x a (V = a³)",
+        "en": "Volume of cube = Side * Side * Side: V = a³"
+      },
+      "icon": "🧊",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t23_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một hình lập phương có cạnh a = 4 cm. Thể tích hình lập phương là bao nhiêu cm³?",
+            "en": "Cube with edge 4cm. Volume in cm³:"
+          },
+          "tts_prompt": {
+            "vi": "Một hình lập phương có cạnh a = 4 cm. Thể tích hình lập phương là bao nhiêu cm³?",
+            "en": "Cube with edge 4cm. Volume in cm³:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 64,
+            "unit": "cm³"
+          },
+          "hint": {
+            "vi": "V = 4 x 4 x 4 = 64 cm³.",
+            "en": "V = 4 * 4 * 4 = 64 cm³."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 64 cm³. V = 4 x 4 x 4 = 64 cm³.",
+            "en": "The exact result is 64 cm³. V = 4 * 4 * 4 = 64 cm³."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Nếu cạnh của hình lập phương tăng lên 3 lần thì thể tích của nó sẽ tăng lên 27 lần (3 x 3 x 3 = 27).",
+            "en": "Decide whether the following statement is true or false: Nếu cạnh của hình lập phương tăng lên 3 lần thì thể tích của nó sẽ tăng lên 27 lần (3 x 3 x 3 = 27)."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Nếu cạnh của hình lập phương tăng lên 3 lần thì thể tích của nó sẽ tăng lên 27 lần (3 x 3 x 3 = 27).",
+              "en": "Nếu cạnh của hình lập phương tăng lên 3 lần thì thể tích của nó sẽ tăng lên 27 lần (3 x 3 x 3 = 27)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 10 : 100 = 20.",
+            "en": "Result is 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "20",
+                "en": "20"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t23_3",
+      "title": {
+        "vi": "Bài toán thực tế tính dung tích bể nước & phòng học",
+        "en": "Applied Volume & Liquid Capacity Problems"
+      },
+      "description": {
+        "vi": "Tính số lít nước chứa trong bể hình hộp chữ nhật",
+        "en": "Liters of water in tanks and classroom air capacity"
+      },
+      "icon": "🚰",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t23_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một bể nước hình hộp chữ nhật có chiều dài 2 m, chiều rộng 1,5 m và chiều cao 1,2 m. Thể tích của bể nước là 3,?:",
+            "en": "Water tank 2m x 1.5m x 1.2m. Volume in m³ is 3.?:"
+          },
+          "tts_prompt": {
+            "vi": "Một bể nước hình hộp chữ nhật có chiều dài 2 m, chiều rộng 1,5 m và chiều cao 1,2 m. Thể tích của bể nước là 3,?:",
+            "en": "Water tank 2m x 1.5m x 1.2m. Volume in m³ is 3.?:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 6,
+            "unit": "m³"
+          },
+          "hint": {
+            "vi": "V = 2 x 1,5 x 1,2 = 3,6 m³.",
+            "en": "3.6 m³."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 6 m³. V = 2 x 1,5 x 1,2 = 3,6 m³.",
+            "en": "The exact result is 6 m³. 3.6 m³."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Chiều cao mực nước trong bể bằng thể tích nước chia cho diện tích mặt đáy (h = V : (a x b)).",
+            "en": "Decide whether the following statement is true or false: Chiều cao mực nước trong bể bằng thể tích nước chia cho diện tích mặt đáy (h = V : (a x b))."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Chiều cao mực nước trong bể bằng thể tích nước chia cho diện tích mặt đáy (h = V : (a x b)).",
+              "en": "Chiều cao mực nước trong bể bằng thể tích nước chia cho diện tích mặt đáy (h = V : (a x b))."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 10 : 100 = 20.",
+            "en": "Result is 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "20",
+                "en": "20"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t23_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

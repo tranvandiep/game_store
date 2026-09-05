@@ -1,0 +1,1142 @@
+{
+  "id": "e3_stage_17",
+  "stage_number": 17,
+  "title": {
+    "vi": "Week 17: Unit 11 - My Family",
+    "en": "Week 17: Unit 11 - My Family"
+  },
+  "subtitle": {
+    "vi": "Family members: father, mother, brother, sister, grandfather, grandmother",
+    "en": "Family members: father, mother, brother, sister, grandfather, grandmother"
+  },
+  "icon": "👨‍👩‍👧‍👦",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.485,
+  "required_stars": 48,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e3_s17_1",
+      "title": {
+        "vi": "Unit 11: Who's That? - Father & Mother",
+        "en": "Unit 11: Who's That? - Father & Mother"
+      },
+      "description": {
+        "vi": "Who's that? - He's my father / She's my mother",
+        "en": "Who's that? - He's my father / She's my mother"
+      },
+      "icon": "👨‍👩‍👦",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s17_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the family portrait showing loving parents with their children. Who is the tall man?",
+            "en": "Look at the family portrait showing loving parents with their children. Who is the tall man?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the family portrait showing loving parents with their children. Who is the tall man?",
+            "en": "Look at the family portrait showing loving parents with their children. Who is the tall man?"
+          },
+          "hint": {
+            "vi": "The male parent in the family.",
+            "en": "The male parent in the family."
+          },
+          "explanation": {
+            "vi": "He is the father.",
+            "en": "He is the father."
+          },
+          "data": {
+            "options": [
+              "He is the father.",
+              "He is a stranger.",
+              "He is a doctor in hospital.",
+              "He is a bus driver."
+            ],
+            "correct_answer": "He is the father."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u11_father_mother.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s17_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'father'?",
+            "en": "What is the first letter of the word 'father'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'father'?",
+            "en": "What is the first letter of the word 'father'?"
+          },
+          "hint": {
+            "vi": "The word 'father' starts with the letter F.",
+            "en": "The word 'father' starts with the letter F."
+          },
+          "explanation": {
+            "vi": "Correct! 'father' begins with the letter 'F'.",
+            "en": "Correct! 'father' begins with the letter 'F'."
+          },
+          "data": {
+            "options": [
+              "Letter F",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter F"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "father",
+                  "en": "father"
+                },
+                "right": {
+                  "vi": "Nghĩa của father",
+                  "en": "Nghĩa của father"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "mother",
+                  "en": "mother"
+                },
+                "right": {
+                  "vi": "Nghĩa của mother",
+                  "en": "Nghĩa của mother"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "parents",
+                  "en": "parents"
+                },
+                "right": {
+                  "vi": "Nghĩa của parents",
+                  "en": "Nghĩa của parents"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Who's that? - He's my father.",
+            "en": "Is this English sentence correct for Grade 3? Who's that? - He's my father."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Who's that? - He's my father.",
+            "en": "Remember the pattern: Who's that? - He's my father."
+          },
+          "explanation": {
+            "vi": "Yes! 'Who's that? - He's my father.' is a correct English sentence.",
+            "en": "Yes! 'Who's that? - He's my father.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Who's that? - He's my father.",
+              "en": "Who's that? - He's my father."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Who's that? - He's my ....",
+            "en": "Drag the correct word to complete the sentence: Who's that? - He's my ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'father'.",
+            "en": "Choose the correct word: 'father'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Who's that? - He's my father.'.",
+            "en": "The complete sentence is: 'Who's that? - He's my father.'."
+          },
+          "data": {
+            "prefix_text": "Who's that? - He's my ",
+            "suffix_text": ".",
+            "options": [
+              "father",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "father"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'father':",
+            "en": "Spell the English word 'father':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'father':",
+            "en": "Spell the English word 'father':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'father'.",
+            "en": "Tap the letters in order to spell 'father'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'father' correctly.",
+            "en": "Well done! You spelled 'father' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "h",
+              "t",
+              "a",
+              "f"
+            ],
+            "target_word": "father",
+            "target_sequence": [
+              "f",
+              "a",
+              "t",
+              "h",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Kia là ai? - Đó là bố của tôi.' in English?",
+            "en": "How do you say 'Kia là ai? - Đó là bố của tôi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Kia là ai? - Đó là bố của tôi.' in English?",
+            "en": "How do you say 'Kia là ai? - Đó là bố của tôi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Kia là ai? - Đó là bố của tôi.",
+            "en": "Choose the English sentence that means: Kia là ai? - Đó là bố của tôi."
+          },
+          "explanation": {
+            "vi": "'Who's that? - He's my father.' means 'Kia là ai? - Đó là bố của tôi.'.",
+            "en": "'Who's that? - He's my father.' means 'Kia là ai? - Đó là bố của tôi.'."
+          },
+          "data": {
+            "options": [
+              "Who's that? - He's my father.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Who's that? - He's my father."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 11: Who's That? - Father & Mother'?",
+            "en": "Which of the following is a word from Unit 'Unit 11: Who's That? - Father & Mother'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 11: Who's That? - Father & Mother'?",
+            "en": "Which of the following is a word from Unit 'Unit 11: Who's That? - Father & Mother'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 11: Who's That? - Father & Mother.",
+            "en": "Remember the words in topic: Unit 11: Who's That? - Father & Mother."
+          },
+          "explanation": {
+            "vi": "'father' is a key vocabulary word in this topic.",
+            "en": "'father' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "father",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "father"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'mother' start with the sound /f/?",
+            "en": "Does the word 'mother' start with the sound /f/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'mother' start with the sound /f/? The word 'mother' starts with letter 'F'.",
+            "en": "Does the word 'mother' start with the sound /f/? The word 'mother' starts with letter 'F'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'mother'.",
+            "en": "Listen to the first sound of 'mother'."
+          },
+          "explanation": {
+            "vi": "Yes! 'mother' starts with the sound /f/.",
+            "en": "Yes! 'mother' starts with the sound /f/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'mother' starts with letter 'F'.",
+              "en": "The word 'mother' starts with letter 'F'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'father'?",
+            "en": "How many letters are there in the word 'father'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'father'?",
+            "en": "How many letters are there in the word 'father'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'father': 1, 2, 3...",
+            "en": "Count the letters in 'father': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'father' has exactly 6 letters.",
+            "en": "The word 'father' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'father':",
+            "en": "Choose the correct phrase with 'father':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'father':",
+            "en": "Choose the correct phrase with 'father':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a father'.",
+            "en": "Correct! We say 'a father'."
+          },
+          "data": {
+            "options": [
+              "a father",
+              "an father",
+              "two father",
+              "many father"
+            ],
+            "correct_answer": "a father"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'father'.",
+            "en": "Choose the noun: 'father'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our father. It is very nice!'",
+            "en": "We say: 'Look! This is our father. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "father",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "father"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 11: Who's That? - Father & Mother'?",
+            "en": "Which English sentence best describes the topic 'Unit 11: Who's That? - Father & Mother'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 11: Who's That? - Father & Mother'?",
+            "en": "Which English sentence best describes the topic 'Unit 11: Who's That? - Father & Mother'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 11: Who's That? - Father & Mother'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 11: Who's That? - Father & Mother'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: father, mother!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: father, mother!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s17_2",
+      "title": {
+        "vi": "Unit 11: Grandfather & Grandmother",
+        "en": "Unit 11: Grandfather & Grandmother"
+      },
+      "description": {
+        "vi": "He's my grandfather / She's my grandmother",
+        "en": "He's my grandfather / She's my grandmother"
+      },
+      "icon": "👴",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s17_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the kind elderly couple with silver hair smiling with grandchildren. Who are they?",
+            "en": "Look at the kind elderly couple with silver hair smiling with grandchildren. Who are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the kind elderly couple with silver hair smiling with grandchildren. Who are they?",
+            "en": "Look at the kind elderly couple with silver hair smiling with grandchildren. Who are they?"
+          },
+          "hint": {
+            "vi": "The parents of your father or mother.",
+            "en": "The parents of your father or mother."
+          },
+          "explanation": {
+            "vi": "They are the loving grandparents.",
+            "en": "They are the loving grandparents."
+          },
+          "data": {
+            "options": [
+              "the grandparents (grandfather and grandmother)",
+              "classmates",
+              "school teachers",
+              "tourists"
+            ],
+            "correct_answer": "the grandparents (grandfather and grandmother)"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u11_grandparents.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s17_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'grandfather'?",
+            "en": "What is the first letter of the word 'grandfather'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'grandfather'?",
+            "en": "What is the first letter of the word 'grandfather'?"
+          },
+          "hint": {
+            "vi": "The word 'grandfather' starts with the letter G.",
+            "en": "The word 'grandfather' starts with the letter G."
+          },
+          "explanation": {
+            "vi": "Correct! 'grandfather' begins with the letter 'G'.",
+            "en": "Correct! 'grandfather' begins with the letter 'G'."
+          },
+          "data": {
+            "options": [
+              "Letter G",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter G"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "grandfather",
+                  "en": "grandfather"
+                },
+                "right": {
+                  "vi": "Nghĩa của grandfather",
+                  "en": "Nghĩa của grandfather"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "grandmother",
+                  "en": "grandmother"
+                },
+                "right": {
+                  "vi": "Nghĩa của grandmother",
+                  "en": "Nghĩa của grandmother"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "grandparents",
+                  "en": "grandparents"
+                },
+                "right": {
+                  "vi": "Nghĩa của grandparents",
+                  "en": "Nghĩa của grandparents"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? My grandfather is seventy years old.",
+            "en": "Is this English sentence correct for Grade 3? My grandfather is seventy years old."
+          },
+          "hint": {
+            "vi": "Remember the pattern: My grandfather is seventy years old.",
+            "en": "Remember the pattern: My grandfather is seventy years old."
+          },
+          "explanation": {
+            "vi": "Yes! 'My grandfather is seventy years old.' is a correct English sentence.",
+            "en": "Yes! 'My grandfather is seventy years old.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "My grandfather is seventy years old.",
+              "en": "My grandfather is seventy years old."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: My grandfather is seventy years ....",
+            "en": "Drag the correct word to complete the sentence: My grandfather is seventy years ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'old'.",
+            "en": "Choose the correct word: 'old'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'My grandfather is seventy years old.'.",
+            "en": "The complete sentence is: 'My grandfather is seventy years old.'."
+          },
+          "data": {
+            "prefix_text": "My grandfather is seventy years ",
+            "suffix_text": ".",
+            "options": [
+              "old",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "old"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'grandfather':",
+            "en": "Spell the English word 'grandfather':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'grandfather':",
+            "en": "Spell the English word 'grandfather':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'grandfather'.",
+            "en": "Tap the letters in order to spell 'grandfather'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'grandfather' correctly.",
+            "en": "Well done! You spelled 'grandfather' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "h",
+              "t",
+              "a",
+              "f",
+              "d",
+              "n",
+              "a",
+              "r",
+              "g"
+            ],
+            "target_word": "grandfather",
+            "target_sequence": [
+              "g",
+              "r",
+              "a",
+              "n",
+              "d",
+              "f",
+              "a",
+              "t",
+              "h",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Ông của tôi bảy mươi tuổi.' in English?",
+            "en": "How do you say 'Ông của tôi bảy mươi tuổi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Ông của tôi bảy mươi tuổi.' in English?",
+            "en": "How do you say 'Ông của tôi bảy mươi tuổi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Ông của tôi bảy mươi tuổi.",
+            "en": "Choose the English sentence that means: Ông của tôi bảy mươi tuổi."
+          },
+          "explanation": {
+            "vi": "'My grandfather is seventy years old.' means 'Ông của tôi bảy mươi tuổi.'.",
+            "en": "'My grandfather is seventy years old.' means 'Ông của tôi bảy mươi tuổi.'."
+          },
+          "data": {
+            "options": [
+              "My grandfather is seventy years old.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "My grandfather is seventy years old."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 11: Grandfather & Grandmother'?",
+            "en": "Which of the following is a word from Unit 'Unit 11: Grandfather & Grandmother'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 11: Grandfather & Grandmother'?",
+            "en": "Which of the following is a word from Unit 'Unit 11: Grandfather & Grandmother'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 11: Grandfather & Grandmother.",
+            "en": "Remember the words in topic: Unit 11: Grandfather & Grandmother."
+          },
+          "explanation": {
+            "vi": "'grandfather' is a key vocabulary word in this topic.",
+            "en": "'grandfather' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "grandfather",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "grandfather"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'grandmother' start with the sound /g/?",
+            "en": "Does the word 'grandmother' start with the sound /g/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'grandmother' start with the sound /g/? The word 'grandmother' starts with letter 'G'.",
+            "en": "Does the word 'grandmother' start with the sound /g/? The word 'grandmother' starts with letter 'G'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'grandmother'.",
+            "en": "Listen to the first sound of 'grandmother'."
+          },
+          "explanation": {
+            "vi": "Yes! 'grandmother' starts with the sound /g/.",
+            "en": "Yes! 'grandmother' starts with the sound /g/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'grandmother' starts with letter 'G'.",
+              "en": "The word 'grandmother' starts with letter 'G'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'grandfather'?",
+            "en": "How many letters are there in the word 'grandfather'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'grandfather'?",
+            "en": "How many letters are there in the word 'grandfather'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'grandfather': 1, 2, 3...",
+            "en": "Count the letters in 'grandfather': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'grandfather' has exactly 11 letters.",
+            "en": "The word 'grandfather' has exactly 11 letters."
+          },
+          "data": {
+            "correct_number": "11",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'grandfather':",
+            "en": "Choose the correct phrase with 'grandfather':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'grandfather':",
+            "en": "Choose the correct phrase with 'grandfather':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a grandfather'.",
+            "en": "Correct! We say 'a grandfather'."
+          },
+          "data": {
+            "options": [
+              "a grandfather",
+              "an grandfather",
+              "two grandfather",
+              "many grandfather"
+            ],
+            "correct_answer": "a grandfather"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'grandfather'.",
+            "en": "Choose the noun: 'grandfather'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our grandfather. It is very nice!'",
+            "en": "We say: 'Look! This is our grandfather. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "grandfather",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "grandfather"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s17_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 11: Grandfather & Grandmother'?",
+            "en": "Which English sentence best describes the topic 'Unit 11: Grandfather & Grandmother'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 11: Grandfather & Grandmother'?",
+            "en": "Which English sentence best describes the topic 'Unit 11: Grandfather & Grandmother'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 11: Grandfather & Grandmother'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 11: Grandfather & Grandmother'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: grandfather, grandmother!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: grandfather, grandmother!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "id": "m2_stage_27",
+  "stage_number": 27,
+  "title": {
+    "vi": "Tuần 27: Phép Cộng Trong Phạm Vi 1 000",
+    "en": "Week 27: Addition within 1,000"
+  },
+  "subtitle": {
+    "vi": "Bài 59 & 60 - Cộng không nhớ và có nhớ đến 1 000",
+    "en": "Lesson 59 & 60 - Addition up to 1,000"
+  },
+  "icon": "➕",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.222,
+  "required_stars": 78,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "m2_t27_1",
+      "title": {
+        "vi": "Phép cộng không nhớ trong phạm vi 1 000",
+        "en": "Non-Regrouping Addition to 1,000"
+      },
+      "description": {
+        "vi": "Cộng dạng 324 + 152, 405 + 230",
+        "en": "Form 324 + 152, 405 + 230"
+      },
+      "icon": "➕",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m2_t27_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 324 + 152 = ?",
+            "en": "Calculate: 324 + 152 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 324 + 152 = ?",
+            "en": "Calculate: 324 + 152 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "4 + 2 = 6, 2 + 5 = 7, 3 + 1 = 4 -> 476.",
+            "en": "324 + 152 = 476."
+          },
+          "data": {
+            "correct_number": "476",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 513 + 264 = ?",
+            "en": "Calculate: 513 + 264 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 513 + 264 = ?",
+            "en": "Calculate: 513 + 264 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "3 + 4 = 7, 1 + 6 = 7, 5 + 2 = 7 -> 777.",
+            "en": "513 + 264 = 777."
+          },
+          "data": {
+            "correct_number": "777",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 600 + 350 = ?",
+            "en": "Calculate: 600 + 350 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 600 + 350 = ?",
+            "en": "Calculate: 600 + 350 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "600 + 350 = 950.",
+            "en": "600 + 350 = 950."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "850",
+                "en": "850"
+              },
+              {
+                "vi": "950",
+                "en": "950"
+              },
+              {
+                "vi": "900",
+                "en": "900"
+              }
+            ],
+            "correct_answer": "950"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 220 + 263 = ?",
+            "en": "Calculate: 220 + 263 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 220 + 263 = ?",
+            "en": "Calculate: 220 + 263 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 220 + 263.",
+            "en": "Calculate 220 + 263."
+          },
+          "explanation": {
+            "vi": "220 + 263 = 483",
+            "en": "220 + 263 = 483"
+          },
+          "data": {
+            "options": [
+              "482",
+              "484",
+              "485",
+              "483"
+            ],
+            "correct_answer": "483"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 184 + 359 = ?",
+            "en": "Calculate: 184 + 359 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 184 + 359 = ?",
+            "en": "Calculate: 184 + 359 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 184 + 359.",
+            "en": "Calculate 184 + 359."
+          },
+          "explanation": {
+            "vi": "184 + 359 = 543",
+            "en": "184 + 359 = 543"
+          },
+          "data": {
+            "options": [
+              "545",
+              "542",
+              "543",
+              "544"
+            ],
+            "correct_answer": "543"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t27_2",
+      "title": {
+        "vi": "Phép cộng có nhớ trong phạm vi 1 000",
+        "en": "Regrouping Addition to 1,000"
+      },
+      "description": {
+        "vi": "Cộng có nhớ sang hàng chục hoặc hàng trăm",
+        "en": "Carry 1 into tens or hundreds column"
+      },
+      "icon": "📈",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m2_t27_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 257 + 138 = ?",
+            "en": "Calculate: 257 + 138 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 257 + 138 = ?",
+            "en": "Calculate: 257 + 138 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "7 + 8 = 15, viết 5 nhớ 1; 5 + 3 + 1 = 9; 2 + 1 = 3 -> 395.",
+            "en": "257 + 138 = 395."
+          },
+          "data": {
+            "correct_number": "395",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 463 + 274 = ?",
+            "en": "Calculate: 463 + 274 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 463 + 274 = ?",
+            "en": "Calculate: 463 + 274 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "3 + 4 = 7; 6 + 7 = 13, viết 3 nhớ 1; 4 + 2 + 1 = 7 -> 737.",
+            "en": "463 + 274 = 737."
+          },
+          "data": {
+            "correct_number": "737",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với tổng chính xác:",
+            "en": "Match equations with sums:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với tổng chính xác:",
+            "en": "Match equations with sums:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Cộng 3 chữ số có nhớ thẳng cột.",
+            "en": "Column alignment with regrouping."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "348 + 216",
+                  "en": "348 + 216"
+                },
+                "right": {
+                  "vi": "564",
+                  "en": "564"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "529 + 145",
+                  "en": "529 + 145"
+                },
+                "right": {
+                  "vi": "674",
+                  "en": "674"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "450 + 550",
+                  "en": "450 + 550"
+                },
+                "right": {
+                  "vi": "1000",
+                  "en": "1000"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_2_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Kết quả của phép tính 10 + 29 là:",
+            "en": "Result of 10 + 29 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10 cộng 29 bằng bao nhiêu?",
+            "en": "10 plus 29 is?"
+          },
+          "hint": {
+            "vi": "Cộng hàng đơn vị rồi cộng hàng chục.",
+            "en": "Add ones then tens."
+          },
+          "explanation": {
+            "vi": "10 + 29 = 39.",
+            "en": "10 + 29 = 39."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "39",
+                "en": "39"
+              },
+              {
+                "vi": "41",
+                "en": "41"
+              },
+              {
+                "vi": "37",
+                "en": "37"
+              }
+            ],
+            "correct_answer": "39"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 88 gồm 8 chục và 8 đơn vị.",
+            "en": "Number 88 has 8 tens and 8 ones."
+          },
+          "hint": {
+            "vi": "Xác định chữ số hàng chục và hàng đơn vị.",
+            "en": "Check tens and ones."
+          },
+          "explanation": {
+            "vi": "Số 88 gồm 8 chục và 8 đơn vị.",
+            "en": "88 has 8 tens and 8 ones."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 88 gồm 8 chục và 8 đơn vị.",
+              "en": "Number 88 consists of 8 tens and 8 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t27_3",
+      "title": {
+        "vi": "Luyện tập chung phép cộng phạm vi 1 000",
+        "en": "Addition to 1,000 Review"
+      },
+      "description": {
+        "vi": "Bài toán cây trồng, số trang sách và vé xem phim",
+        "en": "Practical addition word problems"
+      },
+      "icon": "🏆",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m2_t27_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Vườn ươm có 345 cây cam và 280 cây bưởi. Vườn ươm có tất cả bao nhiêu cây?",
+            "en": "Nursery has 345 orange trees and 280 pomelo trees. Total trees?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Vườn ươm có 345 cây cam và 280 cây bưởi. Vườn ươm có tất cả bao nhiêu cây?",
+            "en": "Nursery has 345 orange trees and 280 pomelo trees. Total trees?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "345 + 280 = 625 cây.",
+            "en": "345 + 280 = 625 trees."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "615 cây",
+                "en": "615 cây"
+              },
+              {
+                "vi": "625 cây",
+                "en": "625 cây"
+              },
+              {
+                "vi": "635 cây",
+                "en": "635 cây"
+              }
+            ],
+            "correct_answer": "625 cây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy tắc đặt tính 3 chữ số.",
+            "en": "Decide whether the following statement is true or false: Quy tắc đặt tính 3 chữ số."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Luôn thực hiện từ phải sang trái.",
+            "en": "True! Compute right to left."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy tắc đặt tính 3 chữ số.",
+              "en": "Quy tắc đặt tính 3 chữ số."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tập chung phép cộng phạm vi 1 000': Vườn ươm có 345 cây cam và 280 cây bưởi. Vườn ươm có tất cả bao nhiêu cây?",
+            "en": "Practice 'Addition to 1,000 Review': Nursery has 345 orange trees and 280 pomelo trees. Total trees?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Vườn ươm có 345 cây cam và 280 cây bưởi. Vườn ươm có tất cả bao nhiêu cây?",
+            "en": "Nursery has 345 orange trees and 280 pomelo trees. Total trees?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "345 + 280 = 625 cây.",
+            "en": "345 + 280 = 625 trees."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "625 cây",
+                "en": "625 cây"
+              },
+              {
+                "vi": "635 cây",
+                "en": "635 cây"
+              },
+              {
+                "vi": "615 cây",
+                "en": "615 cây"
+              }
+            ],
+            "correct_answer": "625 cây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 415, 416,  ... , 418",
+            "en": "Drag the correct answer into the slot:\nDãy số: 415, 416,  ... , 418"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 415, 416,  ... , 418",
+            "en": "Drag the correct answer: Dãy số: 415, 416,  ... , 418"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 415, 416,  417 , 418",
+            "en": "Dãy số: 415, 416,  417 , 418"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 415, 416, ",
+            "suffix_text": ", 418",
+            "options": [
+              "417",
+              "416",
+              "419"
+            ],
+            "slot_answer": "417"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 468, 469,  ... , 471",
+            "en": "Drag the correct answer into the slot:\nDãy số: 468, 469,  ... , 471"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 468, 469,  ... , 471",
+            "en": "Drag the correct answer: Dãy số: 468, 469,  ... , 471"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 468, 469,  470 , 471",
+            "en": "Dãy số: 468, 469,  470 , 471"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 468, 469, ",
+            "suffix_text": ", 471",
+            "options": [
+              "470",
+              "472",
+              "469"
+            ],
+            "slot_answer": "470"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_11",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 98, 99,  ... , 101",
+            "en": "Drag the correct answer into the slot:\nDãy số: 98, 99,  ... , 101"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 98, 99,  ... , 101",
+            "en": "Drag the correct answer: Dãy số: 98, 99,  ... , 101"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 98, 99,  100 , 101",
+            "en": "Dãy số: 98, 99,  100 , 101"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 98, 99, ",
+            "suffix_text": ", 101",
+            "options": [
+              "100",
+              "99",
+              "102"
+            ],
+            "slot_answer": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 5 = ...",
+            "en": "Calculate:\n2 x 5 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 5 = ...",
+            "en": "Calculate:\n2 x 5 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2 x 5 = 10.",
+            "en": "2 x 5 = 10."
+          },
+          "data": {
+            "prefix_text": "2 x 5 = ",
+            "suffix_text": "",
+            "options": [
+              "12",
+              "12",
+              "8",
+              "10"
+            ],
+            "slot_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n3 x 7 = ...",
+            "en": "Calculate:\n3 x 7 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n3 x 7 = ...",
+            "en": "Calculate:\n3 x 7 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "3 x 7 = 21.",
+            "en": "3 x 7 = 21."
+          },
+          "data": {
+            "prefix_text": "3 x 7 = ",
+            "suffix_text": "",
+            "options": [
+              "24",
+              "21",
+              "18",
+              "23"
+            ],
+            "slot_answer": "21"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 78 + 6 = ?",
+            "en": "Calculate: 78 + 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 78 + 6 = ?",
+            "en": "Calculate: 78 + 6 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "78 + 6 = 84.",
+            "en": "78 + 6 = 84."
+          },
+          "data": {
+            "prefix_text": "78 + 6 = ",
+            "suffix_text": "",
+            "correct_number": "84"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 98 gồm 9 chục và 8 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 98 has 9 tens and 8 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 98 gồm 9 chục và 8 đơn vị.",
+              "en": "Number 98 has 9 tens and 8 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t27_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

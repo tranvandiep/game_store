@@ -1,0 +1,1134 @@
+{
+  "id": "v2_stage_7",
+  "stage_number": 7,
+  "title": {
+    "vi": "Tuần 7: Tình Yêu Trường Lớp & Mĩ Thuật",
+    "en": "Tuần 7: Tình Yêu Trường Lớp & Mĩ Thuật"
+  },
+  "subtitle": {
+    "vi": "Bài 13 & 14 - Yêu lắm trường ơi! & Em học vẽ",
+    "en": "Bài 13 & 14 - Yêu lắm trường ơi! & Em học vẽ"
+  },
+  "icon": "🎨",
+  "banner_image": null,
+  "x_percent": 0.2,
+  "y_percent": 0.776,
+  "required_stars": 18,
+  "theme_color": "0xFF059669",
+  "topics": [
+    {
+      "id": "v2_t7_1",
+      "title": {
+        "vi": "Tập đọc: Yêu lắm trường ơi!",
+        "en": "Tập đọc: Yêu lắm trường ơi!"
+      },
+      "description": {
+        "vi": "Khung cảnh thân thương dưới mái trường tiểu học",
+        "en": "Khung cảnh thân thương dưới mái trường tiểu học"
+      },
+      "icon": "🏫",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t7_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Khung cảnh mái trường thân thương có hàng cây xanh và cờ đỏ sao vàng trong tranh là gì?",
+            "en": "Khung cảnh mái trường thân thương có hàng cây xanh và cờ đỏ sao vàng trong tranh là gì?"
+          },
+          "tts_prompt": {
+            "vi": "Khung cảnh mái trường thân thương có hàng cây xanh và cờ đỏ sao vàng trong tranh là gì?",
+            "en": "Khung cảnh mái trường thân thương có hàng cây xanh và cờ đỏ sao vàng trong tranh là gì?"
+          },
+          "hint": {
+            "vi": "Nơi các bạn nhỏ học tập và vui chơi mỗi ngày.",
+            "en": "Nơi các bạn nhỏ học tập và vui chơi mỗi ngày."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài thơ: 'Yêu lắm trường ơi!'.",
+            "en": "Bức tranh minh hoạ bài thơ: 'Yêu lắm trường ơi!'."
+          },
+          "data": {
+            "options": [
+              "ngôi trường tiểu học thân yêu",
+              "khu chợ sầm uất",
+              "nhà ga xe lửa",
+              "bến cảng lớn"
+            ],
+            "correct_answer": "ngôi trường tiểu học thân yêu"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_yeu_lam_truong_oi.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trường ơi'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trường ơi'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trường ơi'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trường ơi'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'trường ơi' và 'hàng cây' cùng thuộc chủ điểm bài học.",
+            "en": "'trường ơi' và 'hàng cây' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "hàng cây",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "hàng cây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "trường ơi",
+                  "en": "trường ơi"
+                },
+                "right": {
+                  "vi": "Nghĩa của trường ơi",
+                  "en": "Nghĩa của trường ơi"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "hàng cây",
+                  "en": "hàng cây"
+                },
+                "right": {
+                  "vi": "Nghĩa của hàng cây",
+                  "en": "Nghĩa của hàng cây"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "bạn bè",
+                  "en": "bạn bè"
+                },
+                "right": {
+                  "vi": "Nghĩa của bạn bè",
+                  "en": "Nghĩa của bạn bè"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'trường ơi' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'trường ơi' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'trường ơi' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'trường ơi' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'trường ơi' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'trường ơi' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'trường ơi'.",
+            "en": "Từ chính xác là 'trường ơi'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "trường ơi",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "trường ơi"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'trườngơi':",
+            "en": "Ghép các chữ cái để tạo thành từ 'trườngơi':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'trườngơi':",
+            "en": "Ghép các chữ cái để tạo thành từ 'trườngơi':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'trườngơi'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'trườngơi'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'trườngơi'.",
+            "en": "Ghép các chữ cái tạo thành 'trườngơi'."
+          },
+          "data": {
+            "letters": [
+              "i",
+              "ơ",
+              "g",
+              "n",
+              "ờ",
+              "ư",
+              "r",
+              "t"
+            ],
+            "target_word": "trườngơi",
+            "target_sequence": [
+              "t",
+              "r",
+              "ư",
+              "ờ",
+              "n",
+              "g",
+              "ơ",
+              "i"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'trường ơi' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'trường ơi' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'trường ơi' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'trường ơi' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'trường ơi'.",
+            "en": "Xác định bản chất của từ 'trường ơi'."
+          },
+          "explanation": {
+            "vi": "'trường ơi' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'trường ơi' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Yêu lắm trường ơi!'.",
+            "en": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Yêu lắm trường ơi!'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Yêu lắm trường ơi!",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Yêu lắm trường ơi!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Bảo vệ môi trường học đường luôn xanh, sạch, đẹp.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Bảo vệ môi trường học đường luôn xanh, sạch, đẹp."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Bảo vệ môi trường học đường luôn xanh, sạch, đẹp.",
+            "en": "Đúng! Bảo vệ môi trường học đường luôn xanh, sạch, đẹp."
+          },
+          "data": {
+            "statement": {
+              "vi": "Bảo vệ môi trường học đường luôn xanh, sạch, đẹp.",
+              "en": "Bảo vệ môi trường học đường luôn xanh, sạch, đẹp."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi..",
+            "en": "Đếm từng tiếng trong câu: Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.."
+          },
+          "explanation": {
+            "vi": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' có đúng 11 tiếng.",
+            "en": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' có đúng 11 tiếng."
+          },
+          "data": {
+            "correct_number": "11",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' Em ... mái trường hàng cây xanh mát ngói đỏ tươi.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.' Em ... mái trường hàng cây xanh mát ngói đỏ tươi."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi..",
+            "en": "Nhớ lại câu mẫu trong bài học: Em yêu mái trường, hàng cây xanh mát ngói đỏ tươi.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'yêu'.",
+            "en": "Từ chính xác là 'yêu'."
+          },
+          "data": {
+            "prefix_text": "Em ",
+            "suffix_text": " mái trường hàng cây xanh mát ngói đỏ tươi.",
+            "options": [
+              "yêu",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "yêu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'trường ơi' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'trường ơi' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'trường ơi' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'trường ơi' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý trường ơi.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý trường ơi.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý trường ơi.",
+              "trường ơi đang bay trên trời cao.",
+              "trường ơi nở hoa rực rỡ.",
+              "trường ơi có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý trường ơi."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Yêu lắm trường ơi!', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Yêu lắm trường ơi!', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Yêu lắm trường ơi!', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Yêu lắm trường ơi!', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương trường ơi",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương trường ơi"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t7_2",
+      "title": {
+        "vi": "Tập đọc: Em học vẽ",
+        "en": "Tập đọc: Em học vẽ"
+      },
+      "description": {
+        "vi": "Khơi nguồn sáng tạo với màu sắc và cọ vẽ",
+        "en": "Khơi nguồn sáng tạo với màu sắc và cọ vẽ"
+      },
+      "icon": "🖌️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t7_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bạn nhỏ trong tranh đang dùng bút vẽ và hộp màu để sáng tạo bức tranh về điều gì?",
+            "en": "Bạn nhỏ trong tranh đang dùng bút vẽ và hộp màu để sáng tạo bức tranh về điều gì?"
+          },
+          "tts_prompt": {
+            "vi": "Bạn nhỏ trong tranh đang dùng bút vẽ và hộp màu để sáng tạo bức tranh về điều gì?",
+            "en": "Bạn nhỏ trong tranh đang dùng bút vẽ và hộp màu để sáng tạo bức tranh về điều gì?"
+          },
+          "hint": {
+            "vi": "Bức tranh vẽ cánh đồng lúa vàng và ông mặt trời rực rỡ.",
+            "en": "Bức tranh vẽ cánh đồng lúa vàng và ông mặt trời rực rỡ."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài thơ: 'Em học vẽ'.",
+            "en": "Bức tranh minh hoạ bài thơ: 'Em học vẽ'."
+          },
+          "data": {
+            "options": [
+              "bức tranh phong cảnh quê hương",
+              "món ăn nhanh",
+              "chiếc xe đua",
+              "trò chơi điện tử"
+            ],
+            "correct_answer": "bức tranh phong cảnh quê hương"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_em_hoc_ve.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'học vẽ'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'học vẽ'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'học vẽ'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'học vẽ'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'học vẽ' và 'sắc màu' cùng thuộc chủ điểm bài học.",
+            "en": "'học vẽ' và 'sắc màu' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "sắc màu",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "sắc màu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "học vẽ",
+                  "en": "học vẽ"
+                },
+                "right": {
+                  "vi": "Nghĩa của học vẽ",
+                  "en": "Nghĩa của học vẽ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "sắc màu",
+                  "en": "sắc màu"
+                },
+                "right": {
+                  "vi": "Nghĩa của sắc màu",
+                  "en": "Nghĩa của sắc màu"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cọ vẽ",
+                  "en": "cọ vẽ"
+                },
+                "right": {
+                  "vi": "Nghĩa của cọ vẽ",
+                  "en": "Nghĩa của cọ vẽ"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'học vẽ' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'học vẽ' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'học vẽ' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'học vẽ' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'học vẽ' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'học vẽ' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'học vẽ'.",
+            "en": "Từ chính xác là 'học vẽ'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "học vẽ",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "học vẽ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'họcvẽ':",
+            "en": "Ghép các chữ cái để tạo thành từ 'họcvẽ':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'họcvẽ':",
+            "en": "Ghép các chữ cái để tạo thành từ 'họcvẽ':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'họcvẽ'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'họcvẽ'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'họcvẽ'.",
+            "en": "Ghép các chữ cái tạo thành 'họcvẽ'."
+          },
+          "data": {
+            "letters": [
+              "ẽ",
+              "v",
+              "c",
+              "ọ",
+              "h"
+            ],
+            "target_word": "họcvẽ",
+            "target_sequence": [
+              "h",
+              "ọ",
+              "c",
+              "v",
+              "ẽ"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'học vẽ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'học vẽ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'học vẽ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'học vẽ' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'học vẽ'.",
+            "en": "Xác định bản chất của từ 'học vẽ'."
+          },
+          "explanation": {
+            "vi": "'học vẽ' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'học vẽ' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Em học vẽ'.",
+            "en": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Em học vẽ'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Em học vẽ",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Em học vẽ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Học mĩ thuật giúp tâm hồn thêm phong phú và yêu cái đẹp.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Học mĩ thuật giúp tâm hồn thêm phong phú và yêu cái đẹp."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Học mĩ thuật giúp tâm hồn thêm phong phú và yêu cái đẹp.",
+            "en": "Đúng! Học mĩ thuật giúp tâm hồn thêm phong phú và yêu cái đẹp."
+          },
+          "data": {
+            "statement": {
+              "vi": "Học mĩ thuật giúp tâm hồn thêm phong phú và yêu cái đẹp.",
+              "en": "Học mĩ thuật giúp tâm hồn thêm phong phú và yêu cái đẹp."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh..",
+            "en": "Đếm từng tiếng trong câu: Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.."
+          },
+          "explanation": {
+            "vi": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' có đúng 12 tiếng.",
+            "en": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' Em ... quê hương tươi đẹp với đồng lúa và biển xanh.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.' Em ... quê hương tươi đẹp với đồng lúa và biển xanh."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh..",
+            "en": "Nhớ lại câu mẫu trong bài học: Em vẽ quê hương tươi đẹp với đồng lúa và biển xanh.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'vẽ'.",
+            "en": "Từ chính xác là 'vẽ'."
+          },
+          "data": {
+            "prefix_text": "Em ",
+            "suffix_text": " quê hương tươi đẹp với đồng lúa và biển xanh.",
+            "options": [
+              "vẽ",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "vẽ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'học vẽ' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'học vẽ' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'học vẽ' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'học vẽ' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý học vẽ.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý học vẽ.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý học vẽ.",
+              "học vẽ đang bay trên trời cao.",
+              "học vẽ nở hoa rực rỡ.",
+              "học vẽ có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý học vẽ."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t7_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Em học vẽ', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Em học vẽ', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Em học vẽ', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Em học vẽ', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương học vẽ",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương học vẽ"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

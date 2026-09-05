@@ -1,0 +1,1136 @@
+{
+  "id": "e3_stage_6",
+  "stage_number": 6,
+  "title": {
+    "vi": "Week 6: Unit 5 - My Hobbies",
+    "en": "Week 6: Unit 5 - My Hobbies"
+  },
+  "subtitle": {
+    "vi": "Hobbies: singing, dancing, reading, drawing, cooking",
+    "en": "Hobbies: singing, dancing, reading, drawing, cooking"
+  },
+  "icon": "🎨",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.805,
+  "required_stars": 15,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "e3_s6_1",
+      "title": {
+        "vi": "Unit 5: I Like Singing & Dancing",
+        "en": "Unit 5: I Like Singing & Dancing"
+      },
+      "description": {
+        "vi": "Expressing likes: What's your hobby? I like singing",
+        "en": "Expressing likes: What's your hobby? I like singing"
+      },
+      "icon": "🎤",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s6_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the girl holding a microphone singing a lovely song on stage. What is her hobby?",
+            "en": "Look at the girl holding a microphone singing a lovely song on stage. What is her hobby?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the girl holding a microphone singing a lovely song on stage. What is her hobby?",
+            "en": "Look at the girl holding a microphone singing a lovely song on stage. What is her hobby?"
+          },
+          "hint": {
+            "vi": "She holds a microphone and sings musical notes.",
+            "en": "She holds a microphone and sings musical notes."
+          },
+          "explanation": {
+            "vi": "Her favorite hobby is singing.",
+            "en": "Her favorite hobby is singing."
+          },
+          "data": {
+            "options": [
+              "singing songs",
+              "fixing cars",
+              "doing laundry",
+              "chopping wood"
+            ],
+            "correct_answer": "singing songs"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u5_singing_dancing.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s6_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'singing'?",
+            "en": "What is the first letter of the word 'singing'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'singing'?",
+            "en": "What is the first letter of the word 'singing'?"
+          },
+          "hint": {
+            "vi": "The word 'singing' starts with the letter S.",
+            "en": "The word 'singing' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'singing' begins with the letter 'S'.",
+            "en": "Correct! 'singing' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "singing",
+                  "en": "singing"
+                },
+                "right": {
+                  "vi": "Nghĩa của singing",
+                  "en": "Nghĩa của singing"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "dancing",
+                  "en": "dancing"
+                },
+                "right": {
+                  "vi": "Nghĩa của dancing",
+                  "en": "Nghĩa của dancing"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "hobby",
+                  "en": "hobby"
+                },
+                "right": {
+                  "vi": "Nghĩa của hobby",
+                  "en": "Nghĩa của hobby"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? What's your hobby? - I like singing.",
+            "en": "Is this English sentence correct for Grade 3? What's your hobby? - I like singing."
+          },
+          "hint": {
+            "vi": "Remember the pattern: What's your hobby? - I like singing.",
+            "en": "Remember the pattern: What's your hobby? - I like singing."
+          },
+          "explanation": {
+            "vi": "Yes! 'What's your hobby? - I like singing.' is a correct English sentence.",
+            "en": "Yes! 'What's your hobby? - I like singing.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "What's your hobby? - I like singing.",
+              "en": "What's your hobby? - I like singing."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: What's your hobby? - I like ....",
+            "en": "Drag the correct word to complete the sentence: What's your hobby? - I like ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'singing'.",
+            "en": "Choose the correct word: 'singing'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'What's your hobby? - I like singing.'.",
+            "en": "The complete sentence is: 'What's your hobby? - I like singing.'."
+          },
+          "data": {
+            "prefix_text": "What's your hobby? - I like ",
+            "suffix_text": ".",
+            "options": [
+              "singing",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "singing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'singing':",
+            "en": "Spell the English word 'singing':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'singing':",
+            "en": "Spell the English word 'singing':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'singing'.",
+            "en": "Tap the letters in order to spell 'singing'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'singing' correctly.",
+            "en": "Well done! You spelled 'singing' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "g",
+              "n",
+              "i",
+              "s"
+            ],
+            "target_word": "singing",
+            "target_sequence": [
+              "s",
+              "i",
+              "n",
+              "g",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Sở thích của bạn là gì? - Tôi thích ca hát.' in English?",
+            "en": "How do you say 'Sở thích của bạn là gì? - Tôi thích ca hát.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Sở thích của bạn là gì? - Tôi thích ca hát.' in English?",
+            "en": "How do you say 'Sở thích của bạn là gì? - Tôi thích ca hát.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Sở thích của bạn là gì? - Tôi thích ca hát.",
+            "en": "Choose the English sentence that means: Sở thích của bạn là gì? - Tôi thích ca hát."
+          },
+          "explanation": {
+            "vi": "'What's your hobby? - I like singing.' means 'Sở thích của bạn là gì? - Tôi thích ca hát.'.",
+            "en": "'What's your hobby? - I like singing.' means 'Sở thích của bạn là gì? - Tôi thích ca hát.'."
+          },
+          "data": {
+            "options": [
+              "What's your hobby? - I like singing.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "What's your hobby? - I like singing."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 5: I Like Singing & Dancing'?",
+            "en": "Which of the following is a word from Unit 'Unit 5: I Like Singing & Dancing'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 5: I Like Singing & Dancing'?",
+            "en": "Which of the following is a word from Unit 'Unit 5: I Like Singing & Dancing'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 5: I Like Singing & Dancing.",
+            "en": "Remember the words in topic: Unit 5: I Like Singing & Dancing."
+          },
+          "explanation": {
+            "vi": "'singing' is a key vocabulary word in this topic.",
+            "en": "'singing' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "singing",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "singing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'dancing' start with the sound /s/?",
+            "en": "Does the word 'dancing' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'dancing' start with the sound /s/? The word 'dancing' starts with letter 'S'.",
+            "en": "Does the word 'dancing' start with the sound /s/? The word 'dancing' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'dancing'.",
+            "en": "Listen to the first sound of 'dancing'."
+          },
+          "explanation": {
+            "vi": "Yes! 'dancing' starts with the sound /s/.",
+            "en": "Yes! 'dancing' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'dancing' starts with letter 'S'.",
+              "en": "The word 'dancing' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'singing'?",
+            "en": "How many letters are there in the word 'singing'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'singing'?",
+            "en": "How many letters are there in the word 'singing'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'singing': 1, 2, 3...",
+            "en": "Count the letters in 'singing': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'singing' has exactly 7 letters.",
+            "en": "The word 'singing' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'singing':",
+            "en": "Choose the correct phrase with 'singing':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'singing':",
+            "en": "Choose the correct phrase with 'singing':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a singing'.",
+            "en": "Correct! We say 'a singing'."
+          },
+          "data": {
+            "options": [
+              "a singing",
+              "an singing",
+              "two singing",
+              "many singing"
+            ],
+            "correct_answer": "a singing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'singing'.",
+            "en": "Choose the noun: 'singing'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our singing. It is very nice!'",
+            "en": "We say: 'Look! This is our singing. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "singing",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "singing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 5: I Like Singing & Dancing'?",
+            "en": "Which English sentence best describes the topic 'Unit 5: I Like Singing & Dancing'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 5: I Like Singing & Dancing'?",
+            "en": "Which English sentence best describes the topic 'Unit 5: I Like Singing & Dancing'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 5: I Like Singing & Dancing'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 5: I Like Singing & Dancing'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: singing, dancing!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: singing, dancing!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s6_2",
+      "title": {
+        "vi": "Unit 5: Drawing & Painting Pictures",
+        "en": "Unit 5: Drawing & Painting Pictures"
+      },
+      "description": {
+        "vi": "Creative hobbies: I like drawing and painting",
+        "en": "Creative hobbies: I like drawing and painting"
+      },
+      "icon": "🖌️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s6_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy holding a paintbrush standing by his colorful canvas easel. What is his hobby?",
+            "en": "Look at the boy holding a paintbrush standing by his colorful canvas easel. What is his hobby?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy holding a paintbrush standing by his colorful canvas easel. What is his hobby?",
+            "en": "Look at the boy holding a paintbrush standing by his colorful canvas easel. What is his hobby?"
+          },
+          "hint": {
+            "vi": "Using brushes and paints on an art canvas.",
+            "en": "Using brushes and paints on an art canvas."
+          },
+          "explanation": {
+            "vi": "His hobby is drawing and painting.",
+            "en": "His hobby is drawing and painting."
+          },
+          "data": {
+            "options": [
+              "drawing and painting",
+              "washing dishes",
+              "running a race",
+              "playing computer"
+            ],
+            "correct_answer": "drawing and painting"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u5_drawing_painting.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s6_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'drawing'?",
+            "en": "What is the first letter of the word 'drawing'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'drawing'?",
+            "en": "What is the first letter of the word 'drawing'?"
+          },
+          "hint": {
+            "vi": "The word 'drawing' starts with the letter D.",
+            "en": "The word 'drawing' starts with the letter D."
+          },
+          "explanation": {
+            "vi": "Correct! 'drawing' begins with the letter 'D'.",
+            "en": "Correct! 'drawing' begins with the letter 'D'."
+          },
+          "data": {
+            "options": [
+              "Letter D",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter D"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "drawing",
+                  "en": "drawing"
+                },
+                "right": {
+                  "vi": "Nghĩa của drawing",
+                  "en": "Nghĩa của drawing"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "painting",
+                  "en": "painting"
+                },
+                "right": {
+                  "vi": "Nghĩa của painting",
+                  "en": "Nghĩa của painting"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "colors",
+                  "en": "colors"
+                },
+                "right": {
+                  "vi": "Nghĩa của colors",
+                  "en": "Nghĩa của colors"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? I like drawing beautiful landscapes.",
+            "en": "Is this English sentence correct for Grade 3? I like drawing beautiful landscapes."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I like drawing beautiful landscapes.",
+            "en": "Remember the pattern: I like drawing beautiful landscapes."
+          },
+          "explanation": {
+            "vi": "Yes! 'I like drawing beautiful landscapes.' is a correct English sentence.",
+            "en": "Yes! 'I like drawing beautiful landscapes.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I like drawing beautiful landscapes.",
+              "en": "I like drawing beautiful landscapes."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I like drawing beautiful ....",
+            "en": "Drag the correct word to complete the sentence: I like drawing beautiful ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'landscapes'.",
+            "en": "Choose the correct word: 'landscapes'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I like drawing beautiful landscapes.'.",
+            "en": "The complete sentence is: 'I like drawing beautiful landscapes.'."
+          },
+          "data": {
+            "prefix_text": "I like drawing beautiful ",
+            "suffix_text": ".",
+            "options": [
+              "landscapes",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "landscapes"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'drawing':",
+            "en": "Spell the English word 'drawing':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'drawing':",
+            "en": "Spell the English word 'drawing':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'drawing'.",
+            "en": "Tap the letters in order to spell 'drawing'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'drawing' correctly.",
+            "en": "Well done! You spelled 'drawing' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "w",
+              "a",
+              "r",
+              "d"
+            ],
+            "target_word": "drawing",
+            "target_sequence": [
+              "d",
+              "r",
+              "a",
+              "w",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi thích vẽ những bức tranh phong cảnh đẹp.' in English?",
+            "en": "How do you say 'Tôi thích vẽ những bức tranh phong cảnh đẹp.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi thích vẽ những bức tranh phong cảnh đẹp.' in English?",
+            "en": "How do you say 'Tôi thích vẽ những bức tranh phong cảnh đẹp.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi thích vẽ những bức tranh phong cảnh đẹp.",
+            "en": "Choose the English sentence that means: Tôi thích vẽ những bức tranh phong cảnh đẹp."
+          },
+          "explanation": {
+            "vi": "'I like drawing beautiful landscapes.' means 'Tôi thích vẽ những bức tranh phong cảnh đẹp.'.",
+            "en": "'I like drawing beautiful landscapes.' means 'Tôi thích vẽ những bức tranh phong cảnh đẹp.'."
+          },
+          "data": {
+            "options": [
+              "I like drawing beautiful landscapes.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I like drawing beautiful landscapes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 5: Drawing & Painting Pictures'?",
+            "en": "Which of the following is a word from Unit 'Unit 5: Drawing & Painting Pictures'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 5: Drawing & Painting Pictures'?",
+            "en": "Which of the following is a word from Unit 'Unit 5: Drawing & Painting Pictures'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 5: Drawing & Painting Pictures.",
+            "en": "Remember the words in topic: Unit 5: Drawing & Painting Pictures."
+          },
+          "explanation": {
+            "vi": "'drawing' is a key vocabulary word in this topic.",
+            "en": "'drawing' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "drawing",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "drawing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'painting' start with the sound /d/?",
+            "en": "Does the word 'painting' start with the sound /d/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'painting' start with the sound /d/? The word 'painting' starts with letter 'D'.",
+            "en": "Does the word 'painting' start with the sound /d/? The word 'painting' starts with letter 'D'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'painting'.",
+            "en": "Listen to the first sound of 'painting'."
+          },
+          "explanation": {
+            "vi": "Yes! 'painting' starts with the sound /d/.",
+            "en": "Yes! 'painting' starts with the sound /d/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'painting' starts with letter 'D'.",
+              "en": "The word 'painting' starts with letter 'D'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'drawing'?",
+            "en": "How many letters are there in the word 'drawing'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'drawing'?",
+            "en": "How many letters are there in the word 'drawing'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'drawing': 1, 2, 3...",
+            "en": "Count the letters in 'drawing': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'drawing' has exactly 7 letters.",
+            "en": "The word 'drawing' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'drawing':",
+            "en": "Choose the correct phrase with 'drawing':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'drawing':",
+            "en": "Choose the correct phrase with 'drawing':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a drawing'.",
+            "en": "Correct! We say 'a drawing'."
+          },
+          "data": {
+            "options": [
+              "a drawing",
+              "an drawing",
+              "two drawing",
+              "many drawing"
+            ],
+            "correct_answer": "a drawing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'drawing'.",
+            "en": "Choose the noun: 'drawing'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our drawing. It is very nice!'",
+            "en": "We say: 'Look! This is our drawing. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "drawing",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "drawing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s6_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 5: Drawing & Painting Pictures'?",
+            "en": "Which English sentence best describes the topic 'Unit 5: Drawing & Painting Pictures'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 5: Drawing & Painting Pictures'?",
+            "en": "Which English sentence best describes the topic 'Unit 5: Drawing & Painting Pictures'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 5: Drawing & Painting Pictures'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 5: Drawing & Painting Pictures'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: drawing, painting!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: drawing, painting!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

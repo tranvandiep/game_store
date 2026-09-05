@@ -1,0 +1,928 @@
+{
+  "id": "m4_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Tuần 1: Ôn Tập Số Đến 100 000 & Biểu Thức Chứa Một Chữ",
+    "en": "Week 1: Numbers to 100,000 & 1-Variable Expressions"
+  },
+  "subtitle": {
+    "vi": "Trang 3-7: Đọc viết số đến 100 000 và tính giá trị biểu thức a + b",
+    "en": "Pages 3-7: Numbers to 100,000 and 1-variable expressions"
+  },
+  "icon": "🔢",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "m4_t1_1",
+      "title": {
+        "vi": "Ôn tập các số trong phạm vi 100 000",
+        "en": "Review Numbers within 100,000"
+      },
+      "description": {
+        "vi": "Đọc, viết, so sánh số có 5 chữ số và phân tích cấu tạo số",
+        "en": "Read, write, compare and decompose 5-digit numbers"
+      },
+      "icon": "🔢",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số gồm 8 chục nghìn, 5 trăm và 2 đơn vị được viết là:",
+            "en": "A number with 8 ten-thousands, 5 hundreds, 2 ones is written as:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số gồm 8 chục nghìn, 5 trăm và 2 đơn vị được viết là:",
+            "en": "A number with 8 ten-thousands, 5 hundreds, 2 ones is written as:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "8 chục nghìn, 0 nghìn, 5 trăm, 0 chục, 2 đơn vị viết là 80 502.",
+            "en": "80,502."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "80 502",
+                "en": "80 502"
+              },
+              {
+                "vi": "85 002",
+                "en": "85 002"
+              },
+              {
+                "vi": "80 052",
+                "en": "80 052"
+              }
+            ],
+            "correct_answer": "80 502"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối cách đọc với số 5 chữ số tương ứng:",
+            "en": "Match reading with 5-digit number:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối cách đọc với số 5 chữ số tương ứng:",
+            "en": "Match reading with 5-digit number:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Đọc số có 5 chữ số chuẩn xác.",
+            "en": "Accurate reading of 5-digit numbers."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Bốn mươi hai nghìn năm trăm bảy mươi mốt",
+                  "en": "Bốn mươi hai nghìn năm trăm bảy mươi mốt"
+                },
+                "right": {
+                  "vi": "42 571",
+                  "en": "42 571"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Chín mươi mốt nghìn chín trăm linh bảy",
+                  "en": "Chín mươi mốt nghìn chín trăm linh bảy"
+                },
+                "right": {
+                  "vi": "91 907",
+                  "en": "91 907"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Mười sáu nghìn hai trăm mười hai",
+                  "en": "Mười sáu nghìn hai trăm mười hai"
+                },
+                "right": {
+                  "vi": "16 212",
+                  "en": "16 212"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 99 999 + 1 = 100 000.",
+            "en": "Decide whether the following statement is true or false: 99 999 + 1 = 100 000."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 99 999 + 1 = 100 000.",
+            "en": "True! Successor of 99,999 is 100,000."
+          },
+          "data": {
+            "statement": {
+              "vi": "99 999 + 1 = 100 000.",
+              "en": "99 999 + 1 = 100 000."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Ôn tập các số trong phạm vi 100 000': Số gồm 8 chục nghìn, 5 trăm và 2 đơn vị được viết là:",
+            "en": "Practice 'Review Numbers within 100,000': A number with 8 ten-thousands, 5 hundreds, 2 ones is written as:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số gồm 8 chục nghìn, 5 trăm và 2 đơn vị được viết là:",
+            "en": "A number with 8 ten-thousands, 5 hundreds, 2 ones is written as:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "8 chục nghìn, 0 nghìn, 5 trăm, 0 chục, 2 đơn vị viết là 80 502.",
+            "en": "80,502."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "80 502",
+                "en": "80 502"
+              },
+              {
+                "vi": "85 002",
+                "en": "85 002"
+              },
+              {
+                "vi": "80 052",
+                "en": "80 052"
+              }
+            ],
+            "correct_answer": "80 502"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 76930 đến hàng nghìn:",
+            "en": "Round 76930 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 76930 đến hàng nghìn:",
+            "en": "Round 76930 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "76000",
+                "en": "76000"
+              },
+              {
+                "vi": "77000",
+                "en": "77000"
+              },
+              {
+                "vi": "75000",
+                "en": "75000"
+              }
+            ],
+            "correct_answer": "77000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 26480 đến hàng nghìn:",
+            "en": "Round 26480 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 26480 đến hàng nghìn:",
+            "en": "Round 26480 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "26000",
+                "en": "26000"
+              },
+              {
+                "vi": "27000",
+                "en": "27000"
+              },
+              {
+                "vi": "25000",
+                "en": "25000"
+              }
+            ],
+            "correct_answer": "26000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 24 và 28 là:",
+            "en": "Average of 24 and 28 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 24 và 28 là:",
+            "en": "Average of 24 and 28 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(24 + 28) : 2 = 26.",
+            "en": "Average is 26."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "26"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của hai số 28 và 22 là:",
+            "en": "The average of 28 and 22 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 28 và 22",
+            "en": "Average of 28 and 22"
+          },
+          "hint": {
+            "vi": "Lấy tổng chia cho 2.",
+            "en": "Sum divided by 2."
+          },
+          "explanation": {
+            "vi": "(28 + 22) : 2 = 25.",
+            "en": "(28 + 22) : 2 = 25."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "25"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_1_12",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Góc nhọn là góc bé hơn góc vuông.",
+            "en": "An acute angle is smaller than a right angle."
+          },
+          "hint": {
+            "vi": "Góc vuông có số đo 90 độ.",
+            "en": "A right angle is 90 degrees."
+          },
+          "explanation": {
+            "vi": "Góc nhọn có số đo bé hơn 90 độ.",
+            "en": "Acute angle is less than 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc nhọn là góc có số đo bé hơn góc vuông.",
+              "en": "An acute angle is smaller than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t1_2",
+      "title": {
+        "vi": "Biểu thức có chứa một chữ",
+        "en": "Expressions with One Variable"
+      },
+      "description": {
+        "vi": "Khái niệm biểu thức chứa chữ và tính giá trị khi biết giá trị của chữ",
+        "en": "Evaluate algebraic expression when variable value is given"
+      },
+      "icon": "🅰️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t1_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị của biểu thức 35 + a với a = 15:",
+            "en": "Evaluate 35 + a when a = 15:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính giá trị của biểu thức 35 + a với a = 15:",
+            "en": "Evaluate 35 + a when a = 15:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "35 + 15 = 50.",
+            "en": "35 + 15 = 50."
+          },
+          "data": {
+            "correct_number": "50",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị của biểu thức 120 : x với x = 4:",
+            "en": "Evaluate 120 : x when x = 4:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính giá trị của biểu thức 120 : x với x = 4:",
+            "en": "Evaluate 120 : x when x = 4:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "120 : 4 = 30.",
+            "en": "120 : 4 = 30."
+          },
+          "data": {
+            "correct_number": "30",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Nếu a = 6 thì giá trị của biểu thức 8 x a - 18 là:",
+            "en": "If a = 6, the value of 8 * a - 18 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nếu a = 6 thì giá trị của biểu thức 8 x a - 18 là:",
+            "en": "If a = 6, the value of 8 * a - 18 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "8 x 6 - 18 = 48 - 18 = 30.",
+            "en": "8 * 6 - 18 = 30."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "32",
+                "en": "32"
+              },
+              {
+                "vi": "34",
+                "en": "34"
+              }
+            ],
+            "correct_answer": "30"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_2_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 31 - 25 = ?",
+            "en": "Calculate: 31 - 25 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 31 - 25 = ?",
+            "en": "Calculate: 31 - 25 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 31 - 25.",
+            "en": "Calculate 31 - 25."
+          },
+          "explanation": {
+            "vi": "31 - 25 = 6",
+            "en": "31 - 25 = 6"
+          },
+          "data": {
+            "options": [
+              "6",
+              "8",
+              "5",
+              "7"
+            ],
+            "correct_answer": "6"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 31 - 21 = ?",
+            "en": "Calculate: 31 - 21 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 31 - 21 = ?",
+            "en": "Calculate: 31 - 21 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 31 - 21.",
+            "en": "Calculate 31 - 21."
+          },
+          "explanation": {
+            "vi": "31 - 21 = 10",
+            "en": "31 - 21 = 10"
+          },
+          "data": {
+            "options": [
+              "11",
+              "10",
+              "9",
+              "12"
+            ],
+            "correct_answer": "10"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t1_3",
+      "title": {
+        "vi": "Luyện tập tính giá trị biểu thức & Chu vi hình vuông",
+        "en": "Expression Practice & Square Perimeter"
+      },
+      "description": {
+        "vi": "Ứng dụng biểu thức chứa chữ P = a x 4 để tính chu vi",
+        "en": "Apply formula P = a * 4 for square perimeter"
+      },
+      "icon": "🟩",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t1_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Gọi a là độ dài cạnh hình vuông. Với a = 15 cm, chu vi hình vuông P = a x 4 là bao nhiêu cm?",
+            "en": "Let a be side length. With a = 15cm, perimeter P = a * 4 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Gọi a là độ dài cạnh hình vuông. Với a = 15 cm, chu vi hình vuông P = a x 4 là bao nhiêu cm?",
+            "en": "Let a be side length. With a = 15cm, perimeter P = a * 4 is:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "P = 15 x 4 = 60 cm.",
+            "en": "P = 15 * 4 = 60 cm."
+          },
+          "data": {
+            "correct_number": "60",
+            "unit": "cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Bất kỳ số nào nhân 0 đều bằng 0.",
+            "en": "Decide whether the following statement is true or false: Bất kỳ số nào nhân 0 đều bằng 0."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 250 x 0 = 0.",
+            "en": "True! Any number times 0 is 0."
+          },
+          "data": {
+            "statement": {
+              "vi": "Bất kỳ số nào nhân 0 đều bằng 0.",
+              "en": "Bất kỳ số nào nhân 0 đều bằng 0."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_3_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 6, 7,  ... , 9",
+            "en": "Drag the correct answer into the slot:\nDãy số: 6, 7,  ... , 9"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 6, 7,  ... , 9",
+            "en": "Drag the correct answer: Dãy số: 6, 7,  ... , 9"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 6, 7,  8 , 9",
+            "en": "Dãy số: 6, 7,  8 , 9"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 6, 7, ",
+            "suffix_text": ", 9",
+            "options": [
+              "8",
+              "10",
+              "7"
+            ],
+            "slot_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 22, 23,  ... , 25",
+            "en": "Drag the correct answer into the slot:\nDãy số: 22, 23,  ... , 25"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 22, 23,  ... , 25",
+            "en": "Drag the correct answer: Dãy số: 22, 23,  ... , 25"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 22, 23,  24 , 25",
+            "en": "Dãy số: 22, 23,  24 , 25"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 22, 23, ",
+            "suffix_text": ", 25",
+            "options": [
+              "23",
+              "26",
+              "24"
+            ],
+            "slot_answer": "24"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_3_11",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 203, 204,  ... , 206",
+            "en": "Drag the correct answer into the slot:\nDãy số: 203, 204,  ... , 206"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 203, 204,  ... , 206",
+            "en": "Drag the correct answer: Dãy số: 203, 204,  ... , 206"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 203, 204,  205 , 206",
+            "en": "Dãy số: 203, 204,  205 , 206"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 203, 204, ",
+            "suffix_text": ", 206",
+            "options": [
+              "207",
+              "205",
+              "204"
+            ],
+            "slot_answer": "205"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t1_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 23 và 39 là:",
+            "en": "Average of 23 and 39 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 23 và 39 là:",
+            "en": "Average of 23 and 39 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(23 + 39) : 2 = 31.",
+            "en": "Average is 31."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "31"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

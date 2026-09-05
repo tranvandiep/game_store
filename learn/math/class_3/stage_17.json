@@ -1,0 +1,1096 @@
+{
+  "id": "m3_stage_17",
+  "stage_number": 17,
+  "title": {
+    "vi": "Tuần 17: Các Số Có 4 Chữ Số & Số 10 000",
+    "en": "Week 17: 4-Digit Numbers & 10,000"
+  },
+  "subtitle": {
+    "vi": "Bài 45 & 46 - Đọc viết, phân tích và so sánh số đến 10 000",
+    "en": "Lesson 45 & 46 - 4-digit numbers to 10,000"
+  },
+  "icon": "🌲",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.502,
+  "required_stars": 48,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "m3_t17_1",
+      "title": {
+        "vi": "Các số có 4 chữ số & Hàng Nghìn",
+        "en": "4-Digit Numbers & Thousands Place"
+      },
+      "description": {
+        "vi": "Hàng nghìn, hàng trăm, hàng chục, hàng đơn vị",
+        "en": "Thousands, hundreds, tens, ones place"
+      },
+      "icon": "🌲",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t17_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số gồm 4 nghìn, 5 trăm, 2 chục và 8 đơn vị được viết là:",
+            "en": "A number with 4 thousands, 5 hundreds, 2 tens, 8 ones is written as:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số gồm 4 nghìn, 5 trăm, 2 chục và 8 đơn vị được viết là:",
+            "en": "A number with 4 thousands, 5 hundreds, 2 tens, 8 ones is written as:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Viết là 4 528 (bốn nghìn năm trăm hai mươi tám).",
+            "en": "Written as 4,528."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "4528",
+                "en": "4528"
+              },
+              {
+                "vi": "4582",
+                "en": "4582"
+              },
+              {
+                "vi": "5428",
+                "en": "5428"
+              }
+            ],
+            "correct_answer": "4528"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Số mười nghìn (1 chục nghìn) viết là số 1 và mấy chữ số 0?",
+            "en": "10,000 has digit 1 followed by how many zeros?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số mười nghìn (1 chục nghìn) viết là số 1 và mấy chữ số 0?",
+            "en": "10,000 has digit 1 followed by how many zeros?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "10 000 có 4 chữ số 0.",
+            "en": "10,000 has 4 zeros."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "chữ số 0"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối cách đọc với số 4 chữ số tương ứng:",
+            "en": "Match reading with 4-digit number:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối cách đọc với số 4 chữ số tương ứng:",
+            "en": "Match reading with 4-digit number:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Đọc viết số 4 chữ số chuẩn xác.",
+            "en": "Accurate reading of 4-digit numbers."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Hai nghìn ba trăm linh năm",
+                  "en": "Hai nghìn ba trăm linh năm"
+                },
+                "right": {
+                  "vi": "2305",
+                  "en": "2305"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Bảy nghìn bốn trăm hai mươi",
+                  "en": "Bảy nghìn bốn trăm hai mươi"
+                },
+                "right": {
+                  "vi": "7420",
+                  "en": "7420"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Chín nghìn chín trăm chín mươi chín",
+                  "en": "Chín nghìn chín trăm chín mươi chín"
+                },
+                "right": {
+                  "vi": "9999",
+                  "en": "9999"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 5 : 5 = ?",
+            "en": "Calculate: 5 : 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 5 : 5 = ?",
+            "en": "Calculate: 5 : 5 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 5 : 5.",
+            "en": "Calculate 5 : 5."
+          },
+          "explanation": {
+            "vi": "5 : 5 = 1",
+            "en": "5 : 5 = 1"
+          },
+          "data": {
+            "options": [
+              "3",
+              "1",
+              "0",
+              "2"
+            ],
+            "correct_answer": "1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 6 : 3 = ?",
+            "en": "Calculate: 6 : 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 6 : 3 = ?",
+            "en": "Calculate: 6 : 3 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 6 : 3.",
+            "en": "Calculate 6 : 3."
+          },
+          "explanation": {
+            "vi": "6 : 3 = 2",
+            "en": "6 : 3 = 2"
+          },
+          "data": {
+            "options": [
+              "3",
+              "2",
+              "1",
+              "4"
+            ],
+            "correct_answer": "2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_1_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 3 : 3 = ?",
+            "en": "Calculate: 3 : 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 3 : 3 = ?",
+            "en": "Calculate: 3 : 3 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 3 : 3.",
+            "en": "Calculate 3 : 3."
+          },
+          "explanation": {
+            "vi": "3 : 3 = 1",
+            "en": "3 : 3 = 1"
+          },
+          "data": {
+            "options": [
+              "1",
+              "0",
+              "3",
+              "2"
+            ],
+            "correct_answer": "1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_1_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chu vi hình vuông có cạnh 8 cm là:",
+            "en": "Perimeter of square with side 8 cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chu vi hình vuông có cạnh 8 cm là bao nhiêu?",
+            "en": "Perimeter of square with side 8 cm:"
+          },
+          "hint": {
+            "vi": "Chu vi hình vuông = Độ dài cạnh x 4.",
+            "en": "Perimeter = side x 4."
+          },
+          "explanation": {
+            "vi": "8 x 4 = 32 cm.",
+            "en": "8 x 4 = 32 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "32 cm",
+                "en": "32 cm"
+              },
+              {
+                "vi": "36 cm",
+                "en": "36 cm"
+              },
+              {
+                "vi": "64 cm",
+                "en": "64 cm"
+              }
+            ],
+            "correct_answer": "32 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t17_2",
+      "title": {
+        "vi": "So sánh các số trong phạm vi 10 000",
+        "en": "Comparing Numbers to 10,000"
+      },
+      "description": {
+        "vi": "So sánh hàng nghìn, rồi đến hàng trăm, chục, đơn vị",
+        "en": "Compare thousands, then hundreds, tens, ones"
+      },
+      "icon": "⚖️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t17_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu thích hợp: 6 780 ... 6 870",
+            "en": "Fill symbol: 6,780 ... 6,870"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 6 780 ... 6 870",
+            "en": "Fill symbol: 6,780 ... 6,870"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Cùng có 6 nghìn, hàng trăm 7 < 8 nên 6 780 < 6 870.",
+            "en": "6,780 < 6,870."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu thích hợp: 9 000 ... 8 999",
+            "en": "Fill symbol: 9,000 ... 8,999"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 9 000 ... 8 999",
+            "en": "Fill symbol: 9,000 ... 8,999"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Hàng nghìn 9 > 8 nên 9 000 > 8 999.",
+            "en": "9,000 > 8,999."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": ">"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_3",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp theo thứ tự từ bé đến lớn: 3450, 1200, 8900, 5670",
+            "en": "Sort ascending: 3450, 1200, 8900, 5670"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp theo thứ tự từ bé đến lớn: 3450, 1200, 8900, 5670",
+            "en": "Sort ascending: 3450, 1200, 8900, 5670"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct sequence."
+          },
+          "explanation": {
+            "vi": "Thứ tự: 1200 < 3450 < 5670 < 8900.",
+            "en": "Order: 1200, 3450, 5670, 8900."
+          },
+          "data": {
+            "items": [
+              "1200",
+              "3450",
+              "5670",
+              "8900"
+            ],
+            "correct_order": [
+              "1200",
+              "3450",
+              "5670",
+              "8900"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'So sánh các số trong phạm vi 10 000': Điền dấu thích hợp: 6 780 ... 6 870",
+            "en": "Practice 'Comparing Numbers to 10,000': Fill symbol: 6,780 ... 6,870"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 6 780 ... 6 870",
+            "en": "Fill symbol: 6,780 ... 6,870"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Cùng có 6 nghìn, hàng trăm 7 < 8 nên 6 780 < 6 870.",
+            "en": "6,780 < 6,870."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'So sánh các số trong phạm vi 10 000': Điền dấu thích hợp: 9 000 ... 8 999",
+            "en": "Practice 'Comparing Numbers to 10,000': Fill symbol: 9,000 ... 8,999"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 9 000 ... 8 999",
+            "en": "Fill symbol: 9,000 ... 8,999"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Hàng nghìn 9 > 8 nên 9 000 > 8 999.",
+            "en": "9,000 > 8,999."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              }
+            ],
+            "correct_answer": ">"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_6",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 3575, 4128, 4950, 7646",
+            "en": "Correct order: 3575, 4128, 4950, 7646"
+          },
+          "data": {
+            "items": [
+              "3575",
+              "4128",
+              "7646",
+              "4950"
+            ],
+            "correct_order": [
+              "3575",
+              "4128",
+              "4950",
+              "7646"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 7892, 4890, 1771, 1045",
+            "en": "Correct order: 7892, 4890, 1771, 1045"
+          },
+          "data": {
+            "items": [
+              "4890",
+              "1045",
+              "1771",
+              "7892"
+            ],
+            "correct_order": [
+              "7892",
+              "4890",
+              "1771",
+              "1045"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 6 x 2 = ?",
+            "en": "Calculate: 6 x 2 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 6 x 2 = ?",
+            "en": "Calculate: 6 x 2 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "6 x 2 = 12.",
+            "en": "6 x 2 = 12."
+          },
+          "data": {
+            "prefix_text": "6 x 2 = ",
+            "suffix_text": "",
+            "correct_number": "12"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 72 : 9 = ?",
+            "en": "Calculate: 72 : 9 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 72 : 9 = ?",
+            "en": "Calculate: 72 : 9 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "72 : 9 = 8.",
+            "en": "72 : 9 = 8."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "8",
+                "en": "8"
+              },
+              {
+                "vi": "7",
+                "en": "7"
+              },
+              {
+                "vi": "9",
+                "en": "9"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 4533 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 4533 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 4533 có đúng 4 chữ số.",
+            "en": "4533 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4533 là số có 4 chữ số.",
+              "en": "4533 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t17_3",
+      "title": {
+        "vi": "Phân tích số thành tổng Nghìn + Trăm + Chục + Đơn vị",
+        "en": "Expanded Form of 4-Digit Numbers"
+      },
+      "description": {
+        "vi": "Ví dụ: 3 456 = 3000 + 400 + 50 + 6",
+        "en": "Example: 3,456 = 3000 + 400 + 50 + 6"
+      },
+      "icon": "🧩",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t17_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số 5 820 được viết thành tổng là:",
+            "en": "Expanded form of 5,820 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 5 820 được viết thành tổng là:",
+            "en": "Expanded form of 5,820 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "5 820 = 5000 + 800 + 20.",
+            "en": "5,820 = 5000 + 800 + 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "5000 + 800 + 20",
+                "en": "5000 + 800 + 20"
+              },
+              {
+                "vi": "5000 + 80 + 20",
+                "en": "5000 + 80 + 20"
+              },
+              {
+                "vi": "500 + 800 + 20",
+                "en": "500 + 800 + 20"
+              }
+            ],
+            "correct_answer": "5000 + 800 + 20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền số còn thiếu: 7000 + 400 + ? + 5 = 7465",
+            "en": "Fill missing number: 7000 + 400 + ? + 5 = 7465"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền số còn thiếu: 7000 + 400 + ? + 5 = 7465",
+            "en": "Fill missing number: 7000 + 400 + ? + 5 = 7465"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Hàng chục là 6 chục = 60.",
+            "en": "Tens digit is 60."
+          },
+          "data": {
+            "correct_number": "60",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 1 000 là số 4 chữ số nhỏ nhất.",
+            "en": "Decide whether the following statement is true or false: 1 000 là số 4 chữ số nhỏ nhất."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 1 000 là số có 4 chữ số bé nhất.",
+            "en": "True! 1,000 is smallest 4-digit number."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 000 là số 4 chữ số nhỏ nhất.",
+              "en": "1 000 là số 4 chữ số nhỏ nhất."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Phân tích số thành tổng Nghìn + Trăm + Chục + Đơn vị': Số 5 820 được viết thành tổng là:",
+            "en": "Practice 'Expanded Form of 4-Digit Numbers': Expanded form of 5,820 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 5 820 được viết thành tổng là:",
+            "en": "Expanded form of 5,820 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "5 820 = 5000 + 800 + 20.",
+            "en": "5,820 = 5000 + 800 + 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "5000 + 80 + 20",
+                "en": "5000 + 80 + 20"
+              },
+              {
+                "vi": "500 + 800 + 20",
+                "en": "500 + 800 + 20"
+              },
+              {
+                "vi": "5000 + 800 + 20",
+                "en": "5000 + 800 + 20"
+              }
+            ],
+            "correct_answer": "5000 + 800 + 20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_3_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền kết quả của phép tính: 7 x 8 = ?",
+            "en": "Calculate: 7 x 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền kết quả của phép tính: 7 x 8 = ?",
+            "en": "Calculate: 7 x 8 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "7 x 8 = 56.",
+            "en": "7 x 8 = 56."
+          },
+          "data": {
+            "prefix_text": "7 x 8 = ",
+            "suffix_text": "",
+            "correct_number": "56"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm kết quả phép chia: 18 : 9 = ?",
+            "en": "Calculate: 18 : 9 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tìm kết quả phép chia: 18 : 9 = ?",
+            "en": "Calculate: 18 : 9 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "18 : 9 = 2.",
+            "en": "18 : 9 = 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "2",
+                "en": "2"
+              },
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "3",
+                "en": "3"
+              },
+              {
+                "vi": "4",
+                "en": "4"
+              }
+            ],
+            "correct_answer": "2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 7584 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 7584 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 7584 có đúng 4 chữ số.",
+            "en": "7584 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 7584 là số có 4 chữ số.",
+              "en": "7584 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t17_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

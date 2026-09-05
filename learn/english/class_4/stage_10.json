@@ -1,0 +1,1136 @@
+{
+  "id": "e4_stage_10",
+  "stage_number": 10,
+  "title": {
+    "vi": "Week 10: Unit 8 - Favourite Subjects",
+    "en": "Week 10: Unit 8 - Favourite Subjects"
+  },
+  "subtitle": {
+    "vi": "What's your favourite subject? - I like Science because I want to be a scientist",
+    "en": "What's your favourite subject? - I like Science because I want to be a scientist"
+  },
+  "icon": "🔬",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.689,
+  "required_stars": 27,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "e4_s10_1",
+      "title": {
+        "vi": "Unit 8: Why Do You Like Science?",
+        "en": "Unit 8: Why Do You Like Science?"
+      },
+      "description": {
+        "vi": "Why do you like Science? - Because I like doing experiments",
+        "en": "Why do you like Science? - Because I like doing experiments"
+      },
+      "icon": "🧪",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s10_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the students wearing lab safety goggles examining test tubes and microscopes. What subject is it?",
+            "en": "Look at the students wearing lab safety goggles examining test tubes and microscopes. What subject is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the students wearing lab safety goggles examining test tubes and microscopes. What subject is it?",
+            "en": "Look at the students wearing lab safety goggles examining test tubes and microscopes. What subject is it?"
+          },
+          "hint": {
+            "vi": "Scientific exploration with lab apparatus.",
+            "en": "Scientific exploration with lab apparatus."
+          },
+          "explanation": {
+            "vi": "It's Science class with fun experiments.",
+            "en": "It's Science class with fun experiments."
+          },
+          "data": {
+            "options": [
+              "Science class with experiments",
+              "PE sports race",
+              "Woodworking shop",
+              "Cooking in kitchen"
+            ],
+            "correct_answer": "Science class with experiments"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u8_science_lab.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s10_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'Science'?",
+            "en": "What is the first letter of the word 'Science'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'Science'?",
+            "en": "What is the first letter of the word 'Science'?"
+          },
+          "hint": {
+            "vi": "The word 'Science' starts with the letter S.",
+            "en": "The word 'Science' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'Science' begins with the letter 'S'.",
+            "en": "Correct! 'Science' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Science",
+                  "en": "Science"
+                },
+                "right": {
+                  "vi": "Nghĩa của Science",
+                  "en": "Nghĩa của Science"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "experiment",
+                  "en": "experiment"
+                },
+                "right": {
+                  "vi": "Nghĩa của experiment",
+                  "en": "Nghĩa của experiment"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "scientist",
+                  "en": "scientist"
+                },
+                "right": {
+                  "vi": "Nghĩa của scientist",
+                  "en": "Nghĩa của scientist"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Why do you like Science? - Because I love fun experiments.",
+            "en": "Is this English sentence correct for Grade 4? Why do you like Science? - Because I love fun experiments."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Why do you like Science? - Because I love fun experiments.",
+            "en": "Remember the pattern: Why do you like Science? - Because I love fun experiments."
+          },
+          "explanation": {
+            "vi": "Yes! 'Why do you like Science? - Because I love fun experiments.' is a correct English sentence.",
+            "en": "Yes! 'Why do you like Science? - Because I love fun experiments.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Why do you like Science? - Because I love fun experiments.",
+              "en": "Why do you like Science? - Because I love fun experiments."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Why do you like Science? - Because I love fun ....",
+            "en": "Drag the correct word to complete the sentence: Why do you like Science? - Because I love fun ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'experiments'.",
+            "en": "Choose the correct word: 'experiments'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Why do you like Science? - Because I love fun experiments.'.",
+            "en": "The complete sentence is: 'Why do you like Science? - Because I love fun experiments.'."
+          },
+          "data": {
+            "prefix_text": "Why do you like Science? - Because I love fun ",
+            "suffix_text": ".",
+            "options": [
+              "experiments",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "experiments"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'science':",
+            "en": "Spell the English word 'science':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'science':",
+            "en": "Spell the English word 'science':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'science'.",
+            "en": "Tap the letters in order to spell 'science'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'science' correctly.",
+            "en": "Well done! You spelled 'science' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "c",
+              "n",
+              "e",
+              "i",
+              "c",
+              "s"
+            ],
+            "target_word": "science",
+            "target_sequence": [
+              "s",
+              "c",
+              "i",
+              "e",
+              "n",
+              "c",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tại sao bạn thích môn Khoa học? - Vì tôi thích những thí nghiệm vui nhộn.' in English?",
+            "en": "How do you say 'Tại sao bạn thích môn Khoa học? - Vì tôi thích những thí nghiệm vui nhộn.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tại sao bạn thích môn Khoa học? - Vì tôi thích những thí nghiệm vui nhộn.' in English?",
+            "en": "How do you say 'Tại sao bạn thích môn Khoa học? - Vì tôi thích những thí nghiệm vui nhộn.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tại sao bạn thích môn Khoa học? - Vì tôi thích những thí nghiệm vui nhộn.",
+            "en": "Choose the English sentence that means: Tại sao bạn thích môn Khoa học? - Vì tôi thích những thí nghiệm vui nhộn."
+          },
+          "explanation": {
+            "vi": "'Why do you like Science? - Because I love fun experiments.' means 'Tại sao bạn thích môn Khoa học? - Vì tôi thích những thí nghiệm vui nhộn.'.",
+            "en": "'Why do you like Science? - Because I love fun experiments.' means 'Tại sao bạn thích môn Khoa học? - Vì tôi thích những thí nghiệm vui nhộn.'."
+          },
+          "data": {
+            "options": [
+              "Why do you like Science? - Because I love fun experiments.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Why do you like Science? - Because I love fun experiments."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 8: Why Do You Like Science?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 8: Why Do You Like Science?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 8: Why Do You Like Science?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 8: Why Do You Like Science?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 8: Why Do You Like Science?.",
+            "en": "Remember the words in topic: Unit 8: Why Do You Like Science?."
+          },
+          "explanation": {
+            "vi": "'Science' is a key vocabulary word in this topic.",
+            "en": "'Science' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "Science",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "Science"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'experiment' start with the sound /s/?",
+            "en": "Does the word 'experiment' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'experiment' start with the sound /s/? The word 'experiment' starts with letter 'S'.",
+            "en": "Does the word 'experiment' start with the sound /s/? The word 'experiment' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'experiment'.",
+            "en": "Listen to the first sound of 'experiment'."
+          },
+          "explanation": {
+            "vi": "Yes! 'experiment' starts with the sound /s/.",
+            "en": "Yes! 'experiment' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'experiment' starts with letter 'S'.",
+              "en": "The word 'experiment' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'science'?",
+            "en": "How many letters are there in the word 'science'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'science'?",
+            "en": "How many letters are there in the word 'science'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'science': 1, 2, 3...",
+            "en": "Count the letters in 'science': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'science' has exactly 7 letters.",
+            "en": "The word 'science' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'science':",
+            "en": "Choose the correct phrase with 'science':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'science':",
+            "en": "Choose the correct phrase with 'science':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a science'.",
+            "en": "Correct! We say 'a science'."
+          },
+          "data": {
+            "options": [
+              "a science",
+              "an science",
+              "two science",
+              "many science"
+            ],
+            "correct_answer": "a science"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'Science'.",
+            "en": "Choose the word: 'Science'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is Science. It is wonderful!'",
+            "en": "We say: 'Look! This is Science. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "Science",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "Science"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 8: Why Do You Like Science?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 8: Why Do You Like Science?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 8: Why Do You Like Science?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 8: Why Do You Like Science?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 8: Why Do You Like Science?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 8: Why Do You Like Science?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: Science, experiment!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: Science, experiment!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s10_2",
+      "title": {
+        "vi": "Unit 8: Loving English & Mathematics",
+        "en": "Unit 8: Loving English & Mathematics"
+      },
+      "description": {
+        "vi": "I like English because I want to travel the world and speak to people",
+        "en": "I like English because I want to travel the world and speak to people"
+      },
+      "icon": "🌍",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s10_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the student holding a world globe and an English dictionary with a big smile. Why does she like English?",
+            "en": "Look at the student holding a world globe and an English dictionary with a big smile. Why does she like English?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the student holding a world globe and an English dictionary with a big smile. Why does she like English?",
+            "en": "Look at the student holding a world globe and an English dictionary with a big smile. Why does she like English?"
+          },
+          "hint": {
+            "vi": "Connecting with people across the globe.",
+            "en": "Connecting with people across the globe."
+          },
+          "explanation": {
+            "vi": "She likes English to communicate with friends worldwide.",
+            "en": "She likes English to communicate with friends worldwide."
+          },
+          "data": {
+            "options": [
+              "to communicate with international friends",
+              "to stay silent",
+              "to sleep in class",
+              "to break pencils"
+            ],
+            "correct_answer": "to communicate with international friends"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u8_love_english.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s10_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'English'?",
+            "en": "What is the first letter of the word 'English'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'English'?",
+            "en": "What is the first letter of the word 'English'?"
+          },
+          "hint": {
+            "vi": "The word 'English' starts with the letter E.",
+            "en": "The word 'English' starts with the letter E."
+          },
+          "explanation": {
+            "vi": "Correct! 'English' begins with the letter 'E'.",
+            "en": "Correct! 'English' begins with the letter 'E'."
+          },
+          "data": {
+            "options": [
+              "Letter E",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter E"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "English",
+                  "en": "English"
+                },
+                "right": {
+                  "vi": "Nghĩa của English",
+                  "en": "Nghĩa của English"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Maths",
+                  "en": "Maths"
+                },
+                "right": {
+                  "vi": "Nghĩa của Maths",
+                  "en": "Nghĩa của Maths"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "travel",
+                  "en": "travel"
+                },
+                "right": {
+                  "vi": "Nghĩa của travel",
+                  "en": "Nghĩa của travel"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? I love English because I want to talk to international friends.",
+            "en": "Is this English sentence correct for Grade 4? I love English because I want to talk to international friends."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I love English because I want to talk to international friends.",
+            "en": "Remember the pattern: I love English because I want to talk to international friends."
+          },
+          "explanation": {
+            "vi": "Yes! 'I love English because I want to talk to international friends.' is a correct English sentence.",
+            "en": "Yes! 'I love English because I want to talk to international friends.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I love English because I want to talk to international friends.",
+              "en": "I love English because I want to talk to international friends."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I love English because I want to talk to international ....",
+            "en": "Drag the correct word to complete the sentence: I love English because I want to talk to international ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'friends'.",
+            "en": "Choose the correct word: 'friends'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I love English because I want to talk to international friends.'.",
+            "en": "The complete sentence is: 'I love English because I want to talk to international friends.'."
+          },
+          "data": {
+            "prefix_text": "I love English because I want to talk to international ",
+            "suffix_text": ".",
+            "options": [
+              "friends",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "friends"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'english':",
+            "en": "Spell the English word 'english':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'english':",
+            "en": "Spell the English word 'english':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'english'.",
+            "en": "Tap the letters in order to spell 'english'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'english' correctly.",
+            "en": "Well done! You spelled 'english' correctly."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "s",
+              "i",
+              "l",
+              "g",
+              "n",
+              "e"
+            ],
+            "target_word": "english",
+            "target_sequence": [
+              "e",
+              "n",
+              "g",
+              "l",
+              "i",
+              "s",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi yêu thích tiếng Anh vì muốn trò chuyện cùng bạn bè quốc tế.' in English?",
+            "en": "How do you say 'Tôi yêu thích tiếng Anh vì muốn trò chuyện cùng bạn bè quốc tế.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi yêu thích tiếng Anh vì muốn trò chuyện cùng bạn bè quốc tế.' in English?",
+            "en": "How do you say 'Tôi yêu thích tiếng Anh vì muốn trò chuyện cùng bạn bè quốc tế.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi yêu thích tiếng Anh vì muốn trò chuyện cùng bạn bè quốc tế.",
+            "en": "Choose the English sentence that means: Tôi yêu thích tiếng Anh vì muốn trò chuyện cùng bạn bè quốc tế."
+          },
+          "explanation": {
+            "vi": "'I love English because I want to talk to international friends.' means 'Tôi yêu thích tiếng Anh vì muốn trò chuyện cùng bạn bè quốc tế.'.",
+            "en": "'I love English because I want to talk to international friends.' means 'Tôi yêu thích tiếng Anh vì muốn trò chuyện cùng bạn bè quốc tế.'."
+          },
+          "data": {
+            "options": [
+              "I love English because I want to talk to international friends.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I love English because I want to talk to international friends."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 8: Loving English & Mathematics'?",
+            "en": "Which of the following is a key word from Unit 'Unit 8: Loving English & Mathematics'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 8: Loving English & Mathematics'?",
+            "en": "Which of the following is a key word from Unit 'Unit 8: Loving English & Mathematics'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 8: Loving English & Mathematics.",
+            "en": "Remember the words in topic: Unit 8: Loving English & Mathematics."
+          },
+          "explanation": {
+            "vi": "'English' is a key vocabulary word in this topic.",
+            "en": "'English' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "English",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "English"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Maths' start with the sound /e/?",
+            "en": "Does the word 'Maths' start with the sound /e/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Maths' start with the sound /e/? The word 'Maths' starts with letter 'E'.",
+            "en": "Does the word 'Maths' start with the sound /e/? The word 'Maths' starts with letter 'E'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Maths'.",
+            "en": "Listen to the first sound of 'Maths'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Maths' starts with the sound /e/.",
+            "en": "Yes! 'Maths' starts with the sound /e/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Maths' starts with letter 'E'.",
+              "en": "The word 'Maths' starts with letter 'E'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'english'?",
+            "en": "How many letters are there in the word 'english'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'english'?",
+            "en": "How many letters are there in the word 'english'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'english': 1, 2, 3...",
+            "en": "Count the letters in 'english': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'english' has exactly 7 letters.",
+            "en": "The word 'english' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'english':",
+            "en": "Choose the correct phrase with 'english':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'english':",
+            "en": "Choose the correct phrase with 'english':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an english'.",
+            "en": "Correct! We say 'an english'."
+          },
+          "data": {
+            "options": [
+              "an english",
+              "a english",
+              "two english",
+              "many english"
+            ],
+            "correct_answer": "an english"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'English'.",
+            "en": "Choose the word: 'English'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is English. It is wonderful!'",
+            "en": "We say: 'Look! This is English. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "English",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "English"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s10_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 8: Loving English & Mathematics'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 8: Loving English & Mathematics'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 8: Loving English & Mathematics'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 8: Loving English & Mathematics'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 8: Loving English & Mathematics'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 8: Loving English & Mathematics'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: English, Maths!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: English, Maths!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

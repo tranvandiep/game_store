@@ -1,0 +1,923 @@
+{
+  "id": "m5_stage_28",
+  "stage_number": 28,
+  "title": {
+    "vi": "Chặng 28: Toán Chuyển Động Ngược Chiều & Cùng Chiều",
+    "en": "Stage 28: Opposite & Same-Direction Motion Problems"
+  },
+  "subtitle": {
+    "vi": "Tổng vận tốc khi gặp nhau và Hiệu vận tốc khi đuổi kịp",
+    "en": "Sum of speeds for rendezvous and difference of speeds for catch-up"
+  },
+  "icon": "🏍️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFF8BC34A",
+  "topics": [
+    {
+      "id": "m5_t28_1",
+      "title": {
+        "vi": "Toán Chuyển Động Ngược Chiều (Gặp Nhau)",
+        "en": "Opposite-Direction Motion (Rendezvous)"
+      },
+      "description": {
+        "vi": "Tổng vận tốc = v1 + v2; Thời gian gặp nhau = Quãng đường : Tổng vận tốc (t = s : (v1 + v2))",
+        "en": "Sum of speeds = v1 + v2; Meeting time t = s / (v1 + v2)"
+      },
+      "icon": "↔️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t28_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hai thành phố A và B cách nhau 180 km. Cùng lúc, một ô tô đi từ A đến B với vận tốc 54 km/h và một xe máy đi từ B về A với vận tốc 36 km/h. Tổng vận tốc của hai xe là:",
+            "en": "Cities A and B are 180km apart. Car from A at 54km/h, motorcycle from B at 36km/h. Sum of speeds:"
+          },
+          "tts_prompt": {
+            "vi": "Hai thành phố A và B cách nhau 180 km. Cùng lúc, một ô tô đi từ A đến B với vận tốc 54 km/h và một xe máy đi từ B về A với vận tốc 36 km/h. Tổng vận tốc của hai xe là:",
+            "en": "Cities A and B are 180km apart. Car from A at 54km/h, motorcycle from B at 36km/h. Sum of speeds:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "90 km/giờ",
+              "18 km/giờ",
+              "100 km/giờ"
+            ],
+            "answer": "90 km/giờ"
+          },
+          "hint": {
+            "vi": "Tổng vận tốc = 54 + 36 = 90 km/giờ.",
+            "en": "54 + 36 = 90 km/h."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 90 km/giờ. Tổng vận tốc = 54 + 36 = 90 km/giờ.",
+            "en": "Correct answer is 90 km/giờ. 54 + 36 = 90 km/h."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Sau bao nhiêu giờ thì hai xe ở câu trên gặp nhau? (s = 180 km, tổng vận tốc 90 km/h):",
+            "en": "Hours until two vehicles meet (distance 180km, total speed 90km/h):"
+          },
+          "tts_prompt": {
+            "vi": "Sau bao nhiêu giờ thì hai xe ở câu trên gặp nhau? (s = 180 km, tổng vận tốc 90 km/h):",
+            "en": "Hours until two vehicles meet (distance 180km, total speed 90km/h):"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 2,
+            "unit": "giờ"
+          },
+          "hint": {
+            "vi": "Thời gian gặp nhau = 180 : 90 = 2 giờ.",
+            "en": "180 / 90 = 2 hours."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 2 giờ. Thời gian gặp nhau = 180 : 90 = 2 giờ.",
+            "en": "The exact result is 2 giờ. 180 / 90 = 2 hours."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_1_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép công thức thời gian gặp nhau: t = s : (v1 + v2)",
+            "en": "Arrange meeting time formula: t = s : (v1 + v2)"
+          },
+          "tts_prompt": {
+            "vi": "Ghép công thức thời gian gặp nhau: t = s : (v1 + v2)",
+            "en": "Arrange meeting time formula: t = s : (v1 + v2)"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "target_word": "t = s : (v1 + v2)",
+            "letters": [
+              "t",
+              "=",
+              "s",
+              ":",
+              "(v1 + v2)"
+            ]
+          },
+          "hint": {
+            "vi": "t = s : (v1 + v2).",
+            "en": "t = s : (v1 + v2)."
+          },
+          "explanation": {
+            "vi": "Kết quả ghép chuẩn là: t = s : (v1 + v2). t = s : (v1 + v2).",
+            "en": "Target arrangement is: t = s : (v1 + v2). t = s : (v1 + v2)."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'TOÁN'",
+            "en": "Arrange the letters to spell the keyword: 'TOÁN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa TOÁN",
+            "en": "Arrange the letters to spell TOÁN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: TOÁN",
+            "en": "The keyword is: TOÁN"
+          },
+          "data": {
+            "target_word": "TOÁN",
+            "scrambled_letters": [
+              "N",
+              "O",
+              "T",
+              "Á"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 50 : 100 = 100.",
+            "en": "Result is 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "100",
+                "en": "100"
+              },
+              {
+                "vi": "110",
+                "en": "110"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              }
+            ],
+            "correct_answer": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t28_2",
+      "title": {
+        "vi": "Toán Chuyển Động Cùng Chiều (Đuổi Kịp)",
+        "en": "Same-Direction Motion (Catch-Up)"
+      },
+      "description": {
+        "vi": "Hiệu vận tốc = v1 - v2; Thời gian đuổi kịp = Khoảng cách ban đầu : Hiệu vận tốc (t = s : (v1 - v2))",
+        "en": "Speed difference = v1 - v2; Catch-up time t = distance / (v1 - v2)"
+      },
+      "icon": "🏃",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t28_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một người đi xe máy đuổi theo một người đi xe đạp xuất phát trước cách đó 30 km. Vận tốc xe máy là 45 km/h, vận tốc xe đạp là 15 km/h. Hiệu vận tốc của hai xe là:",
+            "en": "Motorcycle at 45km/h chases bicycle at 15km/h starting 30km ahead. Speed difference:"
+          },
+          "tts_prompt": {
+            "vi": "Một người đi xe máy đuổi theo một người đi xe đạp xuất phát trước cách đó 30 km. Vận tốc xe máy là 45 km/h, vận tốc xe đạp là 15 km/h. Hiệu vận tốc của hai xe là:",
+            "en": "Motorcycle at 45km/h chases bicycle at 15km/h starting 30km ahead. Speed difference:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "30 km/giờ",
+              "60 km/giờ",
+              "15 km/giờ"
+            ],
+            "answer": "30 km/giờ"
+          },
+          "hint": {
+            "vi": "Hiệu vận tốc = 45 - 15 = 30 km/giờ.",
+            "en": "45 - 15 = 30 km/h."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 30 km/giờ. Hiệu vận tốc = 45 - 15 = 30 km/giờ.",
+            "en": "Correct answer is 30 km/giờ. 45 - 15 = 30 km/h."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Sau bao nhiêu giờ xe máy sẽ đuổi kịp xe đạp? (Khoảng cách 30 km, hiệu vận tốc 30 km/h):",
+            "en": "Hours for motorcycle to catch up (distance 30km, speed diff 30km/h):"
+          },
+          "tts_prompt": {
+            "vi": "Sau bao nhiêu giờ xe máy sẽ đuổi kịp xe đạp? (Khoảng cách 30 km, hiệu vận tốc 30 km/h):",
+            "en": "Hours for motorcycle to catch up (distance 30km, speed diff 30km/h):"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 1,
+            "unit": "giờ"
+          },
+          "hint": {
+            "vi": "Thời gian đuổi kịp = 30 : 30 = 1 giờ.",
+            "en": "30 / 30 = 1 hour."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 1 giờ. Thời gian đuổi kịp = 30 : 30 = 1 giờ.",
+            "en": "The exact result is 1 giờ. 30 / 30 = 1 hour."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Trong chuyển động cùng chiều đuổi nhau, thời gian đuổi kịp bằng khoảng cách ban đầu chia cho hiệu vận tốc của hai chuyển động.",
+            "en": "Decide whether the following statement is true or false: Trong chuyển động cùng chiều đuổi nhau, thời gian đuổi kịp bằng khoảng cách ban đầu chia cho hiệu vận tốc của hai chuyển động."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Trong chuyển động cùng chiều đuổi nhau, thời gian đuổi kịp bằng khoảng cách ban đầu chia cho hiệu vận tốc của hai chuyển động.",
+              "en": "Trong chuyển động cùng chiều đuổi nhau, thời gian đuổi kịp bằng khoảng cách ban đầu chia cho hiệu vận tốc của hai chuyển động."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_2_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 8.1:",
+            "en": "Decimal fraction for 8.1:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 8.1:",
+            "en": "Decimal fraction for 8.1:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "8.1 = 81/10.",
+            "en": "8.1 = 81/10."
+          },
+          "data": {
+            "prefix_text": "8.1 = ",
+            "suffix_text": "",
+            "options": [
+              "82/10",
+              "81/100",
+              "8/10",
+              "81/10"
+            ],
+            "slot_answer": "81/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 2.5:",
+            "en": "Decimal fraction for 2.5:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 2.5:",
+            "en": "Decimal fraction for 2.5:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2.5 = 25/10.",
+            "en": "2.5 = 25/10."
+          },
+          "data": {
+            "prefix_text": "2.5 = ",
+            "suffix_text": "",
+            "options": [
+              "25/10",
+              "2/10",
+              "25/100",
+              "26/10"
+            ],
+            "slot_answer": "25/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 20 : 100 = 40.",
+            "en": "Result is 40."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              }
+            ],
+            "correct_answer": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t28_3",
+      "title": {
+        "vi": "Toán Chuyển Động Trên Dòng Nước",
+        "en": "Motion on Water Currents"
+      },
+      "description": {
+        "vi": "Vận tốc xuôi dòng = Vận tốc thực + Vận tốc dòng nước; Vận tốc ngược dòng = Vận tốc thực - Vận tốc dòng nước",
+        "en": "Downstream speed = Boat + Current; Upstream speed = Boat - Current"
+      },
+      "icon": "🚤",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t28_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một ca nô có vận tốc thực (khi nước yên lặng) là 25 km/h, vận tốc dòng nước là 3 km/h. Vận tốc của ca nô khi đi xuôi dòng là:",
+            "en": "Boat speed 25 km/h in still water, current speed 3 km/h. Downstream speed:"
+          },
+          "tts_prompt": {
+            "vi": "Một ca nô có vận tốc thực (khi nước yên lặng) là 25 km/h, vận tốc dòng nước là 3 km/h. Vận tốc của ca nô khi đi xuôi dòng là:",
+            "en": "Boat speed 25 km/h in still water, current speed 3 km/h. Downstream speed:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "28 km/giờ",
+              "22 km/giờ",
+              "25 km/giờ"
+            ],
+            "answer": "28 km/giờ"
+          },
+          "hint": {
+            "vi": "Vận tốc xuôi dòng = 25 + 3 = 28 km/giờ.",
+            "en": "25 + 3 = 28 km/h."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 28 km/giờ. Vận tốc xuôi dòng = 25 + 3 = 28 km/giờ.",
+            "en": "Correct answer is 28 km/giờ. 25 + 3 = 28 km/h."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Vận tốc của ca nô khi đi ngược dòng là bao nhiêu km/giờ?",
+            "en": "Upstream speed in km/h:"
+          },
+          "tts_prompt": {
+            "vi": "Vận tốc của ca nô khi đi ngược dòng là bao nhiêu km/giờ?",
+            "en": "Upstream speed in km/h:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 22,
+            "unit": "km/giờ"
+          },
+          "hint": {
+            "vi": "Vận tốc ngược dòng = 25 - 3 = 22 km/giờ.",
+            "en": "25 - 3 = 22 km/h."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 22 km/giờ. Vận tốc ngược dòng = 25 - 3 = 22 km/giờ.",
+            "en": "The exact result is 22 km/giờ. 25 - 3 = 22 km/h."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Vận tốc dòng nước bằng hiệu của vận tốc xuôi dòng và vận tốc ngược dòng chia cho 2 (vdòng = (vxuôi - vngược) : 2).",
+            "en": "Decide whether the following statement is true or false: Vận tốc dòng nước bằng hiệu của vận tốc xuôi dòng và vận tốc ngược dòng chia cho 2 (vdòng = (vxuôi - vngược) : 2)."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Vận tốc dòng nước bằng hiệu của vận tốc xuôi dòng và vận tốc ngược dòng chia cho 2 (vdòng = (vxuôi - vngược) : 2).",
+              "en": "Vận tốc dòng nước bằng hiệu của vận tốc xuôi dòng và vận tốc ngược dòng chia cho 2 (vdòng = (vxuôi - vngược) : 2)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_3_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 5.0:",
+            "en": "Decimal fraction for 5.0:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 5.0:",
+            "en": "Decimal fraction for 5.0:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "5.0 = 50/10.",
+            "en": "5.0 = 50/10."
+          },
+          "data": {
+            "prefix_text": "5.0 = ",
+            "suffix_text": "",
+            "options": [
+              "5/10",
+              "51/10",
+              "50/10",
+              "50/100"
+            ],
+            "slot_answer": "50/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 4.3:",
+            "en": "Decimal fraction for 4.3:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 4.3:",
+            "en": "Decimal fraction for 4.3:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "4.3 = 43/10.",
+            "en": "4.3 = 43/10."
+          },
+          "data": {
+            "prefix_text": "4.3 = ",
+            "suffix_text": "",
+            "options": [
+              "44/10",
+              "43/10",
+              "4/10",
+              "43/100"
+            ],
+            "slot_answer": "43/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t28_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

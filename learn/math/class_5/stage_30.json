@@ -1,0 +1,664 @@
+{
+  "id": "m5_stage_30",
+  "stage_number": 30,
+  "title": {
+    "vi": "Chặng 30: Đại Ôn Tập: Kỹ Năng Tính Nhanh & Biểu Thức",
+    "en": "Stage 30: Review: Efficient Math & Expression Skills"
+  },
+  "subtitle": {
+    "vi": "Tính thuận tiện, nhân một số với một tổng, phân số phức hợp",
+    "en": "Factoring, distributive tricks and multi-step expressions"
+  },
+  "icon": "💡",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFF607D8B",
+  "topics": [
+    {
+      "id": "m5_t30_1",
+      "title": {
+        "vi": "Đại ôn tập: Phép Cộng & Phép Trừ",
+        "en": "Review: Addition & Subtraction Mastery"
+      },
+      "description": {
+        "vi": "Cộng trừ số tự nhiên, phân số, số thập phân và số đo thời gian",
+        "en": "Addition and subtraction across all number representations"
+      },
+      "icon": "➕",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t30_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 345,67 + 254,33 = ?",
+            "en": "Calculate: 345.67 + 254.33 = ?"
+          },
+          "tts_prompt": {
+            "vi": "Tính: 345,67 + 254,33 = ?",
+            "en": "Calculate: 345.67 + 254.33 = ?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 600,
+            "unit": ""
+          },
+          "hint": {
+            "vi": "345,67 + 254,33 = 600,00 = 600.",
+            "en": "600."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 600 . 345,67 + 254,33 = 600,00 = 600.",
+            "en": "The exact result is 600 . 600."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Hiệu của hai số không thay đổi nếu ta cùng cộng vào (hoặc cùng trừ đi) ở cả hai số đó cùng một số.",
+            "en": "Decide whether the following statement is true or false: Hiệu của hai số không thay đổi nếu ta cùng cộng vào (hoặc cùng trừ đi) ở cả hai số đó cùng một số."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Hiệu của hai số không thay đổi nếu ta cùng cộng vào (hoặc cùng trừ đi) ở cả hai số đó cùng một số.",
+              "en": "Hiệu của hai số không thay đổi nếu ta cùng cộng vào (hoặc cùng trừ đi) ở cả hai số đó cùng một số."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 50 : 100 = 100.",
+            "en": "Result is 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "100",
+                "en": "100"
+              },
+              {
+                "vi": "110",
+                "en": "110"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              }
+            ],
+            "correct_answer": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t30_2",
+      "title": {
+        "vi": "Đại ôn tập: Phép Nhân & Phép Chia",
+        "en": "Review: Multiplication & Division Mastery"
+      },
+      "description": {
+        "vi": "Nhân chia số tự nhiên, phân số, số thập phân và tìm x",
+        "en": "Multiplication and division across all number types and equations"
+      },
+      "icon": "✖️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t30_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 12,5 x 0,8 = ?",
+            "en": "Calculate: 12.5 * 0.8 = ?"
+          },
+          "tts_prompt": {
+            "vi": "Tính: 12,5 x 0,8 = ?",
+            "en": "Calculate: 12.5 * 0.8 = ?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 10,
+            "unit": ""
+          },
+          "hint": {
+            "vi": "12,5 x 0,8 = 10,00 = 10.",
+            "en": "10."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 10 . 12,5 x 0,8 = 10,00 = 10.",
+            "en": "The exact result is 10 . 10."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tìm x biết: x x 1,2 = 4,8. Giá trị của x là:",
+            "en": "Find x: x * 1.2 = 4.8:"
+          },
+          "tts_prompt": {
+            "vi": "Tìm x biết: x x 1,2 = 4,8. Giá trị của x là:",
+            "en": "Find x: x * 1.2 = 4.8:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "4",
+              "40",
+              "0,4"
+            ],
+            "answer": "4"
+          },
+          "hint": {
+            "vi": "x = 4,8 : 1,2 = 4.",
+            "en": "x = 4."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 4. x = 4,8 : 1,2 = 4.",
+            "en": "Correct answer is 4. x = 4."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 6.0:",
+            "en": "Decimal fraction for 6.0:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 6.0:",
+            "en": "Decimal fraction for 6.0:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "6.0 = 60/10.",
+            "en": "6.0 = 60/10."
+          },
+          "data": {
+            "prefix_text": "6.0 = ",
+            "suffix_text": "",
+            "options": [
+              "60/10",
+              "60/100",
+              "6/10",
+              "61/10"
+            ],
+            "slot_answer": "60/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t30_3",
+      "title": {
+        "vi": "Phương pháp Tính Thuận Tiện & Tính Nhanh Biểu Thức",
+        "en": "Efficient & Mental Math Techniques"
+      },
+      "description": {
+        "vi": "Sử dụng tính chất phân phối, ghép nhóm tròn chục, tròn trăm",
+        "en": "Distributive tricks and grouping round numbers"
+      },
+      "icon": "💡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t30_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị: 3,45 x 12,3 + 3,45 x 87,7 = 345,?:",
+            "en": "Calculate: 3.45 * 12.3 + 3.45 * 87.7 = 345.?:"
+          },
+          "tts_prompt": {
+            "vi": "Tính giá trị: 3,45 x 12,3 + 3,45 x 87,7 = 345,?:",
+            "en": "Calculate: 3.45 * 12.3 + 3.45 * 87.7 = 345.?:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 0,
+            "unit": ""
+          },
+          "hint": {
+            "vi": "3,45 x (12,3 + 87,7) = 3,45 x 100 = 345.",
+            "en": "345."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 0 . 3,45 x (12,3 + 87,7) = 3,45 x 100 = 345.",
+            "en": "The exact result is 0 . 345."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Biểu thức: a x b + a x c = a x (b + c) là công thức nhân một số với một tổng.",
+            "en": "Decide whether the following statement is true or false: Biểu thức: a x b + a x c = a x (b + c) là công thức nhân một số với một tổng."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Biểu thức: a x b + a x c = a x (b + c) là công thức nhân một số với một tổng.",
+              "en": "Biểu thức: a x b + a x c = a x (b + c) là công thức nhân một số với một tổng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "25% của 200 là:",
+            "en": "25% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 25 : 100 = 50.",
+            "en": "Result is 50."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "60",
+                "en": "60"
+              },
+              {
+                "vi": "40",
+                "en": "40"
+              }
+            ],
+            "correct_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t30_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

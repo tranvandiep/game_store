@@ -1,0 +1,1120 @@
+{
+  "id": "e2_stage_22",
+  "stage_number": 22,
+  "title": {
+    "vi": "Week 22: Playground Games & Counting",
+    "en": "Week 22: Playground Games & Counting"
+  },
+  "subtitle": {
+    "vi": "Counting: 1, 2, 3, 4, 5, 6 & Toy building blocks",
+    "en": "Counting: 1, 2, 3, 4, 5, 6 & Toy building blocks"
+  },
+  "icon": "🎲",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.34,
+  "required_stars": 63,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "e2_s22_1",
+      "title": {
+        "vi": "Number 6 Block & Dice",
+        "en": "Number 6 Block & Dice"
+      },
+      "description": {
+        "vi": "Rolling number six on the board game dice",
+        "en": "Rolling number six on the board game dice"
+      },
+      "icon": "🎲",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s22_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the game die showing six black dots on top. What number does it show?",
+            "en": "Look at the game die showing six black dots on top. What number does it show?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the game die showing six black dots on top. What number does it show?",
+            "en": "Look at the game die showing six black dots on top. What number does it show?"
+          },
+          "hint": {
+            "vi": "It has 6 dots on the top face.",
+            "en": "It has 6 dots on the top face."
+          },
+          "explanation": {
+            "vi": "It shows the number six (6).",
+            "en": "It shows the number six (6)."
+          },
+          "data": {
+            "options": [
+              "the number six (6)",
+              "the number one (1)",
+              "the number zero (0)",
+              "the number two (2)"
+            ],
+            "correct_answer": "the number six (6)"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u11_number_six.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s22_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'six'?",
+            "en": "What is the first letter of the word 'six'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'six'?",
+            "en": "What is the first letter of the word 'six'?"
+          },
+          "hint": {
+            "vi": "The word 'six' starts with the letter X.",
+            "en": "The word 'six' starts with the letter X."
+          },
+          "explanation": {
+            "vi": "Correct! 'six' begins with the letter 'X'.",
+            "en": "Correct! 'six' begins with the letter 'X'."
+          },
+          "data": {
+            "options": [
+              "Letter X",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter X"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "six",
+                  "en": "six"
+                },
+                "right": {
+                  "vi": "Nghĩa của six",
+                  "en": "Nghĩa của six"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "dice",
+                  "en": "dice"
+                },
+                "right": {
+                  "vi": "Nghĩa của dice",
+                  "en": "Nghĩa của dice"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "number",
+                  "en": "number"
+                },
+                "right": {
+                  "vi": "Nghĩa của number",
+                  "en": "Nghĩa của number"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Roll a number six on the dice!",
+            "en": "Is this English sentence correct for Grade 2? Roll a number six on the dice!"
+          },
+          "hint": {
+            "vi": "Remember the pattern: Roll a number six on the dice!",
+            "en": "Remember the pattern: Roll a number six on the dice!"
+          },
+          "explanation": {
+            "vi": "Yes! 'Roll a number six on the dice!' is a correct English sentence.",
+            "en": "Yes! 'Roll a number six on the dice!' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Roll a number six on the dice!",
+              "en": "Roll a number six on the dice!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Roll a number six on the ....",
+            "en": "Drag the correct word to complete the sentence: Roll a number six on the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'dice!'.",
+            "en": "Choose the correct word: 'dice!'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Roll a number six on the dice!.'.",
+            "en": "The complete sentence is: 'Roll a number six on the dice!.'."
+          },
+          "data": {
+            "prefix_text": "Roll a number six on the ",
+            "suffix_text": ".",
+            "options": [
+              "dice!",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "dice!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'six':",
+            "en": "Spell the English word 'six':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'six':",
+            "en": "Spell the English word 'six':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'six'.",
+            "en": "Tap the letters in order to spell 'six'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'six' correctly.",
+            "en": "Well done! You spelled 'six' correctly."
+          },
+          "data": {
+            "letters": [
+              "x",
+              "i",
+              "s"
+            ],
+            "target_word": "six",
+            "target_sequence": [
+              "s",
+              "i",
+              "x"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Lắc ra số sáu trên con súc sắc nào!' in English?",
+            "en": "How do you say 'Lắc ra số sáu trên con súc sắc nào!' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Lắc ra số sáu trên con súc sắc nào!' in English?",
+            "en": "How do you say 'Lắc ra số sáu trên con súc sắc nào!' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Lắc ra số sáu trên con súc sắc nào!",
+            "en": "Choose the English sentence that means: Lắc ra số sáu trên con súc sắc nào!"
+          },
+          "explanation": {
+            "vi": "'Roll a number six on the dice!' means 'Lắc ra số sáu trên con súc sắc nào!'.",
+            "en": "'Roll a number six on the dice!' means 'Lắc ra số sáu trên con súc sắc nào!'."
+          },
+          "data": {
+            "options": [
+              "Roll a number six on the dice!",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Roll a number six on the dice!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Number 6 Block & Dice'?",
+            "en": "Which of the following is a word from Unit 'Number 6 Block & Dice'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Number 6 Block & Dice'?",
+            "en": "Which of the following is a word from Unit 'Number 6 Block & Dice'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Number 6 Block & Dice.",
+            "en": "Remember the words in topic: Number 6 Block & Dice."
+          },
+          "explanation": {
+            "vi": "'six' is a key vocabulary word in this topic.",
+            "en": "'six' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "six",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "six"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'dice' start with the sound /x/?",
+            "en": "Does the word 'dice' start with the sound /x/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'dice' start with the sound /x/? The word 'dice' starts with letter 'X'.",
+            "en": "Does the word 'dice' start with the sound /x/? The word 'dice' starts with letter 'X'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'dice'.",
+            "en": "Listen to the first sound of 'dice'."
+          },
+          "explanation": {
+            "vi": "Yes! 'dice' starts with the sound /x/.",
+            "en": "Yes! 'dice' starts with the sound /x/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'dice' starts with letter 'X'.",
+              "en": "The word 'dice' starts with letter 'X'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'six'?",
+            "en": "How many letters are there in the word 'six'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'six'?",
+            "en": "How many letters are there in the word 'six'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'six': 1, 2, 3...",
+            "en": "Count the letters in 'six': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'six' has exactly 3 letters.",
+            "en": "The word 'six' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'six':",
+            "en": "Choose the correct phrase with 'six':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'six':",
+            "en": "Choose the correct phrase with 'six':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a six'.",
+            "en": "Correct! We say 'a six'."
+          },
+          "data": {
+            "options": [
+              "a six",
+              "an six",
+              "five six",
+              "many six"
+            ],
+            "correct_answer": "a six"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'six'.",
+            "en": "Choose the food or object: 'six'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like six? - Yes, I do!'",
+            "en": "We ask: 'Do you like six? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "six",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "six"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "X",
+                  "en": "X"
+                },
+                "right": {
+                  "vi": "x",
+                  "en": "x"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Number 6 Block & Dice'?",
+            "en": "Which English sentence best describes the topic 'Number 6 Block & Dice'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Number 6 Block & Dice'?",
+            "en": "Which English sentence best describes the topic 'Number 6 Block & Dice'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Number 6 Block & Dice'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Number 6 Block & Dice'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: six, dice!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: six, dice!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s22_2",
+      "title": {
+        "vi": "Clever Red Fox in the Woods",
+        "en": "Clever Red Fox in the Woods"
+      },
+      "description": {
+        "vi": "Watching a wild fox in nature",
+        "en": "Watching a wild fox in nature"
+      },
+      "icon": "🦊",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s22_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the sly furry wild canine with orange coat and white chest. What animal is it?",
+            "en": "Look at the sly furry wild canine with orange coat and white chest. What animal is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the sly furry wild canine with orange coat and white chest. What animal is it?",
+            "en": "Look at the sly furry wild canine with orange coat and white chest. What animal is it?"
+          },
+          "hint": {
+            "vi": "A wild mammal known for cunning and a bushy tail.",
+            "en": "A wild mammal known for cunning and a bushy tail."
+          },
+          "explanation": {
+            "vi": "It's a clever red fox.",
+            "en": "It's a clever red fox."
+          },
+          "data": {
+            "options": [
+              "a clever red fox",
+              "a grey timber wolf",
+              "a brown bear",
+              "a polar bear"
+            ],
+            "correct_answer": "a clever red fox"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u11_red_fox.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s22_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'fox'?",
+            "en": "What is the first letter of the word 'fox'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'fox'?",
+            "en": "What is the first letter of the word 'fox'?"
+          },
+          "hint": {
+            "vi": "The word 'fox' starts with the letter X.",
+            "en": "The word 'fox' starts with the letter X."
+          },
+          "explanation": {
+            "vi": "Correct! 'fox' begins with the letter 'X'.",
+            "en": "Correct! 'fox' begins with the letter 'X'."
+          },
+          "data": {
+            "options": [
+              "Letter X",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter X"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "fox",
+                  "en": "fox"
+                },
+                "right": {
+                  "vi": "Nghĩa của fox",
+                  "en": "Nghĩa của fox"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "clever",
+                  "en": "clever"
+                },
+                "right": {
+                  "vi": "Nghĩa của clever",
+                  "en": "Nghĩa của clever"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "bushy",
+                  "en": "bushy"
+                },
+                "right": {
+                  "vi": "Nghĩa của bushy",
+                  "en": "Nghĩa của bushy"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? The red fox has a bushy tail.",
+            "en": "Is this English sentence correct for Grade 2? The red fox has a bushy tail."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The red fox has a bushy tail.",
+            "en": "Remember the pattern: The red fox has a bushy tail."
+          },
+          "explanation": {
+            "vi": "Yes! 'The red fox has a bushy tail.' is a correct English sentence.",
+            "en": "Yes! 'The red fox has a bushy tail.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The red fox has a bushy tail.",
+              "en": "The red fox has a bushy tail."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The red fox has a bushy ....",
+            "en": "Drag the correct word to complete the sentence: The red fox has a bushy ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'tail'.",
+            "en": "Choose the correct word: 'tail'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The red fox has a bushy tail.'.",
+            "en": "The complete sentence is: 'The red fox has a bushy tail.'."
+          },
+          "data": {
+            "prefix_text": "The red fox has a bushy ",
+            "suffix_text": ".",
+            "options": [
+              "tail",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "tail"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'fox':",
+            "en": "Spell the English word 'fox':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'fox':",
+            "en": "Spell the English word 'fox':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'fox'.",
+            "en": "Tap the letters in order to spell 'fox'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'fox' correctly.",
+            "en": "Well done! You spelled 'fox' correctly."
+          },
+          "data": {
+            "letters": [
+              "x",
+              "o",
+              "f"
+            ],
+            "target_word": "fox",
+            "target_sequence": [
+              "f",
+              "o",
+              "x"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chú cáo đỏ có một chiếc đuôi xù.' in English?",
+            "en": "How do you say 'Chú cáo đỏ có một chiếc đuôi xù.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chú cáo đỏ có một chiếc đuôi xù.' in English?",
+            "en": "How do you say 'Chú cáo đỏ có một chiếc đuôi xù.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chú cáo đỏ có một chiếc đuôi xù.",
+            "en": "Choose the English sentence that means: Chú cáo đỏ có một chiếc đuôi xù."
+          },
+          "explanation": {
+            "vi": "'The red fox has a bushy tail.' means 'Chú cáo đỏ có một chiếc đuôi xù.'.",
+            "en": "'The red fox has a bushy tail.' means 'Chú cáo đỏ có một chiếc đuôi xù.'."
+          },
+          "data": {
+            "options": [
+              "The red fox has a bushy tail.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The red fox has a bushy tail."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Clever Red Fox in the Woods'?",
+            "en": "Which of the following is a word from Unit 'Clever Red Fox in the Woods'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Clever Red Fox in the Woods'?",
+            "en": "Which of the following is a word from Unit 'Clever Red Fox in the Woods'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Clever Red Fox in the Woods.",
+            "en": "Remember the words in topic: Clever Red Fox in the Woods."
+          },
+          "explanation": {
+            "vi": "'fox' is a key vocabulary word in this topic.",
+            "en": "'fox' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "fox",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "fox"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'clever' start with the sound /x/?",
+            "en": "Does the word 'clever' start with the sound /x/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'clever' start with the sound /x/? The word 'clever' starts with letter 'X'.",
+            "en": "Does the word 'clever' start with the sound /x/? The word 'clever' starts with letter 'X'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'clever'.",
+            "en": "Listen to the first sound of 'clever'."
+          },
+          "explanation": {
+            "vi": "Yes! 'clever' starts with the sound /x/.",
+            "en": "Yes! 'clever' starts with the sound /x/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'clever' starts with letter 'X'.",
+              "en": "The word 'clever' starts with letter 'X'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'fox'?",
+            "en": "How many letters are there in the word 'fox'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'fox'?",
+            "en": "How many letters are there in the word 'fox'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'fox': 1, 2, 3...",
+            "en": "Count the letters in 'fox': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'fox' has exactly 3 letters.",
+            "en": "The word 'fox' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'fox':",
+            "en": "Choose the correct phrase with 'fox':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'fox':",
+            "en": "Choose the correct phrase with 'fox':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a fox'.",
+            "en": "Correct! We say 'a fox'."
+          },
+          "data": {
+            "options": [
+              "a fox",
+              "an fox",
+              "five fox",
+              "many fox"
+            ],
+            "correct_answer": "a fox"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'fox'.",
+            "en": "Choose the food or object: 'fox'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like fox? - Yes, I do!'",
+            "en": "We ask: 'Do you like fox? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "fox",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "fox"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "X",
+                  "en": "X"
+                },
+                "right": {
+                  "vi": "x",
+                  "en": "x"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s22_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Clever Red Fox in the Woods'?",
+            "en": "Which English sentence best describes the topic 'Clever Red Fox in the Woods'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Clever Red Fox in the Woods'?",
+            "en": "Which English sentence best describes the topic 'Clever Red Fox in the Woods'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Clever Red Fox in the Woods'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Clever Red Fox in the Woods'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: fox, clever!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: fox, clever!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

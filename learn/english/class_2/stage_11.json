@@ -1,0 +1,1126 @@
+{
+  "id": "e2_stage_11",
+  "stage_number": 11,
+  "title": {
+    "vi": "Week 11: Fun Quiz & Team Games",
+    "en": "Week 11: Fun Quiz & Team Games"
+  },
+  "subtitle": {
+    "vi": "Taking a quick fun English quiz together",
+    "en": "Taking a quick fun English quiz together"
+  },
+  "icon": "🎯",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.66,
+  "required_stars": 30,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "e2_s11_1",
+      "title": {
+        "vi": "Fun English Classroom Quiz",
+        "en": "Fun English Classroom Quiz"
+      },
+      "description": {
+        "vi": "Answering quiz questions on flashcards",
+        "en": "Answering quiz questions on flashcards"
+      },
+      "icon": "📋",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s11_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the team of kids solving a colorful picture quiz board together. What are they taking?",
+            "en": "Look at the team of kids solving a colorful picture quiz board together. What are they taking?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the team of kids solving a colorful picture quiz board together. What are they taking?",
+            "en": "Look at the team of kids solving a colorful picture quiz board together. What are they taking?"
+          },
+          "hint": {
+            "vi": "A short test or game testing knowledge.",
+            "en": "A short test or game testing knowledge."
+          },
+          "explanation": {
+            "vi": "They are playing a fun English quiz game.",
+            "en": "They are playing a fun English quiz game."
+          },
+          "data": {
+            "options": [
+              "a fun English quiz game",
+              "a driving test",
+              "a cooking contest",
+              "a swimming race"
+            ],
+            "correct_answer": "a fun English quiz game"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u5_quiz_team.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s11_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'quiz'?",
+            "en": "What is the first letter of the word 'quiz'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'quiz'?",
+            "en": "What is the first letter of the word 'quiz'?"
+          },
+          "hint": {
+            "vi": "The word 'quiz' starts with the letter Q.",
+            "en": "The word 'quiz' starts with the letter Q."
+          },
+          "explanation": {
+            "vi": "Correct! 'quiz' begins with the letter 'Q'.",
+            "en": "Correct! 'quiz' begins with the letter 'Q'."
+          },
+          "data": {
+            "options": [
+              "Letter Q",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter Q"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "quiz",
+                  "en": "quiz"
+                },
+                "right": {
+                  "vi": "Nghĩa của quiz",
+                  "en": "Nghĩa của quiz"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "answer",
+                  "en": "answer"
+                },
+                "right": {
+                  "vi": "Nghĩa của answer",
+                  "en": "Nghĩa của answer"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "team",
+                  "en": "team"
+                },
+                "right": {
+                  "vi": "Nghĩa của team",
+                  "en": "Nghĩa của team"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? We got all answers right on the quiz!",
+            "en": "Is this English sentence correct for Grade 2? We got all answers right on the quiz!"
+          },
+          "hint": {
+            "vi": "Remember the pattern: We got all answers right on the quiz!",
+            "en": "Remember the pattern: We got all answers right on the quiz!"
+          },
+          "explanation": {
+            "vi": "Yes! 'We got all answers right on the quiz!' is a correct English sentence.",
+            "en": "Yes! 'We got all answers right on the quiz!' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "We got all answers right on the quiz!",
+              "en": "We got all answers right on the quiz!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: We got all answers right on the ....",
+            "en": "Drag the correct word to complete the sentence: We got all answers right on the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'quiz!'.",
+            "en": "Choose the correct word: 'quiz!'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'We got all answers right on the quiz!.'.",
+            "en": "The complete sentence is: 'We got all answers right on the quiz!.'."
+          },
+          "data": {
+            "prefix_text": "We got all answers right on the ",
+            "suffix_text": ".",
+            "options": [
+              "quiz!",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "quiz!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'quiz':",
+            "en": "Spell the English word 'quiz':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'quiz':",
+            "en": "Spell the English word 'quiz':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'quiz'.",
+            "en": "Tap the letters in order to spell 'quiz'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'quiz' correctly.",
+            "en": "Well done! You spelled 'quiz' correctly."
+          },
+          "data": {
+            "letters": [
+              "z",
+              "i",
+              "u",
+              "q"
+            ],
+            "target_word": "quiz",
+            "target_sequence": [
+              "q",
+              "u",
+              "i",
+              "z"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chúng tôi đã trả lời đúng tất cả các câu hỏi đố vui!' in English?",
+            "en": "How do you say 'Chúng tôi đã trả lời đúng tất cả các câu hỏi đố vui!' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chúng tôi đã trả lời đúng tất cả các câu hỏi đố vui!' in English?",
+            "en": "How do you say 'Chúng tôi đã trả lời đúng tất cả các câu hỏi đố vui!' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chúng tôi đã trả lời đúng tất cả các câu hỏi đố vui!",
+            "en": "Choose the English sentence that means: Chúng tôi đã trả lời đúng tất cả các câu hỏi đố vui!"
+          },
+          "explanation": {
+            "vi": "'We got all answers right on the quiz!' means 'Chúng tôi đã trả lời đúng tất cả các câu hỏi đố vui!'.",
+            "en": "'We got all answers right on the quiz!' means 'Chúng tôi đã trả lời đúng tất cả các câu hỏi đố vui!'."
+          },
+          "data": {
+            "options": [
+              "We got all answers right on the quiz!",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "We got all answers right on the quiz!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Fun English Classroom Quiz'?",
+            "en": "Which of the following is a word from Unit 'Fun English Classroom Quiz'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Fun English Classroom Quiz'?",
+            "en": "Which of the following is a word from Unit 'Fun English Classroom Quiz'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Fun English Classroom Quiz.",
+            "en": "Remember the words in topic: Fun English Classroom Quiz."
+          },
+          "explanation": {
+            "vi": "'quiz' is a key vocabulary word in this topic.",
+            "en": "'quiz' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "quiz",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "quiz"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'answer' start with the sound /q/?",
+            "en": "Does the word 'answer' start with the sound /q/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'answer' start with the sound /q/? The word 'answer' starts with letter 'Q'.",
+            "en": "Does the word 'answer' start with the sound /q/? The word 'answer' starts with letter 'Q'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'answer'.",
+            "en": "Listen to the first sound of 'answer'."
+          },
+          "explanation": {
+            "vi": "Yes! 'answer' starts with the sound /q/.",
+            "en": "Yes! 'answer' starts with the sound /q/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'answer' starts with letter 'Q'.",
+              "en": "The word 'answer' starts with letter 'Q'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'quiz'?",
+            "en": "How many letters are there in the word 'quiz'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'quiz'?",
+            "en": "How many letters are there in the word 'quiz'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'quiz': 1, 2, 3...",
+            "en": "Count the letters in 'quiz': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'quiz' has exactly 4 letters.",
+            "en": "The word 'quiz' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'quiz':",
+            "en": "Choose the correct phrase with 'quiz':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'quiz':",
+            "en": "Choose the correct phrase with 'quiz':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a quiz'.",
+            "en": "Correct! We say 'a quiz'."
+          },
+          "data": {
+            "options": [
+              "a quiz",
+              "an quiz",
+              "five quiz",
+              "many quiz"
+            ],
+            "correct_answer": "a quiz"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'quiz'.",
+            "en": "Choose the food or object: 'quiz'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like quiz? - Yes, I do!'",
+            "en": "We ask: 'Do you like quiz? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "quiz",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "quiz"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Fun English Classroom Quiz'?",
+            "en": "Which English sentence best describes the topic 'Fun English Classroom Quiz'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Fun English Classroom Quiz'?",
+            "en": "Which English sentence best describes the topic 'Fun English Classroom Quiz'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Fun English Classroom Quiz'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Fun English Classroom Quiz'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: quiz, answer!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: quiz, answer!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s11_2",
+      "title": {
+        "vi": "Story of the Fairy Queen",
+        "en": "Story of the Fairy Queen"
+      },
+      "description": {
+        "vi": "Reading about the kind queen with a crown",
+        "en": "Reading about the kind queen with a crown"
+      },
+      "icon": "👸",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s11_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the royal female ruler wearing an elegant dress and crown in the storybook. Who is she?",
+            "en": "Look at the royal female ruler wearing an elegant dress and crown in the storybook. Who is she?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the royal female ruler wearing an elegant dress and crown in the storybook. Who is she?",
+            "en": "Look at the royal female ruler wearing an elegant dress and crown in the storybook. Who is she?"
+          },
+          "hint": {
+            "vi": "The female ruler of a kingdom wearing a crown.",
+            "en": "The female ruler of a kingdom wearing a crown."
+          },
+          "explanation": {
+            "vi": "She is the kind queen wearing a crown.",
+            "en": "She is the kind queen wearing a crown."
+          },
+          "data": {
+            "options": [
+              "the kind queen with a crown",
+              "a pirate",
+              "a chef",
+              "a mechanic"
+            ],
+            "correct_answer": "the kind queen with a crown"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u5_fairy_queen.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s11_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'queen'?",
+            "en": "What is the first letter of the word 'queen'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'queen'?",
+            "en": "What is the first letter of the word 'queen'?"
+          },
+          "hint": {
+            "vi": "The word 'queen' starts with the letter Q.",
+            "en": "The word 'queen' starts with the letter Q."
+          },
+          "explanation": {
+            "vi": "Correct! 'queen' begins with the letter 'Q'.",
+            "en": "Correct! 'queen' begins with the letter 'Q'."
+          },
+          "data": {
+            "options": [
+              "Letter Q",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter Q"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "queen",
+                  "en": "queen"
+                },
+                "right": {
+                  "vi": "Nghĩa của queen",
+                  "en": "Nghĩa của queen"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "crown",
+                  "en": "crown"
+                },
+                "right": {
+                  "vi": "Nghĩa của crown",
+                  "en": "Nghĩa của crown"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "kind",
+                  "en": "kind"
+                },
+                "right": {
+                  "vi": "Nghĩa của kind",
+                  "en": "Nghĩa của kind"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? The kind queen wears a shiny silver crown.",
+            "en": "Is this English sentence correct for Grade 2? The kind queen wears a shiny silver crown."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The kind queen wears a shiny silver crown.",
+            "en": "Remember the pattern: The kind queen wears a shiny silver crown."
+          },
+          "explanation": {
+            "vi": "Yes! 'The kind queen wears a shiny silver crown.' is a correct English sentence.",
+            "en": "Yes! 'The kind queen wears a shiny silver crown.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The kind queen wears a shiny silver crown.",
+              "en": "The kind queen wears a shiny silver crown."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The kind queen wears a shiny silver ....",
+            "en": "Drag the correct word to complete the sentence: The kind queen wears a shiny silver ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'crown'.",
+            "en": "Choose the correct word: 'crown'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The kind queen wears a shiny silver crown.'.",
+            "en": "The complete sentence is: 'The kind queen wears a shiny silver crown.'."
+          },
+          "data": {
+            "prefix_text": "The kind queen wears a shiny silver ",
+            "suffix_text": ".",
+            "options": [
+              "crown",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "crown"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'queen':",
+            "en": "Spell the English word 'queen':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'queen':",
+            "en": "Spell the English word 'queen':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'queen'.",
+            "en": "Tap the letters in order to spell 'queen'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'queen' correctly.",
+            "en": "Well done! You spelled 'queen' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "e",
+              "e",
+              "u",
+              "q"
+            ],
+            "target_word": "queen",
+            "target_sequence": [
+              "q",
+              "u",
+              "e",
+              "e",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Vị hoàng hậu nhân từ đội chiếc vương miện bạc lấp lánh.' in English?",
+            "en": "How do you say 'Vị hoàng hậu nhân từ đội chiếc vương miện bạc lấp lánh.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Vị hoàng hậu nhân từ đội chiếc vương miện bạc lấp lánh.' in English?",
+            "en": "How do you say 'Vị hoàng hậu nhân từ đội chiếc vương miện bạc lấp lánh.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Vị hoàng hậu nhân từ đội chiếc vương miện bạc lấp lánh.",
+            "en": "Choose the English sentence that means: Vị hoàng hậu nhân từ đội chiếc vương miện bạc lấp lánh."
+          },
+          "explanation": {
+            "vi": "'The kind queen wears a shiny silver crown.' means 'Vị hoàng hậu nhân từ đội chiếc vương miện bạc lấp lánh.'.",
+            "en": "'The kind queen wears a shiny silver crown.' means 'Vị hoàng hậu nhân từ đội chiếc vương miện bạc lấp lánh.'."
+          },
+          "data": {
+            "options": [
+              "The kind queen wears a shiny silver crown.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The kind queen wears a shiny silver crown."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Story of the Fairy Queen'?",
+            "en": "Which of the following is a word from Unit 'Story of the Fairy Queen'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Story of the Fairy Queen'?",
+            "en": "Which of the following is a word from Unit 'Story of the Fairy Queen'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Story of the Fairy Queen.",
+            "en": "Remember the words in topic: Story of the Fairy Queen."
+          },
+          "explanation": {
+            "vi": "'queen' is a key vocabulary word in this topic.",
+            "en": "'queen' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "queen",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "queen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'crown' start with the sound /q/?",
+            "en": "Does the word 'crown' start with the sound /q/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'crown' start with the sound /q/? The word 'crown' starts with letter 'Q'.",
+            "en": "Does the word 'crown' start with the sound /q/? The word 'crown' starts with letter 'Q'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'crown'.",
+            "en": "Listen to the first sound of 'crown'."
+          },
+          "explanation": {
+            "vi": "Yes! 'crown' starts with the sound /q/.",
+            "en": "Yes! 'crown' starts with the sound /q/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'crown' starts with letter 'Q'.",
+              "en": "The word 'crown' starts with letter 'Q'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'queen'?",
+            "en": "How many letters are there in the word 'queen'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'queen'?",
+            "en": "How many letters are there in the word 'queen'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'queen': 1, 2, 3...",
+            "en": "Count the letters in 'queen': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'queen' has exactly 5 letters.",
+            "en": "The word 'queen' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'queen':",
+            "en": "Choose the correct phrase with 'queen':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'queen':",
+            "en": "Choose the correct phrase with 'queen':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a queen'.",
+            "en": "Correct! We say 'a queen'."
+          },
+          "data": {
+            "options": [
+              "a queen",
+              "an queen",
+              "five queen",
+              "many queen"
+            ],
+            "correct_answer": "a queen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'queen'.",
+            "en": "Choose the food or object: 'queen'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like queen? - Yes, I do!'",
+            "en": "We ask: 'Do you like queen? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "queen",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "queen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s11_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Story of the Fairy Queen'?",
+            "en": "Which English sentence best describes the topic 'Story of the Fairy Queen'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Story of the Fairy Queen'?",
+            "en": "Which English sentence best describes the topic 'Story of the Fairy Queen'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Story of the Fairy Queen'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Story of the Fairy Queen'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: queen, crown!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: queen, crown!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

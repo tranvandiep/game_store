@@ -1,0 +1,1290 @@
+{
+  "id": "m1_stage_13",
+  "stage_number": 13,
+  "title": {
+    "vi": "Tuần 13: Làm Quen Khối Lập Phương & Hộp Chữ Nhật",
+    "en": "Week 13: 3D Cubes & Cuboids"
+  },
+  "subtitle": {
+    "vi": "Bài 14 - Nhận dạng hình khối",
+    "en": "Lesson 14 - Recognize 3D blocks"
+  },
+  "icon": "📦",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.614,
+  "required_stars": 36,
+  "theme_color": "0xFFB45309",
+  "topics": [
+    {
+      "id": "m1_t13_1",
+      "title": {
+        "vi": "Khối Lập Phương",
+        "en": "Cube Block"
+      },
+      "description": {
+        "vi": "Nhận biết khối lập phương (con xúc xắc, rubik)",
+        "en": "Recognize cubes (dice, rubik's cube)"
+      },
+      "icon": "🎲",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m1_t13_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Con xúc xắc chơi cá ngựa có dạng hình khối gì?",
+            "en": "What 3D shape is a board game dice?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Con xúc xắc chơi cá ngựa có dạng hình khối gì?",
+            "en": "What 3D shape is a board game dice?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Con xúc xắc có 6 mặt đều là các hình vuông bằng nhau, tạo thành khối lập phương.",
+            "en": "A dice is a cube with 6 square faces."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khối lập phương",
+                "en": "Khối lập phương"
+              },
+              {
+                "vi": "Khối hộp chữ nhật",
+                "en": "Khối hộp chữ nhật"
+              },
+              {
+                "vi": "Hình tròn",
+                "en": "Hình tròn"
+              }
+            ],
+            "correct_answer": "Khối lập phương"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Tất cả 6 mặt khối lập phương đều là hình vuông.",
+            "en": "Decide whether the following statement is true or false: Tất cả 6 mặt khối lập phương đều là hình vuông."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! Khối lập phương có 6 mặt hình vuông đều nhau.",
+            "en": "True! A cube has 6 identical square faces."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tất cả 6 mặt khối lập phương đều là hình vuông.",
+              "en": "Tất cả 6 mặt khối lập phương đều là hình vuông."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Khối rubik đồ chơi có dạng khối gì?",
+            "en": "What shape is a Rubik's cube?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khối rubik đồ chơi có dạng khối gì?",
+            "en": "What shape is a Rubik's cube?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Khối rubik có dạng khối lập phương 3D.",
+            "en": "Rubik's cube is a 3D cube."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khối lập phương",
+                "en": "Khối lập phương"
+              },
+              {
+                "vi": "Khối hộp chữ nhật",
+                "en": "Khối hộp chữ nhật"
+              },
+              {
+                "vi": "Hình tam giác",
+                "en": "Hình tam giác"
+              }
+            ],
+            "correct_answer": "Khối lập phương"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Khối Lập Phương': Con xúc xắc chơi cá ngựa có dạng hình khối gì?",
+            "en": "Practice 'Cube Block': What 3D shape is a board game dice?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Con xúc xắc chơi cá ngựa có dạng hình khối gì?",
+            "en": "What 3D shape is a board game dice?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Con xúc xắc có 6 mặt đều là các hình vuông bằng nhau, tạo thành khối lập phương.",
+            "en": "A dice is a cube with 6 square faces."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khối lập phương",
+                "en": "Khối lập phương"
+              },
+              {
+                "vi": "Khối hộp chữ nhật",
+                "en": "Khối hộp chữ nhật"
+              },
+              {
+                "vi": "Hình tròn",
+                "en": "Hình tròn"
+              }
+            ],
+            "correct_answer": "Khối lập phương"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_5",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 7 bé hơn số 6 (7 < 6).",
+            "en": "Decide whether the following statement is true or false: Số 7 bé hơn số 6 (7 < 6)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 7 bé hơn số 6 (7 < 6).",
+              "en": "Số 7 bé hơn số 6 (7 < 6)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Khối Lập Phương': Khối rubik đồ chơi có dạng khối gì?",
+            "en": "Practice 'Cube Block': What shape is a Rubik's cube?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khối rubik đồ chơi có dạng khối gì?",
+            "en": "What shape is a Rubik's cube?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Khối rubik có dạng khối lập phương 3D.",
+            "en": "Rubik's cube is a 3D cube."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khối hộp chữ nhật",
+                "en": "Khối hộp chữ nhật"
+              },
+              {
+                "vi": "Hình tam giác",
+                "en": "Hình tam giác"
+              },
+              {
+                "vi": "Khối lập phương",
+                "en": "Khối lập phương"
+              }
+            ],
+            "correct_answer": "Khối lập phương"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_7",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 7 đứng liền trước số 8.",
+            "en": "Decide whether the following statement is true or false: Số 7 đứng liền trước số 8."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 7 đứng liền trước số 8.",
+              "en": "Số 7 đứng liền trước số 8."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 9 bé hơn số 8 (9 < 8).",
+            "en": "Decide whether the following statement is true or false: Số 9 bé hơn số 8 (9 < 8)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 9 bé hơn số 8 (9 < 8).",
+              "en": "Số 9 bé hơn số 8 (9 < 8)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 12 ... 9",
+            "en": "Choose the right sign: 12 ... 9"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 12 ... 9",
+            "en": "Choose the right sign: 12 ... 9"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "12 > 9 là chính xác.",
+            "en": "12 > 9 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": ">"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 14 đứng liền trước số 15.",
+            "en": "Is the statement TRUE or FALSE:: Number 14 comes before 15."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 14 đứng liền trước số 15.",
+              "en": "Number 14 comes before 15."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_1_11",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 7, 8, 9, 10.",
+            "en": "Ascending order: 7, 8, 9, 10."
+          },
+          "data": {
+            "items": [
+              "8",
+              "10",
+              "9",
+              "7"
+            ],
+            "correct_order": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t13_2",
+      "title": {
+        "vi": "Khối Hộp Chữ Nhật",
+        "en": "Cuboid Block (Rectangular Prism)"
+      },
+      "description": {
+        "vi": "Nhận biết khối hộp chữ nhật (hộp sữa, bao diêm)",
+        "en": "Recognize cuboids (milk carton, matchbox)"
+      },
+      "icon": "📦",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m1_t13_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hộp sữa tươi bé uống hàng ngày có dạng hình khối gì?",
+            "en": "What shape is a milk carton?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hộp sữa tươi bé uống hàng ngày có dạng hình khối gì?",
+            "en": "What shape is a milk carton?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Hộp sữa có các mặt hình chữ nhật, là khối hộp chữ nhật.",
+            "en": "Milk cartons are cuboid rectangular prisms."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khối hộp chữ nhật",
+                "en": "Khối hộp chữ nhật"
+              },
+              {
+                "vi": "Khối lập phương",
+                "en": "Khối lập phương"
+              },
+              {
+                "vi": "Hình tròn",
+                "en": "Hình tròn"
+              }
+            ],
+            "correct_answer": "Khối hộp chữ nhật"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_2",
+          "type": "multipleChoice",
+          "text": {
+            "vi": "Đồ vật nào dưới đây có dạng khối hộp chữ nhật?",
+            "en": "Which objects are cuboid-shaped?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đồ vật nào dưới đây có dạng khối hộp chữ nhật?",
+            "en": "Which objects are cuboid-shaped?"
+          },
+          "hint": {
+            "vi": "Có thể có nhiều hơn một đáp án đúng.",
+            "en": "There may be more than one correct answer."
+          },
+          "explanation": {
+            "vi": "Hộp khăn giấy và viên gạch đều là khối hộp chữ nhật.",
+            "en": "Tissue boxes and building bricks are cuboids."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Hộp khăn giấy",
+                "en": "Hộp khăn giấy"
+              },
+              {
+                "vi": "Viên gạch xây nhà",
+                "en": "Viên gạch xây nhà"
+              },
+              {
+                "vi": "Quả bóng bàn",
+                "en": "Quả bóng bàn"
+              }
+            ],
+            "correct_answers": [
+              "Hộp khăn giấy",
+              "Viên gạch xây nhà"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đồ vật với hình khối tương ứng:",
+            "en": "Match items with 3D blocks:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đồ vật với hình khối tương ứng:",
+            "en": "Match items with 3D blocks:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Phân biệt đúng khối lập phương và khối hộp chữ nhật.",
+            "en": "Distinguish between cubes and cuboids."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Hộp phấn viết bảng",
+                  "en": "Hộp phấn viết bảng"
+                },
+                "right": {
+                  "vi": "Khối lập phương",
+                  "en": "Khối lập phương"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Bao diêm",
+                  "en": "Bao diêm"
+                },
+                "right": {
+                  "vi": "Khối hộp chữ nhật",
+                  "en": "Khối hộp chữ nhật"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Tủ lạnh",
+                  "en": "Tủ lạnh"
+                },
+                "right": {
+                  "vi": "Khối hộp chữ nhật",
+                  "en": "Khối hộp chữ nhật"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Khối Hộp Chữ Nhật': Hộp sữa tươi bé uống hàng ngày có dạng hình khối gì?",
+            "en": "Practice 'Cuboid Block (Rectangular Prism)': What shape is a milk carton?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hộp sữa tươi bé uống hàng ngày có dạng hình khối gì?",
+            "en": "What shape is a milk carton?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Hộp sữa có các mặt hình chữ nhật, là khối hộp chữ nhật.",
+            "en": "Milk cartons are cuboid rectangular prisms."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khối hộp chữ nhật",
+                "en": "Khối hộp chữ nhật"
+              },
+              {
+                "vi": "Khối lập phương",
+                "en": "Khối lập phương"
+              },
+              {
+                "vi": "Hình tròn",
+                "en": "Hình tròn"
+              }
+            ],
+            "correct_answer": "Khối hộp chữ nhật"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_5",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🚗 ở đây nhé:",
+            "en": "Count the 🚗 icons:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🚗 ở đây nhé:",
+            "en": "Count the 🚗 icons:"
+          },
+          "hint": {
+            "vi": "Chạm vào từng hình để đếm nhé.",
+            "en": "Tap each item to count."
+          },
+          "explanation": {
+            "vi": "Có tất cả 10 hình 🚗.",
+            "en": "There are 10 items."
+          },
+          "data": {
+            "item_icon": "🚗",
+            "item_count": 10,
+            "options": [
+              "10",
+              "7",
+              "8",
+              "11"
+            ],
+            "correct_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 3, ... , 5",
+            "en": "Fill in the missing number:\nSequence: 3, ... , 5"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 3, ... , 5",
+            "en": "Fill in the missing number:\nSequence: 3, ... , 5"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "Số còn thiếu là 4.",
+            "en": "The missing number is 4."
+          },
+          "data": {
+            "prefix_text": "Dãy số: 3, ",
+            "suffix_text": ", 5",
+            "options": [
+              "4",
+              "5",
+              "2",
+              "7"
+            ],
+            "slot_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 9 ... 12",
+            "en": "Choose the right sign: 9 ... 12"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 9 ... 12",
+            "en": "Choose the right sign: 9 ... 12"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "9 < 12 là chính xác.",
+            "en": "9 < 12 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 5 đứng liền trước số 6.",
+            "en": "Is the statement TRUE or FALSE:: Number 5 comes before 6."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 đứng liền trước số 6.",
+              "en": "Number 5 comes before 6."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 11, 12, 13, 14.",
+            "en": "Ascending order: 11, 12, 13, 14."
+          },
+          "data": {
+            "items": [
+              "13",
+              "12",
+              "11",
+              "14"
+            ],
+            "correct_order": [
+              "11",
+              "12",
+              "13",
+              "14"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đồ vật nào dưới đây thường có dạng hình chữ nhật?",
+            "en": "Which object is typically rectangular?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đồ vật nào dưới đây thường có dạng hình chữ nhật?",
+            "en": "Which object is typically rectangular?"
+          },
+          "hint": {
+            "vi": "Hãy nghĩ đến đồ dùng trong lớp học nhé.",
+            "en": "Think of classroom objects."
+          },
+          "explanation": {
+            "vi": "Khung bảng đen và bìa sách giáo khoa có hình chữ nhật.",
+            "en": "Blackboards and book covers are rectangular."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khung bảng đen",
+                "en": "Blackboard"
+              },
+              {
+                "vi": "Quả bóng đá",
+                "en": "Soccer ball"
+              },
+              {
+                "vi": "Cái nón lá",
+                "en": "Conical hat"
+              }
+            ],
+            "correct_answer": "Khung bảng đen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối đồ vật với hình khối tương ứng:",
+            "en": "Match objects with their shapes:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy nối đồ vật với hình khối tương ứng",
+            "en": "Match objects with shapes"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải.",
+            "en": "Tap left then right."
+          },
+          "explanation": {
+            "vi": "Nhận biết hình khối chuẩn xác.",
+            "en": "Correct shape recognition."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Khối Rubik",
+                  "en": "Rubik cube"
+                },
+                "right": {
+                  "vi": "Khối lập phương",
+                  "en": "Cube"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Hộp sữa tươi",
+                  "en": "Milk carton"
+                },
+                "right": {
+                  "vi": "Khối hộp chữ nhật",
+                  "en": "Rectangular prism"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Đĩa CD",
+                  "en": "CD disc"
+                },
+                "right": {
+                  "vi": "Hình tròn",
+                  "en": "Circle"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t13_3",
+      "title": {
+        "vi": "Xếp hình khối & Luyện tập",
+        "en": "3D Blocks Composition"
+      },
+      "description": {
+        "vi": "Đếm số lượng khối gỗ xếp chồng",
+        "en": "Count stacked 3D blocks"
+      },
+      "icon": "🧱",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m1_t13_3_1",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bạn Nam xếp một toà tháp gồm bao nhiêu khối lập phương?",
+            "en": "How many cubes did Nam stack into a tower?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bạn Nam xếp một toà tháp gồm bao nhiêu khối lập phương?",
+            "en": "How many cubes did Nam stack into a tower?"
+          },
+          "hint": {
+            "vi": "Chạm vào từng hình để đếm.",
+            "en": "Tap each object to count."
+          },
+          "explanation": {
+            "vi": "Có tất cả 4 khối lập phương xếp chồng lên nhau.",
+            "en": "4 cubes are stacked in the tower."
+          },
+          "data": {
+            "item_icon": "📦",
+            "item_count": 4,
+            "options": [
+              "3",
+              "4",
+              "5"
+            ],
+            "correct_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Xếp 2 khối lập phương bằng nhau cạnh nhau ta được hình khối gì?",
+            "en": "2 identical cubes side by side form what shape?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Xếp 2 khối lập phương bằng nhau cạnh nhau ta được hình khối gì?",
+            "en": "2 identical cubes side by side form what shape?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Ghép 2 khối lập phương sẽ tạo thành khối hộp chữ nhật dài hơn.",
+            "en": "2 cubes side by side form a cuboid."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khối hộp chữ nhật",
+                "en": "Khối hộp chữ nhật"
+              },
+              {
+                "vi": "Khối lập phương",
+                "en": "Khối lập phương"
+              },
+              {
+                "vi": "Hình tròn",
+                "en": "Hình tròn"
+              }
+            ],
+            "correct_answer": "Khối hộp chữ nhật"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Các mặt phẳng giúp hình khối đứng vững khi xếp chồng.",
+            "en": "Decide whether the following statement is true or false: Các mặt phẳng giúp hình khối đứng vững khi xếp chồng."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! Mặt phẳng giúp hình khối không bị lăn như quả bóng.",
+            "en": "True! Flat faces allow sturdy stacking."
+          },
+          "data": {
+            "statement": {
+              "vi": "Các mặt phẳng giúp hình khối đứng vững khi xếp chồng.",
+              "en": "Các mặt phẳng giúp hình khối đứng vững khi xếp chồng."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_4",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🌻 ở dưới đây nhé:",
+            "en": "Count how many 🌻 icons are shown below:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🌻 ở dưới đây nhé",
+            "en": "Count how many 🌻 icons are shown below"
+          },
+          "hint": {
+            "vi": "Chạm ngón tay và đếm từng hình một nhé.",
+            "en": "Count each item carefully."
+          },
+          "explanation": {
+            "vi": "Có tất cả 5 hình 🌻.",
+            "en": "There are 5 🌻 items."
+          },
+          "data": {
+            "item_icon": "🌻",
+            "item_count": 5,
+            "options": [
+              "3",
+              "4",
+              "2",
+              "5"
+            ],
+            "correct_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Xếp hình khối & Luyện tập': Xếp 2 khối lập phương bằng nhau cạnh nhau ta được hình khối gì?",
+            "en": "Practice '3D Blocks Composition': 2 identical cubes side by side form what shape?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Xếp 2 khối lập phương bằng nhau cạnh nhau ta được hình khối gì?",
+            "en": "2 identical cubes side by side form what shape?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Ghép 2 khối lập phương sẽ tạo thành khối hộp chữ nhật dài hơn.",
+            "en": "2 cubes side by side form a cuboid."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khối hộp chữ nhật",
+                "en": "Khối hộp chữ nhật"
+              },
+              {
+                "vi": "Khối lập phương",
+                "en": "Khối lập phương"
+              },
+              {
+                "vi": "Hình tròn",
+                "en": "Hình tròn"
+              }
+            ],
+            "correct_answer": "Khối hộp chữ nhật"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 đứng liền trước số 5.",
+            "en": "Decide whether the following statement is true or false: Số 4 đứng liền trước số 5."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 đứng liền trước số 5.",
+              "en": "Số 4 đứng liền trước số 5."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_7",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình ⭐ ở dưới đây nhé:",
+            "en": "Count how many ⭐ icons are shown below:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình ⭐ ở dưới đây nhé",
+            "en": "Count how many ⭐ icons are shown below"
+          },
+          "hint": {
+            "vi": "Chạm ngón tay và đếm từng hình một nhé.",
+            "en": "Count each item carefully."
+          },
+          "explanation": {
+            "vi": "Có tất cả 5 hình ⭐.",
+            "en": "There are 5 ⭐ items."
+          },
+          "data": {
+            "item_icon": "⭐",
+            "item_count": 5,
+            "options": [
+              "1",
+              "5",
+              "2",
+              "4"
+            ],
+            "correct_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 bé hơn số 4 (5 < 4).",
+            "en": "Decide whether the following statement is true or false: Số 5 bé hơn số 4 (5 < 4)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 bé hơn số 4 (5 < 4).",
+              "en": "Số 5 bé hơn số 4 (5 < 4)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_9",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐰 ở dưới đây nhé:",
+            "en": "Count how many 🐰 icons are shown below:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐰 ở dưới đây nhé",
+            "en": "Count how many 🐰 icons are shown below"
+          },
+          "hint": {
+            "vi": "Chạm ngón tay và đếm từng hình một nhé.",
+            "en": "Count each item carefully."
+          },
+          "explanation": {
+            "vi": "Có tất cả 3 hình 🐰.",
+            "en": "There are 3 🐰 items."
+          },
+          "data": {
+            "item_icon": "🐰",
+            "item_count": 3,
+            "options": [
+              "5",
+              "2",
+              "3",
+              "4"
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 1 đứng liền trước số 2.",
+            "en": "Is the statement TRUE or FALSE:: Number 1 comes before 2."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 1 đứng liền trước số 2.",
+              "en": "Number 1 comes before 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t13_3_11",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 7, 8, 9, 10.",
+            "en": "Ascending order: 7, 8, 9, 10."
+          },
+          "data": {
+            "items": [
+              "7",
+              "10",
+              "9",
+              "8"
+            ],
+            "correct_order": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

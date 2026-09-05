@@ -1,0 +1,999 @@
+{
+  "id": "m5_stage_17",
+  "stage_number": 17,
+  "title": {
+    "vi": "Chặng 17: Hình Tam Giác & Diện Tích Hình Tam Giác",
+    "en": "Stage 17: Triangles & Triangle Area Formula"
+  },
+  "subtitle": {
+    "vi": "Đáy và chiều cao tương ứng; Công thức S = (a x h) : 2",
+    "en": "Base and altitude; Formula S = (a * h) / 2"
+  },
+  "icon": "🔺",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFFFF9800",
+  "topics": [
+    {
+      "id": "m5_t17_1",
+      "title": {
+        "vi": "Đặc điểm Hình Tam Giác & Đường Cao",
+        "en": "Triangles & Altitudes"
+      },
+      "description": {
+        "vi": "Hình tam giác có 3 cạnh, 3 đỉnh, 3 góc; Chiều cao tương ứng vuông góc với đáy",
+        "en": "Triangle has 3 sides, 3 vertices; altitude is perpendicular to base"
+      },
+      "icon": "🔺",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t17_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong hình tam giác ABC có đoạn thẳng AH vuông góc với đáy BC, đoạn AH được gọi là:",
+            "en": "In triangle ABC with AH perpendicular to BC, AH is called:"
+          },
+          "tts_prompt": {
+            "vi": "Trong hình tam giác ABC có đoạn thẳng AH vuông góc với đáy BC, đoạn AH được gọi là:",
+            "en": "In triangle ABC with AH perpendicular to BC, AH is called:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "Đường cao tương ứng với đáy BC",
+              "Cạnh bên của tam giác",
+              "Đường chéo"
+            ],
+            "answer": "Đường cao tương ứng với đáy BC"
+          },
+          "hint": {
+            "vi": "Đoạn thẳng hạ vuông góc từ đỉnh xuống đáy đối diện là đường cao.",
+            "en": "Altitude (height)."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là Đường cao tương ứng với đáy BC. Đoạn thẳng hạ vuông góc từ đỉnh xuống đáy đối diện là đường cao.",
+            "en": "Correct answer is Đường cao tương ứng với đáy BC. Altitude (height)."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối loại hình tam giác với đặc điểm:",
+            "en": "Match triangle type with characteristic:"
+          },
+          "tts_prompt": {
+            "vi": "Nối loại hình tam giác với đặc điểm:",
+            "en": "Match triangle type with characteristic:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "Tam giác có 3 góc nhọn",
+                "right": "Đường cao nằm hoàn toàn bên trong tam giác"
+              },
+              {
+                "id": "p2",
+                "left": "Tam giác vuông",
+                "right": "Hai cạnh góc vuông chính là hai đường cao"
+              },
+              {
+                "id": "p3",
+                "left": "Tam giác có 1 góc tù",
+                "right": "Đường cao có thể nằm ở bên ngoài tam giác"
+              }
+            ]
+          },
+          "hint": {
+            "vi": "Phân loại tam giác và đường cao.",
+            "en": "Triangles and heights classification."
+          },
+          "explanation": {
+            "vi": "Nối chính xác các cặp tương ứng. Phân loại tam giác và đường cao.",
+            "en": "Match corresponding pairs accurately. Triangles and heights classification."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 đứng liền trước số 5.",
+            "en": "Decide whether the following statement is true or false: Số 4 đứng liền trước số 5."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 đứng liền trước số 5.",
+              "en": "Số 4 đứng liền trước số 5."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 bé hơn số 3 (4 < 3).",
+            "en": "Decide whether the following statement is true or false: Số 4 bé hơn số 3 (4 < 3)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 bé hơn số 3 (4 < 3).",
+              "en": "Số 4 bé hơn số 3 (4 < 3)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 3.3:",
+            "en": "Decimal fraction for 3.3:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 3.3:",
+            "en": "Decimal fraction for 3.3:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "3.3 = 33/10.",
+            "en": "3.3 = 33/10."
+          },
+          "data": {
+            "prefix_text": "3.3 = ",
+            "suffix_text": "",
+            "options": [
+              "33/10",
+              "33/100",
+              "3/10",
+              "34/10"
+            ],
+            "slot_answer": "33/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 3.9:",
+            "en": "Decimal fraction for 3.9:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 3.9:",
+            "en": "Decimal fraction for 3.9:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "3.9 = 39/10.",
+            "en": "3.9 = 39/10."
+          },
+          "data": {
+            "prefix_text": "3.9 = ",
+            "suffix_text": "",
+            "options": [
+              "39/10",
+              "3/10",
+              "39/100",
+              "40/10"
+            ],
+            "slot_answer": "39/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 20 : 100 = 40.",
+            "en": "Result is 40."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              }
+            ],
+            "correct_answer": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đồ vật nào dưới đây thường có dạng hình chữ nhật?",
+            "en": "Which object is typically rectangular?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đồ vật nào dưới đây thường có dạng hình chữ nhật?",
+            "en": "Which object is typically rectangular?"
+          },
+          "hint": {
+            "vi": "Hãy nghĩ đến đồ dùng trong lớp học nhé.",
+            "en": "Think of classroom objects."
+          },
+          "explanation": {
+            "vi": "Khung bảng đen và bìa sách giáo khoa có hình chữ nhật.",
+            "en": "Blackboards and book covers are rectangular."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Khung bảng đen",
+                "en": "Blackboard"
+              },
+              {
+                "vi": "Quả bóng đá",
+                "en": "Soccer ball"
+              },
+              {
+                "vi": "Cái nón lá",
+                "en": "Conical hat"
+              }
+            ],
+            "correct_answer": "Khung bảng đen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối đồ vật với hình khối tương ứng:",
+            "en": "Match objects with their shapes:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy nối đồ vật với hình khối tương ứng",
+            "en": "Match objects with shapes"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải.",
+            "en": "Tap left then right."
+          },
+          "explanation": {
+            "vi": "Nhận biết hình khối chuẩn xác.",
+            "en": "Correct shape recognition."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Khối Rubik",
+                  "en": "Rubik cube"
+                },
+                "right": {
+                  "vi": "Khối lập phương",
+                  "en": "Cube"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Hộp sữa tươi",
+                  "en": "Milk carton"
+                },
+                "right": {
+                  "vi": "Khối hộp chữ nhật",
+                  "en": "Rectangular prism"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Đĩa CD",
+                  "en": "CD disc"
+                },
+                "right": {
+                  "vi": "Hình tròn",
+                  "en": "Circle"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t17_2",
+      "title": {
+        "vi": "Diện tích Hình Tam Giác (Công thức chuẩn)",
+        "en": "Area of Triangle Formula"
+      },
+      "description": {
+        "vi": "Diện tích hình tam giác bằng độ dài đáy nhân với chiều cao (cùng đơn vị đo) rồi chia cho 2: S = (a x h) : 2",
+        "en": "Area = (Base * Height) / 2"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t17_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Công thức tính diện tích hình tam giác có đáy a và chiều cao h là:",
+            "en": "Formula for triangle area with base a and height h:"
+          },
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình tam giác có đáy a và chiều cao h là:",
+            "en": "Formula for triangle area with base a and height h:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "S = (a x h) : 2",
+              "S = a x h",
+              "S = (a + h) : 2"
+            ],
+            "answer": "S = (a x h) : 2"
+          },
+          "hint": {
+            "vi": "S = (a x h) : 2.",
+            "en": "S = (a * h) / 2."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là S = (a x h) : 2. S = (a x h) : 2.",
+            "en": "Correct answer is S = (a x h) : 2. S = (a * h) / 2."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một hình tam giác có độ dài đáy a = 12 cm và chiều cao h = 8 cm. Diện tích hình tam giác là mấy cm²?",
+            "en": "Triangle base 12cm, height 8cm. Area in cm²:"
+          },
+          "tts_prompt": {
+            "vi": "Một hình tam giác có độ dài đáy a = 12 cm và chiều cao h = 8 cm. Diện tích hình tam giác là mấy cm²?",
+            "en": "Triangle base 12cm, height 8cm. Area in cm²:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 48,
+            "unit": "cm²"
+          },
+          "hint": {
+            "vi": "S = (12 x 8) : 2 = 96 : 2 = 48 cm².",
+            "en": "S = (12 * 8) / 2 = 48 cm²."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 48 cm². S = (12 x 8) : 2 = 96 : 2 = 48 cm².",
+            "en": "The exact result is 48 cm². S = (12 * 8) / 2 = 48 cm²."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_2_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép công thức diện tích tam giác: S = (a x h) : 2",
+            "en": "Arrange triangle area formula: S = (a * h) : 2"
+          },
+          "tts_prompt": {
+            "vi": "Ghép công thức diện tích tam giác: S = (a x h) : 2",
+            "en": "Arrange triangle area formula: S = (a * h) : 2"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "target_word": "S = (a x h) : 2",
+            "letters": [
+              "S",
+              "=",
+              "(a x h)",
+              ":",
+              "2"
+            ]
+          },
+          "hint": {
+            "vi": "S = (a x h) : 2.",
+            "en": "S = (a * h) / 2."
+          },
+          "explanation": {
+            "vi": "Kết quả ghép chuẩn là: S = (a x h) : 2. S = (a x h) : 2.",
+            "en": "Target arrangement is: S = (a x h) : 2. S = (a * h) / 2."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'DIỆN'",
+            "en": "Arrange the letters to spell the keyword: 'DIỆN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa DIỆN",
+            "en": "Arrange the letters to spell DIỆN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: DIỆN",
+            "en": "The keyword is: DIỆN"
+          },
+          "data": {
+            "target_word": "DIỆN",
+            "scrambled_letters": [
+              "N",
+              "D",
+              "I",
+              "Ệ"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 20 : 100 = 40.",
+            "en": "Result is 40."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              }
+            ],
+            "correct_answer": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối đồ vật với hình khối tương ứng:",
+            "en": "Match objects with their shapes:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy nối đồ vật với hình khối tương ứng",
+            "en": "Match objects with shapes"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải.",
+            "en": "Tap left then right."
+          },
+          "explanation": {
+            "vi": "Nhận biết hình khối chuẩn xác.",
+            "en": "Correct shape recognition."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Khối Rubik",
+                  "en": "Rubik cube"
+                },
+                "right": {
+                  "vi": "Khối lập phương",
+                  "en": "Cube"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Hộp sữa tươi",
+                  "en": "Milk carton"
+                },
+                "right": {
+                  "vi": "Khối hộp chữ nhật",
+                  "en": "Rectangular prism"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Đĩa CD",
+                  "en": "CD disc"
+                },
+                "right": {
+                  "vi": "Hình tròn",
+                  "en": "Circle"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t17_3",
+      "title": {
+        "vi": "Luyện tập tính diện tích tam giác",
+        "en": "Triangle Area Practice"
+      },
+      "description": {
+        "vi": "Tam giác vuông, đổi đơn vị đo và tìm độ dài đáy/chiều cao",
+        "en": "Right triangles, unit conversion and finding base/height"
+      },
+      "icon": "🎯",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t17_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một hình tam giác vuông có hai cạnh góc vuông dài 6 cm và 8 cm. Diện tích tam giác vuông đó là mấy cm²?",
+            "en": "Right triangle with legs 6cm and 8cm. Area in cm²:"
+          },
+          "tts_prompt": {
+            "vi": "Một hình tam giác vuông có hai cạnh góc vuông dài 6 cm và 8 cm. Diện tích tam giác vuông đó là mấy cm²?",
+            "en": "Right triangle with legs 6cm and 8cm. Area in cm²:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 24,
+            "unit": "cm²"
+          },
+          "hint": {
+            "vi": "S = (6 x 8) : 2 = 24 cm².",
+            "en": "S = (6 * 8) / 2 = 24 cm²."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 24 cm². S = (6 x 8) : 2 = 24 cm².",
+            "en": "The exact result is 24 cm². S = (6 * 8) / 2 = 24 cm²."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Trước khi tính diện tích tam giác, độ dài đáy và chiều cao bắt buộc phải cùng một đơn vị đo.",
+            "en": "Decide whether the following statement is true or false: Trước khi tính diện tích tam giác, độ dài đáy và chiều cao bắt buộc phải cùng một đơn vị đo."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Trước khi tính diện tích tam giác, độ dài đáy và chiều cao bắt buộc phải cùng một đơn vị đo.",
+              "en": "Trước khi tính diện tích tam giác, độ dài đáy và chiều cao bắt buộc phải cùng một đơn vị đo."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 10 : 100 = 20.",
+            "en": "Result is 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "20",
+                "en": "20"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t17_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

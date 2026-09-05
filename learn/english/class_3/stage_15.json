@@ -1,0 +1,1138 @@
+{
+  "id": "e3_stage_15",
+  "stage_number": 15,
+  "title": {
+    "vi": "Week 15: Unit 10 - Break Time Activities",
+    "en": "Week 15: Unit 10 - Break Time Activities"
+  },
+  "subtitle": {
+    "vi": "Activities: play football, play chess, play badminton, play basketball, hide and seek",
+    "en": "Activities: play football, play chess, play badminton, play basketball, hide and seek"
+  },
+  "icon": "⚽",
+  "banner_image": null,
+  "x_percent": 0.2,
+  "y_percent": 0.544,
+  "required_stars": 42,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e3_s15_1",
+      "title": {
+        "vi": "Unit 10: Playing Football at Break Time",
+        "en": "Unit 10: Playing Football at Break Time"
+      },
+      "description": {
+        "vi": "What do you do at break time? - I play football",
+        "en": "What do you do at break time? - I play football"
+      },
+      "icon": "⚽",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s15_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boys kicking the soccer ball into the goal at recess. What game do they play?",
+            "en": "Look at the boys kicking the soccer ball into the goal at recess. What game do they play?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boys kicking the soccer ball into the goal at recess. What game do they play?",
+            "en": "Look at the boys kicking the soccer ball into the goal at recess. What game do they play?"
+          },
+          "hint": {
+            "vi": "Kicking the black and white ball into the net.",
+            "en": "Kicking the black and white ball into the net."
+          },
+          "explanation": {
+            "vi": "They play football at break time.",
+            "en": "They play football at break time."
+          },
+          "data": {
+            "options": [
+              "They play football.",
+              "They play chess.",
+              "They sleep.",
+              "They cook."
+            ],
+            "correct_answer": "They play football."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u10_play_football.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s15_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'break time'?",
+            "en": "What is the first letter of the word 'break time'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'break time'?",
+            "en": "What is the first letter of the word 'break time'?"
+          },
+          "hint": {
+            "vi": "The word 'break time' starts with the letter B.",
+            "en": "The word 'break time' starts with the letter B."
+          },
+          "explanation": {
+            "vi": "Correct! 'break time' begins with the letter 'B'.",
+            "en": "Correct! 'break time' begins with the letter 'B'."
+          },
+          "data": {
+            "options": [
+              "Letter B",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter B"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "break time",
+                  "en": "break time"
+                },
+                "right": {
+                  "vi": "Nghĩa của break time",
+                  "en": "Nghĩa của break time"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "football",
+                  "en": "football"
+                },
+                "right": {
+                  "vi": "Nghĩa của football",
+                  "en": "Nghĩa của football"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "kick",
+                  "en": "kick"
+                },
+                "right": {
+                  "vi": "Nghĩa của kick",
+                  "en": "Nghĩa của kick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? What do you do at break time? - I play football.",
+            "en": "Is this English sentence correct for Grade 3? What do you do at break time? - I play football."
+          },
+          "hint": {
+            "vi": "Remember the pattern: What do you do at break time? - I play football.",
+            "en": "Remember the pattern: What do you do at break time? - I play football."
+          },
+          "explanation": {
+            "vi": "Yes! 'What do you do at break time? - I play football.' is a correct English sentence.",
+            "en": "Yes! 'What do you do at break time? - I play football.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "What do you do at break time? - I play football.",
+              "en": "What do you do at break time? - I play football."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: What do you do at break time? - I play ....",
+            "en": "Drag the correct word to complete the sentence: What do you do at break time? - I play ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'football'.",
+            "en": "Choose the correct word: 'football'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'What do you do at break time? - I play football.'.",
+            "en": "The complete sentence is: 'What do you do at break time? - I play football.'."
+          },
+          "data": {
+            "prefix_text": "What do you do at break time? - I play ",
+            "suffix_text": ".",
+            "options": [
+              "football",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "football"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'break time':",
+            "en": "Spell the English word 'break time':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'break time':",
+            "en": "Spell the English word 'break time':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'break time'.",
+            "en": "Tap the letters in order to spell 'break time'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'break time' correctly.",
+            "en": "Well done! You spelled 'break time' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "m",
+              "i",
+              "t",
+              " ",
+              "k",
+              "a",
+              "e",
+              "r",
+              "b"
+            ],
+            "target_word": "break time",
+            "target_sequence": [
+              "b",
+              "r",
+              "e",
+              "a",
+              "k",
+              " ",
+              "t",
+              "i",
+              "m",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Bạn làm gì vào giờ ra chơi? - Tôi chơi đá bóng.' in English?",
+            "en": "How do you say 'Bạn làm gì vào giờ ra chơi? - Tôi chơi đá bóng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Bạn làm gì vào giờ ra chơi? - Tôi chơi đá bóng.' in English?",
+            "en": "How do you say 'Bạn làm gì vào giờ ra chơi? - Tôi chơi đá bóng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Bạn làm gì vào giờ ra chơi? - Tôi chơi đá bóng.",
+            "en": "Choose the English sentence that means: Bạn làm gì vào giờ ra chơi? - Tôi chơi đá bóng."
+          },
+          "explanation": {
+            "vi": "'What do you do at break time? - I play football.' means 'Bạn làm gì vào giờ ra chơi? - Tôi chơi đá bóng.'.",
+            "en": "'What do you do at break time? - I play football.' means 'Bạn làm gì vào giờ ra chơi? - Tôi chơi đá bóng.'."
+          },
+          "data": {
+            "options": [
+              "What do you do at break time? - I play football.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "What do you do at break time? - I play football."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 10: Playing Football at Break Time'?",
+            "en": "Which of the following is a word from Unit 'Unit 10: Playing Football at Break Time'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 10: Playing Football at Break Time'?",
+            "en": "Which of the following is a word from Unit 'Unit 10: Playing Football at Break Time'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 10: Playing Football at Break Time.",
+            "en": "Remember the words in topic: Unit 10: Playing Football at Break Time."
+          },
+          "explanation": {
+            "vi": "'break time' is a key vocabulary word in this topic.",
+            "en": "'break time' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "break time",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "break time"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'football' start with the sound /b/?",
+            "en": "Does the word 'football' start with the sound /b/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'football' start with the sound /b/? The word 'football' starts with letter 'B'.",
+            "en": "Does the word 'football' start with the sound /b/? The word 'football' starts with letter 'B'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'football'.",
+            "en": "Listen to the first sound of 'football'."
+          },
+          "explanation": {
+            "vi": "Yes! 'football' starts with the sound /b/.",
+            "en": "Yes! 'football' starts with the sound /b/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'football' starts with letter 'B'.",
+              "en": "The word 'football' starts with letter 'B'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'break time'?",
+            "en": "How many letters are there in the word 'break time'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'break time'?",
+            "en": "How many letters are there in the word 'break time'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'break time': 1, 2, 3...",
+            "en": "Count the letters in 'break time': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'break time' has exactly 10 letters.",
+            "en": "The word 'break time' has exactly 10 letters."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'break time':",
+            "en": "Choose the correct phrase with 'break time':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'break time':",
+            "en": "Choose the correct phrase with 'break time':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a break time'.",
+            "en": "Correct! We say 'a break time'."
+          },
+          "data": {
+            "options": [
+              "a break time",
+              "an break time",
+              "two break time",
+              "many break time"
+            ],
+            "correct_answer": "a break time"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'break time'.",
+            "en": "Choose the noun: 'break time'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our break time. It is very nice!'",
+            "en": "We say: 'Look! This is our break time. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "break time",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "break time"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 10: Playing Football at Break Time'?",
+            "en": "Which English sentence best describes the topic 'Unit 10: Playing Football at Break Time'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 10: Playing Football at Break Time'?",
+            "en": "Which English sentence best describes the topic 'Unit 10: Playing Football at Break Time'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 10: Playing Football at Break Time'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 10: Playing Football at Break Time'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: break time, football!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: break time, football!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s15_2",
+      "title": {
+        "vi": "Unit 10: Playing Chess & Badminton",
+        "en": "Unit 10: Playing Chess & Badminton"
+      },
+      "description": {
+        "vi": "Playing chess with friends / Playing badminton",
+        "en": "Playing chess with friends / Playing badminton"
+      },
+      "icon": "♟️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s15_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at two students thinking strategically over a checkered board with king and queen pieces. What game is it?",
+            "en": "Look at two students thinking strategically over a checkered board with king and queen pieces. What game is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at two students thinking strategically over a checkered board with king and queen pieces. What game is it?",
+            "en": "Look at two students thinking strategically over a checkered board with king and queen pieces. What game is it?"
+          },
+          "hint": {
+            "vi": "A two-player strategy board game with knights and rooks.",
+            "en": "A two-player strategy board game with knights and rooks."
+          },
+          "explanation": {
+            "vi": "They are playing chess.",
+            "en": "They are playing chess."
+          },
+          "data": {
+            "options": [
+              "They are playing chess.",
+              "They are swimming.",
+              "They are riding bikes.",
+              "They are skiing."
+            ],
+            "correct_answer": "They are playing chess."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u10_play_chess.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s15_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'chess'?",
+            "en": "What is the first letter of the word 'chess'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'chess'?",
+            "en": "What is the first letter of the word 'chess'?"
+          },
+          "hint": {
+            "vi": "The word 'chess' starts with the letter C.",
+            "en": "The word 'chess' starts with the letter C."
+          },
+          "explanation": {
+            "vi": "Correct! 'chess' begins with the letter 'C'.",
+            "en": "Correct! 'chess' begins with the letter 'C'."
+          },
+          "data": {
+            "options": [
+              "Letter C",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter C"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "chess",
+                  "en": "chess"
+                },
+                "right": {
+                  "vi": "Nghĩa của chess",
+                  "en": "Nghĩa của chess"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "badminton",
+                  "en": "badminton"
+                },
+                "right": {
+                  "vi": "Nghĩa của badminton",
+                  "en": "Nghĩa của badminton"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "shuttlecock",
+                  "en": "shuttlecock"
+                },
+                "right": {
+                  "vi": "Nghĩa của shuttlecock",
+                  "en": "Nghĩa của shuttlecock"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? I play chess with Minh at break time.",
+            "en": "Is this English sentence correct for Grade 3? I play chess with Minh at break time."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I play chess with Minh at break time.",
+            "en": "Remember the pattern: I play chess with Minh at break time."
+          },
+          "explanation": {
+            "vi": "Yes! 'I play chess with Minh at break time.' is a correct English sentence.",
+            "en": "Yes! 'I play chess with Minh at break time.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I play chess with Minh at break time.",
+              "en": "I play chess with Minh at break time."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I play chess with Minh at break ....",
+            "en": "Drag the correct word to complete the sentence: I play chess with Minh at break ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'time'.",
+            "en": "Choose the correct word: 'time'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I play chess with Minh at break time.'.",
+            "en": "The complete sentence is: 'I play chess with Minh at break time.'."
+          },
+          "data": {
+            "prefix_text": "I play chess with Minh at break ",
+            "suffix_text": ".",
+            "options": [
+              "time",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "time"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'chess':",
+            "en": "Spell the English word 'chess':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'chess':",
+            "en": "Spell the English word 'chess':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'chess'.",
+            "en": "Tap the letters in order to spell 'chess'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'chess' correctly.",
+            "en": "Well done! You spelled 'chess' correctly."
+          },
+          "data": {
+            "letters": [
+              "s",
+              "s",
+              "e",
+              "h",
+              "c"
+            ],
+            "target_word": "chess",
+            "target_sequence": [
+              "c",
+              "h",
+              "e",
+              "s",
+              "s"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi chơi cờ vua với Minh vào giờ ra chơi.' in English?",
+            "en": "How do you say 'Tôi chơi cờ vua với Minh vào giờ ra chơi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi chơi cờ vua với Minh vào giờ ra chơi.' in English?",
+            "en": "How do you say 'Tôi chơi cờ vua với Minh vào giờ ra chơi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi chơi cờ vua với Minh vào giờ ra chơi.",
+            "en": "Choose the English sentence that means: Tôi chơi cờ vua với Minh vào giờ ra chơi."
+          },
+          "explanation": {
+            "vi": "'I play chess with Minh at break time.' means 'Tôi chơi cờ vua với Minh vào giờ ra chơi.'.",
+            "en": "'I play chess with Minh at break time.' means 'Tôi chơi cờ vua với Minh vào giờ ra chơi.'."
+          },
+          "data": {
+            "options": [
+              "I play chess with Minh at break time.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I play chess with Minh at break time."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 10: Playing Chess & Badminton'?",
+            "en": "Which of the following is a word from Unit 'Unit 10: Playing Chess & Badminton'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 10: Playing Chess & Badminton'?",
+            "en": "Which of the following is a word from Unit 'Unit 10: Playing Chess & Badminton'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 10: Playing Chess & Badminton.",
+            "en": "Remember the words in topic: Unit 10: Playing Chess & Badminton."
+          },
+          "explanation": {
+            "vi": "'chess' is a key vocabulary word in this topic.",
+            "en": "'chess' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "chess",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "chess"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'badminton' start with the sound /c/?",
+            "en": "Does the word 'badminton' start with the sound /c/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'badminton' start with the sound /c/? The word 'badminton' starts with letter 'C'.",
+            "en": "Does the word 'badminton' start with the sound /c/? The word 'badminton' starts with letter 'C'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'badminton'.",
+            "en": "Listen to the first sound of 'badminton'."
+          },
+          "explanation": {
+            "vi": "Yes! 'badminton' starts with the sound /c/.",
+            "en": "Yes! 'badminton' starts with the sound /c/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'badminton' starts with letter 'C'.",
+              "en": "The word 'badminton' starts with letter 'C'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'chess'?",
+            "en": "How many letters are there in the word 'chess'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'chess'?",
+            "en": "How many letters are there in the word 'chess'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'chess': 1, 2, 3...",
+            "en": "Count the letters in 'chess': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'chess' has exactly 5 letters.",
+            "en": "The word 'chess' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'chess':",
+            "en": "Choose the correct phrase with 'chess':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'chess':",
+            "en": "Choose the correct phrase with 'chess':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a chess'.",
+            "en": "Correct! We say 'a chess'."
+          },
+          "data": {
+            "options": [
+              "a chess",
+              "an chess",
+              "two chess",
+              "many chess"
+            ],
+            "correct_answer": "a chess"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'chess'.",
+            "en": "Choose the noun: 'chess'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our chess. It is very nice!'",
+            "en": "We say: 'Look! This is our chess. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "chess",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "chess"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s15_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 10: Playing Chess & Badminton'?",
+            "en": "Which English sentence best describes the topic 'Unit 10: Playing Chess & Badminton'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 10: Playing Chess & Badminton'?",
+            "en": "Which English sentence best describes the topic 'Unit 10: Playing Chess & Badminton'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 10: Playing Chess & Badminton'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 10: Playing Chess & Badminton'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: chess, badminton!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: chess, badminton!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

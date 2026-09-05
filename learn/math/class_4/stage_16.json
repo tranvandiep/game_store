@@ -1,0 +1,957 @@
+{
+  "id": "m4_stage_16",
+  "stage_number": 16,
+  "title": {
+    "vi": "Tuần 16: Tổng Ôn Tập Toàn Diện Học Kì 1 🏆",
+    "en": "Week 16: Term 1 Comprehensive Grand Review 🏆"
+  },
+  "subtitle": {
+    "vi": "Trang 91-93: Khảo sát toàn bộ kiến thức Học kì 1 xuất sắc",
+    "en": "Pages 91-93: Master Term 1 finale review"
+  },
+  "icon": "🎖️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.53,
+  "required_stars": 45,
+  "theme_color": "0xFFE11D48",
+  "topics": [
+    {
+      "id": "m4_t16_1",
+      "title": {
+        "vi": "Tổng ôn Số Tự Nhiên & 4 Phép Tính HK1",
+        "en": "Term 1 Arithmetic Grand Review"
+      },
+      "description": {
+        "vi": "Ôn tập số đến lớp triệu, 4 phép tính, tính nhanh",
+        "en": "Review millions period, 4 operations, mental math"
+      },
+      "icon": "💯",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t16_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị: 2 500 x 40 - 50 000 = ?",
+            "en": "Calculate: 2,500 * 40 - 50,000 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính giá trị: 2 500 x 40 - 50 000 = ?",
+            "en": "Calculate: 2,500 * 40 - 50,000 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "100 000 - 50 000 = 50 000.",
+            "en": "50,000."
+          },
+          "data": {
+            "correct_number": "50000",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Số trung bình cộng của 4 số: 10, 20, 30, 40 là:",
+            "en": "Average of 10, 20, 30, 40 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số trung bình cộng của 4 số: 10, 20, 30, 40 là:",
+            "en": "Average of 10, 20, 30, 40 is:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "(10 + 20 + 30 + 40) : 4 = 100 : 4 = 25.",
+            "en": "25."
+          },
+          "data": {
+            "correct_number": "25",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối công thức toán học với tên gọi:",
+            "en": "Match formulas with names:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối công thức toán học với tên gọi:",
+            "en": "Match formulas with names:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Các công thức nền tảng HK1.",
+            "en": "Key Term 1 formulas."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "a + b = b + a",
+                  "en": "a + b = b + a"
+                },
+                "right": {
+                  "vi": "Tính chất giao hoán của phép cộng",
+                  "en": "Tính chất giao hoán của phép cộng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "a x (b + c) = a x b + a x c",
+                  "en": "a x (b + c) = a x b + a x c"
+                },
+                "right": {
+                  "vi": "Nhân một số với một tổng",
+                  "en": "Nhân một số với một tổng"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "(Tổng + Hiệu) : 2",
+                  "en": "(Tổng + Hiệu) : 2"
+                },
+                "right": {
+                  "vi": "Công thức tìm Số lớn",
+                  "en": "Công thức tìm Số lớn"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của hai số 20 và 26 là:",
+            "en": "The average of 20 and 26 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 20 và 26",
+            "en": "Average of 20 and 26"
+          },
+          "hint": {
+            "vi": "Lấy tổng chia cho 2.",
+            "en": "Sum divided by 2."
+          },
+          "explanation": {
+            "vi": "(20 + 26) : 2 = 23.",
+            "en": "(20 + 26) : 2 = 23."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "23"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đơn vị đo với giá trị quy đổi tương đương:",
+            "en": "Match units with equivalent values:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đơn vị đo tương đương",
+            "en": "Match units"
+          },
+          "hint": {
+            "vi": "Quy đổi đơn vị cẩn thận.",
+            "en": "Convert units."
+          },
+          "explanation": {
+            "vi": "Quy đổi đại lượng chuẩn xác.",
+            "en": "Correct unit conversion."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1,000 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t16_2",
+      "title": {
+        "vi": "Tổng ôn Hình Học & Đo Lường HK1",
+        "en": "Term 1 Geometry & Units Review"
+      },
+      "description": {
+        "vi": "Ôn góc nhọn, tù, bẹt, vuông góc, song song, tấn, tạ, yến, thế kỉ, m², dm²",
+        "en": "Angles, lines, mass, time, area units"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t16_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "1 thế kỉ và 25 năm bằng bao nhiêu năm?",
+            "en": "1 century and 25 years is how many years?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 thế kỉ và 25 năm bằng bao nhiêu năm?",
+            "en": "1 century and 25 years is how many years?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "100 + 25 = 125 năm.",
+            "en": "125 years."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "125 năm",
+                "en": "125 năm"
+              },
+              {
+                "vi": "150 năm",
+                "en": "150 năm"
+              },
+              {
+                "vi": "225 năm",
+                "en": "225 năm"
+              }
+            ],
+            "correct_answer": "125 năm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "5 tấn 4 tạ đổi ra kg là bao nhiêu kg?",
+            "en": "Convert 5 tons 4 quintals to kg:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "5 tấn 4 tạ đổi ra kg là bao nhiêu kg?",
+            "en": "Convert 5 tons 4 quintals to kg:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 000 + 400 = 5 400 kg.",
+            "en": "5,400 kg."
+          },
+          "data": {
+            "correct_number": "5400",
+            "unit": "kg"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Công thức hình chữ nhật.",
+            "en": "Decide whether the following statement is true or false: Công thức hình chữ nhật."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Cùng một đơn vị đo.",
+            "en": "True! Same unit."
+          },
+          "data": {
+            "statement": {
+              "vi": "Công thức hình chữ nhật.",
+              "en": "Công thức hình chữ nhật."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Tổng ôn Hình Học & Đo Lường HK1': 1 thế kỉ và 25 năm bằng bao nhiêu năm?",
+            "en": "Practice 'Term 1 Geometry & Units Review': 1 century and 25 years is how many years?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 thế kỉ và 25 năm bằng bao nhiêu năm?",
+            "en": "1 century and 25 years is how many years?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "100 + 25 = 125 năm.",
+            "en": "125 years."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "225 năm",
+                "en": "225 năm"
+              },
+              {
+                "vi": "125 năm",
+                "en": "125 năm"
+              },
+              {
+                "vi": "150 năm",
+                "en": "150 năm"
+              }
+            ],
+            "correct_answer": "125 năm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 84028 đến hàng nghìn:",
+            "en": "Round 84028 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 84028 đến hàng nghìn:",
+            "en": "Round 84028 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "84000",
+                "en": "84000"
+              },
+              {
+                "vi": "85000",
+                "en": "85000"
+              },
+              {
+                "vi": "83000",
+                "en": "83000"
+              }
+            ],
+            "correct_answer": "84000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 17 và 47 là:",
+            "en": "Average of 17 and 47 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 17 và 47 là:",
+            "en": "Average of 17 and 47 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(17 + 47) : 2 = 32.",
+            "en": "Average is 32."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "32"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t16_3",
+      "title": {
+        "vi": "Đấu Trường Đánh Giá Học Kì 1 🏆",
+        "en": "Term 1 Grand Championship 🏆"
+      },
+      "description": {
+        "vi": "Bài kiểm tra tổng kết 16 tuần xuất sắc của Học kì 1",
+        "en": "16-week Term 1 graduation exam"
+      },
+      "icon": "🏆",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t16_3_1",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép biểu thức vinh danh: 2500 x 4 = 10000",
+            "en": "Arrange coronation equation: 2500 * 4 = 10000"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép biểu thức vinh danh: 2500 x 4 = 10000",
+            "en": "Arrange coronation equation: 2500 * 4 = 10000"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "2 500 x 4 = 10 000.",
+            "en": "2,500 * 4 = 10,000."
+          },
+          "data": {
+            "target_word": "2500 x 4 = 10000",
+            "pool_tokens": [
+              "2500",
+              "x",
+              "4",
+              "=",
+              "10000"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chúc mừng bé đã chinh phục trọn vẹn Học kì 1 Toán Lớp 4! Bé đã sẵn sàng bước vào Học kì 2 với Dấu hiệu chia hết, Phân số và Hình thoi chưa?",
+            "en": "Ready for Term 2 with Divisibility, Fractions & Rhombus?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chúc mừng bé đã chinh phục trọn vẹn Học kì 1 Toán Lớp 4! Bé đã sẵn sàng bước vào Học kì 2 với Dấu hiệu chia hết, Phân số và Hình thoi chưa?",
+            "en": "Ready for Term 2 with Divisibility, Fractions & Rhombus?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Tuyệt vời! Tiếp tục phát huy tinh thần Math Master nhé!",
+            "en": "Awesome! Keep shining in Term 2!"
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Sẵn sàng 100%!",
+                "en": "Sẵn sàng 100%!"
+              },
+              {
+                "vi": "Rất tự tin!",
+                "en": "Rất tự tin!"
+              },
+              {
+                "vi": "Cả hai đều đúng",
+                "en": "Cả hai đều đúng"
+              }
+            ],
+            "correct_answer": "Cả hai đều đúng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Vinh danh HK1.",
+            "en": "Decide whether the following statement is true or false: Vinh danh HK1."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Bé đã đạt danh hiệu Thủ Khoa Học Kì 1.",
+            "en": "True! Term 1 Champion."
+          },
+          "data": {
+            "statement": {
+              "vi": "Vinh danh HK1.",
+              "en": "Vinh danh HK1."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_4",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'ĐẤU'",
+            "en": "Arrange the letters to spell the keyword: 'ĐẤU'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa ĐẤU",
+            "en": "Arrange the letters to spell ĐẤU"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: ĐẤU",
+            "en": "The keyword is: ĐẤU"
+          },
+          "data": {
+            "target_word": "ĐẤU",
+            "scrambled_letters": [
+              "Ấ",
+              "Đ",
+              "U"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Đấu Trường Đánh Giá Học Kì 1 🏆': Chúc mừng bé đã chinh phục trọn vẹn Học kì 1 Toán Lớp 4! Bé đã sẵn sàng bước vào Học kì 2 với Dấu hiệu chia hết, Phân số và Hình thoi chưa?",
+            "en": "Practice 'Term 1 Grand Championship 🏆': Ready for Term 2 with Divisibility, Fractions & Rhombus?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chúc mừng bé đã chinh phục trọn vẹn Học kì 1 Toán Lớp 4! Bé đã sẵn sàng bước vào Học kì 2 với Dấu hiệu chia hết, Phân số và Hình thoi chưa?",
+            "en": "Ready for Term 2 with Divisibility, Fractions & Rhombus?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Tuyệt vời! Tiếp tục phát huy tinh thần Math Master nhé!",
+            "en": "Awesome! Keep shining in Term 2!"
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Sẵn sàng 100%!",
+                "en": "Sẵn sàng 100%!"
+              },
+              {
+                "vi": "Cả hai đều đúng",
+                "en": "Cả hai đều đúng"
+              },
+              {
+                "vi": "Rất tự tin!",
+                "en": "Rất tự tin!"
+              }
+            ],
+            "correct_answer": "Cả hai đều đúng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 34600 đến hàng nghìn:",
+            "en": "Round 34600 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 34600 đến hàng nghìn:",
+            "en": "Round 34600 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "34000",
+                "en": "34000"
+              },
+              {
+                "vi": "35000",
+                "en": "35000"
+              },
+              {
+                "vi": "33000",
+                "en": "33000"
+              }
+            ],
+            "correct_answer": "35000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 16 và 26 là:",
+            "en": "Average of 16 and 26 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 16 và 26 là:",
+            "en": "Average of 16 and 26 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(16 + 26) : 2 = 21.",
+            "en": "Average is 21."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "21"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của hai số 26 và 24 là:",
+            "en": "The average of 26 and 24 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 26 và 24",
+            "en": "Average of 26 and 24"
+          },
+          "hint": {
+            "vi": "Lấy tổng chia cho 2.",
+            "en": "Sum divided by 2."
+          },
+          "explanation": {
+            "vi": "(26 + 24) : 2 = 25.",
+            "en": "(26 + 24) : 2 = 25."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "25"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t16_3_12",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Góc nhọn là góc bé hơn góc vuông.",
+            "en": "An acute angle is smaller than a right angle."
+          },
+          "hint": {
+            "vi": "Góc vuông có số đo 90 độ.",
+            "en": "A right angle is 90 degrees."
+          },
+          "explanation": {
+            "vi": "Góc nhọn có số đo bé hơn 90 độ.",
+            "en": "Acute angle is less than 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc nhọn là góc có số đo bé hơn góc vuông.",
+              "en": "An acute angle is smaller than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

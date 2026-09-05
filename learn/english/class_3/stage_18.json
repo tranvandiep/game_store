@@ -1,0 +1,1134 @@
+{
+  "id": "e3_stage_18",
+  "stage_number": 18,
+  "title": {
+    "vi": "Week 18: Brothers, Sisters & Happy Home",
+    "en": "Week 18: Brothers, Sisters & Happy Home"
+  },
+  "subtitle": {
+    "vi": "Brother, sister, baby, cozy family gathering",
+    "en": "Brother, sister, baby, cozy family gathering"
+  },
+  "icon": "🏡",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.456,
+  "required_stars": 51,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "e3_s18_1",
+      "title": {
+        "vi": "Playful Brother & Sweet Sister",
+        "en": "Playful Brother & Sweet Sister"
+      },
+      "description": {
+        "vi": "This is my brother / She is my little sister",
+        "en": "This is my brother / She is my little sister"
+      },
+      "icon": "👧",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s18_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy and girl sharing toys and laughing in the living room. Who are they?",
+            "en": "Look at the boy and girl sharing toys and laughing in the living room. Who are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy and girl sharing toys and laughing in the living room. Who are they?",
+            "en": "Look at the boy and girl sharing toys and laughing in the living room. Who are they?"
+          },
+          "hint": {
+            "vi": "Siblings in the family.",
+            "en": "Siblings in the family."
+          },
+          "explanation": {
+            "vi": "They are brother and sister.",
+            "en": "They are brother and sister."
+          },
+          "data": {
+            "options": [
+              "brother and sister",
+              "two pilots",
+              "two teachers",
+              "police officers"
+            ],
+            "correct_answer": "brother and sister"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u11_brother_sister.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s18_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'brother'?",
+            "en": "What is the first letter of the word 'brother'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'brother'?",
+            "en": "What is the first letter of the word 'brother'?"
+          },
+          "hint": {
+            "vi": "The word 'brother' starts with the letter B.",
+            "en": "The word 'brother' starts with the letter B."
+          },
+          "explanation": {
+            "vi": "Correct! 'brother' begins with the letter 'B'.",
+            "en": "Correct! 'brother' begins with the letter 'B'."
+          },
+          "data": {
+            "options": [
+              "Letter B",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter B"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "brother",
+                  "en": "brother"
+                },
+                "right": {
+                  "vi": "Nghĩa của brother",
+                  "en": "Nghĩa của brother"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "sister",
+                  "en": "sister"
+                },
+                "right": {
+                  "vi": "Nghĩa của sister",
+                  "en": "Nghĩa của sister"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "sibling",
+                  "en": "sibling"
+                },
+                "right": {
+                  "vi": "Nghĩa của sibling",
+                  "en": "Nghĩa của sibling"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? I play games with my brother and sister.",
+            "en": "Is this English sentence correct for Grade 3? I play games with my brother and sister."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I play games with my brother and sister.",
+            "en": "Remember the pattern: I play games with my brother and sister."
+          },
+          "explanation": {
+            "vi": "Yes! 'I play games with my brother and sister.' is a correct English sentence.",
+            "en": "Yes! 'I play games with my brother and sister.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I play games with my brother and sister.",
+              "en": "I play games with my brother and sister."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I play games with my brother and ....",
+            "en": "Drag the correct word to complete the sentence: I play games with my brother and ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'sister'.",
+            "en": "Choose the correct word: 'sister'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I play games with my brother and sister.'.",
+            "en": "The complete sentence is: 'I play games with my brother and sister.'."
+          },
+          "data": {
+            "prefix_text": "I play games with my brother and ",
+            "suffix_text": ".",
+            "options": [
+              "sister",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "sister"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'brother':",
+            "en": "Spell the English word 'brother':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'brother':",
+            "en": "Spell the English word 'brother':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'brother'.",
+            "en": "Tap the letters in order to spell 'brother'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'brother' correctly.",
+            "en": "Well done! You spelled 'brother' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "h",
+              "t",
+              "o",
+              "r",
+              "b"
+            ],
+            "target_word": "brother",
+            "target_sequence": [
+              "b",
+              "r",
+              "o",
+              "t",
+              "h",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi chơi trò chơi cùng anh trai và em gái.' in English?",
+            "en": "How do you say 'Tôi chơi trò chơi cùng anh trai và em gái.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi chơi trò chơi cùng anh trai và em gái.' in English?",
+            "en": "How do you say 'Tôi chơi trò chơi cùng anh trai và em gái.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi chơi trò chơi cùng anh trai và em gái.",
+            "en": "Choose the English sentence that means: Tôi chơi trò chơi cùng anh trai và em gái."
+          },
+          "explanation": {
+            "vi": "'I play games with my brother and sister.' means 'Tôi chơi trò chơi cùng anh trai và em gái.'.",
+            "en": "'I play games with my brother and sister.' means 'Tôi chơi trò chơi cùng anh trai và em gái.'."
+          },
+          "data": {
+            "options": [
+              "I play games with my brother and sister.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I play games with my brother and sister."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Playful Brother & Sweet Sister'?",
+            "en": "Which of the following is a word from Unit 'Playful Brother & Sweet Sister'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Playful Brother & Sweet Sister'?",
+            "en": "Which of the following is a word from Unit 'Playful Brother & Sweet Sister'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Playful Brother & Sweet Sister.",
+            "en": "Remember the words in topic: Playful Brother & Sweet Sister."
+          },
+          "explanation": {
+            "vi": "'brother' is a key vocabulary word in this topic.",
+            "en": "'brother' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "brother",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "brother"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'sister' start with the sound /b/?",
+            "en": "Does the word 'sister' start with the sound /b/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'sister' start with the sound /b/? The word 'sister' starts with letter 'B'.",
+            "en": "Does the word 'sister' start with the sound /b/? The word 'sister' starts with letter 'B'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'sister'.",
+            "en": "Listen to the first sound of 'sister'."
+          },
+          "explanation": {
+            "vi": "Yes! 'sister' starts with the sound /b/.",
+            "en": "Yes! 'sister' starts with the sound /b/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'sister' starts with letter 'B'.",
+              "en": "The word 'sister' starts with letter 'B'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'brother'?",
+            "en": "How many letters are there in the word 'brother'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'brother'?",
+            "en": "How many letters are there in the word 'brother'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'brother': 1, 2, 3...",
+            "en": "Count the letters in 'brother': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'brother' has exactly 7 letters.",
+            "en": "The word 'brother' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'brother':",
+            "en": "Choose the correct phrase with 'brother':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'brother':",
+            "en": "Choose the correct phrase with 'brother':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a brother'.",
+            "en": "Correct! We say 'a brother'."
+          },
+          "data": {
+            "options": [
+              "a brother",
+              "an brother",
+              "two brother",
+              "many brother"
+            ],
+            "correct_answer": "a brother"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'brother'.",
+            "en": "Choose the noun: 'brother'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our brother. It is very nice!'",
+            "en": "We say: 'Look! This is our brother. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "brother",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "brother"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Playful Brother & Sweet Sister'?",
+            "en": "Which English sentence best describes the topic 'Playful Brother & Sweet Sister'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Playful Brother & Sweet Sister'?",
+            "en": "Which English sentence best describes the topic 'Playful Brother & Sweet Sister'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Playful Brother & Sweet Sister'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Playful Brother & Sweet Sister'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: brother, sister!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: brother, sister!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s18_2",
+      "title": {
+        "vi": "Warm Family Dinner Together",
+        "en": "Warm Family Dinner Together"
+      },
+      "description": {
+        "vi": "Gathering around the dinner table happily",
+        "en": "Gathering around the dinner table happily"
+      },
+      "icon": "🍲",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s18_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the multi-generation family enjoying a delicious home meal together. What is the occasion?",
+            "en": "Look at the multi-generation family enjoying a delicious home meal together. What is the occasion?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the multi-generation family enjoying a delicious home meal together. What is the occasion?",
+            "en": "Look at the multi-generation family enjoying a delicious home meal together. What is the occasion?"
+          },
+          "hint": {
+            "vi": "Parents, grandparents, and kids eating dinner together.",
+            "en": "Parents, grandparents, and kids eating dinner together."
+          },
+          "explanation": {
+            "vi": "It's a warm family dinner gathering.",
+            "en": "It's a warm family dinner gathering."
+          },
+          "data": {
+            "options": [
+              "a warm family dinner gathering",
+              "a business meeting",
+              "a classroom lecture",
+              "a cinema movie"
+            ],
+            "correct_answer": "a warm family dinner gathering"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u11_family_dinner.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s18_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'family'?",
+            "en": "What is the first letter of the word 'family'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'family'?",
+            "en": "What is the first letter of the word 'family'?"
+          },
+          "hint": {
+            "vi": "The word 'family' starts with the letter F.",
+            "en": "The word 'family' starts with the letter F."
+          },
+          "explanation": {
+            "vi": "Correct! 'family' begins with the letter 'F'.",
+            "en": "Correct! 'family' begins with the letter 'F'."
+          },
+          "data": {
+            "options": [
+              "Letter F",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter F"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "family",
+                  "en": "family"
+                },
+                "right": {
+                  "vi": "Nghĩa của family",
+                  "en": "Nghĩa của family"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "dinner",
+                  "en": "dinner"
+                },
+                "right": {
+                  "vi": "Nghĩa của dinner",
+                  "en": "Nghĩa của dinner"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "happy",
+                  "en": "happy"
+                },
+                "right": {
+                  "vi": "Nghĩa của happy",
+                  "en": "Nghĩa của happy"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Our family enjoys dinner together every evening.",
+            "en": "Is this English sentence correct for Grade 3? Our family enjoys dinner together every evening."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Our family enjoys dinner together every evening.",
+            "en": "Remember the pattern: Our family enjoys dinner together every evening."
+          },
+          "explanation": {
+            "vi": "Yes! 'Our family enjoys dinner together every evening.' is a correct English sentence.",
+            "en": "Yes! 'Our family enjoys dinner together every evening.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Our family enjoys dinner together every evening.",
+              "en": "Our family enjoys dinner together every evening."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Our family enjoys dinner together every ....",
+            "en": "Drag the correct word to complete the sentence: Our family enjoys dinner together every ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'evening'.",
+            "en": "Choose the correct word: 'evening'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Our family enjoys dinner together every evening.'.",
+            "en": "The complete sentence is: 'Our family enjoys dinner together every evening.'."
+          },
+          "data": {
+            "prefix_text": "Our family enjoys dinner together every ",
+            "suffix_text": ".",
+            "options": [
+              "evening",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "evening"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'family':",
+            "en": "Spell the English word 'family':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'family':",
+            "en": "Spell the English word 'family':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'family'.",
+            "en": "Tap the letters in order to spell 'family'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'family' correctly.",
+            "en": "Well done! You spelled 'family' correctly."
+          },
+          "data": {
+            "letters": [
+              "y",
+              "l",
+              "i",
+              "m",
+              "a",
+              "f"
+            ],
+            "target_word": "family",
+            "target_sequence": [
+              "f",
+              "a",
+              "m",
+              "i",
+              "l",
+              "y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Gia đình chúng tôi cùng thưởng thức bữa tối ấm cúng mỗi tối.' in English?",
+            "en": "How do you say 'Gia đình chúng tôi cùng thưởng thức bữa tối ấm cúng mỗi tối.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Gia đình chúng tôi cùng thưởng thức bữa tối ấm cúng mỗi tối.' in English?",
+            "en": "How do you say 'Gia đình chúng tôi cùng thưởng thức bữa tối ấm cúng mỗi tối.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Gia đình chúng tôi cùng thưởng thức bữa tối ấm cúng mỗi tối.",
+            "en": "Choose the English sentence that means: Gia đình chúng tôi cùng thưởng thức bữa tối ấm cúng mỗi tối."
+          },
+          "explanation": {
+            "vi": "'Our family enjoys dinner together every evening.' means 'Gia đình chúng tôi cùng thưởng thức bữa tối ấm cúng mỗi tối.'.",
+            "en": "'Our family enjoys dinner together every evening.' means 'Gia đình chúng tôi cùng thưởng thức bữa tối ấm cúng mỗi tối.'."
+          },
+          "data": {
+            "options": [
+              "Our family enjoys dinner together every evening.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Our family enjoys dinner together every evening."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Warm Family Dinner Together'?",
+            "en": "Which of the following is a word from Unit 'Warm Family Dinner Together'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Warm Family Dinner Together'?",
+            "en": "Which of the following is a word from Unit 'Warm Family Dinner Together'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Warm Family Dinner Together.",
+            "en": "Remember the words in topic: Warm Family Dinner Together."
+          },
+          "explanation": {
+            "vi": "'family' is a key vocabulary word in this topic.",
+            "en": "'family' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "family",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "family"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'dinner' start with the sound /f/?",
+            "en": "Does the word 'dinner' start with the sound /f/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'dinner' start with the sound /f/? The word 'dinner' starts with letter 'F'.",
+            "en": "Does the word 'dinner' start with the sound /f/? The word 'dinner' starts with letter 'F'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'dinner'.",
+            "en": "Listen to the first sound of 'dinner'."
+          },
+          "explanation": {
+            "vi": "Yes! 'dinner' starts with the sound /f/.",
+            "en": "Yes! 'dinner' starts with the sound /f/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'dinner' starts with letter 'F'.",
+              "en": "The word 'dinner' starts with letter 'F'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'family'?",
+            "en": "How many letters are there in the word 'family'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'family'?",
+            "en": "How many letters are there in the word 'family'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'family': 1, 2, 3...",
+            "en": "Count the letters in 'family': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'family' has exactly 6 letters.",
+            "en": "The word 'family' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'family':",
+            "en": "Choose the correct phrase with 'family':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'family':",
+            "en": "Choose the correct phrase with 'family':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a family'.",
+            "en": "Correct! We say 'a family'."
+          },
+          "data": {
+            "options": [
+              "a family",
+              "an family",
+              "two family",
+              "many family"
+            ],
+            "correct_answer": "a family"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'family'.",
+            "en": "Choose the noun: 'family'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our family. It is very nice!'",
+            "en": "We say: 'Look! This is our family. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "family",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "family"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s18_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Warm Family Dinner Together'?",
+            "en": "Which English sentence best describes the topic 'Warm Family Dinner Together'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Warm Family Dinner Together'?",
+            "en": "Which English sentence best describes the topic 'Warm Family Dinner Together'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Warm Family Dinner Together'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Warm Family Dinner Together'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: family, dinner!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: family, dinner!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

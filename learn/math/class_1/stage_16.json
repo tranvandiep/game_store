@@ -1,0 +1,1121 @@
+{
+  "id": "m1_stage_16",
+  "stage_number": 16,
+  "title": {
+    "vi": "Tuần 16: Ôn Tập Học Kì 1 - Hình Học & Đánh Giá",
+    "en": "Week 16: Term 1 Final Assessment"
+  },
+  "subtitle": {
+    "vi": "Bài 19 & 20 - Tổng kết Học kì 1",
+    "en": "Lesson 19 & 20 - Term 1 grand finale"
+  },
+  "icon": "🏆",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.53,
+  "required_stars": 45,
+  "theme_color": "0xFFE11D48",
+  "topics": [
+    {
+      "id": "m1_t16_1",
+      "title": {
+        "vi": "Ôn tập hình phẳng & Hình khối",
+        "en": "Review 2D Shapes & 3D Blocks"
+      },
+      "description": {
+        "vi": "Tổng hợp nhận biết hình vuông, tròn, lập phương...",
+        "en": "Review squares, circles, cubes, cuboids"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m1_t16_1_1",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối tên hình với đặc điểm tương ứng:",
+            "en": "Match shapes with descriptions:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối tên hình với đặc điểm tương ứng:",
+            "en": "Match shapes with descriptions:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Nắm chắc hình học phẳng và hình khối.",
+            "en": "Solid understanding of 2D and 3D geometry."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Hình tròn",
+                  "en": "Hình tròn"
+                },
+                "right": {
+                  "vi": "Đường cong tròn, không góc",
+                  "en": "Đường cong tròn, không góc"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Hình tam giác",
+                  "en": "Hình tam giác"
+                },
+                "right": {
+                  "vi": "Có 3 cạnh và 3 góc",
+                  "en": "Có 3 cạnh và 3 góc"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Khối lập phương",
+                  "en": "Khối lập phương"
+                },
+                "right": {
+                  "vi": "Có 6 mặt hình vuông",
+                  "en": "Có 6 mặt hình vuông"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hình nào dưới đây có 4 cạnh bằng nhau?",
+            "en": "Which shape has 4 equal sides?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình nào dưới đây có 4 cạnh bằng nhau?",
+            "en": "Which shape has 4 equal sides?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Hình vuông có 4 cạnh dài bằng nhau.",
+            "en": "A square has 4 equal sides."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Hình vuông",
+                "en": "Hình vuông"
+              },
+              {
+                "vi": "Hình tam giác",
+                "en": "Hình tam giác"
+              },
+              {
+                "vi": "Hình chữ nhật",
+                "en": "Hình chữ nhật"
+              }
+            ],
+            "correct_answer": "Hình vuông"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Nhận diện hình khối thực tế.",
+            "en": "Decide whether the following statement is true or false: Nhận diện hình khối thực tế."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! Xúc xắc có 6 mặt vuông, hộp sữa có các mặt chữ nhật.",
+            "en": "True! Accurate real-world recognition."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nhận diện hình khối thực tế.",
+              "en": "Nhận diện hình khối thực tế."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Ôn tập hình phẳng & Hình khối': Hình nào dưới đây có 4 cạnh bằng nhau?",
+            "en": "Practice 'Review 2D Shapes & 3D Blocks': Which shape has 4 equal sides?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình nào dưới đây có 4 cạnh bằng nhau?",
+            "en": "Which shape has 4 equal sides?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Hình vuông có 4 cạnh dài bằng nhau.",
+            "en": "A square has 4 equal sides."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Hình chữ nhật",
+                "en": "Hình chữ nhật"
+              },
+              {
+                "vi": "Hình tam giác",
+                "en": "Hình tam giác"
+              },
+              {
+                "vi": "Hình vuông",
+                "en": "Hình vuông"
+              }
+            ],
+            "correct_answer": "Hình vuông"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_5",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 7 đứng liền trước số 8.",
+            "en": "Decide whether the following statement is true or false: Số 7 đứng liền trước số 8."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 7 đứng liền trước số 8.",
+              "en": "Số 7 đứng liền trước số 8."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 8 bé hơn số 7 (8 < 7).",
+            "en": "Decide whether the following statement is true or false: Số 8 bé hơn số 7 (8 < 7)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 8 bé hơn số 7 (8 < 7).",
+              "en": "Số 8 bé hơn số 7 (8 < 7)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 99 ... 87",
+            "en": "Choose the right sign: 99 ... 87"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 99 ... 87",
+            "en": "Choose the right sign: 99 ... 87"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "99 > 87 là chính xác.",
+            "en": "99 > 87 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": ">"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 68 đứng liền trước số 69.",
+            "en": "Is the statement TRUE or FALSE:: Number 68 comes before 69."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 68 đứng liền trước số 69.",
+              "en": "Number 68 comes before 69."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 10, 11, 12, 13.",
+            "en": "Ascending order: 10, 11, 12, 13."
+          },
+          "data": {
+            "items": [
+              "11",
+              "12",
+              "10",
+              "13"
+            ],
+            "correct_order": [
+              "10",
+              "11",
+              "12",
+              "13"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_10",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐱 ở đây nhé:",
+            "en": "Count how many 🐱 icons there are:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đếm số hình 🐱",
+            "en": "Count 🐱 icons"
+          },
+          "hint": {
+            "vi": "Chạm ngón tay và đếm từng hình.",
+            "en": "Count each object."
+          },
+          "explanation": {
+            "vi": "Có tất cả 10 hình 🐱.",
+            "en": "There are 10 items."
+          },
+          "data": {
+            "item_icon": "🐱",
+            "item_count": 10,
+            "options": [
+              "10",
+              "11",
+              "12",
+              "9"
+            ],
+            "correct_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 17 đứng liền trước số 18.",
+            "en": "Number 17 comes before 18."
+          },
+          "hint": {
+            "vi": "Nhớ lại thứ tự các số.",
+            "en": "Remember number order."
+          },
+          "explanation": {
+            "vi": "Số 17 đứng liền trước số 18 là ĐÚNG.",
+            "en": "17 comes before 18 is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 17 đứng liền trước số 18.",
+              "en": "Number 17 comes right before 18."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t16_2",
+      "title": {
+        "vi": "Ôn tập vị trí không gian",
+        "en": "Review Spatial Positions"
+      },
+      "description": {
+        "vi": "Trắc nghiệm nhanh trên, dưới, trái, phải, trước, sau",
+        "en": "Quick quiz on top, bottom, left, right"
+      },
+      "icon": "🧭",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m1_t16_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Khi ngồi học bài, đèn học nên đặt ở phía nào để tránh sấp bóng?",
+            "en": "Where should a study lamp be placed to avoid shadows?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khi ngồi học bài, đèn học nên đặt ở phía nào để tránh sấp bóng?",
+            "en": "Where should a study lamp be placed to avoid shadows?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Đặt đèn bên trái giúp bóng của tay phải không che khuất chữ viết.",
+            "en": "Placing lamp on the left prevents hand shadows."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Phía bên trái (nếu viết tay phải)",
+                "en": "Phía bên trái (nếu viết tay phải)"
+              },
+              {
+                "vi": "Ngay trước mắt",
+                "en": "Ngay trước mắt"
+              },
+              {
+                "vi": "Ở dưới sàn nhà",
+                "en": "Ở dưới sàn nhà"
+              }
+            ],
+            "correct_answer": "Phía bên trái (nếu viết tay phải)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Vị trí bảng lớp.",
+            "en": "Decide whether the following statement is true or false: Vị trí bảng lớp."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! Bảng lớp treo phía trước để cả lớp dễ quan sát.",
+            "en": "True! Blackboard is always in front."
+          },
+          "data": {
+            "statement": {
+              "vi": "Vị trí bảng lớp.",
+              "en": "Vị trí bảng lớp."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_3",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ thích hợp:",
+            "en": "Fill in the missing word:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền từ thích hợp:",
+            "en": "Fill in the missing word:"
+          },
+          "hint": {
+            "vi": "Chạm vào thẻ số thích hợp để điền vào ô trống.",
+            "en": "Tap the correct number card to fill the slot."
+          },
+          "explanation": {
+            "vi": "Bé đứng ở giữa bố và mẹ.",
+            "en": "You are standing in the middle."
+          },
+          "data": {
+            "prefix_text": "Bé đứng ở ",
+            "suffix_text": " bố và mẹ.",
+            "options": [
+              "giữa",
+              "trên",
+              "dưới"
+            ],
+            "slot_answer": "giữa"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Ôn tập vị trí không gian': Khi ngồi học bài, đèn học nên đặt ở phía nào để tránh sấp bóng?",
+            "en": "Practice 'Review Spatial Positions': Where should a study lamp be placed to avoid shadows?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khi ngồi học bài, đèn học nên đặt ở phía nào để tránh sấp bóng?",
+            "en": "Where should a study lamp be placed to avoid shadows?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Đặt đèn bên trái giúp bóng của tay phải không che khuất chữ viết.",
+            "en": "Placing lamp on the left prevents hand shadows."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Phía bên trái (nếu viết tay phải)",
+                "en": "Phía bên trái (nếu viết tay phải)"
+              },
+              {
+                "vi": "Ngay trước mắt",
+                "en": "Ngay trước mắt"
+              },
+              {
+                "vi": "Ở dưới sàn nhà",
+                "en": "Ở dưới sàn nhà"
+              }
+            ],
+            "correct_answer": "Phía bên trái (nếu viết tay phải)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_5",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 bé hơn số 3 (4 < 3).",
+            "en": "Decide whether the following statement is true or false: Số 4 bé hơn số 3 (4 < 3)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 bé hơn số 3 (4 < 3).",
+              "en": "Số 4 bé hơn số 3 (4 < 3)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 6,  ... , 8",
+            "en": "Drag the correct answer into the slot:\nDãy số: 6,  ... , 8"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 6,  ... , 8",
+            "en": "Drag the correct answer: Dãy số: 6,  ... , 8"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 6,  7 , 8",
+            "en": "Dãy số: 6,  7 , 8"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 6, ",
+            "suffix_text": ", 8",
+            "options": [
+              "10",
+              "9",
+              "6",
+              "7"
+            ],
+            "slot_answer": "7"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_7",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 6 đứng liền trước số 7.",
+            "en": "Decide whether the following statement is true or false: Số 6 đứng liền trước số 7."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 6 đứng liền trước số 7.",
+              "en": "Số 6 đứng liền trước số 7."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 2,  ... , 4",
+            "en": "Drag the correct answer into the slot:\nDãy số: 2,  ... , 4"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 2,  ... , 4",
+            "en": "Drag the correct answer: Dãy số: 2,  ... , 4"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 2,  3 , 4",
+            "en": "Dãy số: 2,  3 , 4"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 2, ",
+            "suffix_text": ", 4",
+            "options": [
+              "2",
+              "5",
+              "3",
+              "6"
+            ],
+            "slot_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 2 bé hơn số 1 (2 < 1).",
+            "en": "Decide whether the following statement is true or false: Số 2 bé hơn số 1 (2 < 1)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 2 bé hơn số 1 (2 < 1).",
+              "en": "Số 2 bé hơn số 1 (2 < 1)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 83 bé hơn số 81 (83 < 81).",
+            "en": "Is the statement TRUE or FALSE:: Number 83 is less than 81."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "Statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 83 bé hơn số 81 (83 < 81).",
+              "en": "Number 83 is less than 81."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_2_11",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 24, 25, 26, 27.",
+            "en": "Ascending order: 24, 25, 26, 27."
+          },
+          "data": {
+            "items": [
+              "26",
+              "24",
+              "27",
+              "25"
+            ],
+            "correct_order": [
+              "24",
+              "25",
+              "26",
+              "27"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t16_3",
+      "title": {
+        "vi": "Đấu trường Đánh Giá Học Kì 1 🏆",
+        "en": "Term 1 Grand Arena 🏆"
+      },
+      "description": {
+        "vi": "Bài kiểm tra tổng kết 16 tuần Học kì 1 xuất sắc",
+        "en": "16-week Term 1 mastery graduation exam"
+      },
+      "icon": "🏆",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m1_t16_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 3 + 7 - 5 = ?",
+            "en": "Calculate: 3 + 7 - 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 3 + 7 - 5 = ?",
+            "en": "Calculate: 3 + 7 - 5 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "3 + 7 = 10, 10 - 5 = 5.",
+            "en": "3 + 7 = 10, 10 - 5 = 5."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_3_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chúc mừng bé đã hoàn thành xuất sắc Học kì 1! Bé đã học được mấy chủ đề trong học kì 1?",
+            "en": "Congratulations on finishing Term 1! How many themes were in Term 1?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chúc mừng bé đã hoàn thành xuất sắc Học kì 1! Bé đã học được mấy chủ đề trong học kì 1?",
+            "en": "Congratulations on finishing Term 1! How many themes were in Term 1?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Học kì 1 gồm 5 chủ đề Toán học thú vị.",
+            "en": "Term 1 includes 5 exciting math themes."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3 chủ đề",
+                "en": "3 chủ đề"
+              },
+              {
+                "vi": "4 chủ đề",
+                "en": "4 chủ đề"
+              },
+              {
+                "vi": "5 chủ đề",
+                "en": "5 chủ đề"
+              }
+            ],
+            "correct_answer": "5 chủ đề"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Sẵn sàng chinh phục Học kì 2!",
+            "en": "Decide whether the following statement is true or false: Sẵn sàng chinh phục Học kì 2!"
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Tuyệt vời! Chúc bé học thật giỏi và đạt điểm 10 trong Học kì 2!",
+            "en": "Awesome! Keep shining in Term 2!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Sẵn sàng chinh phục Học kì 2!",
+              "en": "Sẵn sàng chinh phục Học kì 2!"
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Đấu trường Đánh Giá Học Kì 1 🏆': Chúc mừng bé đã hoàn thành xuất sắc Học kì 1! Bé đã học được mấy chủ đề trong học kì 1?",
+            "en": "Practice 'Term 1 Grand Arena 🏆': Congratulations on finishing Term 1! How many themes were in Term 1?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chúc mừng bé đã hoàn thành xuất sắc Học kì 1! Bé đã học được mấy chủ đề trong học kì 1?",
+            "en": "Congratulations on finishing Term 1! How many themes were in Term 1?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Học kì 1 gồm 5 chủ đề Toán học thú vị.",
+            "en": "Term 1 includes 5 exciting math themes."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "5 chủ đề",
+                "en": "5 chủ đề"
+              },
+              {
+                "vi": "4 chủ đề",
+                "en": "4 chủ đề"
+              },
+              {
+                "vi": "3 chủ đề",
+                "en": "3 chủ đề"
+              }
+            ],
+            "correct_answer": "5 chủ đề"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_3_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 86, ... , 88",
+            "en": "Fill in the missing number:\nSequence: 86, ... , 88"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 86, ... , 88",
+            "en": "Fill in the missing number:\nSequence: 86, ... , 88"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "Số còn thiếu là 87.",
+            "en": "The missing number is 87."
+          },
+          "data": {
+            "prefix_text": "Dãy số: 86, ",
+            "suffix_text": ", 88",
+            "options": [
+              "88",
+              "85",
+              "87",
+              "90"
+            ],
+            "slot_answer": "87"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_3_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 30 ... 99",
+            "en": "Choose the right sign: 30 ... 99"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 30 ... 99",
+            "en": "Choose the right sign: 30 ... 99"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "30 < 99 là chính xác.",
+            "en": "30 < 99 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_3_7",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 64 bé hơn số 62 (64 < 62).",
+            "en": "Is the statement TRUE or FALSE:: Number 64 is less than 62."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "Statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 64 bé hơn số 62 (64 < 62).",
+              "en": "Number 64 is less than 62."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t16_3_8",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 70, 71, 72, 73.",
+            "en": "Ascending order: 70, 71, 72, 73."
+          },
+          "data": {
+            "items": [
+              "70",
+              "72",
+              "73",
+              "71"
+            ],
+            "correct_order": [
+              "70",
+              "71",
+              "72",
+              "73"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

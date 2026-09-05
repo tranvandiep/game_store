@@ -1,0 +1,1142 @@
+{
+  "id": "v2_stage_8",
+  "stage_number": 8,
+  "title": {
+    "vi": "Tuần 8: Thế Giới Trang Sách",
+    "en": "Tuần 8: Thế Giới Trang Sách"
+  },
+  "subtitle": {
+    "vi": "Bài 15 & 16 - Cuốn sách của em & Khi trang sách mở ra",
+    "en": "Bài 15 & 16 - Cuốn sách của em & Khi trang sách mở ra"
+  },
+  "icon": "📖",
+  "banner_image": null,
+  "x_percent": 0.8,
+  "y_percent": 0.747,
+  "required_stars": 21,
+  "theme_color": "0xFFEAB308",
+  "topics": [
+    {
+      "id": "v2_t8_1",
+      "title": {
+        "vi": "Tập đọc: Cuốn sách của em",
+        "en": "Tập đọc: Cuốn sách của em"
+      },
+      "description": {
+        "vi": "Cấu tạo và cách giữ gìn sách vở",
+        "en": "Cấu tạo và cách giữ gìn sách vở"
+      },
+      "icon": "📚",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t8_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hình ảnh cuốn sách mở ra với bìa đẹp và các trang thơm mùi mực in là gì?",
+            "en": "Hình ảnh cuốn sách mở ra với bìa đẹp và các trang thơm mùi mực in là gì?"
+          },
+          "tts_prompt": {
+            "vi": "Hình ảnh cuốn sách mở ra với bìa đẹp và các trang thơm mùi mực in là gì?",
+            "en": "Hình ảnh cuốn sách mở ra với bìa đẹp và các trang thơm mùi mực in là gì?"
+          },
+          "hint": {
+            "vi": "Người bạn đồng hành thân thiết mở ra tri thức cho học sinh.",
+            "en": "Người bạn đồng hành thân thiết mở ra tri thức cho học sinh."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài học: 'Cuốn sách của em'.",
+            "en": "Bức tranh minh hoạ bài học: 'Cuốn sách của em'."
+          },
+          "data": {
+            "options": [
+              "cuốn sách giáo khoa bổ ích",
+              "chiếc hộp đồ chơi",
+              "tờ rơi quảng cáo",
+              "túi quà sinh nhật"
+            ],
+            "correct_answer": "cuốn sách giáo khoa bổ ích"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_cuon_sach_cua_em.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cuốn sách'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cuốn sách'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cuốn sách'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cuốn sách'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'cuốn sách' và 'bìa sách' cùng thuộc chủ điểm bài học.",
+            "en": "'cuốn sách' và 'bìa sách' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "bìa sách",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "bìa sách"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cuốn sách",
+                  "en": "cuốn sách"
+                },
+                "right": {
+                  "vi": "Nghĩa của cuốn sách",
+                  "en": "Nghĩa của cuốn sách"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bìa sách",
+                  "en": "bìa sách"
+                },
+                "right": {
+                  "vi": "Nghĩa của bìa sách",
+                  "en": "Nghĩa của bìa sách"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "mục lục",
+                  "en": "mục lục"
+                },
+                "right": {
+                  "vi": "Nghĩa của mục lục",
+                  "en": "Nghĩa của mục lục"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cuốn sách' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cuốn sách' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'cuốn sách' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'cuốn sách' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'cuốn sách' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'cuốn sách' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cuốn sách'.",
+            "en": "Từ chính xác là 'cuốn sách'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "cuốn sách",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "cuốn sách"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cuốnsách':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cuốnsách':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cuốnsách':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cuốnsách':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'cuốnsách'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'cuốnsách'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'cuốnsách'.",
+            "en": "Ghép các chữ cái tạo thành 'cuốnsách'."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "c",
+              "á",
+              "s",
+              "n",
+              "ố",
+              "u",
+              "c"
+            ],
+            "target_word": "cuốnsách",
+            "target_sequence": [
+              "c",
+              "u",
+              "ố",
+              "n",
+              "s",
+              "á",
+              "c",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'cuốn sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cuốn sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'cuốn sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cuốn sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'cuốn sách'.",
+            "en": "Xác định bản chất của từ 'cuốn sách'."
+          },
+          "explanation": {
+            "vi": "'cuốn sách' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'cuốn sách' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Cuốn sách của em'.",
+            "en": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Cuốn sách của em'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Cuốn sách của em",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Cuốn sách của em"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Bọc sách cẩn thận, không gấp mép hay làm rách trang sách.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Bọc sách cẩn thận, không gấp mép hay làm rách trang sách."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Bọc sách cẩn thận, không gấp mép hay làm rách trang sách.",
+            "en": "Đúng! Bọc sách cẩn thận, không gấp mép hay làm rách trang sách."
+          },
+          "data": {
+            "statement": {
+              "vi": "Bọc sách cẩn thận, không gấp mép hay làm rách trang sách.",
+              "en": "Bọc sách cẩn thận, không gấp mép hay làm rách trang sách."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Sách gồm có bìa trước, bìa sau, trang sách và mục lục..",
+            "en": "Đếm từng tiếng trong câu: Sách gồm có bìa trước, bìa sau, trang sách và mục lục.."
+          },
+          "explanation": {
+            "vi": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' có đúng 12 tiếng.",
+            "en": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' Sách ... có bìa trước bìa sau trang sách và mục lục.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Sách gồm có bìa trước, bìa sau, trang sách và mục lục.' Sách ... có bìa trước bìa sau trang sách và mục lục."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Sách gồm có bìa trước, bìa sau, trang sách và mục lục..",
+            "en": "Nhớ lại câu mẫu trong bài học: Sách gồm có bìa trước, bìa sau, trang sách và mục lục.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'gồm'.",
+            "en": "Từ chính xác là 'gồm'."
+          },
+          "data": {
+            "prefix_text": "Sách ",
+            "suffix_text": " có bìa trước bìa sau trang sách và mục lục.",
+            "options": [
+              "gồm",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "gồm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cuốn sách' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cuốn sách' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cuốn sách' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cuốn sách' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý cuốn sách.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý cuốn sách.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý cuốn sách.",
+              "cuốn sách đang bay trên trời cao.",
+              "cuốn sách nở hoa rực rỡ.",
+              "cuốn sách có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý cuốn sách."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Cuốn sách của em', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Cuốn sách của em', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Cuốn sách của em', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Cuốn sách của em', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương cuốn sách",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương cuốn sách"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t8_2",
+      "title": {
+        "vi": "Tập đọc: Khi trang sách mở ra",
+        "en": "Tập đọc: Khi trang sách mở ra"
+      },
+      "description": {
+        "vi": "Những chân trời kỳ diệu mở ra qua từng trang sách",
+        "en": "Những chân trời kỳ diệu mở ra qua từng trang sách"
+      },
+      "icon": "✨",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t8_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh thể hiện điều kỳ diệu gì khi bạn nhỏ mở từng trang sách?",
+            "en": "Bức tranh thể hiện điều kỳ diệu gì khi bạn nhỏ mở từng trang sách?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh thể hiện điều kỳ diệu gì khi bạn nhỏ mở từng trang sách?",
+            "en": "Bức tranh thể hiện điều kỳ diệu gì khi bạn nhỏ mở từng trang sách?"
+          },
+          "hint": {
+            "vi": "Bầu trời bao la, lâu đài và muôn vì sao bay bổng từ trang sách.",
+            "en": "Bầu trời bao la, lâu đài và muôn vì sao bay bổng từ trang sách."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài thơ: 'Khi trang sách mở ra'.",
+            "en": "Bức tranh minh hoạ bài thơ: 'Khi trang sách mở ra'."
+          },
+          "data": {
+            "options": [
+              "chân trời tri thức mở ra",
+              "màn đêm buông xuống",
+              "cửa phòng đóng chặt",
+              "cơn mưa ập đến"
+            ],
+            "correct_answer": "chân trời tri thức mở ra"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_khi_trang_sach_mo_ra.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trang sách'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trang sách'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trang sách'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'trang sách'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'trang sách' và 'chân trời' cùng thuộc chủ điểm bài học.",
+            "en": "'trang sách' và 'chân trời' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "chân trời",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "chân trời"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "trang sách",
+                  "en": "trang sách"
+                },
+                "right": {
+                  "vi": "Nghĩa của trang sách",
+                  "en": "Nghĩa của trang sách"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "chân trời",
+                  "en": "chân trời"
+                },
+                "right": {
+                  "vi": "Nghĩa của chân trời",
+                  "en": "Nghĩa của chân trời"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "kỳ thú",
+                  "en": "kỳ thú"
+                },
+                "right": {
+                  "vi": "Nghĩa của kỳ thú",
+                  "en": "Nghĩa của kỳ thú"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'trang sách' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'trang sách' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'trang sách' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'trang sách' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'trang sách' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'trang sách' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'trang sách'.",
+            "en": "Từ chính xác là 'trang sách'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "trang sách",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "trang sách"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'trangsách':",
+            "en": "Ghép các chữ cái để tạo thành từ 'trangsách':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'trangsách':",
+            "en": "Ghép các chữ cái để tạo thành từ 'trangsách':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'trangsách'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'trangsách'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'trangsách'.",
+            "en": "Ghép các chữ cái tạo thành 'trangsách'."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "c",
+              "á",
+              "s",
+              "g",
+              "n",
+              "a",
+              "r",
+              "t"
+            ],
+            "target_word": "trangsách",
+            "target_sequence": [
+              "t",
+              "r",
+              "a",
+              "n",
+              "g",
+              "s",
+              "á",
+              "c",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'trang sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'trang sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'trang sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'trang sách' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'trang sách'.",
+            "en": "Xác định bản chất của từ 'trang sách'."
+          },
+          "explanation": {
+            "vi": "'trang sách' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'trang sách' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Khi trang sách mở ra'.",
+            "en": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Khi trang sách mở ra'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Khi trang sách mở ra",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Khi trang sách mở ra"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Đọc sách mỗi ngày giúp mở rộng hiểu biết và vốn từ ngữ.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Đọc sách mỗi ngày giúp mở rộng hiểu biết và vốn từ ngữ."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Đọc sách mỗi ngày giúp mở rộng hiểu biết và vốn từ ngữ.",
+            "en": "Đúng! Đọc sách mỗi ngày giúp mở rộng hiểu biết và vốn từ ngữ."
+          },
+          "data": {
+            "statement": {
+              "vi": "Đọc sách mỗi ngày giúp mở rộng hiểu biết và vốn từ ngữ.",
+              "en": "Đọc sách mỗi ngày giúp mở rộng hiểu biết và vốn từ ngữ."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Khi trang sách mở ra, chân trời rộng mở đón em vào đời..",
+            "en": "Đếm từng tiếng trong câu: Khi trang sách mở ra, chân trời rộng mở đón em vào đời.."
+          },
+          "explanation": {
+            "vi": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' có đúng 13 tiếng.",
+            "en": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' có đúng 13 tiếng."
+          },
+          "data": {
+            "correct_number": "13",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' Khi ... sách mở ra chân trời rộng mở đón em vào đời.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Khi trang sách mở ra, chân trời rộng mở đón em vào đời.' Khi ... sách mở ra chân trời rộng mở đón em vào đời."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Khi trang sách mở ra, chân trời rộng mở đón em vào đời..",
+            "en": "Nhớ lại câu mẫu trong bài học: Khi trang sách mở ra, chân trời rộng mở đón em vào đời.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'trang'.",
+            "en": "Từ chính xác là 'trang'."
+          },
+          "data": {
+            "prefix_text": "Khi ",
+            "suffix_text": " sách mở ra chân trời rộng mở đón em vào đời.",
+            "options": [
+              "trang",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "trang"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'trang sách' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'trang sách' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'trang sách' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'trang sách' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý trang sách.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý trang sách.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý trang sách.",
+              "trang sách đang bay trên trời cao.",
+              "trang sách nở hoa rực rỡ.",
+              "trang sách có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý trang sách."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t8_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Khi trang sách mở ra', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Khi trang sách mở ra', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Khi trang sách mở ra', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Khi trang sách mở ra', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương trang sách",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương trang sách"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

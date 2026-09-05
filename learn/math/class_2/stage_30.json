@@ -1,0 +1,1308 @@
+{
+  "id": "m2_stage_30",
+  "stage_number": 30,
+  "title": {
+    "vi": "Tuần 30: Chắc Chắn, Có Thể, Không Thể (Xác Suất)",
+    "en": "Week 30: Certain, Possible, Impossible"
+  },
+  "subtitle": {
+    "vi": "Bài 66 & 67 - Làm quen khả năng xảy ra của sự kiện",
+    "en": "Lesson 66 & 67 - Event probability basics"
+  },
+  "icon": "🎲",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.138,
+  "required_stars": 87,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "m2_t30_1",
+      "title": {
+        "vi": "Chắc chắn, Có thể, Không thể (Làm quen xác suất)",
+        "en": "Certain, Possible, Impossible"
+      },
+      "description": {
+        "vi": "Phán đoán khả năng xảy ra của một sự kiện",
+        "en": "Determine the likelihood of an event"
+      },
+      "icon": "🎲",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m2_t30_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong hộp chỉ có toàn bóng màu đỏ. Nhắm mắt lấy 1 quả bóng. Khả năng lấy được bóng đỏ là:",
+            "en": "Box has only red balls. Blindly pick 1 ball. Picking red is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong hộp chỉ có toàn bóng màu đỏ. Nhắm mắt lấy 1 quả bóng. Khả năng lấy được bóng đỏ là:",
+            "en": "Box has only red balls. Blindly pick 1 ball. Picking red is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Vì trong hộp chỉ toàn bóng đỏ nên chắc chắn sẽ lấy được bóng đỏ.",
+            "en": "Since all balls are red, it is Certain."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              },
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              },
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              }
+            ],
+            "correct_answer": "Chắc chắn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong hộp chỉ có toàn bóng đỏ. Khả năng lấy được quả bóng màu xanh là:",
+            "en": "Box has only red balls. Picking a green ball is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong hộp chỉ có toàn bóng đỏ. Khả năng lấy được quả bóng màu xanh là:",
+            "en": "Box has only red balls. Picking a green ball is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Trong hộp không có bóng xanh nên không thể lấy được bóng xanh.",
+            "en": "No green balls exist, so it is Impossible."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              },
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              },
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              }
+            ],
+            "correct_answer": "Không thể"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong túi có cả kẹo dâu và kẹo cam. Nhắm mắt lấy 1 cái kẹo. Khả năng lấy được kẹo dâu là:",
+            "en": "Bag has strawberry and orange candies. Picking a strawberry candy is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong túi có cả kẹo dâu và kẹo cam. Nhắm mắt lấy 1 cái kẹo. Khả năng lấy được kẹo dâu là:",
+            "en": "Bag has strawberry and orange candies. Picking a strawberry candy is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Vì túi có cả 2 loại nên có thể lấy được kẹo dâu hoặc kẹo cam.",
+            "en": "Both exist, so it is Possible."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              },
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              },
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              }
+            ],
+            "correct_answer": "Có thể"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Chắc chắn, Có thể, Không thể (Làm quen xác suất)': Trong hộp chỉ có toàn bóng màu đỏ. Nhắm mắt lấy 1 quả bóng. Khả năng lấy được bóng đỏ là:",
+            "en": "Practice 'Certain, Possible, Impossible': Box has only red balls. Blindly pick 1 ball. Picking red is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong hộp chỉ có toàn bóng màu đỏ. Nhắm mắt lấy 1 quả bóng. Khả năng lấy được bóng đỏ là:",
+            "en": "Box has only red balls. Blindly pick 1 ball. Picking red is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Vì trong hộp chỉ toàn bóng đỏ nên chắc chắn sẽ lấy được bóng đỏ.",
+            "en": "Since all balls are red, it is Certain."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              },
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              },
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              }
+            ],
+            "correct_answer": "Chắc chắn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Chắc chắn, Có thể, Không thể (Làm quen xác suất)': Trong hộp chỉ có toàn bóng đỏ. Khả năng lấy được quả bóng màu xanh là:",
+            "en": "Practice 'Certain, Possible, Impossible': Box has only red balls. Picking a green ball is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong hộp chỉ có toàn bóng đỏ. Khả năng lấy được quả bóng màu xanh là:",
+            "en": "Box has only red balls. Picking a green ball is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Trong hộp không có bóng xanh nên không thể lấy được bóng xanh.",
+            "en": "No green balls exist, so it is Impossible."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              },
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              },
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              }
+            ],
+            "correct_answer": "Không thể"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Chắc chắn, Có thể, Không thể (Làm quen xác suất)': Trong túi có cả kẹo dâu và kẹo cam. Nhắm mắt lấy 1 cái kẹo. Khả năng lấy được kẹo dâu là:",
+            "en": "Practice 'Certain, Possible, Impossible': Bag has strawberry and orange candies. Picking a strawberry candy is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong túi có cả kẹo dâu và kẹo cam. Nhắm mắt lấy 1 cái kẹo. Khả năng lấy được kẹo dâu là:",
+            "en": "Bag has strawberry and orange candies. Picking a strawberry candy is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Vì túi có cả 2 loại nên có thể lấy được kẹo dâu hoặc kẹo cam.",
+            "en": "Both exist, so it is Possible."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              },
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              },
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              }
+            ],
+            "correct_answer": "Có thể"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 6 = ...",
+            "en": "Calculate:\n5 x 6 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 6 = ...",
+            "en": "Calculate:\n5 x 6 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "5 x 6 = 30.",
+            "en": "5 x 6 = 30."
+          },
+          "data": {
+            "prefix_text": "5 x 6 = ",
+            "suffix_text": "",
+            "options": [
+              "35",
+              "32",
+              "25",
+              "30"
+            ],
+            "slot_answer": "30"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 3 = ...",
+            "en": "Calculate:\n2 x 3 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 3 = ...",
+            "en": "Calculate:\n2 x 3 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2 x 3 = 6.",
+            "en": "2 x 3 = 6."
+          },
+          "data": {
+            "prefix_text": "2 x 3 = ",
+            "suffix_text": "",
+            "options": [
+              "8",
+              "8",
+              "6",
+              "4"
+            ],
+            "slot_answer": "6"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 61 + 13 = ?",
+            "en": "Calculate: 61 + 13 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 61 + 13 = ?",
+            "en": "Calculate: 61 + 13 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "61 + 13 = 74.",
+            "en": "61 + 13 = 74."
+          },
+          "data": {
+            "prefix_text": "61 + 13 = ",
+            "suffix_text": "",
+            "correct_number": "74"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 57 gồm 5 chục và 7 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 57 has 5 tens and 7 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 57 gồm 5 chục và 7 đơn vị.",
+              "en": "Number 57 has 5 tens and 7 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t30_2",
+      "title": {
+        "vi": "Trò chơi tung đồng xu & Vòng quay may mắn",
+        "en": "Coin Toss & Lucky Wheel Games"
+      },
+      "description": {
+        "vi": "Thực hành gieo đồng xu sấp/ngửa và quay số",
+        "en": "Practice coin tosses and spinner wheels"
+      },
+      "icon": "🪙",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m2_t30_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tung một đồng xu lên cao. Khả năng đồng xu rơi xuống xuất hiện mặt ngửa là:",
+            "en": "Toss a standard coin. Likelihood of landing on Heads is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tung một đồng xu lên cao. Khả năng đồng xu rơi xuống xuất hiện mặt ngửa là:",
+            "en": "Toss a standard coin. Likelihood of landing on Heads is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Đồng xu có thể xuất hiện mặt sấp hoặc mặt ngửa.",
+            "en": "Coin can land on either Heads or Tails (Possible)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              },
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              },
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              }
+            ],
+            "correct_answer": "Có thể"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối tình huống với khả năng xảy ra tương ứng:",
+            "en": "Match situation with probability term:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối tình huống với khả năng xảy ra tương ứng:",
+            "en": "Match situation with probability term:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Đánh giá đúng khả năng thực tế của các sự kiện.",
+            "en": "Evaluate likelihood of real-life events."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Mặt trời mọc ở hướng Đông vào buổi sáng",
+                  "en": "Mặt trời mọc ở hướng Đông vào buổi sáng"
+                },
+                "right": {
+                  "vi": "Chắc chắn",
+                  "en": "Chắc chắn"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Hôm nay trời có thể đổ mưa",
+                  "en": "Hôm nay trời có thể đổ mưa"
+                },
+                "right": {
+                  "vi": "Có thể",
+                  "en": "Có thể"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Một con gà đẻ ra quả trứng vịt",
+                  "en": "Một con gà đẻ ra quả trứng vịt"
+                },
+                "right": {
+                  "vi": "Không thể",
+                  "en": "Không thể"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Sự kiện chắc chắn.",
+            "en": "Decide whether the following statement is true or false: Sự kiện chắc chắn."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Đây là quy luật tự nhiên chắc chắn.",
+            "en": "True! 100% Certain."
+          },
+          "data": {
+            "statement": {
+              "vi": "Sự kiện chắc chắn.",
+              "en": "Sự kiện chắc chắn."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Trò chơi tung đồng xu & Vòng quay may mắn': Tung một đồng xu lên cao. Khả năng đồng xu rơi xuống xuất hiện mặt ngửa là:",
+            "en": "Practice 'Coin Toss & Lucky Wheel Games': Toss a standard coin. Likelihood of landing on Heads is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tung một đồng xu lên cao. Khả năng đồng xu rơi xuống xuất hiện mặt ngửa là:",
+            "en": "Toss a standard coin. Likelihood of landing on Heads is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Đồng xu có thể xuất hiện mặt sấp hoặc mặt ngửa.",
+            "en": "Coin can land on either Heads or Tails (Possible)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              },
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              },
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              }
+            ],
+            "correct_answer": "Có thể"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 4 = ...",
+            "en": "Calculate:\n5 x 4 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 4 = ...",
+            "en": "Calculate:\n5 x 4 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "5 x 4 = 20.",
+            "en": "5 x 4 = 20."
+          },
+          "data": {
+            "prefix_text": "5 x 4 = ",
+            "suffix_text": "",
+            "options": [
+              "15",
+              "22",
+              "25",
+              "20"
+            ],
+            "slot_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 6 = ...",
+            "en": "Calculate:\n5 x 6 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 6 = ...",
+            "en": "Calculate:\n5 x 6 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "5 x 6 = 30.",
+            "en": "5 x 6 = 30."
+          },
+          "data": {
+            "prefix_text": "5 x 6 = ",
+            "suffix_text": "",
+            "options": [
+              "30",
+              "32",
+              "25",
+              "35"
+            ],
+            "slot_answer": "30"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 39 + 8 = ?",
+            "en": "Calculate: 39 + 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 39 + 8 = ?",
+            "en": "Calculate: 39 + 8 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "39 + 8 = 47.",
+            "en": "39 + 8 = 47."
+          },
+          "data": {
+            "prefix_text": "39 + 8 = ",
+            "suffix_text": "",
+            "correct_number": "47"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 33 gồm 3 chục và 3 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 33 has 3 tens and 3 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 33 gồm 3 chục và 3 đơn vị.",
+              "en": "Number 33 has 3 tens and 3 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Kết quả của phép tính 32 + 16 là:",
+            "en": "Result of 32 + 16 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "32 cộng 16 bằng bao nhiêu?",
+            "en": "32 plus 16 is?"
+          },
+          "hint": {
+            "vi": "Cộng hàng đơn vị rồi cộng hàng chục.",
+            "en": "Add ones then tens."
+          },
+          "explanation": {
+            "vi": "32 + 16 = 48.",
+            "en": "32 + 16 = 48."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "48",
+                "en": "48"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "46",
+                "en": "46"
+              }
+            ],
+            "correct_answer": "48"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 85 gồm 8 chục và 5 đơn vị.",
+            "en": "Number 85 has 8 tens and 5 ones."
+          },
+          "hint": {
+            "vi": "Xác định chữ số hàng chục và hàng đơn vị.",
+            "en": "Check tens and ones."
+          },
+          "explanation": {
+            "vi": "Số 85 gồm 8 chục và 5 đơn vị.",
+            "en": "85 has 8 tens and 5 ones."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 85 gồm 8 chục và 5 đơn vị.",
+              "en": "Number 85 consists of 8 tens and 5 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t30_3",
+      "title": {
+        "vi": "Luyện tập tư duy xác suất thông minh",
+        "en": "Probability Logic Practice"
+      },
+      "description": {
+        "vi": "Rèn luyện tư duy logic phán đoán tình huống",
+        "en": "Sharpen logical judgment and prediction"
+      },
+      "icon": "🧠",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m2_t30_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Gieo một con xúc xắc 6 mặt (từ chấm 1 đến chấm 6). Khả năng xuất hiện mặt 7 chấm là:",
+            "en": "Roll a standard 6-sided die. Likelihood of getting a 7 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Gieo một con xúc xắc 6 mặt (từ chấm 1 đến chấm 6). Khả năng xuất hiện mặt 7 chấm là:",
+            "en": "Roll a standard 6-sided die. Likelihood of getting a 7 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Con xúc xắc chỉ có từ 1 đến 6 chấm nên không thể có mặt 7 chấm.",
+            "en": "Dice only has 1 to 6 dots (Impossible)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              },
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              },
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              }
+            ],
+            "correct_answer": "Không thể"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Sự kiện chắc chắn.",
+            "en": "Decide whether the following statement is true or false: Sự kiện chắc chắn."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Tất cả các mặt 1, 2, 3, 4, 5, 6 đều bé hơn 7.",
+            "en": "True! All faces 1-6 are < 7 (Certain)."
+          },
+          "data": {
+            "statement": {
+              "vi": "Sự kiện chắc chắn.",
+              "en": "Sự kiện chắc chắn."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tập tư duy xác suất thông minh': Gieo một con xúc xắc 6 mặt (từ chấm 1 đến chấm 6). Khả năng xuất hiện mặt 7 chấm là:",
+            "en": "Practice 'Probability Logic Practice': Roll a standard 6-sided die. Likelihood of getting a 7 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Gieo một con xúc xắc 6 mặt (từ chấm 1 đến chấm 6). Khả năng xuất hiện mặt 7 chấm là:",
+            "en": "Roll a standard 6-sided die. Likelihood of getting a 7 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Con xúc xắc chỉ có từ 1 đến 6 chấm nên không thể có mặt 7 chấm.",
+            "en": "Dice only has 1 to 6 dots (Impossible)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Chắc chắn",
+                "en": "Chắc chắn"
+              },
+              {
+                "vi": "Không thể",
+                "en": "Không thể"
+              },
+              {
+                "vi": "Có thể",
+                "en": "Có thể"
+              }
+            ],
+            "correct_answer": "Không thể"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_5",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 3 bé hơn số 2 (3 < 2).",
+            "en": "Decide whether the following statement is true or false: Số 3 bé hơn số 2 (3 < 2)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3 bé hơn số 2 (3 < 2).",
+              "en": "Số 3 bé hơn số 2 (3 < 2)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 4,  ... , 6",
+            "en": "Drag the correct answer into the slot:\nDãy số: 4,  ... , 6"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 4,  ... , 6",
+            "en": "Drag the correct answer: Dãy số: 4,  ... , 6"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 4,  5 , 6",
+            "en": "Dãy số: 4,  5 , 6"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 4, ",
+            "suffix_text": ", 6",
+            "options": [
+              "7",
+              "5",
+              "4",
+              "8"
+            ],
+            "slot_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 1 đứng liền trước số 2.",
+            "en": "Decide whether the following statement is true or false: Số 1 đứng liền trước số 2."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 1 đứng liền trước số 2.",
+              "en": "Số 1 đứng liền trước số 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_9",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 5,  ... , 7",
+            "en": "Drag the correct answer into the slot:\nDãy số: 5,  ... , 7"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 5,  ... , 7",
+            "en": "Drag the correct answer: Dãy số: 5,  ... , 7"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 5,  6 , 7",
+            "en": "Dãy số: 5,  6 , 7"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 5, ",
+            "suffix_text": ", 7",
+            "options": [
+              "8",
+              "5",
+              "9",
+              "6"
+            ],
+            "slot_answer": "6"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 2 bé hơn số 1 (2 < 1).",
+            "en": "Decide whether the following statement is true or false: Số 2 bé hơn số 1 (2 < 1)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 2 bé hơn số 1 (2 < 1).",
+              "en": "Số 2 bé hơn số 1 (2 < 1)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 32 + 8 = ?",
+            "en": "Calculate: 32 + 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 32 + 8 = ?",
+            "en": "Calculate: 32 + 8 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "32 + 8 = 40.",
+            "en": "32 + 8 = 40."
+          },
+          "data": {
+            "prefix_text": "32 + 8 = ",
+            "suffix_text": "",
+            "correct_number": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 62 gồm 6 chục và 2 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 62 has 6 tens and 2 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 62 gồm 6 chục và 2 đơn vị.",
+              "en": "Number 62 has 6 tens and 2 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t30_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 1",
+                  "en": "2 x 1"
+                },
+                "right": {
+                  "vi": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 2",
+                  "en": "2 x 2"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 3",
+                  "en": "2 x 3"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

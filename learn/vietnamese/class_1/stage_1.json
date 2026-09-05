@@ -1,0 +1,1116 @@
+{
+  "id": "v1_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Tuần 1: Chào Em Vào Lớp 1 - Làm Quen Chữ Cái",
+    "en": "Tuần 1: Chào Em Vào Lớp 1 - Làm Quen Chữ Cái"
+  },
+  "subtitle": {
+    "vi": "Bài 1 & 2 - Âm a, b, c và Dấu thanh huyền, sắc",
+    "en": "Bài 1 & 2 - Âm a, b, c và Dấu thanh huyền, sắc"
+  },
+  "icon": "🎒",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "v1_t1_1",
+      "title": {
+        "vi": "Làm quen âm 'a', 'b' và dấu huyền (\\)",
+        "en": "Làm quen âm 'a', 'b' và dấu huyền (\\)"
+      },
+      "description": {
+        "vi": "Nhận biết âm a, b trong tiếng ba, bà, cá, gà",
+        "en": "Nhận biết âm a, b trong tiếng ba, bà, cá, gà"
+      },
+      "icon": "🅰️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Quan sát bức tranh dưới đây và cho biết các bạn nhỏ đang làm gì trước cổng trường?",
+            "en": "Quan sát bức tranh dưới đây và cho biết các bạn nhỏ đang làm gì trước cổng trường?"
+          },
+          "tts_prompt": {
+            "vi": "Quan sát bức tranh dưới đây và cho biết các bạn nhỏ đang làm gì trước cổng trường?",
+            "en": "Quan sát bức tranh dưới đây và cho biết các bạn nhỏ đang làm gì trước cổng trường?"
+          },
+          "hint": {
+            "vi": "Bức tranh vẽ cảnh các bạn nhỏ tươi cười khoanh tay chào trước cổng trường.",
+            "en": "Bức tranh vẽ cảnh các bạn nhỏ tươi cười khoanh tay chào trước cổng trường."
+          },
+          "explanation": {
+            "vi": "Các bạn nhỏ đang lễ phép chào hỏi khi đến trường Tiểu học Lê Quý Đôn.",
+            "en": "Các bạn nhỏ đang lễ phép chào hỏi khi đến trường Tiểu học Lê Quý Đôn."
+          },
+          "data": {
+            "options": [
+              "Chào hỏi thầy cô và bạn bè",
+              "Đang ăn sáng",
+              "Đang xem tivi",
+              "Đang ngủ"
+            ],
+            "correct_answer": "Chào hỏi thầy cô và bạn bè"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_chu_cai_a_b_c.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'ba', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'ba', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'ba', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'ba', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'ba'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'ba'."
+          },
+          "explanation": {
+            "vi": "Trong 'ba', âm 'b' là âm đầu đứng trước.",
+            "en": "Trong 'ba', âm 'b' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "b",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "b"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "ba",
+                  "en": "ba"
+                },
+                "right": {
+                  "vi": "Tiếng ba",
+                  "en": "Tiếng ba"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bà",
+                  "en": "bà"
+                },
+                "right": {
+                  "vi": "Tiếng bà",
+                  "en": "Tiếng bà"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cá",
+                  "en": "cá"
+                },
+                "right": {
+                  "vi": "Tiếng cá",
+                  "en": "Tiếng cá"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'bà' xuất hiện trong bài học về 'a'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'bà' xuất hiện trong bài học về 'a'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'a'.",
+            "en": "Nhớ lại nội dung bài học về 'a'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'bà' là trọng tâm trong bài học về 'a'.",
+            "en": "Đúng! Nội dung 'bà' là trọng tâm trong bài học về 'a'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'bà' xuất hiện trong bài học về 'a'.",
+              "en": "Từ hoặc câu liên quan đến 'bà' xuất hiện trong bài học về 'a'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'ba'.",
+            "en": "Chọn từ đang học trong bài: 'ba'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'ba'.",
+            "en": "Từ chính xác là 'ba'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "ba",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "ba"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'ba':",
+            "en": "Ghép các chữ cái để tạo thành từ 'ba':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'ba':",
+            "en": "Ghép các chữ cái để tạo thành từ 'ba':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'ba'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'ba'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'ba'.",
+            "en": "Ghép các chữ cái tạo thành 'ba'."
+          },
+          "data": {
+            "letters": [
+              "a",
+              "b"
+            ],
+            "target_word": "ba",
+            "target_sequence": [
+              "b",
+              "a"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'ba' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'ba' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'ba' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'ba' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'ba'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'ba'."
+          },
+          "explanation": {
+            "vi": "'ba bà' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'ba bà' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "bà",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "bà"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Ba có cá.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Ba có cá.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Ba có cá.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Ba có cá.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Ba có cá.' thuộc chủ đề 'Làm quen âm 'a', 'b' và dấu huyền (\\)'.",
+            "en": "Câu 'Ba có cá.' thuộc chủ đề 'Làm quen âm 'a', 'b' và dấu huyền (\\)'."
+          },
+          "data": {
+            "options": [
+              "Làm quen âm 'a', 'b' và dấu huyền (\\)",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Làm quen âm 'a', 'b' và dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Chữ cái đầu câu luôn luôn phải viết hoa.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Chữ cái đầu câu luôn luôn phải viết hoa."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Chữ cái đầu câu luôn luôn phải viết hoa.",
+            "en": "Đúng! Chữ cái đầu câu luôn luôn phải viết hoa."
+          },
+          "data": {
+            "statement": {
+              "vi": "Chữ cái đầu câu luôn luôn phải viết hoa.",
+              "en": "Chữ cái đầu câu luôn luôn phải viết hoa."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Ba có cá.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Ba có cá.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Ba có cá.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Ba có cá.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Ba có cá..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Ba có cá.."
+          },
+          "explanation": {
+            "vi": "Câu 'Ba có cá.' có đúng 3 tiếng.",
+            "en": "Câu 'Ba có cá.' có đúng 3 tiếng."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'bà' mang dấu thanh gì?",
+            "en": "Tiếng 'bà' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'bà' mang dấu thanh gì?",
+            "en": "Tiếng 'bà' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'bà' mang dấu thanh chính xác.",
+            "en": "Tiếng 'bà' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Ba có cá.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Ba có cá.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Ba có cá.' Ba ... cá.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Ba có cá.' Ba ... cá."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Ba có cá..",
+            "en": "Nhớ lại câu mẫu: Ba có cá.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'có'.",
+            "en": "Từ chính xác là 'có'."
+          },
+          "data": {
+            "prefix_text": "Ba ",
+            "suffix_text": " cá.",
+            "options": [
+              "có",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "có"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'ba'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'ba'."
+          },
+          "explanation": {
+            "vi": "'ba' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'ba' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "ba",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "ba"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'a'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'a'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'a'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'a'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'a' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'a' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'ba'.",
+            "en": "Tiếng mẫu của bài là 'ba'."
+          },
+          "data": {
+            "options": [
+              "ba",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "ba"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t1_2",
+      "title": {
+        "vi": "Làm quen âm 'c' và dấu sắc (/)",
+        "en": "Làm quen âm 'c' và dấu sắc (/)"
+      },
+      "description": {
+        "vi": "Nhận biết âm c, dấu sắc trong tiếng ca, cá, cà",
+        "en": "Nhận biết âm c, dấu sắc trong tiếng ca, cá, cà"
+      },
+      "icon": "🐟",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t1_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Quan sát bức tranh gia đình dưới đây và cho biết bà và ba đang có món gì?",
+            "en": "Quan sát bức tranh gia đình dưới đây và cho biết bà và ba đang có món gì?"
+          },
+          "tts_prompt": {
+            "vi": "Quan sát bức tranh gia đình dưới đây và cho biết bà và ba đang có món gì?",
+            "en": "Quan sát bức tranh gia đình dưới đây và cho biết bà và ba đang có món gì?"
+          },
+          "hint": {
+            "vi": "Nhìn trên bàn và giỏ đi chợ của ba và bà.",
+            "en": "Nhìn trên bàn và giỏ đi chợ của ba và bà."
+          },
+          "explanation": {
+            "vi": "Bức tranh vẽ cảnh gia đình ấm cúng: Ba có cá, bà có cà.",
+            "en": "Bức tranh vẽ cảnh gia đình ấm cúng: Ba có cá, bà có cà."
+          },
+          "data": {
+            "options": [
+              "Ba có cá, bà có cà",
+              "Ba có xe đạp",
+              "Bà có búp bê",
+              "Ba có máy tính"
+            ],
+            "correct_answer": "Ba có cá, bà có cà"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_ba_va_ca.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'ca', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'ca', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'ca', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'ca', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'ca'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'ca'."
+          },
+          "explanation": {
+            "vi": "Trong 'ca', âm 'c' là âm đầu đứng trước.",
+            "en": "Trong 'ca', âm 'c' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "c",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "c"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "ca",
+                  "en": "ca"
+                },
+                "right": {
+                  "vi": "Tiếng ca",
+                  "en": "Tiếng ca"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "cá",
+                  "en": "cá"
+                },
+                "right": {
+                  "vi": "Tiếng cá",
+                  "en": "Tiếng cá"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cà",
+                  "en": "cà"
+                },
+                "right": {
+                  "vi": "Tiếng cà",
+                  "en": "Tiếng cà"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'cá' xuất hiện trong bài học về 'c'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'cá' xuất hiện trong bài học về 'c'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'c'.",
+            "en": "Nhớ lại nội dung bài học về 'c'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'cá' là trọng tâm trong bài học về 'c'.",
+            "en": "Đúng! Nội dung 'cá' là trọng tâm trong bài học về 'c'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'cá' xuất hiện trong bài học về 'c'.",
+              "en": "Từ hoặc câu liên quan đến 'cá' xuất hiện trong bài học về 'c'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'ca'.",
+            "en": "Chọn từ đang học trong bài: 'ca'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'ca'.",
+            "en": "Từ chính xác là 'ca'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "ca",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "ca"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'ca':",
+            "en": "Ghép các chữ cái để tạo thành từ 'ca':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'ca':",
+            "en": "Ghép các chữ cái để tạo thành từ 'ca':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'ca'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'ca'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'ca'.",
+            "en": "Ghép các chữ cái tạo thành 'ca'."
+          },
+          "data": {
+            "letters": [
+              "a",
+              "c"
+            ],
+            "target_word": "ca",
+            "target_sequence": [
+              "c",
+              "a"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'ca' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'ca' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'ca' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'ca' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'ca'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'ca'."
+          },
+          "explanation": {
+            "vi": "'ca cá' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'ca cá' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "cá",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "cá"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Bà có cà.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bà có cà.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Bà có cà.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bà có cà.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Bà có cà.' thuộc chủ đề 'Làm quen âm 'c' và dấu sắc (/)'.",
+            "en": "Câu 'Bà có cà.' thuộc chủ đề 'Làm quen âm 'c' và dấu sắc (/)'."
+          },
+          "data": {
+            "options": [
+              "Làm quen âm 'c' và dấu sắc (/)",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Làm quen âm 'c' và dấu sắc (/)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Dấu sắc (/) đặt trên đầu chữ cái âm chính.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Dấu sắc (/) đặt trên đầu chữ cái âm chính."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu sắc (/) đặt trên đầu chữ cái âm chính.",
+            "en": "Đúng! Dấu sắc (/) đặt trên đầu chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Dấu sắc (/) đặt trên đầu chữ cái âm chính.",
+              "en": "Dấu sắc (/) đặt trên đầu chữ cái âm chính."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Bà có cà.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bà có cà.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bà có cà.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bà có cà.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Bà có cà..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Bà có cà.."
+          },
+          "explanation": {
+            "vi": "Câu 'Bà có cà.' có đúng 3 tiếng.",
+            "en": "Câu 'Bà có cà.' có đúng 3 tiếng."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'cá' mang dấu thanh gì?",
+            "en": "Tiếng 'cá' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'cá' mang dấu thanh gì?",
+            "en": "Tiếng 'cá' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'cá' mang dấu thanh chính xác.",
+            "en": "Tiếng 'cá' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu sắc (/)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bà có cà.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bà có cà.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bà có cà.' Bà ... cà.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bà có cà.' Bà ... cà."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Bà có cà..",
+            "en": "Nhớ lại câu mẫu: Bà có cà.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'có'.",
+            "en": "Từ chính xác là 'có'."
+          },
+          "data": {
+            "prefix_text": "Bà ",
+            "suffix_text": " cà.",
+            "options": [
+              "có",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "có"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'ca'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'ca'."
+          },
+          "explanation": {
+            "vi": "'ca' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'ca' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "ca",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "ca"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t1_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'c'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'c'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'c'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'c'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'c' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'c' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'ca'.",
+            "en": "Tiếng mẫu của bài là 'ca'."
+          },
+          "data": {
+            "options": [
+              "ca",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "ca"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

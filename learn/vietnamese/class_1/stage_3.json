@@ -1,0 +1,1116 @@
+{
+  "id": "v1_stage_3",
+  "stage_number": 3,
+  "title": {
+    "vi": "Tuần 3: Phụ Âm Đầu & Chữ Ghi Âm",
+    "en": "Tuần 3: Phụ Âm Đầu & Chữ Ghi Âm"
+  },
+  "subtitle": {
+    "vi": "Bài 8 & 11 - Âm d, đ, i, k, h, l",
+    "en": "Bài 8 & 11 - Âm d, đ, i, k, h, l"
+  },
+  "icon": "🦆",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.892,
+  "required_stars": 6,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "v1_t3_1",
+      "title": {
+        "vi": "Phụ âm 'd', 'đ' và nguyên âm 'i', 'k'",
+        "en": "Phụ âm 'd', 'đ' và nguyên âm 'i', 'k'"
+      },
+      "description": {
+        "vi": "Nhận biết tiếng da, đò, bi, kẻ",
+        "en": "Nhận biết tiếng da, đò, bi, kẻ"
+      },
+      "icon": "🛶",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t3_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh dưới đây vẽ cảnh bé và mẹ đang di chuyển bằng phương tiện gì trên sông?",
+            "en": "Bức tranh dưới đây vẽ cảnh bé và mẹ đang di chuyển bằng phương tiện gì trên sông?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh dưới đây vẽ cảnh bé và mẹ đang di chuyển bằng phương tiện gì trên sông?",
+            "en": "Bức tranh dưới đây vẽ cảnh bé và mẹ đang di chuyển bằng phương tiện gì trên sông?"
+          },
+          "hint": {
+            "vi": "Chiếc đò nhỏ đang chở mẹ và bé qua sông.",
+            "en": "Chiếc đò nhỏ đang chở mẹ và bé qua sông."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài học: 'Bé đi đò qua sông'.",
+            "en": "Bức tranh minh hoạ bài học: 'Bé đi đò qua sông'."
+          },
+          "data": {
+            "options": [
+              "Bé đi đò",
+              "Bé đi máy bay",
+              "Bé đi tàu ngầm",
+              "Bé đi xe buýt"
+            ],
+            "correct_answer": "Bé đi đò"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_be_di_do.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'đò', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'đò', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'đò', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'đò', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'đò'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'đò'."
+          },
+          "explanation": {
+            "vi": "Trong 'đò', âm 'đ' là âm đầu đứng trước.",
+            "en": "Trong 'đò', âm 'đ' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "đ",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "đ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "đò",
+                  "en": "đò"
+                },
+                "right": {
+                  "vi": "Tiếng đò",
+                  "en": "Tiếng đò"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "da",
+                  "en": "da"
+                },
+                "right": {
+                  "vi": "Tiếng da",
+                  "en": "Tiếng da"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "đi",
+                  "en": "đi"
+                },
+                "right": {
+                  "vi": "Tiếng đi",
+                  "en": "Tiếng đi"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'da' xuất hiện trong bài học về 'đ'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'da' xuất hiện trong bài học về 'đ'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'đ'.",
+            "en": "Nhớ lại nội dung bài học về 'đ'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'da' là trọng tâm trong bài học về 'đ'.",
+            "en": "Đúng! Nội dung 'da' là trọng tâm trong bài học về 'đ'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'da' xuất hiện trong bài học về 'đ'.",
+              "en": "Từ hoặc câu liên quan đến 'da' xuất hiện trong bài học về 'đ'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'đò'.",
+            "en": "Chọn từ đang học trong bài: 'đò'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'đò'.",
+            "en": "Từ chính xác là 'đò'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "đò",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "đò"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'đò':",
+            "en": "Ghép các chữ cái để tạo thành từ 'đò':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'đò':",
+            "en": "Ghép các chữ cái để tạo thành từ 'đò':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'đò'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'đò'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'đò'.",
+            "en": "Ghép các chữ cái tạo thành 'đò'."
+          },
+          "data": {
+            "letters": [
+              "ò",
+              "đ"
+            ],
+            "target_word": "đò",
+            "target_sequence": [
+              "đ",
+              "ò"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'đò' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'đò' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'đò' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'đò' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'đò'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'đò'."
+          },
+          "explanation": {
+            "vi": "'đò da' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'đò da' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "da",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "da"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Bé đi đò.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bé đi đò.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Bé đi đò.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bé đi đò.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Bé đi đò.' thuộc chủ đề 'Phụ âm 'd', 'đ' và nguyên âm 'i', 'k''.",
+            "en": "Câu 'Bé đi đò.' thuộc chủ đề 'Phụ âm 'd', 'đ' và nguyên âm 'i', 'k''."
+          },
+          "data": {
+            "options": [
+              "Phụ âm 'd', 'đ' và nguyên âm 'i', 'k'",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Phụ âm 'd', 'đ' và nguyên âm 'i', 'k'"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Âm k chỉ đi với các chữ cái e, ê, i.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Âm k chỉ đi với các chữ cái e, ê, i."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Âm k chỉ đi với các chữ cái e, ê, i.",
+            "en": "Đúng! Âm k chỉ đi với các chữ cái e, ê, i."
+          },
+          "data": {
+            "statement": {
+              "vi": "Âm k chỉ đi với các chữ cái e, ê, i.",
+              "en": "Âm k chỉ đi với các chữ cái e, ê, i."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Bé đi đò.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bé đi đò.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bé đi đò.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bé đi đò.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Bé đi đò..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Bé đi đò.."
+          },
+          "explanation": {
+            "vi": "Câu 'Bé đi đò.' có đúng 3 tiếng.",
+            "en": "Câu 'Bé đi đò.' có đúng 3 tiếng."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'da' mang dấu thanh gì?",
+            "en": "Tiếng 'da' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'da' mang dấu thanh gì?",
+            "en": "Tiếng 'da' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'da' mang dấu thanh chính xác.",
+            "en": "Tiếng 'da' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé đi đò.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé đi đò.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé đi đò.' Bé ... đò.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bé đi đò.' Bé ... đò."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Bé đi đò..",
+            "en": "Nhớ lại câu mẫu: Bé đi đò.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'đi'.",
+            "en": "Từ chính xác là 'đi'."
+          },
+          "data": {
+            "prefix_text": "Bé ",
+            "suffix_text": " đò.",
+            "options": [
+              "đi",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "đi"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Đ",
+                  "en": "Đ"
+                },
+                "right": {
+                  "vi": "đ",
+                  "en": "đ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Đ",
+                  "en": "Đ"
+                },
+                "right": {
+                  "vi": "đ",
+                  "en": "đ"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Đ",
+                  "en": "Đ"
+                },
+                "right": {
+                  "vi": "đ",
+                  "en": "đ"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'đò'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'đò'."
+          },
+          "explanation": {
+            "vi": "'đò' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'đò' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "đò",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "đò"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'đ'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'đ'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'đ'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'đ'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'đ' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'đ' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'đò'.",
+            "en": "Tiếng mẫu của bài là 'đò'."
+          },
+          "data": {
+            "options": [
+              "đò",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "đò"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t3_2",
+      "title": {
+        "vi": "Phụ âm 'h', 'l' và tiếng ứng dụng",
+        "en": "Phụ âm 'h', 'l' và tiếng ứng dụng"
+      },
+      "description": {
+        "vi": "Nhận biết tiếng hổ, lá, hoa, lê",
+        "en": "Nhận biết tiếng hổ, lá, hoa, lê"
+      },
+      "icon": "🐯",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t3_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Loài hoa thanh khiết nào đang toả ngát hương sắc trong hồ nước trong tranh?",
+            "en": "Loài hoa thanh khiết nào đang toả ngát hương sắc trong hồ nước trong tranh?"
+          },
+          "tts_prompt": {
+            "vi": "Loài hoa thanh khiết nào đang toả ngát hương sắc trong hồ nước trong tranh?",
+            "en": "Loài hoa thanh khiết nào đang toả ngát hương sắc trong hồ nước trong tranh?"
+          },
+          "hint": {
+            "vi": "Bông hoa màu hồng nở trên lá sen tròn xanh mướt.",
+            "en": "Bông hoa màu hồng nở trên lá sen tròn xanh mướt."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ câu: 'Hồ có hoa sen'.",
+            "en": "Bức tranh minh hoạ câu: 'Hồ có hoa sen'."
+          },
+          "data": {
+            "options": [
+              "hoa sen",
+              "hoa hồng",
+              "hoa đào",
+              "hoa mai"
+            ],
+            "correct_answer": "hoa sen"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_ho_hoa_sen.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'hổ', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'hổ', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'hổ', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'hổ', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'hổ'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'hổ'."
+          },
+          "explanation": {
+            "vi": "Trong 'hổ', âm 'h' là âm đầu đứng trước.",
+            "en": "Trong 'hổ', âm 'h' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "h",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "h"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "hổ",
+                  "en": "hổ"
+                },
+                "right": {
+                  "vi": "Tiếng hổ",
+                  "en": "Tiếng hổ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "lá",
+                  "en": "lá"
+                },
+                "right": {
+                  "vi": "Tiếng lá",
+                  "en": "Tiếng lá"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "hồ",
+                  "en": "hồ"
+                },
+                "right": {
+                  "vi": "Tiếng hồ",
+                  "en": "Tiếng hồ"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'lá' xuất hiện trong bài học về 'h'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'lá' xuất hiện trong bài học về 'h'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'h'.",
+            "en": "Nhớ lại nội dung bài học về 'h'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'lá' là trọng tâm trong bài học về 'h'.",
+            "en": "Đúng! Nội dung 'lá' là trọng tâm trong bài học về 'h'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'lá' xuất hiện trong bài học về 'h'.",
+              "en": "Từ hoặc câu liên quan đến 'lá' xuất hiện trong bài học về 'h'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'hổ'.",
+            "en": "Chọn từ đang học trong bài: 'hổ'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'hổ'.",
+            "en": "Từ chính xác là 'hổ'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "hổ",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "hổ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'hổ':",
+            "en": "Ghép các chữ cái để tạo thành từ 'hổ':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'hổ':",
+            "en": "Ghép các chữ cái để tạo thành từ 'hổ':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'hổ'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'hổ'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'hổ'.",
+            "en": "Ghép các chữ cái tạo thành 'hổ'."
+          },
+          "data": {
+            "letters": [
+              "ổ",
+              "h"
+            ],
+            "target_word": "hổ",
+            "target_sequence": [
+              "h",
+              "ổ"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'hổ' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'hổ' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'hổ' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'hổ' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'hổ'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'hổ'."
+          },
+          "explanation": {
+            "vi": "'hổ lá' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'hổ lá' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "lá",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "lá"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Hồ có hoa sen.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Hồ có hoa sen.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Hồ có hoa sen.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Hồ có hoa sen.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Hồ có hoa sen.' thuộc chủ đề 'Phụ âm 'h', 'l' và tiếng ứng dụng'.",
+            "en": "Câu 'Hồ có hoa sen.' thuộc chủ đề 'Phụ âm 'h', 'l' và tiếng ứng dụng'."
+          },
+          "data": {
+            "options": [
+              "Phụ âm 'h', 'l' và tiếng ứng dụng",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Phụ âm 'h', 'l' và tiếng ứng dụng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Tiếng 'hổ' có âm đầu h và dấu hỏi.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Tiếng 'hổ' có âm đầu h và dấu hỏi."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Tiếng 'hổ' có âm đầu h và dấu hỏi.",
+            "en": "Đúng! Tiếng 'hổ' có âm đầu h và dấu hỏi."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tiếng 'hổ' có âm đầu h và dấu hỏi.",
+              "en": "Tiếng 'hổ' có âm đầu h và dấu hỏi."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Hồ có hoa sen.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Hồ có hoa sen.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Hồ có hoa sen.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Hồ có hoa sen.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Hồ có hoa sen..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Hồ có hoa sen.."
+          },
+          "explanation": {
+            "vi": "Câu 'Hồ có hoa sen.' có đúng 4 tiếng.",
+            "en": "Câu 'Hồ có hoa sen.' có đúng 4 tiếng."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'lá' mang dấu thanh gì?",
+            "en": "Tiếng 'lá' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'lá' mang dấu thanh gì?",
+            "en": "Tiếng 'lá' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'lá' mang dấu thanh chính xác.",
+            "en": "Tiếng 'lá' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu sắc (/)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Hồ có hoa sen.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Hồ có hoa sen.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Hồ có hoa sen.' Hồ ... hoa sen.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Hồ có hoa sen.' Hồ ... hoa sen."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Hồ có hoa sen..",
+            "en": "Nhớ lại câu mẫu: Hồ có hoa sen.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'có'.",
+            "en": "Từ chính xác là 'có'."
+          },
+          "data": {
+            "prefix_text": "Hồ ",
+            "suffix_text": " hoa sen.",
+            "options": [
+              "có",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "có"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'hổ'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'hổ'."
+          },
+          "explanation": {
+            "vi": "'hổ' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'hổ' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "hổ",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "hổ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t3_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'h'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'h'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'h'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'h'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'h' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'h' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'hổ'.",
+            "en": "Tiếng mẫu của bài là 'hổ'."
+          },
+          "data": {
+            "options": [
+              "hổ",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "hổ"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

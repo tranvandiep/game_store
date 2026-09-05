@@ -1,0 +1,1188 @@
+{
+  "id": "m2_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Tuần 1: Ôn Tập Số Đến 100 & Tia Số",
+    "en": "Week 1: Numbers to 100 & Number Line"
+  },
+  "subtitle": {
+    "vi": "Bài 1 & 2 - Ôn tập và tia số",
+    "en": "Lesson 1 & 2 - Review and number line"
+  },
+  "icon": "🔢",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "m2_t1_1",
+      "title": {
+        "vi": "Ôn tập các số đến 100",
+        "en": "Review Numbers to 100"
+      },
+      "description": {
+        "vi": "Đọc, viết, phân tích số có 2 chữ số và số 100",
+        "en": "Read, write, analyze 2-digit numbers and 100"
+      },
+      "icon": "🔢",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m2_t1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số gồm 7 chục và 5 đơn vị viết là:",
+            "en": "A number with 7 tens and 5 ones is written as:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số gồm 7 chục và 5 đơn vị viết là:",
+            "en": "A number with 7 tens and 5 ones is written as:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "7 chục và 5 đơn vị là 75.",
+            "en": "7 tens and 5 ones make 75."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "75",
+                "en": "75"
+              },
+              {
+                "vi": "57",
+                "en": "57"
+              },
+              {
+                "vi": "705",
+                "en": "705"
+              }
+            ],
+            "correct_answer": "75"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối cách đọc với số tương ứng:",
+            "en": "Match pronunciation with number:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối cách đọc với số tương ứng:",
+            "en": "Match pronunciation with number:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Đọc đúng các số theo quy chuẩn Tiếng Việt.",
+            "en": "Standard Vietnamese number reading rules."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Ba mươi mốt",
+                  "en": "Ba mươi mốt"
+                },
+                "right": {
+                  "vi": "31",
+                  "en": "31"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Bảy mươi tư",
+                  "en": "Bảy mươi tư"
+                },
+                "right": {
+                  "vi": "74",
+                  "en": "74"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Tám mươi lăm",
+                  "en": "Tám mươi lăm"
+                },
+                "right": {
+                  "vi": "85",
+                  "en": "85"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 10 chục = 100.",
+            "en": "Decide whether the following statement is true or false: 10 chục = 100."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 10 chục tạo thành 1 trăm (100).",
+            "en": "True! 10 tens equal 1 hundred."
+          },
+          "data": {
+            "statement": {
+              "vi": "10 chục = 100.",
+              "en": "10 chục = 100."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 4 : 4 = ?",
+            "en": "Calculate: 4 : 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 4 : 4 = ?",
+            "en": "Calculate: 4 : 4 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 4 : 4.",
+            "en": "Calculate 4 : 4."
+          },
+          "explanation": {
+            "vi": "4 : 4 = 1",
+            "en": "4 : 4 = 1"
+          },
+          "data": {
+            "options": [
+              "1",
+              "3",
+              "2",
+              "0"
+            ],
+            "correct_answer": "1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 15 : 5 = ?",
+            "en": "Calculate: 15 : 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 15 : 5 = ?",
+            "en": "Calculate: 15 : 5 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 15 : 5.",
+            "en": "Calculate 15 : 5."
+          },
+          "explanation": {
+            "vi": "15 : 5 = 3",
+            "en": "15 : 5 = 3"
+          },
+          "data": {
+            "options": [
+              "3",
+              "2",
+              "5",
+              "4"
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 8 : 2 = ?",
+            "en": "Calculate: 8 : 2 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 8 : 2 = ?",
+            "en": "Calculate: 8 : 2 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 8 : 2.",
+            "en": "Calculate 8 : 2."
+          },
+          "explanation": {
+            "vi": "8 : 2 = 4",
+            "en": "8 : 2 = 4"
+          },
+          "data": {
+            "options": [
+              "3",
+              "6",
+              "5",
+              "4"
+            ],
+            "correct_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n4 x 2 = ...",
+            "en": "Calculate:\n4 x 2 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n4 x 2 = ...",
+            "en": "Calculate:\n4 x 2 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "4 x 2 = 8.",
+            "en": "4 x 2 = 8."
+          },
+          "data": {
+            "prefix_text": "4 x 2 = ",
+            "suffix_text": "",
+            "options": [
+              "10",
+              "4",
+              "12",
+              "8"
+            ],
+            "slot_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 43 + 16 = ?",
+            "en": "Calculate: 43 + 16 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 43 + 16 = ?",
+            "en": "Calculate: 43 + 16 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "43 + 16 = 59.",
+            "en": "43 + 16 = 59."
+          },
+          "data": {
+            "prefix_text": "43 + 16 = ",
+            "suffix_text": "",
+            "correct_number": "59"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 84 gồm 8 chục và 4 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 84 has 8 tens and 4 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 84 gồm 8 chục và 4 đơn vị.",
+              "en": "Number 84 has 8 tens and 4 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 55 gồm 5 chục và 5 đơn vị.",
+            "en": "Number 55 has 5 tens and 5 ones."
+          },
+          "hint": {
+            "vi": "Xác định chữ số hàng chục và hàng đơn vị.",
+            "en": "Check tens and ones."
+          },
+          "explanation": {
+            "vi": "Số 55 gồm 5 chục và 5 đơn vị.",
+            "en": "55 has 5 tens and 5 ones."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 55 gồm 5 chục và 5 đơn vị.",
+              "en": "Number 55 consists of 5 tens and 5 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t1_2",
+      "title": {
+        "vi": "Khám phá Tia số & Số liền trước, liền sau",
+        "en": "Number Line & Predecessor/Successor"
+      },
+      "description": {
+        "vi": "Biểu diễn số trên tia số và xác định thứ tự",
+        "en": "Represent numbers on a number line"
+      },
+      "icon": "📏",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m2_t1_2_1",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền số còn thiếu trên tia số:",
+            "en": "Fill missing number on number line:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền số còn thiếu trên tia số:",
+            "en": "Fill missing number on number line:"
+          },
+          "hint": {
+            "vi": "Chạm vào thẻ thích hợp để điền vào ô trống.",
+            "en": "Tap the correct card to fill the slot."
+          },
+          "explanation": {
+            "vi": "Số nằm giữa 28 và 30 trên tia số là 29.",
+            "en": "The number between 28 and 30 is 29."
+          },
+          "data": {
+            "prefix_text": "27, 28, ",
+            "suffix_text": ", 30",
+            "options": [
+              "28",
+              "29",
+              "30",
+              "31"
+            ],
+            "slot_answer": "29"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Số liền trước của số 90 là số mấy?",
+            "en": "What is the predecessor of 90?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số liền trước của số 90 là số mấy?",
+            "en": "What is the predecessor of 90?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Số liền trước của 90 là 89 (90 - 1 = 89).",
+            "en": "Predecessor of 90 is 89."
+          },
+          "data": {
+            "correct_number": "89",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trên tia số, số đứng bên phải luôn như thế nào so với số đứng bên trái?",
+            "en": "On a number line, a number to the right is always:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trên tia số, số đứng bên phải luôn như thế nào so với số đứng bên trái?",
+            "en": "On a number line, a number to the right is always:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Trên tia số nằm ngang từ trái sang phải, số đứng sau (bên phải) luôn lớn hơn số đứng trước.",
+            "en": "Numbers to the right are always greater."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Lớn hơn",
+                "en": "Lớn hơn"
+              },
+              {
+                "vi": "Bé hơn",
+                "en": "Bé hơn"
+              },
+              {
+                "vi": "Bằng nhau",
+                "en": "Bằng nhau"
+              }
+            ],
+            "correct_answer": "Lớn hơn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_2_4",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 48, 49,  ... , 51",
+            "en": "Drag the correct answer into the slot:\nDãy số: 48, 49,  ... , 51"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 48, 49,  ... , 51",
+            "en": "Drag the correct answer: Dãy số: 48, 49,  ... , 51"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 48, 49,  50 , 51",
+            "en": "Dãy số: 48, 49,  50 , 51"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 48, 49, ",
+            "suffix_text": ", 51",
+            "options": [
+              "49",
+              "52",
+              "50"
+            ],
+            "slot_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_2_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Khám phá Tia số & Số liền trước, liền sau': Trên tia số, số đứng bên phải luôn như thế nào so với số đứng bên trái?",
+            "en": "Practice 'Number Line & Predecessor/Successor': On a number line, a number to the right is always:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trên tia số, số đứng bên phải luôn như thế nào so với số đứng bên trái?",
+            "en": "On a number line, a number to the right is always:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Trên tia số nằm ngang từ trái sang phải, số đứng sau (bên phải) luôn lớn hơn số đứng trước.",
+            "en": "Numbers to the right are always greater."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Lớn hơn",
+                "en": "Lớn hơn"
+              },
+              {
+                "vi": "Bé hơn",
+                "en": "Bé hơn"
+              },
+              {
+                "vi": "Bằng nhau",
+                "en": "Bằng nhau"
+              }
+            ],
+            "correct_answer": "Lớn hơn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_2_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 47, 48,  ... , 50",
+            "en": "Drag the correct answer into the slot:\nDãy số: 47, 48,  ... , 50"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 47, 48,  ... , 50",
+            "en": "Drag the correct answer: Dãy số: 47, 48,  ... , 50"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 47, 48,  49 , 50",
+            "en": "Dãy số: 47, 48,  49 , 50"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 47, 48, ",
+            "suffix_text": ", 50",
+            "options": [
+              "49",
+              "51",
+              "48"
+            ],
+            "slot_answer": "49"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_2_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 50, 51,  ... , 53",
+            "en": "Drag the correct answer into the slot:\nDãy số: 50, 51,  ... , 53"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 50, 51,  ... , 53",
+            "en": "Drag the correct answer: Dãy số: 50, 51,  ... , 53"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 50, 51,  52 , 53",
+            "en": "Dãy số: 50, 51,  52 , 53"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 50, 51, ",
+            "suffix_text": ", 53",
+            "options": [
+              "54",
+              "52",
+              "51"
+            ],
+            "slot_answer": "52"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_2_8",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 1",
+                  "en": "2 x 1"
+                },
+                "right": {
+                  "vi": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 2",
+                  "en": "2 x 2"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 3",
+                  "en": "2 x 3"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t1_3",
+      "title": {
+        "vi": "So sánh & Sắp xếp thứ tự các số đến 100",
+        "en": "Compare & Order Numbers to 100"
+      },
+      "description": {
+        "vi": "Tìm số lớn nhất, bé nhất và xếp thứ tự",
+        "en": "Find max, min and sort numbers"
+      },
+      "icon": "🏅",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m2_t1_3_1",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp theo thứ tự từ bé đến lớn: 48, 84, 39, 93",
+            "en": "Sort ascending: 48, 84, 39, 93"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp theo thứ tự từ bé đến lớn: 48, 84, 39, 93",
+            "en": "Sort ascending: 48, 84, 39, 93"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct sequence."
+          },
+          "explanation": {
+            "vi": "Thứ tự: 39 < 48 < 84 < 93.",
+            "en": "Order: 39, 48, 84, 93."
+          },
+          "data": {
+            "items": [
+              "39",
+              "48",
+              "84",
+              "93"
+            ],
+            "correct_order": [
+              "39",
+              "48",
+              "84",
+              "93"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong các số: 72, 69, 81, 78 - số nào lớn nhất?",
+            "en": "Among 72, 69, 81, 78 - which is largest?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trong các số: 72, 69, 81, 78 - số nào lớn nhất?",
+            "en": "Among 72, 69, 81, 78 - which is largest?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "81 có hàng chục là 8 lớn nhất.",
+            "en": "81 has the largest tens digit."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "72",
+                "en": "72"
+              },
+              {
+                "vi": "69",
+                "en": "69"
+              },
+              {
+                "vi": "81",
+                "en": "81"
+              },
+              {
+                "vi": "78",
+                "en": "78"
+              }
+            ],
+            "correct_answer": "81"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 99 là số 2 chữ số lớn nhất.",
+            "en": "Decide whether the following statement is true or false: 99 là số 2 chữ số lớn nhất."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 99 là số có 2 chữ số lớn nhất.",
+            "en": "True! 99 is the largest 2-digit number."
+          },
+          "data": {
+            "statement": {
+              "vi": "99 là số 2 chữ số lớn nhất.",
+              "en": "99 là số 2 chữ số lớn nhất."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_4",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 61, 78, 94, 97",
+            "en": "Correct order: 61, 78, 94, 97"
+          },
+          "data": {
+            "items": [
+              "61",
+              "94",
+              "97",
+              "78"
+            ],
+            "correct_order": [
+              "61",
+              "78",
+              "94",
+              "97"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 44 - 44 = ?",
+            "en": "Calculate: 44 - 44 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 44 - 44 = ?",
+            "en": "Calculate: 44 - 44 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 44 - 44.",
+            "en": "Calculate 44 - 44."
+          },
+          "explanation": {
+            "vi": "44 - 44 = 0",
+            "en": "44 - 44 = 0"
+          },
+          "data": {
+            "options": [
+              "0",
+              "1",
+              "2"
+            ],
+            "correct_answer": "0"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_6",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 90, 86, 71, 62",
+            "en": "Correct order: 90, 86, 71, 62"
+          },
+          "data": {
+            "items": [
+              "86",
+              "90",
+              "62",
+              "71"
+            ],
+            "correct_order": [
+              "90",
+              "86",
+              "71",
+              "62"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 94 - 77 = ?",
+            "en": "Calculate: 94 - 77 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 94 - 77 = ?",
+            "en": "Calculate: 94 - 77 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 94 - 77.",
+            "en": "Calculate 94 - 77."
+          },
+          "explanation": {
+            "vi": "94 - 77 = 17",
+            "en": "94 - 77 = 17"
+          },
+          "data": {
+            "options": [
+              "18",
+              "16",
+              "17",
+              "19"
+            ],
+            "correct_answer": "17"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_8",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 43, 54, 80, 88",
+            "en": "Correct order: 43, 54, 80, 88"
+          },
+          "data": {
+            "items": [
+              "43",
+              "80",
+              "54",
+              "88"
+            ],
+            "correct_order": [
+              "43",
+              "54",
+              "80",
+              "88"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 76 - 41 = ?",
+            "en": "Calculate: 76 - 41 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 76 - 41 = ?",
+            "en": "Calculate: 76 - 41 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 76 - 41.",
+            "en": "Calculate 76 - 41."
+          },
+          "explanation": {
+            "vi": "76 - 41 = 35",
+            "en": "76 - 41 = 35"
+          },
+          "data": {
+            "options": [
+              "35",
+              "37",
+              "34",
+              "36"
+            ],
+            "correct_answer": "35"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 26 gồm 2 chục và 6 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 26 has 2 tens and 6 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 26 gồm 2 chục và 6 đơn vị.",
+              "en": "Number 26 has 2 tens and 6 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t1_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 1",
+                  "en": "2 x 1"
+                },
+                "right": {
+                  "vi": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 2",
+                  "en": "2 x 2"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 3",
+                  "en": "2 x 3"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1124 @@
+{
+  "id": "e1_stage_11",
+  "stage_number": 11,
+  "title": {
+    "vi": "Week 11: Mealtime Fun & Ordering",
+    "en": "Week 11: Mealtime Fun & Ordering"
+  },
+  "subtitle": {
+    "vi": "Ordering food: I want fish, I drink milk",
+    "en": "Ordering food: I want fish, I drink milk"
+  },
+  "icon": "🥛",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.66,
+  "required_stars": 30,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "e1_s11_1",
+      "title": {
+        "vi": "Drinking Fresh Milk",
+        "en": "Drinking Fresh Milk"
+      },
+      "description": {
+        "vi": "A healthy glass of milk with breakfast",
+        "en": "A healthy glass of milk with breakfast"
+      },
+      "icon": "🥛",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s11_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy holding a tall glass of cool white milk. What is he drinking?",
+            "en": "Look at the boy holding a tall glass of cool white milk. What is he drinking?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy holding a tall glass of cool white milk. What is he drinking?",
+            "en": "Look at the boy holding a tall glass of cool white milk. What is he drinking?"
+          },
+          "hint": {
+            "vi": "It's white, healthy, and full of calcium.",
+            "en": "It's white, healthy, and full of calcium."
+          },
+          "explanation": {
+            "vi": "He is drinking a tall glass of fresh milk.",
+            "en": "He is drinking a tall glass of fresh milk."
+          },
+          "data": {
+            "options": [
+              "a glass of fresh milk",
+              "a bowl of soup",
+              "a cup of black tea",
+              "a can of soda"
+            ],
+            "correct_answer": "a glass of fresh milk"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u5_drink_milk.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s11_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'milk'?",
+            "en": "What is the first letter of the word 'milk'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'milk'?",
+            "en": "What is the first letter of the word 'milk'?"
+          },
+          "hint": {
+            "vi": "The word 'milk' starts with the letter M.",
+            "en": "The word 'milk' starts with the letter M."
+          },
+          "explanation": {
+            "vi": "Correct! 'milk' begins with the letter 'M'.",
+            "en": "Correct! 'milk' begins with the letter 'M'."
+          },
+          "data": {
+            "options": [
+              "Letter M",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter M"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "milk",
+                  "en": "milk"
+                },
+                "right": {
+                  "vi": "Nghĩa của milk",
+                  "en": "Nghĩa của milk"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "glass",
+                  "en": "glass"
+                },
+                "right": {
+                  "vi": "Nghĩa của glass",
+                  "en": "Nghĩa của glass"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "drink",
+                  "en": "drink"
+                },
+                "right": {
+                  "vi": "Nghĩa của drink",
+                  "en": "Nghĩa của drink"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? Drink a glass of milk every day.",
+            "en": "Is this English sentence correct for Grade 1? Drink a glass of milk every day."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Drink a glass of milk every day.",
+            "en": "Remember the pattern: Drink a glass of milk every day."
+          },
+          "explanation": {
+            "vi": "Yes! 'Drink a glass of milk every day.' is a correct English sentence.",
+            "en": "Yes! 'Drink a glass of milk every day.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Drink a glass of milk every day.",
+              "en": "Drink a glass of milk every day."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Drink a glass of milk every ....",
+            "en": "Drag the correct word to complete the sentence: Drink a glass of milk every ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'day'.",
+            "en": "Choose the correct word: 'day'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Drink a glass of milk every day.'.",
+            "en": "The complete sentence is: 'Drink a glass of milk every day.'."
+          },
+          "data": {
+            "prefix_text": "Drink a glass of milk every ",
+            "suffix_text": ".",
+            "options": [
+              "day",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "day"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'milk':",
+            "en": "Spell the English word 'milk':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'milk':",
+            "en": "Spell the English word 'milk':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'milk'.",
+            "en": "Tap the letters in order to spell 'milk'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'milk' correctly.",
+            "en": "Well done! You spelled 'milk' correctly."
+          },
+          "data": {
+            "letters": [
+              "k",
+              "l",
+              "i",
+              "m"
+            ],
+            "target_word": "milk",
+            "target_sequence": [
+              "m",
+              "i",
+              "l",
+              "k"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Hãy uống một ly sữa mỗi ngày.' in English?",
+            "en": "How do you say 'Hãy uống một ly sữa mỗi ngày.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Hãy uống một ly sữa mỗi ngày.' in English?",
+            "en": "How do you say 'Hãy uống một ly sữa mỗi ngày.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Hãy uống một ly sữa mỗi ngày.",
+            "en": "Choose the English sentence that means: Hãy uống một ly sữa mỗi ngày."
+          },
+          "explanation": {
+            "vi": "'Drink a glass of milk every day.' means 'Hãy uống một ly sữa mỗi ngày.'.",
+            "en": "'Drink a glass of milk every day.' means 'Hãy uống một ly sữa mỗi ngày.'."
+          },
+          "data": {
+            "options": [
+              "Drink a glass of milk every day.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Drink a glass of milk every day."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Drinking Fresh Milk'?",
+            "en": "Which of the following is a word from Unit 'Drinking Fresh Milk'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Drinking Fresh Milk'?",
+            "en": "Which of the following is a word from Unit 'Drinking Fresh Milk'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Drinking Fresh Milk.",
+            "en": "Remember the words in topic: Drinking Fresh Milk."
+          },
+          "explanation": {
+            "vi": "'milk' is a key vocabulary word in this topic.",
+            "en": "'milk' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "milk",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "milk"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'glass' start with the sound /m/?",
+            "en": "Does the word 'glass' start with the sound /m/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'glass' start with the sound /m/? The word 'glass' starts with letter 'M'.",
+            "en": "Does the word 'glass' start with the sound /m/? The word 'glass' starts with letter 'M'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'glass'.",
+            "en": "Listen to the first sound of 'glass'."
+          },
+          "explanation": {
+            "vi": "Yes! 'glass' starts with the sound /m/.",
+            "en": "Yes! 'glass' starts with the sound /m/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'glass' starts with letter 'M'.",
+              "en": "The word 'glass' starts with letter 'M'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'milk'?",
+            "en": "How many letters are there in the word 'milk'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'milk'?",
+            "en": "How many letters are there in the word 'milk'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'milk': 1, 2, 3...",
+            "en": "Count the letters in 'milk': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'milk' has exactly 4 letters.",
+            "en": "The word 'milk' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'milk':",
+            "en": "Choose the correct article before 'milk':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'milk':",
+            "en": "Choose the correct article before 'milk':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a milk'.",
+            "en": "Correct! We say 'a milk'."
+          },
+          "data": {
+            "options": [
+              "a milk",
+              "an milk",
+              "two milk",
+              "many milk"
+            ],
+            "correct_answer": "a milk"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "M",
+                  "en": "M"
+                },
+                "right": {
+                  "vi": "m",
+                  "en": "m"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Drinking Fresh Milk'?",
+            "en": "Which English sentence best describes the topic 'Drinking Fresh Milk'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Drinking Fresh Milk'?",
+            "en": "Which English sentence best describes the topic 'Drinking Fresh Milk'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Drinking Fresh Milk'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Drinking Fresh Milk'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: milk, glass!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: milk, glass!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s11_2",
+      "title": {
+        "vi": "Little Goldfish in Aquarium",
+        "en": "Little Goldfish in Aquarium"
+      },
+      "description": {
+        "vi": "Watching fish swimming in the water",
+        "en": "Watching fish swimming in the water"
+      },
+      "icon": "🐠",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s11_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the bright orange goldfish swimming in the clean glass bowl. What pet is it?",
+            "en": "Look at the bright orange goldfish swimming in the clean glass bowl. What pet is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the bright orange goldfish swimming in the clean glass bowl. What pet is it?",
+            "en": "Look at the bright orange goldfish swimming in the clean glass bowl. What pet is it?"
+          },
+          "hint": {
+            "vi": "It breathes in water and has fin and tail.",
+            "en": "It breathes in water and has fin and tail."
+          },
+          "explanation": {
+            "vi": "It's a little orange goldfish swimming in water.",
+            "en": "It's a little orange goldfish swimming in water."
+          },
+          "data": {
+            "options": [
+              "a little goldfish",
+              "a brown puppy",
+              "a grey kitten",
+              "a pet rabbit"
+            ],
+            "correct_answer": "a little goldfish"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u5_goldfish_swim.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s11_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'fish'?",
+            "en": "What is the first letter of the word 'fish'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'fish'?",
+            "en": "What is the first letter of the word 'fish'?"
+          },
+          "hint": {
+            "vi": "The word 'fish' starts with the letter F.",
+            "en": "The word 'fish' starts with the letter F."
+          },
+          "explanation": {
+            "vi": "Correct! 'fish' begins with the letter 'F'.",
+            "en": "Correct! 'fish' begins with the letter 'F'."
+          },
+          "data": {
+            "options": [
+              "Letter F",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter F"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "fish",
+                  "en": "fish"
+                },
+                "right": {
+                  "vi": "Nghĩa của fish",
+                  "en": "Nghĩa của fish"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "swim",
+                  "en": "swim"
+                },
+                "right": {
+                  "vi": "Nghĩa của swim",
+                  "en": "Nghĩa của swim"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "water",
+                  "en": "water"
+                },
+                "right": {
+                  "vi": "Nghĩa của water",
+                  "en": "Nghĩa của water"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? The goldfish swims fast.",
+            "en": "Is this English sentence correct for Grade 1? The goldfish swims fast."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The goldfish swims fast.",
+            "en": "Remember the pattern: The goldfish swims fast."
+          },
+          "explanation": {
+            "vi": "Yes! 'The goldfish swims fast.' is a correct English sentence.",
+            "en": "Yes! 'The goldfish swims fast.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The goldfish swims fast.",
+              "en": "The goldfish swims fast."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The goldfish swims ....",
+            "en": "Drag the correct word to complete the sentence: The goldfish swims ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'fast'.",
+            "en": "Choose the correct word: 'fast'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The goldfish swims fast.'.",
+            "en": "The complete sentence is: 'The goldfish swims fast.'."
+          },
+          "data": {
+            "prefix_text": "The goldfish swims ",
+            "suffix_text": ".",
+            "options": [
+              "fast",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "fast"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'fish':",
+            "en": "Spell the English word 'fish':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'fish':",
+            "en": "Spell the English word 'fish':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'fish'.",
+            "en": "Tap the letters in order to spell 'fish'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'fish' correctly.",
+            "en": "Well done! You spelled 'fish' correctly."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "s",
+              "i",
+              "f"
+            ],
+            "target_word": "fish",
+            "target_sequence": [
+              "f",
+              "i",
+              "s",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chú cá vàng bơi rất nhanh.' in English?",
+            "en": "How do you say 'Chú cá vàng bơi rất nhanh.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chú cá vàng bơi rất nhanh.' in English?",
+            "en": "How do you say 'Chú cá vàng bơi rất nhanh.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chú cá vàng bơi rất nhanh.",
+            "en": "Choose the English sentence that means: Chú cá vàng bơi rất nhanh."
+          },
+          "explanation": {
+            "vi": "'The goldfish swims fast.' means 'Chú cá vàng bơi rất nhanh.'.",
+            "en": "'The goldfish swims fast.' means 'Chú cá vàng bơi rất nhanh.'."
+          },
+          "data": {
+            "options": [
+              "The goldfish swims fast.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The goldfish swims fast."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Little Goldfish in Aquarium'?",
+            "en": "Which of the following is a word from Unit 'Little Goldfish in Aquarium'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Little Goldfish in Aquarium'?",
+            "en": "Which of the following is a word from Unit 'Little Goldfish in Aquarium'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Little Goldfish in Aquarium.",
+            "en": "Remember the words in topic: Little Goldfish in Aquarium."
+          },
+          "explanation": {
+            "vi": "'fish' is a key vocabulary word in this topic.",
+            "en": "'fish' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "fish",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "fish"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'swim' start with the sound /f/?",
+            "en": "Does the word 'swim' start with the sound /f/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'swim' start with the sound /f/? The word 'swim' starts with letter 'F'.",
+            "en": "Does the word 'swim' start with the sound /f/? The word 'swim' starts with letter 'F'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'swim'.",
+            "en": "Listen to the first sound of 'swim'."
+          },
+          "explanation": {
+            "vi": "Yes! 'swim' starts with the sound /f/.",
+            "en": "Yes! 'swim' starts with the sound /f/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'swim' starts with letter 'F'.",
+              "en": "The word 'swim' starts with letter 'F'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'fish'?",
+            "en": "How many letters are there in the word 'fish'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'fish'?",
+            "en": "How many letters are there in the word 'fish'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'fish': 1, 2, 3...",
+            "en": "Count the letters in 'fish': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'fish' has exactly 4 letters.",
+            "en": "The word 'fish' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'fish':",
+            "en": "Choose the correct article before 'fish':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'fish':",
+            "en": "Choose the correct article before 'fish':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a fish'.",
+            "en": "Correct! We say 'a fish'."
+          },
+          "data": {
+            "options": [
+              "a fish",
+              "an fish",
+              "two fish",
+              "many fish"
+            ],
+            "correct_answer": "a fish"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "F",
+                  "en": "F"
+                },
+                "right": {
+                  "vi": "f",
+                  "en": "f"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s11_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Little Goldfish in Aquarium'?",
+            "en": "Which English sentence best describes the topic 'Little Goldfish in Aquarium'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Little Goldfish in Aquarium'?",
+            "en": "Which English sentence best describes the topic 'Little Goldfish in Aquarium'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Little Goldfish in Aquarium'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Little Goldfish in Aquarium'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: fish, swim!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: fish, swim!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

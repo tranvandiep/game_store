@@ -1,0 +1,1136 @@
+{
+  "id": "e2_stage_5",
+  "stage_number": 5,
+  "title": {
+    "vi": "Week 5: Backyard Adventures & Pets",
+    "en": "Week 5: Backyard Adventures & Pets"
+  },
+  "subtitle": {
+    "vi": "Outdoor play: Running, catching, kite flying",
+    "en": "Outdoor play: Running, catching, kite flying"
+  },
+  "icon": "🐾",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.834,
+  "required_stars": 12,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "e2_s5_1",
+      "title": {
+        "vi": "Playing with a Little Kitten",
+        "en": "Playing with a Little Kitten"
+      },
+      "description": {
+        "vi": "Chasing butterfly with pet kitten",
+        "en": "Chasing butterfly with pet kitten"
+      },
+      "icon": "🦋",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s5_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the cute fluffy baby cat playing on the grass. What pet is it?",
+            "en": "Look at the cute fluffy baby cat playing on the grass. What pet is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the cute fluffy baby cat playing on the grass. What pet is it?",
+            "en": "Look at the cute fluffy baby cat playing on the grass. What pet is it?"
+          },
+          "hint": {
+            "vi": "A baby cat is called a kitten.",
+            "en": "A baby cat is called a kitten."
+          },
+          "explanation": {
+            "vi": "It's a playful little kitten.",
+            "en": "It's a playful little kitten."
+          },
+          "data": {
+            "options": [
+              "a playful little kitten",
+              "a pet hamster",
+              "a big alligator",
+              "a baby duck"
+            ],
+            "correct_answer": "a playful little kitten"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u2_kitten_play.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s5_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'kitten'?",
+            "en": "What is the first letter of the word 'kitten'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'kitten'?",
+            "en": "What is the first letter of the word 'kitten'?"
+          },
+          "hint": {
+            "vi": "The word 'kitten' starts with the letter K.",
+            "en": "The word 'kitten' starts with the letter K."
+          },
+          "explanation": {
+            "vi": "Correct! 'kitten' begins with the letter 'K'.",
+            "en": "Correct! 'kitten' begins with the letter 'K'."
+          },
+          "data": {
+            "options": [
+              "Letter K",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter K"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "kitten",
+                  "en": "kitten"
+                },
+                "right": {
+                  "vi": "Nghĩa của kitten",
+                  "en": "Nghĩa của kitten"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "butterfly",
+                  "en": "butterfly"
+                },
+                "right": {
+                  "vi": "Nghĩa của butterfly",
+                  "en": "Nghĩa của butterfly"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "chase",
+                  "en": "chase"
+                },
+                "right": {
+                  "vi": "Nghĩa của chase",
+                  "en": "Nghĩa của chase"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? The baby kitten chases a yellow butterfly.",
+            "en": "Is this English sentence correct for Grade 2? The baby kitten chases a yellow butterfly."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The baby kitten chases a yellow butterfly.",
+            "en": "Remember the pattern: The baby kitten chases a yellow butterfly."
+          },
+          "explanation": {
+            "vi": "Yes! 'The baby kitten chases a yellow butterfly.' is a correct English sentence.",
+            "en": "Yes! 'The baby kitten chases a yellow butterfly.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The baby kitten chases a yellow butterfly.",
+              "en": "The baby kitten chases a yellow butterfly."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The baby kitten chases a yellow ....",
+            "en": "Drag the correct word to complete the sentence: The baby kitten chases a yellow ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'butterfly'.",
+            "en": "Choose the correct word: 'butterfly'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The baby kitten chases a yellow butterfly.'.",
+            "en": "The complete sentence is: 'The baby kitten chases a yellow butterfly.'."
+          },
+          "data": {
+            "prefix_text": "The baby kitten chases a yellow ",
+            "suffix_text": ".",
+            "options": [
+              "butterfly",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "butterfly"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'kitten':",
+            "en": "Spell the English word 'kitten':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'kitten':",
+            "en": "Spell the English word 'kitten':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'kitten'.",
+            "en": "Tap the letters in order to spell 'kitten'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'kitten' correctly.",
+            "en": "Well done! You spelled 'kitten' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "e",
+              "t",
+              "t",
+              "i",
+              "k"
+            ],
+            "target_word": "kitten",
+            "target_sequence": [
+              "k",
+              "i",
+              "t",
+              "t",
+              "e",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chú mèo con đuổi theo chú bướm vàng.' in English?",
+            "en": "How do you say 'Chú mèo con đuổi theo chú bướm vàng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chú mèo con đuổi theo chú bướm vàng.' in English?",
+            "en": "How do you say 'Chú mèo con đuổi theo chú bướm vàng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chú mèo con đuổi theo chú bướm vàng.",
+            "en": "Choose the English sentence that means: Chú mèo con đuổi theo chú bướm vàng."
+          },
+          "explanation": {
+            "vi": "'The baby kitten chases a yellow butterfly.' means 'Chú mèo con đuổi theo chú bướm vàng.'.",
+            "en": "'The baby kitten chases a yellow butterfly.' means 'Chú mèo con đuổi theo chú bướm vàng.'."
+          },
+          "data": {
+            "options": [
+              "The baby kitten chases a yellow butterfly.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The baby kitten chases a yellow butterfly."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Playing with a Little Kitten'?",
+            "en": "Which of the following is a word from Unit 'Playing with a Little Kitten'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Playing with a Little Kitten'?",
+            "en": "Which of the following is a word from Unit 'Playing with a Little Kitten'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Playing with a Little Kitten.",
+            "en": "Remember the words in topic: Playing with a Little Kitten."
+          },
+          "explanation": {
+            "vi": "'kitten' is a key vocabulary word in this topic.",
+            "en": "'kitten' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "kitten",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "kitten"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'butterfly' start with the sound /k/?",
+            "en": "Does the word 'butterfly' start with the sound /k/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'butterfly' start with the sound /k/? The word 'butterfly' starts with letter 'K'.",
+            "en": "Does the word 'butterfly' start with the sound /k/? The word 'butterfly' starts with letter 'K'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'butterfly'.",
+            "en": "Listen to the first sound of 'butterfly'."
+          },
+          "explanation": {
+            "vi": "Yes! 'butterfly' starts with the sound /k/.",
+            "en": "Yes! 'butterfly' starts with the sound /k/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'butterfly' starts with letter 'K'.",
+              "en": "The word 'butterfly' starts with letter 'K'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'kitten'?",
+            "en": "How many letters are there in the word 'kitten'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'kitten'?",
+            "en": "How many letters are there in the word 'kitten'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'kitten': 1, 2, 3...",
+            "en": "Count the letters in 'kitten': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'kitten' has exactly 6 letters.",
+            "en": "The word 'kitten' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'kitten':",
+            "en": "Choose the correct phrase with 'kitten':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'kitten':",
+            "en": "Choose the correct phrase with 'kitten':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a kitten'.",
+            "en": "Correct! We say 'a kitten'."
+          },
+          "data": {
+            "options": [
+              "a kitten",
+              "an kitten",
+              "five kitten",
+              "many kitten"
+            ],
+            "correct_answer": "a kitten"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'kitten'.",
+            "en": "Choose the food or object: 'kitten'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like kitten? - Yes, I do!'",
+            "en": "We ask: 'Do you like kitten? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "kitten",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "kitten"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "K",
+                  "en": "K"
+                },
+                "right": {
+                  "vi": "k",
+                  "en": "k"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Playing with a Little Kitten'?",
+            "en": "Which English sentence best describes the topic 'Playing with a Little Kitten'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Playing with a Little Kitten'?",
+            "en": "Which English sentence best describes the topic 'Playing with a Little Kitten'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Playing with a Little Kitten'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Playing with a Little Kitten'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: kitten, butterfly!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: kitten, butterfly!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s5_2",
+      "title": {
+        "vi": "Green Backyard Lawn & Flowers",
+        "en": "Green Backyard Lawn & Flowers"
+      },
+      "description": {
+        "vi": "Helping parents water backyard plants",
+        "en": "Helping parents water backyard plants"
+      },
+      "icon": "🌻",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s5_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the tall yellow flowers facing the sun in the backyard garden. What flowers are they?",
+            "en": "Look at the tall yellow flowers facing the sun in the backyard garden. What flowers are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the tall yellow flowers facing the sun in the backyard garden. What flowers are they?",
+            "en": "Look at the tall yellow flowers facing the sun in the backyard garden. What flowers are they?"
+          },
+          "hint": {
+            "vi": "Tall yellow flowers that look like the sun.",
+            "en": "Tall yellow flowers that look like the sun."
+          },
+          "explanation": {
+            "vi": "They are bright yellow sunflowers in the garden.",
+            "en": "They are bright yellow sunflowers in the garden."
+          },
+          "data": {
+            "options": [
+              "bright sunflowers",
+              "water lilies",
+              "red roses",
+              "white daisies"
+            ],
+            "correct_answer": "bright sunflowers"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u2_backyard_flowers.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s5_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'backyard'?",
+            "en": "What is the first letter of the word 'backyard'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'backyard'?",
+            "en": "What is the first letter of the word 'backyard'?"
+          },
+          "hint": {
+            "vi": "The word 'backyard' starts with the letter B.",
+            "en": "The word 'backyard' starts with the letter B."
+          },
+          "explanation": {
+            "vi": "Correct! 'backyard' begins with the letter 'B'.",
+            "en": "Correct! 'backyard' begins with the letter 'B'."
+          },
+          "data": {
+            "options": [
+              "Letter B",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter B"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "backyard",
+                  "en": "backyard"
+                },
+                "right": {
+                  "vi": "Nghĩa của backyard",
+                  "en": "Nghĩa của backyard"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "flower",
+                  "en": "flower"
+                },
+                "right": {
+                  "vi": "Nghĩa của flower",
+                  "en": "Nghĩa của flower"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "water",
+                  "en": "water"
+                },
+                "right": {
+                  "vi": "Nghĩa của water",
+                  "en": "Nghĩa của water"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Bright yellow sunflowers in the backyard.",
+            "en": "Is this English sentence correct for Grade 2? Bright yellow sunflowers in the backyard."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Bright yellow sunflowers in the backyard.",
+            "en": "Remember the pattern: Bright yellow sunflowers in the backyard."
+          },
+          "explanation": {
+            "vi": "Yes! 'Bright yellow sunflowers in the backyard.' is a correct English sentence.",
+            "en": "Yes! 'Bright yellow sunflowers in the backyard.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Bright yellow sunflowers in the backyard.",
+              "en": "Bright yellow sunflowers in the backyard."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Bright yellow sunflowers in the ....",
+            "en": "Drag the correct word to complete the sentence: Bright yellow sunflowers in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'backyard'.",
+            "en": "Choose the correct word: 'backyard'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Bright yellow sunflowers in the backyard.'.",
+            "en": "The complete sentence is: 'Bright yellow sunflowers in the backyard.'."
+          },
+          "data": {
+            "prefix_text": "Bright yellow sunflowers in the ",
+            "suffix_text": ".",
+            "options": [
+              "backyard",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "backyard"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'backyard':",
+            "en": "Spell the English word 'backyard':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'backyard':",
+            "en": "Spell the English word 'backyard':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'backyard'.",
+            "en": "Tap the letters in order to spell 'backyard'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'backyard' correctly.",
+            "en": "Well done! You spelled 'backyard' correctly."
+          },
+          "data": {
+            "letters": [
+              "d",
+              "r",
+              "a",
+              "y",
+              "k",
+              "c",
+              "a",
+              "b"
+            ],
+            "target_word": "backyard",
+            "target_sequence": [
+              "b",
+              "a",
+              "c",
+              "k",
+              "y",
+              "a",
+              "r",
+              "d"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Những bông hoa hướng dương vàng rực rỡ ở sân sau.' in English?",
+            "en": "How do you say 'Những bông hoa hướng dương vàng rực rỡ ở sân sau.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Những bông hoa hướng dương vàng rực rỡ ở sân sau.' in English?",
+            "en": "How do you say 'Những bông hoa hướng dương vàng rực rỡ ở sân sau.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Những bông hoa hướng dương vàng rực rỡ ở sân sau.",
+            "en": "Choose the English sentence that means: Những bông hoa hướng dương vàng rực rỡ ở sân sau."
+          },
+          "explanation": {
+            "vi": "'Bright yellow sunflowers in the backyard.' means 'Những bông hoa hướng dương vàng rực rỡ ở sân sau.'.",
+            "en": "'Bright yellow sunflowers in the backyard.' means 'Những bông hoa hướng dương vàng rực rỡ ở sân sau.'."
+          },
+          "data": {
+            "options": [
+              "Bright yellow sunflowers in the backyard.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Bright yellow sunflowers in the backyard."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Green Backyard Lawn & Flowers'?",
+            "en": "Which of the following is a word from Unit 'Green Backyard Lawn & Flowers'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Green Backyard Lawn & Flowers'?",
+            "en": "Which of the following is a word from Unit 'Green Backyard Lawn & Flowers'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Green Backyard Lawn & Flowers.",
+            "en": "Remember the words in topic: Green Backyard Lawn & Flowers."
+          },
+          "explanation": {
+            "vi": "'backyard' is a key vocabulary word in this topic.",
+            "en": "'backyard' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "backyard",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "backyard"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'flower' start with the sound /b/?",
+            "en": "Does the word 'flower' start with the sound /b/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'flower' start with the sound /b/? The word 'flower' starts with letter 'B'.",
+            "en": "Does the word 'flower' start with the sound /b/? The word 'flower' starts with letter 'B'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'flower'.",
+            "en": "Listen to the first sound of 'flower'."
+          },
+          "explanation": {
+            "vi": "Yes! 'flower' starts with the sound /b/.",
+            "en": "Yes! 'flower' starts with the sound /b/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'flower' starts with letter 'B'.",
+              "en": "The word 'flower' starts with letter 'B'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'backyard'?",
+            "en": "How many letters are there in the word 'backyard'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'backyard'?",
+            "en": "How many letters are there in the word 'backyard'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'backyard': 1, 2, 3...",
+            "en": "Count the letters in 'backyard': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'backyard' has exactly 8 letters.",
+            "en": "The word 'backyard' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'backyard':",
+            "en": "Choose the correct phrase with 'backyard':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'backyard':",
+            "en": "Choose the correct phrase with 'backyard':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a backyard'.",
+            "en": "Correct! We say 'a backyard'."
+          },
+          "data": {
+            "options": [
+              "a backyard",
+              "an backyard",
+              "five backyard",
+              "many backyard"
+            ],
+            "correct_answer": "a backyard"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'backyard'.",
+            "en": "Choose the food or object: 'backyard'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like backyard? - Yes, I do!'",
+            "en": "We ask: 'Do you like backyard? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "backyard",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "backyard"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s5_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Green Backyard Lawn & Flowers'?",
+            "en": "Which English sentence best describes the topic 'Green Backyard Lawn & Flowers'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Green Backyard Lawn & Flowers'?",
+            "en": "Which English sentence best describes the topic 'Green Backyard Lawn & Flowers'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Green Backyard Lawn & Flowers'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Green Backyard Lawn & Flowers'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: backyard, flower!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: backyard, flower!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

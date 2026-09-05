@@ -1,0 +1,1144 @@
+{
+  "id": "e3_stage_21",
+  "stage_number": 21,
+  "title": {
+    "vi": "Week 21: Unit 13 - My House",
+    "en": "Week 21: Unit 13 - My House"
+  },
+  "subtitle": {
+    "vi": "Rooms: living room, bedroom, kitchen, bathroom, hall, garden",
+    "en": "Rooms: living room, bedroom, kitchen, bathroom, hall, garden"
+  },
+  "icon": "🏡",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.369,
+  "required_stars": 60,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "e3_s21_1",
+      "title": {
+        "vi": "Unit 13: Where's the Living Room?",
+        "en": "Unit 13: Where's the Living Room?"
+      },
+      "description": {
+        "vi": "Where's the living room? - It's here / There's a sofa",
+        "en": "Where's the living room? - It's here / There's a sofa"
+      },
+      "icon": "🛋️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s21_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the comfortable room with a sofa, coffee table, and television. What room is it?",
+            "en": "Look at the comfortable room with a sofa, coffee table, and television. What room is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the comfortable room with a sofa, coffee table, and television. What room is it?",
+            "en": "Look at the comfortable room with a sofa, coffee table, and television. What room is it?"
+          },
+          "hint": {
+            "vi": "A room in a home used for relaxing and socializing.",
+            "en": "A room in a home used for relaxing and socializing."
+          },
+          "explanation": {
+            "vi": "It's the living room.",
+            "en": "It's the living room."
+          },
+          "data": {
+            "options": [
+              "the living room",
+              "the garage",
+              "the attic",
+              "the cellar"
+            ],
+            "correct_answer": "the living room"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u13_living_room.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s21_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'living room'?",
+            "en": "What is the first letter of the word 'living room'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'living room'?",
+            "en": "What is the first letter of the word 'living room'?"
+          },
+          "hint": {
+            "vi": "The word 'living room' starts with the letter L.",
+            "en": "The word 'living room' starts with the letter L."
+          },
+          "explanation": {
+            "vi": "Correct! 'living room' begins with the letter 'L'.",
+            "en": "Correct! 'living room' begins with the letter 'L'."
+          },
+          "data": {
+            "options": [
+              "Letter L",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter L"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "living room",
+                  "en": "living room"
+                },
+                "right": {
+                  "vi": "Nghĩa của living room",
+                  "en": "Nghĩa của living room"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "house",
+                  "en": "house"
+                },
+                "right": {
+                  "vi": "Nghĩa của house",
+                  "en": "Nghĩa của house"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "sofa",
+                  "en": "sofa"
+                },
+                "right": {
+                  "vi": "Nghĩa của sofa",
+                  "en": "Nghĩa của sofa"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Where's the living room? - It's here.",
+            "en": "Is this English sentence correct for Grade 3? Where's the living room? - It's here."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Where's the living room? - It's here.",
+            "en": "Remember the pattern: Where's the living room? - It's here."
+          },
+          "explanation": {
+            "vi": "Yes! 'Where's the living room? - It's here.' is a correct English sentence.",
+            "en": "Yes! 'Where's the living room? - It's here.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Where's the living room? - It's here.",
+              "en": "Where's the living room? - It's here."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Where's the living room? - It's ....",
+            "en": "Drag the correct word to complete the sentence: Where's the living room? - It's ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'here'.",
+            "en": "Choose the correct word: 'here'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Where's the living room? - It's here.'.",
+            "en": "The complete sentence is: 'Where's the living room? - It's here.'."
+          },
+          "data": {
+            "prefix_text": "Where's the living room? - It's ",
+            "suffix_text": ".",
+            "options": [
+              "here",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "here"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'living room':",
+            "en": "Spell the English word 'living room':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'living room':",
+            "en": "Spell the English word 'living room':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'living room'.",
+            "en": "Tap the letters in order to spell 'living room'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'living room' correctly.",
+            "en": "Well done! You spelled 'living room' correctly."
+          },
+          "data": {
+            "letters": [
+              "m",
+              "o",
+              "o",
+              "r",
+              " ",
+              "g",
+              "n",
+              "i",
+              "v",
+              "i",
+              "l"
+            ],
+            "target_word": "living room",
+            "target_sequence": [
+              "l",
+              "i",
+              "v",
+              "i",
+              "n",
+              "g",
+              " ",
+              "r",
+              "o",
+              "o",
+              "m"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Phòng khách ở đâu? - Nó ở đây.' in English?",
+            "en": "How do you say 'Phòng khách ở đâu? - Nó ở đây.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Phòng khách ở đâu? - Nó ở đây.' in English?",
+            "en": "How do you say 'Phòng khách ở đâu? - Nó ở đây.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Phòng khách ở đâu? - Nó ở đây.",
+            "en": "Choose the English sentence that means: Phòng khách ở đâu? - Nó ở đây."
+          },
+          "explanation": {
+            "vi": "'Where's the living room? - It's here.' means 'Phòng khách ở đâu? - Nó ở đây.'.",
+            "en": "'Where's the living room? - It's here.' means 'Phòng khách ở đâu? - Nó ở đây.'."
+          },
+          "data": {
+            "options": [
+              "Where's the living room? - It's here.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Where's the living room? - It's here."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 13: Where's the Living Room?'?",
+            "en": "Which of the following is a word from Unit 'Unit 13: Where's the Living Room?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 13: Where's the Living Room?'?",
+            "en": "Which of the following is a word from Unit 'Unit 13: Where's the Living Room?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 13: Where's the Living Room?.",
+            "en": "Remember the words in topic: Unit 13: Where's the Living Room?."
+          },
+          "explanation": {
+            "vi": "'living room' is a key vocabulary word in this topic.",
+            "en": "'living room' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "living room",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "living room"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'house' start with the sound /l/?",
+            "en": "Does the word 'house' start with the sound /l/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'house' start with the sound /l/? The word 'house' starts with letter 'L'.",
+            "en": "Does the word 'house' start with the sound /l/? The word 'house' starts with letter 'L'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'house'.",
+            "en": "Listen to the first sound of 'house'."
+          },
+          "explanation": {
+            "vi": "Yes! 'house' starts with the sound /l/.",
+            "en": "Yes! 'house' starts with the sound /l/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'house' starts with letter 'L'.",
+              "en": "The word 'house' starts with letter 'L'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'living room'?",
+            "en": "How many letters are there in the word 'living room'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'living room'?",
+            "en": "How many letters are there in the word 'living room'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'living room': 1, 2, 3...",
+            "en": "Count the letters in 'living room': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'living room' has exactly 11 letters.",
+            "en": "The word 'living room' has exactly 11 letters."
+          },
+          "data": {
+            "correct_number": "11",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'living room':",
+            "en": "Choose the correct phrase with 'living room':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'living room':",
+            "en": "Choose the correct phrase with 'living room':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a living room'.",
+            "en": "Correct! We say 'a living room'."
+          },
+          "data": {
+            "options": [
+              "a living room",
+              "an living room",
+              "two living room",
+              "many living room"
+            ],
+            "correct_answer": "a living room"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'living room'.",
+            "en": "Choose the noun: 'living room'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our living room. It is very nice!'",
+            "en": "We say: 'Look! This is our living room. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "living room",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "living room"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 13: Where's the Living Room?'?",
+            "en": "Which English sentence best describes the topic 'Unit 13: Where's the Living Room?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 13: Where's the Living Room?'?",
+            "en": "Which English sentence best describes the topic 'Unit 13: Where's the Living Room?'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 13: Where's the Living Room?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 13: Where's the Living Room?'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: living room, house!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: living room, house!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s21_2",
+      "title": {
+        "vi": "Unit 13: Cozy Kitchen & Clean Bathroom",
+        "en": "Unit 13: Cozy Kitchen & Clean Bathroom"
+      },
+      "description": {
+        "vi": "There's a kitchen / Where's the bathroom? - It's over there",
+        "en": "There's a kitchen / Where's the bathroom? - It's over there"
+      },
+      "icon": "🍳",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s21_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the modern room equipped with a refrigerator, stove, and sink. What room is it?",
+            "en": "Look at the modern room equipped with a refrigerator, stove, and sink. What room is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the modern room equipped with a refrigerator, stove, and sink. What room is it?",
+            "en": "Look at the modern room equipped with a refrigerator, stove, and sink. What room is it?"
+          },
+          "hint": {
+            "vi": "A room equipped for preparing and cooking food.",
+            "en": "A room equipped for preparing and cooking food."
+          },
+          "explanation": {
+            "vi": "It's the kitchen.",
+            "en": "It's the kitchen."
+          },
+          "data": {
+            "options": [
+              "the kitchen",
+              "the bedroom",
+              "the balcony",
+              "the garden"
+            ],
+            "correct_answer": "the kitchen"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u13_kitchen_bathroom.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s21_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'kitchen'?",
+            "en": "What is the first letter of the word 'kitchen'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'kitchen'?",
+            "en": "What is the first letter of the word 'kitchen'?"
+          },
+          "hint": {
+            "vi": "The word 'kitchen' starts with the letter K.",
+            "en": "The word 'kitchen' starts with the letter K."
+          },
+          "explanation": {
+            "vi": "Correct! 'kitchen' begins with the letter 'K'.",
+            "en": "Correct! 'kitchen' begins with the letter 'K'."
+          },
+          "data": {
+            "options": [
+              "Letter K",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter K"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "kitchen",
+                  "en": "kitchen"
+                },
+                "right": {
+                  "vi": "Nghĩa của kitchen",
+                  "en": "Nghĩa của kitchen"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bathroom",
+                  "en": "bathroom"
+                },
+                "right": {
+                  "vi": "Nghĩa của bathroom",
+                  "en": "Nghĩa của bathroom"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "clean",
+                  "en": "clean"
+                },
+                "right": {
+                  "vi": "Nghĩa của clean",
+                  "en": "Nghĩa của clean"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Mom is cooking breakfast in the kitchen.",
+            "en": "Is this English sentence correct for Grade 3? Mom is cooking breakfast in the kitchen."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Mom is cooking breakfast in the kitchen.",
+            "en": "Remember the pattern: Mom is cooking breakfast in the kitchen."
+          },
+          "explanation": {
+            "vi": "Yes! 'Mom is cooking breakfast in the kitchen.' is a correct English sentence.",
+            "en": "Yes! 'Mom is cooking breakfast in the kitchen.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Mom is cooking breakfast in the kitchen.",
+              "en": "Mom is cooking breakfast in the kitchen."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Mom is cooking breakfast in the ....",
+            "en": "Drag the correct word to complete the sentence: Mom is cooking breakfast in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'kitchen'.",
+            "en": "Choose the correct word: 'kitchen'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Mom is cooking breakfast in the kitchen.'.",
+            "en": "The complete sentence is: 'Mom is cooking breakfast in the kitchen.'."
+          },
+          "data": {
+            "prefix_text": "Mom is cooking breakfast in the ",
+            "suffix_text": ".",
+            "options": [
+              "kitchen",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "kitchen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'kitchen':",
+            "en": "Spell the English word 'kitchen':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'kitchen':",
+            "en": "Spell the English word 'kitchen':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'kitchen'.",
+            "en": "Tap the letters in order to spell 'kitchen'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'kitchen' correctly.",
+            "en": "Well done! You spelled 'kitchen' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "e",
+              "h",
+              "c",
+              "t",
+              "i",
+              "k"
+            ],
+            "target_word": "kitchen",
+            "target_sequence": [
+              "k",
+              "i",
+              "t",
+              "c",
+              "h",
+              "e",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Mẹ đang nấu bữa sáng trong gian bếp.' in English?",
+            "en": "How do you say 'Mẹ đang nấu bữa sáng trong gian bếp.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Mẹ đang nấu bữa sáng trong gian bếp.' in English?",
+            "en": "How do you say 'Mẹ đang nấu bữa sáng trong gian bếp.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Mẹ đang nấu bữa sáng trong gian bếp.",
+            "en": "Choose the English sentence that means: Mẹ đang nấu bữa sáng trong gian bếp."
+          },
+          "explanation": {
+            "vi": "'Mom is cooking breakfast in the kitchen.' means 'Mẹ đang nấu bữa sáng trong gian bếp.'.",
+            "en": "'Mom is cooking breakfast in the kitchen.' means 'Mẹ đang nấu bữa sáng trong gian bếp.'."
+          },
+          "data": {
+            "options": [
+              "Mom is cooking breakfast in the kitchen.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Mom is cooking breakfast in the kitchen."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 13: Cozy Kitchen & Clean Bathroom'?",
+            "en": "Which of the following is a word from Unit 'Unit 13: Cozy Kitchen & Clean Bathroom'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 13: Cozy Kitchen & Clean Bathroom'?",
+            "en": "Which of the following is a word from Unit 'Unit 13: Cozy Kitchen & Clean Bathroom'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 13: Cozy Kitchen & Clean Bathroom.",
+            "en": "Remember the words in topic: Unit 13: Cozy Kitchen & Clean Bathroom."
+          },
+          "explanation": {
+            "vi": "'kitchen' is a key vocabulary word in this topic.",
+            "en": "'kitchen' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "kitchen",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "kitchen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'bathroom' start with the sound /k/?",
+            "en": "Does the word 'bathroom' start with the sound /k/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'bathroom' start with the sound /k/? The word 'bathroom' starts with letter 'K'.",
+            "en": "Does the word 'bathroom' start with the sound /k/? The word 'bathroom' starts with letter 'K'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'bathroom'.",
+            "en": "Listen to the first sound of 'bathroom'."
+          },
+          "explanation": {
+            "vi": "Yes! 'bathroom' starts with the sound /k/.",
+            "en": "Yes! 'bathroom' starts with the sound /k/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'bathroom' starts with letter 'K'.",
+              "en": "The word 'bathroom' starts with letter 'K'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'kitchen'?",
+            "en": "How many letters are there in the word 'kitchen'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'kitchen'?",
+            "en": "How many letters are there in the word 'kitchen'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'kitchen': 1, 2, 3...",
+            "en": "Count the letters in 'kitchen': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'kitchen' has exactly 7 letters.",
+            "en": "The word 'kitchen' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'kitchen':",
+            "en": "Choose the correct phrase with 'kitchen':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'kitchen':",
+            "en": "Choose the correct phrase with 'kitchen':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a kitchen'.",
+            "en": "Correct! We say 'a kitchen'."
+          },
+          "data": {
+            "options": [
+              "a kitchen",
+              "an kitchen",
+              "two kitchen",
+              "many kitchen"
+            ],
+            "correct_answer": "a kitchen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'kitchen'.",
+            "en": "Choose the noun: 'kitchen'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our kitchen. It is very nice!'",
+            "en": "We say: 'Look! This is our kitchen. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "kitchen",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "kitchen"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s21_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 13: Cozy Kitchen & Clean Bathroom'?",
+            "en": "Which English sentence best describes the topic 'Unit 13: Cozy Kitchen & Clean Bathroom'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 13: Cozy Kitchen & Clean Bathroom'?",
+            "en": "Which English sentence best describes the topic 'Unit 13: Cozy Kitchen & Clean Bathroom'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 13: Cozy Kitchen & Clean Bathroom'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 13: Cozy Kitchen & Clean Bathroom'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: kitchen, bathroom!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: kitchen, bathroom!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

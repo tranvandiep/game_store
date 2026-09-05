@@ -1,0 +1,1300 @@
+{
+  "id": "m4_stage_20",
+  "stage_number": 20,
+  "title": {
+    "vi": "Tuần 20: Khái Niệm Phân Số & Phép Chia Số Tự Nhiên",
+    "en": "Week 20: Introduction to Fractions & Division"
+  },
+  "subtitle": {
+    "vi": "Trang 106-110: Tử số, mẫu số, phân số là thương của phép chia",
+    "en": "Pages 106-110: Numerator, denominator & fraction as division"
+  },
+  "icon": "🍰",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.418,
+  "required_stars": 57,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "m4_t20_1",
+      "title": {
+        "vi": "Khái niệm Phân Số, Tử Số & Mẫu Số",
+        "en": "Fractions, Numerator & Denominator"
+      },
+      "description": {
+        "vi": "Phân số a/b: Mẫu số b cho biết số phần bằng nhau chia ra (b > 0), Tử số a cho biết số phần được lấy",
+        "en": "a/b: b = total equal parts (b > 0), a = parts taken"
+      },
+      "icon": "🍰",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t20_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hình tròn được chia thành 6 phần bằng nhau, đã tô màu 5 phần. Phân số chỉ phần đã tô màu là:",
+            "en": "Circle cut into 6 equal parts, 5 colored. Fraction of colored parts:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình tròn được chia thành 6 phần bằng nhau, đã tô màu 5 phần. Phân số chỉ phần đã tô màu là:",
+            "en": "Circle cut into 6 equal parts, 5 colored. Fraction of colored parts:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Tô màu 5 phần trong 6 phần viết là 5/6 (năm phần sáu).",
+            "en": "5/6 (five-sixths)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "5/6",
+                "en": "5/6"
+              },
+              {
+                "vi": "6/5",
+                "en": "6/5"
+              },
+              {
+                "vi": "1/6",
+                "en": "1/6"
+              }
+            ],
+            "correct_answer": "5/6"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối thành phần phân số với ý nghĩa:",
+            "en": "Match fraction terms with definitions:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối thành phần phân số với ý nghĩa:",
+            "en": "Match fraction terms with definitions:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Cấu trúc phân số chuẩn.",
+            "en": "Fraction anatomy."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Tử số (viết trên gạch ngang)",
+                  "en": "Tử số (viết trên gạch ngang)"
+                },
+                "right": {
+                  "vi": "Chỉ số phần bằng nhau được lấy",
+                  "en": "Chỉ số phần bằng nhau được lấy"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Mẫu số (viết dưới gạch ngang)",
+                  "en": "Mẫu số (viết dưới gạch ngang)"
+                },
+                "right": {
+                  "vi": "Chỉ tổng số phần bằng nhau được chia ra",
+                  "en": "Chỉ tổng số phần bằng nhau được chia ra"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Dấu gạch ngang",
+                  "en": "Dấu gạch ngang"
+                },
+                "right": {
+                  "vi": "Thay cho dấu phép chia ( : )",
+                  "en": "Thay cho dấu phép chia ( : )"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Điều kiện mẫu số.",
+            "en": "Decide whether the following statement is true or false: Điều kiện mẫu số."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Không thể chia cho 0 nên mẫu số luôn khác 0.",
+            "en": "True! Denominator cannot be 0."
+          },
+          "data": {
+            "statement": {
+              "vi": "Điều kiện mẫu số.",
+              "en": "Điều kiện mẫu số."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Khái niệm Phân Số, Tử Số & Mẫu Số': Hình tròn được chia thành 6 phần bằng nhau, đã tô màu 5 phần. Phân số chỉ phần đã tô màu là:",
+            "en": "Practice 'Fractions, Numerator & Denominator': Circle cut into 6 equal parts, 5 colored. Fraction of colored parts:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình tròn được chia thành 6 phần bằng nhau, đã tô màu 5 phần. Phân số chỉ phần đã tô màu là:",
+            "en": "Circle cut into 6 equal parts, 5 colored. Fraction of colored parts:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Tô màu 5 phần trong 6 phần viết là 5/6 (năm phần sáu).",
+            "en": "5/6 (five-sixths)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "5/6",
+                "en": "5/6"
+              },
+              {
+                "vi": "6/5",
+                "en": "6/5"
+              },
+              {
+                "vi": "1/6",
+                "en": "1/6"
+              }
+            ],
+            "correct_answer": "5/6"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 0 đứng liền trước số 1.",
+            "en": "Decide whether the following statement is true or false: Số 0 đứng liền trước số 1."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 0 đứng liền trước số 1.",
+              "en": "Số 0 đứng liền trước số 1."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 3 bé hơn số 2 (3 < 2).",
+            "en": "Decide whether the following statement is true or false: Số 3 bé hơn số 2 (3 < 2)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3 bé hơn số 2 (3 < 2).",
+              "en": "Số 3 bé hơn số 2 (3 < 2)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 16 và 24 là:",
+            "en": "Average of 16 and 24 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 16 và 24 là:",
+            "en": "Average of 16 and 24 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(16 + 24) : 2 = 20.",
+            "en": "Average is 20."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_12",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Góc nhọn là góc bé hơn góc vuông.",
+            "en": "An acute angle is smaller than a right angle."
+          },
+          "hint": {
+            "vi": "Góc vuông có số đo 90 độ.",
+            "en": "A right angle is 90 degrees."
+          },
+          "explanation": {
+            "vi": "Góc nhọn có số đo bé hơn 90 độ.",
+            "en": "Acute angle is less than 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc nhọn là góc có số đo bé hơn góc vuông.",
+              "en": "An acute angle is smaller than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_1_13",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của hai số 12 và 24 là:",
+            "en": "The average of 12 and 24 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 12 và 24",
+            "en": "Average of 12 and 24"
+          },
+          "hint": {
+            "vi": "Lấy tổng chia cho 2.",
+            "en": "Sum divided by 2."
+          },
+          "explanation": {
+            "vi": "(12 + 24) : 2 = 18.",
+            "en": "(12 + 24) : 2 = 18."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "18"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t20_2",
+      "title": {
+        "vi": "Phân số và phép chia số tự nhiên",
+        "en": "Fractions as Division of Natural Numbers"
+      },
+      "description": {
+        "vi": "Thương của phép chia số tự nhiên a cho b (b khác 0) có thể viết dưới dạng phân số a/b",
+        "en": "Quotient a : b can be written as fraction a/b"
+      },
+      "icon": "➗",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t20_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Thương của phép chia 3 : 4 được viết dưới dạng phân số là:",
+            "en": "Quotient of 3 : 4 in fraction form is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thương của phép chia 3 : 4 được viết dưới dạng phân số là:",
+            "en": "Quotient of 3 : 4 in fraction form is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "3 : 4 = 3/4.",
+            "en": "3/4."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3/4",
+                "en": "3/4"
+              },
+              {
+                "vi": "4/3",
+                "en": "4/3"
+              },
+              {
+                "vi": "3/7",
+                "en": "3/7"
+              }
+            ],
+            "correct_answer": "3/4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép chia với phân số tương ứng:",
+            "en": "Match division with fraction:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép chia với phân số tương ứng:",
+            "en": "Match division with fraction:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Viết phép chia thành phân số.",
+            "en": "Convert division to fraction."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 : 8",
+                  "en": "5 : 8"
+                },
+                "right": {
+                  "vi": "5/8",
+                  "en": "5/8"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "7 : 3",
+                  "en": "7 : 3"
+                },
+                "right": {
+                  "vi": "7/3",
+                  "en": "7/3"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "9 : 9",
+                  "en": "9 : 9"
+                },
+                "right": {
+                  "vi": "9/9 (= 1)",
+                  "en": "9/9 (= 1)"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số tự nhiên dưới dạng phân số.",
+            "en": "Decide whether the following statement is true or false: Số tự nhiên dưới dạng phân số."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! a = a/1.",
+            "en": "True! Any integer is a/1."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số tự nhiên dưới dạng phân số.",
+              "en": "Số tự nhiên dưới dạng phân số."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Phân số và phép chia số tự nhiên': Thương của phép chia 3 : 4 được viết dưới dạng phân số là:",
+            "en": "Practice 'Fractions as Division of Natural Numbers': Quotient of 3 : 4 in fraction form is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Thương của phép chia 3 : 4 được viết dưới dạng phân số là:",
+            "en": "Quotient of 3 : 4 in fraction form is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "3 : 4 = 3/4.",
+            "en": "3/4."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3/4",
+                "en": "3/4"
+              },
+              {
+                "vi": "4/3",
+                "en": "4/3"
+              },
+              {
+                "vi": "3/7",
+                "en": "3/7"
+              }
+            ],
+            "correct_answer": "3/4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 7 đứng liền trước số 8.",
+            "en": "Decide whether the following statement is true or false: Số 7 đứng liền trước số 8."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 7 đứng liền trước số 8.",
+              "en": "Số 7 đứng liền trước số 8."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 3 bé hơn số 2 (3 < 2).",
+            "en": "Decide whether the following statement is true or false: Số 3 bé hơn số 2 (3 < 2)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3 bé hơn số 2 (3 < 2).",
+              "en": "Số 3 bé hơn số 2 (3 < 2)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 49 và 23 là:",
+            "en": "Average of 49 and 23 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 49 và 23 là:",
+            "en": "Average of 49 and 23 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(49 + 23) : 2 = 36.",
+            "en": "Average is 36."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "36"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Góc nhọn là góc bé hơn góc vuông.",
+            "en": "An acute angle is smaller than a right angle."
+          },
+          "hint": {
+            "vi": "Góc vuông có số đo 90 độ.",
+            "en": "A right angle is 90 degrees."
+          },
+          "explanation": {
+            "vi": "Góc nhọn có số đo bé hơn 90 độ.",
+            "en": "Acute angle is less than 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc nhọn là góc có số đo bé hơn góc vuông.",
+              "en": "An acute angle is smaller than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của hai số 18 và 24 là:",
+            "en": "The average of 18 and 24 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 18 và 24",
+            "en": "Average of 18 and 24"
+          },
+          "hint": {
+            "vi": "Lấy tổng chia cho 2.",
+            "en": "Sum divided by 2."
+          },
+          "explanation": {
+            "vi": "(18 + 24) : 2 = 21.",
+            "en": "(18 + 24) : 2 = 21."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "21"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_2_13",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của hai số 25 và 15 là:",
+            "en": "The average of 25 and 15 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 25 và 15",
+            "en": "Average of 25 and 15"
+          },
+          "hint": {
+            "vi": "Lấy tổng chia cho 2.",
+            "en": "Sum divided by 2."
+          },
+          "explanation": {
+            "vi": "(25 + 15) : 2 = 20.",
+            "en": "(25 + 15) : 2 = 20."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "20"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t20_3",
+      "title": {
+        "vi": "So sánh phân số với số 1",
+        "en": "Comparing Fractions with 1"
+      },
+      "description": {
+        "vi": "Tử < Mẫu thì < 1; Tử > Mẫu thì > 1; Tử = Mẫu thì = 1",
+        "en": "Numerator < Denominator: < 1; Numerator > Denominator: > 1; Equal: = 1"
+      },
+      "icon": "⚖️",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t20_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Phân số nào dưới đây lớn hơn 1?",
+            "en": "Which fraction is strictly greater than 1?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Phân số nào dưới đây lớn hơn 1?",
+            "en": "Which fraction is strictly greater than 1?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "7/5 có tử số 7 > mẫu số 5 nên phân số lớn hơn 1.",
+            "en": "7/5 > 1 because 7 > 5."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "7/5",
+                "en": "7/5"
+              },
+              {
+                "vi": "3/4",
+                "en": "3/4"
+              },
+              {
+                "vi": "5/5",
+                "en": "5/5"
+              }
+            ],
+            "correct_answer": "7/5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Phân số 4/4 có giá trị bằng bao nhiêu?",
+            "en": "What is the value of 4/4?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Phân số 4/4 có giá trị bằng bao nhiêu?",
+            "en": "What is the value of 4/4?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Tử số bằng mẫu số thì phân số bằng 1.",
+            "en": "4/4 = 1."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "0",
+                "en": "0"
+              },
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "4",
+                "en": "4"
+              }
+            ],
+            "correct_answer": "1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'So sánh phân số với số 1': Phân số nào dưới đây lớn hơn 1?",
+            "en": "Practice 'Comparing Fractions with 1': Which fraction is strictly greater than 1?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Phân số nào dưới đây lớn hơn 1?",
+            "en": "Which fraction is strictly greater than 1?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "7/5 có tử số 7 > mẫu số 5 nên phân số lớn hơn 1.",
+            "en": "7/5 > 1 because 7 > 5."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "7/5",
+                "en": "7/5"
+              },
+              {
+                "vi": "3/4",
+                "en": "3/4"
+              },
+              {
+                "vi": "5/5",
+                "en": "5/5"
+              }
+            ],
+            "correct_answer": "7/5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'So sánh phân số với số 1': Phân số 4/4 có giá trị bằng bao nhiêu?",
+            "en": "Practice 'Comparing Fractions with 1': What is the value of 4/4?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Phân số 4/4 có giá trị bằng bao nhiêu?",
+            "en": "What is the value of 4/4?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Tử số bằng mẫu số thì phân số bằng 1.",
+            "en": "4/4 = 1."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "0",
+                "en": "0"
+              },
+              {
+                "vi": "4",
+                "en": "4"
+              }
+            ],
+            "correct_answer": "1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 1,  ... , 3",
+            "en": "Drag the correct answer into the slot:\nDãy số: 1,  ... , 3"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 1,  ... , 3",
+            "en": "Drag the correct answer: Dãy số: 1,  ... , 3"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 1,  2 , 3",
+            "en": "Dãy số: 1,  2 , 3"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 1, ",
+            "suffix_text": ", 3",
+            "options": [
+              "4",
+              "2",
+              "5",
+              "1"
+            ],
+            "slot_answer": "2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_6",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 19 và 11 là:",
+            "en": "Average of 19 and 11 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 19 và 11 là:",
+            "en": "Average of 19 and 11 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(19 + 11) : 2 = 15.",
+            "en": "Average is 15."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "15"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 34843 đến hàng nghìn:",
+            "en": "Round 34843 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 34843 đến hàng nghìn:",
+            "en": "Round 34843 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "34000",
+                "en": "34000"
+              },
+              {
+                "vi": "35000",
+                "en": "35000"
+              },
+              {
+                "vi": "33000",
+                "en": "33000"
+              }
+            ],
+            "correct_answer": "35000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 59438 đến hàng nghìn:",
+            "en": "Round 59438 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 59438 đến hàng nghìn:",
+            "en": "Round 59438 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "59000",
+                "en": "59000"
+              },
+              {
+                "vi": "60000",
+                "en": "60000"
+              },
+              {
+                "vi": "58000",
+                "en": "58000"
+              }
+            ],
+            "correct_answer": "59000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t20_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 23 và 21 là:",
+            "en": "Average of 23 and 21 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 23 và 21 là:",
+            "en": "Average of 23 and 21 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(23 + 21) : 2 = 22.",
+            "en": "Average is 22."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "22"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1132 @@
+{
+  "id": "v2_stage_3",
+  "stage_number": 3,
+  "title": {
+    "vi": "Tuần 3: Vẻ Đẹp & Tự Tin Bản Thân",
+    "en": "Tuần 3: Vẻ Đẹp & Tự Tin Bản Thân"
+  },
+  "subtitle": {
+    "vi": "Bài 5 & 6 - Em có xinh không? & Một giờ học",
+    "en": "Bài 5 & 6 - Em có xinh không? & Một giờ học"
+  },
+  "icon": "🦔",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.892,
+  "required_stars": 6,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "v2_t3_1",
+      "title": {
+        "vi": "Tập đọc: Em có xinh không?",
+        "en": "Tập đọc: Em có xinh không?"
+      },
+      "description": {
+        "vi": "Tự tin với vẻ đẹp riêng của chính mình",
+        "en": "Tự tin với vẻ đẹp riêng của chính mình"
+      },
+      "icon": "🐘",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t3_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Nhân vật chú voi con trong tranh hỏi các bạn trong rừng điều gì?",
+            "en": "Nhân vật chú voi con trong tranh hỏi các bạn trong rừng điều gì?"
+          },
+          "tts_prompt": {
+            "vi": "Nhân vật chú voi con trong tranh hỏi các bạn trong rừng điều gì?",
+            "en": "Nhân vật chú voi con trong tranh hỏi các bạn trong rừng điều gì?"
+          },
+          "hint": {
+            "vi": "Voi con gài thêm tai và lông nhưng cuối cùng nhận ra mình đẹp nhất khi là chính mình.",
+            "en": "Voi con gài thêm tai và lông nhưng cuối cùng nhận ra mình đẹp nhất khi là chính mình."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài đọc: 'Em có xinh không?' - Voi con đáng yêu.",
+            "en": "Bức tranh minh hoạ bài đọc: 'Em có xinh không?' - Voi con đáng yêu."
+          },
+          "data": {
+            "options": [
+              "Em có xinh không?",
+              "Mấy giờ rồi?",
+              "Đường này đi đâu?",
+              "Ai muốn ăn chuối?"
+            ],
+            "correct_answer": "Em có xinh không?"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_em_co_xinh_khong.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'voi con'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'voi con'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'voi con'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'voi con'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'voi con' và 'xinh xắn' cùng thuộc chủ điểm bài học.",
+            "en": "'voi con' và 'xinh xắn' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "xinh xắn",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "xinh xắn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "voi con",
+                  "en": "voi con"
+                },
+                "right": {
+                  "vi": "Nghĩa của voi con",
+                  "en": "Nghĩa của voi con"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "xinh xắn",
+                  "en": "xinh xắn"
+                },
+                "right": {
+                  "vi": "Nghĩa của xinh xắn",
+                  "en": "Nghĩa của xinh xắn"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tự tin",
+                  "en": "tự tin"
+                },
+                "right": {
+                  "vi": "Nghĩa của tự tin",
+                  "en": "Nghĩa của tự tin"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'voi con' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'voi con' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'voi con' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'voi con' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'voi con' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'voi con' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'voi con'.",
+            "en": "Từ chính xác là 'voi con'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "voi con",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "voi con"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'voicon':",
+            "en": "Ghép các chữ cái để tạo thành từ 'voicon':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'voicon':",
+            "en": "Ghép các chữ cái để tạo thành từ 'voicon':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'voicon'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'voicon'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'voicon'.",
+            "en": "Ghép các chữ cái tạo thành 'voicon'."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "o",
+              "c",
+              "i",
+              "o",
+              "v"
+            ],
+            "target_word": "voicon",
+            "target_sequence": [
+              "v",
+              "o",
+              "i",
+              "c",
+              "o",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'voi con' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'voi con' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'voi con' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'voi con' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'voi con'.",
+            "en": "Xác định bản chất của từ 'voi con'."
+          },
+          "explanation": {
+            "vi": "'voi con' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'voi con' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Em có xinh không?'.",
+            "en": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Em có xinh không?'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Em có xinh không?",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Em có xinh không?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Mỗi người đều có nét đẹp riêng, hãy tự tin vào bản thân.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Mỗi người đều có nét đẹp riêng, hãy tự tin vào bản thân."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Mỗi người đều có nét đẹp riêng, hãy tự tin vào bản thân.",
+            "en": "Đúng! Mỗi người đều có nét đẹp riêng, hãy tự tin vào bản thân."
+          },
+          "data": {
+            "statement": {
+              "vi": "Mỗi người đều có nét đẹp riêng, hãy tự tin vào bản thân.",
+              "en": "Mỗi người đều có nét đẹp riêng, hãy tự tin vào bản thân."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Voi con nhận ra mình xinh đẹp nhất khi là chính mình..",
+            "en": "Đếm từng tiếng trong câu: Voi con nhận ra mình xinh đẹp nhất khi là chính mình.."
+          },
+          "explanation": {
+            "vi": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' có đúng 12 tiếng.",
+            "en": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' Voi ... nhận ra mình xinh đẹp nhất khi là chính mình.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Voi con nhận ra mình xinh đẹp nhất khi là chính mình.' Voi ... nhận ra mình xinh đẹp nhất khi là chính mình."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Voi con nhận ra mình xinh đẹp nhất khi là chính mình..",
+            "en": "Nhớ lại câu mẫu trong bài học: Voi con nhận ra mình xinh đẹp nhất khi là chính mình.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'con'.",
+            "en": "Từ chính xác là 'con'."
+          },
+          "data": {
+            "prefix_text": "Voi ",
+            "suffix_text": " nhận ra mình xinh đẹp nhất khi là chính mình.",
+            "options": [
+              "con",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "con"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'voi con' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'voi con' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'voi con' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'voi con' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý voi con.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý voi con.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý voi con.",
+              "voi con đang bay trên trời cao.",
+              "voi con nở hoa rực rỡ.",
+              "voi con có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý voi con."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Em có xinh không?', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Em có xinh không?', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Em có xinh không?', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Em có xinh không?', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương voi con",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương voi con"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t3_2",
+      "title": {
+        "vi": "Tập đọc: Một giờ học & Luyện nói trước lớp",
+        "en": "Tập đọc: Một giờ học & Luyện nói trước lớp"
+      },
+      "description": {
+        "vi": "Vượt qua sự rụt rè để tự tin phát biểu",
+        "en": "Vượt qua sự rụt rè để tự tin phát biểu"
+      },
+      "icon": "🗣️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t3_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh mô tả hành động tự tin nào của bạn học sinh trong lớp học?",
+            "en": "Bức tranh mô tả hành động tự tin nào của bạn học sinh trong lớp học?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh mô tả hành động tự tin nào của bạn học sinh trong lớp học?",
+            "en": "Bức tranh mô tả hành động tự tin nào của bạn học sinh trong lớp học?"
+          },
+          "hint": {
+            "vi": "Bạn học sinh đứng thẳng, tươi cười phát biểu trước thầy cô và bạn bè.",
+            "en": "Bạn học sinh đứng thẳng, tươi cười phát biểu trước thầy cô và bạn bè."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài học: 'Một giờ học - Tự tin nói trước lớp'.",
+            "en": "Bức tranh minh hoạ bài học: 'Một giờ học - Tự tin nói trước lớp'."
+          },
+          "data": {
+            "options": [
+              "tự tin phát biểu",
+              "ngủ gật trong lớp",
+              "vẽ bậy lên bàn",
+              "chạy ra ngoài cửa"
+            ],
+            "correct_answer": "tự tin phát biểu"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_mot_gio_hoc.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'giờ học'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'giờ học'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'giờ học'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'giờ học'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'giờ học' và 'phát biểu' cùng thuộc chủ điểm bài học.",
+            "en": "'giờ học' và 'phát biểu' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "phát biểu",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "phát biểu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "giờ học",
+                  "en": "giờ học"
+                },
+                "right": {
+                  "vi": "Nghĩa của giờ học",
+                  "en": "Nghĩa của giờ học"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "phát biểu",
+                  "en": "phát biểu"
+                },
+                "right": {
+                  "vi": "Nghĩa của phát biểu",
+                  "en": "Nghĩa của phát biểu"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tự tin",
+                  "en": "tự tin"
+                },
+                "right": {
+                  "vi": "Nghĩa của tự tin",
+                  "en": "Nghĩa của tự tin"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'giờ học' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'giờ học' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'giờ học' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'giờ học' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'giờ học' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'giờ học' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'giờ học'.",
+            "en": "Từ chính xác là 'giờ học'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "giờ học",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "giờ học"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'giờhọc':",
+            "en": "Ghép các chữ cái để tạo thành từ 'giờhọc':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'giờhọc':",
+            "en": "Ghép các chữ cái để tạo thành từ 'giờhọc':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'giờhọc'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'giờhọc'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'giờhọc'.",
+            "en": "Ghép các chữ cái tạo thành 'giờhọc'."
+          },
+          "data": {
+            "letters": [
+              "c",
+              "ọ",
+              "h",
+              "ờ",
+              "i",
+              "g"
+            ],
+            "target_word": "giờhọc",
+            "target_sequence": [
+              "g",
+              "i",
+              "ờ",
+              "h",
+              "ọ",
+              "c"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'giờ học' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'giờ học' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'giờ học' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'giờ học' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'giờ học'.",
+            "en": "Xác định bản chất của từ 'giờ học'."
+          },
+          "explanation": {
+            "vi": "'giờ học' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'giờ học' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Một giờ học & Luyện nói trước lớp'.",
+            "en": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Một giờ học & Luyện nói trước lớp'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Một giờ học & Luyện nói trước lớp",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Một giờ học & Luyện nói trước lớp"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Mạnh dạn tự tin phát biểu giúp ta tiến bộ mỗi ngày.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Mạnh dạn tự tin phát biểu giúp ta tiến bộ mỗi ngày."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Mạnh dạn tự tin phát biểu giúp ta tiến bộ mỗi ngày.",
+            "en": "Đúng! Mạnh dạn tự tin phát biểu giúp ta tiến bộ mỗi ngày."
+          },
+          "data": {
+            "statement": {
+              "vi": "Mạnh dạn tự tin phát biểu giúp ta tiến bộ mỗi ngày.",
+              "en": "Mạnh dạn tự tin phát biểu giúp ta tiến bộ mỗi ngày."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Bạn Quang đã mạnh dạn đứng lên nói trước lớp..",
+            "en": "Đếm từng tiếng trong câu: Bạn Quang đã mạnh dạn đứng lên nói trước lớp.."
+          },
+          "explanation": {
+            "vi": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' có đúng 10 tiếng.",
+            "en": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' có đúng 10 tiếng."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' Bạn ... đã mạnh dạn đứng lên nói trước lớp.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bạn Quang đã mạnh dạn đứng lên nói trước lớp.' Bạn ... đã mạnh dạn đứng lên nói trước lớp."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Bạn Quang đã mạnh dạn đứng lên nói trước lớp..",
+            "en": "Nhớ lại câu mẫu trong bài học: Bạn Quang đã mạnh dạn đứng lên nói trước lớp.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'Quang'.",
+            "en": "Từ chính xác là 'Quang'."
+          },
+          "data": {
+            "prefix_text": "Bạn ",
+            "suffix_text": " đã mạnh dạn đứng lên nói trước lớp.",
+            "options": [
+              "Quang",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "Quang"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'giờ học' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'giờ học' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'giờ học' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'giờ học' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý giờ học.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý giờ học.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý giờ học.",
+              "giờ học đang bay trên trời cao.",
+              "giờ học nở hoa rực rỡ.",
+              "giờ học có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý giờ học."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t3_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Một giờ học & Luyện nói trước lớp', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Một giờ học & Luyện nói trước lớp', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Một giờ học & Luyện nói trước lớp', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Một giờ học & Luyện nói trước lớp', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương giờ học",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương giờ học"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

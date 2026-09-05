@@ -1,0 +1,1128 @@
+{
+  "id": "e2_stage_2",
+  "stage_number": 2,
+  "title": {
+    "vi": "Week 2: Unit 1 - Birthday Party",
+    "en": "Week 2: Unit 1 - Birthday Party"
+  },
+  "subtitle": {
+    "vi": "Letter Pp - popcorn, pasta, pizza, pony",
+    "en": "Letter Pp - popcorn, pasta, pizza, pony"
+  },
+  "icon": "🍕",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.921,
+  "required_stars": 3,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "e2_s2_1",
+      "title": {
+        "vi": "Unit 1: Letter Pp Phonics",
+        "en": "Unit 1: Letter Pp Phonics"
+      },
+      "description": {
+        "vi": "Phonics sound /p/ with pizza and popcorn",
+        "en": "Phonics sound /p/ with pizza and popcorn"
+      },
+      "icon": "🍿",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s2_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the warm cheesy round Italian pie on the birthday table. What food is it?",
+            "en": "Look at the warm cheesy round Italian pie on the birthday table. What food is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the warm cheesy round Italian pie on the birthday table. What food is it?",
+            "en": "Look at the warm cheesy round Italian pie on the birthday table. What food is it?"
+          },
+          "hint": {
+            "vi": "It has cheese, tomato sauce, and toppings.",
+            "en": "It has cheese, tomato sauce, and toppings."
+          },
+          "explanation": {
+            "vi": "It's a delicious slice of pizza.",
+            "en": "It's a delicious slice of pizza."
+          },
+          "data": {
+            "options": [
+              "a slice of delicious pizza",
+              "a bowl of cold rice",
+              "a cup of black tea",
+              "a green cucumber"
+            ],
+            "correct_answer": "a slice of delicious pizza"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u1_letter_p.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s2_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'pizza'?",
+            "en": "What is the first letter of the word 'pizza'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'pizza'?",
+            "en": "What is the first letter of the word 'pizza'?"
+          },
+          "hint": {
+            "vi": "The word 'pizza' starts with the letter P.",
+            "en": "The word 'pizza' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'pizza' begins with the letter 'P'.",
+            "en": "Correct! 'pizza' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "pizza",
+                  "en": "pizza"
+                },
+                "right": {
+                  "vi": "Nghĩa của pizza",
+                  "en": "Nghĩa của pizza"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "popcorn",
+                  "en": "popcorn"
+                },
+                "right": {
+                  "vi": "Nghĩa của popcorn",
+                  "en": "Nghĩa của popcorn"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "pasta",
+                  "en": "pasta"
+                },
+                "right": {
+                  "vi": "Nghĩa của pasta",
+                  "en": "Nghĩa của pasta"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? I like cheesy pizza and crunchy popcorn.",
+            "en": "Is this English sentence correct for Grade 2? I like cheesy pizza and crunchy popcorn."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I like cheesy pizza and crunchy popcorn.",
+            "en": "Remember the pattern: I like cheesy pizza and crunchy popcorn."
+          },
+          "explanation": {
+            "vi": "Yes! 'I like cheesy pizza and crunchy popcorn.' is a correct English sentence.",
+            "en": "Yes! 'I like cheesy pizza and crunchy popcorn.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I like cheesy pizza and crunchy popcorn.",
+              "en": "I like cheesy pizza and crunchy popcorn."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I like cheesy pizza and crunchy ....",
+            "en": "Drag the correct word to complete the sentence: I like cheesy pizza and crunchy ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'popcorn'.",
+            "en": "Choose the correct word: 'popcorn'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I like cheesy pizza and crunchy popcorn.'.",
+            "en": "The complete sentence is: 'I like cheesy pizza and crunchy popcorn.'."
+          },
+          "data": {
+            "prefix_text": "I like cheesy pizza and crunchy ",
+            "suffix_text": ".",
+            "options": [
+              "popcorn",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "popcorn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'pizza':",
+            "en": "Spell the English word 'pizza':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'pizza':",
+            "en": "Spell the English word 'pizza':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'pizza'.",
+            "en": "Tap the letters in order to spell 'pizza'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'pizza' correctly.",
+            "en": "Well done! You spelled 'pizza' correctly."
+          },
+          "data": {
+            "letters": [
+              "a",
+              "z",
+              "z",
+              "i",
+              "p"
+            ],
+            "target_word": "pizza",
+            "target_sequence": [
+              "p",
+              "i",
+              "z",
+              "z",
+              "a"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi thích bánh pizza phô mai và bỏng ngô giòn tan.' in English?",
+            "en": "How do you say 'Tôi thích bánh pizza phô mai và bỏng ngô giòn tan.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi thích bánh pizza phô mai và bỏng ngô giòn tan.' in English?",
+            "en": "How do you say 'Tôi thích bánh pizza phô mai và bỏng ngô giòn tan.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi thích bánh pizza phô mai và bỏng ngô giòn tan.",
+            "en": "Choose the English sentence that means: Tôi thích bánh pizza phô mai và bỏng ngô giòn tan."
+          },
+          "explanation": {
+            "vi": "'I like cheesy pizza and crunchy popcorn.' means 'Tôi thích bánh pizza phô mai và bỏng ngô giòn tan.'.",
+            "en": "'I like cheesy pizza and crunchy popcorn.' means 'Tôi thích bánh pizza phô mai và bỏng ngô giòn tan.'."
+          },
+          "data": {
+            "options": [
+              "I like cheesy pizza and crunchy popcorn.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I like cheesy pizza and crunchy popcorn."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: Letter Pp Phonics'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: Letter Pp Phonics'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: Letter Pp Phonics'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: Letter Pp Phonics'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 1: Letter Pp Phonics.",
+            "en": "Remember the words in topic: Unit 1: Letter Pp Phonics."
+          },
+          "explanation": {
+            "vi": "'pizza' is a key vocabulary word in this topic.",
+            "en": "'pizza' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "pizza",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "pizza"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'popcorn' start with the sound /p/?",
+            "en": "Does the word 'popcorn' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'popcorn' start with the sound /p/? The word 'popcorn' starts with letter 'P'.",
+            "en": "Does the word 'popcorn' start with the sound /p/? The word 'popcorn' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'popcorn'.",
+            "en": "Listen to the first sound of 'popcorn'."
+          },
+          "explanation": {
+            "vi": "Yes! 'popcorn' starts with the sound /p/.",
+            "en": "Yes! 'popcorn' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'popcorn' starts with letter 'P'.",
+              "en": "The word 'popcorn' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'pizza'?",
+            "en": "How many letters are there in the word 'pizza'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'pizza'?",
+            "en": "How many letters are there in the word 'pizza'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'pizza': 1, 2, 3...",
+            "en": "Count the letters in 'pizza': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'pizza' has exactly 5 letters.",
+            "en": "The word 'pizza' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'pizza':",
+            "en": "Choose the correct phrase with 'pizza':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'pizza':",
+            "en": "Choose the correct phrase with 'pizza':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a pizza'.",
+            "en": "Correct! We say 'a pizza'."
+          },
+          "data": {
+            "options": [
+              "a pizza",
+              "an pizza",
+              "five pizza",
+              "many pizza"
+            ],
+            "correct_answer": "a pizza"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'pizza'.",
+            "en": "Choose the food or object: 'pizza'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like pizza? - Yes, I do!'",
+            "en": "We ask: 'Do you like pizza? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "pizza",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "pizza"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: Letter Pp Phonics'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: Letter Pp Phonics'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: Letter Pp Phonics'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: Letter Pp Phonics'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unit 1: Letter Pp Phonics'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unit 1: Letter Pp Phonics'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: pizza, popcorn!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: pizza, popcorn!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s2_2",
+      "title": {
+        "vi": "Unit 1: Pasta & A Cute Pony Toy",
+        "en": "Unit 1: Pasta & A Cute Pony Toy"
+      },
+      "description": {
+        "vi": "Eating delicious pasta and playing with a toy pony",
+        "en": "Eating delicious pasta and playing with a toy pony"
+      },
+      "icon": "🍝",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s2_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the steaming plate of Italian spaghetti pasta with tomato sauce. What dish is it?",
+            "en": "Look at the steaming plate of Italian spaghetti pasta with tomato sauce. What dish is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the steaming plate of Italian spaghetti pasta with tomato sauce. What dish is it?",
+            "en": "Look at the steaming plate of Italian spaghetti pasta with tomato sauce. What dish is it?"
+          },
+          "hint": {
+            "vi": "Noodles with Italian tomato sauce.",
+            "en": "Noodles with Italian tomato sauce."
+          },
+          "explanation": {
+            "vi": "It's a tasty plate of Italian pasta.",
+            "en": "It's a tasty plate of Italian pasta."
+          },
+          "data": {
+            "options": [
+              "a plate of yummy pasta",
+              "a glass of water",
+              "a chocolate candy",
+              "a bag of chips"
+            ],
+            "correct_answer": "a plate of yummy pasta"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u1_pasta_pony.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s2_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'pasta'?",
+            "en": "What is the first letter of the word 'pasta'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'pasta'?",
+            "en": "What is the first letter of the word 'pasta'?"
+          },
+          "hint": {
+            "vi": "The word 'pasta' starts with the letter P.",
+            "en": "The word 'pasta' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'pasta' begins with the letter 'P'.",
+            "en": "Correct! 'pasta' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "pasta",
+                  "en": "pasta"
+                },
+                "right": {
+                  "vi": "Nghĩa của pasta",
+                  "en": "Nghĩa của pasta"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "pony",
+                  "en": "pony"
+                },
+                "right": {
+                  "vi": "Nghĩa của pony",
+                  "en": "Nghĩa của pony"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "party",
+                  "en": "party"
+                },
+                "right": {
+                  "vi": "Nghĩa của party",
+                  "en": "Nghĩa của party"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? She eats yummy pasta at the party.",
+            "en": "Is this English sentence correct for Grade 2? She eats yummy pasta at the party."
+          },
+          "hint": {
+            "vi": "Remember the pattern: She eats yummy pasta at the party.",
+            "en": "Remember the pattern: She eats yummy pasta at the party."
+          },
+          "explanation": {
+            "vi": "Yes! 'She eats yummy pasta at the party.' is a correct English sentence.",
+            "en": "Yes! 'She eats yummy pasta at the party.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "She eats yummy pasta at the party.",
+              "en": "She eats yummy pasta at the party."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: She eats yummy pasta at the ....",
+            "en": "Drag the correct word to complete the sentence: She eats yummy pasta at the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'party'.",
+            "en": "Choose the correct word: 'party'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'She eats yummy pasta at the party.'.",
+            "en": "The complete sentence is: 'She eats yummy pasta at the party.'."
+          },
+          "data": {
+            "prefix_text": "She eats yummy pasta at the ",
+            "suffix_text": ".",
+            "options": [
+              "party",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "party"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'pasta':",
+            "en": "Spell the English word 'pasta':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'pasta':",
+            "en": "Spell the English word 'pasta':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'pasta'.",
+            "en": "Tap the letters in order to spell 'pasta'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'pasta' correctly.",
+            "en": "Well done! You spelled 'pasta' correctly."
+          },
+          "data": {
+            "letters": [
+              "a",
+              "t",
+              "s",
+              "a",
+              "p"
+            ],
+            "target_word": "pasta",
+            "target_sequence": [
+              "p",
+              "a",
+              "s",
+              "t",
+              "a"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cô ấy ăn món mì Ý thơm ngon tại bữa tiệc.' in English?",
+            "en": "How do you say 'Cô ấy ăn món mì Ý thơm ngon tại bữa tiệc.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cô ấy ăn món mì Ý thơm ngon tại bữa tiệc.' in English?",
+            "en": "How do you say 'Cô ấy ăn món mì Ý thơm ngon tại bữa tiệc.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cô ấy ăn món mì Ý thơm ngon tại bữa tiệc.",
+            "en": "Choose the English sentence that means: Cô ấy ăn món mì Ý thơm ngon tại bữa tiệc."
+          },
+          "explanation": {
+            "vi": "'She eats yummy pasta at the party.' means 'Cô ấy ăn món mì Ý thơm ngon tại bữa tiệc.'.",
+            "en": "'She eats yummy pasta at the party.' means 'Cô ấy ăn món mì Ý thơm ngon tại bữa tiệc.'."
+          },
+          "data": {
+            "options": [
+              "She eats yummy pasta at the party.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "She eats yummy pasta at the party."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: Pasta & A Cute Pony Toy'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: Pasta & A Cute Pony Toy'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: Pasta & A Cute Pony Toy'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: Pasta & A Cute Pony Toy'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 1: Pasta & A Cute Pony Toy.",
+            "en": "Remember the words in topic: Unit 1: Pasta & A Cute Pony Toy."
+          },
+          "explanation": {
+            "vi": "'pasta' is a key vocabulary word in this topic.",
+            "en": "'pasta' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "pasta",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "pasta"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'pony' start with the sound /p/?",
+            "en": "Does the word 'pony' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'pony' start with the sound /p/? The word 'pony' starts with letter 'P'.",
+            "en": "Does the word 'pony' start with the sound /p/? The word 'pony' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'pony'.",
+            "en": "Listen to the first sound of 'pony'."
+          },
+          "explanation": {
+            "vi": "Yes! 'pony' starts with the sound /p/.",
+            "en": "Yes! 'pony' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'pony' starts with letter 'P'.",
+              "en": "The word 'pony' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'pasta'?",
+            "en": "How many letters are there in the word 'pasta'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'pasta'?",
+            "en": "How many letters are there in the word 'pasta'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'pasta': 1, 2, 3...",
+            "en": "Count the letters in 'pasta': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'pasta' has exactly 5 letters.",
+            "en": "The word 'pasta' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'pasta':",
+            "en": "Choose the correct phrase with 'pasta':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'pasta':",
+            "en": "Choose the correct phrase with 'pasta':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a pasta'.",
+            "en": "Correct! We say 'a pasta'."
+          },
+          "data": {
+            "options": [
+              "a pasta",
+              "an pasta",
+              "five pasta",
+              "many pasta"
+            ],
+            "correct_answer": "a pasta"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'pasta'.",
+            "en": "Choose the food or object: 'pasta'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like pasta? - Yes, I do!'",
+            "en": "We ask: 'Do you like pasta? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "pasta",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "pasta"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s2_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: Pasta & A Cute Pony Toy'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: Pasta & A Cute Pony Toy'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: Pasta & A Cute Pony Toy'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: Pasta & A Cute Pony Toy'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unit 1: Pasta & A Cute Pony Toy'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unit 1: Pasta & A Cute Pony Toy'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: pasta, pony!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: pasta, pony!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1138 @@
+{
+  "id": "e3_stage_7",
+  "stage_number": 7,
+  "title": {
+    "vi": "Week 7: Sports Hobbies & Reading",
+    "en": "Week 7: Sports Hobbies & Reading"
+  },
+  "subtitle": {
+    "vi": "Hobbies: swimming, cooking, reading books, playing games",
+    "en": "Hobbies: swimming, cooking, reading books, playing games"
+  },
+  "icon": "🏊",
+  "banner_image": null,
+  "x_percent": 0.2,
+  "y_percent": 0.776,
+  "required_stars": 18,
+  "theme_color": "0xFF059669",
+  "topics": [
+    {
+      "id": "e3_s7_1",
+      "title": {
+        "vi": "Reading Favorite Storybooks",
+        "en": "Reading Favorite Storybooks"
+      },
+      "description": {
+        "vi": "Quiet hobby: I like reading books in my room",
+        "en": "Quiet hobby: I like reading books in my room"
+      },
+      "icon": "📚",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s7_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy reading an illustrated book in a cozy armchair. What hobby is it?",
+            "en": "Look at the boy reading an illustrated book in a cozy armchair. What hobby is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy reading an illustrated book in a cozy armchair. What hobby is it?",
+            "en": "Look at the boy reading an illustrated book in a cozy armchair. What hobby is it?"
+          },
+          "hint": {
+            "vi": "Holding a book and reading pages.",
+            "en": "Holding a book and reading pages."
+          },
+          "explanation": {
+            "vi": "His hobby is reading books.",
+            "en": "His hobby is reading books."
+          },
+          "data": {
+            "options": [
+              "reading books",
+              "swimming in lake",
+              "playing drums",
+              "riding roller coaster"
+            ],
+            "correct_answer": "reading books"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u5_reading_books.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s7_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'reading'?",
+            "en": "What is the first letter of the word 'reading'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'reading'?",
+            "en": "What is the first letter of the word 'reading'?"
+          },
+          "hint": {
+            "vi": "The word 'reading' starts with the letter R.",
+            "en": "The word 'reading' starts with the letter R."
+          },
+          "explanation": {
+            "vi": "Correct! 'reading' begins with the letter 'R'.",
+            "en": "Correct! 'reading' begins with the letter 'R'."
+          },
+          "data": {
+            "options": [
+              "Letter R",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter R"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "reading",
+                  "en": "reading"
+                },
+                "right": {
+                  "vi": "Nghĩa của reading",
+                  "en": "Nghĩa của reading"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "books",
+                  "en": "books"
+                },
+                "right": {
+                  "vi": "Nghĩa của books",
+                  "en": "Nghĩa của books"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "story",
+                  "en": "story"
+                },
+                "right": {
+                  "vi": "Nghĩa của story",
+                  "en": "Nghĩa của story"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? I like reading exciting adventure books.",
+            "en": "Is this English sentence correct for Grade 3? I like reading exciting adventure books."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I like reading exciting adventure books.",
+            "en": "Remember the pattern: I like reading exciting adventure books."
+          },
+          "explanation": {
+            "vi": "Yes! 'I like reading exciting adventure books.' is a correct English sentence.",
+            "en": "Yes! 'I like reading exciting adventure books.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I like reading exciting adventure books.",
+              "en": "I like reading exciting adventure books."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I like reading exciting adventure ....",
+            "en": "Drag the correct word to complete the sentence: I like reading exciting adventure ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'books'.",
+            "en": "Choose the correct word: 'books'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I like reading exciting adventure books.'.",
+            "en": "The complete sentence is: 'I like reading exciting adventure books.'."
+          },
+          "data": {
+            "prefix_text": "I like reading exciting adventure ",
+            "suffix_text": ".",
+            "options": [
+              "books",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "books"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'reading':",
+            "en": "Spell the English word 'reading':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'reading':",
+            "en": "Spell the English word 'reading':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'reading'.",
+            "en": "Tap the letters in order to spell 'reading'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'reading' correctly.",
+            "en": "Well done! You spelled 'reading' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "d",
+              "a",
+              "e",
+              "r"
+            ],
+            "target_word": "reading",
+            "target_sequence": [
+              "r",
+              "e",
+              "a",
+              "d",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi thích đọc những cuốn sách phiêu lưu kỳ thú.' in English?",
+            "en": "How do you say 'Tôi thích đọc những cuốn sách phiêu lưu kỳ thú.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi thích đọc những cuốn sách phiêu lưu kỳ thú.' in English?",
+            "en": "How do you say 'Tôi thích đọc những cuốn sách phiêu lưu kỳ thú.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi thích đọc những cuốn sách phiêu lưu kỳ thú.",
+            "en": "Choose the English sentence that means: Tôi thích đọc những cuốn sách phiêu lưu kỳ thú."
+          },
+          "explanation": {
+            "vi": "'I like reading exciting adventure books.' means 'Tôi thích đọc những cuốn sách phiêu lưu kỳ thú.'.",
+            "en": "'I like reading exciting adventure books.' means 'Tôi thích đọc những cuốn sách phiêu lưu kỳ thú.'."
+          },
+          "data": {
+            "options": [
+              "I like reading exciting adventure books.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I like reading exciting adventure books."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Reading Favorite Storybooks'?",
+            "en": "Which of the following is a word from Unit 'Reading Favorite Storybooks'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Reading Favorite Storybooks'?",
+            "en": "Which of the following is a word from Unit 'Reading Favorite Storybooks'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Reading Favorite Storybooks.",
+            "en": "Remember the words in topic: Reading Favorite Storybooks."
+          },
+          "explanation": {
+            "vi": "'reading' is a key vocabulary word in this topic.",
+            "en": "'reading' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "reading",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "reading"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'books' start with the sound /r/?",
+            "en": "Does the word 'books' start with the sound /r/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'books' start with the sound /r/? The word 'books' starts with letter 'R'.",
+            "en": "Does the word 'books' start with the sound /r/? The word 'books' starts with letter 'R'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'books'.",
+            "en": "Listen to the first sound of 'books'."
+          },
+          "explanation": {
+            "vi": "Yes! 'books' starts with the sound /r/.",
+            "en": "Yes! 'books' starts with the sound /r/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'books' starts with letter 'R'.",
+              "en": "The word 'books' starts with letter 'R'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'reading'?",
+            "en": "How many letters are there in the word 'reading'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'reading'?",
+            "en": "How many letters are there in the word 'reading'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'reading': 1, 2, 3...",
+            "en": "Count the letters in 'reading': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'reading' has exactly 7 letters.",
+            "en": "The word 'reading' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'reading':",
+            "en": "Choose the correct phrase with 'reading':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'reading':",
+            "en": "Choose the correct phrase with 'reading':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a reading'.",
+            "en": "Correct! We say 'a reading'."
+          },
+          "data": {
+            "options": [
+              "a reading",
+              "an reading",
+              "two reading",
+              "many reading"
+            ],
+            "correct_answer": "a reading"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'reading'.",
+            "en": "Choose the noun: 'reading'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our reading. It is very nice!'",
+            "en": "We say: 'Look! This is our reading. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "reading",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "reading"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Reading Favorite Storybooks'?",
+            "en": "Which English sentence best describes the topic 'Reading Favorite Storybooks'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Reading Favorite Storybooks'?",
+            "en": "Which English sentence best describes the topic 'Reading Favorite Storybooks'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Reading Favorite Storybooks'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Reading Favorite Storybooks'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: reading, books!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: reading, books!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s7_2",
+      "title": {
+        "vi": "Swimming in the Clear Pool",
+        "en": "Swimming in the Clear Pool"
+      },
+      "description": {
+        "vi": "Active sport hobby: I like swimming",
+        "en": "Active sport hobby: I like swimming"
+      },
+      "icon": "🏊",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s7_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the swimmer gliding gracefully through clean blue pool water. What hobby is it?",
+            "en": "Look at the swimmer gliding gracefully through clean blue pool water. What hobby is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the swimmer gliding gracefully through clean blue pool water. What hobby is it?",
+            "en": "Look at the swimmer gliding gracefully through clean blue pool water. What hobby is it?"
+          },
+          "hint": {
+            "vi": "Gliding through water wearing swim goggles.",
+            "en": "Gliding through water wearing swim goggles."
+          },
+          "explanation": {
+            "vi": "The sport hobby shown is swimming.",
+            "en": "The sport hobby shown is swimming."
+          },
+          "data": {
+            "options": [
+              "swimming in the pool",
+              "cooking soup",
+              "playing chess",
+              "knitting a scarf"
+            ],
+            "correct_answer": "swimming in the pool"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u5_swimming_pool.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s7_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'swimming'?",
+            "en": "What is the first letter of the word 'swimming'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'swimming'?",
+            "en": "What is the first letter of the word 'swimming'?"
+          },
+          "hint": {
+            "vi": "The word 'swimming' starts with the letter S.",
+            "en": "The word 'swimming' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'swimming' begins with the letter 'S'.",
+            "en": "Correct! 'swimming' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "swimming",
+                  "en": "swimming"
+                },
+                "right": {
+                  "vi": "Nghĩa của swimming",
+                  "en": "Nghĩa của swimming"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "pool",
+                  "en": "pool"
+                },
+                "right": {
+                  "vi": "Nghĩa của pool",
+                  "en": "Nghĩa của pool"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "water",
+                  "en": "water"
+                },
+                "right": {
+                  "vi": "Nghĩa của water",
+                  "en": "Nghĩa của water"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? I like swimming in the cool pool on summer days.",
+            "en": "Is this English sentence correct for Grade 3? I like swimming in the cool pool on summer days."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I like swimming in the cool pool on summer days.",
+            "en": "Remember the pattern: I like swimming in the cool pool on summer days."
+          },
+          "explanation": {
+            "vi": "Yes! 'I like swimming in the cool pool on summer days.' is a correct English sentence.",
+            "en": "Yes! 'I like swimming in the cool pool on summer days.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I like swimming in the cool pool on summer days.",
+              "en": "I like swimming in the cool pool on summer days."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I like swimming in the cool pool on summer ....",
+            "en": "Drag the correct word to complete the sentence: I like swimming in the cool pool on summer ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'days'.",
+            "en": "Choose the correct word: 'days'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I like swimming in the cool pool on summer days.'.",
+            "en": "The complete sentence is: 'I like swimming in the cool pool on summer days.'."
+          },
+          "data": {
+            "prefix_text": "I like swimming in the cool pool on summer ",
+            "suffix_text": ".",
+            "options": [
+              "days",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "days"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'swimming':",
+            "en": "Spell the English word 'swimming':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'swimming':",
+            "en": "Spell the English word 'swimming':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'swimming'.",
+            "en": "Tap the letters in order to spell 'swimming'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'swimming' correctly.",
+            "en": "Well done! You spelled 'swimming' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "m",
+              "m",
+              "i",
+              "w",
+              "s"
+            ],
+            "target_word": "swimming",
+            "target_sequence": [
+              "s",
+              "w",
+              "i",
+              "m",
+              "m",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi thích bơi trong hồ nước mát vào những ngày hè.' in English?",
+            "en": "How do you say 'Tôi thích bơi trong hồ nước mát vào những ngày hè.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi thích bơi trong hồ nước mát vào những ngày hè.' in English?",
+            "en": "How do you say 'Tôi thích bơi trong hồ nước mát vào những ngày hè.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi thích bơi trong hồ nước mát vào những ngày hè.",
+            "en": "Choose the English sentence that means: Tôi thích bơi trong hồ nước mát vào những ngày hè."
+          },
+          "explanation": {
+            "vi": "'I like swimming in the cool pool on summer days.' means 'Tôi thích bơi trong hồ nước mát vào những ngày hè.'.",
+            "en": "'I like swimming in the cool pool on summer days.' means 'Tôi thích bơi trong hồ nước mát vào những ngày hè.'."
+          },
+          "data": {
+            "options": [
+              "I like swimming in the cool pool on summer days.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I like swimming in the cool pool on summer days."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Swimming in the Clear Pool'?",
+            "en": "Which of the following is a word from Unit 'Swimming in the Clear Pool'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Swimming in the Clear Pool'?",
+            "en": "Which of the following is a word from Unit 'Swimming in the Clear Pool'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Swimming in the Clear Pool.",
+            "en": "Remember the words in topic: Swimming in the Clear Pool."
+          },
+          "explanation": {
+            "vi": "'swimming' is a key vocabulary word in this topic.",
+            "en": "'swimming' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "swimming",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "swimming"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'pool' start with the sound /s/?",
+            "en": "Does the word 'pool' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'pool' start with the sound /s/? The word 'pool' starts with letter 'S'.",
+            "en": "Does the word 'pool' start with the sound /s/? The word 'pool' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'pool'.",
+            "en": "Listen to the first sound of 'pool'."
+          },
+          "explanation": {
+            "vi": "Yes! 'pool' starts with the sound /s/.",
+            "en": "Yes! 'pool' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'pool' starts with letter 'S'.",
+              "en": "The word 'pool' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'swimming'?",
+            "en": "How many letters are there in the word 'swimming'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'swimming'?",
+            "en": "How many letters are there in the word 'swimming'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'swimming': 1, 2, 3...",
+            "en": "Count the letters in 'swimming': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'swimming' has exactly 8 letters.",
+            "en": "The word 'swimming' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'swimming':",
+            "en": "Choose the correct phrase with 'swimming':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'swimming':",
+            "en": "Choose the correct phrase with 'swimming':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a swimming'.",
+            "en": "Correct! We say 'a swimming'."
+          },
+          "data": {
+            "options": [
+              "a swimming",
+              "an swimming",
+              "two swimming",
+              "many swimming"
+            ],
+            "correct_answer": "a swimming"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'swimming'.",
+            "en": "Choose the noun: 'swimming'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our swimming. It is very nice!'",
+            "en": "We say: 'Look! This is our swimming. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "swimming",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "swimming"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s7_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Swimming in the Clear Pool'?",
+            "en": "Which English sentence best describes the topic 'Swimming in the Clear Pool'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Swimming in the Clear Pool'?",
+            "en": "Which English sentence best describes the topic 'Swimming in the Clear Pool'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Swimming in the Clear Pool'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Swimming in the Clear Pool'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: swimming, pool!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: swimming, pool!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

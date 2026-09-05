@@ -1,0 +1,1142 @@
+{
+  "id": "e4_stage_11",
+  "stage_number": 11,
+  "title": {
+    "vi": "Week 11: Unit 9 - Our Sports Day",
+    "en": "Week 11: Unit 9 - Our Sports Day"
+  },
+  "subtitle": {
+    "vi": "Sports Day: When is your sports day? It's in November / What are you going to do? Running race",
+    "en": "Sports Day: When is your sports day? It's in November / What are you going to do? Running race"
+  },
+  "icon": "🏃",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.66,
+  "required_stars": 30,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "e4_s11_1",
+      "title": {
+        "vi": "Unit 9: When is Sports Day?",
+        "en": "Unit 9: When is Sports Day?"
+      },
+      "description": {
+        "vi": "When is your Sports Day? - It's on the twentieth of November",
+        "en": "When is your Sports Day? - It's on the twentieth of November"
+      },
+      "icon": "🏁",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s11_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the stadium banner reading 'ANNUAL SPORTS DAY' with runners on the track. What event is it?",
+            "en": "Look at the stadium banner reading 'ANNUAL SPORTS DAY' with runners on the track. What event is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the stadium banner reading 'ANNUAL SPORTS DAY' with runners on the track. What event is it?",
+            "en": "Look at the stadium banner reading 'ANNUAL SPORTS DAY' with runners on the track. What event is it?"
+          },
+          "hint": {
+            "vi": "A school day dedicated to athletic competitions.",
+            "en": "A school day dedicated to athletic competitions."
+          },
+          "explanation": {
+            "vi": "It's the school Sports Day.",
+            "en": "It's the school Sports Day."
+          },
+          "data": {
+            "options": [
+              "the school Sports Day",
+              "a math competition",
+              "a silent library hour",
+              "a painting exhibition"
+            ],
+            "correct_answer": "the school Sports Day"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u9_sports_day.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s11_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'Sports Day'?",
+            "en": "What is the first letter of the word 'Sports Day'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'Sports Day'?",
+            "en": "What is the first letter of the word 'Sports Day'?"
+          },
+          "hint": {
+            "vi": "The word 'Sports Day' starts with the letter S.",
+            "en": "The word 'Sports Day' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'Sports Day' begins with the letter 'S'.",
+            "en": "Correct! 'Sports Day' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Sports Day",
+                  "en": "Sports Day"
+                },
+                "right": {
+                  "vi": "Nghĩa của Sports Day",
+                  "en": "Nghĩa của Sports Day"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "November",
+                  "en": "November"
+                },
+                "right": {
+                  "vi": "Nghĩa của November",
+                  "en": "Nghĩa của November"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "track",
+                  "en": "track"
+                },
+                "right": {
+                  "vi": "Nghĩa của track",
+                  "en": "Nghĩa của track"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Our Sports Day is in November.",
+            "en": "Is this English sentence correct for Grade 4? Our Sports Day is in November."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Our Sports Day is in November.",
+            "en": "Remember the pattern: Our Sports Day is in November."
+          },
+          "explanation": {
+            "vi": "Yes! 'Our Sports Day is in November.' is a correct English sentence.",
+            "en": "Yes! 'Our Sports Day is in November.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Our Sports Day is in November.",
+              "en": "Our Sports Day is in November."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Our Sports Day is in ....",
+            "en": "Drag the correct word to complete the sentence: Our Sports Day is in ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'November'.",
+            "en": "Choose the correct word: 'November'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Our Sports Day is in November.'.",
+            "en": "The complete sentence is: 'Our Sports Day is in November.'."
+          },
+          "data": {
+            "prefix_text": "Our Sports Day is in ",
+            "suffix_text": ".",
+            "options": [
+              "November",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "November"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'sports day':",
+            "en": "Spell the English word 'sports day':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'sports day':",
+            "en": "Spell the English word 'sports day':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'sports day'.",
+            "en": "Tap the letters in order to spell 'sports day'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'sports day' correctly.",
+            "en": "Well done! You spelled 'sports day' correctly."
+          },
+          "data": {
+            "letters": [
+              "y",
+              "a",
+              "d",
+              " ",
+              "s",
+              "t",
+              "r",
+              "o",
+              "p",
+              "s"
+            ],
+            "target_word": "sports day",
+            "target_sequence": [
+              "s",
+              "p",
+              "o",
+              "r",
+              "t",
+              "s",
+              " ",
+              "d",
+              "a",
+              "y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Ngày hội Thể thao của trường chúng tôi diễn ra vào tháng Mười Một.' in English?",
+            "en": "How do you say 'Ngày hội Thể thao của trường chúng tôi diễn ra vào tháng Mười Một.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Ngày hội Thể thao của trường chúng tôi diễn ra vào tháng Mười Một.' in English?",
+            "en": "How do you say 'Ngày hội Thể thao của trường chúng tôi diễn ra vào tháng Mười Một.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Ngày hội Thể thao của trường chúng tôi diễn ra vào tháng Mười Một.",
+            "en": "Choose the English sentence that means: Ngày hội Thể thao của trường chúng tôi diễn ra vào tháng Mười Một."
+          },
+          "explanation": {
+            "vi": "'Our Sports Day is in November.' means 'Ngày hội Thể thao của trường chúng tôi diễn ra vào tháng Mười Một.'.",
+            "en": "'Our Sports Day is in November.' means 'Ngày hội Thể thao của trường chúng tôi diễn ra vào tháng Mười Một.'."
+          },
+          "data": {
+            "options": [
+              "Our Sports Day is in November.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Our Sports Day is in November."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 9: When is Sports Day?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 9: When is Sports Day?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 9: When is Sports Day?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 9: When is Sports Day?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 9: When is Sports Day?.",
+            "en": "Remember the words in topic: Unit 9: When is Sports Day?."
+          },
+          "explanation": {
+            "vi": "'Sports Day' is a key vocabulary word in this topic.",
+            "en": "'Sports Day' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "Sports Day",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "Sports Day"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'November' start with the sound /s/?",
+            "en": "Does the word 'November' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'November' start with the sound /s/? The word 'November' starts with letter 'S'.",
+            "en": "Does the word 'November' start with the sound /s/? The word 'November' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'November'.",
+            "en": "Listen to the first sound of 'November'."
+          },
+          "explanation": {
+            "vi": "Yes! 'November' starts with the sound /s/.",
+            "en": "Yes! 'November' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'November' starts with letter 'S'.",
+              "en": "The word 'November' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'sports day'?",
+            "en": "How many letters are there in the word 'sports day'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'sports day'?",
+            "en": "How many letters are there in the word 'sports day'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'sports day': 1, 2, 3...",
+            "en": "Count the letters in 'sports day': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'sports day' has exactly 10 letters.",
+            "en": "The word 'sports day' has exactly 10 letters."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'sports day':",
+            "en": "Choose the correct phrase with 'sports day':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'sports day':",
+            "en": "Choose the correct phrase with 'sports day':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a sports day'.",
+            "en": "Correct! We say 'a sports day'."
+          },
+          "data": {
+            "options": [
+              "a sports day",
+              "an sports day",
+              "two sports day",
+              "many sports day"
+            ],
+            "correct_answer": "a sports day"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'Sports Day'.",
+            "en": "Choose the word: 'Sports Day'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is Sports Day. It is wonderful!'",
+            "en": "We say: 'Look! This is Sports Day. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "Sports Day",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "Sports Day"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 9: When is Sports Day?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 9: When is Sports Day?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 9: When is Sports Day?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 9: When is Sports Day?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 9: When is Sports Day?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 9: When is Sports Day?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: Sports Day, November!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: Sports Day, November!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s11_2",
+      "title": {
+        "vi": "Unit 9: Running Race & Cheering",
+        "en": "Unit 9: Running Race & Cheering"
+      },
+      "description": {
+        "vi": "I'm going to take part in the 100m running race",
+        "en": "I'm going to take part in the 100m running race"
+      },
+      "icon": "🥇",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s11_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the student sprinting past the red finish line with hands raised. What competition did he win?",
+            "en": "Look at the student sprinting past the red finish line with hands raised. What competition did he win?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the student sprinting past the red finish line with hands raised. What competition did he win?",
+            "en": "Look at the student sprinting past the red finish line with hands raised. What competition did he win?"
+          },
+          "hint": {
+            "vi": "Sprint race on an athletic track.",
+            "en": "Sprint race on an athletic track."
+          },
+          "explanation": {
+            "vi": "He won the 100-meter running race.",
+            "en": "He won the 100-meter running race."
+          },
+          "data": {
+            "options": [
+              "the 100-meter running race",
+              "a swimming race",
+              "a chess match",
+              "a spelling bee"
+            ],
+            "correct_answer": "the 100-meter running race"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u9_running_race.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s11_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'running'?",
+            "en": "What is the first letter of the word 'running'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'running'?",
+            "en": "What is the first letter of the word 'running'?"
+          },
+          "hint": {
+            "vi": "The word 'running' starts with the letter R.",
+            "en": "The word 'running' starts with the letter R."
+          },
+          "explanation": {
+            "vi": "Correct! 'running' begins with the letter 'R'.",
+            "en": "Correct! 'running' begins with the letter 'R'."
+          },
+          "data": {
+            "options": [
+              "Letter R",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter R"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "running",
+                  "en": "running"
+                },
+                "right": {
+                  "vi": "Nghĩa của running",
+                  "en": "Nghĩa của running"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "race",
+                  "en": "race"
+                },
+                "right": {
+                  "vi": "Nghĩa của race",
+                  "en": "Nghĩa của race"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cheer",
+                  "en": "cheer"
+                },
+                "right": {
+                  "vi": "Nghĩa của cheer",
+                  "en": "Nghĩa của cheer"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Minh is running very fast in the race.",
+            "en": "Is this English sentence correct for Grade 4? Minh is running very fast in the race."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Minh is running very fast in the race.",
+            "en": "Remember the pattern: Minh is running very fast in the race."
+          },
+          "explanation": {
+            "vi": "Yes! 'Minh is running very fast in the race.' is a correct English sentence.",
+            "en": "Yes! 'Minh is running very fast in the race.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Minh is running very fast in the race.",
+              "en": "Minh is running very fast in the race."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Minh is running very fast in the ....",
+            "en": "Drag the correct word to complete the sentence: Minh is running very fast in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'race'.",
+            "en": "Choose the correct word: 'race'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Minh is running very fast in the race.'.",
+            "en": "The complete sentence is: 'Minh is running very fast in the race.'."
+          },
+          "data": {
+            "prefix_text": "Minh is running very fast in the ",
+            "suffix_text": ".",
+            "options": [
+              "race",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "race"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'running':",
+            "en": "Spell the English word 'running':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'running':",
+            "en": "Spell the English word 'running':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'running'.",
+            "en": "Tap the letters in order to spell 'running'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'running' correctly.",
+            "en": "Well done! You spelled 'running' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "n",
+              "n",
+              "u",
+              "r"
+            ],
+            "target_word": "running",
+            "target_sequence": [
+              "r",
+              "u",
+              "n",
+              "n",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Minh đang chạy rất nhanh trong cuộc đua.' in English?",
+            "en": "How do you say 'Minh đang chạy rất nhanh trong cuộc đua.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Minh đang chạy rất nhanh trong cuộc đua.' in English?",
+            "en": "How do you say 'Minh đang chạy rất nhanh trong cuộc đua.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Minh đang chạy rất nhanh trong cuộc đua.",
+            "en": "Choose the English sentence that means: Minh đang chạy rất nhanh trong cuộc đua."
+          },
+          "explanation": {
+            "vi": "'Minh is running very fast in the race.' means 'Minh đang chạy rất nhanh trong cuộc đua.'.",
+            "en": "'Minh is running very fast in the race.' means 'Minh đang chạy rất nhanh trong cuộc đua.'."
+          },
+          "data": {
+            "options": [
+              "Minh is running very fast in the race.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Minh is running very fast in the race."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 9: Running Race & Cheering'?",
+            "en": "Which of the following is a key word from Unit 'Unit 9: Running Race & Cheering'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 9: Running Race & Cheering'?",
+            "en": "Which of the following is a key word from Unit 'Unit 9: Running Race & Cheering'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 9: Running Race & Cheering.",
+            "en": "Remember the words in topic: Unit 9: Running Race & Cheering."
+          },
+          "explanation": {
+            "vi": "'running' is a key vocabulary word in this topic.",
+            "en": "'running' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "running",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "running"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'race' start with the sound /r/?",
+            "en": "Does the word 'race' start with the sound /r/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'race' start with the sound /r/? The word 'race' starts with letter 'R'.",
+            "en": "Does the word 'race' start with the sound /r/? The word 'race' starts with letter 'R'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'race'.",
+            "en": "Listen to the first sound of 'race'."
+          },
+          "explanation": {
+            "vi": "Yes! 'race' starts with the sound /r/.",
+            "en": "Yes! 'race' starts with the sound /r/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'race' starts with letter 'R'.",
+              "en": "The word 'race' starts with letter 'R'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'running'?",
+            "en": "How many letters are there in the word 'running'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'running'?",
+            "en": "How many letters are there in the word 'running'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'running': 1, 2, 3...",
+            "en": "Count the letters in 'running': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'running' has exactly 7 letters.",
+            "en": "The word 'running' has exactly 7 letters."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'running':",
+            "en": "Choose the correct phrase with 'running':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'running':",
+            "en": "Choose the correct phrase with 'running':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a running'.",
+            "en": "Correct! We say 'a running'."
+          },
+          "data": {
+            "options": [
+              "a running",
+              "an running",
+              "two running",
+              "many running"
+            ],
+            "correct_answer": "a running"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'running'.",
+            "en": "Choose the word: 'running'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is running. It is wonderful!'",
+            "en": "We say: 'Look! This is running. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "running",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "running"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s11_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 9: Running Race & Cheering'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 9: Running Race & Cheering'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 9: Running Race & Cheering'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 9: Running Race & Cheering'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 9: Running Race & Cheering'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 9: Running Race & Cheering'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: running, race!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: running, race!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

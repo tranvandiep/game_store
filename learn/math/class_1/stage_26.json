@@ -1,0 +1,997 @@
+{
+  "id": "m1_stage_26",
+  "stage_number": 26,
+  "title": {
+    "vi": "Tuần 26: Cộng Số Có 2 Chữ Số Với Số Có 2 Chữ Số",
+    "en": "Week 26: 2-Digit + 2-Digit Addition"
+  },
+  "subtitle": {
+    "vi": "Bài 30 - Phép cộng dạng 32 + 25 (không nhớ)",
+    "en": "Lesson 30 - Addition form 32 + 25"
+  },
+  "icon": "📈",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.25,
+  "required_stars": 75,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "m1_t26_1",
+      "title": {
+        "vi": "Cộng các số tròn chục (30 + 20)",
+        "en": "Adding Multiples of 10"
+      },
+      "description": {
+        "vi": "Nhẩm: 3 chục + 2 chục = 5 chục (50)",
+        "en": "Mental math: 3 tens + 2 tens = 5 tens (50)"
+      },
+      "icon": "🔟",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m1_t26_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 30 + 20 = ?",
+            "en": "Calculate: 30 + 20 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 30 + 20 = ?",
+            "en": "Calculate: 30 + 20 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "3 chục + 2 chục = 5 chục (50).",
+            "en": "3 tens + 2 tens = 5 tens (50)."
+          },
+          "data": {
+            "correct_number": "50",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_1_2",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the missing number:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the missing number:"
+          },
+          "hint": {
+            "vi": "Chạm vào thẻ số thích hợp để điền vào ô trống.",
+            "en": "Tap the correct number card to fill the slot."
+          },
+          "explanation": {
+            "vi": "40 + 50 = 90.",
+            "en": "40 + 50 = 90."
+          },
+          "data": {
+            "prefix_text": "40 + ",
+            "suffix_text": " = 90",
+            "options": [
+              "30",
+              "40",
+              "50",
+              "60"
+            ],
+            "slot_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 60 + 30 = ?",
+            "en": "Calculate: 60 + 30 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 60 + 30 = ?",
+            "en": "Calculate: 60 + 30 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "6 chục + 3 chục = 9 chục (90).",
+            "en": "60 + 30 = 90."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "80",
+                "en": "80"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              },
+              {
+                "vi": "100",
+                "en": "100"
+              }
+            ],
+            "correct_answer": "90"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_1_4",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 32, 33,  ... , 35",
+            "en": "Drag the correct answer into the slot:\nDãy số: 32, 33,  ... , 35"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 32, 33,  ... , 35",
+            "en": "Drag the correct answer: Dãy số: 32, 33,  ... , 35"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 32, 33,  34 , 35",
+            "en": "Dãy số: 32, 33,  34 , 35"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 32, 33, ",
+            "suffix_text": ", 35",
+            "options": [
+              "33",
+              "34",
+              "36"
+            ],
+            "slot_answer": "34"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_1_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 26 + 19 = ?",
+            "en": "Calculate: 26 + 19 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 26 + 19 = ?",
+            "en": "Calculate: 26 + 19 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 26 + 19.",
+            "en": "Calculate 26 + 19."
+          },
+          "explanation": {
+            "vi": "26 + 19 = 45",
+            "en": "26 + 19 = 45"
+          },
+          "data": {
+            "options": [
+              "47",
+              "46",
+              "45",
+              "44"
+            ],
+            "correct_answer": "45"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_1_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 22, 23,  ... , 25",
+            "en": "Drag the correct answer into the slot:\nDãy số: 22, 23,  ... , 25"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 22, 23,  ... , 25",
+            "en": "Drag the correct answer: Dãy số: 22, 23,  ... , 25"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 22, 23,  24 , 25",
+            "en": "Dãy số: 22, 23,  24 , 25"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 22, 23, ",
+            "suffix_text": ", 25",
+            "options": [
+              "23",
+              "24",
+              "26"
+            ],
+            "slot_answer": "24"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 28 + 32 = ?",
+            "en": "Calculate: 28 + 32 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 28 + 32 = ?",
+            "en": "Calculate: 28 + 32 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 28 + 32.",
+            "en": "Calculate 28 + 32."
+          },
+          "explanation": {
+            "vi": "28 + 32 = 60",
+            "en": "28 + 32 = 60"
+          },
+          "data": {
+            "options": [
+              "60",
+              "59",
+              "62",
+              "61"
+            ],
+            "correct_answer": "60"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 27, 28,  ... , 30",
+            "en": "Drag the correct answer into the slot:\nDãy số: 27, 28,  ... , 30"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 27, 28,  ... , 30",
+            "en": "Drag the correct answer: Dãy số: 27, 28,  ... , 30"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 27, 28,  29 , 30",
+            "en": "Dãy số: 27, 28,  29 , 30"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 27, 28, ",
+            "suffix_text": ", 30",
+            "options": [
+              "28",
+              "31",
+              "29"
+            ],
+            "slot_answer": "29"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t26_2",
+      "title": {
+        "vi": "Phép cộng dạng 32 + 25 (Không nhớ)",
+        "en": "Addition form 32 + 25 (No Regrouping)"
+      },
+      "description": {
+        "vi": "Cộng đơn vị với đơn vị, chục với chục",
+        "en": "Add ones with ones, tens with tens"
+      },
+      "icon": "📈",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m1_t26_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 32 + 25 = ?",
+            "en": "Calculate: 32 + 25 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 32 + 25 = ?",
+            "en": "Calculate: 32 + 25 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "2 + 5 = 7, 3 + 2 = 5 -> Kết quả là 57.",
+            "en": "2 + 5 = 7, 3 + 2 = 5 -> Result is 57."
+          },
+          "data": {
+            "correct_number": "57",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 41 + 36 = ?",
+            "en": "Calculate: 41 + 36 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 41 + 36 = ?",
+            "en": "Calculate: 41 + 36 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "1 + 6 = 7, 4 + 3 = 7 -> Kết quả là 77.",
+            "en": "41 + 36 = 77."
+          },
+          "data": {
+            "correct_number": "77",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with sums:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with sums:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Cộng thẳng hàng đơn vị và hàng chục.",
+            "en": "Add ones and tens straight in columns."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "23 + 45",
+                  "en": "23 + 45"
+                },
+                "right": {
+                  "vi": "68",
+                  "en": "68"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "52 + 14",
+                  "en": "52 + 14"
+                },
+                "right": {
+                  "vi": "66",
+                  "en": "66"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "60 + 28",
+                  "en": "60 + 28"
+                },
+                "right": {
+                  "vi": "88",
+                  "en": "88"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 98 bé hơn số 96 (98 < 96).",
+            "en": "Is the statement TRUE or FALSE:: Number 98 is less than 96."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "Statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 98 bé hơn số 96 (98 < 96).",
+              "en": "Number 98 is less than 96."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_2_5",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 76, 77, 78, 79.",
+            "en": "Ascending order: 76, 77, 78, 79."
+          },
+          "data": {
+            "items": [
+              "78",
+              "76",
+              "77",
+              "79"
+            ],
+            "correct_order": [
+              "76",
+              "77",
+              "78",
+              "79"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 80 đứng liền trước số 81.",
+            "en": "Number 80 comes before 81."
+          },
+          "hint": {
+            "vi": "Nhớ lại thứ tự các số.",
+            "en": "Remember number order."
+          },
+          "explanation": {
+            "vi": "Số 80 đứng liền trước số 81 là ĐÚNG.",
+            "en": "80 comes before 81 is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 80 đứng liền trước số 81.",
+              "en": "Number 80 comes right before 81."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính kết quả: 41 + 21 = ?",
+            "en": "Calculate: 41 + 21 = ?"
+          },
+          "tts_prompt": {
+            "vi": "41 cộng 21 bằng bao nhiêu?",
+            "en": "What is 41 plus 21?"
+          },
+          "hint": {
+            "vi": "Cộng hàng đơn vị với hàng đơn vị, hàng chục với hàng chục.",
+            "en": "Add units to units, tens to tens."
+          },
+          "explanation": {
+            "vi": "41 + 21 = 62.",
+            "en": "41 + 21 = 62."
+          },
+          "data": {
+            "correct_number": "62",
+            "options": [
+              "62",
+              "63",
+              "61",
+              "72"
+            ],
+            "correct_answer": "62"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_2_8",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính kết quả: 11 + 23 = ?",
+            "en": "Calculate: 11 + 23 = ?"
+          },
+          "tts_prompt": {
+            "vi": "11 cộng 23 bằng bao nhiêu?",
+            "en": "What is 11 plus 23?"
+          },
+          "hint": {
+            "vi": "Cộng hàng đơn vị với hàng đơn vị, hàng chục với hàng chục.",
+            "en": "Add units to units, tens to tens."
+          },
+          "explanation": {
+            "vi": "11 + 23 = 34.",
+            "en": "11 + 23 = 34."
+          },
+          "data": {
+            "correct_number": "34",
+            "options": [
+              "34",
+              "35",
+              "33",
+              "44"
+            ],
+            "correct_answer": "34"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t26_3",
+      "title": {
+        "vi": "Luyện tập & Giải toán có lời văn",
+        "en": "Practice & Word Problems"
+      },
+      "description": {
+        "vi": "Vận dụng cộng số có 2 chữ số",
+        "en": "Apply 2-digit addition word problems"
+      },
+      "icon": "🏆",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m1_t26_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bác nông dân thu hoạch được 35 quả dưa hấu vào buổi sáng và 24 quả vào buổi chiều. Cả ngày thu hoạch được:",
+            "en": "Farmer harvests 35 watermelons in morning and 24 in afternoon. Total:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bác nông dân thu hoạch được 35 quả dưa hấu vào buổi sáng và 24 quả vào buổi chiều. Cả ngày thu hoạch được:",
+            "en": "Farmer harvests 35 watermelons in morning and 24 in afternoon. Total:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "35 + 24 = 59 quả dưa hấu.",
+            "en": "35 + 24 = 59 watermelons."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "58 quả",
+                "en": "58 quả"
+              },
+              {
+                "vi": "59 quả",
+                "en": "59 quả"
+              },
+              {
+                "vi": "60 quả",
+                "en": "60 quả"
+              }
+            ],
+            "correct_answer": "59 quả"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Kiểm tra phép tính.",
+            "en": "Decide whether the following statement is true or false: Kiểm tra phép tính."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! 2 + 3 = 5, 4 + 2 = 6 -> 65.",
+            "en": "True! 42 + 23 = 65."
+          },
+          "data": {
+            "statement": {
+              "vi": "Kiểm tra phép tính.",
+              "en": "Kiểm tra phép tính."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép phép tính: 20 + 30 = 50",
+            "en": "Arrange tiles for: 20 + 30 = 50"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép phép tính: 20 + 30 = 50",
+            "en": "Arrange tiles for: 20 + 30 = 50"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "20 + 30 = 50.",
+            "en": "20 + 30 = 50."
+          },
+          "data": {
+            "target_word": "20 + 30 = 50",
+            "pool_tokens": [
+              "20",
+              "+",
+              "30",
+              "=",
+              "50"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tập & Giải toán có lời văn': Bác nông dân thu hoạch được 35 quả dưa hấu vào buổi sáng và 24 quả vào buổi chiều. Cả ngày thu hoạch được:",
+            "en": "Practice 'Practice & Word Problems': Farmer harvests 35 watermelons in morning and 24 in afternoon. Total:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bác nông dân thu hoạch được 35 quả dưa hấu vào buổi sáng và 24 quả vào buổi chiều. Cả ngày thu hoạch được:",
+            "en": "Farmer harvests 35 watermelons in morning and 24 in afternoon. Total:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "35 + 24 = 59 quả dưa hấu.",
+            "en": "35 + 24 = 59 watermelons."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "58 quả",
+                "en": "58 quả"
+              },
+              {
+                "vi": "59 quả",
+                "en": "59 quả"
+              },
+              {
+                "vi": "60 quả",
+                "en": "60 quả"
+              }
+            ],
+            "correct_answer": "59 quả"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_5",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'LUYỆN'",
+            "en": "Arrange the letters to spell the keyword: 'LUYỆN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa LUYỆN",
+            "en": "Arrange the letters to spell LUYỆN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: LUYỆN",
+            "en": "The keyword is: LUYỆN"
+          },
+          "data": {
+            "target_word": "LUYỆN",
+            "scrambled_letters": [
+              "N",
+              "L",
+              "Ệ",
+              "U",
+              "Y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_6",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐱 ở đây nhé:",
+            "en": "Count the 🐱 icons:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐱 ở đây nhé:",
+            "en": "Count the 🐱 icons:"
+          },
+          "hint": {
+            "vi": "Chạm vào từng hình để đếm nhé.",
+            "en": "Tap each item to count."
+          },
+          "explanation": {
+            "vi": "Có tất cả 1 hình 🐱.",
+            "en": "There are 1 items."
+          },
+          "data": {
+            "item_icon": "🐱",
+            "item_count": 1,
+            "options": [
+              "1",
+              "10",
+              "5",
+              "4"
+            ],
+            "correct_answer": "1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 49, ... , 51",
+            "en": "Fill in the missing number:\nSequence: 49, ... , 51"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 49, ... , 51",
+            "en": "Fill in the missing number:\nSequence: 49, ... , 51"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "Số còn thiếu là 50.",
+            "en": "The missing number is 50."
+          },
+          "data": {
+            "prefix_text": "Dãy số: 49, ",
+            "suffix_text": ", 51",
+            "options": [
+              "53",
+              "48",
+              "50",
+              "51"
+            ],
+            "slot_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 24 ... 47",
+            "en": "Choose the right sign: 24 ... 47"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 24 ... 47",
+            "en": "Choose the right sign: 24 ... 47"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "24 < 47 là chính xác.",
+            "en": "24 < 47 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 101 bé hơn số 99 (101 < 99).",
+            "en": "Is the statement TRUE or FALSE:: Number 101 is less than 99."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "Statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 101 bé hơn số 99 (101 < 99).",
+              "en": "Number 101 is less than 99."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_10",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 62, 63, 64, 65.",
+            "en": "Ascending order: 62, 63, 64, 65."
+          },
+          "data": {
+            "items": [
+              "63",
+              "64",
+              "65",
+              "62"
+            ],
+            "correct_order": [
+              "62",
+              "63",
+              "64",
+              "65"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t26_3_11",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 81, 82, 83, 84.",
+            "en": "Ascending order: 81, 82, 83, 84."
+          },
+          "data": {
+            "items": [
+              "81",
+              "82",
+              "84",
+              "83"
+            ],
+            "correct_order": [
+              "81",
+              "82",
+              "83",
+              "84"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

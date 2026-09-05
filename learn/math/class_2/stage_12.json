@@ -1,0 +1,862 @@
+{
+  "id": "m2_stage_12",
+  "stage_number": 12,
+  "title": {
+    "vi": "Tuần 12: Phép Trừ Có Nhớ: 2 Chữ Số - 1 Chữ Số",
+    "en": "Week 12: 2-Digit - 1-Digit Regrouping"
+  },
+  "subtitle": {
+    "vi": "Bài 22 - Dạng 52 - 7 (có nhớ)",
+    "en": "Lesson 22 - Form 52 - 7 (with regrouping)"
+  },
+  "icon": "➖",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.642,
+  "required_stars": 33,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "m2_t12_1",
+      "title": {
+        "vi": "Phép trừ có nhớ dạng 52 - 7, 43 - 8",
+        "en": "2-Digit - 1-Digit Regrouping"
+      },
+      "description": {
+        "vi": "Mượn 1 chục ở hàng chục để trừ ở hàng đơn vị",
+        "en": "Borrow 1 ten from tens place to subtract ones"
+      },
+      "icon": "➖",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m2_t12_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 52 - 7 = ?",
+            "en": "Calculate: 52 - 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 52 - 7 = ?",
+            "en": "Calculate: 52 - 7 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "2 không trừ được 7, lấy 12 - 7 = 5, viết 5 nhớ 1; 5 - 1 = 4 -> 45.",
+            "en": "52 - 7 = 45."
+          },
+          "data": {
+            "correct_number": "45",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 43 - 8 = ?",
+            "en": "Calculate: 43 - 8 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 43 - 8 = ?",
+            "en": "Calculate: 43 - 8 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "13 - 8 = 5, nhớ 1; 4 - 1 = 3 -> 35.",
+            "en": "43 - 8 = 35."
+          },
+          "data": {
+            "correct_number": "35",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 71 - 6 = ?",
+            "en": "Calculate: 71 - 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 71 - 6 = ?",
+            "en": "Calculate: 71 - 6 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "11 - 6 = 5, nhớ 1; 7 - 1 = 6 -> 65.",
+            "en": "71 - 6 = 65."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "64",
+                "en": "64"
+              },
+              {
+                "vi": "65",
+                "en": "65"
+              },
+              {
+                "vi": "66",
+                "en": "66"
+              }
+            ],
+            "correct_answer": "65"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 60 - 50 = ?",
+            "en": "Calculate: 60 - 50 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 60 - 50 = ?",
+            "en": "Calculate: 60 - 50 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 60 - 50.",
+            "en": "Calculate 60 - 50."
+          },
+          "explanation": {
+            "vi": "60 - 50 = 10",
+            "en": "60 - 50 = 10"
+          },
+          "data": {
+            "options": [
+              "11",
+              "10",
+              "9",
+              "12"
+            ],
+            "correct_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 64 - 39 = ?",
+            "en": "Calculate: 64 - 39 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 64 - 39 = ?",
+            "en": "Calculate: 64 - 39 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 64 - 39.",
+            "en": "Calculate 64 - 39."
+          },
+          "explanation": {
+            "vi": "64 - 39 = 25",
+            "en": "64 - 39 = 25"
+          },
+          "data": {
+            "options": [
+              "26",
+              "27",
+              "25",
+              "24"
+            ],
+            "correct_answer": "25"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t12_2",
+      "title": {
+        "vi": "Phép trừ số tròn chục cho số có 1 chữ số (40 - 6)",
+        "en": "Multiple of 10 Minus 1-Digit"
+      },
+      "description": {
+        "vi": "Lấy 10 trừ số đơn vị, hàng chục bớt 1",
+        "en": "Take 10 minus ones, decrease tens by 1"
+      },
+      "icon": "🔟",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m2_t12_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 40 - 6 = ?",
+            "en": "Calculate: 40 - 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 40 - 6 = ?",
+            "en": "Calculate: 40 - 6 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "0 không trừ được 6, lấy 10 - 6 = 4, nhớ 1; 4 - 1 = 3 -> 34.",
+            "en": "40 - 6 = 34."
+          },
+          "data": {
+            "correct_number": "34",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_2_2",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the difference:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the difference:"
+          },
+          "hint": {
+            "vi": "Chạm vào thẻ thích hợp để điền vào ô trống.",
+            "en": "Tap the correct card to fill the slot."
+          },
+          "explanation": {
+            "vi": "10 - 7 = 3, 6 - 1 = 5 -> 53.",
+            "en": "60 - 7 = 53."
+          },
+          "data": {
+            "prefix_text": "60 - 7 = ",
+            "suffix_text": "",
+            "options": [
+              "51",
+              "52",
+              "53",
+              "54"
+            ],
+            "slot_answer": "53"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 10 - 5 = 5, 8 - 1 = 7.",
+            "en": "Decide whether the following statement is true or false: 10 - 5 = 5, 8 - 1 = 7."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! 80 - 5 = 75.",
+            "en": "True! 80 - 5 = 75."
+          },
+          "data": {
+            "statement": {
+              "vi": "10 - 5 = 5, 8 - 1 = 7.",
+              "en": "10 - 5 = 5, 8 - 1 = 7."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 41, 42,  ... , 44",
+            "en": "Drag the correct answer into the slot:\nDãy số: 41, 42,  ... , 44"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 41, 42,  ... , 44",
+            "en": "Drag the correct answer: Dãy số: 41, 42,  ... , 44"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 41, 42,  43 , 44",
+            "en": "Dãy số: 41, 42,  43 , 44"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 41, 42, ",
+            "suffix_text": ", 44",
+            "options": [
+              "42",
+              "43",
+              "45"
+            ],
+            "slot_answer": "43"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 25, 26,  ... , 28",
+            "en": "Drag the correct answer into the slot:\nDãy số: 25, 26,  ... , 28"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 25, 26,  ... , 28",
+            "en": "Drag the correct answer: Dãy số: 25, 26,  ... , 28"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 25, 26,  27 , 28",
+            "en": "Dãy số: 25, 26,  27 , 28"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 25, 26, ",
+            "suffix_text": ", 28",
+            "options": [
+              "27",
+              "26",
+              "29"
+            ],
+            "slot_answer": "27"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_2_11",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 48, 49,  ... , 51",
+            "en": "Drag the correct answer into the slot:\nDãy số: 48, 49,  ... , 51"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 48, 49,  ... , 51",
+            "en": "Drag the correct answer: Dãy số: 48, 49,  ... , 51"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 48, 49,  50 , 51",
+            "en": "Dãy số: 48, 49,  50 , 51"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 48, 49, ",
+            "suffix_text": ", 51",
+            "options": [
+              "52",
+              "49",
+              "50"
+            ],
+            "slot_answer": "50"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 33 gồm 3 chục và 3 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 33 has 3 tens and 3 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 33 gồm 3 chục và 3 đơn vị.",
+              "en": "Number 33 has 3 tens and 3 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 1",
+                  "en": "2 x 1"
+                },
+                "right": {
+                  "vi": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 2",
+                  "en": "2 x 2"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 3",
+                  "en": "2 x 3"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t12_3",
+      "title": {
+        "vi": "Luyện tính nhẩm & Bài toán bớt đi",
+        "en": "Mental Math & Subtraction Practice"
+      },
+      "description": {
+        "vi": "Rèn luyện tính trừ phản xạ nhanh",
+        "en": "Build fast mental subtraction reflexes"
+      },
+      "icon": "⚡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m2_t12_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Cửa hàng có 62 quả dưa hấu, đã bán đi 8 quả. Cửa hàng còn lại bao nhiêu quả dưa hấu?",
+            "en": "Store had 62 watermelons, sold 8. How many remain?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Cửa hàng có 62 quả dưa hấu, đã bán đi 8 quả. Cửa hàng còn lại bao nhiêu quả dưa hấu?",
+            "en": "Store had 62 watermelons, sold 8. How many remain?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "62 - 8 = 54 quả dưa hấu.",
+            "en": "62 - 8 = 54 watermelons."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "52 quả",
+                "en": "52 quả"
+              },
+              {
+                "vi": "54 quả",
+                "en": "54 quả"
+              },
+              {
+                "vi": "56 quả",
+                "en": "56 quả"
+              }
+            ],
+            "correct_answer": "54 quả"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_3_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with differences:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with differences:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Tính trừ có nhớ chính xác.",
+            "en": "Accurate regrouping subtraction."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "31 - 5",
+                  "en": "31 - 5"
+                },
+                "right": {
+                  "vi": "26",
+                  "en": "26"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "84 - 9",
+                  "en": "84 - 9"
+                },
+                "right": {
+                  "vi": "75",
+                  "en": "75"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "92 - 7",
+                  "en": "92 - 7"
+                },
+                "right": {
+                  "vi": "85",
+                  "en": "85"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_3_3",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 90 - 4 = ?",
+            "en": "Calculate: 90 - 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 90 - 4 = ?",
+            "en": "Calculate: 90 - 4 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "10 - 4 = 6, 9 - 1 = 8 -> 86.",
+            "en": "90 - 4 = 86."
+          },
+          "data": {
+            "correct_number": "86",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tính nhẩm & Bài toán bớt đi': Cửa hàng có 62 quả dưa hấu, đã bán đi 8 quả. Cửa hàng còn lại bao nhiêu quả dưa hấu?",
+            "en": "Practice 'Mental Math & Subtraction Practice': Store had 62 watermelons, sold 8. How many remain?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Cửa hàng có 62 quả dưa hấu, đã bán đi 8 quả. Cửa hàng còn lại bao nhiêu quả dưa hấu?",
+            "en": "Store had 62 watermelons, sold 8. How many remain?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "62 - 8 = 54 quả dưa hấu.",
+            "en": "62 - 8 = 54 watermelons."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "56 quả",
+                "en": "56 quả"
+              },
+              {
+                "vi": "54 quả",
+                "en": "54 quả"
+              },
+              {
+                "vi": "52 quả",
+                "en": "52 quả"
+              }
+            ],
+            "correct_answer": "54 quả"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 76 gồm 7 chục và 6 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 76 has 7 tens and 6 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 76 gồm 7 chục và 6 đơn vị.",
+              "en": "Number 76 has 7 tens and 6 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_3_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 4 x 5 = ?",
+            "en": "Calculate: 4 x 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính 4 nhân 5",
+            "en": "Calculate 4 times 5"
+          },
+          "hint": {
+            "vi": "Nhớ lại bảng nhân.",
+            "en": "Remember multiplication table."
+          },
+          "explanation": {
+            "vi": "4 x 5 = 20.",
+            "en": "4 x 5 = 20."
+          },
+          "data": {
+            "prefix_text": "4 x 5 = ",
+            "suffix_text": "",
+            "correct_number": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_3_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Kết quả của phép tính 11 + 15 là:",
+            "en": "Result of 11 + 15 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "11 cộng 15 bằng bao nhiêu?",
+            "en": "11 plus 15 is?"
+          },
+          "hint": {
+            "vi": "Cộng hàng đơn vị rồi cộng hàng chục.",
+            "en": "Add ones then tens."
+          },
+          "explanation": {
+            "vi": "11 + 15 = 26.",
+            "en": "11 + 15 = 26."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "26",
+                "en": "26"
+              },
+              {
+                "vi": "28",
+                "en": "28"
+              },
+              {
+                "vi": "24",
+                "en": "24"
+              }
+            ],
+            "correct_answer": "26"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t12_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 70 gồm 7 chục và 0 đơn vị.",
+            "en": "Number 70 has 7 tens and 0 ones."
+          },
+          "hint": {
+            "vi": "Xác định chữ số hàng chục và hàng đơn vị.",
+            "en": "Check tens and ones."
+          },
+          "explanation": {
+            "vi": "Số 70 gồm 7 chục và 0 đơn vị.",
+            "en": "70 has 7 tens and 0 ones."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 70 gồm 7 chục và 0 đơn vị.",
+              "en": "Number 70 consists of 7 tens and 0 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

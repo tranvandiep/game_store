@@ -1,0 +1,1126 @@
+{
+  "id": "e3_stage_2",
+  "stage_number": 2,
+  "title": {
+    "vi": "Week 2: Unit 2 - Our Names & Ages",
+    "en": "Week 2: Unit 2 - Our Names & Ages"
+  },
+  "subtitle": {
+    "vi": "Asking names: What's your name? & Ages: How old are you? I'm eight",
+    "en": "Asking names: What's your name? & Ages: How old are you? I'm eight"
+  },
+  "icon": "🎂",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.921,
+  "required_stars": 3,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "e3_s2_1",
+      "title": {
+        "vi": "Unit 2: What's Your Name?",
+        "en": "Unit 2: What's Your Name?"
+      },
+      "description": {
+        "vi": "Introducing: My name is Mary / What is your name?",
+        "en": "Introducing: My name is Mary / What is your name?"
+      },
+      "icon": "🏷️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s2_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the girl holding her name card proudly. What is her name?",
+            "en": "Look at the girl holding her name card proudly. What is her name?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the girl holding her name card proudly. What is her name?",
+            "en": "Look at the girl holding her name card proudly. What is her name?"
+          },
+          "hint": {
+            "vi": "The badge on her shirt says 'Mary'.",
+            "en": "The badge on her shirt says 'Mary'."
+          },
+          "explanation": {
+            "vi": "She is introducing: 'My name is Mary.'",
+            "en": "She is introducing: 'My name is Mary.'"
+          },
+          "data": {
+            "options": [
+              "Her name is Mary.",
+              "Her name is Tom.",
+              "Her name is Jack.",
+              "Her name is Bob."
+            ],
+            "correct_answer": "Her name is Mary."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u2_my_name.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s2_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'name'?",
+            "en": "What is the first letter of the word 'name'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'name'?",
+            "en": "What is the first letter of the word 'name'?"
+          },
+          "hint": {
+            "vi": "The word 'name' starts with the letter N.",
+            "en": "The word 'name' starts with the letter N."
+          },
+          "explanation": {
+            "vi": "Correct! 'name' begins with the letter 'N'.",
+            "en": "Correct! 'name' begins with the letter 'N'."
+          },
+          "data": {
+            "options": [
+              "Letter N",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter N"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "name",
+                  "en": "name"
+                },
+                "right": {
+                  "vi": "Nghĩa của name",
+                  "en": "Nghĩa của name"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Mary",
+                  "en": "Mary"
+                },
+                "right": {
+                  "vi": "Nghĩa của Mary",
+                  "en": "Nghĩa của Mary"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Peter",
+                  "en": "Peter"
+                },
+                "right": {
+                  "vi": "Nghĩa của Peter",
+                  "en": "Nghĩa của Peter"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? My name is Mary.",
+            "en": "Is this English sentence correct for Grade 3? My name is Mary."
+          },
+          "hint": {
+            "vi": "Remember the pattern: My name is Mary.",
+            "en": "Remember the pattern: My name is Mary."
+          },
+          "explanation": {
+            "vi": "Yes! 'My name is Mary.' is a correct English sentence.",
+            "en": "Yes! 'My name is Mary.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "My name is Mary.",
+              "en": "My name is Mary."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: My name is ....",
+            "en": "Drag the correct word to complete the sentence: My name is ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Mary'.",
+            "en": "Choose the correct word: 'Mary'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'My name is Mary.'.",
+            "en": "The complete sentence is: 'My name is Mary.'."
+          },
+          "data": {
+            "prefix_text": "My name is ",
+            "suffix_text": ".",
+            "options": [
+              "Mary",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Mary"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'name':",
+            "en": "Spell the English word 'name':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'name':",
+            "en": "Spell the English word 'name':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'name'.",
+            "en": "Tap the letters in order to spell 'name'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'name' correctly.",
+            "en": "Well done! You spelled 'name' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "m",
+              "a",
+              "n"
+            ],
+            "target_word": "name",
+            "target_sequence": [
+              "n",
+              "a",
+              "m",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tên của tôi là Mary.' in English?",
+            "en": "How do you say 'Tên của tôi là Mary.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tên của tôi là Mary.' in English?",
+            "en": "How do you say 'Tên của tôi là Mary.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tên của tôi là Mary.",
+            "en": "Choose the English sentence that means: Tên của tôi là Mary."
+          },
+          "explanation": {
+            "vi": "'My name is Mary.' means 'Tên của tôi là Mary.'.",
+            "en": "'My name is Mary.' means 'Tên của tôi là Mary.'."
+          },
+          "data": {
+            "options": [
+              "My name is Mary.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "My name is Mary."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 2: What's Your Name?'?",
+            "en": "Which of the following is a word from Unit 'Unit 2: What's Your Name?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 2: What's Your Name?'?",
+            "en": "Which of the following is a word from Unit 'Unit 2: What's Your Name?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 2: What's Your Name?.",
+            "en": "Remember the words in topic: Unit 2: What's Your Name?."
+          },
+          "explanation": {
+            "vi": "'name' is a key vocabulary word in this topic.",
+            "en": "'name' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "name",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "name"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Mary' start with the sound /n/?",
+            "en": "Does the word 'Mary' start with the sound /n/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Mary' start with the sound /n/? The word 'Mary' starts with letter 'N'.",
+            "en": "Does the word 'Mary' start with the sound /n/? The word 'Mary' starts with letter 'N'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Mary'.",
+            "en": "Listen to the first sound of 'Mary'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Mary' starts with the sound /n/.",
+            "en": "Yes! 'Mary' starts with the sound /n/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Mary' starts with letter 'N'.",
+              "en": "The word 'Mary' starts with letter 'N'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'name'?",
+            "en": "How many letters are there in the word 'name'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'name'?",
+            "en": "How many letters are there in the word 'name'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'name': 1, 2, 3...",
+            "en": "Count the letters in 'name': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'name' has exactly 4 letters.",
+            "en": "The word 'name' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'name':",
+            "en": "Choose the correct phrase with 'name':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'name':",
+            "en": "Choose the correct phrase with 'name':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a name'.",
+            "en": "Correct! We say 'a name'."
+          },
+          "data": {
+            "options": [
+              "a name",
+              "an name",
+              "two name",
+              "many name"
+            ],
+            "correct_answer": "a name"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'name'.",
+            "en": "Choose the noun: 'name'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our name. It is very nice!'",
+            "en": "We say: 'Look! This is our name. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "name",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "name"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 2: What's Your Name?'?",
+            "en": "Which English sentence best describes the topic 'Unit 2: What's Your Name?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 2: What's Your Name?'?",
+            "en": "Which English sentence best describes the topic 'Unit 2: What's Your Name?'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 2: What's Your Name?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 2: What's Your Name?'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: name, Mary!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: name, Mary!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s2_2",
+      "title": {
+        "vi": "Unit 2: How Old Are You?",
+        "en": "Unit 2: How Old Are You?"
+      },
+      "description": {
+        "vi": "Ages 7, 8, 9: How old are you? - I'm eight years old",
+        "en": "Ages 7, 8, 9: How old are you? - I'm eight years old"
+      },
+      "icon": "8️⃣",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s2_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the birthday cake with 8 burning candles. How old is the boy?",
+            "en": "Look at the birthday cake with 8 burning candles. How old is the boy?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the birthday cake with 8 burning candles. How old is the boy?",
+            "en": "Look at the birthday cake with 8 burning candles. How old is the boy?"
+          },
+          "hint": {
+            "vi": "Count the 8 candles on the cake.",
+            "en": "Count the 8 candles on the cake."
+          },
+          "explanation": {
+            "vi": "He is eight years old.",
+            "en": "He is eight years old."
+          },
+          "data": {
+            "options": [
+              "He is eight years old.",
+              "He is two years old.",
+              "He is fifty years old.",
+              "He is one year old."
+            ],
+            "correct_answer": "He is eight years old."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u2_how_old.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s2_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'eight'?",
+            "en": "What is the first letter of the word 'eight'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'eight'?",
+            "en": "What is the first letter of the word 'eight'?"
+          },
+          "hint": {
+            "vi": "The word 'eight' starts with the letter E.",
+            "en": "The word 'eight' starts with the letter E."
+          },
+          "explanation": {
+            "vi": "Correct! 'eight' begins with the letter 'E'.",
+            "en": "Correct! 'eight' begins with the letter 'E'."
+          },
+          "data": {
+            "options": [
+              "Letter E",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter E"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "eight",
+                  "en": "eight"
+                },
+                "right": {
+                  "vi": "Nghĩa của eight",
+                  "en": "Nghĩa của eight"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "seven",
+                  "en": "seven"
+                },
+                "right": {
+                  "vi": "Nghĩa của seven",
+                  "en": "Nghĩa của seven"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "nine",
+                  "en": "nine"
+                },
+                "right": {
+                  "vi": "Nghĩa của nine",
+                  "en": "Nghĩa của nine"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? How old are you? - I'm eight years old.",
+            "en": "Is this English sentence correct for Grade 3? How old are you? - I'm eight years old."
+          },
+          "hint": {
+            "vi": "Remember the pattern: How old are you? - I'm eight years old.",
+            "en": "Remember the pattern: How old are you? - I'm eight years old."
+          },
+          "explanation": {
+            "vi": "Yes! 'How old are you? - I'm eight years old.' is a correct English sentence.",
+            "en": "Yes! 'How old are you? - I'm eight years old.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "How old are you? - I'm eight years old.",
+              "en": "How old are you? - I'm eight years old."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: How old are you? - I'm eight years ....",
+            "en": "Drag the correct word to complete the sentence: How old are you? - I'm eight years ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'old'.",
+            "en": "Choose the correct word: 'old'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'How old are you? - I'm eight years old.'.",
+            "en": "The complete sentence is: 'How old are you? - I'm eight years old.'."
+          },
+          "data": {
+            "prefix_text": "How old are you? - I'm eight years ",
+            "suffix_text": ".",
+            "options": [
+              "old",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "old"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'eight':",
+            "en": "Spell the English word 'eight':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'eight':",
+            "en": "Spell the English word 'eight':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'eight'.",
+            "en": "Tap the letters in order to spell 'eight'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'eight' correctly.",
+            "en": "Well done! You spelled 'eight' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "h",
+              "g",
+              "i",
+              "e"
+            ],
+            "target_word": "eight",
+            "target_sequence": [
+              "e",
+              "i",
+              "g",
+              "h",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Bạn bao nhiêu tuổi? - Tôi tám tuổi.' in English?",
+            "en": "How do you say 'Bạn bao nhiêu tuổi? - Tôi tám tuổi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Bạn bao nhiêu tuổi? - Tôi tám tuổi.' in English?",
+            "en": "How do you say 'Bạn bao nhiêu tuổi? - Tôi tám tuổi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Bạn bao nhiêu tuổi? - Tôi tám tuổi.",
+            "en": "Choose the English sentence that means: Bạn bao nhiêu tuổi? - Tôi tám tuổi."
+          },
+          "explanation": {
+            "vi": "'How old are you? - I'm eight years old.' means 'Bạn bao nhiêu tuổi? - Tôi tám tuổi.'.",
+            "en": "'How old are you? - I'm eight years old.' means 'Bạn bao nhiêu tuổi? - Tôi tám tuổi.'."
+          },
+          "data": {
+            "options": [
+              "How old are you? - I'm eight years old.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "How old are you? - I'm eight years old."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 2: How Old Are You?'?",
+            "en": "Which of the following is a word from Unit 'Unit 2: How Old Are You?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 2: How Old Are You?'?",
+            "en": "Which of the following is a word from Unit 'Unit 2: How Old Are You?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 2: How Old Are You?.",
+            "en": "Remember the words in topic: Unit 2: How Old Are You?."
+          },
+          "explanation": {
+            "vi": "'eight' is a key vocabulary word in this topic.",
+            "en": "'eight' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "eight",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "eight"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'seven' start with the sound /e/?",
+            "en": "Does the word 'seven' start with the sound /e/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'seven' start with the sound /e/? The word 'seven' starts with letter 'E'.",
+            "en": "Does the word 'seven' start with the sound /e/? The word 'seven' starts with letter 'E'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'seven'.",
+            "en": "Listen to the first sound of 'seven'."
+          },
+          "explanation": {
+            "vi": "Yes! 'seven' starts with the sound /e/.",
+            "en": "Yes! 'seven' starts with the sound /e/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'seven' starts with letter 'E'.",
+              "en": "The word 'seven' starts with letter 'E'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'eight'?",
+            "en": "How many letters are there in the word 'eight'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'eight'?",
+            "en": "How many letters are there in the word 'eight'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'eight': 1, 2, 3...",
+            "en": "Count the letters in 'eight': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'eight' has exactly 5 letters.",
+            "en": "The word 'eight' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'eight':",
+            "en": "Choose the correct phrase with 'eight':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'eight':",
+            "en": "Choose the correct phrase with 'eight':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an eight'.",
+            "en": "Correct! We say 'an eight'."
+          },
+          "data": {
+            "options": [
+              "an eight",
+              "a eight",
+              "two eight",
+              "many eight"
+            ],
+            "correct_answer": "an eight"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'eight'.",
+            "en": "Choose the noun: 'eight'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our eight. It is very nice!'",
+            "en": "We say: 'Look! This is our eight. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "eight",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "eight"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s2_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 2: How Old Are You?'?",
+            "en": "Which English sentence best describes the topic 'Unit 2: How Old Are You?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 2: How Old Are You?'?",
+            "en": "Which English sentence best describes the topic 'Unit 2: How Old Are You?'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 2: How Old Are You?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 2: How Old Are You?'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: eight, seven!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: eight, seven!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

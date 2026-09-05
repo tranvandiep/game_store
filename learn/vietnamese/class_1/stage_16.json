@@ -1,0 +1,1122 @@
+{
+  "id": "v1_stage_16",
+  "stage_number": 16,
+  "title": {
+    "vi": "Tuần 16: Ôn Tập & Đánh Giá Cuối Học Kỳ 1",
+    "en": "Tuần 16: Ôn Tập & Đánh Giá Cuối Học Kỳ 1"
+  },
+  "subtitle": {
+    "vi": "Bài 80 - 83 - Ôn tập toàn diện vần, đọc hiểu và kể chuyện",
+    "en": "Bài 80 - 83 - Ôn tập toàn diện vần, đọc hiểu và kể chuyện"
+  },
+  "icon": "🏆",
+  "banner_image": null,
+  "x_percent": 0.8,
+  "y_percent": 0.515,
+  "required_stars": 45,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "v1_t16_1",
+      "title": {
+        "vi": "Đại ôn tập toàn bộ các hệ vần Tiếng Việt",
+        "en": "Đại ôn tập toàn bộ các hệ vần Tiếng Việt"
+      },
+      "description": {
+        "vi": "Hệ thống hoá vần đơn, vần đôi và vần có âm cuối",
+        "en": "Hệ thống hoá vần đơn, vần đôi và vần có âm cuối"
+      },
+      "icon": "📑",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t16_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh tổng kết dưới đây thể hiện tình cảm của các bạn nhỏ với môn học nào?",
+            "en": "Bức tranh tổng kết dưới đây thể hiện tình cảm của các bạn nhỏ với môn học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh tổng kết dưới đây thể hiện tình cảm của các bạn nhỏ với môn học nào?",
+            "en": "Bức tranh tổng kết dưới đây thể hiện tình cảm của các bạn nhỏ với môn học nào?"
+          },
+          "hint": {
+            "vi": "Bìa sách và khẩu hiệu tôn vinh tiếng mẹ đẻ.",
+            "en": "Bìa sách và khẩu hiệu tôn vinh tiếng mẹ đẻ."
+          },
+          "explanation": {
+            "vi": "Bức tranh mang thông điệp: 'Em yêu tiếng Việt mến thương'.",
+            "en": "Bức tranh mang thông điệp: 'Em yêu tiếng Việt mến thương'."
+          },
+          "data": {
+            "options": [
+              "Em yêu tiếng Việt",
+              "Em yêu môn Toán",
+              "Em yêu Thể dục",
+              "Em yêu Tin học"
+            ],
+            "correct_answer": "Em yêu tiếng Việt"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_em_yeu_tieng_viet.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'học', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'học', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'học', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'học', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'học'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'học'."
+          },
+          "explanation": {
+            "vi": "Trong 'học', âm 'h' là âm đầu đứng trước.",
+            "en": "Trong 'học', âm 'h' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "h",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "h"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "học",
+                  "en": "học"
+                },
+                "right": {
+                  "vi": "Tiếng học",
+                  "en": "Tiếng học"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "đọc",
+                  "en": "đọc"
+                },
+                "right": {
+                  "vi": "Tiếng đọc",
+                  "en": "Tiếng đọc"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "viết",
+                  "en": "viết"
+                },
+                "right": {
+                  "vi": "Tiếng viết",
+                  "en": "Tiếng viết"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'đọc' xuất hiện trong bài học về 'ôn tập'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'đọc' xuất hiện trong bài học về 'ôn tập'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'ôn tập'.",
+            "en": "Nhớ lại nội dung bài học về 'ôn tập'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'đọc' là trọng tâm trong bài học về 'ôn tập'.",
+            "en": "Đúng! Nội dung 'đọc' là trọng tâm trong bài học về 'ôn tập'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'đọc' xuất hiện trong bài học về 'ôn tập'.",
+              "en": "Từ hoặc câu liên quan đến 'đọc' xuất hiện trong bài học về 'ôn tập'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'học'.",
+            "en": "Chọn từ đang học trong bài: 'học'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'học'.",
+            "en": "Từ chính xác là 'học'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "học",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "học"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'học':",
+            "en": "Ghép các chữ cái để tạo thành từ 'học':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'học':",
+            "en": "Ghép các chữ cái để tạo thành từ 'học':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'học'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'học'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'học'.",
+            "en": "Ghép các chữ cái tạo thành 'học'."
+          },
+          "data": {
+            "letters": [
+              "c",
+              "ọ",
+              "h"
+            ],
+            "target_word": "học",
+            "target_sequence": [
+              "h",
+              "ọ",
+              "c"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'học' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'học' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'học' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'học' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'học'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'học'."
+          },
+          "explanation": {
+            "vi": "'học đọc' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'học đọc' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "đọc",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "đọc"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Em yêu tiếng Việt mến thương.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Em yêu tiếng Việt mến thương.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Em yêu tiếng Việt mến thương.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Em yêu tiếng Việt mến thương.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Em yêu tiếng Việt mến thương.' thuộc chủ đề 'Đại ôn tập toàn bộ các hệ vần Tiếng Việt'.",
+            "en": "Câu 'Em yêu tiếng Việt mến thương.' thuộc chủ đề 'Đại ôn tập toàn bộ các hệ vần Tiếng Việt'."
+          },
+          "data": {
+            "options": [
+              "Đại ôn tập toàn bộ các hệ vần Tiếng Việt",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Đại ôn tập toàn bộ các hệ vần Tiếng Việt"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Ghi nhớ đầy đủ các nhóm vần đã học trong học kỳ 1.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Ghi nhớ đầy đủ các nhóm vần đã học trong học kỳ 1."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Ghi nhớ đầy đủ các nhóm vần đã học trong học kỳ 1.",
+            "en": "Đúng! Ghi nhớ đầy đủ các nhóm vần đã học trong học kỳ 1."
+          },
+          "data": {
+            "statement": {
+              "vi": "Ghi nhớ đầy đủ các nhóm vần đã học trong học kỳ 1.",
+              "en": "Ghi nhớ đầy đủ các nhóm vần đã học trong học kỳ 1."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Em yêu tiếng Việt mến thương.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em yêu tiếng Việt mến thương.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Em yêu tiếng Việt mến thương.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em yêu tiếng Việt mến thương.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Em yêu tiếng Việt mến thương..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Em yêu tiếng Việt mến thương.."
+          },
+          "explanation": {
+            "vi": "Câu 'Em yêu tiếng Việt mến thương.' có đúng 6 tiếng.",
+            "en": "Câu 'Em yêu tiếng Việt mến thương.' có đúng 6 tiếng."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'đọc' mang dấu thanh gì?",
+            "en": "Tiếng 'đọc' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'đọc' mang dấu thanh gì?",
+            "en": "Tiếng 'đọc' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'đọc' mang dấu thanh chính xác.",
+            "en": "Tiếng 'đọc' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em yêu tiếng Việt mến thương.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em yêu tiếng Việt mến thương.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em yêu tiếng Việt mến thương.' Em ... tiếng Việt mến thương.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em yêu tiếng Việt mến thương.' Em ... tiếng Việt mến thương."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Em yêu tiếng Việt mến thương..",
+            "en": "Nhớ lại câu mẫu: Em yêu tiếng Việt mến thương.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'yêu'.",
+            "en": "Từ chính xác là 'yêu'."
+          },
+          "data": {
+            "prefix_text": "Em ",
+            "suffix_text": " tiếng Việt mến thương.",
+            "options": [
+              "yêu",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "yêu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Ô",
+                  "en": "Ô"
+                },
+                "right": {
+                  "vi": "ô",
+                  "en": "ô"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "V",
+                  "en": "V"
+                },
+                "right": {
+                  "vi": "v",
+                  "en": "v"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'học'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'học'."
+          },
+          "explanation": {
+            "vi": "'học' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'học' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "học",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "học"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'ôn tập'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'ôn tập'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'ôn tập'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'ôn tập'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'ôn tập' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'ôn tập' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'học'.",
+            "en": "Tiếng mẫu của bài là 'học'."
+          },
+          "data": {
+            "options": [
+              "học",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "học"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t16_2",
+      "title": {
+        "vi": "Luyện đọc trơn đoạn văn & Trả lời câu hỏi",
+        "en": "Luyện đọc trơn đoạn văn & Trả lời câu hỏi"
+      },
+      "description": {
+        "vi": "Đọc hiểu câu chuyện và trả lời ý chính",
+        "en": "Đọc hiểu câu chuyện và trả lời ý chính"
+      },
+      "icon": "🎯",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t16_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh bạn nhỏ nhận bông hoa điểm mười thể hiện danh hiệu gì của học sinh?",
+            "en": "Bức tranh bạn nhỏ nhận bông hoa điểm mười thể hiện danh hiệu gì của học sinh?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh bạn nhỏ nhận bông hoa điểm mười thể hiện danh hiệu gì của học sinh?",
+            "en": "Bức tranh bạn nhỏ nhận bông hoa điểm mười thể hiện danh hiệu gì của học sinh?"
+          },
+          "hint": {
+            "vi": "Cô giáo khen thưởng bạn nhỏ chăm chỉ, học giỏi.",
+            "en": "Cô giáo khen thưởng bạn nhỏ chăm chỉ, học giỏi."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ: 'Học sinh chăm ngoan được cô khen'.",
+            "en": "Bức tranh minh hoạ: 'Học sinh chăm ngoan được cô khen'."
+          },
+          "data": {
+            "options": [
+              "học sinh chăm ngoan",
+              "bạn nhỏ nghịch ngợm",
+              "học sinh đi muộn",
+              "người lười biếng"
+            ],
+            "correct_answer": "học sinh chăm ngoan"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_hoc_sinh_cham_ngoan.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'chăm', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'chăm', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'chăm', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'chăm', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'chăm'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'chăm'."
+          },
+          "explanation": {
+            "vi": "Trong 'chăm', âm 'c' là âm đầu đứng trước.",
+            "en": "Trong 'chăm', âm 'c' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "c",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "c"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "chăm",
+                  "en": "chăm"
+                },
+                "right": {
+                  "vi": "Tiếng chăm",
+                  "en": "Tiếng chăm"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "chỉ",
+                  "en": "chỉ"
+                },
+                "right": {
+                  "vi": "Tiếng chỉ",
+                  "en": "Tiếng chỉ"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tiến",
+                  "en": "tiến"
+                },
+                "right": {
+                  "vi": "Tiếng tiến",
+                  "en": "Tiếng tiến"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'chỉ' xuất hiện trong bài học về 'đọc hiểu'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'chỉ' xuất hiện trong bài học về 'đọc hiểu'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'đọc hiểu'.",
+            "en": "Nhớ lại nội dung bài học về 'đọc hiểu'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'chỉ' là trọng tâm trong bài học về 'đọc hiểu'.",
+            "en": "Đúng! Nội dung 'chỉ' là trọng tâm trong bài học về 'đọc hiểu'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'chỉ' xuất hiện trong bài học về 'đọc hiểu'.",
+              "en": "Từ hoặc câu liên quan đến 'chỉ' xuất hiện trong bài học về 'đọc hiểu'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'chăm'.",
+            "en": "Chọn từ đang học trong bài: 'chăm'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'chăm'.",
+            "en": "Từ chính xác là 'chăm'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "chăm",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "chăm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'chăm':",
+            "en": "Ghép các chữ cái để tạo thành từ 'chăm':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'chăm':",
+            "en": "Ghép các chữ cái để tạo thành từ 'chăm':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'chăm'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'chăm'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'chăm'.",
+            "en": "Ghép các chữ cái tạo thành 'chăm'."
+          },
+          "data": {
+            "letters": [
+              "m",
+              "ă",
+              "h",
+              "c"
+            ],
+            "target_word": "chăm",
+            "target_sequence": [
+              "c",
+              "h",
+              "ă",
+              "m"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'chăm' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'chăm' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'chăm' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'chăm' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'chăm'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'chăm'."
+          },
+          "explanation": {
+            "vi": "'chăm chỉ' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'chăm chỉ' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "chỉ",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "chỉ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Học sinh chăm ngoan được cô khen.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Học sinh chăm ngoan được cô khen.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Học sinh chăm ngoan được cô khen.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Học sinh chăm ngoan được cô khen.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Học sinh chăm ngoan được cô khen.' thuộc chủ đề 'Luyện đọc trơn đoạn văn & Trả lời câu hỏi'.",
+            "en": "Câu 'Học sinh chăm ngoan được cô khen.' thuộc chủ đề 'Luyện đọc trơn đoạn văn & Trả lời câu hỏi'."
+          },
+          "data": {
+            "options": [
+              "Luyện đọc trơn đoạn văn & Trả lời câu hỏi",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Luyện đọc trơn đoạn văn & Trả lời câu hỏi"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Đọc trôi chảy, diễn cảm và nắm chắc nội dung bài đọc.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Đọc trôi chảy, diễn cảm và nắm chắc nội dung bài đọc."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Đọc trôi chảy, diễn cảm và nắm chắc nội dung bài đọc.",
+            "en": "Đúng! Đọc trôi chảy, diễn cảm và nắm chắc nội dung bài đọc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Đọc trôi chảy, diễn cảm và nắm chắc nội dung bài đọc.",
+              "en": "Đọc trôi chảy, diễn cảm và nắm chắc nội dung bài đọc."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Học sinh chăm ngoan được cô khen.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Học sinh chăm ngoan được cô khen.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Học sinh chăm ngoan được cô khen.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Học sinh chăm ngoan được cô khen.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Học sinh chăm ngoan được cô khen..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Học sinh chăm ngoan được cô khen.."
+          },
+          "explanation": {
+            "vi": "Câu 'Học sinh chăm ngoan được cô khen.' có đúng 7 tiếng.",
+            "en": "Câu 'Học sinh chăm ngoan được cô khen.' có đúng 7 tiếng."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'chỉ' mang dấu thanh gì?",
+            "en": "Tiếng 'chỉ' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'chỉ' mang dấu thanh gì?",
+            "en": "Tiếng 'chỉ' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'chỉ' mang dấu thanh chính xác.",
+            "en": "Tiếng 'chỉ' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu hỏi (?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Học sinh chăm ngoan được cô khen.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Học sinh chăm ngoan được cô khen.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Học sinh chăm ngoan được cô khen.' Học ... chăm ngoan được cô khen.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Học sinh chăm ngoan được cô khen.' Học ... chăm ngoan được cô khen."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Học sinh chăm ngoan được cô khen..",
+            "en": "Nhớ lại câu mẫu: Học sinh chăm ngoan được cô khen.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'sinh'.",
+            "en": "Từ chính xác là 'sinh'."
+          },
+          "data": {
+            "prefix_text": "Học ",
+            "suffix_text": " chăm ngoan được cô khen.",
+            "options": [
+              "sinh",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "sinh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Đ",
+                  "en": "Đ"
+                },
+                "right": {
+                  "vi": "đ",
+                  "en": "đ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'chăm'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'chăm'."
+          },
+          "explanation": {
+            "vi": "'chăm' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'chăm' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "chăm",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "chăm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t16_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'đọc hiểu'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'đọc hiểu'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'đọc hiểu'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'đọc hiểu'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'đọc hiểu' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'đọc hiểu' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'chăm'.",
+            "en": "Tiếng mẫu của bài là 'chăm'."
+          },
+          "data": {
+            "options": [
+              "chăm",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "chăm"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

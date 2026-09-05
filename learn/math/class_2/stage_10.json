@@ -1,0 +1,949 @@
+{
+  "id": "m2_stage_10",
+  "stage_number": 10,
+  "title": {
+    "vi": "Tuần 10: Phép Cộng Có Nhớ: 2 Chữ Số + 1 Chữ Số",
+    "en": "Week 10: 2-Digit + 1-Digit Regrouping"
+  },
+  "subtitle": {
+    "vi": "Bài 19 - Dạng 35 + 7 (có nhớ)",
+    "en": "Lesson 19 - Form 35 + 7 (with regrouping)"
+  },
+  "icon": "➕",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.698,
+  "required_stars": 27,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "m2_t10_1",
+      "title": {
+        "vi": "Phép cộng có nhớ dạng 35 + 7, 28 + 6",
+        "en": "2-Digit + 1-Digit Regrouping"
+      },
+      "description": {
+        "vi": "Cộng hàng đơn vị có nhớ 1 sang hàng chục",
+        "en": "Add ones with regrouping 1 ten to tens"
+      },
+      "icon": "➕",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m2_t10_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 35 + 7 = ?",
+            "en": "Calculate: 35 + 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 35 + 7 = ?",
+            "en": "Calculate: 35 + 7 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 + 7 = 12, viết 2 nhớ 1; 3 thêm 1 bằng 4 -> 42.",
+            "en": "5 + 7 = 12, write 2 carry 1; 3 + 1 = 4 -> 42."
+          },
+          "data": {
+            "correct_number": "42",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 48 + 6 = ?",
+            "en": "Calculate: 48 + 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 48 + 6 = ?",
+            "en": "Calculate: 48 + 6 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "8 + 6 = 14, viết 4 nhớ 1; 4 thêm 1 bằng 5 -> 54.",
+            "en": "48 + 6 = 54."
+          },
+          "data": {
+            "correct_number": "54",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 69 + 5 = ?",
+            "en": "Calculate: 69 + 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 69 + 5 = ?",
+            "en": "Calculate: 69 + 5 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "9 + 5 = 14, viết 4 nhớ 1; 6 + 1 = 7 -> 74.",
+            "en": "69 + 5 = 74."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "73",
+                "en": "73"
+              },
+              {
+                "vi": "74",
+                "en": "74"
+              },
+              {
+                "vi": "75",
+                "en": "75"
+              }
+            ],
+            "correct_answer": "74"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 6 + 12 = ?",
+            "en": "Calculate: 6 + 12 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 6 + 12 = ?",
+            "en": "Calculate: 6 + 12 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 6 + 12.",
+            "en": "Calculate 6 + 12."
+          },
+          "explanation": {
+            "vi": "6 + 12 = 18",
+            "en": "6 + 12 = 18"
+          },
+          "data": {
+            "options": [
+              "18",
+              "17",
+              "19",
+              "20"
+            ],
+            "correct_answer": "18"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 5 + 20 = ?",
+            "en": "Calculate: 5 + 20 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 5 + 20 = ?",
+            "en": "Calculate: 5 + 20 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 5 + 20.",
+            "en": "Calculate 5 + 20."
+          },
+          "explanation": {
+            "vi": "5 + 20 = 25",
+            "en": "5 + 20 = 25"
+          },
+          "data": {
+            "options": [
+              "25",
+              "26",
+              "24",
+              "27"
+            ],
+            "correct_answer": "25"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t10_2",
+      "title": {
+        "vi": "Đặt tính thẳng cột & Quy tắc nhớ 1",
+        "en": "Column Alignment & Regrouping Rule"
+      },
+      "description": {
+        "vi": "Đặt thẳng cột đơn vị, cộng từ phải sang trái",
+        "en": "Align ones in vertical column, add right to left"
+      },
+      "icon": "📝",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m2_t10_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Khi đặt tính 57 + 8, số 8 phải thẳng hàng với chữ số nào?",
+            "en": "In vertical 57 + 8, digit 8 aligns with which digit?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khi đặt tính 57 + 8, số 8 phải thẳng hàng với chữ số nào?",
+            "en": "In vertical 57 + 8, digit 8 aligns with which digit?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Số 8 ở hàng đơn vị phải thẳng cột với 7.",
+            "en": "8 aligns with 7 in ones column."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Chữ số 7 (hàng đơn vị)",
+                "en": "Chữ số 7 (hàng đơn vị)"
+              },
+              {
+                "vi": "Chữ số 5 (hàng chục)",
+                "en": "Chữ số 5 (hàng chục)"
+              },
+              {
+                "vi": "Ở đâu cũng được",
+                "en": "Ở đâu cũng được"
+              }
+            ],
+            "correct_answer": "Chữ số 7 (hàng đơn vị)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_2",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the sum:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the sum:"
+          },
+          "hint": {
+            "vi": "Chạm vào thẻ thích hợp để điền vào ô trống.",
+            "en": "Tap the correct card to fill the slot."
+          },
+          "explanation": {
+            "vi": "6 + 9 = 15, nhớ 1 -> 85.",
+            "en": "76 + 9 = 85."
+          },
+          "data": {
+            "prefix_text": "76 + 9 = ",
+            "suffix_text": "",
+            "options": [
+              "83",
+              "84",
+              "85",
+              "86"
+            ],
+            "slot_answer": "85"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy tắc cộng có nhớ.",
+            "en": "Decide whether the following statement is true or false: Quy tắc cộng có nhớ."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Luôn nhớ 1 sang hàng chục kế tiếp.",
+            "en": "True! Always carry 1 to tens."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy tắc cộng có nhớ.",
+              "en": "Quy tắc cộng có nhớ."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Đặt tính thẳng cột & Quy tắc nhớ 1': Khi đặt tính 57 + 8, số 8 phải thẳng hàng với chữ số nào?",
+            "en": "Practice 'Column Alignment & Regrouping Rule': In vertical 57 + 8, digit 8 aligns with which digit?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khi đặt tính 57 + 8, số 8 phải thẳng hàng với chữ số nào?",
+            "en": "In vertical 57 + 8, digit 8 aligns with which digit?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Số 8 ở hàng đơn vị phải thẳng cột với 7.",
+            "en": "8 aligns with 7 in ones column."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Chữ số 7 (hàng đơn vị)",
+                "en": "Chữ số 7 (hàng đơn vị)"
+              },
+              {
+                "vi": "Ở đâu cũng được",
+                "en": "Ở đâu cũng được"
+              },
+              {
+                "vi": "Chữ số 5 (hàng chục)",
+                "en": "Chữ số 5 (hàng chục)"
+              }
+            ],
+            "correct_answer": "Chữ số 7 (hàng đơn vị)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 37, 38,  ... , 40",
+            "en": "Drag the correct answer into the slot:\nDãy số: 37, 38,  ... , 40"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 37, 38,  ... , 40",
+            "en": "Drag the correct answer: Dãy số: 37, 38,  ... , 40"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 37, 38,  39 , 40",
+            "en": "Dãy số: 37, 38,  39 , 40"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 37, 38, ",
+            "suffix_text": ", 40",
+            "options": [
+              "38",
+              "39",
+              "41"
+            ],
+            "slot_answer": "39"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 5, 6,  ... , 8",
+            "en": "Drag the correct answer into the slot:\nDãy số: 5, 6,  ... , 8"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 5, 6,  ... , 8",
+            "en": "Drag the correct answer: Dãy số: 5, 6,  ... , 8"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 5, 6,  7 , 8",
+            "en": "Dãy số: 5, 6,  7 , 8"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 5, 6, ",
+            "suffix_text": ", 8",
+            "options": [
+              "9",
+              "6",
+              "7"
+            ],
+            "slot_answer": "7"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_11",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 51, 52,  ... , 54",
+            "en": "Drag the correct answer into the slot:\nDãy số: 51, 52,  ... , 54"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 51, 52,  ... , 54",
+            "en": "Drag the correct answer: Dãy số: 51, 52,  ... , 54"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 51, 52,  53 , 54",
+            "en": "Dãy số: 51, 52,  53 , 54"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 51, 52, ",
+            "suffix_text": ", 54",
+            "options": [
+              "55",
+              "53",
+              "52"
+            ],
+            "slot_answer": "53"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n4 x 4 = ...",
+            "en": "Calculate:\n4 x 4 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n4 x 4 = ...",
+            "en": "Calculate:\n4 x 4 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "4 x 4 = 16.",
+            "en": "4 x 4 = 16."
+          },
+          "data": {
+            "prefix_text": "4 x 4 = ",
+            "suffix_text": "",
+            "options": [
+              "16",
+              "12",
+              "20",
+              "18"
+            ],
+            "slot_answer": "16"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 13 + 15 = ?",
+            "en": "Calculate: 13 + 15 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 13 + 15 = ?",
+            "en": "Calculate: 13 + 15 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "13 + 15 = 28.",
+            "en": "13 + 15 = 28."
+          },
+          "data": {
+            "prefix_text": "13 + 15 = ",
+            "suffix_text": "",
+            "correct_number": "28"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 69 gồm 6 chục và 9 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 69 has 6 tens and 9 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 69 gồm 6 chục và 9 đơn vị.",
+              "en": "Number 69 has 6 tens and 9 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 1",
+                  "en": "2 x 1"
+                },
+                "right": {
+                  "vi": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 2",
+                  "en": "2 x 2"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 3",
+                  "en": "2 x 3"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t10_3",
+      "title": {
+        "vi": "Tính nhẩm nhanh & Giải bài toán lời văn",
+        "en": "Mental Math & Word Problems"
+      },
+      "description": {
+        "vi": "Vận dụng phép cộng có nhớ vào bài toán đếm sách, hoa",
+        "en": "Apply regrouping addition to books and flowers"
+      },
+      "icon": "💡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m2_t10_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đoạn dây thứ nhất dài 38 cm, đoạn dây thứ hai dài 7 cm. Cả hai đoạn dây dài tất cả bao nhiêu cm?",
+            "en": "First wire 38cm, second is 7cm. Total length?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đoạn dây thứ nhất dài 38 cm, đoạn dây thứ hai dài 7 cm. Cả hai đoạn dây dài tất cả bao nhiêu cm?",
+            "en": "First wire 38cm, second is 7cm. Total length?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "38 cm + 7 cm = 45 cm.",
+            "en": "38 cm + 7 cm = 45 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "44 cm",
+                "en": "44 cm"
+              },
+              {
+                "vi": "45 cm",
+                "en": "45 cm"
+              },
+              {
+                "vi": "46 cm",
+                "en": "46 cm"
+              }
+            ],
+            "correct_answer": "45 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Vườn có 26 cây cam, mẹ trồng thêm 8 cây cam nữa. Vườn có tất cả mấy cây cam?",
+            "en": "Orchard has 26 orange trees, planted 8 more. Total trees?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Vườn có 26 cây cam, mẹ trồng thêm 8 cây cam nữa. Vườn có tất cả mấy cây cam?",
+            "en": "Orchard has 26 orange trees, planted 8 more. Total trees?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "26 + 8 = 34 cây cam.",
+            "en": "26 + 8 = 34 orange trees."
+          },
+          "data": {
+            "correct_number": "34",
+            "unit": "cây"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_3_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả chính xác:",
+            "en": "Match equations with sums:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả chính xác:",
+            "en": "Match equations with sums:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Luyện cộng có nhớ thành thạo.",
+            "en": "Master regrouping addition facts."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "19 + 6",
+                  "en": "19 + 6"
+                },
+                "right": {
+                  "vi": "25",
+                  "en": "25"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "57 + 7",
+                  "en": "57 + 7"
+                },
+                "right": {
+                  "vi": "64",
+                  "en": "64"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "84 + 8",
+                  "en": "84 + 8"
+                },
+                "right": {
+                  "vi": "92",
+                  "en": "92"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Tính nhẩm nhanh & Giải bài toán lời văn': Đoạn dây thứ nhất dài 38 cm, đoạn dây thứ hai dài 7 cm. Cả hai đoạn dây dài tất cả bao nhiêu cm?",
+            "en": "Practice 'Mental Math & Word Problems': First wire 38cm, second is 7cm. Total length?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đoạn dây thứ nhất dài 38 cm, đoạn dây thứ hai dài 7 cm. Cả hai đoạn dây dài tất cả bao nhiêu cm?",
+            "en": "First wire 38cm, second is 7cm. Total length?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "38 cm + 7 cm = 45 cm.",
+            "en": "38 cm + 7 cm = 45 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "44 cm",
+                "en": "44 cm"
+              },
+              {
+                "vi": "45 cm",
+                "en": "45 cm"
+              },
+              {
+                "vi": "46 cm",
+                "en": "46 cm"
+              }
+            ],
+            "correct_answer": "45 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 89 gồm 8 chục và 9 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 89 has 8 tens and 9 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 89 gồm 8 chục và 9 đơn vị.",
+              "en": "Number 89 has 8 tens and 9 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_3_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Kết quả của phép tính 48 + 29 là:",
+            "en": "Result of 48 + 29 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "48 cộng 29 bằng bao nhiêu?",
+            "en": "48 plus 29 is?"
+          },
+          "hint": {
+            "vi": "Cộng hàng đơn vị rồi cộng hàng chục.",
+            "en": "Add ones then tens."
+          },
+          "explanation": {
+            "vi": "48 + 29 = 77.",
+            "en": "48 + 29 = 77."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "77",
+                "en": "77"
+              },
+              {
+                "vi": "79",
+                "en": "79"
+              },
+              {
+                "vi": "75",
+                "en": "75"
+              }
+            ],
+            "correct_answer": "77"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t10_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 36 gồm 3 chục và 6 đơn vị.",
+            "en": "Number 36 has 3 tens and 6 ones."
+          },
+          "hint": {
+            "vi": "Xác định chữ số hàng chục và hàng đơn vị.",
+            "en": "Check tens and ones."
+          },
+          "explanation": {
+            "vi": "Số 36 gồm 3 chục và 6 đơn vị.",
+            "en": "36 has 3 tens and 6 ones."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 36 gồm 3 chục và 6 đơn vị.",
+              "en": "Number 36 consists of 3 tens and 6 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

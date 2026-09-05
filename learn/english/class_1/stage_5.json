@@ -1,0 +1,1122 @@
+{
+  "id": "e1_stage_5",
+  "stage_number": 5,
+  "title": {
+    "vi": "Week 5: Yummy Treats & Toy Car",
+    "en": "Week 5: Yummy Treats & Toy Car"
+  },
+  "subtitle": {
+    "vi": "Expressing likes: I like cake, I have a toy car",
+    "en": "Expressing likes: I like cake, I have a toy car"
+  },
+  "icon": "🚗",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.834,
+  "required_stars": 12,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "e1_s5_1",
+      "title": {
+        "vi": "Yummy Treats: Cake & Milk",
+        "en": "Yummy Treats: Cake & Milk"
+      },
+      "description": {
+        "vi": "Enjoying breakfast in the dining room",
+        "en": "Enjoying breakfast in the dining room"
+      },
+      "icon": "🥛",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s5_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is on the dining breakfast table beside the sweet cupcake?",
+            "en": "What is on the dining breakfast table beside the sweet cupcake?"
+          },
+          "tts_prompt": {
+            "vi": "What is on the dining breakfast table beside the sweet cupcake?",
+            "en": "What is on the dining breakfast table beside the sweet cupcake?"
+          },
+          "hint": {
+            "vi": "It's white, healthy, and good for growing strong.",
+            "en": "It's white, healthy, and good for growing strong."
+          },
+          "explanation": {
+            "vi": "There is a fresh cup of milk on the table.",
+            "en": "There is a fresh cup of milk on the table."
+          },
+          "data": {
+            "options": [
+              "a cup of fresh milk",
+              "a bucket of sand",
+              "a box of nails",
+              "a pair of shoes"
+            ],
+            "correct_answer": "a cup of fresh milk"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u2_cake_milk.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s5_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'cake'?",
+            "en": "What is the first letter of the word 'cake'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'cake'?",
+            "en": "What is the first letter of the word 'cake'?"
+          },
+          "hint": {
+            "vi": "The word 'cake' starts with the letter M.",
+            "en": "The word 'cake' starts with the letter M."
+          },
+          "explanation": {
+            "vi": "Correct! 'cake' begins with the letter 'M'.",
+            "en": "Correct! 'cake' begins with the letter 'M'."
+          },
+          "data": {
+            "options": [
+              "Letter M",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter M"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cake",
+                  "en": "cake"
+                },
+                "right": {
+                  "vi": "Nghĩa của cake",
+                  "en": "Nghĩa của cake"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "milk",
+                  "en": "milk"
+                },
+                "right": {
+                  "vi": "Nghĩa của milk",
+                  "en": "Nghĩa của milk"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "yummy",
+                  "en": "yummy"
+                },
+                "right": {
+                  "vi": "Nghĩa của yummy",
+                  "en": "Nghĩa của yummy"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? A cup of warm milk.",
+            "en": "Is this English sentence correct for Grade 1? A cup of warm milk."
+          },
+          "hint": {
+            "vi": "Remember the pattern: A cup of warm milk.",
+            "en": "Remember the pattern: A cup of warm milk."
+          },
+          "explanation": {
+            "vi": "Yes! 'A cup of warm milk.' is a correct English sentence.",
+            "en": "Yes! 'A cup of warm milk.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "A cup of warm milk.",
+              "en": "A cup of warm milk."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: A cup of warm ....",
+            "en": "Drag the correct word to complete the sentence: A cup of warm ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'milk'.",
+            "en": "Choose the correct word: 'milk'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'A cup of warm milk.'.",
+            "en": "The complete sentence is: 'A cup of warm milk.'."
+          },
+          "data": {
+            "prefix_text": "A cup of warm ",
+            "suffix_text": ".",
+            "options": [
+              "milk",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "milk"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'cake':",
+            "en": "Spell the English word 'cake':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'cake':",
+            "en": "Spell the English word 'cake':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'cake'.",
+            "en": "Tap the letters in order to spell 'cake'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'cake' correctly.",
+            "en": "Well done! You spelled 'cake' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "k",
+              "a",
+              "c"
+            ],
+            "target_word": "cake",
+            "target_sequence": [
+              "c",
+              "a",
+              "k",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Một cốc sữa ấm áp.' in English?",
+            "en": "How do you say 'Một cốc sữa ấm áp.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Một cốc sữa ấm áp.' in English?",
+            "en": "How do you say 'Một cốc sữa ấm áp.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Một cốc sữa ấm áp.",
+            "en": "Choose the English sentence that means: Một cốc sữa ấm áp."
+          },
+          "explanation": {
+            "vi": "'A cup of warm milk.' means 'Một cốc sữa ấm áp.'.",
+            "en": "'A cup of warm milk.' means 'Một cốc sữa ấm áp.'."
+          },
+          "data": {
+            "options": [
+              "A cup of warm milk.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "A cup of warm milk."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Yummy Treats: Cake & Milk'?",
+            "en": "Which of the following is a word from Unit 'Yummy Treats: Cake & Milk'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Yummy Treats: Cake & Milk'?",
+            "en": "Which of the following is a word from Unit 'Yummy Treats: Cake & Milk'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Yummy Treats: Cake & Milk.",
+            "en": "Remember the words in topic: Yummy Treats: Cake & Milk."
+          },
+          "explanation": {
+            "vi": "'cake' is a key vocabulary word in this topic.",
+            "en": "'cake' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "cake",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "cake"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'milk' start with the sound /m/?",
+            "en": "Does the word 'milk' start with the sound /m/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'milk' start with the sound /m/? The word 'milk' starts with letter 'M'.",
+            "en": "Does the word 'milk' start with the sound /m/? The word 'milk' starts with letter 'M'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'milk'.",
+            "en": "Listen to the first sound of 'milk'."
+          },
+          "explanation": {
+            "vi": "Yes! 'milk' starts with the sound /m/.",
+            "en": "Yes! 'milk' starts with the sound /m/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'milk' starts with letter 'M'.",
+              "en": "The word 'milk' starts with letter 'M'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'cake'?",
+            "en": "How many letters are there in the word 'cake'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'cake'?",
+            "en": "How many letters are there in the word 'cake'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'cake': 1, 2, 3...",
+            "en": "Count the letters in 'cake': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'cake' has exactly 4 letters.",
+            "en": "The word 'cake' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'cake':",
+            "en": "Choose the correct article before 'cake':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'cake':",
+            "en": "Choose the correct article before 'cake':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a cake'.",
+            "en": "Correct! We say 'a cake'."
+          },
+          "data": {
+            "options": [
+              "a cake",
+              "an cake",
+              "two cake",
+              "many cake"
+            ],
+            "correct_answer": "a cake"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "M",
+                  "en": "M"
+                },
+                "right": {
+                  "vi": "m",
+                  "en": "m"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Yummy Treats: Cake & Milk'?",
+            "en": "Which English sentence best describes the topic 'Yummy Treats: Cake & Milk'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Yummy Treats: Cake & Milk'?",
+            "en": "Which English sentence best describes the topic 'Yummy Treats: Cake & Milk'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Yummy Treats: Cake & Milk'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Yummy Treats: Cake & Milk'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: cake, milk!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: cake, milk!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s5_2",
+      "title": {
+        "vi": "Playing with a Toy Car",
+        "en": "Playing with a Toy Car"
+      },
+      "description": {
+        "vi": "Zooming the red toy car on the floor",
+        "en": "Zooming the red toy car on the floor"
+      },
+      "icon": "🏎️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s5_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy driving his shiny red toy car. What toy is it?",
+            "en": "Look at the boy driving his shiny red toy car. What toy is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy driving his shiny red toy car. What toy is it?",
+            "en": "Look at the boy driving his shiny red toy car. What toy is it?"
+          },
+          "hint": {
+            "vi": "It has four wheels and makes 'vroom vroom' sounds.",
+            "en": "It has four wheels and makes 'vroom vroom' sounds."
+          },
+          "explanation": {
+            "vi": "It's a shiny red toy car.",
+            "en": "It's a shiny red toy car."
+          },
+          "data": {
+            "options": [
+              "a red toy car",
+              "a flying kite",
+              "a wooden doll",
+              "a teddy bear"
+            ],
+            "correct_answer": "a red toy car"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u2_toy_car.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s5_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'car'?",
+            "en": "What is the first letter of the word 'car'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'car'?",
+            "en": "What is the first letter of the word 'car'?"
+          },
+          "hint": {
+            "vi": "The word 'car' starts with the letter C.",
+            "en": "The word 'car' starts with the letter C."
+          },
+          "explanation": {
+            "vi": "Correct! 'car' begins with the letter 'C'.",
+            "en": "Correct! 'car' begins with the letter 'C'."
+          },
+          "data": {
+            "options": [
+              "Letter C",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter C"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "car",
+                  "en": "car"
+                },
+                "right": {
+                  "vi": "Nghĩa của car",
+                  "en": "Nghĩa của car"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "toy",
+                  "en": "toy"
+                },
+                "right": {
+                  "vi": "Nghĩa của toy",
+                  "en": "Nghĩa của toy"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "red",
+                  "en": "red"
+                },
+                "right": {
+                  "vi": "Nghĩa của red",
+                  "en": "Nghĩa của red"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? I have a red toy car.",
+            "en": "Is this English sentence correct for Grade 1? I have a red toy car."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I have a red toy car.",
+            "en": "Remember the pattern: I have a red toy car."
+          },
+          "explanation": {
+            "vi": "Yes! 'I have a red toy car.' is a correct English sentence.",
+            "en": "Yes! 'I have a red toy car.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I have a red toy car.",
+              "en": "I have a red toy car."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I have a red toy ....",
+            "en": "Drag the correct word to complete the sentence: I have a red toy ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'car'.",
+            "en": "Choose the correct word: 'car'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I have a red toy car.'.",
+            "en": "The complete sentence is: 'I have a red toy car.'."
+          },
+          "data": {
+            "prefix_text": "I have a red toy ",
+            "suffix_text": ".",
+            "options": [
+              "car",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "car"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'car':",
+            "en": "Spell the English word 'car':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'car':",
+            "en": "Spell the English word 'car':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'car'.",
+            "en": "Tap the letters in order to spell 'car'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'car' correctly.",
+            "en": "Well done! You spelled 'car' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "a",
+              "c"
+            ],
+            "target_word": "car",
+            "target_sequence": [
+              "c",
+              "a",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi có một chiếc xe ô tô đồ chơi màu đỏ.' in English?",
+            "en": "How do you say 'Tôi có một chiếc xe ô tô đồ chơi màu đỏ.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi có một chiếc xe ô tô đồ chơi màu đỏ.' in English?",
+            "en": "How do you say 'Tôi có một chiếc xe ô tô đồ chơi màu đỏ.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi có một chiếc xe ô tô đồ chơi màu đỏ.",
+            "en": "Choose the English sentence that means: Tôi có một chiếc xe ô tô đồ chơi màu đỏ."
+          },
+          "explanation": {
+            "vi": "'I have a red toy car.' means 'Tôi có một chiếc xe ô tô đồ chơi màu đỏ.'.",
+            "en": "'I have a red toy car.' means 'Tôi có một chiếc xe ô tô đồ chơi màu đỏ.'."
+          },
+          "data": {
+            "options": [
+              "I have a red toy car.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I have a red toy car."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Playing with a Toy Car'?",
+            "en": "Which of the following is a word from Unit 'Playing with a Toy Car'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Playing with a Toy Car'?",
+            "en": "Which of the following is a word from Unit 'Playing with a Toy Car'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Playing with a Toy Car.",
+            "en": "Remember the words in topic: Playing with a Toy Car."
+          },
+          "explanation": {
+            "vi": "'car' is a key vocabulary word in this topic.",
+            "en": "'car' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "car",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "car"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'toy' start with the sound /c/?",
+            "en": "Does the word 'toy' start with the sound /c/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'toy' start with the sound /c/? The word 'toy' starts with letter 'C'.",
+            "en": "Does the word 'toy' start with the sound /c/? The word 'toy' starts with letter 'C'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'toy'.",
+            "en": "Listen to the first sound of 'toy'."
+          },
+          "explanation": {
+            "vi": "Yes! 'toy' starts with the sound /c/.",
+            "en": "Yes! 'toy' starts with the sound /c/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'toy' starts with letter 'C'.",
+              "en": "The word 'toy' starts with letter 'C'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'car'?",
+            "en": "How many letters are there in the word 'car'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'car'?",
+            "en": "How many letters are there in the word 'car'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'car': 1, 2, 3...",
+            "en": "Count the letters in 'car': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'car' has exactly 3 letters.",
+            "en": "The word 'car' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'car':",
+            "en": "Choose the correct article before 'car':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'car':",
+            "en": "Choose the correct article before 'car':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a car'.",
+            "en": "Correct! We say 'a car'."
+          },
+          "data": {
+            "options": [
+              "a car",
+              "an car",
+              "two car",
+              "many car"
+            ],
+            "correct_answer": "a car"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s5_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Playing with a Toy Car'?",
+            "en": "Which English sentence best describes the topic 'Playing with a Toy Car'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Playing with a Toy Car'?",
+            "en": "Which English sentence best describes the topic 'Playing with a Toy Car'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Playing with a Toy Car'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Playing with a Toy Car'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: car, toy!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: car, toy!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,918 @@
+{
+  "id": "m5_stage_4",
+  "stage_number": 4,
+  "title": {
+    "vi": "Chặng 4: Giải toán Tỉ lệ Thuận & Tỉ lệ Nghịch",
+    "en": "Stage 4: Direct & Inverse Proportion Problems"
+  },
+  "subtitle": {
+    "vi": "Phương pháp rút về đơn vị và tìm tỉ số",
+    "en": "Unitary method and ratio method for word problems"
+  },
+  "icon": "⚖️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFFFF9800",
+  "topics": [
+    {
+      "id": "m5_t4_1",
+      "title": {
+        "vi": "Giải toán Tỉ Lệ Thuận (Rút về đơn vị & Tìm tỉ số)",
+        "en": "Direct Proportion Problems"
+      },
+      "description": {
+        "vi": "Khi đại lượng này tăng (giảm) bao nhiêu lần thì đại lượng kia cũng tăng (giảm) bấy nhiêu lần",
+        "en": "When one quantity increases/decreases, the other increases/decreases by same factor"
+      },
+      "icon": "📈",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t4_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Mua 5 mét vải hết 100 000 đồng. Mua 8 mét vải như thế hết bao nhiêu tiền?",
+            "en": "5m fabric costs 100,000 VND. Cost of 8m fabric:"
+          },
+          "tts_prompt": {
+            "vi": "Mua 5 mét vải hết 100 000 đồng. Mua 8 mét vải như thế hết bao nhiêu tiền?",
+            "en": "5m fabric costs 100,000 VND. Cost of 8m fabric:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "160 000 đồng",
+              "150 000 đồng",
+              "180 000 đồng"
+            ],
+            "answer": "160 000 đồng"
+          },
+          "hint": {
+            "vi": "1m vải: 100 000 : 5 = 20 000 đồng. 8m vải: 20 000 x 8 = 160 000 đồng.",
+            "en": "1m = 20k -> 8m = 160,000 VND."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 160 000 đồng. 1m vải: 100 000 : 5 = 20 000 đồng. 8m vải: 20 000 x 8 = 160 000 đồng.",
+            "en": "Correct answer is 160 000 đồng. 1m = 20k -> 8m = 160,000 VND."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một ô tô đi 100 km tiêu thụ hết 12 lít xăng. Ô tô đó đi 50 km (giảm 2 lần) thì tiêu thụ bao nhiêu lít xăng?",
+            "en": "Car consumes 12L for 100km. Liters for 50km:"
+          },
+          "tts_prompt": {
+            "vi": "Một ô tô đi 100 km tiêu thụ hết 12 lít xăng. Ô tô đó đi 50 km (giảm 2 lần) thì tiêu thụ bao nhiêu lít xăng?",
+            "en": "Car consumes 12L for 100km. Liters for 50km:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 6,
+            "unit": "lít"
+          },
+          "hint": {
+            "vi": "50 km bằng 1/2 của 100 km nên xăng tiêu thụ là: 12 : 2 = 6 lít.",
+            "en": "12 / 2 = 6 liters."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 6 lít. 50 km bằng 1/2 của 100 km nên xăng tiêu thụ là: 12 : 2 = 6 lít.",
+            "en": "The exact result is 6 lít. 12 / 2 = 6 liters."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Hai đại lượng tỉ lệ thuận là hai đại lượng mà khi đại lượng này gấp lên bao nhiêu lần thì đại lượng kia cũng gấp lên bấy nhiêu lần.",
+            "en": "Decide whether the following statement is true or false: Hai đại lượng tỉ lệ thuận là hai đại lượng mà khi đại lượng này gấp lên bao nhiêu lần thì đại lượng kia cũng gấp lên bấy nhiêu lần."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Hai đại lượng tỉ lệ thuận là hai đại lượng mà khi đại lượng này gấp lên bao nhiêu lần thì đại lượng kia cũng gấp lên bấy nhiêu lần.",
+              "en": "Hai đại lượng tỉ lệ thuận là hai đại lượng mà khi đại lượng này gấp lên bao nhiêu lần thì đại lượng kia cũng gấp lên bấy nhiêu lần."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_1_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 9.7:",
+            "en": "Decimal fraction for 9.7:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 9.7:",
+            "en": "Decimal fraction for 9.7:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "9.7 = 97/10.",
+            "en": "9.7 = 97/10."
+          },
+          "data": {
+            "prefix_text": "9.7 = ",
+            "suffix_text": "",
+            "options": [
+              "97/100",
+              "97/10",
+              "98/10",
+              "9/10"
+            ],
+            "slot_answer": "97/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 2.2:",
+            "en": "Decimal fraction for 2.2:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 2.2:",
+            "en": "Decimal fraction for 2.2:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2.2 = 22/10.",
+            "en": "2.2 = 22/10."
+          },
+          "data": {
+            "prefix_text": "2.2 = ",
+            "suffix_text": "",
+            "options": [
+              "22/10",
+              "2/10",
+              "23/10",
+              "22/100"
+            ],
+            "slot_answer": "22/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 50 : 100 = 100.",
+            "en": "Result is 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "100",
+                "en": "100"
+              },
+              {
+                "vi": "110",
+                "en": "110"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              }
+            ],
+            "correct_answer": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t4_2",
+      "title": {
+        "vi": "Giải toán Tỉ Lệ Nghịch (Rút về đơn vị & Tìm tỉ số)",
+        "en": "Inverse Proportion Problems"
+      },
+      "description": {
+        "vi": "Khi đại lượng này tăng bao nhiêu lần thì đại lượng kia giảm bấy nhiêu lần",
+        "en": "When one quantity increases by a factor, the other decreases by that factor"
+      },
+      "icon": "📉",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t4_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10 người làm xong một công việc trong 6 ngày. Muốn làm xong công việc đó trong 3 ngày (giảm 2 lần thời gian) thì cần bao nhiêu người?",
+            "en": "10 workers finish a job in 6 days. Workers needed to finish in 3 days:"
+          },
+          "tts_prompt": {
+            "vi": "10 người làm xong một công việc trong 6 ngày. Muốn làm xong công việc đó trong 3 ngày (giảm 2 lần thời gian) thì cần bao nhiêu người?",
+            "en": "10 workers finish a job in 6 days. Workers needed to finish in 3 days:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "20 người",
+              "15 người",
+              "5 người"
+            ],
+            "answer": "20 người"
+          },
+          "hint": {
+            "vi": "Thời gian giảm 2 lần thì số người phải tăng 2 lần: 10 x 2 = 20 người.",
+            "en": "6 / 3 = 2 -> 10 * 2 = 20 workers."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 20 người. Thời gian giảm 2 lần thì số người phải tăng 2 lần: 10 x 2 = 20 người.",
+            "en": "Correct answer is 20 người. 6 / 3 = 2 -> 10 * 2 = 20 workers."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một bếp ăn dự trữ gạo đủ cho 120 người ăn trong 20 ngày. Nếu thực tế có 240 người ăn (gấp đôi số người), số gạo đó đủ ăn trong bao nhiêu ngày?",
+            "en": "Food for 120 people lasts 20 days. Days for 240 people:"
+          },
+          "tts_prompt": {
+            "vi": "Một bếp ăn dự trữ gạo đủ cho 120 người ăn trong 20 ngày. Nếu thực tế có 240 người ăn (gấp đôi số người), số gạo đó đủ ăn trong bao nhiêu ngày?",
+            "en": "Food for 120 people lasts 20 days. Days for 240 people:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 10,
+            "unit": "ngày"
+          },
+          "hint": {
+            "vi": "Số người gấp 2 lần thì số ngày ăn giảm 2 lần: 20 : 2 = 10 ngày.",
+            "en": "20 / 2 = 10 days."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 10 ngày. Số người gấp 2 lần thì số ngày ăn giảm 2 lần: 20 : 2 = 10 ngày.",
+            "en": "The exact result is 10 ngày. 20 / 2 = 10 days."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Trong bài toán tỉ lệ nghịch, tích của hai đại lượng tương ứng luôn không đổi.",
+            "en": "Decide whether the following statement is true or false: Trong bài toán tỉ lệ nghịch, tích của hai đại lượng tương ứng luôn không đổi."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Trong bài toán tỉ lệ nghịch, tích của hai đại lượng tương ứng luôn không đổi.",
+              "en": "Trong bài toán tỉ lệ nghịch, tích của hai đại lượng tương ứng luôn không đổi."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_2_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 2.3:",
+            "en": "Decimal fraction for 2.3:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 2.3:",
+            "en": "Decimal fraction for 2.3:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2.3 = 23/10.",
+            "en": "2.3 = 23/10."
+          },
+          "data": {
+            "prefix_text": "2.3 = ",
+            "suffix_text": "",
+            "options": [
+              "24/10",
+              "2/10",
+              "23/100",
+              "23/10"
+            ],
+            "slot_answer": "23/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 3.2:",
+            "en": "Decimal fraction for 3.2:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 3.2:",
+            "en": "Decimal fraction for 3.2:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "3.2 = 32/10.",
+            "en": "3.2 = 32/10."
+          },
+          "data": {
+            "prefix_text": "3.2 = ",
+            "suffix_text": "",
+            "options": [
+              "32/10",
+              "33/10",
+              "32/100",
+              "3/10"
+            ],
+            "slot_answer": "32/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 10 : 100 = 20.",
+            "en": "Result is 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "20",
+                "en": "20"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t4_3",
+      "title": {
+        "vi": "Luyện tập phân biệt Tỉ Lệ Thuận & Tỉ Lệ Nghịch",
+        "en": "Direct vs Inverse Proportion Mastery"
+      },
+      "description": {
+        "vi": "Xác định đúng mối quan hệ để chọn phép nhân hoặc chia",
+        "en": "Identify relation correctly to choose multiplication or division"
+      },
+      "icon": "⚖️",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t4_3_1",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối tình huống với loại quan hệ tỉ lệ:",
+            "en": "Match real situations with proportion type:"
+          },
+          "tts_prompt": {
+            "vi": "Nối tình huống với loại quan hệ tỉ lệ:",
+            "en": "Match real situations with proportion type:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "Số mét vải mua và Số tiền phải trả",
+                "right": "Tỉ lệ thuận (Mua nhiều trả nhiều)"
+              },
+              {
+                "id": "p2",
+                "left": "Số người cùng làm và Thời gian hoàn thành công việc",
+                "right": "Tỉ lệ nghịch (Nhiều người làm nhanh hơn)"
+              },
+              {
+                "id": "p3",
+                "left": "Vận tốc đi và Thời gian đi trên cùng quãng đường",
+                "right": "Tỉ lệ nghịch (Đi nhanh tốn ít thời gian)"
+              }
+            ]
+          },
+          "hint": {
+            "vi": "Phân biệt tỉ lệ chuẩn.",
+            "en": "Direct vs Inverse distinction."
+          },
+          "explanation": {
+            "vi": "Nối chính xác các cặp tương ứng. Phân biệt tỉ lệ chuẩn.",
+            "en": "Match corresponding pairs accurately. Direct vs Inverse distinction."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một đội 15 công nhân sửa một đoạn đường hết 8 ngày. Nếu muốn sửa xong trong 4 ngày thì cần bao nhiêu công nhân?",
+            "en": "15 workers take 8 days. Workers for 4 days:"
+          },
+          "tts_prompt": {
+            "vi": "Một đội 15 công nhân sửa một đoạn đường hết 8 ngày. Nếu muốn sửa xong trong 4 ngày thì cần bao nhiêu công nhân?",
+            "en": "15 workers take 8 days. Workers for 4 days:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 30,
+            "unit": "công nhân"
+          },
+          "hint": {
+            "vi": "Thời gian giảm 2 lần nên số công nhân tăng 2 lần: 15 x 2 = 30 công nhân.",
+            "en": "15 * 2 = 30 workers."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 30 công nhân. Thời gian giảm 2 lần nên số công nhân tăng 2 lần: 15 x 2 = 30 công nhân.",
+            "en": "The exact result is 30 công nhân. 15 * 2 = 30 workers."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_3_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 4, 5,  ... , 7",
+            "en": "Drag the correct answer into the slot:\nDãy số: 4, 5,  ... , 7"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 4, 5,  ... , 7",
+            "en": "Drag the correct answer: Dãy số: 4, 5,  ... , 7"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 4, 5,  6 , 7",
+            "en": "Dãy số: 4, 5,  6 , 7"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 4, 5, ",
+            "suffix_text": ", 7",
+            "options": [
+              "8",
+              "5",
+              "6"
+            ],
+            "slot_answer": "6"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_3_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 50% của 200 là bao nhiêu?",
+            "en": "Calculate: 50% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "50 phần trăm của 200",
+            "en": "50 percent of 200"
+          },
+          "hint": {
+            "vi": "Lấy số đó nhân với số phần trăm rồi chia 100.",
+            "en": "Multiply by percent and divide by 100."
+          },
+          "explanation": {
+            "vi": "200 x 50 : 100 = 100.",
+            "en": "200 x 50 : 100 = 100."
+          },
+          "data": {
+            "prefix_text": "50% của 200 = ",
+            "suffix_text": "",
+            "correct_number": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_3_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một xe máy đi với vận tốc 60 km/giờ trong 3 giờ. Quãng đường đi được là:",
+            "en": "A vehicle travels at 60 km/h for 3 hours. Distance traveled is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính quãng đường khi vận tốc 60 km trên giờ và thời gian 3 giờ",
+            "en": "Calculate distance with speed 60 and time 3"
+          },
+          "hint": {
+            "vi": "Quãng đường = Vận tốc x Thời gian.",
+            "en": "Distance = Speed x Time."
+          },
+          "explanation": {
+            "vi": "60 x 3 = 180 km.",
+            "en": "60 x 3 = 180 km."
+          },
+          "data": {
+            "prefix_text": "Quãng đường là: ",
+            "suffix_text": " km",
+            "correct_number": "180"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t4_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1134 @@
+{
+  "id": "v1_stage_17",
+  "stage_number": 17,
+  "title": {
+    "vi": "Tuần 17: Chủ Điểm Tôi Và Các Bạn (Phần 1)",
+    "en": "Tuần 17: Chủ Điểm Tôi Và Các Bạn (Phần 1)"
+  },
+  "subtitle": {
+    "vi": "Bài 1 & 2 - Tôi là học sinh lớp 1, Đôi tai xấu xí",
+    "en": "Bài 1 & 2 - Tôi là học sinh lớp 1, Đôi tai xấu xí"
+  },
+  "icon": "👦",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.485,
+  "required_stars": 48,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "v1_t17_1",
+      "title": {
+        "vi": "Tập đọc: Tôi là học sinh lớp 1",
+        "en": "Tập đọc: Tôi là học sinh lớp 1"
+      },
+      "description": {
+        "vi": "Đọc hiểu bài giới thiệu bản thân và trường lớp",
+        "en": "Đọc hiểu bài giới thiệu bản thân và trường lớp"
+      },
+      "icon": "🏫",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t17_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong bài đọc 'Tôi là học sinh lớp 1', bạn Nam tự hào khoác lên mình bộ trang phục gì khi đến trường?",
+            "en": "Trong bài đọc 'Tôi là học sinh lớp 1', bạn Nam tự hào khoác lên mình bộ trang phục gì khi đến trường?"
+          },
+          "tts_prompt": {
+            "vi": "Trong bài đọc 'Tôi là học sinh lớp 1', bạn Nam tự hào khoác lên mình bộ trang phục gì khi đến trường?",
+            "en": "Trong bài đọc 'Tôi là học sinh lớp 1', bạn Nam tự hào khoác lên mình bộ trang phục gì khi đến trường?"
+          },
+          "hint": {
+            "vi": "Chiếc áo trắng và quần tối màu tinh tươm của học sinh lớp 1.",
+            "en": "Chiếc áo trắng và quần tối màu tinh tươm của học sinh lớp 1."
+          },
+          "explanation": {
+            "vi": "Nam tự hào mặc bộ đồng phục học sinh trường Tiểu học Lê Quý Đôn.",
+            "en": "Nam tự hào mặc bộ đồng phục học sinh trường Tiểu học Lê Quý Đôn."
+          },
+          "data": {
+            "options": [
+              "đồng phục học sinh",
+              "bộ đồ bơi",
+              "áo mưa",
+              "trang phục hoá trang"
+            ],
+            "correct_answer": "đồng phục học sinh"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_toi_la_hoc_sinh_lop_1.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'học sinh', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'học sinh', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'học sinh', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'học sinh', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'học sinh'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'học sinh'."
+          },
+          "explanation": {
+            "vi": "Trong 'học sinh', âm 'h' là âm đầu đứng trước.",
+            "en": "Trong 'học sinh', âm 'h' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "h",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "h"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "học sinh",
+                  "en": "học sinh"
+                },
+                "right": {
+                  "vi": "Tiếng học sinh",
+                  "en": "Tiếng học sinh"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "lớp 1",
+                  "en": "lớp 1"
+                },
+                "right": {
+                  "vi": "Tiếng lớp 1",
+                  "en": "Tiếng lớp 1"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "đồng phục",
+                  "en": "đồng phục"
+                },
+                "right": {
+                  "vi": "Tiếng đồng phục",
+                  "en": "Tiếng đồng phục"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'lớp 1' xuất hiện trong bài học về 'tôi'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'lớp 1' xuất hiện trong bài học về 'tôi'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'tôi'.",
+            "en": "Nhớ lại nội dung bài học về 'tôi'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'lớp 1' là trọng tâm trong bài học về 'tôi'.",
+            "en": "Đúng! Nội dung 'lớp 1' là trọng tâm trong bài học về 'tôi'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'lớp 1' xuất hiện trong bài học về 'tôi'.",
+              "en": "Từ hoặc câu liên quan đến 'lớp 1' xuất hiện trong bài học về 'tôi'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'học sinh'.",
+            "en": "Chọn từ đang học trong bài: 'học sinh'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'học sinh'.",
+            "en": "Từ chính xác là 'học sinh'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "học sinh",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "học sinh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'họcsinh':",
+            "en": "Ghép các chữ cái để tạo thành từ 'họcsinh':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'họcsinh':",
+            "en": "Ghép các chữ cái để tạo thành từ 'họcsinh':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'họcsinh'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'họcsinh'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'họcsinh'.",
+            "en": "Ghép các chữ cái tạo thành 'họcsinh'."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "n",
+              "i",
+              "s",
+              "c",
+              "ọ",
+              "h"
+            ],
+            "target_word": "họcsinh",
+            "target_sequence": [
+              "h",
+              "ọ",
+              "c",
+              "s",
+              "i",
+              "n",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'học sinh' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'học sinh' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'học sinh' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'học sinh' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'học sinh'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'học sinh'."
+          },
+          "explanation": {
+            "vi": "'học sinh lớp 1' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'học sinh lớp 1' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "lớp 1",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "lớp 1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' thuộc chủ đề 'Tập đọc: Tôi là học sinh lớp 1'.",
+            "en": "Câu 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' thuộc chủ đề 'Tập đọc: Tôi là học sinh lớp 1'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Tôi là học sinh lớp 1",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Tôi là học sinh lớp 1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Tên trường và tên người luôn viết hoa chữ cái đầu.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Tên trường và tên người luôn viết hoa chữ cái đầu."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Tên trường và tên người luôn viết hoa chữ cái đầu.",
+            "en": "Đúng! Tên trường và tên người luôn viết hoa chữ cái đầu."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tên trường và tên người luôn viết hoa chữ cái đầu.",
+              "en": "Tên trường và tên người luôn viết hoa chữ cái đầu."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.."
+          },
+          "explanation": {
+            "vi": "Câu 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' có đúng 14 tiếng.",
+            "en": "Câu 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' có đúng 14 tiếng."
+          },
+          "data": {
+            "correct_number": "14",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'lớp 1' mang dấu thanh gì?",
+            "en": "Tiếng 'lớp 1' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'lớp 1' mang dấu thanh gì?",
+            "en": "Tiếng 'lớp 1' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'lớp 1' mang dấu thanh chính xác.",
+            "en": "Tiếng 'lớp 1' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' Tôi ... là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.' Tôi ... là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn..",
+            "en": "Nhớ lại câu mẫu: Tôi tên là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'tên'.",
+            "en": "Từ chính xác là 'tên'."
+          },
+          "data": {
+            "prefix_text": "Tôi ",
+            "suffix_text": " là Nam, học sinh lớp 1A trường Tiểu học Lê Quý Đôn.",
+            "options": [
+              "tên",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "tên"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Đ",
+                  "en": "Đ"
+                },
+                "right": {
+                  "vi": "đ",
+                  "en": "đ"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'học sinh'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'học sinh'."
+          },
+          "explanation": {
+            "vi": "'học sinh' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'học sinh' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "học sinh",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "học sinh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'tôi'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'tôi'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'tôi'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'tôi'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'tôi' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'tôi' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'học sinh'.",
+            "en": "Tiếng mẫu của bài là 'học sinh'."
+          },
+          "data": {
+            "options": [
+              "học sinh",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "học sinh"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t17_2",
+      "title": {
+        "vi": "Tập đọc: Đôi tai xấu xí & Luyện từ câu",
+        "en": "Tập đọc: Đôi tai xấu xí & Luyện từ câu"
+      },
+      "description": {
+        "vi": "Câu chuyện thỏ con tự tin về đôi tai dài của mình",
+        "en": "Câu chuyện thỏ con tự tin về đôi tai dài của mình"
+      },
+      "icon": "🐰",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t17_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong câu chuyện, nhân vật bạn nhỏ nào ban đầu tự ti nhưng sau đó rất hãnh diện về đôi tai dài?",
+            "en": "Trong câu chuyện, nhân vật bạn nhỏ nào ban đầu tự ti nhưng sau đó rất hãnh diện về đôi tai dài?"
+          },
+          "tts_prompt": {
+            "vi": "Trong câu chuyện, nhân vật bạn nhỏ nào ban đầu tự ti nhưng sau đó rất hãnh diện về đôi tai dài?",
+            "en": "Trong câu chuyện, nhân vật bạn nhỏ nào ban đầu tự ti nhưng sau đó rất hãnh diện về đôi tai dài?"
+          },
+          "hint": {
+            "vi": "Chú thỏ con có đôi tai dài dựng đứng tinh tường.",
+            "en": "Chú thỏ con có đôi tai dài dựng đứng tinh tường."
+          },
+          "explanation": {
+            "vi": "Thỏ con nhận ra đôi tai dài giúp chú nghe được mọi âm thanh từ rất xa.",
+            "en": "Thỏ con nhận ra đôi tai dài giúp chú nghe được mọi âm thanh từ rất xa."
+          },
+          "data": {
+            "options": [
+              "thỏ con",
+              "sóc nâu",
+              "cún con",
+              "gấu bông"
+            ],
+            "correct_answer": "thỏ con"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_doi_tai_xau_xi.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'thỏ con', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'thỏ con', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'thỏ con', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'thỏ con', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'thỏ con'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'thỏ con'."
+          },
+          "explanation": {
+            "vi": "Trong 'thỏ con', âm 't' là âm đầu đứng trước.",
+            "en": "Trong 'thỏ con', âm 't' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "t",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "t"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "thỏ con",
+                  "en": "thỏ con"
+                },
+                "right": {
+                  "vi": "Tiếng thỏ con",
+                  "en": "Tiếng thỏ con"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "đôi tai",
+                  "en": "đôi tai"
+                },
+                "right": {
+                  "vi": "Tiếng đôi tai",
+                  "en": "Tiếng đôi tai"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "xấu xí",
+                  "en": "xấu xí"
+                },
+                "right": {
+                  "vi": "Tiếng xấu xí",
+                  "en": "Tiếng xấu xí"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'đôi tai' xuất hiện trong bài học về 'tai'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'đôi tai' xuất hiện trong bài học về 'tai'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'tai'.",
+            "en": "Nhớ lại nội dung bài học về 'tai'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'đôi tai' là trọng tâm trong bài học về 'tai'.",
+            "en": "Đúng! Nội dung 'đôi tai' là trọng tâm trong bài học về 'tai'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'đôi tai' xuất hiện trong bài học về 'tai'.",
+              "en": "Từ hoặc câu liên quan đến 'đôi tai' xuất hiện trong bài học về 'tai'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'thỏ con'.",
+            "en": "Chọn từ đang học trong bài: 'thỏ con'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'thỏ con'.",
+            "en": "Từ chính xác là 'thỏ con'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "thỏ con",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "thỏ con"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'thỏcon':",
+            "en": "Ghép các chữ cái để tạo thành từ 'thỏcon':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'thỏcon':",
+            "en": "Ghép các chữ cái để tạo thành từ 'thỏcon':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'thỏcon'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'thỏcon'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'thỏcon'.",
+            "en": "Ghép các chữ cái tạo thành 'thỏcon'."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "o",
+              "c",
+              "ỏ",
+              "h",
+              "t"
+            ],
+            "target_word": "thỏcon",
+            "target_sequence": [
+              "t",
+              "h",
+              "ỏ",
+              "c",
+              "o",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'thỏ con' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'thỏ con' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'thỏ con' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'thỏ con' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'thỏ con'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'thỏ con'."
+          },
+          "explanation": {
+            "vi": "'thỏ con đôi tai' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'thỏ con đôi tai' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "đôi tai",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "đôi tai"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' thuộc chủ đề 'Tập đọc: Đôi tai xấu xí & Luyện từ câu'.",
+            "en": "Câu 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' thuộc chủ đề 'Tập đọc: Đôi tai xấu xí & Luyện từ câu'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Đôi tai xấu xí & Luyện từ câu",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Đôi tai xấu xí & Luyện từ câu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Mỗi bộ phận trên cơ thể đều có ích lợi riêng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Mỗi bộ phận trên cơ thể đều có ích lợi riêng."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Mỗi bộ phận trên cơ thể đều có ích lợi riêng.",
+            "en": "Đúng! Mỗi bộ phận trên cơ thể đều có ích lợi riêng."
+          },
+          "data": {
+            "statement": {
+              "vi": "Mỗi bộ phận trên cơ thể đều có ích lợi riêng.",
+              "en": "Mỗi bộ phận trên cơ thể đều có ích lợi riêng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.."
+          },
+          "explanation": {
+            "vi": "Câu 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' có đúng 12 tiếng.",
+            "en": "Câu 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'đôi tai' mang dấu thanh gì?",
+            "en": "Tiếng 'đôi tai' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'đôi tai' mang dấu thanh gì?",
+            "en": "Tiếng 'đôi tai' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'đôi tai' mang dấu thanh chính xác.",
+            "en": "Tiếng 'đôi tai' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' Đôi ... dài giúp thỏ nghe được âm thanh từ rất xa.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.' Đôi ... dài giúp thỏ nghe được âm thanh từ rất xa."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa..",
+            "en": "Nhớ lại câu mẫu: Đôi tai dài giúp thỏ nghe được âm thanh từ rất xa.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'tai'.",
+            "en": "Từ chính xác là 'tai'."
+          },
+          "data": {
+            "prefix_text": "Đôi ",
+            "suffix_text": " dài giúp thỏ nghe được âm thanh từ rất xa.",
+            "options": [
+              "tai",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "tai"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "X",
+                  "en": "X"
+                },
+                "right": {
+                  "vi": "x",
+                  "en": "x"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'thỏ con'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'thỏ con'."
+          },
+          "explanation": {
+            "vi": "'thỏ con' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'thỏ con' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "thỏ con",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "thỏ con"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t17_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'tai'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'tai'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'tai'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'tai'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'tai' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'tai' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'thỏ con'.",
+            "en": "Tiếng mẫu của bài là 'thỏ con'."
+          },
+          "data": {
+            "options": [
+              "thỏ con",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "thỏ con"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

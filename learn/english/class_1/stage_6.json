@@ -1,0 +1,1124 @@
+{
+  "id": "e1_stage_6",
+  "stage_number": 6,
+  "title": {
+    "vi": "Week 6: Unit 3 - Street Market",
+    "en": "Week 6: Unit 3 - Street Market"
+  },
+  "subtitle": {
+    "vi": "Letter Aa - apple, bag, can, hat",
+    "en": "Letter Aa - apple, bag, can, hat"
+  },
+  "icon": "🍎",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.805,
+  "required_stars": 15,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "e1_s6_1",
+      "title": {
+        "vi": "Unit 3: Letter Aa Phonics",
+        "en": "Unit 3: Letter Aa Phonics"
+      },
+      "description": {
+        "vi": "Phonics sound /æ/ with apple and bag",
+        "en": "Phonics sound /æ/ with apple and bag"
+      },
+      "icon": "🍏",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s6_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the fresh red fruit in the market stall. What fruit is it?",
+            "en": "Look at the fresh red fruit in the market stall. What fruit is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the fresh red fruit in the market stall. What fruit is it?",
+            "en": "Look at the fresh red fruit in the market stall. What fruit is it?"
+          },
+          "hint": {
+            "vi": "It's round, red, and juicy.",
+            "en": "It's round, red, and juicy."
+          },
+          "explanation": {
+            "vi": "It's a fresh red apple.",
+            "en": "It's a fresh red apple."
+          },
+          "data": {
+            "options": [
+              "a red apple",
+              "a yellow banana",
+              "a green coconut",
+              "an orange carrot"
+            ],
+            "correct_answer": "a red apple"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u3_letter_a.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s6_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'apple'?",
+            "en": "What is the first letter of the word 'apple'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'apple'?",
+            "en": "What is the first letter of the word 'apple'?"
+          },
+          "hint": {
+            "vi": "The word 'apple' starts with the letter A.",
+            "en": "The word 'apple' starts with the letter A."
+          },
+          "explanation": {
+            "vi": "Correct! 'apple' begins with the letter 'A'.",
+            "en": "Correct! 'apple' begins with the letter 'A'."
+          },
+          "data": {
+            "options": [
+              "Letter A",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter A"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "apple",
+                  "en": "apple"
+                },
+                "right": {
+                  "vi": "Nghĩa của apple",
+                  "en": "Nghĩa của apple"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bag",
+                  "en": "bag"
+                },
+                "right": {
+                  "vi": "Nghĩa của bag",
+                  "en": "Nghĩa của bag"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "hat",
+                  "en": "hat"
+                },
+                "right": {
+                  "vi": "Nghĩa của hat",
+                  "en": "Nghĩa của hat"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? An apple in the bag.",
+            "en": "Is this English sentence correct for Grade 1? An apple in the bag."
+          },
+          "hint": {
+            "vi": "Remember the pattern: An apple in the bag.",
+            "en": "Remember the pattern: An apple in the bag."
+          },
+          "explanation": {
+            "vi": "Yes! 'An apple in the bag.' is a correct English sentence.",
+            "en": "Yes! 'An apple in the bag.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "An apple in the bag.",
+              "en": "An apple in the bag."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: An apple in the ....",
+            "en": "Drag the correct word to complete the sentence: An apple in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'bag'.",
+            "en": "Choose the correct word: 'bag'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'An apple in the bag.'.",
+            "en": "The complete sentence is: 'An apple in the bag.'."
+          },
+          "data": {
+            "prefix_text": "An apple in the ",
+            "suffix_text": ".",
+            "options": [
+              "bag",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "bag"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'apple':",
+            "en": "Spell the English word 'apple':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'apple':",
+            "en": "Spell the English word 'apple':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'apple'.",
+            "en": "Tap the letters in order to spell 'apple'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'apple' correctly.",
+            "en": "Well done! You spelled 'apple' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "l",
+              "p",
+              "p",
+              "a"
+            ],
+            "target_word": "apple",
+            "target_sequence": [
+              "a",
+              "p",
+              "p",
+              "l",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Một quả táo ở trong chiếc túi.' in English?",
+            "en": "How do you say 'Một quả táo ở trong chiếc túi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Một quả táo ở trong chiếc túi.' in English?",
+            "en": "How do you say 'Một quả táo ở trong chiếc túi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Một quả táo ở trong chiếc túi.",
+            "en": "Choose the English sentence that means: Một quả táo ở trong chiếc túi."
+          },
+          "explanation": {
+            "vi": "'An apple in the bag.' means 'Một quả táo ở trong chiếc túi.'.",
+            "en": "'An apple in the bag.' means 'Một quả táo ở trong chiếc túi.'."
+          },
+          "data": {
+            "options": [
+              "An apple in the bag.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "An apple in the bag."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 3: Letter Aa Phonics'?",
+            "en": "Which of the following is a word from Unit 'Unit 3: Letter Aa Phonics'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 3: Letter Aa Phonics'?",
+            "en": "Which of the following is a word from Unit 'Unit 3: Letter Aa Phonics'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 3: Letter Aa Phonics.",
+            "en": "Remember the words in topic: Unit 3: Letter Aa Phonics."
+          },
+          "explanation": {
+            "vi": "'apple' is a key vocabulary word in this topic.",
+            "en": "'apple' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "apple",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "apple"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'bag' start with the sound /a/?",
+            "en": "Does the word 'bag' start with the sound /a/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'bag' start with the sound /a/? The word 'bag' starts with letter 'A'.",
+            "en": "Does the word 'bag' start with the sound /a/? The word 'bag' starts with letter 'A'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'bag'.",
+            "en": "Listen to the first sound of 'bag'."
+          },
+          "explanation": {
+            "vi": "Yes! 'bag' starts with the sound /a/.",
+            "en": "Yes! 'bag' starts with the sound /a/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'bag' starts with letter 'A'.",
+              "en": "The word 'bag' starts with letter 'A'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'apple'?",
+            "en": "How many letters are there in the word 'apple'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'apple'?",
+            "en": "How many letters are there in the word 'apple'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'apple': 1, 2, 3...",
+            "en": "Count the letters in 'apple': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'apple' has exactly 5 letters.",
+            "en": "The word 'apple' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'apple':",
+            "en": "Choose the correct article before 'apple':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'apple':",
+            "en": "Choose the correct article before 'apple':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an apple'.",
+            "en": "Correct! We say 'an apple'."
+          },
+          "data": {
+            "options": [
+              "an apple",
+              "a apple",
+              "two apple",
+              "many apple"
+            ],
+            "correct_answer": "an apple"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 3: Letter Aa Phonics'?",
+            "en": "Which English sentence best describes the topic 'Unit 3: Letter Aa Phonics'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 3: Letter Aa Phonics'?",
+            "en": "Which English sentence best describes the topic 'Unit 3: Letter Aa Phonics'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unit 3: Letter Aa Phonics'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unit 3: Letter Aa Phonics'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: apple, bag!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: apple, bag!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s6_2",
+      "title": {
+        "vi": "Unit 3: Shopping Bag & Hat",
+        "en": "Unit 3: Shopping Bag & Hat"
+      },
+      "description": {
+        "vi": "Wearing a pretty hat at the market",
+        "en": "Wearing a pretty hat at the market"
+      },
+      "icon": "👒",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s6_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the girl carrying a shopping bag and wearing a hat in the sunshine. What is on her head?",
+            "en": "Look at the girl carrying a shopping bag and wearing a hat in the sunshine. What is on her head?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the girl carrying a shopping bag and wearing a hat in the sunshine. What is on her head?",
+            "en": "Look at the girl carrying a shopping bag and wearing a hat in the sunshine. What is on her head?"
+          },
+          "hint": {
+            "vi": "It protects her head from the bright sun.",
+            "en": "It protects her head from the bright sun."
+          },
+          "explanation": {
+            "vi": "She is wearing a pretty sun hat.",
+            "en": "She is wearing a pretty sun hat."
+          },
+          "data": {
+            "options": [
+              "a pretty sun hat",
+              "a metal helmet",
+              "a winter scarf",
+              "a pair of glasses"
+            ],
+            "correct_answer": "a pretty sun hat"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u3_hat_bag.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s6_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'hat'?",
+            "en": "What is the first letter of the word 'hat'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'hat'?",
+            "en": "What is the first letter of the word 'hat'?"
+          },
+          "hint": {
+            "vi": "The word 'hat' starts with the letter H.",
+            "en": "The word 'hat' starts with the letter H."
+          },
+          "explanation": {
+            "vi": "Correct! 'hat' begins with the letter 'H'.",
+            "en": "Correct! 'hat' begins with the letter 'H'."
+          },
+          "data": {
+            "options": [
+              "Letter H",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter H"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "hat",
+                  "en": "hat"
+                },
+                "right": {
+                  "vi": "Nghĩa của hat",
+                  "en": "Nghĩa của hat"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bag",
+                  "en": "bag"
+                },
+                "right": {
+                  "vi": "Nghĩa của bag",
+                  "en": "Nghĩa của bag"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "market",
+                  "en": "market"
+                },
+                "right": {
+                  "vi": "Nghĩa của market",
+                  "en": "Nghĩa của market"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? She has a yellow hat.",
+            "en": "Is this English sentence correct for Grade 1? She has a yellow hat."
+          },
+          "hint": {
+            "vi": "Remember the pattern: She has a yellow hat.",
+            "en": "Remember the pattern: She has a yellow hat."
+          },
+          "explanation": {
+            "vi": "Yes! 'She has a yellow hat.' is a correct English sentence.",
+            "en": "Yes! 'She has a yellow hat.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "She has a yellow hat.",
+              "en": "She has a yellow hat."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: She has a yellow ....",
+            "en": "Drag the correct word to complete the sentence: She has a yellow ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'hat'.",
+            "en": "Choose the correct word: 'hat'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'She has a yellow hat.'.",
+            "en": "The complete sentence is: 'She has a yellow hat.'."
+          },
+          "data": {
+            "prefix_text": "She has a yellow ",
+            "suffix_text": ".",
+            "options": [
+              "hat",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "hat"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'hat':",
+            "en": "Spell the English word 'hat':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'hat':",
+            "en": "Spell the English word 'hat':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'hat'.",
+            "en": "Tap the letters in order to spell 'hat'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'hat' correctly.",
+            "en": "Well done! You spelled 'hat' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "a",
+              "h"
+            ],
+            "target_word": "hat",
+            "target_sequence": [
+              "h",
+              "a",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cô ấy đội một chiếc mũ màu vàng.' in English?",
+            "en": "How do you say 'Cô ấy đội một chiếc mũ màu vàng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cô ấy đội một chiếc mũ màu vàng.' in English?",
+            "en": "How do you say 'Cô ấy đội một chiếc mũ màu vàng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cô ấy đội một chiếc mũ màu vàng.",
+            "en": "Choose the English sentence that means: Cô ấy đội một chiếc mũ màu vàng."
+          },
+          "explanation": {
+            "vi": "'She has a yellow hat.' means 'Cô ấy đội một chiếc mũ màu vàng.'.",
+            "en": "'She has a yellow hat.' means 'Cô ấy đội một chiếc mũ màu vàng.'."
+          },
+          "data": {
+            "options": [
+              "She has a yellow hat.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "She has a yellow hat."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 3: Shopping Bag & Hat'?",
+            "en": "Which of the following is a word from Unit 'Unit 3: Shopping Bag & Hat'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 3: Shopping Bag & Hat'?",
+            "en": "Which of the following is a word from Unit 'Unit 3: Shopping Bag & Hat'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 3: Shopping Bag & Hat.",
+            "en": "Remember the words in topic: Unit 3: Shopping Bag & Hat."
+          },
+          "explanation": {
+            "vi": "'hat' is a key vocabulary word in this topic.",
+            "en": "'hat' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "hat",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "hat"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'bag' start with the sound /h/?",
+            "en": "Does the word 'bag' start with the sound /h/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'bag' start with the sound /h/? The word 'bag' starts with letter 'H'.",
+            "en": "Does the word 'bag' start with the sound /h/? The word 'bag' starts with letter 'H'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'bag'.",
+            "en": "Listen to the first sound of 'bag'."
+          },
+          "explanation": {
+            "vi": "Yes! 'bag' starts with the sound /h/.",
+            "en": "Yes! 'bag' starts with the sound /h/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'bag' starts with letter 'H'.",
+              "en": "The word 'bag' starts with letter 'H'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'hat'?",
+            "en": "How many letters are there in the word 'hat'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'hat'?",
+            "en": "How many letters are there in the word 'hat'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'hat': 1, 2, 3...",
+            "en": "Count the letters in 'hat': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'hat' has exactly 3 letters.",
+            "en": "The word 'hat' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'hat':",
+            "en": "Choose the correct article before 'hat':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'hat':",
+            "en": "Choose the correct article before 'hat':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a hat'.",
+            "en": "Correct! We say 'a hat'."
+          },
+          "data": {
+            "options": [
+              "a hat",
+              "an hat",
+              "two hat",
+              "many hat"
+            ],
+            "correct_answer": "a hat"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s6_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 3: Shopping Bag & Hat'?",
+            "en": "Which English sentence best describes the topic 'Unit 3: Shopping Bag & Hat'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 3: Shopping Bag & Hat'?",
+            "en": "Which English sentence best describes the topic 'Unit 3: Shopping Bag & Hat'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unit 3: Shopping Bag & Hat'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unit 3: Shopping Bag & Hat'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: hat, bag!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: hat, bag!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

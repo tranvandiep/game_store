@@ -1,0 +1,918 @@
+{
+  "id": "m2_stage_18",
+  "stage_number": 18,
+  "title": {
+    "vi": "Tuần 18: Bảng Nhân 2 & Bảng Nhân 5",
+    "en": "Week 18: Multiplication Tables of 2 and 5"
+  },
+  "subtitle": {
+    "vi": "Bài 39 & 40 - Học thuộc bảng nhân 2 và 5",
+    "en": "Lesson 39 & 40 - Master 2 and 5 times tables"
+  },
+  "icon": "✌️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.474,
+  "required_stars": 51,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "m2_t18_1",
+      "title": {
+        "vi": "Bảng nhân 2 (Học thuộc lòng)",
+        "en": "Multiplication Table of 2"
+      },
+      "description": {
+        "vi": "2x1=2, 2x2=4, ..., 2x10=20",
+        "en": "2x1=2 to 2x10=20"
+      },
+      "icon": "✌️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m2_t18_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 2 x 6 = ?",
+            "en": "Calculate: 2 x 6 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 2 x 6 = ?",
+            "en": "Calculate: 2 x 6 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "2 x 6 = 12.",
+            "en": "2 x 6 = 12."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 2 x 9 = ?",
+            "en": "Calculate: 2 x 9 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 2 x 9 = ?",
+            "en": "Calculate: 2 x 9 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "2 x 9 = 18.",
+            "en": "2 x 9 = 18."
+          },
+          "data": {
+            "correct_number": "18",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép nhân 2 với kết quả đúng:",
+            "en": "Match 2x equations with products:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép nhân 2 với kết quả đúng:",
+            "en": "Match 2x equations with products:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Ghi nhớ bảng nhân 2.",
+            "en": "Master 2 times table."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 4",
+                  "en": "2 x 4"
+                },
+                "right": {
+                  "vi": "8",
+                  "en": "8"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 7",
+                  "en": "2 x 7"
+                },
+                "right": {
+                  "vi": "14",
+                  "en": "14"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 8",
+                  "en": "2 x 8"
+                },
+                "right": {
+                  "vi": "16",
+                  "en": "16"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 9 = ...",
+            "en": "Calculate:\n5 x 9 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n5 x 9 = ...",
+            "en": "Calculate:\n5 x 9 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "5 x 9 = 45.",
+            "en": "5 x 9 = 45."
+          },
+          "data": {
+            "prefix_text": "5 x 9 = ",
+            "suffix_text": "",
+            "options": [
+              "50",
+              "47",
+              "40",
+              "45"
+            ],
+            "slot_answer": "45"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_1_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 20 + 5 = ?",
+            "en": "Calculate: 20 + 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 20 + 5 = ?",
+            "en": "Calculate: 20 + 5 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "20 + 5 = 25.",
+            "en": "20 + 5 = 25."
+          },
+          "data": {
+            "prefix_text": "20 + 5 = ",
+            "suffix_text": "",
+            "correct_number": "25"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 92 gồm 9 chục và 2 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 92 has 9 tens and 2 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 92 gồm 9 chục và 2 đơn vị.",
+              "en": "Number 92 has 9 tens and 2 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 1",
+                  "en": "2 x 1"
+                },
+                "right": {
+                  "vi": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 2",
+                  "en": "2 x 2"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 3",
+                  "en": "2 x 3"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t18_2",
+      "title": {
+        "vi": "Bảng nhân 5 (Học thuộc lòng)",
+        "en": "Multiplication Table of 5"
+      },
+      "description": {
+        "vi": "5x1=5, 5x2=10, ..., 5x10=50",
+        "en": "5x1=5 to 5x10=50"
+      },
+      "icon": "🖐️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m2_t18_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 5 x 4 = ?",
+            "en": "Calculate: 5 x 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 5 x 4 = ?",
+            "en": "Calculate: 5 x 4 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 x 4 = 20.",
+            "en": "5 x 4 = 20."
+          },
+          "data": {
+            "correct_number": "20",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 5 x 7 = ?",
+            "en": "Calculate: 5 x 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 5 x 7 = ?",
+            "en": "Calculate: 5 x 7 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 x 7 = 35.",
+            "en": "5 x 7 = 35."
+          },
+          "data": {
+            "correct_number": "35",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 5 x 9 = ?",
+            "en": "Calculate: 5 x 9 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 5 x 9 = ?",
+            "en": "Calculate: 5 x 9 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "5 x 9 = 45.",
+            "en": "5 x 9 = 45."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "45",
+                "en": "45"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              }
+            ],
+            "correct_answer": "45"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_2_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 5 × 1 = ?",
+            "en": "Calculate: 5 × 1 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 5 × 1 = ?",
+            "en": "Calculate: 5 × 1 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 5 × 1.",
+            "en": "Calculate 5 × 1."
+          },
+          "explanation": {
+            "vi": "5 × 1 = 5",
+            "en": "5 × 1 = 5"
+          },
+          "data": {
+            "options": [
+              "7",
+              "6",
+              "4",
+              "5"
+            ],
+            "correct_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 2 × 4 = ?",
+            "en": "Calculate: 2 × 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 2 × 4 = ?",
+            "en": "Calculate: 2 × 4 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 2 × 4.",
+            "en": "Calculate 2 × 4."
+          },
+          "explanation": {
+            "vi": "2 × 4 = 8",
+            "en": "2 × 4 = 8"
+          },
+          "data": {
+            "options": [
+              "10",
+              "7",
+              "8",
+              "9"
+            ],
+            "correct_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 30 gồm 3 chục và 0 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 30 has 3 tens and 0 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 30 gồm 3 chục và 0 đơn vị.",
+              "en": "Number 30 has 3 tens and 0 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t18_3",
+      "title": {
+        "vi": "Luyện tính nhẩm bảng nhân 2 và 5",
+        "en": "2 & 5 Times Tables Practice"
+      },
+      "description": {
+        "vi": "Ứng dụng bảng nhân vào đếm chân gà, ngón tay",
+        "en": "Apply multiplication to chicken legs & fingers"
+      },
+      "icon": "⚡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m2_t18_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một con gà có 2 cái chân. Hỏi 8 con gà có tất cả bao nhiêu cái chân?",
+            "en": "A chicken has 2 legs. How many legs do 8 chickens have?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một con gà có 2 cái chân. Hỏi 8 con gà có tất cả bao nhiêu cái chân?",
+            "en": "A chicken has 2 legs. How many legs do 8 chickens have?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "2 x 8 = 16 cái chân.",
+            "en": "2 x 8 = 16 legs in all."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "14 chân",
+                "en": "14 chân"
+              },
+              {
+                "vi": "16 chân",
+                "en": "16 chân"
+              },
+              {
+                "vi": "18 chân",
+                "en": "18 chân"
+              }
+            ],
+            "correct_answer": "16 chân"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Mỗi bàn tay có 5 ngón tay. Hỏi 6 bàn tay có tất cả bao nhiêu ngón tay?",
+            "en": "Each hand has 5 fingers. How many fingers on 6 hands?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Mỗi bàn tay có 5 ngón tay. Hỏi 6 bàn tay có tất cả bao nhiêu ngón tay?",
+            "en": "Each hand has 5 fingers. How many fingers on 6 hands?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 x 6 = 30 ngón tay.",
+            "en": "5 x 6 = 30 fingers."
+          },
+          "data": {
+            "correct_number": "30",
+            "unit": "ngón"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_3_3",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp tích từ bé đến lớn: 2x5, 5x3, 2x9",
+            "en": "Sort products ascending: 2x5 (10), 5x3 (15), 2x9 (18)"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp tích từ bé đến lớn: 2x5, 5x3, 2x9",
+            "en": "Sort products ascending: 2x5 (10), 5x3 (15), 2x9 (18)"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct sequence."
+          },
+          "explanation": {
+            "vi": "Thứ tự: 10, 15, 18.",
+            "en": "Order: 10, 15, 18."
+          },
+          "data": {
+            "items": [
+              "10",
+              "15",
+              "18"
+            ],
+            "correct_order": [
+              "10",
+              "15",
+              "18"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Luyện tính nhẩm bảng nhân 2 và 5': Một con gà có 2 cái chân. Hỏi 8 con gà có tất cả bao nhiêu cái chân?",
+            "en": "Practice '2 & 5 Times Tables Practice': A chicken has 2 legs. How many legs do 8 chickens have?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một con gà có 2 cái chân. Hỏi 8 con gà có tất cả bao nhiêu cái chân?",
+            "en": "A chicken has 2 legs. How many legs do 8 chickens have?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "2 x 8 = 16 cái chân.",
+            "en": "2 x 8 = 16 legs in all."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "16 chân",
+                "en": "16 chân"
+              },
+              {
+                "vi": "18 chân",
+                "en": "18 chân"
+              },
+              {
+                "vi": "14 chân",
+                "en": "14 chân"
+              }
+            ],
+            "correct_answer": "16 chân"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_3_6",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 4, 6, 7, 8",
+            "en": "Correct order: 4, 6, 7, 8"
+          },
+          "data": {
+            "items": [
+              "7",
+              "4",
+              "6",
+              "8"
+            ],
+            "correct_order": [
+              "4",
+              "6",
+              "7",
+              "8"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_3_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 8, 7, 4, 3",
+            "en": "Correct order: 8, 7, 4, 3"
+          },
+          "data": {
+            "items": [
+              "7",
+              "4",
+              "8",
+              "3"
+            ],
+            "correct_order": [
+              "8",
+              "7",
+              "4",
+              "3"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_3_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 49 + 7 = ?",
+            "en": "Calculate: 49 + 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 49 + 7 = ?",
+            "en": "Calculate: 49 + 7 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "49 + 7 = 56.",
+            "en": "49 + 7 = 56."
+          },
+          "data": {
+            "prefix_text": "49 + 7 = ",
+            "suffix_text": "",
+            "correct_number": "56"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 43 gồm 4 chục và 3 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 43 has 4 tens and 3 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 43 gồm 4 chục và 3 đơn vị.",
+              "en": "Number 43 has 4 tens and 3 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t18_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

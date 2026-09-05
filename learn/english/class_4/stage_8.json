@@ -1,0 +1,1132 @@
+{
+  "id": "e4_stage_8",
+  "stage_number": 8,
+  "title": {
+    "vi": "Week 8: Unit 6 - School Facilities",
+    "en": "Week 8: Unit 6 - School Facilities"
+  },
+  "subtitle": {
+    "vi": "Where's your school? In the city / in the village / What's it like? It's big and beautiful",
+    "en": "Where's your school? In the city / in the village / What's it like? It's big and beautiful"
+  },
+  "icon": "🏫",
+  "banner_image": null,
+  "x_percent": 0.8,
+  "y_percent": 0.747,
+  "required_stars": 21,
+  "theme_color": "0xFFEAB308",
+  "topics": [
+    {
+      "id": "e4_s8_1",
+      "title": {
+        "vi": "Unit 6: Where's Your School?",
+        "en": "Unit 6: Where's Your School?"
+      },
+      "description": {
+        "vi": "Where's your school? - It's in the city / in the mountains / in the village",
+        "en": "Where's your school? - It's in the city / in the mountains / in the village"
+      },
+      "icon": "🏞️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s8_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the beautiful primary school surrounded by green hills and trees. Where is the school located?",
+            "en": "Look at the beautiful primary school surrounded by green hills and trees. Where is the school located?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the beautiful primary school surrounded by green hills and trees. Where is the school located?",
+            "en": "Look at the beautiful primary school surrounded by green hills and trees. Where is the school located?"
+          },
+          "hint": {
+            "vi": "Located in a rural countryside setting.",
+            "en": "Located in a rural countryside setting."
+          },
+          "explanation": {
+            "vi": "The school is located in a peaceful village.",
+            "en": "The school is located in a peaceful village."
+          },
+          "data": {
+            "options": [
+              "in a peaceful countryside village",
+              "in the middle of the desert",
+              "under the sea",
+              "on an airplane"
+            ],
+            "correct_answer": "in a peaceful countryside village"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u6_where_school.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s8_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'school'?",
+            "en": "What is the first letter of the word 'school'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'school'?",
+            "en": "What is the first letter of the word 'school'?"
+          },
+          "hint": {
+            "vi": "The word 'school' starts with the letter S.",
+            "en": "The word 'school' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'school' begins with the letter 'S'.",
+            "en": "Correct! 'school' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "school",
+                  "en": "school"
+                },
+                "right": {
+                  "vi": "Nghĩa của school",
+                  "en": "Nghĩa của school"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "village",
+                  "en": "village"
+                },
+                "right": {
+                  "vi": "Nghĩa của village",
+                  "en": "Nghĩa của village"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "city",
+                  "en": "city"
+                },
+                "right": {
+                  "vi": "Nghĩa của city",
+                  "en": "Nghĩa của city"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Where's your school? - It's in the peaceful village.",
+            "en": "Is this English sentence correct for Grade 4? Where's your school? - It's in the peaceful village."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Where's your school? - It's in the peaceful village.",
+            "en": "Remember the pattern: Where's your school? - It's in the peaceful village."
+          },
+          "explanation": {
+            "vi": "Yes! 'Where's your school? - It's in the peaceful village.' is a correct English sentence.",
+            "en": "Yes! 'Where's your school? - It's in the peaceful village.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Where's your school? - It's in the peaceful village.",
+              "en": "Where's your school? - It's in the peaceful village."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Where's your school? - It's in the peaceful ....",
+            "en": "Drag the correct word to complete the sentence: Where's your school? - It's in the peaceful ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'village'.",
+            "en": "Choose the correct word: 'village'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Where's your school? - It's in the peaceful village.'.",
+            "en": "The complete sentence is: 'Where's your school? - It's in the peaceful village.'."
+          },
+          "data": {
+            "prefix_text": "Where's your school? - It's in the peaceful ",
+            "suffix_text": ".",
+            "options": [
+              "village",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "village"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'school':",
+            "en": "Spell the English word 'school':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'school':",
+            "en": "Spell the English word 'school':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'school'.",
+            "en": "Tap the letters in order to spell 'school'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'school' correctly.",
+            "en": "Well done! You spelled 'school' correctly."
+          },
+          "data": {
+            "letters": [
+              "l",
+              "o",
+              "o",
+              "h",
+              "c",
+              "s"
+            ],
+            "target_word": "school",
+            "target_sequence": [
+              "s",
+              "c",
+              "h",
+              "o",
+              "o",
+              "l"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Trường bạn ở đâu? - Nó ở trong ngôi làng yên bình.' in English?",
+            "en": "How do you say 'Trường bạn ở đâu? - Nó ở trong ngôi làng yên bình.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Trường bạn ở đâu? - Nó ở trong ngôi làng yên bình.' in English?",
+            "en": "How do you say 'Trường bạn ở đâu? - Nó ở trong ngôi làng yên bình.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Trường bạn ở đâu? - Nó ở trong ngôi làng yên bình.",
+            "en": "Choose the English sentence that means: Trường bạn ở đâu? - Nó ở trong ngôi làng yên bình."
+          },
+          "explanation": {
+            "vi": "'Where's your school? - It's in the peaceful village.' means 'Trường bạn ở đâu? - Nó ở trong ngôi làng yên bình.'.",
+            "en": "'Where's your school? - It's in the peaceful village.' means 'Trường bạn ở đâu? - Nó ở trong ngôi làng yên bình.'."
+          },
+          "data": {
+            "options": [
+              "Where's your school? - It's in the peaceful village.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Where's your school? - It's in the peaceful village."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 6: Where's Your School?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 6: Where's Your School?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 6: Where's Your School?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 6: Where's Your School?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 6: Where's Your School?.",
+            "en": "Remember the words in topic: Unit 6: Where's Your School?."
+          },
+          "explanation": {
+            "vi": "'school' is a key vocabulary word in this topic.",
+            "en": "'school' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "school",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "school"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'village' start with the sound /s/?",
+            "en": "Does the word 'village' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'village' start with the sound /s/? The word 'village' starts with letter 'S'.",
+            "en": "Does the word 'village' start with the sound /s/? The word 'village' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'village'.",
+            "en": "Listen to the first sound of 'village'."
+          },
+          "explanation": {
+            "vi": "Yes! 'village' starts with the sound /s/.",
+            "en": "Yes! 'village' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'village' starts with letter 'S'.",
+              "en": "The word 'village' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'school'?",
+            "en": "How many letters are there in the word 'school'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'school'?",
+            "en": "How many letters are there in the word 'school'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'school': 1, 2, 3...",
+            "en": "Count the letters in 'school': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'school' has exactly 6 letters.",
+            "en": "The word 'school' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'school':",
+            "en": "Choose the correct phrase with 'school':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'school':",
+            "en": "Choose the correct phrase with 'school':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a school'.",
+            "en": "Correct! We say 'a school'."
+          },
+          "data": {
+            "options": [
+              "a school",
+              "an school",
+              "two school",
+              "many school"
+            ],
+            "correct_answer": "a school"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'school'.",
+            "en": "Choose the word: 'school'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is school. It is wonderful!'",
+            "en": "We say: 'Look! This is school. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "school",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "school"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 6: Where's Your School?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 6: Where's Your School?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 6: Where's Your School?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 6: Where's Your School?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 6: Where's Your School?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 6: Where's Your School?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: school, village!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: school, village!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s8_2",
+      "title": {
+        "vi": "Unit 6: Big School Buildings & Garden",
+        "en": "Unit 6: Big School Buildings & Garden"
+      },
+      "description": {
+        "vi": "What's your school like? - It's big, modern, and beautiful",
+        "en": "What's your school like? - It's big, modern, and beautiful"
+      },
+      "icon": "🌳",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s8_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the spacious school courtyard with blooming flowerbeds and clean pathways. What is the school like?",
+            "en": "Look at the spacious school courtyard with blooming flowerbeds and clean pathways. What is the school like?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the spacious school courtyard with blooming flowerbeds and clean pathways. What is the school like?",
+            "en": "Look at the spacious school courtyard with blooming flowerbeds and clean pathways. What is the school like?"
+          },
+          "hint": {
+            "vi": "Spacious, clean, and full of trees and flowers.",
+            "en": "Spacious, clean, and full of trees and flowers."
+          },
+          "explanation": {
+            "vi": "The school is big and beautiful.",
+            "en": "The school is big and beautiful."
+          },
+          "data": {
+            "options": [
+              "It is big, modern, and beautiful.",
+              "It is tiny and dark.",
+              "It is broken and abandoned.",
+              "It is empty."
+            ],
+            "correct_answer": "It is big, modern, and beautiful."
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u6_school_garden.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s8_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'modern'?",
+            "en": "What is the first letter of the word 'modern'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'modern'?",
+            "en": "What is the first letter of the word 'modern'?"
+          },
+          "hint": {
+            "vi": "The word 'modern' starts with the letter M.",
+            "en": "The word 'modern' starts with the letter M."
+          },
+          "explanation": {
+            "vi": "Correct! 'modern' begins with the letter 'M'.",
+            "en": "Correct! 'modern' begins with the letter 'M'."
+          },
+          "data": {
+            "options": [
+              "Letter M",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter M"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "modern",
+                  "en": "modern"
+                },
+                "right": {
+                  "vi": "Nghĩa của modern",
+                  "en": "Nghĩa của modern"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "beautiful",
+                  "en": "beautiful"
+                },
+                "right": {
+                  "vi": "Nghĩa của beautiful",
+                  "en": "Nghĩa của beautiful"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "garden",
+                  "en": "garden"
+                },
+                "right": {
+                  "vi": "Nghĩa của garden",
+                  "en": "Nghĩa của garden"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Our school has four big buildings and a flower garden.",
+            "en": "Is this English sentence correct for Grade 4? Our school has four big buildings and a flower garden."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Our school has four big buildings and a flower garden.",
+            "en": "Remember the pattern: Our school has four big buildings and a flower garden."
+          },
+          "explanation": {
+            "vi": "Yes! 'Our school has four big buildings and a flower garden.' is a correct English sentence.",
+            "en": "Yes! 'Our school has four big buildings and a flower garden.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Our school has four big buildings and a flower garden.",
+              "en": "Our school has four big buildings and a flower garden."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Our school has four big buildings and a flower ....",
+            "en": "Drag the correct word to complete the sentence: Our school has four big buildings and a flower ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'garden'.",
+            "en": "Choose the correct word: 'garden'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Our school has four big buildings and a flower garden.'.",
+            "en": "The complete sentence is: 'Our school has four big buildings and a flower garden.'."
+          },
+          "data": {
+            "prefix_text": "Our school has four big buildings and a flower ",
+            "suffix_text": ".",
+            "options": [
+              "garden",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "garden"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'modern':",
+            "en": "Spell the English word 'modern':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'modern':",
+            "en": "Spell the English word 'modern':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'modern'.",
+            "en": "Tap the letters in order to spell 'modern'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'modern' correctly.",
+            "en": "Well done! You spelled 'modern' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "r",
+              "e",
+              "d",
+              "o",
+              "m"
+            ],
+            "target_word": "modern",
+            "target_sequence": [
+              "m",
+              "o",
+              "d",
+              "e",
+              "r",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Trường chúng tôi có bốn toà nhà lớn và một vườn hoa.' in English?",
+            "en": "How do you say 'Trường chúng tôi có bốn toà nhà lớn và một vườn hoa.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Trường chúng tôi có bốn toà nhà lớn và một vườn hoa.' in English?",
+            "en": "How do you say 'Trường chúng tôi có bốn toà nhà lớn và một vườn hoa.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Trường chúng tôi có bốn toà nhà lớn và một vườn hoa.",
+            "en": "Choose the English sentence that means: Trường chúng tôi có bốn toà nhà lớn và một vườn hoa."
+          },
+          "explanation": {
+            "vi": "'Our school has four big buildings and a flower garden.' means 'Trường chúng tôi có bốn toà nhà lớn và một vườn hoa.'.",
+            "en": "'Our school has four big buildings and a flower garden.' means 'Trường chúng tôi có bốn toà nhà lớn và một vườn hoa.'."
+          },
+          "data": {
+            "options": [
+              "Our school has four big buildings and a flower garden.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Our school has four big buildings and a flower garden."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 6: Big School Buildings & Garden'?",
+            "en": "Which of the following is a key word from Unit 'Unit 6: Big School Buildings & Garden'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 6: Big School Buildings & Garden'?",
+            "en": "Which of the following is a key word from Unit 'Unit 6: Big School Buildings & Garden'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 6: Big School Buildings & Garden.",
+            "en": "Remember the words in topic: Unit 6: Big School Buildings & Garden."
+          },
+          "explanation": {
+            "vi": "'modern' is a key vocabulary word in this topic.",
+            "en": "'modern' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "modern",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "modern"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'beautiful' start with the sound /m/?",
+            "en": "Does the word 'beautiful' start with the sound /m/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'beautiful' start with the sound /m/? The word 'beautiful' starts with letter 'M'.",
+            "en": "Does the word 'beautiful' start with the sound /m/? The word 'beautiful' starts with letter 'M'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'beautiful'.",
+            "en": "Listen to the first sound of 'beautiful'."
+          },
+          "explanation": {
+            "vi": "Yes! 'beautiful' starts with the sound /m/.",
+            "en": "Yes! 'beautiful' starts with the sound /m/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'beautiful' starts with letter 'M'.",
+              "en": "The word 'beautiful' starts with letter 'M'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'modern'?",
+            "en": "How many letters are there in the word 'modern'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'modern'?",
+            "en": "How many letters are there in the word 'modern'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'modern': 1, 2, 3...",
+            "en": "Count the letters in 'modern': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'modern' has exactly 6 letters.",
+            "en": "The word 'modern' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'modern':",
+            "en": "Choose the correct phrase with 'modern':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'modern':",
+            "en": "Choose the correct phrase with 'modern':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a modern'.",
+            "en": "Correct! We say 'a modern'."
+          },
+          "data": {
+            "options": [
+              "a modern",
+              "an modern",
+              "two modern",
+              "many modern"
+            ],
+            "correct_answer": "a modern"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'modern'.",
+            "en": "Choose the word: 'modern'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is modern. It is wonderful!'",
+            "en": "We say: 'Look! This is modern. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "modern",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "modern"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s8_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 6: Big School Buildings & Garden'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 6: Big School Buildings & Garden'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 6: Big School Buildings & Garden'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 6: Big School Buildings & Garden'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 6: Big School Buildings & Garden'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 6: Big School Buildings & Garden'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: modern, beautiful!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: modern, beautiful!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

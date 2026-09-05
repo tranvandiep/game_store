@@ -1,0 +1,808 @@
+{
+  "id": "m3_stage_10",
+  "stage_number": 10,
+  "title": {
+    "vi": "Tuần 10: Nhân Số Có 2 Chữ Số & Gấp Lên Nhiều Lần",
+    "en": "Week 10: 2-Digit Multiplication & Scaling Up"
+  },
+  "subtitle": {
+    "vi": "Bài 23 & 24 - Đặt tính nhân và bài toán gấp k lần",
+    "en": "Lesson 23 & 24 - 2-digit multiplication & k-times"
+  },
+  "icon": "✖️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.698,
+  "required_stars": 27,
+  "theme_color": "0xFF16A34A",
+  "topics": [
+    {
+      "id": "m3_t10_1",
+      "title": {
+        "vi": "Nhân số có 2 chữ số với số có 1 chữ số (Không nhớ)",
+        "en": "2-Digit x 1-Digit (No Regrouping)"
+      },
+      "description": {
+        "vi": "Ví dụ: 12 x 3, 24 x 2, 31 x 3",
+        "en": "Form: 12 x 3, 24 x 2, 31 x 3"
+      },
+      "icon": "✖️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m3_t10_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 12 x 4 = ?",
+            "en": "Calculate: 12 x 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 12 x 4 = ?",
+            "en": "Calculate: 12 x 4 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "2 x 4 = 8, 1 x 4 = 4 -> 48.",
+            "en": "12 x 4 = 48."
+          },
+          "data": {
+            "correct_number": "48",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 23 x 3 = ?",
+            "en": "Calculate: 23 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 23 x 3 = ?",
+            "en": "Calculate: 23 x 3 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "3 x 3 = 9, 2 x 3 = 6 -> 69.",
+            "en": "23 x 3 = 69."
+          },
+          "data": {
+            "correct_number": "69",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 34 x 2 = ?",
+            "en": "Calculate: 34 x 2 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 34 x 2 = ?",
+            "en": "Calculate: 34 x 2 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "34 x 2 = 68.",
+            "en": "34 x 2 = 68."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "66",
+                "en": "66"
+              },
+              {
+                "vi": "68",
+                "en": "68"
+              },
+              {
+                "vi": "70",
+                "en": "70"
+              }
+            ],
+            "correct_answer": "68"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 5 × 2 = ?",
+            "en": "Calculate: 5 × 2 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 5 × 2 = ?",
+            "en": "Calculate: 5 × 2 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 5 × 2.",
+            "en": "Calculate 5 × 2."
+          },
+          "explanation": {
+            "vi": "5 × 2 = 10",
+            "en": "5 × 2 = 10"
+          },
+          "data": {
+            "options": [
+              "11",
+              "12",
+              "9",
+              "10"
+            ],
+            "correct_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 2 × 4 = ?",
+            "en": "Calculate: 2 × 4 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 2 × 4 = ?",
+            "en": "Calculate: 2 × 4 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 2 × 4.",
+            "en": "Calculate 2 × 4."
+          },
+          "explanation": {
+            "vi": "2 × 4 = 8",
+            "en": "2 × 4 = 8"
+          },
+          "data": {
+            "options": [
+              "8",
+              "10",
+              "7",
+              "9"
+            ],
+            "correct_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 2013 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 2013 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 2013 có đúng 4 chữ số.",
+            "en": "2013 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 2013 là số có 4 chữ số.",
+              "en": "2013 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t10_2",
+      "title": {
+        "vi": "Nhân số có 2 chữ số với số có 1 chữ số (Có nhớ)",
+        "en": "2-Digit x 1-Digit (With Regrouping)"
+      },
+      "description": {
+        "vi": "Ví dụ: 26 x 3, 48 x 2, 19 x 4",
+        "en": "Form: 26 x 3, 48 x 2, 19 x 4 with carry"
+      },
+      "icon": "📈",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m3_t10_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 26 x 3 = ?",
+            "en": "Calculate: 26 x 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 26 x 3 = ?",
+            "en": "Calculate: 26 x 3 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "6 x 3 = 18, viết 8 nhớ 1; 2 x 3 = 6, thêm 1 bằng 7 -> 78.",
+            "en": "26 x 3 = 78."
+          },
+          "data": {
+            "correct_number": "78",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 48 x 2 = ?",
+            "en": "Calculate: 48 x 2 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 48 x 2 = ?",
+            "en": "Calculate: 48 x 2 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "8 x 2 = 16, nhớ 1; 4 x 2 + 1 = 9 -> 96.",
+            "en": "48 x 2 = 96."
+          },
+          "data": {
+            "correct_number": "96",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với tích tương ứng:",
+            "en": "Match 2-digit multiplication with products:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với tích tương ứng:",
+            "en": "Match 2-digit multiplication with products:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Đặt tính nhân có nhớ chính xác.",
+            "en": "Accurate regrouping multiplication."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "18 x 4",
+                  "en": "18 x 4"
+                },
+                "right": {
+                  "vi": "72",
+                  "en": "72"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "15 x 6",
+                  "en": "15 x 6"
+                },
+                "right": {
+                  "vi": "90",
+                  "en": "90"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "25 x 3",
+                  "en": "25 x 3"
+                },
+                "right": {
+                  "vi": "75",
+                  "en": "75"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "1 ki-lô-gam bằng 1 000 gam.",
+            "en": "1 kilogram equals 1000 grams."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy đổi đơn vị khối lượng.",
+            "en": "Convert mass units."
+          },
+          "explanation": {
+            "vi": "1 kg = 1 000 g là chính xác.",
+            "en": "1 kg = 1000 g is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 ki-lô-gam (kg) bằng 1 000 gam (g).",
+              "en": "1 kilogram (kg) equals 1,000 grams (g)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m3_t10_3",
+      "title": {
+        "vi": "Gấp một số lên một số lần",
+        "en": "Scaling Up by a Factor"
+      },
+      "description": {
+        "vi": "Muốn gấp số A lên n lần, ta lấy A nhân với n",
+        "en": "To scale up A by n times, compute A * n"
+      },
+      "icon": "🚀",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m3_t10_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đoạn thẳng AB dài 6 cm, đoạn thẳng CD dài gấp 3 lần đoạn thẳng AB. Đoạn thẳng CD dài bao nhiêu cm?",
+            "en": "Segment AB is 6cm, CD is 3 times longer. Length of CD in cm?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đoạn thẳng AB dài 6 cm, đoạn thẳng CD dài gấp 3 lần đoạn thẳng AB. Đoạn thẳng CD dài bao nhiêu cm?",
+            "en": "Segment AB is 6cm, CD is 3 times longer. Length of CD in cm?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "6 x 3 = 18 cm.",
+            "en": "6 * 3 = 18 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "15 cm",
+                "en": "15 cm"
+              },
+              {
+                "vi": "18 cm",
+                "en": "18 cm"
+              },
+              {
+                "vi": "21 cm",
+                "en": "21 cm"
+              }
+            ],
+            "correct_answer": "18 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Năm nay em 6 tuổi, tuổi bố gấp 6 lần tuổi em. Hỏi năm nay bố bao nhiêu tuổi?",
+            "en": "Child is 6, dad is 6 times older. How old is dad?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Năm nay em 6 tuổi, tuổi bố gấp 6 lần tuổi em. Hỏi năm nay bố bao nhiêu tuổi?",
+            "en": "Child is 6, dad is 6 times older. How old is dad?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "6 x 6 = 36 tuổi.",
+            "en": "6 * 6 = 36 years old."
+          },
+          "data": {
+            "correct_number": "36",
+            "unit": "tuổi"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy tắc gấp lên nhiều lần.",
+            "en": "Decide whether the following statement is true or false: Quy tắc gấp lên nhiều lần."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Số mới = Số cũ x Số lần.",
+            "en": "True! New quantity = Original * Factor."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy tắc gấp lên nhiều lần.",
+              "en": "Quy tắc gấp lên nhiều lần."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Gấp một số lên một số lần': Đoạn thẳng AB dài 6 cm, đoạn thẳng CD dài gấp 3 lần đoạn thẳng AB. Đoạn thẳng CD dài bao nhiêu cm?",
+            "en": "Practice 'Scaling Up by a Factor': Segment AB is 6cm, CD is 3 times longer. Length of CD in cm?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đoạn thẳng AB dài 6 cm, đoạn thẳng CD dài gấp 3 lần đoạn thẳng AB. Đoạn thẳng CD dài bao nhiêu cm?",
+            "en": "Segment AB is 6cm, CD is 3 times longer. Length of CD in cm?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "6 x 3 = 18 cm.",
+            "en": "6 * 3 = 18 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "21 cm",
+                "en": "21 cm"
+              },
+              {
+                "vi": "15 cm",
+                "en": "15 cm"
+              },
+              {
+                "vi": "18 cm",
+                "en": "18 cm"
+              }
+            ],
+            "correct_answer": "18 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 3 đứng liền trước số 4.",
+            "en": "Decide whether the following statement is true or false: Số 3 đứng liền trước số 4."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3 đứng liền trước số 4.",
+              "en": "Số 3 đứng liền trước số 4."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 bé hơn số 3 (4 < 3).",
+            "en": "Decide whether the following statement is true or false: Số 4 bé hơn số 3 (4 < 3)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 bé hơn số 3 (4 < 3).",
+              "en": "Số 4 bé hơn số 3 (4 < 3)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 8640 là số có 4 chữ số.",
+            "en": "Is the statement TRUE or FALSE:: 8640 is a 4-digit number."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Số 8640 có đúng 4 chữ số.",
+            "en": "8640 has 4 digits."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 8640 là số có 4 chữ số.",
+              "en": "8640 is a 4-digit number."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m3_t10_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các đơn vị đo tương đương:",
+            "en": "Match equivalent units:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Đổi đơn vị đo chính xác.",
+            "en": "Converted correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 kg",
+                  "en": "1 kg"
+                },
+                "right": {
+                  "vi": "1 000 g",
+                  "en": "1000 g"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 m",
+                  "en": "1 m"
+                },
+                "right": {
+                  "vi": "100 cm",
+                  "en": "100 cm"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 giờ",
+                  "en": "1 hour"
+                },
+                "right": {
+                  "vi": "60 phút",
+                  "en": "60 minutes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

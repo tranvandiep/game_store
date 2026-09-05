@@ -1,0 +1,1126 @@
+{
+  "id": "e1_stage_9",
+  "stage_number": 9,
+  "title": {
+    "vi": "Week 9: Review 1 & Fun Time",
+    "en": "Week 9: Review 1 & Fun Time"
+  },
+  "subtitle": {
+    "vi": "Review Letters A, B, C, D & Vocabulary",
+    "en": "Review Letters A, B, C, D & Vocabulary"
+  },
+  "icon": "🎉",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.718,
+  "required_stars": 24,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e1_s9_1",
+      "title": {
+        "vi": "Review 1: Letters A, B, C, D",
+        "en": "Review 1: Letters A, B, C, D"
+      },
+      "description": {
+        "vi": "Phonics challenge: Apple, Ball, Cat, Dog",
+        "en": "Phonics challenge: Apple, Ball, Cat, Dog"
+      },
+      "icon": "🔤",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s9_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the alphabet phonics board with Apple, Ball, Cat, and Dog. What are the kids learning?",
+            "en": "Look at the alphabet phonics board with Apple, Ball, Cat, and Dog. What are the kids learning?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the alphabet phonics board with Apple, Ball, Cat, and Dog. What are the kids learning?",
+            "en": "Look at the alphabet phonics board with Apple, Ball, Cat, and Dog. What are the kids learning?"
+          },
+          "hint": {
+            "vi": "They are learning their first letters and sounds.",
+            "en": "They are learning their first letters and sounds."
+          },
+          "explanation": {
+            "vi": "The kids are reviewing the letters A, B, C, and D.",
+            "en": "The kids are reviewing the letters A, B, C, and D."
+          },
+          "data": {
+            "options": [
+              "Alphabet letters A, B, C, D",
+              "Math multiplication tables",
+              "Chemistry laboratory",
+              "Traffic rules"
+            ],
+            "correct_answer": "Alphabet letters A, B, C, D"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_rev1_phonics.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'apple'?",
+            "en": "What is the first letter of the word 'apple'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'apple'?",
+            "en": "What is the first letter of the word 'apple'?"
+          },
+          "hint": {
+            "vi": "The word 'apple' starts with the letter A.",
+            "en": "The word 'apple' starts with the letter A."
+          },
+          "explanation": {
+            "vi": "Correct! 'apple' begins with the letter 'A'.",
+            "en": "Correct! 'apple' begins with the letter 'A'."
+          },
+          "data": {
+            "options": [
+              "Letter A",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter A"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "apple",
+                  "en": "apple"
+                },
+                "right": {
+                  "vi": "Nghĩa của apple",
+                  "en": "Nghĩa của apple"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "ball",
+                  "en": "ball"
+                },
+                "right": {
+                  "vi": "Nghĩa của ball",
+                  "en": "Nghĩa của ball"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cat",
+                  "en": "cat"
+                },
+                "right": {
+                  "vi": "Nghĩa của cat",
+                  "en": "Nghĩa của cat"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? A is for apple, B is for ball.",
+            "en": "Is this English sentence correct for Grade 1? A is for apple, B is for ball."
+          },
+          "hint": {
+            "vi": "Remember the pattern: A is for apple, B is for ball.",
+            "en": "Remember the pattern: A is for apple, B is for ball."
+          },
+          "explanation": {
+            "vi": "Yes! 'A is for apple, B is for ball.' is a correct English sentence.",
+            "en": "Yes! 'A is for apple, B is for ball.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "A is for apple, B is for ball.",
+              "en": "A is for apple, B is for ball."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: A is for apple, B is for ....",
+            "en": "Drag the correct word to complete the sentence: A is for apple, B is for ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'ball'.",
+            "en": "Choose the correct word: 'ball'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'A is for apple, B is for ball.'.",
+            "en": "The complete sentence is: 'A is for apple, B is for ball.'."
+          },
+          "data": {
+            "prefix_text": "A is for apple, B is for ",
+            "suffix_text": ".",
+            "options": [
+              "ball",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "ball"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'apple':",
+            "en": "Spell the English word 'apple':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'apple':",
+            "en": "Spell the English word 'apple':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'apple'.",
+            "en": "Tap the letters in order to spell 'apple'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'apple' correctly.",
+            "en": "Well done! You spelled 'apple' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "l",
+              "p",
+              "p",
+              "a"
+            ],
+            "target_word": "apple",
+            "target_sequence": [
+              "a",
+              "p",
+              "p",
+              "l",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'A là quả táo, B là quả bóng.' in English?",
+            "en": "How do you say 'A là quả táo, B là quả bóng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'A là quả táo, B là quả bóng.' in English?",
+            "en": "How do you say 'A là quả táo, B là quả bóng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: A là quả táo, B là quả bóng.",
+            "en": "Choose the English sentence that means: A là quả táo, B là quả bóng."
+          },
+          "explanation": {
+            "vi": "'A is for apple, B is for ball.' means 'A là quả táo, B là quả bóng.'.",
+            "en": "'A is for apple, B is for ball.' means 'A là quả táo, B là quả bóng.'."
+          },
+          "data": {
+            "options": [
+              "A is for apple, B is for ball.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "A is for apple, B is for ball."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Review 1: Letters A, B, C, D'?",
+            "en": "Which of the following is a word from Unit 'Review 1: Letters A, B, C, D'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Review 1: Letters A, B, C, D'?",
+            "en": "Which of the following is a word from Unit 'Review 1: Letters A, B, C, D'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Review 1: Letters A, B, C, D.",
+            "en": "Remember the words in topic: Review 1: Letters A, B, C, D."
+          },
+          "explanation": {
+            "vi": "'apple' is a key vocabulary word in this topic.",
+            "en": "'apple' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "apple",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "apple"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'ball' start with the sound /a/?",
+            "en": "Does the word 'ball' start with the sound /a/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'ball' start with the sound /a/? The word 'ball' starts with letter 'A'.",
+            "en": "Does the word 'ball' start with the sound /a/? The word 'ball' starts with letter 'A'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'ball'.",
+            "en": "Listen to the first sound of 'ball'."
+          },
+          "explanation": {
+            "vi": "Yes! 'ball' starts with the sound /a/.",
+            "en": "Yes! 'ball' starts with the sound /a/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'ball' starts with letter 'A'.",
+              "en": "The word 'ball' starts with letter 'A'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'apple'?",
+            "en": "How many letters are there in the word 'apple'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'apple'?",
+            "en": "How many letters are there in the word 'apple'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'apple': 1, 2, 3...",
+            "en": "Count the letters in 'apple': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'apple' has exactly 5 letters.",
+            "en": "The word 'apple' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'apple':",
+            "en": "Choose the correct article before 'apple':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'apple':",
+            "en": "Choose the correct article before 'apple':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an apple'.",
+            "en": "Correct! We say 'an apple'."
+          },
+          "data": {
+            "options": [
+              "an apple",
+              "a apple",
+              "two apple",
+              "many apple"
+            ],
+            "correct_answer": "an apple"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Review 1: Letters A, B, C, D'?",
+            "en": "Which English sentence best describes the topic 'Review 1: Letters A, B, C, D'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Review 1: Letters A, B, C, D'?",
+            "en": "Which English sentence best describes the topic 'Review 1: Letters A, B, C, D'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Review 1: Letters A, B, C, D'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Review 1: Letters A, B, C, D'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: apple, ball!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: apple, ball!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s9_2",
+      "title": {
+        "vi": "Fun Time 1: Game & Sing Along",
+        "en": "Fun Time 1: Game & Sing Along"
+      },
+      "description": {
+        "vi": "Singing the ABC song and playing games",
+        "en": "Singing the ABC song and playing games"
+      },
+      "icon": "🎵",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s9_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the classroom choir singing music notes happily together. What activity is it?",
+            "en": "Look at the classroom choir singing music notes happily together. What activity is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the classroom choir singing music notes happily together. What activity is it?",
+            "en": "Look at the classroom choir singing music notes happily together. What activity is it?"
+          },
+          "hint": {
+            "vi": "They have musical notes floating and smiling faces.",
+            "en": "They have musical notes floating and smiling faces."
+          },
+          "explanation": {
+            "vi": "They are singing the joyful ABC song.",
+            "en": "They are singing the joyful ABC song."
+          },
+          "data": {
+            "options": [
+              "singing a joyful English song",
+              "taking a silent exam",
+              "cleaning the floor",
+              "sleeping in class"
+            ],
+            "correct_answer": "singing a joyful English song"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_rev1_fun_time.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'sing'?",
+            "en": "What is the first letter of the word 'sing'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'sing'?",
+            "en": "What is the first letter of the word 'sing'?"
+          },
+          "hint": {
+            "vi": "The word 'sing' starts with the letter S.",
+            "en": "The word 'sing' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'sing' begins with the letter 'S'.",
+            "en": "Correct! 'sing' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sing",
+                  "en": "sing"
+                },
+                "right": {
+                  "vi": "Nghĩa của sing",
+                  "en": "Nghĩa của sing"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "song",
+                  "en": "song"
+                },
+                "right": {
+                  "vi": "Nghĩa của song",
+                  "en": "Nghĩa của song"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "game",
+                  "en": "game"
+                },
+                "right": {
+                  "vi": "Nghĩa của game",
+                  "en": "Nghĩa của game"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? Let's sing the ABC song together!",
+            "en": "Is this English sentence correct for Grade 1? Let's sing the ABC song together!"
+          },
+          "hint": {
+            "vi": "Remember the pattern: Let's sing the ABC song together!",
+            "en": "Remember the pattern: Let's sing the ABC song together!"
+          },
+          "explanation": {
+            "vi": "Yes! 'Let's sing the ABC song together!' is a correct English sentence.",
+            "en": "Yes! 'Let's sing the ABC song together!' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Let's sing the ABC song together!",
+              "en": "Let's sing the ABC song together!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Let's sing the ABC song ....",
+            "en": "Drag the correct word to complete the sentence: Let's sing the ABC song ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'together!'.",
+            "en": "Choose the correct word: 'together!'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Let's sing the ABC song together!.'.",
+            "en": "The complete sentence is: 'Let's sing the ABC song together!.'."
+          },
+          "data": {
+            "prefix_text": "Let's sing the ABC song ",
+            "suffix_text": ".",
+            "options": [
+              "together!",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "together!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'sing':",
+            "en": "Spell the English word 'sing':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'sing':",
+            "en": "Spell the English word 'sing':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'sing'.",
+            "en": "Tap the letters in order to spell 'sing'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'sing' correctly.",
+            "en": "Well done! You spelled 'sing' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "s"
+            ],
+            "target_word": "sing",
+            "target_sequence": [
+              "s",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cùng nhau hát vang bài ca ABC nào!' in English?",
+            "en": "How do you say 'Cùng nhau hát vang bài ca ABC nào!' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cùng nhau hát vang bài ca ABC nào!' in English?",
+            "en": "How do you say 'Cùng nhau hát vang bài ca ABC nào!' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cùng nhau hát vang bài ca ABC nào!",
+            "en": "Choose the English sentence that means: Cùng nhau hát vang bài ca ABC nào!"
+          },
+          "explanation": {
+            "vi": "'Let's sing the ABC song together!' means 'Cùng nhau hát vang bài ca ABC nào!'.",
+            "en": "'Let's sing the ABC song together!' means 'Cùng nhau hát vang bài ca ABC nào!'."
+          },
+          "data": {
+            "options": [
+              "Let's sing the ABC song together!",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Let's sing the ABC song together!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Fun Time 1: Game & Sing Along'?",
+            "en": "Which of the following is a word from Unit 'Fun Time 1: Game & Sing Along'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Fun Time 1: Game & Sing Along'?",
+            "en": "Which of the following is a word from Unit 'Fun Time 1: Game & Sing Along'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Fun Time 1: Game & Sing Along.",
+            "en": "Remember the words in topic: Fun Time 1: Game & Sing Along."
+          },
+          "explanation": {
+            "vi": "'sing' is a key vocabulary word in this topic.",
+            "en": "'sing' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "sing",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "sing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'song' start with the sound /s/?",
+            "en": "Does the word 'song' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'song' start with the sound /s/? The word 'song' starts with letter 'S'.",
+            "en": "Does the word 'song' start with the sound /s/? The word 'song' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'song'.",
+            "en": "Listen to the first sound of 'song'."
+          },
+          "explanation": {
+            "vi": "Yes! 'song' starts with the sound /s/.",
+            "en": "Yes! 'song' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'song' starts with letter 'S'.",
+              "en": "The word 'song' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'sing'?",
+            "en": "How many letters are there in the word 'sing'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'sing'?",
+            "en": "How many letters are there in the word 'sing'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'sing': 1, 2, 3...",
+            "en": "Count the letters in 'sing': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'sing' has exactly 4 letters.",
+            "en": "The word 'sing' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'sing':",
+            "en": "Choose the correct article before 'sing':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'sing':",
+            "en": "Choose the correct article before 'sing':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a sing'.",
+            "en": "Correct! We say 'a sing'."
+          },
+          "data": {
+            "options": [
+              "a sing",
+              "an sing",
+              "two sing",
+              "many sing"
+            ],
+            "correct_answer": "a sing"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s9_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Fun Time 1: Game & Sing Along'?",
+            "en": "Which English sentence best describes the topic 'Fun Time 1: Game & Sing Along'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Fun Time 1: Game & Sing Along'?",
+            "en": "Which English sentence best describes the topic 'Fun Time 1: Game & Sing Along'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Fun Time 1: Game & Sing Along'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Fun Time 1: Game & Sing Along'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: sing, song!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: sing, song!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

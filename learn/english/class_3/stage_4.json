@@ -1,0 +1,1126 @@
+{
+  "id": "e3_stage_4",
+  "stage_number": 4,
+  "title": {
+    "vi": "Week 4: Unit 4 - Our Bodies",
+    "en": "Week 4: Unit 4 - Our Bodies"
+  },
+  "subtitle": {
+    "vi": "Body parts: head, eyes, nose, mouth, ears, hands, face",
+    "en": "Body parts: head, eyes, nose, mouth, ears, hands, face"
+  },
+  "icon": "👀",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.863,
+  "required_stars": 9,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "e3_s4_1",
+      "title": {
+        "vi": "Unit 4: Touch Your Face & Head",
+        "en": "Unit 4: Touch Your Face & Head"
+      },
+      "description": {
+        "vi": "Touch your nose, touch your mouth, touch your eyes",
+        "en": "Touch your nose, touch your mouth, touch your eyes"
+      },
+      "icon": "👃",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s4_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the child gently touching their nose in Simon Says game. Which body part is it?",
+            "en": "Look at the child gently touching their nose in Simon Says game. Which body part is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the child gently touching their nose in Simon Says game. Which body part is it?",
+            "en": "Look at the child gently touching their nose in Simon Says game. Which body part is it?"
+          },
+          "hint": {
+            "vi": "The sensory organ for smelling.",
+            "en": "The sensory organ for smelling."
+          },
+          "explanation": {
+            "vi": "The child is touching their nose.",
+            "en": "The child is touching their nose."
+          },
+          "data": {
+            "options": [
+              "the nose",
+              "the elbow",
+              "the knee",
+              "the ankle"
+            ],
+            "correct_answer": "the nose"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u4_touch_nose.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s4_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'nose'?",
+            "en": "What is the first letter of the word 'nose'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'nose'?",
+            "en": "What is the first letter of the word 'nose'?"
+          },
+          "hint": {
+            "vi": "The word 'nose' starts with the letter N.",
+            "en": "The word 'nose' starts with the letter N."
+          },
+          "explanation": {
+            "vi": "Correct! 'nose' begins with the letter 'N'.",
+            "en": "Correct! 'nose' begins with the letter 'N'."
+          },
+          "data": {
+            "options": [
+              "Letter N",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter N"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "nose",
+                  "en": "nose"
+                },
+                "right": {
+                  "vi": "Nghĩa của nose",
+                  "en": "Nghĩa của nose"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "mouth",
+                  "en": "mouth"
+                },
+                "right": {
+                  "vi": "Nghĩa của mouth",
+                  "en": "Nghĩa của mouth"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "eyes",
+                  "en": "eyes"
+                },
+                "right": {
+                  "vi": "Nghĩa của eyes",
+                  "en": "Nghĩa của eyes"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Touch your nose and smile!",
+            "en": "Is this English sentence correct for Grade 3? Touch your nose and smile!"
+          },
+          "hint": {
+            "vi": "Remember the pattern: Touch your nose and smile!",
+            "en": "Remember the pattern: Touch your nose and smile!"
+          },
+          "explanation": {
+            "vi": "Yes! 'Touch your nose and smile!' is a correct English sentence.",
+            "en": "Yes! 'Touch your nose and smile!' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Touch your nose and smile!",
+              "en": "Touch your nose and smile!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Touch your nose and ...",
+            "en": "Drag the correct word to complete the sentence: Touch your nose and ..."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'smile!'.",
+            "en": "Choose the correct word: 'smile!'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Touch your nose and smile!'.",
+            "en": "The complete sentence is: 'Touch your nose and smile!'."
+          },
+          "data": {
+            "prefix_text": "Touch your nose and ",
+            "suffix_text": "",
+            "options": [
+              "smile!",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "smile!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'nose':",
+            "en": "Spell the English word 'nose':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'nose':",
+            "en": "Spell the English word 'nose':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'nose'.",
+            "en": "Tap the letters in order to spell 'nose'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'nose' correctly.",
+            "en": "Well done! You spelled 'nose' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "s",
+              "o",
+              "n"
+            ],
+            "target_word": "nose",
+            "target_sequence": [
+              "n",
+              "o",
+              "s",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chạm vào mũi bạn và mỉm cười nào!' in English?",
+            "en": "How do you say 'Chạm vào mũi bạn và mỉm cười nào!' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chạm vào mũi bạn và mỉm cười nào!' in English?",
+            "en": "How do you say 'Chạm vào mũi bạn và mỉm cười nào!' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chạm vào mũi bạn và mỉm cười nào!",
+            "en": "Choose the English sentence that means: Chạm vào mũi bạn và mỉm cười nào!"
+          },
+          "explanation": {
+            "vi": "'Touch your nose and smile!' means 'Chạm vào mũi bạn và mỉm cười nào!'.",
+            "en": "'Touch your nose and smile!' means 'Chạm vào mũi bạn và mỉm cười nào!'."
+          },
+          "data": {
+            "options": [
+              "Touch your nose and smile!",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Touch your nose and smile!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 4: Touch Your Face & Head'?",
+            "en": "Which of the following is a word from Unit 'Unit 4: Touch Your Face & Head'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 4: Touch Your Face & Head'?",
+            "en": "Which of the following is a word from Unit 'Unit 4: Touch Your Face & Head'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 4: Touch Your Face & Head.",
+            "en": "Remember the words in topic: Unit 4: Touch Your Face & Head."
+          },
+          "explanation": {
+            "vi": "'nose' is a key vocabulary word in this topic.",
+            "en": "'nose' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "nose",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "nose"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'mouth' start with the sound /n/?",
+            "en": "Does the word 'mouth' start with the sound /n/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'mouth' start with the sound /n/? The word 'mouth' starts with letter 'N'.",
+            "en": "Does the word 'mouth' start with the sound /n/? The word 'mouth' starts with letter 'N'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'mouth'.",
+            "en": "Listen to the first sound of 'mouth'."
+          },
+          "explanation": {
+            "vi": "Yes! 'mouth' starts with the sound /n/.",
+            "en": "Yes! 'mouth' starts with the sound /n/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'mouth' starts with letter 'N'.",
+              "en": "The word 'mouth' starts with letter 'N'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'nose'?",
+            "en": "How many letters are there in the word 'nose'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'nose'?",
+            "en": "How many letters are there in the word 'nose'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'nose': 1, 2, 3...",
+            "en": "Count the letters in 'nose': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'nose' has exactly 4 letters.",
+            "en": "The word 'nose' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'nose':",
+            "en": "Choose the correct phrase with 'nose':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'nose':",
+            "en": "Choose the correct phrase with 'nose':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a nose'.",
+            "en": "Correct! We say 'a nose'."
+          },
+          "data": {
+            "options": [
+              "a nose",
+              "an nose",
+              "two nose",
+              "many nose"
+            ],
+            "correct_answer": "a nose"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'nose'.",
+            "en": "Choose the noun: 'nose'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our nose. It is very nice!'",
+            "en": "We say: 'Look! This is our nose. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "nose",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "nose"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 4: Touch Your Face & Head'?",
+            "en": "Which English sentence best describes the topic 'Unit 4: Touch Your Face & Head'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 4: Touch Your Face & Head'?",
+            "en": "Which English sentence best describes the topic 'Unit 4: Touch Your Face & Head'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 4: Touch Your Face & Head'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 4: Touch Your Face & Head'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: nose, mouth!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: nose, mouth!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s4_2",
+      "title": {
+        "vi": "Unit 4: Open Your Mouth & Eyes",
+        "en": "Unit 4: Open Your Mouth & Eyes"
+      },
+      "description": {
+        "vi": "Open your mouth, wash your face, clap your hands",
+        "en": "Open your mouth, wash your face, clap your hands"
+      },
+      "icon": "👄",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s4_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the smiling face with bright eyes and teeth. Which body part is used for speaking and eating?",
+            "en": "Look at the smiling face with bright eyes and teeth. Which body part is used for speaking and eating?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the smiling face with bright eyes and teeth. Which body part is used for speaking and eating?",
+            "en": "Look at the smiling face with bright eyes and teeth. Which body part is used for speaking and eating?"
+          },
+          "hint": {
+            "vi": "We use it for eating, speaking, and singing.",
+            "en": "We use it for eating, speaking, and singing."
+          },
+          "explanation": {
+            "vi": "It's the mouth.",
+            "en": "It's the mouth."
+          },
+          "data": {
+            "options": [
+              "the mouth",
+              "the forehead",
+              "the shoulder",
+              "the hair"
+            ],
+            "correct_answer": "the mouth"
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u4_open_mouth.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s4_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'mouth'?",
+            "en": "What is the first letter of the word 'mouth'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'mouth'?",
+            "en": "What is the first letter of the word 'mouth'?"
+          },
+          "hint": {
+            "vi": "The word 'mouth' starts with the letter M.",
+            "en": "The word 'mouth' starts with the letter M."
+          },
+          "explanation": {
+            "vi": "Correct! 'mouth' begins with the letter 'M'.",
+            "en": "Correct! 'mouth' begins with the letter 'M'."
+          },
+          "data": {
+            "options": [
+              "Letter M",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter M"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "mouth",
+                  "en": "mouth"
+                },
+                "right": {
+                  "vi": "Nghĩa của mouth",
+                  "en": "Nghĩa của mouth"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "eyes",
+                  "en": "eyes"
+                },
+                "right": {
+                  "vi": "Nghĩa của eyes",
+                  "en": "Nghĩa của eyes"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "ears",
+                  "en": "ears"
+                },
+                "right": {
+                  "vi": "Nghĩa của ears",
+                  "en": "Nghĩa của ears"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? Open your mouth and sing along.",
+            "en": "Is this English sentence correct for Grade 3? Open your mouth and sing along."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Open your mouth and sing along.",
+            "en": "Remember the pattern: Open your mouth and sing along."
+          },
+          "explanation": {
+            "vi": "Yes! 'Open your mouth and sing along.' is a correct English sentence.",
+            "en": "Yes! 'Open your mouth and sing along.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Open your mouth and sing along.",
+              "en": "Open your mouth and sing along."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Open your mouth and sing ....",
+            "en": "Drag the correct word to complete the sentence: Open your mouth and sing ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'along'.",
+            "en": "Choose the correct word: 'along'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Open your mouth and sing along.'.",
+            "en": "The complete sentence is: 'Open your mouth and sing along.'."
+          },
+          "data": {
+            "prefix_text": "Open your mouth and sing ",
+            "suffix_text": ".",
+            "options": [
+              "along",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "along"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'mouth':",
+            "en": "Spell the English word 'mouth':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'mouth':",
+            "en": "Spell the English word 'mouth':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'mouth'.",
+            "en": "Tap the letters in order to spell 'mouth'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'mouth' correctly.",
+            "en": "Well done! You spelled 'mouth' correctly."
+          },
+          "data": {
+            "letters": [
+              "h",
+              "t",
+              "u",
+              "o",
+              "m"
+            ],
+            "target_word": "mouth",
+            "target_sequence": [
+              "m",
+              "o",
+              "u",
+              "t",
+              "h"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Mở miệng và cùng nhau hát vang.' in English?",
+            "en": "How do you say 'Mở miệng và cùng nhau hát vang.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Mở miệng và cùng nhau hát vang.' in English?",
+            "en": "How do you say 'Mở miệng và cùng nhau hát vang.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Mở miệng và cùng nhau hát vang.",
+            "en": "Choose the English sentence that means: Mở miệng và cùng nhau hát vang."
+          },
+          "explanation": {
+            "vi": "'Open your mouth and sing along.' means 'Mở miệng và cùng nhau hát vang.'.",
+            "en": "'Open your mouth and sing along.' means 'Mở miệng và cùng nhau hát vang.'."
+          },
+          "data": {
+            "options": [
+              "Open your mouth and sing along.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Open your mouth and sing along."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 4: Open Your Mouth & Eyes'?",
+            "en": "Which of the following is a word from Unit 'Unit 4: Open Your Mouth & Eyes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 4: Open Your Mouth & Eyes'?",
+            "en": "Which of the following is a word from Unit 'Unit 4: Open Your Mouth & Eyes'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 4: Open Your Mouth & Eyes.",
+            "en": "Remember the words in topic: Unit 4: Open Your Mouth & Eyes."
+          },
+          "explanation": {
+            "vi": "'mouth' is a key vocabulary word in this topic.",
+            "en": "'mouth' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "mouth",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "mouth"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'eyes' start with the sound /m/?",
+            "en": "Does the word 'eyes' start with the sound /m/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'eyes' start with the sound /m/? The word 'eyes' starts with letter 'M'.",
+            "en": "Does the word 'eyes' start with the sound /m/? The word 'eyes' starts with letter 'M'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'eyes'.",
+            "en": "Listen to the first sound of 'eyes'."
+          },
+          "explanation": {
+            "vi": "Yes! 'eyes' starts with the sound /m/.",
+            "en": "Yes! 'eyes' starts with the sound /m/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'eyes' starts with letter 'M'.",
+              "en": "The word 'eyes' starts with letter 'M'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'mouth'?",
+            "en": "How many letters are there in the word 'mouth'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'mouth'?",
+            "en": "How many letters are there in the word 'mouth'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'mouth': 1, 2, 3...",
+            "en": "Count the letters in 'mouth': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'mouth' has exactly 5 letters.",
+            "en": "The word 'mouth' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'mouth':",
+            "en": "Choose the correct phrase with 'mouth':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'mouth':",
+            "en": "Choose the correct phrase with 'mouth':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a mouth'.",
+            "en": "Correct! We say 'a mouth'."
+          },
+          "data": {
+            "options": [
+              "a mouth",
+              "an mouth",
+              "two mouth",
+              "many mouth"
+            ],
+            "correct_answer": "a mouth"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'mouth'.",
+            "en": "Choose the noun: 'mouth'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our mouth. It is very nice!'",
+            "en": "We say: 'Look! This is our mouth. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "mouth",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "mouth"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s4_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 4: Open Your Mouth & Eyes'?",
+            "en": "Which English sentence best describes the topic 'Unit 4: Open Your Mouth & Eyes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 4: Open Your Mouth & Eyes'?",
+            "en": "Which English sentence best describes the topic 'Unit 4: Open Your Mouth & Eyes'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 4: Open Your Mouth & Eyes'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 4: Open Your Mouth & Eyes'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: mouth, eyes!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: mouth, eyes!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

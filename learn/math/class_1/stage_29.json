@@ -1,0 +1,1087 @@
+{
+  "id": "m1_stage_29",
+  "stage_number": 29,
+  "title": {
+    "vi": "Tuần 29: Luyện Tập Chung Phép Tính Phạm Vi 100",
+    "en": "Week 29: Operations within 100 Review"
+  },
+  "subtitle": {
+    "vi": "Bài 33 - Tính nhẩm và giải toán",
+    "en": "Lesson 33 - Mental math & word problems"
+  },
+  "icon": "💡",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.166,
+  "required_stars": 84,
+  "theme_color": "0xFF0891B2",
+  "topics": [
+    {
+      "id": "m1_t29_1",
+      "title": {
+        "vi": "Luyện tập tính nhẩm nhanh phạm vi 100",
+        "en": "Mental Math within 100"
+      },
+      "description": {
+        "vi": "Rèn phản xạ tính cộng trừ nhanh không cần nháp",
+        "en": "Rapid mental addition and subtraction"
+      },
+      "icon": "⚡",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m1_t29_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm: 40 + 50 - 20 = ?",
+            "en": "Calculate: 40 + 50 - 20 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm: 40 + 50 - 20 = ?",
+            "en": "Calculate: 40 + 50 - 20 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "40 + 50 = 90, 90 - 20 = 70.",
+            "en": "40 + 50 = 90, 90 - 20 = 70."
+          },
+          "data": {
+            "correct_number": "70",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_1_2",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the missing sum:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the missing sum:"
+          },
+          "hint": {
+            "vi": "Chạm vào thẻ số thích hợp để điền vào ô trống.",
+            "en": "Tap the correct number card to fill the slot."
+          },
+          "explanation": {
+            "vi": "32 + 14 = 46.",
+            "en": "32 + 14 = 46."
+          },
+          "data": {
+            "prefix_text": "32 + 14 = ",
+            "suffix_text": "",
+            "options": [
+              "44",
+              "45",
+              "46",
+              "47"
+            ],
+            "slot_answer": "46"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 78 - 35 = ?",
+            "en": "Calculate: 78 - 35 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 78 - 35 = ?",
+            "en": "Calculate: 78 - 35 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "78 - 35 = 43.",
+            "en": "78 - 35 = 43."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "41",
+                "en": "41"
+              },
+              {
+                "vi": "42",
+                "en": "42"
+              },
+              {
+                "vi": "43",
+                "en": "43"
+              }
+            ],
+            "correct_answer": "43"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_1_4",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 41, 42,  ... , 44",
+            "en": "Drag the correct answer into the slot:\nDãy số: 41, 42,  ... , 44"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 41, 42,  ... , 44",
+            "en": "Drag the correct answer: Dãy số: 41, 42,  ... , 44"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 41, 42,  43 , 44",
+            "en": "Dãy số: 41, 42,  43 , 44"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 41, 42, ",
+            "suffix_text": ", 44",
+            "options": [
+              "42",
+              "43",
+              "45"
+            ],
+            "slot_answer": "43"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_1_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 59 - 44 = ?",
+            "en": "Calculate: 59 - 44 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 59 - 44 = ?",
+            "en": "Calculate: 59 - 44 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 59 - 44.",
+            "en": "Calculate 59 - 44."
+          },
+          "explanation": {
+            "vi": "59 - 44 = 15",
+            "en": "59 - 44 = 15"
+          },
+          "data": {
+            "options": [
+              "17",
+              "14",
+              "15",
+              "16"
+            ],
+            "correct_answer": "15"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_1_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 30, 31,  ... , 33",
+            "en": "Drag the correct answer into the slot:\nDãy số: 30, 31,  ... , 33"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 30, 31,  ... , 33",
+            "en": "Drag the correct answer: Dãy số: 30, 31,  ... , 33"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 30, 31,  32 , 33",
+            "en": "Dãy số: 30, 31,  32 , 33"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 30, 31, ",
+            "suffix_text": ", 33",
+            "options": [
+              "32",
+              "31",
+              "34"
+            ],
+            "slot_answer": "32"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 23 - 23 = ?",
+            "en": "Calculate: 23 - 23 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 23 - 23 = ?",
+            "en": "Calculate: 23 - 23 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 23 - 23.",
+            "en": "Calculate 23 - 23."
+          },
+          "explanation": {
+            "vi": "23 - 23 = 0",
+            "en": "23 - 23 = 0"
+          },
+          "data": {
+            "options": [
+              "2",
+              "0",
+              "1"
+            ],
+            "correct_answer": "0"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 38, 39,  ... , 41",
+            "en": "Drag the correct answer into the slot:\nDãy số: 38, 39,  ... , 41"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 38, 39,  ... , 41",
+            "en": "Drag the correct answer: Dãy số: 38, 39,  ... , 41"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 38, 39,  40 , 41",
+            "en": "Dãy số: 38, 39,  40 , 41"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 38, 39, ",
+            "suffix_text": ", 41",
+            "options": [
+              "40",
+              "39",
+              "42"
+            ],
+            "slot_answer": "40"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t29_2",
+      "title": {
+        "vi": "So sánh giá trị hai biểu thức",
+        "en": "Comparing Expressions"
+      },
+      "description": {
+        "vi": "Tính giá trị mỗi vế rồi điền dấu >, <, =",
+        "en": "Calculate both sides then insert >, <, ="
+      },
+      "icon": "⚖️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m1_t29_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu thích hợp: 30 + 20 ... 60",
+            "en": "Fill symbol: 30 + 20 ... 60"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 30 + 20 ... 60",
+            "en": "Fill symbol: 30 + 20 ... 60"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "30 + 20 = 50, mà 50 < 60 nên điền dấu bé hơn (<).",
+            "en": "30 + 20 = 50 < 60."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu thích hợp: 45 - 12 ... 30 + 3",
+            "en": "Fill symbol: 45 - 12 ... 30 + 3"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 45 - 12 ... 30 + 3",
+            "en": "Fill symbol: 45 - 12 ... 30 + 3"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "45 - 12 = 33 và 30 + 3 = 33 nên hai vế bằng nhau (=).",
+            "en": "Both sides equal 33."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "="
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối biểu thức với giá trị tương ứng:",
+            "en": "Match expressions with values:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối biểu thức với giá trị tương ứng:",
+            "en": "Match expressions with values:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "So sánh và tính nhẩm biểu thức.",
+            "en": "Evaluate expressions accurately."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "25 + 13",
+                  "en": "25 + 13"
+                },
+                "right": {
+                  "vi": "38",
+                  "en": "38"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "67 - 24",
+                  "en": "67 - 24"
+                },
+                "right": {
+                  "vi": "43",
+                  "en": "43"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "50 + 40",
+                  "en": "50 + 40"
+                },
+                "right": {
+                  "vi": "90",
+                  "en": "90"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'So sánh giá trị hai biểu thức': Điền dấu thích hợp: 30 + 20 ... 60",
+            "en": "Practice 'Comparing Expressions': Fill symbol: 30 + 20 ... 60"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 30 + 20 ... 60",
+            "en": "Fill symbol: 30 + 20 ... 60"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "30 + 20 = 50, mà 50 < 60 nên điền dấu bé hơn (<).",
+            "en": "30 + 20 = 50 < 60."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              },
+              {
+                "vi": ">",
+                "en": ">"
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'So sánh giá trị hai biểu thức': Điền dấu thích hợp: 45 - 12 ... 30 + 3",
+            "en": "Practice 'Comparing Expressions': Fill symbol: 45 - 12 ... 30 + 3"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu thích hợp: 45 - 12 ... 30 + 3",
+            "en": "Fill symbol: 45 - 12 ... 30 + 3"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "45 - 12 = 33 và 30 + 3 = 33 nên hai vế bằng nhau (=).",
+            "en": "Both sides equal 33."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              }
+            ],
+            "correct_answer": "="
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 82, ... , 84",
+            "en": "Fill in the missing number:\nSequence: 82, ... , 84"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 82, ... , 84",
+            "en": "Fill in the missing number:\nSequence: 82, ... , 84"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "Số còn thiếu là 83.",
+            "en": "The missing number is 83."
+          },
+          "data": {
+            "prefix_text": "Dãy số: 82, ",
+            "suffix_text": ", 84",
+            "options": [
+              "83",
+              "81",
+              "84",
+              "86"
+            ],
+            "slot_answer": "83"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 10 ... 32",
+            "en": "Choose the right sign: 10 ... 32"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 10 ... 32",
+            "en": "Choose the right sign: 10 ... 32"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "10 < 32 là chính xác.",
+            "en": "10 < 32 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 23 đứng liền trước số 24.",
+            "en": "Is the statement TRUE or FALSE:: Number 23 comes before 24."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 23 đứng liền trước số 24.",
+              "en": "Number 23 comes before 24."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 13, 14, 15, 16.",
+            "en": "Ascending order: 13, 14, 15, 16."
+          },
+          "data": {
+            "items": [
+              "15",
+              "14",
+              "16",
+              "13"
+            ],
+            "correct_order": [
+              "13",
+              "14",
+              "15",
+              "16"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_10",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 1 ... 2",
+            "en": "Choose the right sign: 1 ... 2"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 1 và 2",
+            "en": "Choose the sign for 1 and 2"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 1 < 2 nên chọn dấu <.",
+            "en": "Since 1 < 2, choose <."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Chọn dấu thích hợp điền vào chỗ chấm: 7 ... 9",
+            "en": "Choose the right sign: 7 ... 9"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn dấu thích hợp: 7 và 9",
+            "en": "Choose the sign for 7 and 9"
+          },
+          "hint": {
+            "vi": "So sánh hai số cẩn thận nhé.",
+            "en": "Compare the two numbers."
+          },
+          "explanation": {
+            "vi": "Vì 7 < 9 nên chọn dấu <.",
+            "en": "Since 7 < 9, choose <."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t29_3",
+      "title": {
+        "vi": "Toán thực tế tổng hợp phạm vi 100",
+        "en": "Real-world Math within 100"
+      },
+      "description": {
+        "vi": "Giải toán đố thực tế nhiều bước đơn giản",
+        "en": "Solve practical real-life math puzzles"
+      },
+      "icon": "💡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m1_t29_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Một thư viện có 68 quyển truyện thiếu nhi, đã cho học sinh mượn 25 quyển. Hỏi thư viện còn lại bao nhiêu quyển truyện?",
+            "en": "Library has 68 books, lent 25. How many left?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một thư viện có 68 quyển truyện thiếu nhi, đã cho học sinh mượn 25 quyển. Hỏi thư viện còn lại bao nhiêu quyển truyện?",
+            "en": "Library has 68 books, lent 25. How many left?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "68 - 25 = 43 quyển truyện.",
+            "en": "68 - 25 = 43 storybooks left."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "42 quyển",
+                "en": "42 quyển"
+              },
+              {
+                "vi": "43 quyển",
+                "en": "43 quyển"
+              },
+              {
+                "vi": "44 quyển",
+                "en": "44 quyển"
+              }
+            ],
+            "correct_answer": "43 quyển"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_3_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Đặc điểm phép cộng không nhớ.",
+            "en": "Decide whether the following statement is true or false: Đặc điểm phép cộng không nhớ."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! Phép tính không nhớ có tổng các chữ số mỗi hàng <= 9.",
+            "en": "True! Sum in each column <= 9."
+          },
+          "data": {
+            "statement": {
+              "vi": "Đặc điểm phép cộng không nhớ.",
+              "en": "Đặc điểm phép cộng không nhớ."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_3_3",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 99 - 44 = ?",
+            "en": "Calculate: 99 - 44 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 99 - 44 = ?",
+            "en": "Calculate: 99 - 44 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "99 - 44 = 55.",
+            "en": "99 - 44 = 55."
+          },
+          "data": {
+            "correct_number": "55",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Toán thực tế tổng hợp phạm vi 100': Một thư viện có 68 quyển truyện thiếu nhi, đã cho học sinh mượn 25 quyển. Hỏi thư viện còn lại bao nhiêu quyển truyện?",
+            "en": "Practice 'Real-world Math within 100': Library has 68 books, lent 25. How many left?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một thư viện có 68 quyển truyện thiếu nhi, đã cho học sinh mượn 25 quyển. Hỏi thư viện còn lại bao nhiêu quyển truyện?",
+            "en": "Library has 68 books, lent 25. How many left?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "68 - 25 = 43 quyển truyện.",
+            "en": "68 - 25 = 43 storybooks left."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "44 quyển",
+                "en": "44 quyển"
+              },
+              {
+                "vi": "42 quyển",
+                "en": "42 quyển"
+              },
+              {
+                "vi": "43 quyển",
+                "en": "43 quyển"
+              }
+            ],
+            "correct_answer": "43 quyển"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_3_5",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐱 ở đây nhé:",
+            "en": "Count the 🐱 icons:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐱 ở đây nhé:",
+            "en": "Count the 🐱 icons:"
+          },
+          "hint": {
+            "vi": "Chạm vào từng hình để đếm nhé.",
+            "en": "Tap each item to count."
+          },
+          "explanation": {
+            "vi": "Có tất cả 9 hình 🐱.",
+            "en": "There are 9 items."
+          },
+          "data": {
+            "item_icon": "🐱",
+            "item_count": 9,
+            "options": [
+              "9",
+              "7",
+              "5",
+              "8"
+            ],
+            "correct_answer": "9"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_3_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 73, ... , 75",
+            "en": "Fill in the missing number:\nSequence: 73, ... , 75"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy điền số thích hợp vào ô trống:\nDãy số: 73, ... , 75",
+            "en": "Fill in the missing number:\nSequence: 73, ... , 75"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "Số còn thiếu là 74.",
+            "en": "The missing number is 74."
+          },
+          "data": {
+            "prefix_text": "Dãy số: 73, ",
+            "suffix_text": ", 75",
+            "options": [
+              "74",
+              "77",
+              "75",
+              "72"
+            ],
+            "slot_answer": "74"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_3_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 73 ... 44",
+            "en": "Choose the right sign: 73 ... 44"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 73 ... 44",
+            "en": "Choose the right sign: 73 ... 44"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "73 > 44 là chính xác.",
+            "en": "73 > 44 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": ">"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_3_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 47 bé hơn số 45 (47 < 45).",
+            "en": "Is the statement TRUE or FALSE:: Number 47 is less than 45."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "Statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 47 bé hơn số 45 (47 < 45).",
+              "en": "Number 47 is less than 45."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t29_3_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 91, 92, 93, 94.",
+            "en": "Ascending order: 91, 92, 93, 94."
+          },
+          "data": {
+            "items": [
+              "92",
+              "94",
+              "91",
+              "93"
+            ],
+            "correct_order": [
+              "91",
+              "92",
+              "93",
+              "94"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

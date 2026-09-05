@@ -1,0 +1,1126 @@
+{
+  "id": "e4_stage_5",
+  "stage_number": 5,
+  "title": {
+    "vi": "Week 5: Unit 5 - Things We Can Do",
+    "en": "Week 5: Unit 5 - Things We Can Do"
+  },
+  "subtitle": {
+    "vi": "Abilities: Can you swim / dance / cook / play the piano / ride a bike?",
+    "en": "Abilities: Can you swim / dance / cook / play the piano / ride a bike?"
+  },
+  "icon": "🎹",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.834,
+  "required_stars": 12,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "e5_s5_1",
+      "title": {
+        "vi": "Unit 5: Can You Play the Piano?",
+        "en": "Unit 5: Can You Play the Piano?"
+      },
+      "description": {
+        "vi": "Can you play the piano? - Yes, I can / No, I can't",
+        "en": "Can you play the piano? - Yes, I can / No, I can't"
+      },
+      "icon": "🎹",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e5_s5_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the girl playing melodies on the black and white piano keys. What musical instrument is it?",
+            "en": "Look at the girl playing melodies on the black and white piano keys. What musical instrument is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the girl playing melodies on the black and white piano keys. What musical instrument is it?",
+            "en": "Look at the girl playing melodies on the black and white piano keys. What musical instrument is it?"
+          },
+          "hint": {
+            "vi": "Keyboard musical instrument with 88 black and white keys.",
+            "en": "Keyboard musical instrument with 88 black and white keys."
+          },
+          "explanation": {
+            "vi": "She is playing the piano.",
+            "en": "She is playing the piano."
+          },
+          "data": {
+            "options": [
+              "a grand piano",
+              "a drum kit",
+              "a trumpet",
+              "a triangle"
+            ],
+            "correct_answer": "a grand piano"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u5_astronaut.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s5_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'piano'?",
+            "en": "What is the first letter of the word 'piano'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'piano'?",
+            "en": "What is the first letter of the word 'piano'?"
+          },
+          "hint": {
+            "vi": "The word 'piano' starts with the letter P.",
+            "en": "The word 'piano' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'piano' begins with the letter 'P'.",
+            "en": "Correct! 'piano' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "piano",
+                  "en": "piano"
+                },
+                "right": {
+                  "vi": "Nghĩa của piano",
+                  "en": "Nghĩa của piano"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "guitar",
+                  "en": "guitar"
+                },
+                "right": {
+                  "vi": "Nghĩa của guitar",
+                  "en": "Nghĩa của guitar"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "music",
+                  "en": "music"
+                },
+                "right": {
+                  "vi": "Nghĩa của music",
+                  "en": "Nghĩa của music"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? Can you play the piano? - Yes, I can play very well.",
+            "en": "Is this English sentence correct for Grade 4? Can you play the piano? - Yes, I can play very well."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Can you play the piano? - Yes, I can play very well.",
+            "en": "Remember the pattern: Can you play the piano? - Yes, I can play very well."
+          },
+          "explanation": {
+            "vi": "Yes! 'Can you play the piano? - Yes, I can play very well.' is a correct English sentence.",
+            "en": "Yes! 'Can you play the piano? - Yes, I can play very well.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Can you play the piano? - Yes, I can play very well.",
+              "en": "Can you play the piano? - Yes, I can play very well."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Can you play the piano? - Yes, I can play very ....",
+            "en": "Drag the correct word to complete the sentence: Can you play the piano? - Yes, I can play very ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'well'.",
+            "en": "Choose the correct word: 'well'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Can you play the piano? - Yes, I can play very well.'.",
+            "en": "The complete sentence is: 'Can you play the piano? - Yes, I can play very well.'."
+          },
+          "data": {
+            "prefix_text": "Can you play the piano? - Yes, I can play very ",
+            "suffix_text": ".",
+            "options": [
+              "well",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "well"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'piano':",
+            "en": "Spell the English word 'piano':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'piano':",
+            "en": "Spell the English word 'piano':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'piano'.",
+            "en": "Tap the letters in order to spell 'piano'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'piano' correctly.",
+            "en": "Well done! You spelled 'piano' correctly."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "n",
+              "a",
+              "i",
+              "p"
+            ],
+            "target_word": "piano",
+            "target_sequence": [
+              "p",
+              "i",
+              "a",
+              "n",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Bạn có thể chơi đàn dương cầm không? - Có, tôi chơi rất hay.' in English?",
+            "en": "How do you say 'Bạn có thể chơi đàn dương cầm không? - Có, tôi chơi rất hay.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Bạn có thể chơi đàn dương cầm không? - Có, tôi chơi rất hay.' in English?",
+            "en": "How do you say 'Bạn có thể chơi đàn dương cầm không? - Có, tôi chơi rất hay.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Bạn có thể chơi đàn dương cầm không? - Có, tôi chơi rất hay.",
+            "en": "Choose the English sentence that means: Bạn có thể chơi đàn dương cầm không? - Có, tôi chơi rất hay."
+          },
+          "explanation": {
+            "vi": "'Can you play the piano? - Yes, I can play very well.' means 'Bạn có thể chơi đàn dương cầm không? - Có, tôi chơi rất hay.'.",
+            "en": "'Can you play the piano? - Yes, I can play very well.' means 'Bạn có thể chơi đàn dương cầm không? - Có, tôi chơi rất hay.'."
+          },
+          "data": {
+            "options": [
+              "Can you play the piano? - Yes, I can play very well.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Can you play the piano? - Yes, I can play very well."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 5: Can You Play the Piano?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 5: Can You Play the Piano?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 5: Can You Play the Piano?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 5: Can You Play the Piano?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 5: Can You Play the Piano?.",
+            "en": "Remember the words in topic: Unit 5: Can You Play the Piano?."
+          },
+          "explanation": {
+            "vi": "'piano' is a key vocabulary word in this topic.",
+            "en": "'piano' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "piano",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "piano"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'guitar' start with the sound /p/?",
+            "en": "Does the word 'guitar' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'guitar' start with the sound /p/? The word 'guitar' starts with letter 'P'.",
+            "en": "Does the word 'guitar' start with the sound /p/? The word 'guitar' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'guitar'.",
+            "en": "Listen to the first sound of 'guitar'."
+          },
+          "explanation": {
+            "vi": "Yes! 'guitar' starts with the sound /p/.",
+            "en": "Yes! 'guitar' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'guitar' starts with letter 'P'.",
+              "en": "The word 'guitar' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'piano'?",
+            "en": "How many letters are there in the word 'piano'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'piano'?",
+            "en": "How many letters are there in the word 'piano'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'piano': 1, 2, 3...",
+            "en": "Count the letters in 'piano': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'piano' has exactly 5 letters.",
+            "en": "The word 'piano' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'piano':",
+            "en": "Choose the correct phrase with 'piano':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'piano':",
+            "en": "Choose the correct phrase with 'piano':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a piano'.",
+            "en": "Correct! We say 'a piano'."
+          },
+          "data": {
+            "options": [
+              "a piano",
+              "an piano",
+              "two piano",
+              "many piano"
+            ],
+            "correct_answer": "a piano"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'piano'.",
+            "en": "Choose the word: 'piano'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is piano. It is wonderful!'",
+            "en": "We say: 'Look! This is piano. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "piano",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "piano"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 5: Can You Play the Piano?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 5: Can You Play the Piano?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 5: Can You Play the Piano?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 5: Can You Play the Piano?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 5: Can You Play the Piano?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 5: Can You Play the Piano?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: piano, guitar!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: piano, guitar!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e5_s5_2",
+      "title": {
+        "vi": "Unit 5: Swimming & Riding a Bike",
+        "en": "Unit 5: Swimming & Riding a Bike"
+      },
+      "description": {
+        "vi": "Can you swim? - Yes, I can swim fast / ride a bicycle",
+        "en": "Can you swim? - Yes, I can swim fast / ride a bicycle"
+      },
+      "icon": "🚴",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e5_s5_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy riding his bicycle with two wheels along the park lane. What skill is he demonstrating?",
+            "en": "Look at the boy riding his bicycle with two wheels along the park lane. What skill is he demonstrating?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy riding his bicycle with two wheels along the park lane. What skill is he demonstrating?",
+            "en": "Look at the boy riding his bicycle with two wheels along the park lane. What skill is he demonstrating?"
+          },
+          "hint": {
+            "vi": "Balancing and pedaling on a two-wheeled bicycle.",
+            "en": "Balancing and pedaling on a two-wheeled bicycle."
+          },
+          "explanation": {
+            "vi": "He is riding a bicycle.",
+            "en": "He is riding a bicycle."
+          },
+          "data": {
+            "options": [
+              "riding a bicycle skillfully",
+              "flying an airplane",
+              "driving a train",
+              "sailing a ship"
+            ],
+            "correct_answer": "riding a bicycle skillfully"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u5_architect.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s5_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'swim'?",
+            "en": "What is the first letter of the word 'swim'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'swim'?",
+            "en": "What is the first letter of the word 'swim'?"
+          },
+          "hint": {
+            "vi": "The word 'swim' starts with the letter S.",
+            "en": "The word 'swim' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'swim' begins with the letter 'S'.",
+            "en": "Correct! 'swim' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "swim",
+                  "en": "swim"
+                },
+                "right": {
+                  "vi": "Nghĩa của swim",
+                  "en": "Nghĩa của swim"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "ride",
+                  "en": "ride"
+                },
+                "right": {
+                  "vi": "Nghĩa của ride",
+                  "en": "Nghĩa của ride"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "bike",
+                  "en": "bike"
+                },
+                "right": {
+                  "vi": "Nghĩa của bike",
+                  "en": "Nghĩa của bike"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? He can ride a bike and swim across the pool.",
+            "en": "Is this English sentence correct for Grade 4? He can ride a bike and swim across the pool."
+          },
+          "hint": {
+            "vi": "Remember the pattern: He can ride a bike and swim across the pool.",
+            "en": "Remember the pattern: He can ride a bike and swim across the pool."
+          },
+          "explanation": {
+            "vi": "Yes! 'He can ride a bike and swim across the pool.' is a correct English sentence.",
+            "en": "Yes! 'He can ride a bike and swim across the pool.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "He can ride a bike and swim across the pool.",
+              "en": "He can ride a bike and swim across the pool."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: He can ride a bike and swim across the ....",
+            "en": "Drag the correct word to complete the sentence: He can ride a bike and swim across the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'pool'.",
+            "en": "Choose the correct word: 'pool'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'He can ride a bike and swim across the pool.'.",
+            "en": "The complete sentence is: 'He can ride a bike and swim across the pool.'."
+          },
+          "data": {
+            "prefix_text": "He can ride a bike and swim across the ",
+            "suffix_text": ".",
+            "options": [
+              "pool",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "pool"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'swim':",
+            "en": "Spell the English word 'swim':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'swim':",
+            "en": "Spell the English word 'swim':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'swim'.",
+            "en": "Tap the letters in order to spell 'swim'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'swim' correctly.",
+            "en": "Well done! You spelled 'swim' correctly."
+          },
+          "data": {
+            "letters": [
+              "m",
+              "i",
+              "w",
+              "s"
+            ],
+            "target_word": "swim",
+            "target_sequence": [
+              "s",
+              "w",
+              "i",
+              "m"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cậu ấy có thể đi xe đạp và bơi qua hồ bơi.' in English?",
+            "en": "How do you say 'Cậu ấy có thể đi xe đạp và bơi qua hồ bơi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cậu ấy có thể đi xe đạp và bơi qua hồ bơi.' in English?",
+            "en": "How do you say 'Cậu ấy có thể đi xe đạp và bơi qua hồ bơi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cậu ấy có thể đi xe đạp và bơi qua hồ bơi.",
+            "en": "Choose the English sentence that means: Cậu ấy có thể đi xe đạp và bơi qua hồ bơi."
+          },
+          "explanation": {
+            "vi": "'He can ride a bike and swim across the pool.' means 'Cậu ấy có thể đi xe đạp và bơi qua hồ bơi.'.",
+            "en": "'He can ride a bike and swim across the pool.' means 'Cậu ấy có thể đi xe đạp và bơi qua hồ bơi.'."
+          },
+          "data": {
+            "options": [
+              "He can ride a bike and swim across the pool.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "He can ride a bike and swim across the pool."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 5: Swimming & Riding a Bike'?",
+            "en": "Which of the following is a key word from Unit 'Unit 5: Swimming & Riding a Bike'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 5: Swimming & Riding a Bike'?",
+            "en": "Which of the following is a key word from Unit 'Unit 5: Swimming & Riding a Bike'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 5: Swimming & Riding a Bike.",
+            "en": "Remember the words in topic: Unit 5: Swimming & Riding a Bike."
+          },
+          "explanation": {
+            "vi": "'swim' is a key vocabulary word in this topic.",
+            "en": "'swim' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "swim",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "swim"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'ride' start with the sound /s/?",
+            "en": "Does the word 'ride' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'ride' start with the sound /s/? The word 'ride' starts with letter 'S'.",
+            "en": "Does the word 'ride' start with the sound /s/? The word 'ride' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'ride'.",
+            "en": "Listen to the first sound of 'ride'."
+          },
+          "explanation": {
+            "vi": "Yes! 'ride' starts with the sound /s/.",
+            "en": "Yes! 'ride' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'ride' starts with letter 'S'.",
+              "en": "The word 'ride' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'swim'?",
+            "en": "How many letters are there in the word 'swim'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'swim'?",
+            "en": "How many letters are there in the word 'swim'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'swim': 1, 2, 3...",
+            "en": "Count the letters in 'swim': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'swim' has exactly 4 letters.",
+            "en": "The word 'swim' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'swim':",
+            "en": "Choose the correct phrase with 'swim':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'swim':",
+            "en": "Choose the correct phrase with 'swim':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a swim'.",
+            "en": "Correct! We say 'a swim'."
+          },
+          "data": {
+            "options": [
+              "a swim",
+              "an swim",
+              "two swim",
+              "many swim"
+            ],
+            "correct_answer": "a swim"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'swim'.",
+            "en": "Choose the word: 'swim'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is swim. It is wonderful!'",
+            "en": "We say: 'Look! This is swim. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "swim",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "swim"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s5_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 5: Swimming & Riding a Bike'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 5: Swimming & Riding a Bike'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 5: Swimming & Riding a Bike'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 5: Swimming & Riding a Bike'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 5: Swimming & Riding a Bike'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 5: Swimming & Riding a Bike'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: swim, ride!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: swim, ride!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

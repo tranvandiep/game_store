@@ -1,0 +1,936 @@
+{
+  "id": "m5_stage_22",
+  "stage_number": 22,
+  "title": {
+    "vi": "Chặng 22: Khái Niệm Thể Tích & Bảng Đơn Vị cm³, dm³, m³",
+    "en": "Stage 22: Volume Concept & Cubic Units (cm³, dm³, m³)"
+  },
+  "subtitle": {
+    "vi": "Đo sức chứa không gian và mối quan hệ giữa cm³, dm³, m³, lít",
+    "en": "Capacity in space and relation between cm³, dm³, m³, liters"
+  },
+  "icon": "🧊",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFF3F51B5",
+  "topics": [
+    {
+      "id": "m5_t22_1",
+      "title": {
+        "vi": "Khái niệm Thể Tích của một hình",
+        "en": "Concept of Volume"
+      },
+      "description": {
+        "vi": "Thể tích là khoảng không gian mà hình đó chiếm chỗ",
+        "en": "Volume is the amount of 3D space occupied by an object"
+      },
+      "icon": "📦",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t22_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Để so sánh thể tích của hai hình, người ta thường dùng các hình lập phương nhỏ có cùng kích thước để:",
+            "en": "To compare volume of two shapes, we count:"
+          },
+          "tts_prompt": {
+            "vi": "Để so sánh thể tích của hai hình, người ta thường dùng các hình lập phương nhỏ có cùng kích thước để:",
+            "en": "To compare volume of two shapes, we count:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "Đếm số hình lập phương nhỏ tạo thành mỗi hình",
+              "Cân trọng lượng",
+              "Đo chu vi"
+            ],
+            "answer": "Đếm số hình lập phương nhỏ tạo thành mỗi hình"
+          },
+          "hint": {
+            "vi": "Hình nào gồm nhiều hình lập phương đơn vị hơn thì có thể tích lớn hơn.",
+            "en": "Count unit cubes."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là Đếm số hình lập phương nhỏ tạo thành mỗi hình. Hình nào gồm nhiều hình lập phương đơn vị hơn thì có thể tích lớn hơn.",
+            "en": "Correct answer is Đếm số hình lập phương nhỏ tạo thành mỗi hình. Count unit cubes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_5",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 9 bé hơn số 8 (9 < 8).",
+            "en": "Decide whether the following statement is true or false: Số 9 bé hơn số 8 (9 < 8)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 9 bé hơn số 8 (9 < 8).",
+              "en": "Số 9 bé hơn số 8 (9 < 8)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 3,  ... , 5",
+            "en": "Drag the correct answer into the slot:\nDãy số: 3,  ... , 5"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 3,  ... , 5",
+            "en": "Drag the correct answer: Dãy số: 3,  ... , 5"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 3,  4 , 5",
+            "en": "Dãy số: 3,  4 , 5"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 3, ",
+            "suffix_text": ", 5",
+            "options": [
+              "7",
+              "4",
+              "6",
+              "3"
+            ],
+            "slot_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 1 đứng liền trước số 2.",
+            "en": "Decide whether the following statement is true or false: Số 1 đứng liền trước số 2."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 1 đứng liền trước số 2.",
+              "en": "Số 1 đứng liền trước số 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_9",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 7,  ... , 9",
+            "en": "Drag the correct answer into the slot:\nDãy số: 7,  ... , 9"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 7,  ... , 9",
+            "en": "Drag the correct answer: Dãy số: 7,  ... , 9"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 7,  8 , 9",
+            "en": "Dãy số: 7,  8 , 9"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 7, ",
+            "suffix_text": ", 9",
+            "options": [
+              "7",
+              "8",
+              "11",
+              "10"
+            ],
+            "slot_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 bé hơn số 4 (5 < 4).",
+            "en": "Decide whether the following statement is true or false: Số 5 bé hơn số 4 (5 < 4)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 bé hơn số 4 (5 < 4).",
+              "en": "Số 5 bé hơn số 4 (5 < 4)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 9.1:",
+            "en": "Decimal fraction for 9.1:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 9.1:",
+            "en": "Decimal fraction for 9.1:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "9.1 = 91/10.",
+            "en": "9.1 = 91/10."
+          },
+          "data": {
+            "prefix_text": "9.1 = ",
+            "suffix_text": "",
+            "options": [
+              "92/10",
+              "91/100",
+              "91/10",
+              "9/10"
+            ],
+            "slot_answer": "91/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 4.3:",
+            "en": "Decimal fraction for 4.3:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 4.3:",
+            "en": "Decimal fraction for 4.3:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "4.3 = 43/10.",
+            "en": "4.3 = 43/10."
+          },
+          "data": {
+            "prefix_text": "4.3 = ",
+            "suffix_text": "",
+            "options": [
+              "44/10",
+              "43/100",
+              "4/10",
+              "43/10"
+            ],
+            "slot_answer": "43/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 20 : 100 = 40.",
+            "en": "Result is 40."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              }
+            ],
+            "correct_answer": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t22_2",
+      "title": {
+        "vi": "Xăng-ti-mét khối (cm³) & Đề-xi-mét khối (dm³)",
+        "en": "Cubic Centimeters (cm³) & Cubic Decimeters (dm³)"
+      },
+      "description": {
+        "vi": "1 dm³ = 1000 cm³; 1 dm³ = 1 lít (l)",
+        "en": "1 dm³ = 1,000 cm³; 1 dm³ = 1 liter (L)"
+      },
+      "icon": "🧊",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t22_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "1 đề-xi-mét khối (dm³) bằng bao nhiêu xăng-ti-mét khối (cm³)?",
+            "en": "How many cm³ is 1 dm³?"
+          },
+          "tts_prompt": {
+            "vi": "1 đề-xi-mét khối (dm³) bằng bao nhiêu xăng-ti-mét khối (cm³)?",
+            "en": "How many cm³ is 1 dm³?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 1000,
+            "unit": "cm³"
+          },
+          "hint": {
+            "vi": "1 dm³ = 10 x 10 x 10 = 1 000 cm³.",
+            "en": "1 dm³ = 1,000 cm³."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 1000 cm³. 1 dm³ = 10 x 10 x 10 = 1 000 cm³.",
+            "en": "The exact result is 1000 cm³. 1 dm³ = 1,000 cm³."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "1 đề-xi-mét khối (dm³) chất lỏng có dung tích bằng đúng:",
+            "en": "1 dm³ of liquid capacity is equal to:"
+          },
+          "tts_prompt": {
+            "vi": "1 đề-xi-mét khối (dm³) chất lỏng có dung tích bằng đúng:",
+            "en": "1 dm³ of liquid capacity is equal to:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "1 lít (l)",
+              "10 lít",
+              "100 lít"
+            ],
+            "answer": "1 lít (l)"
+          },
+          "hint": {
+            "vi": "1 dm³ = 1 lít nước.",
+            "en": "1 dm³ = 1 liter."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là 1 lít (l). 1 dm³ = 1 lít nước.",
+            "en": "Correct answer is 1 lít (l). 1 dm³ = 1 liter."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các thể tích tương đương:",
+            "en": "Match equivalent volumes:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các thể tích tương đương:",
+            "en": "Match equivalent volumes:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": "1 dm³",
+                "right": "1000 cm³ (1 lít)"
+              },
+              {
+                "id": "p2",
+                "left": "4,5 dm³",
+                "right": "4500 cm³ (4,5 lít)"
+              },
+              {
+                "id": "p3",
+                "left": "3500 cm³",
+                "right": "3,5 dm³ (3,5 lít)"
+              }
+            ]
+          },
+          "hint": {
+            "vi": "Quy đổi thể tích cm³ và dm³.",
+            "en": "Volume conversions cm³ and dm³."
+          },
+          "explanation": {
+            "vi": "Nối chính xác các cặp tương ứng. Quy đổi thể tích cm³ và dm³.",
+            "en": "Match corresponding pairs accurately. Volume conversions cm³ and dm³."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 1.7:",
+            "en": "Decimal fraction for 1.7:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 1.7:",
+            "en": "Decimal fraction for 1.7:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "1.7 = 17/10.",
+            "en": "1.7 = 17/10."
+          },
+          "data": {
+            "prefix_text": "1.7 = ",
+            "suffix_text": "",
+            "options": [
+              "17/100",
+              "18/10",
+              "1/10",
+              "17/10"
+            ],
+            "slot_answer": "17/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 10 : 100 = 20.",
+            "en": "Result is 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "20",
+                "en": "20"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_2_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t22_3",
+      "title": {
+        "vi": "Mét khối (m³) & Bảng đơn vị đo thể tích",
+        "en": "Cubic Meters (m³) & Volume Units Table"
+      },
+      "description": {
+        "vi": "1 m³ = 1000 dm³ = 1 000 000 cm³; Mỗi đơn vị thể tích gấp kém nhau 1000 lần",
+        "en": "1 m³ = 1,000 dm³ = 1,000,000 cm³; Factor of 1,000 between consecutive units"
+      },
+      "icon": "🏢",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t22_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "1 mét khối (m³) bằng bao nhiêu đề-xi-mét khối (dm³ / lít)?",
+            "en": "How many dm³ (liters) is 1 m³?"
+          },
+          "tts_prompt": {
+            "vi": "1 mét khối (m³) bằng bao nhiêu đề-xi-mét khối (dm³ / lít)?",
+            "en": "How many dm³ (liters) is 1 m³?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 1000,
+            "unit": "dm³"
+          },
+          "hint": {
+            "vi": "1 m³ = 1000 dm³ = 1000 lít.",
+            "en": "1 m³ = 1,000 dm³ = 1,000 liters."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 1000 dm³. 1 m³ = 1000 dm³ = 1000 lít.",
+            "en": "The exact result is 1000 dm³. 1 m³ = 1,000 dm³ = 1,000 liters."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Trong bảng đơn vị đo thể tích, mỗi đơn vị đo gấp 1000 lần đơn vị bé hơn liền kề (gấp 1 000 lần có 3 chữ số 0).",
+            "en": "Decide whether the following statement is true or false: Trong bảng đơn vị đo thể tích, mỗi đơn vị đo gấp 1000 lần đơn vị bé hơn liền kề (gấp 1 000 lần có 3 chữ số 0)."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Trong bảng đơn vị đo thể tích, mỗi đơn vị đo gấp 1000 lần đơn vị bé hơn liền kề (gấp 1 000 lần có 3 chữ số 0).",
+              "en": "Trong bảng đơn vị đo thể tích, mỗi đơn vị đo gấp 1000 lần đơn vị bé hơn liền kề (gấp 1 000 lần có 3 chữ số 0)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 20 : 100 = 40.",
+            "en": "Result is 40."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              }
+            ],
+            "correct_answer": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t22_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

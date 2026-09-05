@@ -1,0 +1,1006 @@
+{
+  "id": "m4_stage_27",
+  "stage_number": 27,
+  "title": {
+    "vi": "Tuần 27: Hình Thoi & Diện Tích Hình Thoi",
+    "en": "Week 27: Rhombus & Rhombus Area Formula"
+  },
+  "subtitle": {
+    "vi": "Trang 140-145: Hai đường chéo vuông góc; Diện tích S = (m x n) : 2",
+    "en": "Pages 140-145: Perpendicular diagonals & Area = (m * n) / 2"
+  },
+  "icon": "🔷",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.222,
+  "required_stars": 78,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "m4_t27_1",
+      "title": {
+        "vi": "Giới thiệu Hình Thoi & Tính chất",
+        "en": "Rhombus & Its Properties"
+      },
+      "description": {
+        "vi": "Hình thoi có hai cặp cạnh đối diện song song và 4 cạnh bằng nhau; Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường",
+        "en": "4 equal sides, opposite parallel, perpendicular diagonals bisecting each other"
+      },
+      "icon": "🔷",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t27_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hình thoi có đặc điểm nào dưới đây về hai đường chéo?",
+            "en": "Characteristic of rhombus diagonals:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình thoi có đặc điểm nào dưới đây về hai đường chéo?",
+            "en": "Characteristic of rhombus diagonals:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Hai đường chéo hình thoi vuông góc tại trung điểm mỗi đường.",
+            "en": "Perpendicular diagonals bisect each other."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường",
+                "en": "Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường"
+              },
+              {
+                "vi": "Hai đường chéo song song với nhau",
+                "en": "Hai đường chéo song song với nhau"
+              },
+              {
+                "vi": "Hai đường chéo luôn bằng nhau",
+                "en": "Hai đường chéo luôn bằng nhau"
+              }
+            ],
+            "correct_answer": "Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_2",
+          "type": "multipleChoice",
+          "text": {
+            "vi": "Chọn TẤT CẢ các đặc điểm đúng của Hình Thoi:",
+            "en": "Select ALL true properties of a Rhombus:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn TẤT CẢ các đặc điểm đúng của Hình Thoi:",
+            "en": "Select ALL true properties of a Rhombus:"
+          },
+          "hint": {
+            "vi": "Bé chú ý có thể có nhiều hơn 1 đáp án đúng nhé.",
+            "en": "There may be more than one correct answer."
+          },
+          "explanation": {
+            "vi": "Hình thoi có 4 cạnh bằng nhau, cạnh đối song song, đường chéo vuông góc (nếu có 4 góc vuông thì là hình vuông).",
+            "en": "4 equal sides, opposite parallel, perpendicular diagonals."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Có 4 cạnh bằng nhau",
+                "en": "Có 4 cạnh bằng nhau"
+              },
+              {
+                "vi": "Có hai cặp cạnh đối diện song song",
+                "en": "Có hai cặp cạnh đối diện song song"
+              },
+              {
+                "vi": "Hai đường chéo vuông góc với nhau",
+                "en": "Hai đường chéo vuông góc với nhau"
+              },
+              {
+                "vi": "Luôn có 4 góc vuông",
+                "en": "Luôn có 4 góc vuông"
+              }
+            ],
+            "correct_answers": [
+              "Có 4 cạnh bằng nhau",
+              "Có hai cặp cạnh đối diện song song",
+              "Hai đường chéo vuông góc với nhau"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quan hệ hình vuông và hình thoi.",
+            "en": "Decide whether the following statement is true or false: Quan hệ hình vuông và hình thoi."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Hình vuông vừa là hình thoi vừa là hình chữ nhật.",
+            "en": "True! Square is a right-angled rhombus."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quan hệ hình vuông và hình thoi.",
+              "en": "Quan hệ hình vuông và hình thoi."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Giới thiệu Hình Thoi & Tính chất': Hình thoi có đặc điểm nào dưới đây về hai đường chéo?",
+            "en": "Practice 'Rhombus & Its Properties': Characteristic of rhombus diagonals:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình thoi có đặc điểm nào dưới đây về hai đường chéo?",
+            "en": "Characteristic of rhombus diagonals:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Hai đường chéo hình thoi vuông góc tại trung điểm mỗi đường.",
+            "en": "Perpendicular diagonals bisect each other."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường",
+                "en": "Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường"
+              },
+              {
+                "vi": "Hai đường chéo song song với nhau",
+                "en": "Hai đường chéo song song với nhau"
+              },
+              {
+                "vi": "Hai đường chéo luôn bằng nhau",
+                "en": "Hai đường chéo luôn bằng nhau"
+              }
+            ],
+            "correct_answer": "Hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của mỗi đường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 đứng liền trước số 6.",
+            "en": "Decide whether the following statement is true or false: Số 5 đứng liền trước số 6."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 đứng liền trước số 6.",
+              "en": "Số 5 đứng liền trước số 6."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 bé hơn số 4 (5 < 4).",
+            "en": "Decide whether the following statement is true or false: Số 5 bé hơn số 4 (5 < 4)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 bé hơn số 4 (5 < 4).",
+              "en": "Số 5 bé hơn số 4 (5 < 4)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 95728 đến hàng nghìn:",
+            "en": "Round 95728 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 95728 đến hàng nghìn:",
+            "en": "Round 95728 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "95000",
+                "en": "95000"
+              },
+              {
+                "vi": "96000",
+                "en": "96000"
+              },
+              {
+                "vi": "94000",
+                "en": "94000"
+              }
+            ],
+            "correct_answer": "96000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 89865 đến hàng nghìn:",
+            "en": "Round 89865 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 89865 đến hàng nghìn:",
+            "en": "Round 89865 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "89000",
+                "en": "89000"
+              },
+              {
+                "vi": "90000",
+                "en": "90000"
+              },
+              {
+                "vi": "88000",
+                "en": "88000"
+              }
+            ],
+            "correct_answer": "90000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 17 và 25 là:",
+            "en": "Average of 17 and 25 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 17 và 25 là:",
+            "en": "Average of 17 and 25 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(17 + 25) : 2 = 21.",
+            "en": "Average is 21."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "21"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t27_2",
+      "title": {
+        "vi": "Diện tích Hình Thoi (Công thức chuẩn)",
+        "en": "Area of a Rhombus"
+      },
+      "description": {
+        "vi": "Diện tích hình thoi bằng tích độ dài hai đường chéo chia cho 2: S = (m x n) : 2 (cùng đơn vị đo)",
+        "en": "S = (m * n) / 2 where m, n are diagonal lengths"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t27_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Muốn tính diện tích hình thoi, ta làm thế nào?",
+            "en": "How do you calculate area of a rhombus?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Muốn tính diện tích hình thoi, ta làm thế nào?",
+            "en": "How do you calculate area of a rhombus?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "S = (m x n) : 2.",
+            "en": "S = (m * n) / 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Lấy tích độ dài hai đường chéo chia cho 2 (cùng đơn vị đo)",
+                "en": "Lấy tích độ dài hai đường chéo chia cho 2 (cùng đơn vị đo)"
+              },
+              {
+                "vi": "Lấy độ dài một cạnh nhân với 4",
+                "en": "Lấy độ dài một cạnh nhân với 4"
+              },
+              {
+                "vi": "Lấy độ dài hai đường chéo cộng lại",
+                "en": "Lấy độ dài hai đường chéo cộng lại"
+              }
+            ],
+            "correct_answer": "Lấy tích độ dài hai đường chéo chia cho 2 (cùng đơn vị đo)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một hình thoi có độ dài hai đường chéo lần lượt là m = 16 cm và n = 10 cm. Diện tích hình thoi là mấy cm²?",
+            "en": "Rhombus with diagonals 16cm and 10cm. Area in cm²:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một hình thoi có độ dài hai đường chéo lần lượt là m = 16 cm và n = 10 cm. Diện tích hình thoi là mấy cm²?",
+            "en": "Rhombus with diagonals 16cm and 10cm. Area in cm²:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "S = (16 x 10) : 2 = 160 : 2 = 80 cm².",
+            "en": "S = (16 * 10) / 2 = 80 cm²."
+          },
+          "data": {
+            "correct_number": "80",
+            "unit": "cm²"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_2_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép công thức diện tích hình thoi: S = (m x n) : 2",
+            "en": "Arrange rhombus area formula: S = (m * n) : 2"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép công thức diện tích hình thoi: S = (m x n) : 2",
+            "en": "Arrange rhombus area formula: S = (m * n) : 2"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "S = (m x n) : 2.",
+            "en": "S = (m * n) : 2."
+          },
+          "data": {
+            "target_word": "S = (m x n) : 2",
+            "pool_tokens": [
+              "S",
+              "=",
+              "(m x n)",
+              ":",
+              "2"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Diện tích Hình Thoi (Công thức chuẩn)': Muốn tính diện tích hình thoi, ta làm thế nào?",
+            "en": "Practice 'Area of a Rhombus': How do you calculate area of a rhombus?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Muốn tính diện tích hình thoi, ta làm thế nào?",
+            "en": "How do you calculate area of a rhombus?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "S = (m x n) : 2.",
+            "en": "S = (m * n) / 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Lấy độ dài hai đường chéo cộng lại",
+                "en": "Lấy độ dài hai đường chéo cộng lại"
+              },
+              {
+                "vi": "Lấy tích độ dài hai đường chéo chia cho 2 (cùng đơn vị đo)",
+                "en": "Lấy tích độ dài hai đường chéo chia cho 2 (cùng đơn vị đo)"
+              },
+              {
+                "vi": "Lấy độ dài một cạnh nhân với 4",
+                "en": "Lấy độ dài một cạnh nhân với 4"
+              }
+            ],
+            "correct_answer": "Lấy tích độ dài hai đường chéo chia cho 2 (cùng đơn vị đo)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'DIỆN'",
+            "en": "Arrange the letters to spell the keyword: 'DIỆN'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa DIỆN",
+            "en": "Arrange the letters to spell DIỆN"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: DIỆN",
+            "en": "The keyword is: DIỆN"
+          },
+          "data": {
+            "target_word": "DIỆN",
+            "scrambled_letters": [
+              "I",
+              "D",
+              "N",
+              "Ệ"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 47 và 43 là:",
+            "en": "Average of 47 and 43 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 47 và 43 là:",
+            "en": "Average of 47 and 43 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(47 + 43) : 2 = 45.",
+            "en": "Average is 45."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "45"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 18 và 22 là:",
+            "en": "Average of 18 and 22 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 18 và 22 là:",
+            "en": "Average of 18 and 22 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(18 + 22) : 2 = 20.",
+            "en": "Average is 20."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "20"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t27_3",
+      "title": {
+        "vi": "Luyện tập tính chu vi & diện tích hình thoi",
+        "en": "Rhombus Practice"
+      },
+      "description": {
+        "vi": "Chu vi = Cạnh x 4; Diện tích = (m x n) : 2",
+        "en": "P = Side * 4; Area = (m * n) / 2"
+      },
+      "icon": "🏆",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t27_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một mảnh đất hình thoi có cạnh dài 15 m. Chu vi mảnh đất là bao nhiêu mét?",
+            "en": "Rhombus land side 15m. Perimeter in meters:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Một mảnh đất hình thoi có cạnh dài 15 m. Chu vi mảnh đất là bao nhiêu mét?",
+            "en": "Rhombus land side 15m. Perimeter in meters:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Chu vi = 15 x 4 = 60 m.",
+            "en": "15 * 4 = 60m."
+          },
+          "data": {
+            "correct_number": "60",
+            "unit": "m"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Hình thoi có độ dài hai đường chéo là 4 dm và 30 cm. Diện tích hình thoi là bao nhiêu cm²?",
+            "en": "Diagonals 4dm (40cm) and 30cm. Area in cm²:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình thoi có độ dài hai đường chéo là 4 dm và 30 cm. Diện tích hình thoi là bao nhiêu cm²?",
+            "en": "Diagonals 4dm (40cm) and 30cm. Area in cm²:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "4 dm = 40 cm; S = (40 x 30) : 2 = 600 cm².",
+            "en": "S = (40 * 30) / 2 = 600 cm²."
+          },
+          "data": {
+            "correct_number": "600",
+            "unit": "cm²"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Lưu ý đơn vị đo.",
+            "en": "Decide whether the following statement is true or false: Lưu ý đơn vị đo."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Luôn quy về cùng đơn vị đo.",
+            "en": "True! Same unit required."
+          },
+          "data": {
+            "statement": {
+              "vi": "Lưu ý đơn vị đo.",
+              "en": "Lưu ý đơn vị đo."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t27_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 43 và 21 là:",
+            "en": "Average of 43 and 21 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 43 và 21 là:",
+            "en": "Average of 43 and 21 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(43 + 21) : 2 = 32.",
+            "en": "Average is 32."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "32"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

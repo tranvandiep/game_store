@@ -1,0 +1,1126 @@
+{
+  "id": "e4_stage_14",
+  "stage_number": 14,
+  "title": {
+    "vi": "Week 14: Summer Vacation Memories",
+    "en": "Week 14: Summer Vacation Memories"
+  },
+  "subtitle": {
+    "vi": "Activities: exploring caves, swimming in sea, taking photos, building sandcastles",
+    "en": "Activities: exploring caves, swimming in sea, taking photos, building sandcastles"
+  },
+  "icon": "📸",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.573,
+  "required_stars": 39,
+  "theme_color": "0xFF4338CA",
+  "topics": [
+    {
+      "id": "e4_s14_1",
+      "title": {
+        "vi": "Exploring Ha Long Bay Caves",
+        "en": "Exploring Ha Long Bay Caves"
+      },
+      "description": {
+        "vi": "Boating through emerald waters and mystical limestone caves",
+        "en": "Boating through emerald waters and mystical limestone caves"
+      },
+      "icon": "🚤",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s14_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the famous limestone karst islands rising from green emerald sea water. Which famous bay is it?",
+            "en": "Look at the famous limestone karst islands rising from green emerald sea water. Which famous bay is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the famous limestone karst islands rising from green emerald sea water. Which famous bay is it?",
+            "en": "Look at the famous limestone karst islands rising from green emerald sea water. Which famous bay is it?"
+          },
+          "hint": {
+            "vi": "UNESCO World Heritage site in northern Vietnam with limestone islands.",
+            "en": "UNESCO World Heritage site in northern Vietnam with limestone islands."
+          },
+          "explanation": {
+            "vi": "It's the magnificent Ha Long Bay.",
+            "en": "It's the magnificent Ha Long Bay."
+          },
+          "data": {
+            "options": [
+              "Ha Long Bay, Vietnam",
+              "Niagara Falls",
+              "Grand Canyon",
+              "Mount Everest"
+            ],
+            "correct_answer": "Ha Long Bay, Vietnam"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u10_halong_bay.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s14_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'cave'?",
+            "en": "What is the first letter of the word 'cave'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'cave'?",
+            "en": "What is the first letter of the word 'cave'?"
+          },
+          "hint": {
+            "vi": "The word 'cave' starts with the letter C.",
+            "en": "The word 'cave' starts with the letter C."
+          },
+          "explanation": {
+            "vi": "Correct! 'cave' begins with the letter 'C'.",
+            "en": "Correct! 'cave' begins with the letter 'C'."
+          },
+          "data": {
+            "options": [
+              "Letter C",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter C"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cave",
+                  "en": "cave"
+                },
+                "right": {
+                  "vi": "Nghĩa của cave",
+                  "en": "Nghĩa của cave"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bay",
+                  "en": "bay"
+                },
+                "right": {
+                  "vi": "Nghĩa của bay",
+                  "en": "Nghĩa của bay"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "boat",
+                  "en": "boat"
+                },
+                "right": {
+                  "vi": "Nghĩa của boat",
+                  "en": "Nghĩa của boat"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? We explored amazing caves in Ha Long Bay.",
+            "en": "Is this English sentence correct for Grade 4? We explored amazing caves in Ha Long Bay."
+          },
+          "hint": {
+            "vi": "Remember the pattern: We explored amazing caves in Ha Long Bay.",
+            "en": "Remember the pattern: We explored amazing caves in Ha Long Bay."
+          },
+          "explanation": {
+            "vi": "Yes! 'We explored amazing caves in Ha Long Bay.' is a correct English sentence.",
+            "en": "Yes! 'We explored amazing caves in Ha Long Bay.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "We explored amazing caves in Ha Long Bay.",
+              "en": "We explored amazing caves in Ha Long Bay."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: We explored amazing caves in Ha Long ....",
+            "en": "Drag the correct word to complete the sentence: We explored amazing caves in Ha Long ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Bay'.",
+            "en": "Choose the correct word: 'Bay'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'We explored amazing caves in Ha Long Bay.'.",
+            "en": "The complete sentence is: 'We explored amazing caves in Ha Long Bay.'."
+          },
+          "data": {
+            "prefix_text": "We explored amazing caves in Ha Long ",
+            "suffix_text": ".",
+            "options": [
+              "Bay",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Bay"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'cave':",
+            "en": "Spell the English word 'cave':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'cave':",
+            "en": "Spell the English word 'cave':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'cave'.",
+            "en": "Tap the letters in order to spell 'cave'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'cave' correctly.",
+            "en": "Well done! You spelled 'cave' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "v",
+              "a",
+              "c"
+            ],
+            "target_word": "cave",
+            "target_sequence": [
+              "c",
+              "a",
+              "v",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chúng tôi đã khám phá những hang động kỳ thú ở Vịnh Hạ Long.' in English?",
+            "en": "How do you say 'Chúng tôi đã khám phá những hang động kỳ thú ở Vịnh Hạ Long.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chúng tôi đã khám phá những hang động kỳ thú ở Vịnh Hạ Long.' in English?",
+            "en": "How do you say 'Chúng tôi đã khám phá những hang động kỳ thú ở Vịnh Hạ Long.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chúng tôi đã khám phá những hang động kỳ thú ở Vịnh Hạ Long.",
+            "en": "Choose the English sentence that means: Chúng tôi đã khám phá những hang động kỳ thú ở Vịnh Hạ Long."
+          },
+          "explanation": {
+            "vi": "'We explored amazing caves in Ha Long Bay.' means 'Chúng tôi đã khám phá những hang động kỳ thú ở Vịnh Hạ Long.'.",
+            "en": "'We explored amazing caves in Ha Long Bay.' means 'Chúng tôi đã khám phá những hang động kỳ thú ở Vịnh Hạ Long.'."
+          },
+          "data": {
+            "options": [
+              "We explored amazing caves in Ha Long Bay.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "We explored amazing caves in Ha Long Bay."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Exploring Ha Long Bay Caves'?",
+            "en": "Which of the following is a key word from Unit 'Exploring Ha Long Bay Caves'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Exploring Ha Long Bay Caves'?",
+            "en": "Which of the following is a key word from Unit 'Exploring Ha Long Bay Caves'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Exploring Ha Long Bay Caves.",
+            "en": "Remember the words in topic: Exploring Ha Long Bay Caves."
+          },
+          "explanation": {
+            "vi": "'cave' is a key vocabulary word in this topic.",
+            "en": "'cave' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "cave",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "cave"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'bay' start with the sound /c/?",
+            "en": "Does the word 'bay' start with the sound /c/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'bay' start with the sound /c/? The word 'bay' starts with letter 'C'.",
+            "en": "Does the word 'bay' start with the sound /c/? The word 'bay' starts with letter 'C'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'bay'.",
+            "en": "Listen to the first sound of 'bay'."
+          },
+          "explanation": {
+            "vi": "Yes! 'bay' starts with the sound /c/.",
+            "en": "Yes! 'bay' starts with the sound /c/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'bay' starts with letter 'C'.",
+              "en": "The word 'bay' starts with letter 'C'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'cave'?",
+            "en": "How many letters are there in the word 'cave'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'cave'?",
+            "en": "How many letters are there in the word 'cave'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'cave': 1, 2, 3...",
+            "en": "Count the letters in 'cave': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'cave' has exactly 4 letters.",
+            "en": "The word 'cave' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'cave':",
+            "en": "Choose the correct phrase with 'cave':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'cave':",
+            "en": "Choose the correct phrase with 'cave':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a cave'.",
+            "en": "Correct! We say 'a cave'."
+          },
+          "data": {
+            "options": [
+              "a cave",
+              "an cave",
+              "two cave",
+              "many cave"
+            ],
+            "correct_answer": "a cave"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'cave'.",
+            "en": "Choose the word: 'cave'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is cave. It is wonderful!'",
+            "en": "We say: 'Look! This is cave. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "cave",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "cave"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Exploring Ha Long Bay Caves'?",
+            "en": "Which English sentence best summarizes the topic 'Exploring Ha Long Bay Caves'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Exploring Ha Long Bay Caves'?",
+            "en": "Which English sentence best summarizes the topic 'Exploring Ha Long Bay Caves'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Exploring Ha Long Bay Caves'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Exploring Ha Long Bay Caves'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: cave, bay!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: cave, bay!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s14_2",
+      "title": {
+        "vi": "Taking Vacation Photos with Camera",
+        "en": "Taking Vacation Photos with Camera"
+      },
+      "description": {
+        "vi": "Capturing sunset memories on the holiday trip",
+        "en": "Capturing sunset memories on the holiday trip"
+      },
+      "icon": "📷",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s14_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the young tourist taking a photo with a digital camera against a sunset backdrop. What is she doing?",
+            "en": "Look at the young tourist taking a photo with a digital camera against a sunset backdrop. What is she doing?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the young tourist taking a photo with a digital camera against a sunset backdrop. What is she doing?",
+            "en": "Look at the young tourist taking a photo with a digital camera against a sunset backdrop. What is she doing?"
+          },
+          "hint": {
+            "vi": "Using a camera to capture memories.",
+            "en": "Using a camera to capture memories."
+          },
+          "explanation": {
+            "vi": "She is taking beautiful vacation photos.",
+            "en": "She is taking beautiful vacation photos."
+          },
+          "data": {
+            "options": [
+              "taking vacation photos",
+              "reading a newspaper",
+              "cooking soup",
+              "fixing a clock"
+            ],
+            "correct_answer": "taking vacation photos"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u10_take_photos.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s14_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'photo'?",
+            "en": "What is the first letter of the word 'photo'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'photo'?",
+            "en": "What is the first letter of the word 'photo'?"
+          },
+          "hint": {
+            "vi": "The word 'photo' starts with the letter P.",
+            "en": "The word 'photo' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'photo' begins with the letter 'P'.",
+            "en": "Correct! 'photo' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "photo",
+                  "en": "photo"
+                },
+                "right": {
+                  "vi": "Nghĩa của photo",
+                  "en": "Nghĩa của photo"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "camera",
+                  "en": "camera"
+                },
+                "right": {
+                  "vi": "Nghĩa của camera",
+                  "en": "Nghĩa của camera"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "memory",
+                  "en": "memory"
+                },
+                "right": {
+                  "vi": "Nghĩa của memory",
+                  "en": "Nghĩa của memory"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? I took beautiful photos of the golden sunset.",
+            "en": "Is this English sentence correct for Grade 4? I took beautiful photos of the golden sunset."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I took beautiful photos of the golden sunset.",
+            "en": "Remember the pattern: I took beautiful photos of the golden sunset."
+          },
+          "explanation": {
+            "vi": "Yes! 'I took beautiful photos of the golden sunset.' is a correct English sentence.",
+            "en": "Yes! 'I took beautiful photos of the golden sunset.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I took beautiful photos of the golden sunset.",
+              "en": "I took beautiful photos of the golden sunset."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I took beautiful photos of the golden ....",
+            "en": "Drag the correct word to complete the sentence: I took beautiful photos of the golden ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'sunset'.",
+            "en": "Choose the correct word: 'sunset'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I took beautiful photos of the golden sunset.'.",
+            "en": "The complete sentence is: 'I took beautiful photos of the golden sunset.'."
+          },
+          "data": {
+            "prefix_text": "I took beautiful photos of the golden ",
+            "suffix_text": ".",
+            "options": [
+              "sunset",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "sunset"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'photo':",
+            "en": "Spell the English word 'photo':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'photo':",
+            "en": "Spell the English word 'photo':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'photo'.",
+            "en": "Tap the letters in order to spell 'photo'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'photo' correctly.",
+            "en": "Well done! You spelled 'photo' correctly."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "t",
+              "o",
+              "h",
+              "p"
+            ],
+            "target_word": "photo",
+            "target_sequence": [
+              "p",
+              "h",
+              "o",
+              "t",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi đã chụp những bức ảnh tuyệt đẹp về hoàng hôn vàng.' in English?",
+            "en": "How do you say 'Tôi đã chụp những bức ảnh tuyệt đẹp về hoàng hôn vàng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi đã chụp những bức ảnh tuyệt đẹp về hoàng hôn vàng.' in English?",
+            "en": "How do you say 'Tôi đã chụp những bức ảnh tuyệt đẹp về hoàng hôn vàng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi đã chụp những bức ảnh tuyệt đẹp về hoàng hôn vàng.",
+            "en": "Choose the English sentence that means: Tôi đã chụp những bức ảnh tuyệt đẹp về hoàng hôn vàng."
+          },
+          "explanation": {
+            "vi": "'I took beautiful photos of the golden sunset.' means 'Tôi đã chụp những bức ảnh tuyệt đẹp về hoàng hôn vàng.'.",
+            "en": "'I took beautiful photos of the golden sunset.' means 'Tôi đã chụp những bức ảnh tuyệt đẹp về hoàng hôn vàng.'."
+          },
+          "data": {
+            "options": [
+              "I took beautiful photos of the golden sunset.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I took beautiful photos of the golden sunset."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Taking Vacation Photos with Camera'?",
+            "en": "Which of the following is a key word from Unit 'Taking Vacation Photos with Camera'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Taking Vacation Photos with Camera'?",
+            "en": "Which of the following is a key word from Unit 'Taking Vacation Photos with Camera'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Taking Vacation Photos with Camera.",
+            "en": "Remember the words in topic: Taking Vacation Photos with Camera."
+          },
+          "explanation": {
+            "vi": "'photo' is a key vocabulary word in this topic.",
+            "en": "'photo' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "photo",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "photo"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'camera' start with the sound /p/?",
+            "en": "Does the word 'camera' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'camera' start with the sound /p/? The word 'camera' starts with letter 'P'.",
+            "en": "Does the word 'camera' start with the sound /p/? The word 'camera' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'camera'.",
+            "en": "Listen to the first sound of 'camera'."
+          },
+          "explanation": {
+            "vi": "Yes! 'camera' starts with the sound /p/.",
+            "en": "Yes! 'camera' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'camera' starts with letter 'P'.",
+              "en": "The word 'camera' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'photo'?",
+            "en": "How many letters are there in the word 'photo'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'photo'?",
+            "en": "How many letters are there in the word 'photo'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'photo': 1, 2, 3...",
+            "en": "Count the letters in 'photo': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'photo' has exactly 5 letters.",
+            "en": "The word 'photo' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'photo':",
+            "en": "Choose the correct phrase with 'photo':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'photo':",
+            "en": "Choose the correct phrase with 'photo':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a photo'.",
+            "en": "Correct! We say 'a photo'."
+          },
+          "data": {
+            "options": [
+              "a photo",
+              "an photo",
+              "two photo",
+              "many photo"
+            ],
+            "correct_answer": "a photo"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'photo'.",
+            "en": "Choose the word: 'photo'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is photo. It is wonderful!'",
+            "en": "We say: 'Look! This is photo. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "photo",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "photo"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s14_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Taking Vacation Photos with Camera'?",
+            "en": "Which English sentence best summarizes the topic 'Taking Vacation Photos with Camera'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Taking Vacation Photos with Camera'?",
+            "en": "Which English sentence best summarizes the topic 'Taking Vacation Photos with Camera'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Taking Vacation Photos with Camera'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Taking Vacation Photos with Camera'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: photo, camera!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: photo, camera!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

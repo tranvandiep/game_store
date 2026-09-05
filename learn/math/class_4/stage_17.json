@@ -1,0 +1,1180 @@
+{
+  "id": "m4_stage_17",
+  "stage_number": 17,
+  "title": {
+    "vi": "Tuần 17: Dấu Hiệu Chia Hết Cho 2 và 5",
+    "en": "Week 17: Divisibility Rules for 2 and 5"
+  },
+  "subtitle": {
+    "vi": "Trang 94-96: Tận cùng là chữ số chẵn (0,2,4,6,8) và tận cùng là 0 hoặc 5",
+    "en": "Pages 94-96: Last digit divisibility for 2 and 5"
+  },
+  "icon": "✌️",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.502,
+  "required_stars": 48,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "m4_t17_1",
+      "title": {
+        "vi": "Dấu hiệu chia hết cho 2",
+        "en": "Divisibility Rule for 2"
+      },
+      "description": {
+        "vi": "Các số có chữ số tận cùng là chữ số chẵn (0, 2, 4, 6, 8) thì chia hết cho 2",
+        "en": "Numbers ending in even digits (0, 2, 4, 6, 8) are divisible by 2"
+      },
+      "icon": "✌️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t17_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số nào dưới đây chia hết cho 2?",
+            "en": "Which number is divisible by 2?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào dưới đây chia hết cho 2?",
+            "en": "Which number is divisible by 2?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "2 468 có chữ số tận cùng là 8 (số chẵn) nên chia hết cho 2.",
+            "en": "2,468 ends in 8 (even)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "2 468",
+                "en": "2 468"
+              },
+              {
+                "vi": "1 357",
+                "en": "1 357"
+              },
+              {
+                "vi": "9 999",
+                "en": "9 999"
+              }
+            ],
+            "correct_answer": "2 468"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_2",
+          "type": "multipleChoice",
+          "text": {
+            "vi": "Chọn TẤT CẢ các số chẵn chia hết cho 2:",
+            "en": "Select ALL even numbers divisible by 2:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chọn TẤT CẢ các số chẵn chia hết cho 2:",
+            "en": "Select ALL even numbers divisible by 2:"
+          },
+          "hint": {
+            "vi": "Bé chú ý có thể có nhiều hơn 1 đáp án đúng nhé.",
+            "en": "There may be more than one correct answer."
+          },
+          "explanation": {
+            "vi": "Các số tận cùng là 0, 2, 4 chia hết cho 2.",
+            "en": "Numbers ending in 0, 2, 4 are divisible by 2."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "350",
+                "en": "350"
+              },
+              {
+                "vi": "482",
+                "en": "482"
+              },
+              {
+                "vi": "571",
+                "en": "571"
+              },
+              {
+                "vi": "904",
+                "en": "904"
+              }
+            ],
+            "correct_answers": [
+              "350",
+              "482",
+              "904"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Định nghĩa số chẵn số lẻ.",
+            "en": "Decide whether the following statement is true or false: Định nghĩa số chẵn số lẻ."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Số lẻ chia 2 luôn dư 1.",
+            "en": "True! Odd numbers have remainder 1."
+          },
+          "data": {
+            "statement": {
+              "vi": "Định nghĩa số chẵn số lẻ.",
+              "en": "Định nghĩa số chẵn số lẻ."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Dấu hiệu chia hết cho 2': Số nào dưới đây chia hết cho 2?",
+            "en": "Practice 'Divisibility Rule for 2': Which number is divisible by 2?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào dưới đây chia hết cho 2?",
+            "en": "Which number is divisible by 2?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "2 468 có chữ số tận cùng là 8 (số chẵn) nên chia hết cho 2.",
+            "en": "2,468 ends in 8 (even)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "1 357",
+                "en": "1 357"
+              },
+              {
+                "vi": "9 999",
+                "en": "9 999"
+              },
+              {
+                "vi": "2 468",
+                "en": "2 468"
+              }
+            ],
+            "correct_answer": "2 468"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 đứng liền trước số 5.",
+            "en": "Decide whether the following statement is true or false: Số 4 đứng liền trước số 5."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 đứng liền trước số 5.",
+              "en": "Số 4 đứng liền trước số 5."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 3 bé hơn số 2 (3 < 2).",
+            "en": "Decide whether the following statement is true or false: Số 3 bé hơn số 2 (3 < 2)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3 bé hơn số 2 (3 < 2).",
+              "en": "Số 3 bé hơn số 2 (3 < 2)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 97630 đến hàng nghìn:",
+            "en": "Round 97630 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 97630 đến hàng nghìn:",
+            "en": "Round 97630 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "97000",
+                "en": "97000"
+              },
+              {
+                "vi": "98000",
+                "en": "98000"
+              },
+              {
+                "vi": "96000",
+                "en": "96000"
+              }
+            ],
+            "correct_answer": "98000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 23307 đến hàng nghìn:",
+            "en": "Round 23307 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 23307 đến hàng nghìn:",
+            "en": "Round 23307 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "23000",
+                "en": "23000"
+              },
+              {
+                "vi": "24000",
+                "en": "24000"
+              },
+              {
+                "vi": "22000",
+                "en": "22000"
+              }
+            ],
+            "correct_answer": "23000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 33 và 37 là:",
+            "en": "Average of 33 and 37 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 33 và 37 là:",
+            "en": "Average of 33 and 37 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(33 + 37) : 2 = 35.",
+            "en": "Average is 35."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "35"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t17_2",
+      "title": {
+        "vi": "Dấu hiệu chia hết cho 5",
+        "en": "Divisibility Rule for 5"
+      },
+      "description": {
+        "vi": "Các số có chữ số tận cùng là 0 hoặc 5 thì chia hết cho 5",
+        "en": "Numbers ending in 0 or 5 are divisible by 5"
+      },
+      "icon": "🖐️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t17_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số nào dưới đây chia hết cho 5?",
+            "en": "Which number is divisible by 5?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào dưới đây chia hết cho 5?",
+            "en": "Which number is divisible by 5?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "3 570 có tận cùng là chữ số 0 nên chia hết cho 5.",
+            "en": "3,570 ends in 0."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3 570",
+                "en": "3 570"
+              },
+              {
+                "vi": "2 468",
+                "en": "2 468"
+              },
+              {
+                "vi": "1 359",
+                "en": "1 359"
+              }
+            ],
+            "correct_answer": "3 570"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Điền chữ số thích hợp vào dấu * để số 45* chia hết cho cả 2 và 5:",
+            "en": "Fill digit * so 45* is divisible by both 2 and 5:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền chữ số thích hợp vào dấu * để số 45* chia hết cho cả 2 và 5:",
+            "en": "Fill digit * so 45* is divisible by both 2 and 5:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Để chia hết cho cả 2 và 5, chữ số tận cùng bắt buộc phải là 0.",
+            "en": "Must end in 0."
+          },
+          "data": {
+            "correct_number": "0",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Giao thoa chia hết cho 2 và 5.",
+            "en": "Decide whether the following statement is true or false: Giao thoa chia hết cho 2 và 5."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Tận cùng là 0 thì chia hết cho cả 2 và 5 (chia hết cho 10).",
+            "en": "True! Divisible by 10."
+          },
+          "data": {
+            "statement": {
+              "vi": "Giao thoa chia hết cho 2 và 5.",
+              "en": "Giao thoa chia hết cho 2 và 5."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Dấu hiệu chia hết cho 5': Số nào dưới đây chia hết cho 5?",
+            "en": "Practice 'Divisibility Rule for 5': Which number is divisible by 5?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số nào dưới đây chia hết cho 5?",
+            "en": "Which number is divisible by 5?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "3 570 có tận cùng là chữ số 0 nên chia hết cho 5.",
+            "en": "3,570 ends in 0."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3 570",
+                "en": "3 570"
+              },
+              {
+                "vi": "1 359",
+                "en": "1 359"
+              },
+              {
+                "vi": "2 468",
+                "en": "2 468"
+              }
+            ],
+            "correct_answer": "3 570"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 13589 đến hàng nghìn:",
+            "en": "Round 13589 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 13589 đến hàng nghìn:",
+            "en": "Round 13589 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "13000",
+                "en": "13000"
+              },
+              {
+                "vi": "14000",
+                "en": "14000"
+              },
+              {
+                "vi": "12000",
+                "en": "12000"
+              }
+            ],
+            "correct_answer": "14000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 25 và 11 là:",
+            "en": "Average of 25 and 11 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 25 và 11 là:",
+            "en": "Average of 25 and 11 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(25 + 11) : 2 = 18.",
+            "en": "Average is 18."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "18"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t17_3",
+      "title": {
+        "vi": "Luyện tập phân loại số chia hết cho 2 và 5",
+        "en": "Practice Divisibility for 2 & 5"
+      },
+      "description": {
+        "vi": "Giải các bài toán tìm chữ số thỏa mãn điều kiện chia hết",
+        "en": "Find missing digits for divisibility criteria"
+      },
+      "icon": "🔍",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t17_3_1",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số chia hết cho 5 từ bé đến lớn: 35, 10, 50, 25",
+            "en": "Sort numbers divisible by 5 ascending: 35, 10, 50, 25"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số chia hết cho 5 từ bé đến lớn: 35, 10, 50, 25",
+            "en": "Sort numbers divisible by 5 ascending: 35, 10, 50, 25"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct sequence."
+          },
+          "explanation": {
+            "vi": "Thứ tự: 10 < 25 < 35 < 50.",
+            "en": "Order: 10, 25, 35, 50."
+          },
+          "data": {
+            "items": [
+              "10",
+              "25",
+              "35",
+              "50"
+            ],
+            "correct_order": [
+              "10",
+              "25",
+              "35",
+              "50"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Dấu hiệu chia hết 5.",
+            "en": "Decide whether the following statement is true or false: Dấu hiệu chia hết 5."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Chỉ có 0 hoặc 5 mới chia hết cho 5.",
+            "en": "True! Only 0 or 5."
+          },
+          "data": {
+            "statement": {
+              "vi": "Dấu hiệu chia hết 5.",
+              "en": "Dấu hiệu chia hết 5."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_4",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 286, 407, 523, 782",
+            "en": "Correct order: 286, 407, 523, 782"
+          },
+          "data": {
+            "items": [
+              "407",
+              "782",
+              "286",
+              "523"
+            ],
+            "correct_order": [
+              "286",
+              "407",
+              "523",
+              "782"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 55, 56,  ... , 58",
+            "en": "Drag the correct answer into the slot:\nDãy số: 55, 56,  ... , 58"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 55, 56,  ... , 58",
+            "en": "Drag the correct answer: Dãy số: 55, 56,  ... , 58"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 55, 56,  57 , 58",
+            "en": "Dãy số: 55, 56,  57 , 58"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 55, 56, ",
+            "suffix_text": ", 58",
+            "options": [
+              "57",
+              "56",
+              "59"
+            ],
+            "slot_answer": "57"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_7",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 553, 514, 489, 33",
+            "en": "Correct order: 553, 514, 489, 33"
+          },
+          "data": {
+            "items": [
+              "514",
+              "489",
+              "553",
+              "33"
+            ],
+            "correct_order": [
+              "553",
+              "514",
+              "489",
+              "33"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 468, 469,  ... , 471",
+            "en": "Drag the correct answer into the slot:\nDãy số: 468, 469,  ... , 471"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 468, 469,  ... , 471",
+            "en": "Drag the correct answer: Dãy số: 468, 469,  ... , 471"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 468, 469,  470 , 471",
+            "en": "Dãy số: 468, 469,  470 , 471"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 468, 469, ",
+            "suffix_text": ", 471",
+            "options": [
+              "472",
+              "469",
+              "470"
+            ],
+            "slot_answer": "470"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_10",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 8, 12, 323, 705",
+            "en": "Correct order: 8, 12, 323, 705"
+          },
+          "data": {
+            "items": [
+              "8",
+              "323",
+              "12",
+              "705"
+            ],
+            "correct_order": [
+              "8",
+              "12",
+              "323",
+              "705"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_11",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 333, 334,  ... , 336",
+            "en": "Drag the correct answer into the slot:\nDãy số: 333, 334,  ... , 336"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 333, 334,  ... , 336",
+            "en": "Drag the correct answer: Dãy số: 333, 334,  ... , 336"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 333, 334,  335 , 336",
+            "en": "Dãy số: 333, 334,  335 , 336"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 333, 334, ",
+            "suffix_text": ", 336",
+            "options": [
+              "335",
+              "337",
+              "334"
+            ],
+            "slot_answer": "335"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t17_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 24 và 18 là:",
+            "en": "Average of 24 and 18 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 24 và 18 là:",
+            "en": "Average of 24 and 18 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(24 + 18) : 2 = 21.",
+            "en": "Average is 21."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "21"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

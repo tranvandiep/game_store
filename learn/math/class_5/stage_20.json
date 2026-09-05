@@ -1,0 +1,892 @@
+{
+  "id": "m5_stage_20",
+  "stage_number": 20,
+  "title": {
+    "vi": "Chặng 20: Diện Tích Hình Tròn & Biểu Đồ Hình Quạt",
+    "en": "Stage 20: Circle Area & Pie Chart Analysis"
+  },
+  "subtitle": {
+    "vi": "Công thức S = r x r x 3.14 và đọc biểu đồ hình quạt tròn",
+    "en": "Formula S = r * r * 3.14 and reading circular pie charts"
+  },
+  "icon": "🥧",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.5,
+  "required_stars": 0,
+  "theme_color": "0xFF9C27B0",
+  "topics": [
+    {
+      "id": "m5_t20_1",
+      "title": {
+        "vi": "Diện tích Hình Tròn (Công thức chuẩn)",
+        "en": "Area of Circle Formula"
+      },
+      "description": {
+        "vi": "Diện tích hình tròn bằng bán kính nhân với bán kính rồi nhân với 3,14: S = r x r x 3,14",
+        "en": "Area of circle S = r * r * 3.14"
+      },
+      "icon": "⭕",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m5_t20_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Công thức tính diện tích hình tròn có bán kính r là:",
+            "en": "Formula for circle area with radius r:"
+          },
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình tròn có bán kính r là:",
+            "en": "Formula for circle area with radius r:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "S = r x r x 3,14",
+              "S = r x 2 x 3,14",
+              "S = r x 3,14"
+            ],
+            "answer": "S = r x r x 3,14"
+          },
+          "hint": {
+            "vi": "S = r x r x 3,14.",
+            "en": "S = r * r * 3.14."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là S = r x r x 3,14. S = r x r x 3,14.",
+            "en": "Correct answer is S = r x r x 3,14. S = r * r * 3.14."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính diện tích hình tròn có bán kính r = 2 dm. Diện tích là 12,?:",
+            "en": "Circle area for r = 2 dm. Area is 12.?:"
+          },
+          "tts_prompt": {
+            "vi": "Tính diện tích hình tròn có bán kính r = 2 dm. Diện tích là 12,?:",
+            "en": "Circle area for r = 2 dm. Area is 12.?:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 56,
+            "unit": "dm²"
+          },
+          "hint": {
+            "vi": "S = 2 x 2 x 3,14 = 4 x 3,14 = 12,56 dm².",
+            "en": "12.56 dm²."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 56 dm². S = 2 x 2 x 3,14 = 4 x 3,14 = 12,56 dm².",
+            "en": "The exact result is 56 dm². 12.56 dm²."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_1_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 2.9:",
+            "en": "Decimal fraction for 2.9:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 2.9:",
+            "en": "Decimal fraction for 2.9:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2.9 = 29/10.",
+            "en": "2.9 = 29/10."
+          },
+          "data": {
+            "prefix_text": "2.9 = ",
+            "suffix_text": "",
+            "options": [
+              "30/10",
+              "2/10",
+              "29/100",
+              "29/10"
+            ],
+            "slot_answer": "29/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_1_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "10% của 200 là:",
+            "en": "10% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 10 : 100 = 20.",
+            "en": "Result is 20."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "20",
+                "en": "20"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "20"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t20_2",
+      "title": {
+        "vi": "Giới thiệu Biểu Đồ Hình Quạt",
+        "en": "Pie Chart Analysis"
+      },
+      "description": {
+        "vi": "Biểu đồ hình quạt dùng để biểu thị tỉ số phần trăm của các phần tử so với toàn thể (toàn bộ hình tròn là 100%)",
+        "en": "Pie chart displays percentages of categories totaling 100%"
+      },
+      "icon": "🥧",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m5_t20_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Quan sát biểu đồ hình quạt trong thư viện: Truyện thiếu nhi chiếm 50%, Sách giáo khoa 25%, Sách khác 25%. Thể loại sách chiếm một nửa thư viện là:",
+            "en": "In library pie chart: Comics 50%, Textbooks 25%, Others 25%. Category holding half is:"
+          },
+          "tts_prompt": {
+            "vi": "Quan sát biểu đồ hình quạt trong thư viện: Truyện thiếu nhi chiếm 50%, Sách giáo khoa 25%, Sách khác 25%. Thể loại sách chiếm một nửa thư viện là:",
+            "en": "In library pie chart: Comics 50%, Textbooks 25%, Others 25%. Category holding half is:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "Truyện thiếu nhi (50%)",
+              "Sách giáo khoa",
+              "Sách khác"
+            ],
+            "answer": "Truyện thiếu nhi (50%)"
+          },
+          "hint": {
+            "vi": "50% tương ứng đúng một nửa hình tròn.",
+            "en": "Comics (50%)."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là Truyện thiếu nhi (50%). 50% tương ứng đúng một nửa hình tròn.",
+            "en": "Correct answer is Truyện thiếu nhi (50%). Comics (50%)."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Nếu thư viện trên có tất cả 1 000 cuốn sách, số cuốn truyện thiếu nhi (50%) là bao nhiêu cuốn?",
+            "en": "If library has 1,000 books, how many comics (50%)?"
+          },
+          "tts_prompt": {
+            "vi": "Nếu thư viện trên có tất cả 1 000 cuốn sách, số cuốn truyện thiếu nhi (50%) là bao nhiêu cuốn?",
+            "en": "If library has 1,000 books, how many comics (50%)?"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 500,
+            "unit": "cuốn"
+          },
+          "hint": {
+            "vi": "1 000 x 50 : 100 = 500 cuốn.",
+            "en": "500 books."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 500 cuốn. 1 000 x 50 : 100 = 500 cuốn.",
+            "en": "The exact result is 500 cuốn. 500 books."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Tổng các tỉ số phần trăm của tất cả các phần trong một biểu đồ hình quạt tròn luôn luôn bằng đúng 100%.",
+            "en": "Decide whether the following statement is true or false: Tổng các tỉ số phần trăm của tất cả các phần trong một biểu đồ hình quạt tròn luôn luôn bằng đúng 100%."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Tổng các tỉ số phần trăm của tất cả các phần trong một biểu đồ hình quạt tròn luôn luôn bằng đúng 100%.",
+              "en": "Tổng các tỉ số phần trăm của tất cả các phần trong một biểu đồ hình quạt tròn luôn luôn bằng đúng 100%."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_2_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 2.5:",
+            "en": "Decimal fraction for 2.5:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 2.5:",
+            "en": "Decimal fraction for 2.5:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2.5 = 25/10.",
+            "en": "2.5 = 25/10."
+          },
+          "data": {
+            "prefix_text": "2.5 = ",
+            "suffix_text": "",
+            "options": [
+              "25/100",
+              "26/10",
+              "2/10",
+              "25/10"
+            ],
+            "slot_answer": "25/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_2_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 5.5:",
+            "en": "Decimal fraction for 5.5:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 5.5:",
+            "en": "Decimal fraction for 5.5:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "5.5 = 55/10.",
+            "en": "5.5 = 55/10."
+          },
+          "data": {
+            "prefix_text": "5.5 = ",
+            "suffix_text": "",
+            "options": [
+              "55/10",
+              "5/10",
+              "56/10",
+              "55/100"
+            ],
+            "slot_answer": "55/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_2_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "20% của 200 là:",
+            "en": "20% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 20 : 100 = 40.",
+            "en": "Result is 40."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "40",
+                "en": "40"
+              },
+              {
+                "vi": "50",
+                "en": "50"
+              },
+              {
+                "vi": "30",
+                "en": "30"
+              }
+            ],
+            "correct_answer": "40"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m5_t20_3",
+      "title": {
+        "vi": "Luyện tập tính diện tích hình phẳng phối hợp",
+        "en": "Composite Shape Area Practice"
+      },
+      "description": {
+        "vi": "Tính diện tích hình tạo bởi hình chữ nhật và hai nửa hình tròn, hình vuông có hình tròn bên trong",
+        "en": "Area of stadium shapes, circles inscribed in squares"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m5_t20_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hai nửa hình tròn có cùng bán kính ghép lại với nhau sẽ tạo thành:",
+            "en": "Two semicircles of identical radius combined form:"
+          },
+          "tts_prompt": {
+            "vi": "Hai nửa hình tròn có cùng bán kính ghép lại với nhau sẽ tạo thành:",
+            "en": "Two semicircles of identical radius combined form:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "options": [
+              "Một hình tròn hoàn chỉnh",
+              "Một hình bầu dục",
+              "Một hình tam giác"
+            ],
+            "answer": "Một hình tròn hoàn chỉnh"
+          },
+          "hint": {
+            "vi": "Hai nửa hình tròn ghép lại thành 1 hình tròn.",
+            "en": "A complete full circle."
+          },
+          "explanation": {
+            "vi": "Đáp án đúng là Một hình tròn hoàn chỉnh. Hai nửa hình tròn ghép lại thành 1 hình tròn.",
+            "en": "Correct answer is Một hình tròn hoàn chỉnh. A complete full circle."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Một hình vuông ABCD có cạnh 10 cm. Diện tích hình vuông là bao nhiêu cm²?",
+            "en": "Square ABCD side 10cm. Area in cm²:"
+          },
+          "tts_prompt": {
+            "vi": "Một hình vuông ABCD có cạnh 10 cm. Diện tích hình vuông là bao nhiêu cm²?",
+            "en": "Square ABCD side 10cm. Area in cm²:"
+          },
+          "images": [],
+          "audio": null,
+          "data": {
+            "answer": 100,
+            "unit": "cm²"
+          },
+          "hint": {
+            "vi": "10 x 10 = 100 cm².",
+            "en": "100 cm²."
+          },
+          "explanation": {
+            "vi": "Kết quả chính xác là 100 cm². 10 x 10 = 100 cm².",
+            "en": "The exact result is 100 cm². 100 cm²."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Muốn tính diện tích phần tô màu (phần còn lại), ta có thể lấy diện tích hình lớn bên ngoài trừ đi diện tích hình không tô màu bên trong.",
+            "en": "Decide whether the following statement is true or false: Muốn tính diện tích phần tô màu (phần còn lại), ta có thể lấy diện tích hình lớn bên ngoài trừ đi diện tích hình không tô màu bên trong."
+          },
+          "hint": {
+            "vi": "Đọc kỹ khẳng định và nhớ lại bài học.",
+            "en": "Read carefully."
+          },
+          "explanation": {
+            "vi": "Bé nhận định rất chính xác!",
+            "en": "Correct assessment!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Muốn tính diện tích phần tô màu (phần còn lại), ta có thể lấy diện tích hình lớn bên ngoài trừ đi diện tích hình không tô màu bên trong.",
+              "en": "Muốn tính diện tích phần tô màu (phần còn lại), ta có thể lấy diện tích hình lớn bên ngoài trừ đi diện tích hình không tô màu bên trong."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_3_6",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phân số với tỉ số phần trăm tương ứng:",
+            "en": "Match fraction with percentage:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chuẩn xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1/2",
+                  "en": "1/2"
+                },
+                "right": {
+                  "vi": "50%",
+                  "en": "50%"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1/4",
+                  "en": "1/4"
+                },
+                "right": {
+                  "vi": "25%",
+                  "en": "25%"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "3/4",
+                  "en": "3/4"
+                },
+                "right": {
+                  "vi": "75%",
+                  "en": "75%"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_3_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 9.5:",
+            "en": "Decimal fraction for 9.5:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 9.5:",
+            "en": "Decimal fraction for 9.5:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "9.5 = 95/10.",
+            "en": "9.5 = 95/10."
+          },
+          "data": {
+            "prefix_text": "9.5 = ",
+            "suffix_text": "",
+            "options": [
+              "9/10",
+              "96/10",
+              "95/10",
+              "95/100"
+            ],
+            "slot_answer": "95/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Viết phân số thập phân tương ứng với 7.6:",
+            "en": "Decimal fraction for 7.6:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Viết phân số thập phân tương ứng với 7.6:",
+            "en": "Decimal fraction for 7.6:"
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "7.6 = 76/10.",
+            "en": "7.6 = 76/10."
+          },
+          "data": {
+            "prefix_text": "7.6 = ",
+            "suffix_text": "",
+            "options": [
+              "77/10",
+              "76/10",
+              "7/10",
+              "76/100"
+            ],
+            "slot_answer": "76/10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_3_9",
+          "type": "singleChoice",
+          "text": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "50% của 200 là:",
+            "en": "50% of 200 is:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "200 x 50 : 100 = 100.",
+            "en": "Result is 100."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "100",
+                "en": "100"
+              },
+              {
+                "vi": "110",
+                "en": "110"
+              },
+              {
+                "vi": "90",
+                "en": "90"
+              }
+            ],
+            "correct_answer": "100"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: 1 dm³ tương đương với 1 lít nước.",
+            "en": "Is the statement TRUE or FALSE:: 1 dm³ equals 1 liter."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "1 dm³ = 1 l là quy đổi chuẩn xác.",
+            "en": "1 dm³ = 1 liter is correct."
+          },
+          "data": {
+            "statement": {
+              "vi": "1 dm³ tương đương với 1 lít nước.",
+              "en": "1 dm³ equals 1 liter."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m5_t20_3_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Công thức tính diện tích hình thang là đáy lớn cộng đáy bé nhân chiều cao chia 2.",
+            "en": "Trapezoid area is (a + b) x h / 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại công thức tính diện tích hình thang.",
+            "en": "Remember trapezoid area formula."
+          },
+          "explanation": {
+            "vi": "S = (a + b) x h : 2 là công thức ĐÚNG.",
+            "en": "Formula is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Diện tích hình thang = (Đáy lớn + Đáy bé) x Chiều cao : 2.",
+              "en": "Trapezoid Area = (Base1 + Base2) x Height : 2."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1124 @@
+{
+  "id": "e1_stage_26",
+  "stage_number": 26,
+  "title": {
+    "vi": "Week 26: Canteen Snacks & Treats",
+    "en": "Week 26: Canteen Snacks & Treats"
+  },
+  "subtitle": {
+    "vi": "Sharing snacks: Do you like jelly? Yes, I do!",
+    "en": "Sharing snacks: Do you like jelly? Yes, I do!"
+  },
+  "icon": "🥪",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.224,
+  "required_stars": 75,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "e1_s26_1",
+      "title": {
+        "vi": "Fresh Apple & Orange Juice",
+        "en": "Fresh Apple & Orange Juice"
+      },
+      "description": {
+        "vi": "Healthy fruit juices in juice boxes",
+        "en": "Healthy fruit juices in juice boxes"
+      },
+      "icon": "🧃",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s26_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the juice box with a straw showing an orange slice. What drink is it?",
+            "en": "Look at the juice box with a straw showing an orange slice. What drink is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the juice box with a straw showing an orange slice. What drink is it?",
+            "en": "Look at the juice box with a straw showing an orange slice. What drink is it?"
+          },
+          "hint": {
+            "vi": "A fruit drink packed in a box with a straw.",
+            "en": "A fruit drink packed in a box with a straw."
+          },
+          "explanation": {
+            "vi": "It's a box of delicious fresh orange juice.",
+            "en": "It's a box of delicious fresh orange juice."
+          },
+          "data": {
+            "options": [
+              "a box of fresh orange juice",
+              "a bottle of shampoo",
+              "a carton of paint",
+              "a jar of glue"
+            ],
+            "correct_answer": "a box of fresh orange juice"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u13_fruit_juice.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s26_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'juice'?",
+            "en": "What is the first letter of the word 'juice'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'juice'?",
+            "en": "What is the first letter of the word 'juice'?"
+          },
+          "hint": {
+            "vi": "The word 'juice' starts with the letter J.",
+            "en": "The word 'juice' starts with the letter J."
+          },
+          "explanation": {
+            "vi": "Correct! 'juice' begins with the letter 'J'.",
+            "en": "Correct! 'juice' begins with the letter 'J'."
+          },
+          "data": {
+            "options": [
+              "Letter J",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter J"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "juice",
+                  "en": "juice"
+                },
+                "right": {
+                  "vi": "Nghĩa của juice",
+                  "en": "Nghĩa của juice"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "apple",
+                  "en": "apple"
+                },
+                "right": {
+                  "vi": "Nghĩa của apple",
+                  "en": "Nghĩa của apple"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "orange",
+                  "en": "orange"
+                },
+                "right": {
+                  "vi": "Nghĩa của orange",
+                  "en": "Nghĩa của orange"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? A cold box of orange juice.",
+            "en": "Is this English sentence correct for Grade 1? A cold box of orange juice."
+          },
+          "hint": {
+            "vi": "Remember the pattern: A cold box of orange juice.",
+            "en": "Remember the pattern: A cold box of orange juice."
+          },
+          "explanation": {
+            "vi": "Yes! 'A cold box of orange juice.' is a correct English sentence.",
+            "en": "Yes! 'A cold box of orange juice.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "A cold box of orange juice.",
+              "en": "A cold box of orange juice."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: A cold box of orange ....",
+            "en": "Drag the correct word to complete the sentence: A cold box of orange ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'juice'.",
+            "en": "Choose the correct word: 'juice'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'A cold box of orange juice.'.",
+            "en": "The complete sentence is: 'A cold box of orange juice.'."
+          },
+          "data": {
+            "prefix_text": "A cold box of orange ",
+            "suffix_text": ".",
+            "options": [
+              "juice",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "juice"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'juice':",
+            "en": "Spell the English word 'juice':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'juice':",
+            "en": "Spell the English word 'juice':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'juice'.",
+            "en": "Tap the letters in order to spell 'juice'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'juice' correctly.",
+            "en": "Well done! You spelled 'juice' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "c",
+              "i",
+              "u",
+              "j"
+            ],
+            "target_word": "juice",
+            "target_sequence": [
+              "j",
+              "u",
+              "i",
+              "c",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Một hộp nước cam ép mát lạnh.' in English?",
+            "en": "How do you say 'Một hộp nước cam ép mát lạnh.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Một hộp nước cam ép mát lạnh.' in English?",
+            "en": "How do you say 'Một hộp nước cam ép mát lạnh.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Một hộp nước cam ép mát lạnh.",
+            "en": "Choose the English sentence that means: Một hộp nước cam ép mát lạnh."
+          },
+          "explanation": {
+            "vi": "'A cold box of orange juice.' means 'Một hộp nước cam ép mát lạnh.'.",
+            "en": "'A cold box of orange juice.' means 'Một hộp nước cam ép mát lạnh.'."
+          },
+          "data": {
+            "options": [
+              "A cold box of orange juice.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "A cold box of orange juice."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Fresh Apple & Orange Juice'?",
+            "en": "Which of the following is a word from Unit 'Fresh Apple & Orange Juice'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Fresh Apple & Orange Juice'?",
+            "en": "Which of the following is a word from Unit 'Fresh Apple & Orange Juice'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Fresh Apple & Orange Juice.",
+            "en": "Remember the words in topic: Fresh Apple & Orange Juice."
+          },
+          "explanation": {
+            "vi": "'juice' is a key vocabulary word in this topic.",
+            "en": "'juice' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "juice",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "juice"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'apple' start with the sound /j/?",
+            "en": "Does the word 'apple' start with the sound /j/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'apple' start with the sound /j/? The word 'apple' starts with letter 'J'.",
+            "en": "Does the word 'apple' start with the sound /j/? The word 'apple' starts with letter 'J'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'apple'.",
+            "en": "Listen to the first sound of 'apple'."
+          },
+          "explanation": {
+            "vi": "Yes! 'apple' starts with the sound /j/.",
+            "en": "Yes! 'apple' starts with the sound /j/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'apple' starts with letter 'J'.",
+              "en": "The word 'apple' starts with letter 'J'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'juice'?",
+            "en": "How many letters are there in the word 'juice'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'juice'?",
+            "en": "How many letters are there in the word 'juice'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'juice': 1, 2, 3...",
+            "en": "Count the letters in 'juice': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'juice' has exactly 5 letters.",
+            "en": "The word 'juice' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'juice':",
+            "en": "Choose the correct article before 'juice':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'juice':",
+            "en": "Choose the correct article before 'juice':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a juice'.",
+            "en": "Correct! We say 'a juice'."
+          },
+          "data": {
+            "options": [
+              "a juice",
+              "an juice",
+              "two juice",
+              "many juice"
+            ],
+            "correct_answer": "a juice"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "J",
+                  "en": "J"
+                },
+                "right": {
+                  "vi": "j",
+                  "en": "j"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Fresh Apple & Orange Juice'?",
+            "en": "Which English sentence best describes the topic 'Fresh Apple & Orange Juice'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Fresh Apple & Orange Juice'?",
+            "en": "Which English sentence best describes the topic 'Fresh Apple & Orange Juice'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Fresh Apple & Orange Juice'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Fresh Apple & Orange Juice'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: juice, apple!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: juice, apple!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s26_2",
+      "title": {
+        "vi": "Glass Jars of Goodies",
+        "en": "Glass Jars of Goodies"
+      },
+      "description": {
+        "vi": "Storing cookies and candies in clear jars",
+        "en": "Storing cookies and candies in clear jars"
+      },
+      "icon": "🏺",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s26_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the clear glass container with a lid holding colorful candies. What container is it?",
+            "en": "Look at the clear glass container with a lid holding colorful candies. What container is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the clear glass container with a lid holding colorful candies. What container is it?",
+            "en": "Look at the clear glass container with a lid holding colorful candies. What container is it?"
+          },
+          "hint": {
+            "vi": "A transparent container with a lid.",
+            "en": "A transparent container with a lid."
+          },
+          "explanation": {
+            "vi": "It's a clear glass jar holding treats.",
+            "en": "It's a clear glass jar holding treats."
+          },
+          "data": {
+            "options": [
+              "a clear glass jar",
+              "a cardboard shoe box",
+              "a plastic bucket",
+              "a metal watering can"
+            ],
+            "correct_answer": "a clear glass jar"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u13_glass_jar.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s26_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'jar'?",
+            "en": "What is the first letter of the word 'jar'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'jar'?",
+            "en": "What is the first letter of the word 'jar'?"
+          },
+          "hint": {
+            "vi": "The word 'jar' starts with the letter J.",
+            "en": "The word 'jar' starts with the letter J."
+          },
+          "explanation": {
+            "vi": "Correct! 'jar' begins with the letter 'J'.",
+            "en": "Correct! 'jar' begins with the letter 'J'."
+          },
+          "data": {
+            "options": [
+              "Letter J",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter J"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "jar",
+                  "en": "jar"
+                },
+                "right": {
+                  "vi": "Nghĩa của jar",
+                  "en": "Nghĩa của jar"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "glass",
+                  "en": "glass"
+                },
+                "right": {
+                  "vi": "Nghĩa của glass",
+                  "en": "Nghĩa của glass"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cookie",
+                  "en": "cookie"
+                },
+                "right": {
+                  "vi": "Nghĩa của cookie",
+                  "en": "Nghĩa của cookie"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? Cookies in the glass jar.",
+            "en": "Is this English sentence correct for Grade 1? Cookies in the glass jar."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Cookies in the glass jar.",
+            "en": "Remember the pattern: Cookies in the glass jar."
+          },
+          "explanation": {
+            "vi": "Yes! 'Cookies in the glass jar.' is a correct English sentence.",
+            "en": "Yes! 'Cookies in the glass jar.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cookies in the glass jar.",
+              "en": "Cookies in the glass jar."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Cookies in the glass ....",
+            "en": "Drag the correct word to complete the sentence: Cookies in the glass ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'jar'.",
+            "en": "Choose the correct word: 'jar'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Cookies in the glass jar.'.",
+            "en": "The complete sentence is: 'Cookies in the glass jar.'."
+          },
+          "data": {
+            "prefix_text": "Cookies in the glass ",
+            "suffix_text": ".",
+            "options": [
+              "jar",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "jar"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'jar':",
+            "en": "Spell the English word 'jar':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'jar':",
+            "en": "Spell the English word 'jar':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'jar'.",
+            "en": "Tap the letters in order to spell 'jar'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'jar' correctly.",
+            "en": "Well done! You spelled 'jar' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "a",
+              "j"
+            ],
+            "target_word": "jar",
+            "target_sequence": [
+              "j",
+              "a",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Những chiếc bánh quy trong lọ thuỷ tinh.' in English?",
+            "en": "How do you say 'Những chiếc bánh quy trong lọ thuỷ tinh.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Những chiếc bánh quy trong lọ thuỷ tinh.' in English?",
+            "en": "How do you say 'Những chiếc bánh quy trong lọ thuỷ tinh.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Những chiếc bánh quy trong lọ thuỷ tinh.",
+            "en": "Choose the English sentence that means: Những chiếc bánh quy trong lọ thuỷ tinh."
+          },
+          "explanation": {
+            "vi": "'Cookies in the glass jar.' means 'Những chiếc bánh quy trong lọ thuỷ tinh.'.",
+            "en": "'Cookies in the glass jar.' means 'Những chiếc bánh quy trong lọ thuỷ tinh.'."
+          },
+          "data": {
+            "options": [
+              "Cookies in the glass jar.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Cookies in the glass jar."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Glass Jars of Goodies'?",
+            "en": "Which of the following is a word from Unit 'Glass Jars of Goodies'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Glass Jars of Goodies'?",
+            "en": "Which of the following is a word from Unit 'Glass Jars of Goodies'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Glass Jars of Goodies.",
+            "en": "Remember the words in topic: Glass Jars of Goodies."
+          },
+          "explanation": {
+            "vi": "'jar' is a key vocabulary word in this topic.",
+            "en": "'jar' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "jar",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "jar"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'glass' start with the sound /j/?",
+            "en": "Does the word 'glass' start with the sound /j/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'glass' start with the sound /j/? The word 'glass' starts with letter 'J'.",
+            "en": "Does the word 'glass' start with the sound /j/? The word 'glass' starts with letter 'J'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'glass'.",
+            "en": "Listen to the first sound of 'glass'."
+          },
+          "explanation": {
+            "vi": "Yes! 'glass' starts with the sound /j/.",
+            "en": "Yes! 'glass' starts with the sound /j/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'glass' starts with letter 'J'.",
+              "en": "The word 'glass' starts with letter 'J'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'jar'?",
+            "en": "How many letters are there in the word 'jar'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'jar'?",
+            "en": "How many letters are there in the word 'jar'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'jar': 1, 2, 3...",
+            "en": "Count the letters in 'jar': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'jar' has exactly 3 letters.",
+            "en": "The word 'jar' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'jar':",
+            "en": "Choose the correct article before 'jar':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'jar':",
+            "en": "Choose the correct article before 'jar':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a jar'.",
+            "en": "Correct! We say 'a jar'."
+          },
+          "data": {
+            "options": [
+              "a jar",
+              "an jar",
+              "two jar",
+              "many jar"
+            ],
+            "correct_answer": "a jar"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "J",
+                  "en": "J"
+                },
+                "right": {
+                  "vi": "j",
+                  "en": "j"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s26_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Glass Jars of Goodies'?",
+            "en": "Which English sentence best describes the topic 'Glass Jars of Goodies'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Glass Jars of Goodies'?",
+            "en": "Which English sentence best describes the topic 'Glass Jars of Goodies'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Glass Jars of Goodies'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Glass Jars of Goodies'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: jar, glass!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: jar, glass!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

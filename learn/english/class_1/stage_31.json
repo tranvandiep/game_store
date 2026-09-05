@@ -1,0 +1,1128 @@
+{
+  "id": "e1_stage_31",
+  "stage_number": 31,
+  "title": {
+    "vi": "Week 31: Flying Kites & Pet Care",
+    "en": "Week 31: Flying Kites & Pet Care"
+  },
+  "subtitle": {
+    "vi": "Home life: Playing in the garden, feeding kittens",
+    "en": "Home life: Playing in the garden, feeding kittens"
+  },
+  "icon": "🏡",
+  "banner_image": null,
+  "x_percent": 0.2,
+  "y_percent": 0.079,
+  "required_stars": 90,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "e1_s31_1",
+      "title": {
+        "vi": "A Playful Baby Kitten",
+        "en": "A Playful Baby Kitten"
+      },
+      "description": {
+        "vi": "Caring for our cute fluffy kitten",
+        "en": "Caring for our cute fluffy kitten"
+      },
+      "icon": "🐾",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s31_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the tiny baby cat playing with a yarn ball on the rug. What is it?",
+            "en": "Look at the tiny baby cat playing with a yarn ball on the rug. What is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the tiny baby cat playing with a yarn ball on the rug. What is it?",
+            "en": "Look at the tiny baby cat playing with a yarn ball on the rug. What is it?"
+          },
+          "hint": {
+            "vi": "A baby cat is called a kitten.",
+            "en": "A baby cat is called a kitten."
+          },
+          "explanation": {
+            "vi": "It's a sweet baby kitten playing with yarn.",
+            "en": "It's a sweet baby kitten playing with yarn."
+          },
+          "data": {
+            "options": [
+              "a playful baby kitten",
+              "a big guard dog",
+              "a pet lizard",
+              "a wild wolf"
+            ],
+            "correct_answer": "a playful baby kitten"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u16_baby_kitten.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s31_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'kitten'?",
+            "en": "What is the first letter of the word 'kitten'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'kitten'?",
+            "en": "What is the first letter of the word 'kitten'?"
+          },
+          "hint": {
+            "vi": "The word 'kitten' starts with the letter K.",
+            "en": "The word 'kitten' starts with the letter K."
+          },
+          "explanation": {
+            "vi": "Correct! 'kitten' begins with the letter 'K'.",
+            "en": "Correct! 'kitten' begins with the letter 'K'."
+          },
+          "data": {
+            "options": [
+              "Letter K",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter K"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "kitten",
+                  "en": "kitten"
+                },
+                "right": {
+                  "vi": "Nghĩa của kitten",
+                  "en": "Nghĩa của kitten"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "playful",
+                  "en": "playful"
+                },
+                "right": {
+                  "vi": "Nghĩa của playful",
+                  "en": "Nghĩa của playful"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fluffy",
+                  "en": "fluffy"
+                },
+                "right": {
+                  "vi": "Nghĩa của fluffy",
+                  "en": "Nghĩa của fluffy"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? I love my cute baby kitten.",
+            "en": "Is this English sentence correct for Grade 1? I love my cute baby kitten."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I love my cute baby kitten.",
+            "en": "Remember the pattern: I love my cute baby kitten."
+          },
+          "explanation": {
+            "vi": "Yes! 'I love my cute baby kitten.' is a correct English sentence.",
+            "en": "Yes! 'I love my cute baby kitten.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I love my cute baby kitten.",
+              "en": "I love my cute baby kitten."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I love my cute baby ....",
+            "en": "Drag the correct word to complete the sentence: I love my cute baby ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'kitten'.",
+            "en": "Choose the correct word: 'kitten'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I love my cute baby kitten.'.",
+            "en": "The complete sentence is: 'I love my cute baby kitten.'."
+          },
+          "data": {
+            "prefix_text": "I love my cute baby ",
+            "suffix_text": ".",
+            "options": [
+              "kitten",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "kitten"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'kitten':",
+            "en": "Spell the English word 'kitten':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'kitten':",
+            "en": "Spell the English word 'kitten':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'kitten'.",
+            "en": "Tap the letters in order to spell 'kitten'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'kitten' correctly.",
+            "en": "Well done! You spelled 'kitten' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "e",
+              "t",
+              "t",
+              "i",
+              "k"
+            ],
+            "target_word": "kitten",
+            "target_sequence": [
+              "k",
+              "i",
+              "t",
+              "t",
+              "e",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi yêu chú mèo con bé bỏng dễ thương của mình.' in English?",
+            "en": "How do you say 'Tôi yêu chú mèo con bé bỏng dễ thương của mình.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi yêu chú mèo con bé bỏng dễ thương của mình.' in English?",
+            "en": "How do you say 'Tôi yêu chú mèo con bé bỏng dễ thương của mình.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi yêu chú mèo con bé bỏng dễ thương của mình.",
+            "en": "Choose the English sentence that means: Tôi yêu chú mèo con bé bỏng dễ thương của mình."
+          },
+          "explanation": {
+            "vi": "'I love my cute baby kitten.' means 'Tôi yêu chú mèo con bé bỏng dễ thương của mình.'.",
+            "en": "'I love my cute baby kitten.' means 'Tôi yêu chú mèo con bé bỏng dễ thương của mình.'."
+          },
+          "data": {
+            "options": [
+              "I love my cute baby kitten.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I love my cute baby kitten."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'A Playful Baby Kitten'?",
+            "en": "Which of the following is a word from Unit 'A Playful Baby Kitten'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'A Playful Baby Kitten'?",
+            "en": "Which of the following is a word from Unit 'A Playful Baby Kitten'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: A Playful Baby Kitten.",
+            "en": "Remember the words in topic: A Playful Baby Kitten."
+          },
+          "explanation": {
+            "vi": "'kitten' is a key vocabulary word in this topic.",
+            "en": "'kitten' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "kitten",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "kitten"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'playful' start with the sound /k/?",
+            "en": "Does the word 'playful' start with the sound /k/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'playful' start with the sound /k/? The word 'playful' starts with letter 'K'.",
+            "en": "Does the word 'playful' start with the sound /k/? The word 'playful' starts with letter 'K'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'playful'.",
+            "en": "Listen to the first sound of 'playful'."
+          },
+          "explanation": {
+            "vi": "Yes! 'playful' starts with the sound /k/.",
+            "en": "Yes! 'playful' starts with the sound /k/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'playful' starts with letter 'K'.",
+              "en": "The word 'playful' starts with letter 'K'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'kitten'?",
+            "en": "How many letters are there in the word 'kitten'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'kitten'?",
+            "en": "How many letters are there in the word 'kitten'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'kitten': 1, 2, 3...",
+            "en": "Count the letters in 'kitten': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'kitten' has exactly 6 letters.",
+            "en": "The word 'kitten' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'kitten':",
+            "en": "Choose the correct article before 'kitten':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'kitten':",
+            "en": "Choose the correct article before 'kitten':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a kitten'.",
+            "en": "Correct! We say 'a kitten'."
+          },
+          "data": {
+            "options": [
+              "a kitten",
+              "an kitten",
+              "two kitten",
+              "many kitten"
+            ],
+            "correct_answer": "a kitten"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "K",
+                  "en": "K"
+                },
+                "right": {
+                  "vi": "k",
+                  "en": "k"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'A Playful Baby Kitten'?",
+            "en": "Which English sentence best describes the topic 'A Playful Baby Kitten'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'A Playful Baby Kitten'?",
+            "en": "Which English sentence best describes the topic 'A Playful Baby Kitten'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'A Playful Baby Kitten'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'A Playful Baby Kitten'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: kitten, playful!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: kitten, playful!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s31_2",
+      "title": {
+        "vi": "A King with a Golden Crown",
+        "en": "A King with a Golden Crown"
+      },
+      "description": {
+        "vi": "Storybook time: The King and Queen",
+        "en": "Storybook time: The King and Queen"
+      },
+      "icon": "👑",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s31_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the royal ruler wearing a golden crown and royal cape in the fairy tale. Who is he?",
+            "en": "Look at the royal ruler wearing a golden crown and royal cape in the fairy tale. Who is he?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the royal ruler wearing a golden crown and royal cape in the fairy tale. Who is he?",
+            "en": "Look at the royal ruler wearing a golden crown and royal cape in the fairy tale. Who is he?"
+          },
+          "hint": {
+            "vi": "He wears a golden crown and rules a kingdom.",
+            "en": "He wears a golden crown and rules a kingdom."
+          },
+          "explanation": {
+            "vi": "It's the kind king wearing his golden crown.",
+            "en": "It's the kind king wearing his golden crown."
+          },
+          "data": {
+            "options": [
+              "the kind king with a gold crown",
+              "a pirate captain",
+              "a court jester",
+              "a soldier"
+            ],
+            "correct_answer": "the kind king with a gold crown"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u16_kind_king.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s31_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'king'?",
+            "en": "What is the first letter of the word 'king'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'king'?",
+            "en": "What is the first letter of the word 'king'?"
+          },
+          "hint": {
+            "vi": "The word 'king' starts with the letter K.",
+            "en": "The word 'king' starts with the letter K."
+          },
+          "explanation": {
+            "vi": "Correct! 'king' begins with the letter 'K'.",
+            "en": "Correct! 'king' begins with the letter 'K'."
+          },
+          "data": {
+            "options": [
+              "Letter K",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter K"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "king",
+                  "en": "king"
+                },
+                "right": {
+                  "vi": "Nghĩa của king",
+                  "en": "Nghĩa của king"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "crown",
+                  "en": "crown"
+                },
+                "right": {
+                  "vi": "Nghĩa của crown",
+                  "en": "Nghĩa của crown"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "gold",
+                  "en": "gold"
+                },
+                "right": {
+                  "vi": "Nghĩa của gold",
+                  "en": "Nghĩa của gold"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? The kind king wears a gold crown.",
+            "en": "Is this English sentence correct for Grade 1? The kind king wears a gold crown."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The kind king wears a gold crown.",
+            "en": "Remember the pattern: The kind king wears a gold crown."
+          },
+          "explanation": {
+            "vi": "Yes! 'The kind king wears a gold crown.' is a correct English sentence.",
+            "en": "Yes! 'The kind king wears a gold crown.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The kind king wears a gold crown.",
+              "en": "The kind king wears a gold crown."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The kind king wears a gold ....",
+            "en": "Drag the correct word to complete the sentence: The kind king wears a gold ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'crown'.",
+            "en": "Choose the correct word: 'crown'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The kind king wears a gold crown.'.",
+            "en": "The complete sentence is: 'The kind king wears a gold crown.'."
+          },
+          "data": {
+            "prefix_text": "The kind king wears a gold ",
+            "suffix_text": ".",
+            "options": [
+              "crown",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "crown"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'king':",
+            "en": "Spell the English word 'king':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'king':",
+            "en": "Spell the English word 'king':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'king'.",
+            "en": "Tap the letters in order to spell 'king'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'king' correctly.",
+            "en": "Well done! You spelled 'king' correctly."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "i",
+              "k"
+            ],
+            "target_word": "king",
+            "target_sequence": [
+              "k",
+              "i",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Vị vua nhân từ đội chiếc vương miện vàng.' in English?",
+            "en": "How do you say 'Vị vua nhân từ đội chiếc vương miện vàng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Vị vua nhân từ đội chiếc vương miện vàng.' in English?",
+            "en": "How do you say 'Vị vua nhân từ đội chiếc vương miện vàng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Vị vua nhân từ đội chiếc vương miện vàng.",
+            "en": "Choose the English sentence that means: Vị vua nhân từ đội chiếc vương miện vàng."
+          },
+          "explanation": {
+            "vi": "'The kind king wears a gold crown.' means 'Vị vua nhân từ đội chiếc vương miện vàng.'.",
+            "en": "'The kind king wears a gold crown.' means 'Vị vua nhân từ đội chiếc vương miện vàng.'."
+          },
+          "data": {
+            "options": [
+              "The kind king wears a gold crown.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The kind king wears a gold crown."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'A King with a Golden Crown'?",
+            "en": "Which of the following is a word from Unit 'A King with a Golden Crown'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'A King with a Golden Crown'?",
+            "en": "Which of the following is a word from Unit 'A King with a Golden Crown'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: A King with a Golden Crown.",
+            "en": "Remember the words in topic: A King with a Golden Crown."
+          },
+          "explanation": {
+            "vi": "'king' is a key vocabulary word in this topic.",
+            "en": "'king' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "king",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "king"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'crown' start with the sound /k/?",
+            "en": "Does the word 'crown' start with the sound /k/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'crown' start with the sound /k/? The word 'crown' starts with letter 'K'.",
+            "en": "Does the word 'crown' start with the sound /k/? The word 'crown' starts with letter 'K'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'crown'.",
+            "en": "Listen to the first sound of 'crown'."
+          },
+          "explanation": {
+            "vi": "Yes! 'crown' starts with the sound /k/.",
+            "en": "Yes! 'crown' starts with the sound /k/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'crown' starts with letter 'K'.",
+              "en": "The word 'crown' starts with letter 'K'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'king'?",
+            "en": "How many letters are there in the word 'king'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'king'?",
+            "en": "How many letters are there in the word 'king'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'king': 1, 2, 3...",
+            "en": "Count the letters in 'king': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'king' has exactly 4 letters.",
+            "en": "The word 'king' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'king':",
+            "en": "Choose the correct article before 'king':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'king':",
+            "en": "Choose the correct article before 'king':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a king'.",
+            "en": "Correct! We say 'a king'."
+          },
+          "data": {
+            "options": [
+              "a king",
+              "an king",
+              "two king",
+              "many king"
+            ],
+            "correct_answer": "a king"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "K",
+                  "en": "K"
+                },
+                "right": {
+                  "vi": "k",
+                  "en": "k"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s31_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'A King with a Golden Crown'?",
+            "en": "Which English sentence best describes the topic 'A King with a Golden Crown'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'A King with a Golden Crown'?",
+            "en": "Which English sentence best describes the topic 'A King with a Golden Crown'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'A King with a Golden Crown'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'A King with a Golden Crown'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: king, crown!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: king, crown!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

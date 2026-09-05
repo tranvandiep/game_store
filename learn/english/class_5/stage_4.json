@@ -1,0 +1,1128 @@
+{
+  "id": "e5_stage_4",
+  "stage_number": 4,
+  "title": {
+    "vi": "Week 4: Unit 4 - Free-Time Activities",
+    "en": "Week 4: Unit 4 - Free-Time Activities"
+  },
+  "subtitle": {
+    "vi": "What do you do in your free time? I surf the internet / ride a bike / do karate / draw",
+    "en": "What do you do in your free time? I surf the internet / ride a bike / do karate / draw"
+  },
+  "icon": "🥋",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.863,
+  "required_stars": 9,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "e5_s4_1",
+      "title": {
+        "vi": "Unit 4: Surfing the Internet & Coding",
+        "en": "Unit 4: Surfing the Internet & Coding"
+      },
+      "description": {
+        "vi": "What do you do in your free time? - I surf the internet and learn coding",
+        "en": "What do you do in your free time? - I surf the internet and learn coding"
+      },
+      "icon": "💻",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e5_s4_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the student using a laptop to study online science articles. What is he doing in his free time?",
+            "en": "Look at the student using a laptop to study online science articles. What is he doing in his free time?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the student using a laptop to study online science articles. What is he doing in his free time?",
+            "en": "Look at the student using a laptop to study online science articles. What is he doing in his free time?"
+          },
+          "hint": {
+            "vi": "Browsing websites for learning.",
+            "en": "Browsing websites for learning."
+          },
+          "explanation": {
+            "vi": "He is surfing the internet to study.",
+            "en": "He is surfing the internet to study."
+          },
+          "data": {
+            "options": [
+              "surfing the internet for knowledge",
+              "chopping firewood",
+              "sleeping in bed",
+              "washing a truck"
+            ],
+            "correct_answer": "surfing the internet for knowledge"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u4_surf_internet.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s4_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'surf'?",
+            "en": "What is the first letter of the word 'surf'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'surf'?",
+            "en": "What is the first letter of the word 'surf'?"
+          },
+          "hint": {
+            "vi": "The word 'surf' starts with the letter S.",
+            "en": "The word 'surf' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'surf' begins with the letter 'S'.",
+            "en": "Correct! 'surf' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "surf",
+                  "en": "surf"
+                },
+                "right": {
+                  "vi": "Nghĩa của surf",
+                  "en": "Nghĩa của surf"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "internet",
+                  "en": "internet"
+                },
+                "right": {
+                  "vi": "Nghĩa của internet",
+                  "en": "Nghĩa của internet"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "coding",
+                  "en": "coding"
+                },
+                "right": {
+                  "vi": "Nghĩa của coding",
+                  "en": "Nghĩa của coding"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? I surf the internet to research science topics.",
+            "en": "Is this English sentence correct for Grade 5? I surf the internet to research science topics."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I surf the internet to research science topics.",
+            "en": "Remember the pattern: I surf the internet to research science topics."
+          },
+          "explanation": {
+            "vi": "Yes! 'I surf the internet to research science topics.' is a correct English sentence.",
+            "en": "Yes! 'I surf the internet to research science topics.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I surf the internet to research science topics.",
+              "en": "I surf the internet to research science topics."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I surf the internet to research science ....",
+            "en": "Drag the correct word to complete the sentence: I surf the internet to research science ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'topics'.",
+            "en": "Choose the correct word: 'topics'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I surf the internet to research science topics.'.",
+            "en": "The complete sentence is: 'I surf the internet to research science topics.'."
+          },
+          "data": {
+            "prefix_text": "I surf the internet to research science ",
+            "suffix_text": ".",
+            "options": [
+              "topics",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "topics"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'surf':",
+            "en": "Spell the English word 'surf':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'surf':",
+            "en": "Spell the English word 'surf':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'surf'.",
+            "en": "Tap the letters in order to spell 'surf'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'surf' correctly.",
+            "en": "Well done! You spelled 'surf' correctly."
+          },
+          "data": {
+            "letters": [
+              "f",
+              "r",
+              "u",
+              "s"
+            ],
+            "target_word": "surf",
+            "target_sequence": [
+              "s",
+              "u",
+              "r",
+              "f"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi lướt mạng internet để tìm hiểu các chủ đề khoa học.' in English?",
+            "en": "How do you say 'Tôi lướt mạng internet để tìm hiểu các chủ đề khoa học.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi lướt mạng internet để tìm hiểu các chủ đề khoa học.' in English?",
+            "en": "How do you say 'Tôi lướt mạng internet để tìm hiểu các chủ đề khoa học.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi lướt mạng internet để tìm hiểu các chủ đề khoa học.",
+            "en": "Choose the English sentence that means: Tôi lướt mạng internet để tìm hiểu các chủ đề khoa học."
+          },
+          "explanation": {
+            "vi": "'I surf the internet to research science topics.' means 'Tôi lướt mạng internet để tìm hiểu các chủ đề khoa học.'.",
+            "en": "'I surf the internet to research science topics.' means 'Tôi lướt mạng internet để tìm hiểu các chủ đề khoa học.'."
+          },
+          "data": {
+            "options": [
+              "I surf the internet to research science topics.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I surf the internet to research science topics."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 4: Surfing the Internet & Coding'?",
+            "en": "Which of the following is a key word from Unit 'Unit 4: Surfing the Internet & Coding'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 4: Surfing the Internet & Coding'?",
+            "en": "Which of the following is a key word from Unit 'Unit 4: Surfing the Internet & Coding'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 4: Surfing the Internet & Coding.",
+            "en": "Remember the words in topic: Unit 4: Surfing the Internet & Coding."
+          },
+          "explanation": {
+            "vi": "'surf' is a key vocabulary word in this topic.",
+            "en": "'surf' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "surf",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "surf"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'internet' start with the sound /s/?",
+            "en": "Does the word 'internet' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'internet' start with the sound /s/? The word 'internet' starts with letter 'S'.",
+            "en": "Does the word 'internet' start with the sound /s/? The word 'internet' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'internet'.",
+            "en": "Listen to the first sound of 'internet'."
+          },
+          "explanation": {
+            "vi": "Yes! 'internet' starts with the sound /s/.",
+            "en": "Yes! 'internet' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'internet' starts with letter 'S'.",
+              "en": "The word 'internet' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'surf'?",
+            "en": "How many letters are there in the word 'surf'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'surf'?",
+            "en": "How many letters are there in the word 'surf'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'surf': 1, 2, 3...",
+            "en": "Count the letters in 'surf': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'surf' has exactly 4 letters.",
+            "en": "The word 'surf' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'surf':",
+            "en": "Choose the correct phrase with 'surf':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'surf':",
+            "en": "Choose the correct phrase with 'surf':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a surf'.",
+            "en": "Correct! We say 'a surf'."
+          },
+          "data": {
+            "options": [
+              "a surf",
+              "an surf",
+              "two surf",
+              "many surf"
+            ],
+            "correct_answer": "a surf"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'surf'.",
+            "en": "Choose the word: 'surf'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is surf. It is wonderful!'",
+            "en": "We say: 'Look! This is surf. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "surf",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "surf"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 4: Surfing the Internet & Coding'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 4: Surfing the Internet & Coding'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 4: Surfing the Internet & Coding'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 4: Surfing the Internet & Coding'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 4: Surfing the Internet & Coding'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 4: Surfing the Internet & Coding'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: surf, internet!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: surf, internet!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e5_s4_2",
+      "title": {
+        "vi": "Unit 4: Practicing Martial Arts (Karate)",
+        "en": "Unit 4: Practicing Martial Arts (Karate)"
+      },
+      "description": {
+        "vi": "He does karate at the sports club twice a week",
+        "en": "He does karate at the sports club twice a week"
+      },
+      "icon": "🥋",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e5_s4_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the athlete wearing a white gi uniform and black belt doing a high martial arts kick. What activity is it?",
+            "en": "Look at the athlete wearing a white gi uniform and black belt doing a high martial arts kick. What activity is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the athlete wearing a white gi uniform and black belt doing a high martial arts kick. What activity is it?",
+            "en": "Look at the athlete wearing a white gi uniform and black belt doing a high martial arts kick. What activity is it?"
+          },
+          "hint": {
+            "vi": "Japanese martial arts discipline.",
+            "en": "Japanese martial arts discipline."
+          },
+          "explanation": {
+            "vi": "He is practicing karate.",
+            "en": "He is practicing karate."
+          },
+          "data": {
+            "options": [
+              "practicing karate martial arts",
+              "playing chess",
+              "cooking noodles",
+              "swimming in ocean"
+            ],
+            "correct_answer": "practicing karate martial arts"
+          },
+          "images": [
+            "assets/learn/english/images_5/eng5_u4_do_karate.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e5_s4_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'karate'?",
+            "en": "What is the first letter of the word 'karate'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'karate'?",
+            "en": "What is the first letter of the word 'karate'?"
+          },
+          "hint": {
+            "vi": "The word 'karate' starts with the letter K.",
+            "en": "The word 'karate' starts with the letter K."
+          },
+          "explanation": {
+            "vi": "Correct! 'karate' begins with the letter 'K'.",
+            "en": "Correct! 'karate' begins with the letter 'K'."
+          },
+          "data": {
+            "options": [
+              "Letter K",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter K"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "karate",
+                  "en": "karate"
+                },
+                "right": {
+                  "vi": "Nghĩa của karate",
+                  "en": "Nghĩa của karate"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "martial arts",
+                  "en": "martial arts"
+                },
+                "right": {
+                  "vi": "Nghĩa của martial arts",
+                  "en": "Nghĩa của martial arts"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "belt",
+                  "en": "belt"
+                },
+                "right": {
+                  "vi": "Nghĩa của belt",
+                  "en": "Nghĩa của belt"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 5?",
+            "en": "Is this English sentence correct for Grade 5?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 5? He practices karate to stay fit and strong.",
+            "en": "Is this English sentence correct for Grade 5? He practices karate to stay fit and strong."
+          },
+          "hint": {
+            "vi": "Remember the pattern: He practices karate to stay fit and strong.",
+            "en": "Remember the pattern: He practices karate to stay fit and strong."
+          },
+          "explanation": {
+            "vi": "Yes! 'He practices karate to stay fit and strong.' is a correct English sentence.",
+            "en": "Yes! 'He practices karate to stay fit and strong.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "He practices karate to stay fit and strong.",
+              "en": "He practices karate to stay fit and strong."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: He practices karate to stay fit and ....",
+            "en": "Drag the correct word to complete the sentence: He practices karate to stay fit and ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'strong'.",
+            "en": "Choose the correct word: 'strong'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'He practices karate to stay fit and strong.'.",
+            "en": "The complete sentence is: 'He practices karate to stay fit and strong.'."
+          },
+          "data": {
+            "prefix_text": "He practices karate to stay fit and ",
+            "suffix_text": ".",
+            "options": [
+              "strong",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "strong"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'karate':",
+            "en": "Spell the English word 'karate':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'karate':",
+            "en": "Spell the English word 'karate':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'karate'.",
+            "en": "Tap the letters in order to spell 'karate'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'karate' correctly.",
+            "en": "Well done! You spelled 'karate' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "t",
+              "a",
+              "r",
+              "a",
+              "k"
+            ],
+            "target_word": "karate",
+            "target_sequence": [
+              "k",
+              "a",
+              "r",
+              "a",
+              "t",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cậu ấy tập luyện võ karate để giữ gìn sức khoẻ và sự dẻo dai.' in English?",
+            "en": "How do you say 'Cậu ấy tập luyện võ karate để giữ gìn sức khoẻ và sự dẻo dai.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cậu ấy tập luyện võ karate để giữ gìn sức khoẻ và sự dẻo dai.' in English?",
+            "en": "How do you say 'Cậu ấy tập luyện võ karate để giữ gìn sức khoẻ và sự dẻo dai.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cậu ấy tập luyện võ karate để giữ gìn sức khoẻ và sự dẻo dai.",
+            "en": "Choose the English sentence that means: Cậu ấy tập luyện võ karate để giữ gìn sức khoẻ và sự dẻo dai."
+          },
+          "explanation": {
+            "vi": "'He practices karate to stay fit and strong.' means 'Cậu ấy tập luyện võ karate để giữ gìn sức khoẻ và sự dẻo dai.'.",
+            "en": "'He practices karate to stay fit and strong.' means 'Cậu ấy tập luyện võ karate để giữ gìn sức khoẻ và sự dẻo dai.'."
+          },
+          "data": {
+            "options": [
+              "He practices karate to stay fit and strong.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "He practices karate to stay fit and strong."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 4: Practicing Martial Arts (Karate)'?",
+            "en": "Which of the following is a key word from Unit 'Unit 4: Practicing Martial Arts (Karate)'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 4: Practicing Martial Arts (Karate)'?",
+            "en": "Which of the following is a key word from Unit 'Unit 4: Practicing Martial Arts (Karate)'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 4: Practicing Martial Arts (Karate).",
+            "en": "Remember the words in topic: Unit 4: Practicing Martial Arts (Karate)."
+          },
+          "explanation": {
+            "vi": "'karate' is a key vocabulary word in this topic.",
+            "en": "'karate' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "karate",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "karate"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'martial arts' start with the sound /k/?",
+            "en": "Does the word 'martial arts' start with the sound /k/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'martial arts' start with the sound /k/? The word 'martial arts' starts with letter 'K'.",
+            "en": "Does the word 'martial arts' start with the sound /k/? The word 'martial arts' starts with letter 'K'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'martial arts'.",
+            "en": "Listen to the first sound of 'martial arts'."
+          },
+          "explanation": {
+            "vi": "Yes! 'martial arts' starts with the sound /k/.",
+            "en": "Yes! 'martial arts' starts with the sound /k/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'martial arts' starts with letter 'K'.",
+              "en": "The word 'martial arts' starts with letter 'K'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'karate'?",
+            "en": "How many letters are there in the word 'karate'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'karate'?",
+            "en": "How many letters are there in the word 'karate'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'karate': 1, 2, 3...",
+            "en": "Count the letters in 'karate': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'karate' has exactly 6 letters.",
+            "en": "The word 'karate' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'karate':",
+            "en": "Choose the correct phrase with 'karate':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'karate':",
+            "en": "Choose the correct phrase with 'karate':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a karate'.",
+            "en": "Correct! We say 'a karate'."
+          },
+          "data": {
+            "options": [
+              "a karate",
+              "an karate",
+              "two karate",
+              "many karate"
+            ],
+            "correct_answer": "a karate"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'karate'.",
+            "en": "Choose the word: 'karate'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is karate. It is wonderful!'",
+            "en": "We say: 'Look! This is karate. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "karate",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "karate"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask about someone's future dream job politely?",
+            "en": "How do you ask about someone's future dream job politely?"
+          },
+          "hint": {
+            "vi": "We ask: 'What would you like to be in the future?'",
+            "en": "We ask: 'What would you like to be in the future?'"
+          },
+          "explanation": {
+            "vi": "Asking 'What would you like to be in the future?' is polite and natural.",
+            "en": "Asking 'What would you like to be in the future?' is polite and natural."
+          },
+          "data": {
+            "options": [
+              "What would you like to be in the future?",
+              "Why are you working?",
+              "Go to work now!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What would you like to be in the future?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School?",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School?"
+          },
+          "tts_prompt": {
+            "vi": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+            "en": "Does preparing well in Primary English lay a strong foundation for Secondary School? Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+          },
+          "hint": {
+            "vi": "Think about transitioning to Secondary School.",
+            "en": "Think about transitioning to Secondary School."
+          },
+          "explanation": {
+            "vi": "Yes! Grade 5 English prepares you excellently for Grade 6.",
+            "en": "Yes! Grade 5 English prepares you excellently for Grade 6."
+          },
+          "data": {
+            "statement": {
+              "vi": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful.",
+              "en": "Solid grammar and rich vocabulary make Grade 6 English smooth, enjoyable, and successful."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e5_s4_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 4: Practicing Martial Arts (Karate)'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 4: Practicing Martial Arts (Karate)'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 4: Practicing Martial Arts (Karate)'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 4: Practicing Martial Arts (Karate)'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 4: Practicing Martial Arts (Karate)'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 4: Practicing Martial Arts (Karate)'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 5 English: karate, martial arts!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 5 English: karate, martial arts!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

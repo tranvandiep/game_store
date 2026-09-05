@@ -1,0 +1,1144 @@
+{
+  "id": "v1_stage_21",
+  "stage_number": 21,
+  "title": {
+    "vi": "Tuần 21: Chủ Điểm Mái Trường Mến Yêu (Phần 1)",
+    "en": "Tuần 21: Chủ Điểm Mái Trường Mến Yêu (Phần 1)"
+  },
+  "subtitle": {
+    "vi": "Bài 1, 2 & 3 - Tôi đi học, Đi học, Hoa yêu thương",
+    "en": "Bài 1, 2 & 3 - Tôi đi học, Đi học, Hoa yêu thương"
+  },
+  "icon": "🎒",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.369,
+  "required_stars": 60,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "v1_t21_1",
+      "title": {
+        "vi": "Tập đọc: Tôi đi học & Bài thơ Đi học",
+        "en": "Tập đọc: Tôi đi học & Bài thơ Đi học"
+      },
+      "description": {
+        "vi": "Cảm xúc ngày đầu tiên cắp sách tới trường",
+        "en": "Cảm xúc ngày đầu tiên cắp sách tới trường"
+      },
+      "icon": "🌸",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t21_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong bài thơ 'Đi học', ai là người dắt tay bé từng bước tới trường trong ngày đầu tiên?",
+            "en": "Trong bài thơ 'Đi học', ai là người dắt tay bé từng bước tới trường trong ngày đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong bài thơ 'Đi học', ai là người dắt tay bé từng bước tới trường trong ngày đầu tiên?",
+            "en": "Trong bài thơ 'Đi học', ai là người dắt tay bé từng bước tới trường trong ngày đầu tiên?"
+          },
+          "hint": {
+            "vi": "Mẹ âu yếm dắt tay em đi trên con đường làng tới trường.",
+            "en": "Mẹ âu yếm dắt tay em đi trên con đường làng tới trường."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ câu thơ: 'Hôm qua em tới trường, mẹ dắt tay từng bước'.",
+            "en": "Bức tranh minh hoạ câu thơ: 'Hôm qua em tới trường, mẹ dắt tay từng bước'."
+          },
+          "data": {
+            "options": [
+              "mẹ dắt tay",
+              "anh trai dắt tay",
+              "bác bảo vệ",
+              "chú hàng xóm"
+            ],
+            "correct_answer": "mẹ dắt tay"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_me_dat_tay_tung_buoc.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'sáng nay', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'sáng nay', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'sáng nay', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'sáng nay', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'sáng nay'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'sáng nay'."
+          },
+          "explanation": {
+            "vi": "Trong 'sáng nay', âm 's' là âm đầu đứng trước.",
+            "en": "Trong 'sáng nay', âm 's' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "s",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "s"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sáng nay",
+                  "en": "sáng nay"
+                },
+                "right": {
+                  "vi": "Tiếng sáng nay",
+                  "en": "Tiếng sáng nay"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "đến trường",
+                  "en": "đến trường"
+                },
+                "right": {
+                  "vi": "Tiếng đến trường",
+                  "en": "Tiếng đến trường"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cô giáo",
+                  "en": "cô giáo"
+                },
+                "right": {
+                  "vi": "Tiếng cô giáo",
+                  "en": "Tiếng cô giáo"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'đến trường' xuất hiện trong bài học về 'đi học'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'đến trường' xuất hiện trong bài học về 'đi học'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'đi học'.",
+            "en": "Nhớ lại nội dung bài học về 'đi học'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'đến trường' là trọng tâm trong bài học về 'đi học'.",
+            "en": "Đúng! Nội dung 'đến trường' là trọng tâm trong bài học về 'đi học'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'đến trường' xuất hiện trong bài học về 'đi học'.",
+              "en": "Từ hoặc câu liên quan đến 'đến trường' xuất hiện trong bài học về 'đi học'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'sáng nay'.",
+            "en": "Chọn từ đang học trong bài: 'sáng nay'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'sáng nay'.",
+            "en": "Từ chính xác là 'sáng nay'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "sáng nay",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "sáng nay"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'sángnay':",
+            "en": "Ghép các chữ cái để tạo thành từ 'sángnay':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'sángnay':",
+            "en": "Ghép các chữ cái để tạo thành từ 'sángnay':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'sángnay'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'sángnay'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'sángnay'.",
+            "en": "Ghép các chữ cái tạo thành 'sángnay'."
+          },
+          "data": {
+            "letters": [
+              "y",
+              "a",
+              "n",
+              "g",
+              "n",
+              "á",
+              "s"
+            ],
+            "target_word": "sángnay",
+            "target_sequence": [
+              "s",
+              "á",
+              "n",
+              "g",
+              "n",
+              "a",
+              "y"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'sáng nay' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'sáng nay' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'sáng nay' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'sáng nay' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'sáng nay'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'sáng nay'."
+          },
+          "explanation": {
+            "vi": "'sáng nay đến trường' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'sáng nay đến trường' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "đến trường",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "đến trường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Hôm qua em tới trường, mẹ dắt tay từng bước.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Hôm qua em tới trường, mẹ dắt tay từng bước.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Hôm qua em tới trường, mẹ dắt tay từng bước.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Hôm qua em tới trường, mẹ dắt tay từng bước.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Hôm qua em tới trường, mẹ dắt tay từng bước.' thuộc chủ đề 'Tập đọc: Tôi đi học & Bài thơ Đi học'.",
+            "en": "Câu 'Hôm qua em tới trường, mẹ dắt tay từng bước.' thuộc chủ đề 'Tập đọc: Tôi đi học & Bài thơ Đi học'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Tôi đi học & Bài thơ Đi học",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Tôi đi học & Bài thơ Đi học"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Đi học giúp ta biết thêm bao điều hay lẽ phải.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Đi học giúp ta biết thêm bao điều hay lẽ phải."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Đi học giúp ta biết thêm bao điều hay lẽ phải.",
+            "en": "Đúng! Đi học giúp ta biết thêm bao điều hay lẽ phải."
+          },
+          "data": {
+            "statement": {
+              "vi": "Đi học giúp ta biết thêm bao điều hay lẽ phải.",
+              "en": "Đi học giúp ta biết thêm bao điều hay lẽ phải."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Hôm qua em tới trường, mẹ dắt tay từng bước.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Hôm qua em tới trường, mẹ dắt tay từng bước.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Hôm qua em tới trường, mẹ dắt tay từng bước.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Hôm qua em tới trường, mẹ dắt tay từng bước.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Hôm qua em tới trường, mẹ dắt tay từng bước..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Hôm qua em tới trường, mẹ dắt tay từng bước.."
+          },
+          "explanation": {
+            "vi": "Câu 'Hôm qua em tới trường, mẹ dắt tay từng bước.' có đúng 10 tiếng.",
+            "en": "Câu 'Hôm qua em tới trường, mẹ dắt tay từng bước.' có đúng 10 tiếng."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'đến trường' mang dấu thanh gì?",
+            "en": "Tiếng 'đến trường' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'đến trường' mang dấu thanh gì?",
+            "en": "Tiếng 'đến trường' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'đến trường' mang dấu thanh chính xác.",
+            "en": "Tiếng 'đến trường' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Hôm qua em tới trường, mẹ dắt tay từng bước.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Hôm qua em tới trường, mẹ dắt tay từng bước.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Hôm qua em tới trường, mẹ dắt tay từng bước.' Hôm ... em tới trường, mẹ dắt tay từng bước.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Hôm qua em tới trường, mẹ dắt tay từng bước.' Hôm ... em tới trường, mẹ dắt tay từng bước."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Hôm qua em tới trường, mẹ dắt tay từng bước..",
+            "en": "Nhớ lại câu mẫu: Hôm qua em tới trường, mẹ dắt tay từng bước.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'qua'.",
+            "en": "Từ chính xác là 'qua'."
+          },
+          "data": {
+            "prefix_text": "Hôm ",
+            "suffix_text": " em tới trường, mẹ dắt tay từng bước.",
+            "options": [
+              "qua",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "qua"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Đ",
+                  "en": "Đ"
+                },
+                "right": {
+                  "vi": "đ",
+                  "en": "đ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'sáng nay'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'sáng nay'."
+          },
+          "explanation": {
+            "vi": "'sáng nay' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'sáng nay' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "sáng nay",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "sáng nay"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'đi học'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'đi học'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'đi học'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'đi học'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'đi học' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'đi học' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'sáng nay'.",
+            "en": "Tiếng mẫu của bài là 'sáng nay'."
+          },
+          "data": {
+            "options": [
+              "sáng nay",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "sáng nay"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t21_2",
+      "title": {
+        "vi": "Tập đọc: Hoa yêu thương",
+        "en": "Tập đọc: Hoa yêu thương"
+      },
+      "description": {
+        "vi": "Bông hoa điểm mười kính tặng thầy cô giáo",
+        "en": "Bông hoa điểm mười kính tặng thầy cô giáo"
+      },
+      "icon": "💐",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t21_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Món quà tinh thần ý nghĩa nhất các bạn nhỏ thi đua học tốt để dâng tặng thầy cô là gì?",
+            "en": "Món quà tinh thần ý nghĩa nhất các bạn nhỏ thi đua học tốt để dâng tặng thầy cô là gì?"
+          },
+          "tts_prompt": {
+            "vi": "Món quà tinh thần ý nghĩa nhất các bạn nhỏ thi đua học tốt để dâng tặng thầy cô là gì?",
+            "en": "Món quà tinh thần ý nghĩa nhất các bạn nhỏ thi đua học tốt để dâng tặng thầy cô là gì?"
+          },
+          "hint": {
+            "vi": "Điểm 10 tươi thắm thể hiện sự chăm ngoan, tiến bộ trong học tập.",
+            "en": "Điểm 10 tươi thắm thể hiện sự chăm ngoan, tiến bộ trong học tập."
+          },
+          "explanation": {
+            "vi": "Các bạn nhỏ tặng cô bông hoa điểm 10 rực rỡ tượng trưng cho lòng biết ơn.",
+            "en": "Các bạn nhỏ tặng cô bông hoa điểm 10 rực rỡ tượng trưng cho lòng biết ơn."
+          },
+          "data": {
+            "options": [
+              "bông hoa điểm mười",
+              "hộp bánh kẹo",
+              "đồ chơi điện tử",
+              "chiếc xe đạp"
+            ],
+            "correct_answer": "bông hoa điểm mười"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv2_hoa_yeu_thuong_tang_co.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'hoa điểm mười', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'hoa điểm mười', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'hoa điểm mười', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'hoa điểm mười', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'hoa điểm mười'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'hoa điểm mười'."
+          },
+          "explanation": {
+            "vi": "Trong 'hoa điểm mười', âm 'h' là âm đầu đứng trước.",
+            "en": "Trong 'hoa điểm mười', âm 'h' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "h",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "h"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "hoa điểm mười",
+                  "en": "hoa điểm mười"
+                },
+                "right": {
+                  "vi": "Tiếng hoa điểm mười",
+                  "en": "Tiếng hoa điểm mười"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "thầy cô",
+                  "en": "thầy cô"
+                },
+                "right": {
+                  "vi": "Tiếng thầy cô",
+                  "en": "Tiếng thầy cô"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "kính trọng",
+                  "en": "kính trọng"
+                },
+                "right": {
+                  "vi": "Tiếng kính trọng",
+                  "en": "Tiếng kính trọng"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'thầy cô' xuất hiện trong bài học về 'hoa'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'thầy cô' xuất hiện trong bài học về 'hoa'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'hoa'.",
+            "en": "Nhớ lại nội dung bài học về 'hoa'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'thầy cô' là trọng tâm trong bài học về 'hoa'.",
+            "en": "Đúng! Nội dung 'thầy cô' là trọng tâm trong bài học về 'hoa'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'thầy cô' xuất hiện trong bài học về 'hoa'.",
+              "en": "Từ hoặc câu liên quan đến 'thầy cô' xuất hiện trong bài học về 'hoa'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'hoa điểm mười'.",
+            "en": "Chọn từ đang học trong bài: 'hoa điểm mười'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'hoa điểm mười'.",
+            "en": "Từ chính xác là 'hoa điểm mười'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "hoa điểm mười",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "hoa điểm mười"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'hoađiểmmười':",
+            "en": "Ghép các chữ cái để tạo thành từ 'hoađiểmmười':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'hoađiểmmười':",
+            "en": "Ghép các chữ cái để tạo thành từ 'hoađiểmmười':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'hoađiểmmười'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'hoađiểmmười'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'hoađiểmmười'.",
+            "en": "Ghép các chữ cái tạo thành 'hoađiểmmười'."
+          },
+          "data": {
+            "letters": [
+              "i",
+              "ờ",
+              "ư",
+              "m",
+              "m",
+              "ể",
+              "i",
+              "đ",
+              "a",
+              "o",
+              "h"
+            ],
+            "target_word": "hoađiểmmười",
+            "target_sequence": [
+              "h",
+              "o",
+              "a",
+              "đ",
+              "i",
+              "ể",
+              "m",
+              "m",
+              "ư",
+              "ờ",
+              "i"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'hoa điểm mười' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'hoa điểm mười' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'hoa điểm mười' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'hoa điểm mười' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'hoa điểm mười'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'hoa điểm mười'."
+          },
+          "explanation": {
+            "vi": "'hoa điểm mười thầy cô' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'hoa điểm mười thầy cô' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "thầy cô",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "thầy cô"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' thuộc chủ đề 'Tập đọc: Hoa yêu thương'.",
+            "en": "Câu 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' thuộc chủ đề 'Tập đọc: Hoa yêu thương'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Hoa yêu thương",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Tập đọc: Hoa yêu thương"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Luôn kính trọng và biết ơn công lao dạy dỗ của thầy cô.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Luôn kính trọng và biết ơn công lao dạy dỗ của thầy cô."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Luôn kính trọng và biết ơn công lao dạy dỗ của thầy cô.",
+            "en": "Đúng! Luôn kính trọng và biết ơn công lao dạy dỗ của thầy cô."
+          },
+          "data": {
+            "statement": {
+              "vi": "Luôn kính trọng và biết ơn công lao dạy dỗ của thầy cô.",
+              "en": "Luôn kính trọng và biết ơn công lao dạy dỗ của thầy cô."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Em phấn đấu học giỏi để tặng cô bông hoa điểm mười..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.."
+          },
+          "explanation": {
+            "vi": "Câu 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' có đúng 12 tiếng.",
+            "en": "Câu 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'thầy cô' mang dấu thanh gì?",
+            "en": "Tiếng 'thầy cô' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'thầy cô' mang dấu thanh gì?",
+            "en": "Tiếng 'thầy cô' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'thầy cô' mang dấu thanh chính xác.",
+            "en": "Tiếng 'thầy cô' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' Em ... đấu học giỏi để tặng cô bông hoa điểm mười.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.' Em ... đấu học giỏi để tặng cô bông hoa điểm mười."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Em phấn đấu học giỏi để tặng cô bông hoa điểm mười..",
+            "en": "Nhớ lại câu mẫu: Em phấn đấu học giỏi để tặng cô bông hoa điểm mười.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'phấn'.",
+            "en": "Từ chính xác là 'phấn'."
+          },
+          "data": {
+            "prefix_text": "Em ",
+            "suffix_text": " đấu học giỏi để tặng cô bông hoa điểm mười.",
+            "options": [
+              "phấn",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "phấn"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "K",
+                  "en": "K"
+                },
+                "right": {
+                  "vi": "k",
+                  "en": "k"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'hoa điểm mười'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'hoa điểm mười'."
+          },
+          "explanation": {
+            "vi": "'hoa điểm mười' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'hoa điểm mười' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "hoa điểm mười",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "hoa điểm mười"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t21_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'hoa'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'hoa'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'hoa'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'hoa'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'hoa' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'hoa' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'hoa điểm mười'.",
+            "en": "Tiếng mẫu của bài là 'hoa điểm mười'."
+          },
+          "data": {
+            "options": [
+              "hoa điểm mười",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "hoa điểm mười"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

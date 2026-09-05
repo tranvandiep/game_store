@@ -1,0 +1,1140 @@
+{
+  "id": "v2_stage_12",
+  "stage_number": 12,
+  "title": {
+    "vi": "Tuần 12: Trò Chơi & Sáng Tạo Tuổi Thơ",
+    "en": "Tuần 12: Trò Chơi & Sáng Tạo Tuổi Thơ"
+  },
+  "subtitle": {
+    "vi": "Bài 21 & 22 - Thả diều & Triển lãm thiếu nhi",
+    "en": "Bài 21 & 22 - Thả diều & Triển lãm thiếu nhi"
+  },
+  "icon": "🪁",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.631,
+  "required_stars": 33,
+  "theme_color": "0xFF0D9488",
+  "topics": [
+    {
+      "id": "v2_t12_1",
+      "title": {
+        "vi": "Tập đọc: Bài thơ Thả diều",
+        "en": "Tập đọc: Bài thơ Thả diều"
+      },
+      "description": {
+        "vi": "Cánh diều no gió bay vút trên nền trời xanh",
+        "en": "Cánh diều no gió bay vút trên nền trời xanh"
+      },
+      "icon": "🪁",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t12_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trò chơi dân gian nào với cánh diều no gió bay vút trên bầu trời đồng quê trong tranh?",
+            "en": "Trò chơi dân gian nào với cánh diều no gió bay vút trên bầu trời đồng quê trong tranh?"
+          },
+          "tts_prompt": {
+            "vi": "Trò chơi dân gian nào với cánh diều no gió bay vút trên bầu trời đồng quê trong tranh?",
+            "en": "Trò chơi dân gian nào với cánh diều no gió bay vút trên bầu trời đồng quê trong tranh?"
+          },
+          "hint": {
+            "vi": "Các bạn nhỏ chạy trên đê thả cánh diều bay cao cùng tiếng sáo.",
+            "en": "Các bạn nhỏ chạy trên đê thả cánh diều bay cao cùng tiếng sáo."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài thơ: 'Thả diều trên đồng quê'.",
+            "en": "Bức tranh minh hoạ bài thơ: 'Thả diều trên đồng quê'."
+          },
+          "data": {
+            "options": [
+              "thả diều",
+              "đá cầu",
+              "bắn bi",
+              "nhảy lò cò"
+            ],
+            "correct_answer": "thả diều"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_tha_dieu.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cánh diều'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cánh diều'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cánh diều'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'cánh diều'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'cánh diều' và 'no gió' cùng thuộc chủ điểm bài học.",
+            "en": "'cánh diều' và 'no gió' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "no gió",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "no gió"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "cánh diều",
+                  "en": "cánh diều"
+                },
+                "right": {
+                  "vi": "Nghĩa của cánh diều",
+                  "en": "Nghĩa của cánh diều"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "no gió",
+                  "en": "no gió"
+                },
+                "right": {
+                  "vi": "Nghĩa của no gió",
+                  "en": "Nghĩa của no gió"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tiếng sáo",
+                  "en": "tiếng sáo"
+                },
+                "right": {
+                  "vi": "Nghĩa của tiếng sáo",
+                  "en": "Nghĩa của tiếng sáo"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cánh diều' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'cánh diều' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'cánh diều' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'cánh diều' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'cánh diều' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'cánh diều' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'cánh diều'.",
+            "en": "Từ chính xác là 'cánh diều'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "cánh diều",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "cánh diều"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cánhdiều':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cánhdiều':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'cánhdiều':",
+            "en": "Ghép các chữ cái để tạo thành từ 'cánhdiều':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'cánhdiều'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'cánhdiều'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'cánhdiều'.",
+            "en": "Ghép các chữ cái tạo thành 'cánhdiều'."
+          },
+          "data": {
+            "letters": [
+              "u",
+              "ề",
+              "i",
+              "d",
+              "h",
+              "n",
+              "á",
+              "c"
+            ],
+            "target_word": "cánhdiều",
+            "target_sequence": [
+              "c",
+              "á",
+              "n",
+              "h",
+              "d",
+              "i",
+              "ề",
+              "u"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'cánh diều' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cánh diều' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'cánh diều' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'cánh diều' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'cánh diều'.",
+            "en": "Xác định bản chất của từ 'cánh diều'."
+          },
+          "explanation": {
+            "vi": "'cánh diều' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'cánh diều' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Bài thơ Thả diều'.",
+            "en": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Bài thơ Thả diều'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Bài thơ Thả diều",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Bài thơ Thả diều"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Thả diều ở bãi đất trống an toàn, tránh xa đường điện.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Thả diều ở bãi đất trống an toàn, tránh xa đường điện."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Thả diều ở bãi đất trống an toàn, tránh xa đường điện.",
+            "en": "Đúng! Thả diều ở bãi đất trống an toàn, tránh xa đường điện."
+          },
+          "data": {
+            "statement": {
+              "vi": "Thả diều ở bãi đất trống an toàn, tránh xa đường điện.",
+              "en": "Thả diều ở bãi đất trống an toàn, tránh xa đường điện."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng..",
+            "en": "Đếm từng tiếng trong câu: Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.."
+          },
+          "explanation": {
+            "vi": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' có đúng 12 tiếng.",
+            "en": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' Cánh ... no gió tiếng sáo vi vu ngân nga giữa đồng.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.' Cánh ... no gió tiếng sáo vi vu ngân nga giữa đồng."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng..",
+            "en": "Nhớ lại câu mẫu trong bài học: Cánh diều no gió, tiếng sáo vi vu ngân nga giữa đồng.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'diều'.",
+            "en": "Từ chính xác là 'diều'."
+          },
+          "data": {
+            "prefix_text": "Cánh ",
+            "suffix_text": " no gió tiếng sáo vi vu ngân nga giữa đồng.",
+            "options": [
+              "diều",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "diều"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cánh diều' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cánh diều' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'cánh diều' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'cánh diều' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý cánh diều.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý cánh diều.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý cánh diều.",
+              "cánh diều đang bay trên trời cao.",
+              "cánh diều nở hoa rực rỡ.",
+              "cánh diều có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý cánh diều."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Bài thơ Thả diều', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Bài thơ Thả diều', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Bài thơ Thả diều', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Bài thơ Thả diều', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương cánh diều",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương cánh diều"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t12_2",
+      "title": {
+        "vi": "Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh",
+        "en": "Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh"
+      },
+      "description": {
+        "vi": "Những bức tranh vẽ ngây thơ đầy màu sắc của trẻ thơ",
+        "en": "Những bức tranh vẽ ngây thơ đầy màu sắc của trẻ thơ"
+      },
+      "icon": "🖼️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t12_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Không gian trưng bày tranh vẽ và sản phẩm khéo tay của các bạn nhỏ trong tranh là gì?",
+            "en": "Không gian trưng bày tranh vẽ và sản phẩm khéo tay của các bạn nhỏ trong tranh là gì?"
+          },
+          "tts_prompt": {
+            "vi": "Không gian trưng bày tranh vẽ và sản phẩm khéo tay của các bạn nhỏ trong tranh là gì?",
+            "en": "Không gian trưng bày tranh vẽ và sản phẩm khéo tay của các bạn nhỏ trong tranh là gì?"
+          },
+          "hint": {
+            "vi": "Những bức tranh rực rỡ sắc màu được treo ngay ngắn trên tường.",
+            "en": "Những bức tranh rực rỡ sắc màu được treo ngay ngắn trên tường."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài đọc: 'Triển lãm thiếu nhi'.",
+            "en": "Bức tranh minh hoạ bài đọc: 'Triển lãm thiếu nhi'."
+          },
+          "data": {
+            "options": [
+              "triển lãm tranh thiếu nhi",
+              "siêu thị đồ gia dụng",
+              "gara sửa xe",
+              "rạp chiếu phim"
+            ],
+            "correct_answer": "triển lãm tranh thiếu nhi"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_trien_lam_thieu_nhi.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'triển lãm'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'triển lãm'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'triển lãm'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'triển lãm'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'triển lãm' và 'tranh vẽ' cùng thuộc chủ điểm bài học.",
+            "en": "'triển lãm' và 'tranh vẽ' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "tranh vẽ",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "tranh vẽ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "triển lãm",
+                  "en": "triển lãm"
+                },
+                "right": {
+                  "vi": "Nghĩa của triển lãm",
+                  "en": "Nghĩa của triển lãm"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "tranh vẽ",
+                  "en": "tranh vẽ"
+                },
+                "right": {
+                  "vi": "Nghĩa của tranh vẽ",
+                  "en": "Nghĩa của tranh vẽ"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "sáng tạo",
+                  "en": "sáng tạo"
+                },
+                "right": {
+                  "vi": "Nghĩa của sáng tạo",
+                  "en": "Nghĩa của sáng tạo"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'triển lãm' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'triển lãm' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'triển lãm' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'triển lãm' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'triển lãm' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'triển lãm' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'triển lãm'.",
+            "en": "Từ chính xác là 'triển lãm'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "triển lãm",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "triển lãm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'triểnlãm':",
+            "en": "Ghép các chữ cái để tạo thành từ 'triểnlãm':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'triểnlãm':",
+            "en": "Ghép các chữ cái để tạo thành từ 'triểnlãm':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'triểnlãm'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'triểnlãm'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'triểnlãm'.",
+            "en": "Ghép các chữ cái tạo thành 'triểnlãm'."
+          },
+          "data": {
+            "letters": [
+              "m",
+              "ã",
+              "l",
+              "n",
+              "ể",
+              "i",
+              "r",
+              "t"
+            ],
+            "target_word": "triểnlãm",
+            "target_sequence": [
+              "t",
+              "r",
+              "i",
+              "ể",
+              "n",
+              "l",
+              "ã",
+              "m"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'triển lãm' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'triển lãm' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'triển lãm' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'triển lãm' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'triển lãm'.",
+            "en": "Xác định bản chất của từ 'triển lãm'."
+          },
+          "explanation": {
+            "vi": "'triển lãm' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'triển lãm' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh'.",
+            "en": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Trân trọng sự sáng tạo và thành quả nghệ thuật của bạn bè.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Trân trọng sự sáng tạo và thành quả nghệ thuật của bạn bè."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Trân trọng sự sáng tạo và thành quả nghệ thuật của bạn bè.",
+            "en": "Đúng! Trân trọng sự sáng tạo và thành quả nghệ thuật của bạn bè."
+          },
+          "data": {
+            "statement": {
+              "vi": "Trân trọng sự sáng tạo và thành quả nghệ thuật của bạn bè.",
+              "en": "Trân trọng sự sáng tạo và thành quả nghệ thuật của bạn bè."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ..",
+            "en": "Đếm từng tiếng trong câu: Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.."
+          },
+          "explanation": {
+            "vi": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' có đúng 12 tiếng.",
+            "en": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' Triển ... trưng bày tranh vẽ ước mơ của các bạn nhỏ.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.' Triển ... trưng bày tranh vẽ ước mơ của các bạn nhỏ."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ..",
+            "en": "Nhớ lại câu mẫu trong bài học: Triển lãm trưng bày tranh vẽ ước mơ của các bạn nhỏ.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'lãm'.",
+            "en": "Từ chính xác là 'lãm'."
+          },
+          "data": {
+            "prefix_text": "Triển ",
+            "suffix_text": " trưng bày tranh vẽ ước mơ của các bạn nhỏ.",
+            "options": [
+              "lãm",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "lãm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'triển lãm' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'triển lãm' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'triển lãm' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'triển lãm' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý triển lãm.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý triển lãm.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý triển lãm.",
+              "triển lãm đang bay trên trời cao.",
+              "triển lãm nở hoa rực rỡ.",
+              "triển lãm có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý triển lãm."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t12_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Triển lãm thiếu nhi & Trưng bày tranh', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương triển lãm",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương triển lãm"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

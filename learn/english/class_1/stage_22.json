@@ -1,0 +1,1124 @@
+{
+  "id": "e1_stage_22",
+  "stage_number": 22,
+  "title": {
+    "vi": "Week 22: City Vehicles & Sunny Weather",
+    "en": "Week 22: City Vehicles & Sunny Weather"
+  },
+  "subtitle": {
+    "vi": "Vehicles: bus, truck, car, bike & Weather: sunny, rainy",
+    "en": "Vehicles: bus, truck, car, bike & Weather: sunny, rainy"
+  },
+  "icon": "🚚",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.34,
+  "required_stars": 63,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "e1_s22_1",
+      "title": {
+        "vi": "A Heavy Blue Truck",
+        "en": "A Heavy Blue Truck"
+      },
+      "description": {
+        "vi": "Watching big trucks carrying goods",
+        "en": "Watching big trucks carrying goods"
+      },
+      "icon": "🚛",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s22_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the large motor vehicle designed to carry heavy cargo on the highway. What is it?",
+            "en": "Look at the large motor vehicle designed to carry heavy cargo on the highway. What is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the large motor vehicle designed to carry heavy cargo on the highway. What is it?",
+            "en": "Look at the large motor vehicle designed to carry heavy cargo on the highway. What is it?"
+          },
+          "hint": {
+            "vi": "It has a large container for transporting goods.",
+            "en": "It has a large container for transporting goods."
+          },
+          "explanation": {
+            "vi": "It's a big heavy transport truck.",
+            "en": "It's a big heavy transport truck."
+          },
+          "data": {
+            "options": [
+              "a big heavy truck",
+              "a roller skate",
+              "a skateboard",
+              "a toy scooter"
+            ],
+            "correct_answer": "a big heavy truck"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u11_heavy_truck.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s22_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'truck'?",
+            "en": "What is the first letter of the word 'truck'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'truck'?",
+            "en": "What is the first letter of the word 'truck'?"
+          },
+          "hint": {
+            "vi": "The word 'truck' starts with the letter T.",
+            "en": "The word 'truck' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'truck' begins with the letter 'T'.",
+            "en": "Correct! 'truck' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "truck",
+                  "en": "truck"
+                },
+                "right": {
+                  "vi": "Nghĩa của truck",
+                  "en": "Nghĩa của truck"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "heavy",
+                  "en": "heavy"
+                },
+                "right": {
+                  "vi": "Nghĩa của heavy",
+                  "en": "Nghĩa của heavy"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "goods",
+                  "en": "goods"
+                },
+                "right": {
+                  "vi": "Nghĩa của goods",
+                  "en": "Nghĩa của goods"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? A big blue truck on the road.",
+            "en": "Is this English sentence correct for Grade 1? A big blue truck on the road."
+          },
+          "hint": {
+            "vi": "Remember the pattern: A big blue truck on the road.",
+            "en": "Remember the pattern: A big blue truck on the road."
+          },
+          "explanation": {
+            "vi": "Yes! 'A big blue truck on the road.' is a correct English sentence.",
+            "en": "Yes! 'A big blue truck on the road.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "A big blue truck on the road.",
+              "en": "A big blue truck on the road."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: A big blue truck on the ....",
+            "en": "Drag the correct word to complete the sentence: A big blue truck on the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'road'.",
+            "en": "Choose the correct word: 'road'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'A big blue truck on the road.'.",
+            "en": "The complete sentence is: 'A big blue truck on the road.'."
+          },
+          "data": {
+            "prefix_text": "A big blue truck on the ",
+            "suffix_text": ".",
+            "options": [
+              "road",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "road"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'truck':",
+            "en": "Spell the English word 'truck':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'truck':",
+            "en": "Spell the English word 'truck':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'truck'.",
+            "en": "Tap the letters in order to spell 'truck'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'truck' correctly.",
+            "en": "Well done! You spelled 'truck' correctly."
+          },
+          "data": {
+            "letters": [
+              "k",
+              "c",
+              "u",
+              "r",
+              "t"
+            ],
+            "target_word": "truck",
+            "target_sequence": [
+              "t",
+              "r",
+              "u",
+              "c",
+              "k"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Một chiếc xe tải lớn màu xanh trên đường.' in English?",
+            "en": "How do you say 'Một chiếc xe tải lớn màu xanh trên đường.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Một chiếc xe tải lớn màu xanh trên đường.' in English?",
+            "en": "How do you say 'Một chiếc xe tải lớn màu xanh trên đường.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Một chiếc xe tải lớn màu xanh trên đường.",
+            "en": "Choose the English sentence that means: Một chiếc xe tải lớn màu xanh trên đường."
+          },
+          "explanation": {
+            "vi": "'A big blue truck on the road.' means 'Một chiếc xe tải lớn màu xanh trên đường.'.",
+            "en": "'A big blue truck on the road.' means 'Một chiếc xe tải lớn màu xanh trên đường.'."
+          },
+          "data": {
+            "options": [
+              "A big blue truck on the road.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "A big blue truck on the road."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'A Heavy Blue Truck'?",
+            "en": "Which of the following is a word from Unit 'A Heavy Blue Truck'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'A Heavy Blue Truck'?",
+            "en": "Which of the following is a word from Unit 'A Heavy Blue Truck'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: A Heavy Blue Truck.",
+            "en": "Remember the words in topic: A Heavy Blue Truck."
+          },
+          "explanation": {
+            "vi": "'truck' is a key vocabulary word in this topic.",
+            "en": "'truck' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "truck",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "truck"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'heavy' start with the sound /t/?",
+            "en": "Does the word 'heavy' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'heavy' start with the sound /t/? The word 'heavy' starts with letter 'T'.",
+            "en": "Does the word 'heavy' start with the sound /t/? The word 'heavy' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'heavy'.",
+            "en": "Listen to the first sound of 'heavy'."
+          },
+          "explanation": {
+            "vi": "Yes! 'heavy' starts with the sound /t/.",
+            "en": "Yes! 'heavy' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'heavy' starts with letter 'T'.",
+              "en": "The word 'heavy' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'truck'?",
+            "en": "How many letters are there in the word 'truck'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'truck'?",
+            "en": "How many letters are there in the word 'truck'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'truck': 1, 2, 3...",
+            "en": "Count the letters in 'truck': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'truck' has exactly 5 letters.",
+            "en": "The word 'truck' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'truck':",
+            "en": "Choose the correct article before 'truck':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'truck':",
+            "en": "Choose the correct article before 'truck':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a truck'.",
+            "en": "Correct! We say 'a truck'."
+          },
+          "data": {
+            "options": [
+              "a truck",
+              "an truck",
+              "two truck",
+              "many truck"
+            ],
+            "correct_answer": "a truck"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'A Heavy Blue Truck'?",
+            "en": "Which English sentence best describes the topic 'A Heavy Blue Truck'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'A Heavy Blue Truck'?",
+            "en": "Which English sentence best describes the topic 'A Heavy Blue Truck'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'A Heavy Blue Truck'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'A Heavy Blue Truck'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: truck, heavy!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: truck, heavy!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s22_2",
+      "title": {
+        "vi": "Bright Shining Sun",
+        "en": "Bright Shining Sun"
+      },
+      "description": {
+        "vi": "Warm sunny day in the city",
+        "en": "Warm sunny day in the city"
+      },
+      "icon": "🌞",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s22_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the big bright golden star shining high in the blue sky. What is it?",
+            "en": "Look at the big bright golden star shining high in the blue sky. What is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the big bright golden star shining high in the blue sky. What is it?",
+            "en": "Look at the big bright golden star shining high in the blue sky. What is it?"
+          },
+          "hint": {
+            "vi": "It gives us light and warm sunshine every day.",
+            "en": "It gives us light and warm sunshine every day."
+          },
+          "explanation": {
+            "vi": "It's the bright shining golden sun.",
+            "en": "It's the bright shining golden sun."
+          },
+          "data": {
+            "options": [
+              "the bright golden sun",
+              "the cold moon",
+              "a grey raincloud",
+              "a flying kite"
+            ],
+            "correct_answer": "the bright golden sun"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u11_shining_sun.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s22_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'sun'?",
+            "en": "What is the first letter of the word 'sun'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'sun'?",
+            "en": "What is the first letter of the word 'sun'?"
+          },
+          "hint": {
+            "vi": "The word 'sun' starts with the letter S.",
+            "en": "The word 'sun' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'sun' begins with the letter 'S'.",
+            "en": "Correct! 'sun' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sun",
+                  "en": "sun"
+                },
+                "right": {
+                  "vi": "Nghĩa của sun",
+                  "en": "Nghĩa của sun"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "sunny",
+                  "en": "sunny"
+                },
+                "right": {
+                  "vi": "Nghĩa của sunny",
+                  "en": "Nghĩa của sunny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "warm",
+                  "en": "warm"
+                },
+                "right": {
+                  "vi": "Nghĩa của warm",
+                  "en": "Nghĩa của warm"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? The golden sun shines in the sky.",
+            "en": "Is this English sentence correct for Grade 1? The golden sun shines in the sky."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The golden sun shines in the sky.",
+            "en": "Remember the pattern: The golden sun shines in the sky."
+          },
+          "explanation": {
+            "vi": "Yes! 'The golden sun shines in the sky.' is a correct English sentence.",
+            "en": "Yes! 'The golden sun shines in the sky.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The golden sun shines in the sky.",
+              "en": "The golden sun shines in the sky."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The golden sun shines in the ....",
+            "en": "Drag the correct word to complete the sentence: The golden sun shines in the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'sky'.",
+            "en": "Choose the correct word: 'sky'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The golden sun shines in the sky.'.",
+            "en": "The complete sentence is: 'The golden sun shines in the sky.'."
+          },
+          "data": {
+            "prefix_text": "The golden sun shines in the ",
+            "suffix_text": ".",
+            "options": [
+              "sky",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "sky"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'sun':",
+            "en": "Spell the English word 'sun':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'sun':",
+            "en": "Spell the English word 'sun':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'sun'.",
+            "en": "Tap the letters in order to spell 'sun'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'sun' correctly.",
+            "en": "Well done! You spelled 'sun' correctly."
+          },
+          "data": {
+            "letters": [
+              "n",
+              "u",
+              "s"
+            ],
+            "target_word": "sun",
+            "target_sequence": [
+              "s",
+              "u",
+              "n"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Mặt trời vàng rực chiếu sáng trên bầu trời.' in English?",
+            "en": "How do you say 'Mặt trời vàng rực chiếu sáng trên bầu trời.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Mặt trời vàng rực chiếu sáng trên bầu trời.' in English?",
+            "en": "How do you say 'Mặt trời vàng rực chiếu sáng trên bầu trời.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Mặt trời vàng rực chiếu sáng trên bầu trời.",
+            "en": "Choose the English sentence that means: Mặt trời vàng rực chiếu sáng trên bầu trời."
+          },
+          "explanation": {
+            "vi": "'The golden sun shines in the sky.' means 'Mặt trời vàng rực chiếu sáng trên bầu trời.'.",
+            "en": "'The golden sun shines in the sky.' means 'Mặt trời vàng rực chiếu sáng trên bầu trời.'."
+          },
+          "data": {
+            "options": [
+              "The golden sun shines in the sky.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The golden sun shines in the sky."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Bright Shining Sun'?",
+            "en": "Which of the following is a word from Unit 'Bright Shining Sun'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Bright Shining Sun'?",
+            "en": "Which of the following is a word from Unit 'Bright Shining Sun'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Bright Shining Sun.",
+            "en": "Remember the words in topic: Bright Shining Sun."
+          },
+          "explanation": {
+            "vi": "'sun' is a key vocabulary word in this topic.",
+            "en": "'sun' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "sun",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "sun"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'sunny' start with the sound /s/?",
+            "en": "Does the word 'sunny' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'sunny' start with the sound /s/? The word 'sunny' starts with letter 'S'.",
+            "en": "Does the word 'sunny' start with the sound /s/? The word 'sunny' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'sunny'.",
+            "en": "Listen to the first sound of 'sunny'."
+          },
+          "explanation": {
+            "vi": "Yes! 'sunny' starts with the sound /s/.",
+            "en": "Yes! 'sunny' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'sunny' starts with letter 'S'.",
+              "en": "The word 'sunny' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'sun'?",
+            "en": "How many letters are there in the word 'sun'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'sun'?",
+            "en": "How many letters are there in the word 'sun'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'sun': 1, 2, 3...",
+            "en": "Count the letters in 'sun': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'sun' has exactly 3 letters.",
+            "en": "The word 'sun' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'sun':",
+            "en": "Choose the correct article before 'sun':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'sun':",
+            "en": "Choose the correct article before 'sun':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a sun'.",
+            "en": "Correct! We say 'a sun'."
+          },
+          "data": {
+            "options": [
+              "a sun",
+              "an sun",
+              "two sun",
+              "many sun"
+            ],
+            "correct_answer": "a sun"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s22_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Bright Shining Sun'?",
+            "en": "Which English sentence best describes the topic 'Bright Shining Sun'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Bright Shining Sun'?",
+            "en": "Which English sentence best describes the topic 'Bright Shining Sun'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Bright Shining Sun'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Bright Shining Sun'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: sun, sunny!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: sun, sunny!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

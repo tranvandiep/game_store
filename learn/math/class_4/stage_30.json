@@ -1,0 +1,1014 @@
+{
+  "id": "m4_stage_30",
+  "stage_number": 30,
+  "title": {
+    "vi": "Tuần 30: Tỉ Lệ Bản Đồ & Ứng Dụng Thực Tế",
+    "en": "Week 30: Map Scales & Real-World Distance"
+  },
+  "subtitle": {
+    "vi": "Trang 154-159: Độ dài thật = Độ dài trên bản đồ x Mẫu số tỉ lệ",
+    "en": "Pages 154-159: Map scale calculations & real distances"
+  },
+  "icon": "🗺️",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.138,
+  "required_stars": 87,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "m4_t30_1",
+      "title": {
+        "vi": "Khái niệm Tỉ Lệ Bản Đồ",
+        "en": "Map Scale Concept"
+      },
+      "description": {
+        "vi": "Tỉ lệ 1 : 1 000 cho biết khoảng cách trên thực tế gấp 1 000 lần khoảng cách trên bản đồ (cùng đơn vị đo)",
+        "en": "Scale 1 : 1,000 means real distance is 1,000 times map distance"
+      },
+      "icon": "🗺️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t30_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tỉ lệ bản đồ 1 : 10 000 có ý nghĩa là gì?",
+            "en": "What does map scale 1 : 10,000 mean?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tỉ lệ bản đồ 1 : 10 000 có ý nghĩa là gì?",
+            "en": "What does map scale 1 : 10,000 mean?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Độ dài thực tế gấp 10 000 lần độ dài trên bản đồ (cùng đơn vị đo).",
+            "en": "Real distance is 10,000 times map distance."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Độ dài 1 cm trên bản đồ tương ứng 10 000 cm trên thực tế",
+                "en": "Độ dài 1 cm trên bản đồ tương ứng 10 000 cm trên thực tế"
+              },
+              {
+                "vi": "Bản đồ lớn hơn thực tế 10 000 lần",
+                "en": "Bản đồ lớn hơn thực tế 10 000 lần"
+              },
+              {
+                "vi": "Khoảng cách trên thực tế là 10 000 km",
+                "en": "Khoảng cách trên thực tế là 10 000 km"
+              }
+            ],
+            "correct_answer": "Độ dài 1 cm trên bản đồ tương ứng 10 000 cm trên thực tế"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy ước tỉ lệ.",
+            "en": "Decide whether the following statement is true or false: Quy ước tỉ lệ."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Tử số luôn là 1 thể hiện 1 đơn vị trên bản đồ.",
+            "en": "True! Numerator is always 1."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy ước tỉ lệ.",
+              "en": "Quy ước tỉ lệ."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trên bản đồ tỉ lệ 1 : 500, độ dài 1 cm ứng với độ dài thực tế là:",
+            "en": "On 1 : 500 map, 1cm represents real distance of:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trên bản đồ tỉ lệ 1 : 500, độ dài 1 cm ứng với độ dài thực tế là:",
+            "en": "On 1 : 500 map, 1cm represents real distance of:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "1 x 500 = 500 cm = 5 m.",
+            "en": "500 cm (5 m)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "500 cm (5 m)",
+                "en": "500 cm (5 m)"
+              },
+              {
+                "vi": "50 cm",
+                "en": "50 cm"
+              },
+              {
+                "vi": "5 000 cm",
+                "en": "5 000 cm"
+              }
+            ],
+            "correct_answer": "500 cm (5 m)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Khái niệm Tỉ Lệ Bản Đồ': Tỉ lệ bản đồ 1 : 10 000 có ý nghĩa là gì?",
+            "en": "Practice 'Map Scale Concept': What does map scale 1 : 10,000 mean?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tỉ lệ bản đồ 1 : 10 000 có ý nghĩa là gì?",
+            "en": "What does map scale 1 : 10,000 mean?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Độ dài thực tế gấp 10 000 lần độ dài trên bản đồ (cùng đơn vị đo).",
+            "en": "Real distance is 10,000 times map distance."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Độ dài 1 cm trên bản đồ tương ứng 10 000 cm trên thực tế",
+                "en": "Độ dài 1 cm trên bản đồ tương ứng 10 000 cm trên thực tế"
+              },
+              {
+                "vi": "Bản đồ lớn hơn thực tế 10 000 lần",
+                "en": "Bản đồ lớn hơn thực tế 10 000 lần"
+              },
+              {
+                "vi": "Khoảng cách trên thực tế là 10 000 km",
+                "en": "Khoảng cách trên thực tế là 10 000 km"
+              }
+            ],
+            "correct_answer": "Độ dài 1 cm trên bản đồ tương ứng 10 000 cm trên thực tế"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Khái niệm Tỉ Lệ Bản Đồ': Trên bản đồ tỉ lệ 1 : 500, độ dài 1 cm ứng với độ dài thực tế là:",
+            "en": "Practice 'Map Scale Concept': On 1 : 500 map, 1cm represents real distance of:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trên bản đồ tỉ lệ 1 : 500, độ dài 1 cm ứng với độ dài thực tế là:",
+            "en": "On 1 : 500 map, 1cm represents real distance of:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "1 x 500 = 500 cm = 5 m.",
+            "en": "500 cm (5 m)."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50 cm",
+                "en": "50 cm"
+              },
+              {
+                "vi": "500 cm (5 m)",
+                "en": "500 cm (5 m)"
+              },
+              {
+                "vi": "5 000 cm",
+                "en": "5 000 cm"
+              }
+            ],
+            "correct_answer": "500 cm (5 m)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_6",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 12 và 16 là:",
+            "en": "Average of 12 and 16 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 12 và 16 là:",
+            "en": "Average of 12 and 16 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(12 + 16) : 2 = 14.",
+            "en": "Average is 14."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "14"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 86834 đến hàng nghìn:",
+            "en": "Round 86834 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 86834 đến hàng nghìn:",
+            "en": "Round 86834 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "86000",
+                "en": "86000"
+              },
+              {
+                "vi": "87000",
+                "en": "87000"
+              },
+              {
+                "vi": "85000",
+                "en": "85000"
+              }
+            ],
+            "correct_answer": "87000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 70654 đến hàng nghìn:",
+            "en": "Round 70654 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 70654 đến hàng nghìn:",
+            "en": "Round 70654 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "70000",
+                "en": "70000"
+              },
+              {
+                "vi": "71000",
+                "en": "71000"
+              },
+              {
+                "vi": "69000",
+                "en": "69000"
+              }
+            ],
+            "correct_answer": "71000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 41 và 29 là:",
+            "en": "Average of 41 and 29 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 41 và 29 là:",
+            "en": "Average of 41 and 29 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(41 + 29) : 2 = 35.",
+            "en": "Average is 35."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "35"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t30_2",
+      "title": {
+        "vi": "Tính Độ Dài Thực Tế dựa vào Tỉ lệ bản đồ",
+        "en": "Calculating Real-World Distance"
+      },
+      "description": {
+        "vi": "Độ dài thật = Độ dài trên bản đồ x Mẫu số tỉ lệ",
+        "en": "Real distance = Map distance * Scale denominator"
+      },
+      "icon": "📏",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t30_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trên bản đồ tỉ lệ 1 : 1 000, khoảng cách giữa hai điểm A và B là 5 cm. Khoảng cách thật ngoài thực tế là bao nhiêu mét?",
+            "en": "Map scale 1 : 1,000, distance AB is 5cm. Real distance in meters:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trên bản đồ tỉ lệ 1 : 1 000, khoảng cách giữa hai điểm A và B là 5 cm. Khoảng cách thật ngoài thực tế là bao nhiêu mét?",
+            "en": "Map scale 1 : 1,000, distance AB is 5cm. Real distance in meters:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "5 x 1 000 = 5 000 cm = 50 m.",
+            "en": "5 * 1000 = 5,000 cm = 50m."
+          },
+          "data": {
+            "correct_number": "50",
+            "unit": "m"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trên bản đồ tỉ lệ 1 : 1 000 000, quãng đường từ Hà Nội đến Hải Phòng đo được 10 cm. Quãng đường thật là bao nhiêu ki-lô-mét (km)?",
+            "en": "Scale 1 : 1,000,000, Hanoi to Haiphong is 10cm. Real distance in km:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trên bản đồ tỉ lệ 1 : 1 000 000, quãng đường từ Hà Nội đến Hải Phòng đo được 10 cm. Quãng đường thật là bao nhiêu ki-lô-mét (km)?",
+            "en": "Scale 1 : 1,000,000, Hanoi to Haiphong is 10cm. Real distance in km:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "10 x 1 000 000 = 10 000 000 cm = 100 km.",
+            "en": "10,000,000 cm = 100 km."
+          },
+          "data": {
+            "correct_number": "100",
+            "unit": "km"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Công thức tính độ dài thực tế.",
+            "en": "Decide whether the following statement is true or false: Công thức tính độ dài thực tế."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Độ dài thật = Độ dài bản đồ x Mẫu số tỉ lệ.",
+            "en": "True! Real = Map * Scale."
+          },
+          "data": {
+            "statement": {
+              "vi": "Công thức tính độ dài thực tế.",
+              "en": "Công thức tính độ dài thực tế."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 9 đứng liền trước số 10.",
+            "en": "Decide whether the following statement is true or false: Số 9 đứng liền trước số 10."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 9 đứng liền trước số 10.",
+              "en": "Số 9 đứng liền trước số 10."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 bé hơn số 4 (5 < 4).",
+            "en": "Decide whether the following statement is true or false: Số 5 bé hơn số 4 (5 < 4)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 bé hơn số 4 (5 < 4).",
+              "en": "Số 5 bé hơn số 4 (5 < 4)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 37 và 43 là:",
+            "en": "Average of 37 and 43 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 37 và 43 là:",
+            "en": "Average of 37 and 43 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(37 + 43) : 2 = 40.",
+            "en": "Average is 40."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "40"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t30_3",
+      "title": {
+        "vi": "Tính Độ Dài Trên Bản Đồ khi biết Độ dài thật",
+        "en": "Calculating Map Distance from Real Distance"
+      },
+      "description": {
+        "vi": "Độ dài trên bản đồ = Độ dài thật (cùng đơn vị) : Mẫu số tỉ lệ",
+        "en": "Map distance = Real distance (same unit) / Scale denominator"
+      },
+      "icon": "📍",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t30_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Quãng đường thật dài 120 km. Trên bản đồ tỉ lệ 1 : 2 000 000, quãng đường đó dài mấy xăng-ti-mét?",
+            "en": "Real distance is 120 km. On map 1 : 2,000,000, length in cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Quãng đường thật dài 120 km. Trên bản đồ tỉ lệ 1 : 2 000 000, quãng đường đó dài mấy xăng-ti-mét?",
+            "en": "Real distance is 120 km. On map 1 : 2,000,000, length in cm:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "120 km = 12 000 000 cm; 12 000 000 : 2 000 000 = 6 cm.",
+            "en": "12,000,000 / 2,000,000 = 6 cm."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_3_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy đổi đơn vị tỉ lệ bản đồ.",
+            "en": "Decide whether the following statement is true or false: Quy đổi đơn vị tỉ lệ bản đồ."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Phải cùng đơn vị cm trước khi chia.",
+            "en": "True! Units must match before dividing."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy đổi đơn vị tỉ lệ bản đồ.",
+              "en": "Quy đổi đơn vị tỉ lệ bản đồ."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_3_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Quãng đường thật 50 km (5 000 000 cm), trên bản đồ tỉ lệ 1 : 1 000 000 dài bao nhiêu cm?",
+            "en": "Real distance 50km on 1 : 1,000,000 map in cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Quãng đường thật 50 km (5 000 000 cm), trên bản đồ tỉ lệ 1 : 1 000 000 dài bao nhiêu cm?",
+            "en": "Real distance 50km on 1 : 1,000,000 map in cm:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "5 000 000 : 1 000 000 = 5 cm.",
+            "en": "5 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "5 cm",
+                "en": "5 cm"
+              },
+              {
+                "vi": "10 cm",
+                "en": "10 cm"
+              },
+              {
+                "vi": "50 cm",
+                "en": "50 cm"
+              }
+            ],
+            "correct_answer": "5 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_3_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Tính Độ Dài Trên Bản Đồ khi biết Độ dài thật': Quãng đường thật 50 km (5 000 000 cm), trên bản đồ tỉ lệ 1 : 1 000 000 dài bao nhiêu cm?",
+            "en": "Practice 'Calculating Map Distance from Real Distance': Real distance 50km on 1 : 1,000,000 map in cm:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Quãng đường thật 50 km (5 000 000 cm), trên bản đồ tỉ lệ 1 : 1 000 000 dài bao nhiêu cm?",
+            "en": "Real distance 50km on 1 : 1,000,000 map in cm:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "5 000 000 : 1 000 000 = 5 cm.",
+            "en": "5 cm."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "50 cm",
+                "en": "50 cm"
+              },
+              {
+                "vi": "5 cm",
+                "en": "5 cm"
+              },
+              {
+                "vi": "10 cm",
+                "en": "10 cm"
+              }
+            ],
+            "correct_answer": "5 cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_3_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 34981 đến hàng nghìn:",
+            "en": "Round 34981 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 34981 đến hàng nghìn:",
+            "en": "Round 34981 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "34000",
+                "en": "34000"
+              },
+              {
+                "vi": "35000",
+                "en": "35000"
+              },
+              {
+                "vi": "33000",
+                "en": "33000"
+              }
+            ],
+            "correct_answer": "35000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t30_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 17 và 11 là:",
+            "en": "Average of 17 and 11 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 17 và 11 là:",
+            "en": "Average of 17 and 11 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(17 + 11) : 2 = 14.",
+            "en": "Average is 14."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "14"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

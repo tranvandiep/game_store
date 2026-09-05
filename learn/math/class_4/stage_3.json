@@ -1,0 +1,1144 @@
+{
+  "id": "m4_stage_3",
+  "stage_number": 3,
+  "title": {
+    "vi": "Tuần 3: Triệu & Lớp Triệu, Dãy Số Tự Nhiên & Hệ Thập Phân",
+    "en": "Week 3: Millions Period & Base-10 Number System"
+  },
+  "subtitle": {
+    "vi": "Trang 13-22: Hàng triệu, chục triệu, trăm triệu và dãy số tự nhiên",
+    "en": "Pages 13-22: Millions period & decimal system"
+  },
+  "icon": "💎",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.894,
+  "required_stars": 6,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "m4_t3_1",
+      "title": {
+        "vi": "Triệu và Lớp Triệu",
+        "en": "Millions and Millions Period"
+      },
+      "description": {
+        "vi": "Lớp triệu gồm: hàng triệu, hàng chục triệu, hàng trăm triệu",
+        "en": "Millions period: millions, ten-millions, hundred-millions"
+      },
+      "icon": "💎",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t3_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Số 1 triệu (1 000 000) có bao nhiêu chữ số 0 sau chữ số 1?",
+            "en": "How many zeros follow 1 in 1,000,000?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 1 triệu (1 000 000) có bao nhiêu chữ số 0 sau chữ số 1?",
+            "en": "How many zeros follow 1 in 1,000,000?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "1 triệu có đúng 6 chữ số 0.",
+            "en": "1 million has 6 zeros."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "chữ số 0"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số ba trăm hai mươi triệu viết là:",
+            "en": "Three hundred twenty million is written as:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số ba trăm hai mươi triệu viết là:",
+            "en": "Three hundred twenty million is written as:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "320 000 000.",
+            "en": "320,000,000."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "320 000 000",
+                "en": "320 000 000"
+              },
+              {
+                "vi": "32 000 000",
+                "en": "32 000 000"
+              },
+              {
+                "vi": "302 000 000",
+                "en": "302 000 000"
+              }
+            ],
+            "correct_answer": "320 000 000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối lớp số với các hàng tương ứng:",
+            "en": "Match period with place values:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối lớp số với các hàng tương ứng:",
+            "en": "Match period with place values:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Cấu trúc 3 lớp số cơ bản.",
+            "en": "3 fundamental periods."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Lớp đơn vị",
+                  "en": "Lớp đơn vị"
+                },
+                "right": {
+                  "vi": "Hàng đơn vị, chục, trăm",
+                  "en": "Hàng đơn vị, chục, trăm"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Lớp nghìn",
+                  "en": "Lớp nghìn"
+                },
+                "right": {
+                  "vi": "Hàng nghìn, chục nghìn, trăm nghìn",
+                  "en": "Hàng nghìn, chục nghìn, trăm nghìn"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Lớp triệu",
+                  "en": "Lớp triệu"
+                },
+                "right": {
+                  "vi": "Hàng triệu, chục triệu, trăm triệu",
+                  "en": "Hàng triệu, chục triệu, trăm triệu"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Triệu và Lớp Triệu': Số ba trăm hai mươi triệu viết là:",
+            "en": "Practice 'Millions and Millions Period': Three hundred twenty million is written as:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số ba trăm hai mươi triệu viết là:",
+            "en": "Three hundred twenty million is written as:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "320 000 000.",
+            "en": "320,000,000."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "32 000 000",
+                "en": "32 000 000"
+              },
+              {
+                "vi": "302 000 000",
+                "en": "302 000 000"
+              },
+              {
+                "vi": "320 000 000",
+                "en": "320 000 000"
+              }
+            ],
+            "correct_answer": "320 000 000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_6",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 29 và 41 là:",
+            "en": "Average of 29 and 41 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 29 và 41 là:",
+            "en": "Average of 29 and 41 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(29 + 41) : 2 = 35.",
+            "en": "Average is 35."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "35"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 15391 đến hàng nghìn:",
+            "en": "Round 15391 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 15391 đến hàng nghìn:",
+            "en": "Round 15391 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "15000",
+                "en": "15000"
+              },
+              {
+                "vi": "16000",
+                "en": "16000"
+              },
+              {
+                "vi": "14000",
+                "en": "14000"
+              }
+            ],
+            "correct_answer": "15000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 62270 đến hàng nghìn:",
+            "en": "Round 62270 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 62270 đến hàng nghìn:",
+            "en": "Round 62270 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "62000",
+                "en": "62000"
+              },
+              {
+                "vi": "63000",
+                "en": "63000"
+              },
+              {
+                "vi": "61000",
+                "en": "61000"
+              }
+            ],
+            "correct_answer": "62000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 33 và 31 là:",
+            "en": "Average of 33 and 31 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 33 và 31 là:",
+            "en": "Average of 33 and 31 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(33 + 31) : 2 = 32.",
+            "en": "Average is 32."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "32"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t3_2",
+      "title": {
+        "vi": "Dãy số tự nhiên và đặc điểm dãy số",
+        "en": "Natural Numbers Sequence"
+      },
+      "description": {
+        "vi": "Dãy số 0, 1, 2, 3, 4... không có số tự nhiên lớn nhất",
+        "en": "0, 1, 2, 3... infinite sequence with no maximum"
+      },
+      "icon": "♾️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t3_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Số tự nhiên bé nhất trong dãy số tự nhiên là số nào?",
+            "en": "What is the smallest natural number?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số tự nhiên bé nhất trong dãy số tự nhiên là số nào?",
+            "en": "What is the smallest natural number?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "0 là số tự nhiên bé nhất.",
+            "en": "0 is the smallest natural number."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "0",
+                "en": "0"
+              },
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "Không có",
+                "en": "Không có"
+              }
+            ],
+            "correct_answer": "0"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Tính vô hạn của số tự nhiên.",
+            "en": "Decide whether the following statement is true or false: Tính vô hạn của số tự nhiên."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Luôn có thể cộng thêm 1 để được số lớn hơn.",
+            "en": "True! Infinite sequence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tính vô hạn của số tự nhiên.",
+              "en": "Tính vô hạn của số tự nhiên."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Dãy số tự nhiên và đặc điểm dãy số': Số tự nhiên bé nhất trong dãy số tự nhiên là số nào?",
+            "en": "Practice 'Natural Numbers Sequence': What is the smallest natural number?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số tự nhiên bé nhất trong dãy số tự nhiên là số nào?",
+            "en": "What is the smallest natural number?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "0 là số tự nhiên bé nhất.",
+            "en": "0 is the smallest natural number."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "1",
+                "en": "1"
+              },
+              {
+                "vi": "Không có",
+                "en": "Không có"
+              },
+              {
+                "vi": "0",
+                "en": "0"
+              }
+            ],
+            "correct_answer": "0"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_5",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 bé hơn số 3 (4 < 3).",
+            "en": "Decide whether the following statement is true or false: Số 4 bé hơn số 3 (4 < 3)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 bé hơn số 3 (4 < 3).",
+              "en": "Số 4 bé hơn số 3 (4 < 3)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 4,  ... , 6",
+            "en": "Drag the correct answer into the slot:\nDãy số: 4,  ... , 6"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 4,  ... , 6",
+            "en": "Drag the correct answer: Dãy số: 4,  ... , 6"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 4,  5 , 6",
+            "en": "Dãy số: 4,  5 , 6"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 4, ",
+            "suffix_text": ", 6",
+            "options": [
+              "8",
+              "7",
+              "5",
+              "4"
+            ],
+            "slot_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 8 đứng liền trước số 9.",
+            "en": "Decide whether the following statement is true or false: Số 8 đứng liền trước số 9."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 8 đứng liền trước số 9.",
+              "en": "Số 8 đứng liền trước số 9."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_9",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 7,  ... , 9",
+            "en": "Drag the correct answer into the slot:\nDãy số: 7,  ... , 9"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 7,  ... , 9",
+            "en": "Drag the correct answer: Dãy số: 7,  ... , 9"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 7,  8 , 9",
+            "en": "Dãy số: 7,  8 , 9"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 7, ",
+            "suffix_text": ", 9",
+            "options": [
+              "10",
+              "11",
+              "7",
+              "8"
+            ],
+            "slot_answer": "8"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 13479 đến hàng nghìn:",
+            "en": "Round 13479 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 13479 đến hàng nghìn:",
+            "en": "Round 13479 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "13000",
+                "en": "13000"
+              },
+              {
+                "vi": "14000",
+                "en": "14000"
+              },
+              {
+                "vi": "12000",
+                "en": "12000"
+              }
+            ],
+            "correct_answer": "13000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 49 và 23 là:",
+            "en": "Average of 49 and 23 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 49 và 23 là:",
+            "en": "Average of 49 and 23 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(49 + 23) : 2 = 36.",
+            "en": "Average is 36."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "36"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t3_3",
+      "title": {
+        "vi": "Viết số tự nhiên trong hệ thập phân",
+        "en": "Writing Numbers in Base-10"
+      },
+      "description": {
+        "vi": "Mười đơn vị ở một hàng hợp thành một đơn vị ở hàng trên liền kề",
+        "en": "Base-10 positional value system"
+      },
+      "icon": "🧩",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t3_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hệ thập phân sử dụng bao nhiêu chữ số để ghi mọi số tự nhiên?",
+            "en": "How many digits does base-10 system use?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hệ thập phân sử dụng bao nhiêu chữ số để ghi mọi số tự nhiên?",
+            "en": "How many digits does base-10 system use?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "10 chữ số: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+            "en": "10 digits from 0 to 9."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "10 chữ số (0 đến 9)",
+                "en": "10 chữ số (0 đến 9)"
+              },
+              {
+                "vi": "9 chữ số (1 đến 9)",
+                "en": "9 chữ số (1 đến 9)"
+              },
+              {
+                "vi": "Vô số chữ số",
+                "en": "Vô số chữ số"
+              }
+            ],
+            "correct_answer": "10 chữ số (0 đến 9)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Giá trị của chữ số 7 trong số 572 400 là bao nhiêu?",
+            "en": "What is the value of digit 7 in 572,400?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Giá trị của chữ số 7 trong số 572 400 là bao nhiêu?",
+            "en": "What is the value of digit 7 in 572,400?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "Chữ số 7 ở hàng chục nghìn có giá trị 70 000.",
+            "en": "70,000."
+          },
+          "data": {
+            "correct_number": "70000",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_3_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép số một triệu: 1 000 000",
+            "en": "Arrange tiles for 1,000,000"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép số một triệu: 1 000 000",
+            "en": "Arrange tiles for 1,000,000"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "1 000 000 (Một triệu).",
+            "en": "1,000,000."
+          },
+          "data": {
+            "target_word": "1 000 000",
+            "pool_tokens": [
+              "1",
+              "000",
+              "000"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Viết số tự nhiên trong hệ thập phân': Hệ thập phân sử dụng bao nhiêu chữ số để ghi mọi số tự nhiên?",
+            "en": "Practice 'Writing Numbers in Base-10': How many digits does base-10 system use?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hệ thập phân sử dụng bao nhiêu chữ số để ghi mọi số tự nhiên?",
+            "en": "How many digits does base-10 system use?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "10 chữ số: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+            "en": "10 digits from 0 to 9."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "10 chữ số (0 đến 9)",
+                "en": "10 chữ số (0 đến 9)"
+              },
+              {
+                "vi": "9 chữ số (1 đến 9)",
+                "en": "9 chữ số (1 đến 9)"
+              },
+              {
+                "vi": "Vô số chữ số",
+                "en": "Vô số chữ số"
+              }
+            ],
+            "correct_answer": "10 chữ số (0 đến 9)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_3_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'VIẾT'",
+            "en": "Arrange the letters to spell the keyword: 'VIẾT'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa VIẾT",
+            "en": "Arrange the letters to spell VIẾT"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: VIẾT",
+            "en": "The keyword is: VIẾT"
+          },
+          "data": {
+            "target_word": "VIẾT",
+            "scrambled_letters": [
+              "I",
+              "T",
+              "V",
+              "Ế"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_3_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 16 và 28 là:",
+            "en": "Average of 16 and 28 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 16 và 28 là:",
+            "en": "Average of 16 and 28 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(16 + 28) : 2 = 22.",
+            "en": "Average is 22."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "22"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t3_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 11 và 29 là:",
+            "en": "Average of 11 and 29 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 11 và 29 là:",
+            "en": "Average of 11 and 29 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(11 + 29) : 2 = 20.",
+            "en": "Average is 20."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "20"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

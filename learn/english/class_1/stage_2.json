@@ -1,0 +1,1124 @@
+{
+  "id": "e1_stage_2",
+  "stage_number": 2,
+  "title": {
+    "vi": "Week 2: Unit 1 - School Playground",
+    "en": "Week 2: Unit 1 - School Playground"
+  },
+  "subtitle": {
+    "vi": "Letter Bb - book, ball, bike, boy",
+    "en": "Letter Bb - book, ball, bike, boy"
+  },
+  "icon": "⚽",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.921,
+  "required_stars": 3,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "e1_s2_1",
+      "title": {
+        "vi": "Unit 1: Letter Bb Phonics",
+        "en": "Unit 1: Letter Bb Phonics"
+      },
+      "description": {
+        "vi": "Phonics sound /b/ with book and ball",
+        "en": "Phonics sound /b/ with book and ball"
+      },
+      "icon": "📖",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s2_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the picture. What is the boy playing with in the school playground?",
+            "en": "Look at the picture. What is the boy playing with in the school playground?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the picture. What is the boy playing with in the school playground?",
+            "en": "Look at the picture. What is the boy playing with in the school playground?"
+          },
+          "hint": {
+            "vi": "It's a round, colorful ball for kicking.",
+            "en": "It's a round, colorful ball for kicking."
+          },
+          "explanation": {
+            "vi": "The boy is playing with a colorful ball.",
+            "en": "The boy is playing with a colorful ball."
+          },
+          "data": {
+            "options": [
+              "a colorful ball",
+              "a slice of pizza",
+              "a toy guitar",
+              "a paintbrush"
+            ],
+            "correct_answer": "a colorful ball"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u1_letter_b.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s2_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'book'?",
+            "en": "What is the first letter of the word 'book'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'book'?",
+            "en": "What is the first letter of the word 'book'?"
+          },
+          "hint": {
+            "vi": "The word 'book' starts with the letter B.",
+            "en": "The word 'book' starts with the letter B."
+          },
+          "explanation": {
+            "vi": "Correct! 'book' begins with the letter 'B'.",
+            "en": "Correct! 'book' begins with the letter 'B'."
+          },
+          "data": {
+            "options": [
+              "Letter B",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter B"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "book",
+                  "en": "book"
+                },
+                "right": {
+                  "vi": "Nghĩa của book",
+                  "en": "Nghĩa của book"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "ball",
+                  "en": "ball"
+                },
+                "right": {
+                  "vi": "Nghĩa của ball",
+                  "en": "Nghĩa của ball"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "boy",
+                  "en": "boy"
+                },
+                "right": {
+                  "vi": "Nghĩa của boy",
+                  "en": "Nghĩa của boy"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? I have a ball.",
+            "en": "Is this English sentence correct for Grade 1? I have a ball."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I have a ball.",
+            "en": "Remember the pattern: I have a ball."
+          },
+          "explanation": {
+            "vi": "Yes! 'I have a ball.' is a correct English sentence.",
+            "en": "Yes! 'I have a ball.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I have a ball.",
+              "en": "I have a ball."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I have a ....",
+            "en": "Drag the correct word to complete the sentence: I have a ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'ball'.",
+            "en": "Choose the correct word: 'ball'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I have a ball.'.",
+            "en": "The complete sentence is: 'I have a ball.'."
+          },
+          "data": {
+            "prefix_text": "I have a ",
+            "suffix_text": ".",
+            "options": [
+              "ball",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "ball"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'book':",
+            "en": "Spell the English word 'book':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'book':",
+            "en": "Spell the English word 'book':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'book'.",
+            "en": "Tap the letters in order to spell 'book'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'book' correctly.",
+            "en": "Well done! You spelled 'book' correctly."
+          },
+          "data": {
+            "letters": [
+              "k",
+              "o",
+              "o",
+              "b"
+            ],
+            "target_word": "book",
+            "target_sequence": [
+              "b",
+              "o",
+              "o",
+              "k"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi có một quả bóng.' in English?",
+            "en": "How do you say 'Tôi có một quả bóng.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi có một quả bóng.' in English?",
+            "en": "How do you say 'Tôi có một quả bóng.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi có một quả bóng.",
+            "en": "Choose the English sentence that means: Tôi có một quả bóng."
+          },
+          "explanation": {
+            "vi": "'I have a ball.' means 'Tôi có một quả bóng.'.",
+            "en": "'I have a ball.' means 'Tôi có một quả bóng.'."
+          },
+          "data": {
+            "options": [
+              "I have a ball.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I have a ball."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: Letter Bb Phonics'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: Letter Bb Phonics'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: Letter Bb Phonics'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: Letter Bb Phonics'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 1: Letter Bb Phonics.",
+            "en": "Remember the words in topic: Unit 1: Letter Bb Phonics."
+          },
+          "explanation": {
+            "vi": "'book' is a key vocabulary word in this topic.",
+            "en": "'book' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "book",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "book"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'ball' start with the sound /b/?",
+            "en": "Does the word 'ball' start with the sound /b/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'ball' start with the sound /b/? The word 'ball' starts with letter 'B'.",
+            "en": "Does the word 'ball' start with the sound /b/? The word 'ball' starts with letter 'B'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'ball'.",
+            "en": "Listen to the first sound of 'ball'."
+          },
+          "explanation": {
+            "vi": "Yes! 'ball' starts with the sound /b/.",
+            "en": "Yes! 'ball' starts with the sound /b/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'ball' starts with letter 'B'.",
+              "en": "The word 'ball' starts with letter 'B'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'book'?",
+            "en": "How many letters are there in the word 'book'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'book'?",
+            "en": "How many letters are there in the word 'book'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'book': 1, 2, 3...",
+            "en": "Count the letters in 'book': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'book' has exactly 4 letters.",
+            "en": "The word 'book' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'book':",
+            "en": "Choose the correct article before 'book':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'book':",
+            "en": "Choose the correct article before 'book':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a book'.",
+            "en": "Correct! We say 'a book'."
+          },
+          "data": {
+            "options": [
+              "a book",
+              "an book",
+              "two book",
+              "many book"
+            ],
+            "correct_answer": "a book"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: Letter Bb Phonics'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: Letter Bb Phonics'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: Letter Bb Phonics'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: Letter Bb Phonics'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unit 1: Letter Bb Phonics'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unit 1: Letter Bb Phonics'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: book, ball!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: book, ball!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s2_2",
+      "title": {
+        "vi": "Unit 1: Riding a Bike",
+        "en": "Unit 1: Riding a Bike"
+      },
+      "description": {
+        "vi": "Outdoor fun with a bike and a book",
+        "en": "Outdoor fun with a bike and a book"
+      },
+      "icon": "🚲",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s2_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boy riding his bicycle happily in the park. What vehicle is it?",
+            "en": "Look at the boy riding his bicycle happily in the park. What vehicle is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boy riding his bicycle happily in the park. What vehicle is it?",
+            "en": "Look at the boy riding his bicycle happily in the park. What vehicle is it?"
+          },
+          "hint": {
+            "vi": "It has two wheels and pedals.",
+            "en": "It has two wheels and pedals."
+          },
+          "explanation": {
+            "vi": "He is riding a blue bike.",
+            "en": "He is riding a blue bike."
+          },
+          "data": {
+            "options": [
+              "a bicycle (bike)",
+              "a big airplane",
+              "a submarine",
+              "a fire truck"
+            ],
+            "correct_answer": "a bicycle (bike)"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u1_bike_book.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s2_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'bike'?",
+            "en": "What is the first letter of the word 'bike'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'bike'?",
+            "en": "What is the first letter of the word 'bike'?"
+          },
+          "hint": {
+            "vi": "The word 'bike' starts with the letter B.",
+            "en": "The word 'bike' starts with the letter B."
+          },
+          "explanation": {
+            "vi": "Correct! 'bike' begins with the letter 'B'.",
+            "en": "Correct! 'bike' begins with the letter 'B'."
+          },
+          "data": {
+            "options": [
+              "Letter B",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter B"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "bike",
+                  "en": "bike"
+                },
+                "right": {
+                  "vi": "Nghĩa của bike",
+                  "en": "Nghĩa của bike"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "book",
+                  "en": "book"
+                },
+                "right": {
+                  "vi": "Nghĩa của book",
+                  "en": "Nghĩa của book"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "playground",
+                  "en": "playground"
+                },
+                "right": {
+                  "vi": "Nghĩa của playground",
+                  "en": "Nghĩa của playground"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? He has a blue bike.",
+            "en": "Is this English sentence correct for Grade 1? He has a blue bike."
+          },
+          "hint": {
+            "vi": "Remember the pattern: He has a blue bike.",
+            "en": "Remember the pattern: He has a blue bike."
+          },
+          "explanation": {
+            "vi": "Yes! 'He has a blue bike.' is a correct English sentence.",
+            "en": "Yes! 'He has a blue bike.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "He has a blue bike.",
+              "en": "He has a blue bike."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: He has a blue ....",
+            "en": "Drag the correct word to complete the sentence: He has a blue ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'bike'.",
+            "en": "Choose the correct word: 'bike'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'He has a blue bike.'.",
+            "en": "The complete sentence is: 'He has a blue bike.'."
+          },
+          "data": {
+            "prefix_text": "He has a blue ",
+            "suffix_text": ".",
+            "options": [
+              "bike",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "bike"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'bike':",
+            "en": "Spell the English word 'bike':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'bike':",
+            "en": "Spell the English word 'bike':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'bike'.",
+            "en": "Tap the letters in order to spell 'bike'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'bike' correctly.",
+            "en": "Well done! You spelled 'bike' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "k",
+              "i",
+              "b"
+            ],
+            "target_word": "bike",
+            "target_sequence": [
+              "b",
+              "i",
+              "k",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Cậu ấy có một chiếc xe đạp màu xanh.' in English?",
+            "en": "How do you say 'Cậu ấy có một chiếc xe đạp màu xanh.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Cậu ấy có một chiếc xe đạp màu xanh.' in English?",
+            "en": "How do you say 'Cậu ấy có một chiếc xe đạp màu xanh.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Cậu ấy có một chiếc xe đạp màu xanh.",
+            "en": "Choose the English sentence that means: Cậu ấy có một chiếc xe đạp màu xanh."
+          },
+          "explanation": {
+            "vi": "'He has a blue bike.' means 'Cậu ấy có một chiếc xe đạp màu xanh.'.",
+            "en": "'He has a blue bike.' means 'Cậu ấy có một chiếc xe đạp màu xanh.'."
+          },
+          "data": {
+            "options": [
+              "He has a blue bike.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "He has a blue bike."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: Riding a Bike'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: Riding a Bike'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 1: Riding a Bike'?",
+            "en": "Which of the following is a word from Unit 'Unit 1: Riding a Bike'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 1: Riding a Bike.",
+            "en": "Remember the words in topic: Unit 1: Riding a Bike."
+          },
+          "explanation": {
+            "vi": "'bike' is a key vocabulary word in this topic.",
+            "en": "'bike' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "bike",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "bike"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'book' start with the sound /b/?",
+            "en": "Does the word 'book' start with the sound /b/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'book' start with the sound /b/? The word 'book' starts with letter 'B'.",
+            "en": "Does the word 'book' start with the sound /b/? The word 'book' starts with letter 'B'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'book'.",
+            "en": "Listen to the first sound of 'book'."
+          },
+          "explanation": {
+            "vi": "Yes! 'book' starts with the sound /b/.",
+            "en": "Yes! 'book' starts with the sound /b/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'book' starts with letter 'B'.",
+              "en": "The word 'book' starts with letter 'B'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'bike'?",
+            "en": "How many letters are there in the word 'bike'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'bike'?",
+            "en": "How many letters are there in the word 'bike'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'bike': 1, 2, 3...",
+            "en": "Count the letters in 'bike': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'bike' has exactly 4 letters.",
+            "en": "The word 'bike' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'bike':",
+            "en": "Choose the correct article before 'bike':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'bike':",
+            "en": "Choose the correct article before 'bike':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a bike'.",
+            "en": "Correct! We say 'a bike'."
+          },
+          "data": {
+            "options": [
+              "a bike",
+              "an bike",
+              "two bike",
+              "many bike"
+            ],
+            "correct_answer": "a bike"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s2_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: Riding a Bike'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: Riding a Bike'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 1: Riding a Bike'?",
+            "en": "Which English sentence best describes the topic 'Unit 1: Riding a Bike'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Unit 1: Riding a Bike'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Unit 1: Riding a Bike'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: bike, book!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: bike, book!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

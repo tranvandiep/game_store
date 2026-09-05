@@ -1,0 +1,1130 @@
+{
+  "id": "e3_stage_22",
+  "stage_number": 22,
+  "title": {
+    "vi": "Week 22: Unit 14 - My Bedroom",
+    "en": "Week 22: Unit 14 - My Bedroom"
+  },
+  "subtitle": {
+    "vi": "Furniture: bed, desk, chair, door, window, poster, ball, picture (in/on/under/behind)",
+    "en": "Furniture: bed, desk, chair, door, window, poster, ball, picture (in/on/under/behind)"
+  },
+  "icon": "🛏️",
+  "banner_image": null,
+  "x_percent": 0.7,
+  "y_percent": 0.34,
+  "required_stars": 63,
+  "theme_color": "0xFF7C3AED",
+  "topics": [
+    {
+      "id": "e3_s22_1",
+      "title": {
+        "vi": "Unit 14: Where Are the Posters?",
+        "en": "Unit 14: Where Are the Posters?"
+      },
+      "description": {
+        "vi": "Where are the posters? - They're on the wall",
+        "en": "Where are the posters? - They're on the wall"
+      },
+      "icon": "🖼️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e3_s22_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the decorative pictures hanging on the bedroom wall. Where are the posters?",
+            "en": "Look at the decorative pictures hanging on the bedroom wall. Where are the posters?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the decorative pictures hanging on the bedroom wall. Where are the posters?",
+            "en": "Look at the decorative pictures hanging on the bedroom wall. Where are the posters?"
+          },
+          "hint": {
+            "vi": "Hanging vertically on the wall surface.",
+            "en": "Hanging vertically on the wall surface."
+          },
+          "explanation": {
+            "vi": "The posters are on the wall.",
+            "en": "The posters are on the wall."
+          },
+          "data": {
+            "options": [
+              "They are on the wall.",
+              "They are under the bed.",
+              "They are in the desk drawer.",
+              "They are on the floor."
+            ],
+            "correct_answer": "They are on the wall."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u14_posters_wall.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s22_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'poster'?",
+            "en": "What is the first letter of the word 'poster'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'poster'?",
+            "en": "What is the first letter of the word 'poster'?"
+          },
+          "hint": {
+            "vi": "The word 'poster' starts with the letter P.",
+            "en": "The word 'poster' starts with the letter P."
+          },
+          "explanation": {
+            "vi": "Correct! 'poster' begins with the letter 'P'.",
+            "en": "Correct! 'poster' begins with the letter 'P'."
+          },
+          "data": {
+            "options": [
+              "Letter P",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter P"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "poster",
+                  "en": "poster"
+                },
+                "right": {
+                  "vi": "Nghĩa của poster",
+                  "en": "Nghĩa của poster"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "wall",
+                  "en": "wall"
+                },
+                "right": {
+                  "vi": "Nghĩa của wall",
+                  "en": "Nghĩa của wall"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "bed",
+                  "en": "bed"
+                },
+                "right": {
+                  "vi": "Nghĩa của bed",
+                  "en": "Nghĩa của bed"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? The colorful posters are on the bedroom wall.",
+            "en": "Is this English sentence correct for Grade 3? The colorful posters are on the bedroom wall."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The colorful posters are on the bedroom wall.",
+            "en": "Remember the pattern: The colorful posters are on the bedroom wall."
+          },
+          "explanation": {
+            "vi": "Yes! 'The colorful posters are on the bedroom wall.' is a correct English sentence.",
+            "en": "Yes! 'The colorful posters are on the bedroom wall.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The colorful posters are on the bedroom wall.",
+              "en": "The colorful posters are on the bedroom wall."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The colorful posters are on the bedroom ....",
+            "en": "Drag the correct word to complete the sentence: The colorful posters are on the bedroom ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'wall'.",
+            "en": "Choose the correct word: 'wall'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The colorful posters are on the bedroom wall.'.",
+            "en": "The complete sentence is: 'The colorful posters are on the bedroom wall.'."
+          },
+          "data": {
+            "prefix_text": "The colorful posters are on the bedroom ",
+            "suffix_text": ".",
+            "options": [
+              "wall",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "wall"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'poster':",
+            "en": "Spell the English word 'poster':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'poster':",
+            "en": "Spell the English word 'poster':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'poster'.",
+            "en": "Tap the letters in order to spell 'poster'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'poster' correctly.",
+            "en": "Well done! You spelled 'poster' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "t",
+              "s",
+              "o",
+              "p"
+            ],
+            "target_word": "poster",
+            "target_sequence": [
+              "p",
+              "o",
+              "s",
+              "t",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Những tấm áp phích rực rỡ ở trên tường phòng ngủ.' in English?",
+            "en": "How do you say 'Những tấm áp phích rực rỡ ở trên tường phòng ngủ.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Những tấm áp phích rực rỡ ở trên tường phòng ngủ.' in English?",
+            "en": "How do you say 'Những tấm áp phích rực rỡ ở trên tường phòng ngủ.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Những tấm áp phích rực rỡ ở trên tường phòng ngủ.",
+            "en": "Choose the English sentence that means: Những tấm áp phích rực rỡ ở trên tường phòng ngủ."
+          },
+          "explanation": {
+            "vi": "'The colorful posters are on the bedroom wall.' means 'Những tấm áp phích rực rỡ ở trên tường phòng ngủ.'.",
+            "en": "'The colorful posters are on the bedroom wall.' means 'Những tấm áp phích rực rỡ ở trên tường phòng ngủ.'."
+          },
+          "data": {
+            "options": [
+              "The colorful posters are on the bedroom wall.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The colorful posters are on the bedroom wall."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 14: Where Are the Posters?'?",
+            "en": "Which of the following is a word from Unit 'Unit 14: Where Are the Posters?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 14: Where Are the Posters?'?",
+            "en": "Which of the following is a word from Unit 'Unit 14: Where Are the Posters?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 14: Where Are the Posters?.",
+            "en": "Remember the words in topic: Unit 14: Where Are the Posters?."
+          },
+          "explanation": {
+            "vi": "'poster' is a key vocabulary word in this topic.",
+            "en": "'poster' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "poster",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "poster"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'wall' start with the sound /p/?",
+            "en": "Does the word 'wall' start with the sound /p/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'wall' start with the sound /p/? The word 'wall' starts with letter 'P'.",
+            "en": "Does the word 'wall' start with the sound /p/? The word 'wall' starts with letter 'P'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'wall'.",
+            "en": "Listen to the first sound of 'wall'."
+          },
+          "explanation": {
+            "vi": "Yes! 'wall' starts with the sound /p/.",
+            "en": "Yes! 'wall' starts with the sound /p/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'wall' starts with letter 'P'.",
+              "en": "The word 'wall' starts with letter 'P'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'poster'?",
+            "en": "How many letters are there in the word 'poster'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'poster'?",
+            "en": "How many letters are there in the word 'poster'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'poster': 1, 2, 3...",
+            "en": "Count the letters in 'poster': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'poster' has exactly 6 letters.",
+            "en": "The word 'poster' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'poster':",
+            "en": "Choose the correct phrase with 'poster':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'poster':",
+            "en": "Choose the correct phrase with 'poster':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a poster'.",
+            "en": "Correct! We say 'a poster'."
+          },
+          "data": {
+            "options": [
+              "a poster",
+              "an poster",
+              "two poster",
+              "many poster"
+            ],
+            "correct_answer": "a poster"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'poster'.",
+            "en": "Choose the noun: 'poster'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our poster. It is very nice!'",
+            "en": "We say: 'Look! This is our poster. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "poster",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "poster"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 14: Where Are the Posters?'?",
+            "en": "Which English sentence best describes the topic 'Unit 14: Where Are the Posters?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 14: Where Are the Posters?'?",
+            "en": "Which English sentence best describes the topic 'Unit 14: Where Are the Posters?'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 14: Where Are the Posters?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 14: Where Are the Posters?'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: poster, wall!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: poster, wall!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e3_s22_2",
+      "title": {
+        "vi": "Unit 14: Prepositions (In, On, Under)",
+        "en": "Unit 14: Prepositions (In, On, Under)"
+      },
+      "description": {
+        "vi": "Where's the ball? - It's under the desk / near the bed",
+        "en": "Where's the ball? - It's under the desk / near the bed"
+      },
+      "icon": "⚽",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e3_s22_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the football sitting on the floor directly beneath the wooden desk. Where is the ball?",
+            "en": "Look at the football sitting on the floor directly beneath the wooden desk. Where is the ball?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the football sitting on the floor directly beneath the wooden desk. Where is the ball?",
+            "en": "Look at the football sitting on the floor directly beneath the wooden desk. Where is the ball?"
+          },
+          "hint": {
+            "vi": "Beneath the desk tabletop.",
+            "en": "Beneath the desk tabletop."
+          },
+          "explanation": {
+            "vi": "The ball is under the desk.",
+            "en": "The ball is under the desk."
+          },
+          "data": {
+            "options": [
+              "It is under the desk.",
+              "It is on the ceiling.",
+              "It is in the book.",
+              "It is on the roof."
+            ],
+            "correct_answer": "It is under the desk."
+          },
+          "images": [
+            "assets/learn/english/images_3/eng3_u14_under_desk.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e3_s22_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'under'?",
+            "en": "What is the first letter of the word 'under'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'under'?",
+            "en": "What is the first letter of the word 'under'?"
+          },
+          "hint": {
+            "vi": "The word 'under' starts with the letter U.",
+            "en": "The word 'under' starts with the letter U."
+          },
+          "explanation": {
+            "vi": "Correct! 'under' begins with the letter 'U'.",
+            "en": "Correct! 'under' begins with the letter 'U'."
+          },
+          "data": {
+            "options": [
+              "Letter U",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter U"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "under",
+                  "en": "under"
+                },
+                "right": {
+                  "vi": "Nghĩa của under",
+                  "en": "Nghĩa của under"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "desk",
+                  "en": "desk"
+                },
+                "right": {
+                  "vi": "Nghĩa của desk",
+                  "en": "Nghĩa của desk"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "chair",
+                  "en": "chair"
+                },
+                "right": {
+                  "vi": "Nghĩa của chair",
+                  "en": "Nghĩa của chair"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 3?",
+            "en": "Is this English sentence correct for Grade 3?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 3? The ball is under the study desk.",
+            "en": "Is this English sentence correct for Grade 3? The ball is under the study desk."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The ball is under the study desk.",
+            "en": "Remember the pattern: The ball is under the study desk."
+          },
+          "explanation": {
+            "vi": "Yes! 'The ball is under the study desk.' is a correct English sentence.",
+            "en": "Yes! 'The ball is under the study desk.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The ball is under the study desk.",
+              "en": "The ball is under the study desk."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The ball is under the study ....",
+            "en": "Drag the correct word to complete the sentence: The ball is under the study ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'desk'.",
+            "en": "Choose the correct word: 'desk'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The ball is under the study desk.'.",
+            "en": "The complete sentence is: 'The ball is under the study desk.'."
+          },
+          "data": {
+            "prefix_text": "The ball is under the study ",
+            "suffix_text": ".",
+            "options": [
+              "desk",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "desk"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'under':",
+            "en": "Spell the English word 'under':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'under':",
+            "en": "Spell the English word 'under':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'under'.",
+            "en": "Tap the letters in order to spell 'under'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'under' correctly.",
+            "en": "Well done! You spelled 'under' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "d",
+              "n",
+              "u"
+            ],
+            "target_word": "under",
+            "target_sequence": [
+              "u",
+              "n",
+              "d",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Quả bóng ở dưới gầm bàn học.' in English?",
+            "en": "How do you say 'Quả bóng ở dưới gầm bàn học.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Quả bóng ở dưới gầm bàn học.' in English?",
+            "en": "How do you say 'Quả bóng ở dưới gầm bàn học.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Quả bóng ở dưới gầm bàn học.",
+            "en": "Choose the English sentence that means: Quả bóng ở dưới gầm bàn học."
+          },
+          "explanation": {
+            "vi": "'The ball is under the study desk.' means 'Quả bóng ở dưới gầm bàn học.'.",
+            "en": "'The ball is under the study desk.' means 'Quả bóng ở dưới gầm bàn học.'."
+          },
+          "data": {
+            "options": [
+              "The ball is under the study desk.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The ball is under the study desk."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Unit 14: Prepositions (In, On, Under)'?",
+            "en": "Which of the following is a word from Unit 'Unit 14: Prepositions (In, On, Under)'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Unit 14: Prepositions (In, On, Under)'?",
+            "en": "Which of the following is a word from Unit 'Unit 14: Prepositions (In, On, Under)'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 14: Prepositions (In, On, Under).",
+            "en": "Remember the words in topic: Unit 14: Prepositions (In, On, Under)."
+          },
+          "explanation": {
+            "vi": "'under' is a key vocabulary word in this topic.",
+            "en": "'under' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "under",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "under"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'desk' start with the sound /u/?",
+            "en": "Does the word 'desk' start with the sound /u/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'desk' start with the sound /u/? The word 'desk' starts with letter 'U'.",
+            "en": "Does the word 'desk' start with the sound /u/? The word 'desk' starts with letter 'U'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'desk'.",
+            "en": "Listen to the first sound of 'desk'."
+          },
+          "explanation": {
+            "vi": "Yes! 'desk' starts with the sound /u/.",
+            "en": "Yes! 'desk' starts with the sound /u/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'desk' starts with letter 'U'.",
+              "en": "The word 'desk' starts with letter 'U'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'under'?",
+            "en": "How many letters are there in the word 'under'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'under'?",
+            "en": "How many letters are there in the word 'under'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'under': 1, 2, 3...",
+            "en": "Count the letters in 'under': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'under' has exactly 5 letters.",
+            "en": "The word 'under' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'under':",
+            "en": "Choose the correct phrase with 'under':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'under':",
+            "en": "Choose the correct phrase with 'under':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an under'.",
+            "en": "Correct! We say 'an under'."
+          },
+          "data": {
+            "options": [
+              "an under",
+              "a under",
+              "two under",
+              "many under"
+            ],
+            "correct_answer": "an under"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly dialogue:",
+            "en": "Complete the friendly dialogue:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly dialogue: Look! This is our .... It is very nice!",
+            "en": "Complete the friendly dialogue: Look! This is our .... It is very nice!"
+          },
+          "hint": {
+            "vi": "Choose the noun: 'under'.",
+            "en": "Choose the noun: 'under'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is our under. It is very nice!'",
+            "en": "We say: 'Look! This is our under. It is very nice!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is our ",
+            "suffix_text": ". It is very nice!",
+            "options": [
+              "under",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "under"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the opposite words together.",
+            "en": "Match the opposite words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the antonym pairs!",
+            "en": "Great job matching the antonym pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "small",
+                  "en": "small"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "new",
+                  "en": "new"
+                },
+                "right": {
+                  "vi": "old",
+                  "en": "old"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "open",
+                  "en": "open"
+                },
+                "right": {
+                  "vi": "close",
+                  "en": "close"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "tts_prompt": {
+            "vi": "How do you ask the teacher for permission to enter the classroom?",
+            "en": "How do you ask the teacher for permission to enter the classroom?"
+          },
+          "hint": {
+            "vi": "Use 'May I come in?' to ask politely.",
+            "en": "Use 'May I come in?' to ask politely."
+          },
+          "explanation": {
+            "vi": "We politely say: 'May I come in, teacher?'",
+            "en": "We politely say: 'May I come in, teacher?'"
+          },
+          "data": {
+            "options": [
+              "May I come in, teacher?",
+              "I want to enter now.",
+              "Open the door fast!",
+              "Be quiet!"
+            ],
+            "correct_answer": "May I come in, teacher?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is listening attentively to the teacher helpful for learning English?",
+            "en": "Is listening attentively to the teacher helpful for learning English?"
+          },
+          "tts_prompt": {
+            "vi": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster.",
+            "en": "Is listening attentively to the teacher helpful for learning English? Paying attention helps you pronounce words correctly and learn faster."
+          },
+          "hint": {
+            "vi": "Think about good habits in class.",
+            "en": "Think about good habits in class."
+          },
+          "explanation": {
+            "vi": "Yes! Listening attentively helps you master English quickly.",
+            "en": "Yes! Listening attentively helps you master English quickly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Paying attention helps you pronounce words correctly and learn faster.",
+              "en": "Paying attention helps you pronounce words correctly and learn faster."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e3_s22_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Unit 14: Prepositions (In, On, Under)'?",
+            "en": "Which English sentence best describes the topic 'Unit 14: Prepositions (In, On, Under)'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Unit 14: Prepositions (In, On, Under)'?",
+            "en": "Which English sentence best describes the topic 'Unit 14: Prepositions (In, On, Under)'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 14: Prepositions (In, On, Under)'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 14: Prepositions (In, On, Under)'!"
+          },
+          "data": {
+            "options": [
+              "I love practicing English communication: under, desk!",
+              "I do not like learning.",
+              "Turn off the lights.",
+              "It is raining heavily."
+            ],
+            "correct_answer": "I love practicing English communication: under, desk!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

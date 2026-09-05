@@ -1,0 +1,1150 @@
+{
+  "id": "m2_stage_14",
+  "stage_number": 14,
+  "title": {
+    "vi": "Tuần 14: Điểm, Đoạn Thẳng, Đường Gấp Khúc & Tứ Giác",
+    "en": "Week 14: Lines, Broken Lines & Quadrilaterals"
+  },
+  "subtitle": {
+    "vi": "Bài 25, 26, 27, 28 - Hình học phẳng lớp 2",
+    "en": "Lesson 25-28 - 2D geometry grade 2"
+  },
+  "icon": "📐",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.586,
+  "required_stars": 39,
+  "theme_color": "0xFF0D9488",
+  "topics": [
+    {
+      "id": "m2_t14_1",
+      "title": {
+        "vi": "Điểm, Đoạn thẳng & Đường thẳng, Đường cong",
+        "en": "Points, Segments, Lines & Curves"
+      },
+      "description": {
+        "vi": "Phân biệt đoạn thẳng bị giới hạn và đường thẳng kéo dài",
+        "en": "Distinguish bounded segments and infinite lines"
+      },
+      "icon": "✏️",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m2_t14_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đoạn thẳng AB được giới hạn bởi mấy điểm?",
+            "en": "Segment AB is bounded by how many points?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đoạn thẳng AB được giới hạn bởi mấy điểm?",
+            "en": "Segment AB is bounded by how many points?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Đoạn thẳng AB được giới hạn bởi 2 điểm đầu mút là điểm A và điểm B.",
+            "en": "Segment AB is bounded by endpoints A and B."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "1 điểm",
+                "en": "1 điểm"
+              },
+              {
+                "vi": "2 điểm",
+                "en": "2 điểm"
+              },
+              {
+                "vi": "3 điểm",
+                "en": "3 điểm"
+              }
+            ],
+            "correct_answer": "2 điểm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_2",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Định nghĩa 3 điểm thẳng hàng.",
+            "en": "Decide whether the following statement is true or false: Định nghĩa 3 điểm thẳng hàng."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Ba điểm cùng nằm trên một đường thẳng là ba điểm thẳng hàng.",
+            "en": "True! Collinear points lie on the same line."
+          },
+          "data": {
+            "statement": {
+              "vi": "Định nghĩa 3 điểm thẳng hàng.",
+              "en": "Định nghĩa 3 điểm thẳng hàng."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối khái niệm hình học với hình ảnh thực tế:",
+            "en": "Match geometry concept with real object:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối khái niệm hình học với hình ảnh thực tế:",
+            "en": "Match geometry concept with real object:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Hình học xuất phát từ thực tế đời sống.",
+            "en": "Geometry from real-world objects."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Cạnh của chiếc thước kẻ thẳng",
+                  "en": "Cạnh của chiếc thước kẻ thẳng"
+                },
+                "right": {
+                  "vi": "Đoạn thẳng",
+                  "en": "Đoạn thẳng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Dây phơi quần áo uốn lượn",
+                  "en": "Dây phơi quần áo uốn lượn"
+                },
+                "right": {
+                  "vi": "Đường cong",
+                  "en": "Đường cong"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Dấu chấm bút chì trên trang giấy",
+                  "en": "Dấu chấm bút chì trên trang giấy"
+                },
+                "right": {
+                  "vi": "Điểm",
+                  "en": "Điểm"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Điểm, Đoạn thẳng & Đường thẳng, Đường cong': Đoạn thẳng AB được giới hạn bởi mấy điểm?",
+            "en": "Practice 'Points, Segments, Lines & Curves': Segment AB is bounded by how many points?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đoạn thẳng AB được giới hạn bởi mấy điểm?",
+            "en": "Segment AB is bounded by how many points?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Đoạn thẳng AB được giới hạn bởi 2 điểm đầu mút là điểm A và điểm B.",
+            "en": "Segment AB is bounded by endpoints A and B."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "1 điểm",
+                "en": "1 điểm"
+              },
+              {
+                "vi": "3 điểm",
+                "en": "3 điểm"
+              },
+              {
+                "vi": "2 điểm",
+                "en": "2 điểm"
+              }
+            ],
+            "correct_answer": "2 điểm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_5",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 3 bé hơn số 2 (3 < 2).",
+            "en": "Decide whether the following statement is true or false: Số 3 bé hơn số 2 (3 < 2)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3 bé hơn số 2 (3 < 2).",
+              "en": "Số 3 bé hơn số 2 (3 < 2)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 0 đứng liền trước số 1.",
+            "en": "Decide whether the following statement is true or false: Số 0 đứng liền trước số 1."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 0 đứng liền trước số 1.",
+              "en": "Số 0 đứng liền trước số 1."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 4 bé hơn số 3 (4 < 3).",
+            "en": "Decide whether the following statement is true or false: Số 4 bé hơn số 3 (4 < 3)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 4 bé hơn số 3 (4 < 3).",
+              "en": "Số 4 bé hơn số 3 (4 < 3)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 43 + 5 = ?",
+            "en": "Calculate: 43 + 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 43 + 5 = ?",
+            "en": "Calculate: 43 + 5 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "43 + 5 = 48.",
+            "en": "43 + 5 = 48."
+          },
+          "data": {
+            "prefix_text": "43 + 5 = ",
+            "suffix_text": "",
+            "correct_number": "48"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 54 gồm 5 chục và 4 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 54 has 5 tens and 4 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 54 gồm 5 chục và 4 đơn vị.",
+              "en": "Number 54 has 5 tens and 4 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_1_11",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 41 gồm 4 chục và 1 đơn vị.",
+            "en": "Number 41 has 4 tens and 1 ones."
+          },
+          "hint": {
+            "vi": "Xác định chữ số hàng chục và hàng đơn vị.",
+            "en": "Check tens and ones."
+          },
+          "explanation": {
+            "vi": "Số 41 gồm 4 chục và 1 đơn vị.",
+            "en": "41 has 4 tens and 1 ones."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 41 gồm 4 chục và 1 đơn vị.",
+              "en": "Number 41 consists of 4 tens and 1 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t14_2",
+      "title": {
+        "vi": "Đường gấp khúc & Tính độ dài đường gấp khúc",
+        "en": "Broken Lines & Calculating Length"
+      },
+      "description": {
+        "vi": "Độ dài đường gấp khúc bằng tổng độ dài các đoạn thẳng tạo thành",
+        "en": "Length of broken line equals sum of its segments"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m2_t14_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Đường gấp khúc ABC gồm đoạn AB = 4cm và BC = 6cm. Độ dài đường gấp khúc ABC là mấy cm?",
+            "en": "Broken line ABC has AB=4cm and BC=6cm. Total length in cm?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đường gấp khúc ABC gồm đoạn AB = 4cm và BC = 6cm. Độ dài đường gấp khúc ABC là mấy cm?",
+            "en": "Broken line ABC has AB=4cm and BC=6cm. Total length in cm?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "4 cm + 6 cm = 10 cm.",
+            "en": "4 cm + 6 cm = 10 cm."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": "cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Đường gấp khúc MNPQ gồm 3 đoạn: MN = 3cm, NP = 5cm, PQ = 4cm. Độ dài đường gấp khúc là:",
+            "en": "Broken line MNPQ has 3 segments: 3cm, 5cm, 4cm. Total length:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đường gấp khúc MNPQ gồm 3 đoạn: MN = 3cm, NP = 5cm, PQ = 4cm. Độ dài đường gấp khúc là:",
+            "en": "Broken line MNPQ has 3 segments: 3cm, 5cm, 4cm. Total length:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "3 + 5 + 4 = 12 cm.",
+            "en": "3 + 5 + 4 = 12 cm."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "cm"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Quy tắc tính độ dài đường gấp khúc.",
+            "en": "Decide whether the following statement is true or false: Quy tắc tính độ dài đường gấp khúc."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Tính tổng độ dài tất cả các đoạn thẳng.",
+            "en": "True! Sum of all component segments."
+          },
+          "data": {
+            "statement": {
+              "vi": "Quy tắc tính độ dài đường gấp khúc.",
+              "en": "Quy tắc tính độ dài đường gấp khúc."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_2_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 3 đứng liền trước số 4.",
+            "en": "Decide whether the following statement is true or false: Số 3 đứng liền trước số 4."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 3 đứng liền trước số 4.",
+              "en": "Số 3 đứng liền trước số 4."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 7 bé hơn số 6 (7 < 6).",
+            "en": "Decide whether the following statement is true or false: Số 7 bé hơn số 6 (7 < 6)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 7 bé hơn số 6 (7 < 6).",
+              "en": "Số 7 bé hơn số 6 (7 < 6)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_2_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 33 + 10 = ?",
+            "en": "Calculate: 33 + 10 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 33 + 10 = ?",
+            "en": "Calculate: 33 + 10 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "33 + 10 = 43.",
+            "en": "33 + 10 = 43."
+          },
+          "data": {
+            "prefix_text": "33 + 10 = ",
+            "suffix_text": "",
+            "correct_number": "43"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_2_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 37 gồm 3 chục và 7 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 37 has 3 tens and 7 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 37 gồm 3 chục và 7 đơn vị.",
+              "en": "Number 37 has 3 tens and 7 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_2_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "2 x 1",
+                  "en": "2 x 1"
+                },
+                "right": {
+                  "vi": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "2 x 2",
+                  "en": "2 x 2"
+                },
+                "right": {
+                  "vi": "4",
+                  "en": "4"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "2 x 3",
+                  "en": "2 x 3"
+                },
+                "right": {
+                  "vi": "6",
+                  "en": "6"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m2_t14_3",
+      "title": {
+        "vi": "Hình Tứ Giác & Thực hành gấp xếp hình",
+        "en": "Quadrilaterals & Shape Folding"
+      },
+      "description": {
+        "vi": "Nhận biết hình có đúng 4 cạnh và 4 đỉnh",
+        "en": "Recognize shapes with 4 sides and 4 vertices"
+      },
+      "icon": "🔷",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m2_t14_3_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hình tứ giác là hình có bao nhiêu cạnh?",
+            "en": "How many sides does a quadrilateral have?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình tứ giác là hình có bao nhiêu cạnh?",
+            "en": "How many sides does a quadrilateral have?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Hình tứ giác có đúng 4 cạnh và 4 đỉnh.",
+            "en": "A quadrilateral has 4 sides and 4 vertices."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3 cạnh",
+                "en": "3 cạnh"
+              },
+              {
+                "vi": "4 cạnh",
+                "en": "4 cạnh"
+              },
+              {
+                "vi": "5 cạnh",
+                "en": "5 cạnh"
+              }
+            ],
+            "correct_answer": "4 cạnh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_2",
+          "type": "multipleChoice",
+          "text": {
+            "vi": "Hình nào dưới đây cũng là một hình tứ giác đặc biệt?",
+            "en": "Which shapes are special quadrilaterals?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình nào dưới đây cũng là một hình tứ giác đặc biệt?",
+            "en": "Which shapes are special quadrilaterals?"
+          },
+          "hint": {
+            "vi": "Bé chú ý có thể có nhiều hơn 1 đáp án đúng nhé.",
+            "en": "There may be more than one correct answer."
+          },
+          "explanation": {
+            "vi": "Hình vuông và hình chữ nhật đều có 4 cạnh nên là hình tứ giác.",
+            "en": "Squares and rectangles have 4 sides and are quadrilaterals."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "Hình vuông",
+                "en": "Hình vuông"
+              },
+              {
+                "vi": "Hình chữ nhật",
+                "en": "Hình chữ nhật"
+              },
+              {
+                "vi": "Hình tam giác",
+                "en": "Hình tam giác"
+              }
+            ],
+            "correct_answers": [
+              "Hình vuông",
+              "Hình chữ nhật"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_3",
+          "type": "visualCount",
+          "text": {
+            "vi": "Đếm xem hình vẽ có bao nhiêu hình tứ giác?",
+            "en": "How many quadrilaterals are in the drawing?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Đếm xem hình vẽ có bao nhiêu hình tứ giác?",
+            "en": "How many quadrilaterals are in the drawing?"
+          },
+          "hint": {
+            "vi": "Chạm vào từng hình để đếm số lượng.",
+            "en": "Tap each item to count."
+          },
+          "explanation": {
+            "vi": "Có tất cả 3 hình tứ giác (2 hình đơn và 1 hình ghép).",
+            "en": "3 quadrilaterals in total."
+          },
+          "data": {
+            "item_icon": "🔷",
+            "item_count": 3,
+            "options": [
+              "2",
+              "3",
+              "4"
+            ],
+            "correct_answer": "3"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Hình Tứ Giác & Thực hành gấp xếp hình': Hình tứ giác là hình có bao nhiêu cạnh?",
+            "en": "Practice 'Quadrilaterals & Shape Folding': How many sides does a quadrilateral have?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Hình tứ giác là hình có bao nhiêu cạnh?",
+            "en": "How many sides does a quadrilateral have?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Hình tứ giác có đúng 4 cạnh và 4 đỉnh.",
+            "en": "A quadrilateral has 4 sides and 4 vertices."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "4 cạnh",
+                "en": "4 cạnh"
+              },
+              {
+                "vi": "5 cạnh",
+                "en": "5 cạnh"
+              },
+              {
+                "vi": "3 cạnh",
+                "en": "3 cạnh"
+              }
+            ],
+            "correct_answer": "4 cạnh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_6",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐸 ở dưới đây nhé:",
+            "en": "Count how many 🐸 icons are shown below:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🐸 ở dưới đây nhé",
+            "en": "Count how many 🐸 icons are shown below"
+          },
+          "hint": {
+            "vi": "Chạm ngón tay và đếm từng hình một nhé.",
+            "en": "Count each item carefully."
+          },
+          "explanation": {
+            "vi": "Có tất cả 2 hình 🐸.",
+            "en": "There are 2 🐸 items."
+          },
+          "data": {
+            "item_icon": "🐸",
+            "item_count": 2,
+            "options": [
+              "4",
+              "1",
+              "2",
+              "3"
+            ],
+            "correct_answer": "2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_9",
+          "type": "visualCount",
+          "text": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🍬 ở dưới đây nhé:",
+            "en": "Count how many 🍬 icons are shown below:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy đếm xem có bao nhiêu hình 🍬 ở dưới đây nhé",
+            "en": "Count how many 🍬 icons are shown below"
+          },
+          "hint": {
+            "vi": "Chạm ngón tay và đếm từng hình một nhé.",
+            "en": "Count each item carefully."
+          },
+          "explanation": {
+            "vi": "Có tất cả 4 hình 🍬.",
+            "en": "There are 4 🍬 items."
+          },
+          "data": {
+            "item_icon": "🍬",
+            "item_count": 4,
+            "options": [
+              "3",
+              "1",
+              "4",
+              "2"
+            ],
+            "correct_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 8 = ...",
+            "en": "Calculate:\n2 x 8 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n2 x 8 = ...",
+            "en": "Calculate:\n2 x 8 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "2 x 8 = 16.",
+            "en": "2 x 8 = 16."
+          },
+          "data": {
+            "prefix_text": "2 x 8 = ",
+            "suffix_text": "",
+            "options": [
+              "16",
+              "14",
+              "18",
+              "18"
+            ],
+            "slot_answer": "16"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_8",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Tính nhẩm phép nhân:\n3 x 8 = ...",
+            "en": "Calculate:\n3 x 8 = ..."
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm phép nhân:\n3 x 8 = ...",
+            "en": "Calculate:\n3 x 8 = ..."
+          },
+          "hint": {
+            "vi": "Kéo hoặc chạm thẻ số vào ô trống.",
+            "en": "Drag or tap the number card into the slot."
+          },
+          "explanation": {
+            "vi": "3 x 8 = 24.",
+            "en": "3 x 8 = 24."
+          },
+          "data": {
+            "prefix_text": "3 x 8 = ",
+            "suffix_text": "",
+            "options": [
+              "24",
+              "26",
+              "27",
+              "21"
+            ],
+            "slot_answer": "24"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_9",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhẩm kết quả: 39 + 7 = ?",
+            "en": "Calculate: 39 + 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhẩm kết quả: 39 + 7 = ?",
+            "en": "Calculate: 39 + 7 = ?"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "39 + 7 = 46.",
+            "en": "39 + 7 = 46."
+          },
+          "data": {
+            "prefix_text": "39 + 7 = ",
+            "suffix_text": "",
+            "correct_number": "46"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_10",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Số 92 gồm 9 chục và 2 đơn vị.",
+            "en": "Is the statement TRUE or FALSE:: Number 92 has 9 tens and 2 ones."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định hoàn toàn ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 92 gồm 9 chục và 2 đơn vị.",
+              "en": "Number 92 has 9 tens and 2 ones."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m2_t14_3_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả thích hợp:",
+            "en": "Match expression with result:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Bé đã nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "5 x 1",
+                  "en": "5 x 1"
+                },
+                "right": {
+                  "vi": "5",
+                  "en": "5"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "5 x 2",
+                  "en": "5 x 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "5 x 3",
+                  "en": "5 x 3"
+                },
+                "right": {
+                  "vi": "15",
+                  "en": "15"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

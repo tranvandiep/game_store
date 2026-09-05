@@ -1,0 +1,1130 @@
+{
+  "id": "e1_stage_28",
+  "stage_number": 28,
+  "title": {
+    "vi": "Week 28: Fun Toys & Slow Turtle",
+    "en": "Week 28: Fun Toys & Slow Turtle"
+  },
+  "subtitle": {
+    "vi": "Toys: teddy bear, doll, ball, car, turtle",
+    "en": "Toys: teddy bear, doll, ball, car, turtle"
+  },
+  "icon": "🐢",
+  "banner_image": null,
+  "x_percent": 0.75,
+  "y_percent": 0.166,
+  "required_stars": 81,
+  "theme_color": "0xFF0D9488",
+  "topics": [
+    {
+      "id": "e1_s28_1",
+      "title": {
+        "vi": "Toy Tiger with Stripes",
+        "en": "Toy Tiger with Stripes"
+      },
+      "description": {
+        "vi": "A toy tiger with orange and black stripes",
+        "en": "A toy tiger with orange and black stripes"
+      },
+      "icon": "🐯",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s28_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the toy big cat with orange fur and black stripes. What animal toy is it?",
+            "en": "Look at the toy big cat with orange fur and black stripes. What animal toy is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the toy big cat with orange fur and black stripes. What animal toy is it?",
+            "en": "Look at the toy big cat with orange fur and black stripes. What animal toy is it?"
+          },
+          "hint": {
+            "vi": "Known as the king of the jungle with stripes.",
+            "en": "Known as the king of the jungle with stripes."
+          },
+          "explanation": {
+            "vi": "It's a toy tiger with black stripes.",
+            "en": "It's a toy tiger with black stripes."
+          },
+          "data": {
+            "options": [
+              "a striped toy tiger",
+              "a white puppy",
+              "a grey mouse",
+              "a green frog"
+            ],
+            "correct_answer": "a striped toy tiger"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u14_toy_tiger.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s28_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'tiger'?",
+            "en": "What is the first letter of the word 'tiger'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'tiger'?",
+            "en": "What is the first letter of the word 'tiger'?"
+          },
+          "hint": {
+            "vi": "The word 'tiger' starts with the letter T.",
+            "en": "The word 'tiger' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'tiger' begins with the letter 'T'.",
+            "en": "Correct! 'tiger' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "tiger",
+                  "en": "tiger"
+                },
+                "right": {
+                  "vi": "Nghĩa của tiger",
+                  "en": "Nghĩa của tiger"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "stripes",
+                  "en": "stripes"
+                },
+                "right": {
+                  "vi": "Nghĩa của stripes",
+                  "en": "Nghĩa của stripes"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "orange",
+                  "en": "orange"
+                },
+                "right": {
+                  "vi": "Nghĩa của orange",
+                  "en": "Nghĩa của orange"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? The toy tiger has black stripes.",
+            "en": "Is this English sentence correct for Grade 1? The toy tiger has black stripes."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The toy tiger has black stripes.",
+            "en": "Remember the pattern: The toy tiger has black stripes."
+          },
+          "explanation": {
+            "vi": "Yes! 'The toy tiger has black stripes.' is a correct English sentence.",
+            "en": "Yes! 'The toy tiger has black stripes.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The toy tiger has black stripes.",
+              "en": "The toy tiger has black stripes."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The toy tiger has black ....",
+            "en": "Drag the correct word to complete the sentence: The toy tiger has black ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'stripes'.",
+            "en": "Choose the correct word: 'stripes'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The toy tiger has black stripes.'.",
+            "en": "The complete sentence is: 'The toy tiger has black stripes.'."
+          },
+          "data": {
+            "prefix_text": "The toy tiger has black ",
+            "suffix_text": ".",
+            "options": [
+              "stripes",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "stripes"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'tiger':",
+            "en": "Spell the English word 'tiger':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'tiger':",
+            "en": "Spell the English word 'tiger':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'tiger'.",
+            "en": "Tap the letters in order to spell 'tiger'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'tiger' correctly.",
+            "en": "Well done! You spelled 'tiger' correctly."
+          },
+          "data": {
+            "letters": [
+              "r",
+              "e",
+              "g",
+              "i",
+              "t"
+            ],
+            "target_word": "tiger",
+            "target_sequence": [
+              "t",
+              "i",
+              "g",
+              "e",
+              "r"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chú hổ đồ chơi có những sọc vằn màu đen.' in English?",
+            "en": "How do you say 'Chú hổ đồ chơi có những sọc vằn màu đen.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chú hổ đồ chơi có những sọc vằn màu đen.' in English?",
+            "en": "How do you say 'Chú hổ đồ chơi có những sọc vằn màu đen.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chú hổ đồ chơi có những sọc vằn màu đen.",
+            "en": "Choose the English sentence that means: Chú hổ đồ chơi có những sọc vằn màu đen."
+          },
+          "explanation": {
+            "vi": "'The toy tiger has black stripes.' means 'Chú hổ đồ chơi có những sọc vằn màu đen.'.",
+            "en": "'The toy tiger has black stripes.' means 'Chú hổ đồ chơi có những sọc vằn màu đen.'."
+          },
+          "data": {
+            "options": [
+              "The toy tiger has black stripes.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The toy tiger has black stripes."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Toy Tiger with Stripes'?",
+            "en": "Which of the following is a word from Unit 'Toy Tiger with Stripes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Toy Tiger with Stripes'?",
+            "en": "Which of the following is a word from Unit 'Toy Tiger with Stripes'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Toy Tiger with Stripes.",
+            "en": "Remember the words in topic: Toy Tiger with Stripes."
+          },
+          "explanation": {
+            "vi": "'tiger' is a key vocabulary word in this topic.",
+            "en": "'tiger' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "tiger",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "tiger"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'stripes' start with the sound /t/?",
+            "en": "Does the word 'stripes' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'stripes' start with the sound /t/? The word 'stripes' starts with letter 'T'.",
+            "en": "Does the word 'stripes' start with the sound /t/? The word 'stripes' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'stripes'.",
+            "en": "Listen to the first sound of 'stripes'."
+          },
+          "explanation": {
+            "vi": "Yes! 'stripes' starts with the sound /t/.",
+            "en": "Yes! 'stripes' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'stripes' starts with letter 'T'.",
+              "en": "The word 'stripes' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'tiger'?",
+            "en": "How many letters are there in the word 'tiger'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'tiger'?",
+            "en": "How many letters are there in the word 'tiger'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'tiger': 1, 2, 3...",
+            "en": "Count the letters in 'tiger': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'tiger' has exactly 5 letters.",
+            "en": "The word 'tiger' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'tiger':",
+            "en": "Choose the correct article before 'tiger':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'tiger':",
+            "en": "Choose the correct article before 'tiger':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a tiger'.",
+            "en": "Correct! We say 'a tiger'."
+          },
+          "data": {
+            "options": [
+              "a tiger",
+              "an tiger",
+              "two tiger",
+              "many tiger"
+            ],
+            "correct_answer": "a tiger"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Toy Tiger with Stripes'?",
+            "en": "Which English sentence best describes the topic 'Toy Tiger with Stripes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Toy Tiger with Stripes'?",
+            "en": "Which English sentence best describes the topic 'Toy Tiger with Stripes'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Toy Tiger with Stripes'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Toy Tiger with Stripes'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: tiger, stripes!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: tiger, stripes!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s28_2",
+      "title": {
+        "vi": "A Friendly Green Turtle",
+        "en": "A Friendly Green Turtle"
+      },
+      "description": {
+        "vi": "Slow and steady green turtle in the pet corner",
+        "en": "Slow and steady green turtle in the pet corner"
+      },
+      "icon": "🐢",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s28_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the gentle reptile with a hard round shell on its back. What animal is it?",
+            "en": "Look at the gentle reptile with a hard round shell on its back. What animal is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the gentle reptile with a hard round shell on its back. What animal is it?",
+            "en": "Look at the gentle reptile with a hard round shell on its back. What animal is it?"
+          },
+          "hint": {
+            "vi": "It carries a hard shell and moves at a slow, steady pace.",
+            "en": "It carries a hard shell and moves at a slow, steady pace."
+          },
+          "explanation": {
+            "vi": "It's a gentle green turtle.",
+            "en": "It's a gentle green turtle."
+          },
+          "data": {
+            "options": [
+              "a gentle green turtle",
+              "a fast cheetah",
+              "a tall giraffe",
+              "a flying bat"
+            ],
+            "correct_answer": "a gentle green turtle"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u14_green_turtle.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s28_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'turtle'?",
+            "en": "What is the first letter of the word 'turtle'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'turtle'?",
+            "en": "What is the first letter of the word 'turtle'?"
+          },
+          "hint": {
+            "vi": "The word 'turtle' starts with the letter T.",
+            "en": "The word 'turtle' starts with the letter T."
+          },
+          "explanation": {
+            "vi": "Correct! 'turtle' begins with the letter 'T'.",
+            "en": "Correct! 'turtle' begins with the letter 'T'."
+          },
+          "data": {
+            "options": [
+              "Letter T",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter T"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "turtle",
+                  "en": "turtle"
+                },
+                "right": {
+                  "vi": "Nghĩa của turtle",
+                  "en": "Nghĩa của turtle"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "shell",
+                  "en": "shell"
+                },
+                "right": {
+                  "vi": "Nghĩa của shell",
+                  "en": "Nghĩa của shell"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "slow",
+                  "en": "slow"
+                },
+                "right": {
+                  "vi": "Nghĩa của slow",
+                  "en": "Nghĩa của slow"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? The green turtle walks slowly.",
+            "en": "Is this English sentence correct for Grade 1? The green turtle walks slowly."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The green turtle walks slowly.",
+            "en": "Remember the pattern: The green turtle walks slowly."
+          },
+          "explanation": {
+            "vi": "Yes! 'The green turtle walks slowly.' is a correct English sentence.",
+            "en": "Yes! 'The green turtle walks slowly.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The green turtle walks slowly.",
+              "en": "The green turtle walks slowly."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The green turtle walks ....",
+            "en": "Drag the correct word to complete the sentence: The green turtle walks ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'slowly'.",
+            "en": "Choose the correct word: 'slowly'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The green turtle walks slowly.'.",
+            "en": "The complete sentence is: 'The green turtle walks slowly.'."
+          },
+          "data": {
+            "prefix_text": "The green turtle walks ",
+            "suffix_text": ".",
+            "options": [
+              "slowly",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "slowly"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'turtle':",
+            "en": "Spell the English word 'turtle':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'turtle':",
+            "en": "Spell the English word 'turtle':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'turtle'.",
+            "en": "Tap the letters in order to spell 'turtle'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'turtle' correctly.",
+            "en": "Well done! You spelled 'turtle' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "l",
+              "t",
+              "r",
+              "u",
+              "t"
+            ],
+            "target_word": "turtle",
+            "target_sequence": [
+              "t",
+              "u",
+              "r",
+              "t",
+              "l",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chú rùa xanh bước đi chậm rãi.' in English?",
+            "en": "How do you say 'Chú rùa xanh bước đi chậm rãi.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chú rùa xanh bước đi chậm rãi.' in English?",
+            "en": "How do you say 'Chú rùa xanh bước đi chậm rãi.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chú rùa xanh bước đi chậm rãi.",
+            "en": "Choose the English sentence that means: Chú rùa xanh bước đi chậm rãi."
+          },
+          "explanation": {
+            "vi": "'The green turtle walks slowly.' means 'Chú rùa xanh bước đi chậm rãi.'.",
+            "en": "'The green turtle walks slowly.' means 'Chú rùa xanh bước đi chậm rãi.'."
+          },
+          "data": {
+            "options": [
+              "The green turtle walks slowly.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The green turtle walks slowly."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'A Friendly Green Turtle'?",
+            "en": "Which of the following is a word from Unit 'A Friendly Green Turtle'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'A Friendly Green Turtle'?",
+            "en": "Which of the following is a word from Unit 'A Friendly Green Turtle'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: A Friendly Green Turtle.",
+            "en": "Remember the words in topic: A Friendly Green Turtle."
+          },
+          "explanation": {
+            "vi": "'turtle' is a key vocabulary word in this topic.",
+            "en": "'turtle' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "turtle",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "turtle"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'shell' start with the sound /t/?",
+            "en": "Does the word 'shell' start with the sound /t/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'shell' start with the sound /t/? The word 'shell' starts with letter 'T'.",
+            "en": "Does the word 'shell' start with the sound /t/? The word 'shell' starts with letter 'T'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'shell'.",
+            "en": "Listen to the first sound of 'shell'."
+          },
+          "explanation": {
+            "vi": "Yes! 'shell' starts with the sound /t/.",
+            "en": "Yes! 'shell' starts with the sound /t/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'shell' starts with letter 'T'.",
+              "en": "The word 'shell' starts with letter 'T'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'turtle'?",
+            "en": "How many letters are there in the word 'turtle'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'turtle'?",
+            "en": "How many letters are there in the word 'turtle'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'turtle': 1, 2, 3...",
+            "en": "Count the letters in 'turtle': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'turtle' has exactly 6 letters.",
+            "en": "The word 'turtle' has exactly 6 letters."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'turtle':",
+            "en": "Choose the correct article before 'turtle':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'turtle':",
+            "en": "Choose the correct article before 'turtle':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a turtle'.",
+            "en": "Correct! We say 'a turtle'."
+          },
+          "data": {
+            "options": [
+              "a turtle",
+              "an turtle",
+              "two turtle",
+              "many turtle"
+            ],
+            "correct_answer": "a turtle"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s28_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'A Friendly Green Turtle'?",
+            "en": "Which English sentence best describes the topic 'A Friendly Green Turtle'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'A Friendly Green Turtle'?",
+            "en": "Which English sentence best describes the topic 'A Friendly Green Turtle'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'A Friendly Green Turtle'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'A Friendly Green Turtle'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: turtle, shell!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: turtle, shell!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

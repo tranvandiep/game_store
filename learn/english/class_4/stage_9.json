@@ -1,0 +1,1122 @@
+{
+  "id": "e4_stage_9",
+  "stage_number": 9,
+  "title": {
+    "vi": "Week 9: Unit 7 - Our Timetables",
+    "en": "Week 9: Unit 7 - Our Timetables"
+  },
+  "subtitle": {
+    "vi": "Subjects: Maths, Science, IT, English, Art, Music, Vietnamese, PE (What subjects do you have today?)",
+    "en": "Subjects: Maths, Science, IT, English, Art, Music, Vietnamese, PE (What subjects do you have today?)"
+  },
+  "icon": "📚",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.718,
+  "required_stars": 24,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e4_s9_1",
+      "title": {
+        "vi": "Unit 7: What Subjects Do You Have Today?",
+        "en": "Unit 7: What Subjects Do You Have Today?"
+      },
+      "description": {
+        "vi": "What subjects do you have today? - I have Maths, Science, and English",
+        "en": "What subjects do you have today? - I have Maths, Science, and English"
+      },
+      "icon": "📐",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e4_s9_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the student holding textbooks for Mathematics and Science. What subjects does he have today?",
+            "en": "Look at the student holding textbooks for Mathematics and Science. What subjects does he have today?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the student holding textbooks for Mathematics and Science. What subjects does he have today?",
+            "en": "Look at the student holding textbooks for Mathematics and Science. What subjects does he have today?"
+          },
+          "hint": {
+            "vi": "Academic subjects shown on the desk.",
+            "en": "Academic subjects shown on the desk."
+          },
+          "explanation": {
+            "vi": "He has Maths and Science today.",
+            "en": "He has Maths and Science today."
+          },
+          "data": {
+            "options": [
+              "Maths and Science",
+              "Cooking and Fishing",
+              "Driving and Flying",
+              "Sleeping"
+            ],
+            "correct_answer": "Maths and Science"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u7_subjects_today.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s9_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'Maths'?",
+            "en": "What is the first letter of the word 'Maths'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'Maths'?",
+            "en": "What is the first letter of the word 'Maths'?"
+          },
+          "hint": {
+            "vi": "The word 'Maths' starts with the letter M.",
+            "en": "The word 'Maths' starts with the letter M."
+          },
+          "explanation": {
+            "vi": "Correct! 'Maths' begins with the letter 'M'.",
+            "en": "Correct! 'Maths' begins with the letter 'M'."
+          },
+          "data": {
+            "options": [
+              "Letter M",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter M"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Maths",
+                  "en": "Maths"
+                },
+                "right": {
+                  "vi": "Nghĩa của Maths",
+                  "en": "Nghĩa của Maths"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Science",
+                  "en": "Science"
+                },
+                "right": {
+                  "vi": "Nghĩa của Science",
+                  "en": "Nghĩa của Science"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "English",
+                  "en": "English"
+                },
+                "right": {
+                  "vi": "Nghĩa của English",
+                  "en": "Nghĩa của English"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? What subjects do you have today? - I have Maths and Science.",
+            "en": "Is this English sentence correct for Grade 4? What subjects do you have today? - I have Maths and Science."
+          },
+          "hint": {
+            "vi": "Remember the pattern: What subjects do you have today? - I have Maths and Science.",
+            "en": "Remember the pattern: What subjects do you have today? - I have Maths and Science."
+          },
+          "explanation": {
+            "vi": "Yes! 'What subjects do you have today? - I have Maths and Science.' is a correct English sentence.",
+            "en": "Yes! 'What subjects do you have today? - I have Maths and Science.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "What subjects do you have today? - I have Maths and Science.",
+              "en": "What subjects do you have today? - I have Maths and Science."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: What subjects do you have today? - I have Maths and ....",
+            "en": "Drag the correct word to complete the sentence: What subjects do you have today? - I have Maths and ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Science'.",
+            "en": "Choose the correct word: 'Science'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'What subjects do you have today? - I have Maths and Science.'.",
+            "en": "The complete sentence is: 'What subjects do you have today? - I have Maths and Science.'."
+          },
+          "data": {
+            "prefix_text": "What subjects do you have today? - I have Maths and ",
+            "suffix_text": ".",
+            "options": [
+              "Science",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Science"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'maths':",
+            "en": "Spell the English word 'maths':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'maths':",
+            "en": "Spell the English word 'maths':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'maths'.",
+            "en": "Tap the letters in order to spell 'maths'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'maths' correctly.",
+            "en": "Well done! You spelled 'maths' correctly."
+          },
+          "data": {
+            "letters": [
+              "s",
+              "h",
+              "t",
+              "a",
+              "m"
+            ],
+            "target_word": "maths",
+            "target_sequence": [
+              "m",
+              "a",
+              "t",
+              "h",
+              "s"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Hôm nay bạn có những môn học nào? - Tôi có môn Toán và Khoa học.' in English?",
+            "en": "How do you say 'Hôm nay bạn có những môn học nào? - Tôi có môn Toán và Khoa học.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Hôm nay bạn có những môn học nào? - Tôi có môn Toán và Khoa học.' in English?",
+            "en": "How do you say 'Hôm nay bạn có những môn học nào? - Tôi có môn Toán và Khoa học.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Hôm nay bạn có những môn học nào? - Tôi có môn Toán và Khoa học.",
+            "en": "Choose the English sentence that means: Hôm nay bạn có những môn học nào? - Tôi có môn Toán và Khoa học."
+          },
+          "explanation": {
+            "vi": "'What subjects do you have today? - I have Maths and Science.' means 'Hôm nay bạn có những môn học nào? - Tôi có môn Toán và Khoa học.'.",
+            "en": "'What subjects do you have today? - I have Maths and Science.' means 'Hôm nay bạn có những môn học nào? - Tôi có môn Toán và Khoa học.'."
+          },
+          "data": {
+            "options": [
+              "What subjects do you have today? - I have Maths and Science.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "What subjects do you have today? - I have Maths and Science."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 7: What Subjects Do You Have Today?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 7: What Subjects Do You Have Today?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 7: What Subjects Do You Have Today?'?",
+            "en": "Which of the following is a key word from Unit 'Unit 7: What Subjects Do You Have Today?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 7: What Subjects Do You Have Today?.",
+            "en": "Remember the words in topic: Unit 7: What Subjects Do You Have Today?."
+          },
+          "explanation": {
+            "vi": "'Maths' is a key vocabulary word in this topic.",
+            "en": "'Maths' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "Maths",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "Maths"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Science' start with the sound /m/?",
+            "en": "Does the word 'Science' start with the sound /m/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Science' start with the sound /m/? The word 'Science' starts with letter 'M'.",
+            "en": "Does the word 'Science' start with the sound /m/? The word 'Science' starts with letter 'M'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Science'.",
+            "en": "Listen to the first sound of 'Science'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Science' starts with the sound /m/.",
+            "en": "Yes! 'Science' starts with the sound /m/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Science' starts with letter 'M'.",
+              "en": "The word 'Science' starts with letter 'M'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'maths'?",
+            "en": "How many letters are there in the word 'maths'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'maths'?",
+            "en": "How many letters are there in the word 'maths'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'maths': 1, 2, 3...",
+            "en": "Count the letters in 'maths': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'maths' has exactly 5 letters.",
+            "en": "The word 'maths' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'maths':",
+            "en": "Choose the correct phrase with 'maths':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'maths':",
+            "en": "Choose the correct phrase with 'maths':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a maths'.",
+            "en": "Correct! We say 'a maths'."
+          },
+          "data": {
+            "options": [
+              "a maths",
+              "an maths",
+              "two maths",
+              "many maths"
+            ],
+            "correct_answer": "a maths"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'Maths'.",
+            "en": "Choose the word: 'Maths'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is Maths. It is wonderful!'",
+            "en": "We say: 'Look! This is Maths. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "Maths",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "Maths"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 7: What Subjects Do You Have Today?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 7: What Subjects Do You Have Today?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 7: What Subjects Do You Have Today?'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 7: What Subjects Do You Have Today?'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 7: What Subjects Do You Have Today?'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 7: What Subjects Do You Have Today?'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: Maths, Science!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: Maths, Science!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e4_s9_2",
+      "title": {
+        "vi": "Unit 7: IT, Art, and Music Classes",
+        "en": "Unit 7: IT, Art, and Music Classes"
+      },
+      "description": {
+        "vi": "When do you have IT? - I have it on Tuesdays and Thursdays",
+        "en": "When do you have IT? - I have it on Tuesdays and Thursdays"
+      },
+      "icon": "🎨",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e4_s9_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the colorful art classroom with paint easels and musical treble clef notes. Which creative subjects are they?",
+            "en": "Look at the colorful art classroom with paint easels and musical treble clef notes. Which creative subjects are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the colorful art classroom with paint easels and musical treble clef notes. Which creative subjects are they?",
+            "en": "Look at the colorful art classroom with paint easels and musical treble clef notes. Which creative subjects are they?"
+          },
+          "hint": {
+            "vi": "Subjects dealing with visual creativity and melodies.",
+            "en": "Subjects dealing with visual creativity and melodies."
+          },
+          "explanation": {
+            "vi": "They are Art and Music.",
+            "en": "They are Art and Music."
+          },
+          "data": {
+            "options": [
+              "Art and Music",
+              "Geography and History",
+              "Chemistry and Physics",
+              "Law and Economics"
+            ],
+            "correct_answer": "Art and Music"
+          },
+          "images": [
+            "assets/learn/english/images_4/eng4_u7_art_music.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e4_s9_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'IT'?",
+            "en": "What is the first letter of the word 'IT'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'IT'?",
+            "en": "What is the first letter of the word 'IT'?"
+          },
+          "hint": {
+            "vi": "The word 'IT' starts with the letter A.",
+            "en": "The word 'IT' starts with the letter A."
+          },
+          "explanation": {
+            "vi": "Correct! 'IT' begins with the letter 'A'.",
+            "en": "Correct! 'IT' begins with the letter 'A'."
+          },
+          "data": {
+            "options": [
+              "Letter A",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter A"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "IT",
+                  "en": "IT"
+                },
+                "right": {
+                  "vi": "Nghĩa của IT",
+                  "en": "Nghĩa của IT"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Art",
+                  "en": "Art"
+                },
+                "right": {
+                  "vi": "Nghĩa của Art",
+                  "en": "Nghĩa của Art"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Music",
+                  "en": "Music"
+                },
+                "right": {
+                  "vi": "Nghĩa của Music",
+                  "en": "Nghĩa của Music"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 4?",
+            "en": "Is this English sentence correct for Grade 4?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 4? I have Art on Mondays and Music on Fridays.",
+            "en": "Is this English sentence correct for Grade 4? I have Art on Mondays and Music on Fridays."
+          },
+          "hint": {
+            "vi": "Remember the pattern: I have Art on Mondays and Music on Fridays.",
+            "en": "Remember the pattern: I have Art on Mondays and Music on Fridays."
+          },
+          "explanation": {
+            "vi": "Yes! 'I have Art on Mondays and Music on Fridays.' is a correct English sentence.",
+            "en": "Yes! 'I have Art on Mondays and Music on Fridays.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "I have Art on Mondays and Music on Fridays.",
+              "en": "I have Art on Mondays and Music on Fridays."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: I have Art on Mondays and Music on ....",
+            "en": "Drag the correct word to complete the sentence: I have Art on Mondays and Music on ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Fridays'.",
+            "en": "Choose the correct word: 'Fridays'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'I have Art on Mondays and Music on Fridays.'.",
+            "en": "The complete sentence is: 'I have Art on Mondays and Music on Fridays.'."
+          },
+          "data": {
+            "prefix_text": "I have Art on Mondays and Music on ",
+            "suffix_text": ".",
+            "options": [
+              "Fridays",
+              "banana",
+              "helicopter"
+            ],
+            "slot_answer": "Fridays"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'it':",
+            "en": "Spell the English word 'it':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'it':",
+            "en": "Spell the English word 'it':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'it'.",
+            "en": "Tap the letters in order to spell 'it'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'it' correctly.",
+            "en": "Well done! You spelled 'it' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "i"
+            ],
+            "target_word": "it",
+            "target_sequence": [
+              "i",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tôi có môn Mỹ thuật vào Thứ Hai và môn Âm nhạc vào Thứ Sáu.' in English?",
+            "en": "How do you say 'Tôi có môn Mỹ thuật vào Thứ Hai và môn Âm nhạc vào Thứ Sáu.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tôi có môn Mỹ thuật vào Thứ Hai và môn Âm nhạc vào Thứ Sáu.' in English?",
+            "en": "How do you say 'Tôi có môn Mỹ thuật vào Thứ Hai và môn Âm nhạc vào Thứ Sáu.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tôi có môn Mỹ thuật vào Thứ Hai và môn Âm nhạc vào Thứ Sáu.",
+            "en": "Choose the English sentence that means: Tôi có môn Mỹ thuật vào Thứ Hai và môn Âm nhạc vào Thứ Sáu."
+          },
+          "explanation": {
+            "vi": "'I have Art on Mondays and Music on Fridays.' means 'Tôi có môn Mỹ thuật vào Thứ Hai và môn Âm nhạc vào Thứ Sáu.'.",
+            "en": "'I have Art on Mondays and Music on Fridays.' means 'Tôi có môn Mỹ thuật vào Thứ Hai và môn Âm nhạc vào Thứ Sáu.'."
+          },
+          "data": {
+            "options": [
+              "I have Art on Mondays and Music on Fridays.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "I have Art on Mondays and Music on Fridays."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a key word from Unit 'Unit 7: IT, Art, and Music Classes'?",
+            "en": "Which of the following is a key word from Unit 'Unit 7: IT, Art, and Music Classes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a key word from Unit 'Unit 7: IT, Art, and Music Classes'?",
+            "en": "Which of the following is a key word from Unit 'Unit 7: IT, Art, and Music Classes'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Unit 7: IT, Art, and Music Classes.",
+            "en": "Remember the words in topic: Unit 7: IT, Art, and Music Classes."
+          },
+          "explanation": {
+            "vi": "'IT' is a key vocabulary word in this topic.",
+            "en": "'IT' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "IT",
+              "dinosaur",
+              "submarine",
+              "watermelon"
+            ],
+            "correct_answer": "IT"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Art' start with the sound /a/?",
+            "en": "Does the word 'Art' start with the sound /a/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Art' start with the sound /a/? The word 'Art' starts with letter 'A'.",
+            "en": "Does the word 'Art' start with the sound /a/? The word 'Art' starts with letter 'A'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Art'.",
+            "en": "Listen to the first sound of 'Art'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Art' starts with the sound /a/.",
+            "en": "Yes! 'Art' starts with the sound /a/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Art' starts with letter 'A'.",
+              "en": "The word 'Art' starts with letter 'A'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'it'?",
+            "en": "How many letters are there in the word 'it'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'it'?",
+            "en": "How many letters are there in the word 'it'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'it': 1, 2, 3...",
+            "en": "Count the letters in 'it': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'it' has exactly 2 letters.",
+            "en": "The word 'it' has exactly 2 letters."
+          },
+          "data": {
+            "correct_number": "2",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'it':",
+            "en": "Choose the correct phrase with 'it':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'it':",
+            "en": "Choose the correct phrase with 'it':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an it'.",
+            "en": "Correct! We say 'an it'."
+          },
+          "data": {
+            "options": [
+              "an it",
+              "a it",
+              "two it",
+              "many it"
+            ],
+            "correct_answer": "an it"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Look! This is .... It is wonderful!",
+            "en": "Complete the friendly conversation: Look! This is .... It is wonderful!"
+          },
+          "hint": {
+            "vi": "Choose the word: 'IT'.",
+            "en": "Choose the word: 'IT'."
+          },
+          "explanation": {
+            "vi": "We say: 'Look! This is IT. It is wonderful!'",
+            "en": "We say: 'Look! This is IT. It is wonderful!'"
+          },
+          "data": {
+            "prefix_text": "Look! This is ",
+            "suffix_text": ". It is wonderful!",
+            "options": [
+              "IT",
+              "jumping",
+              "sleeping"
+            ],
+            "slot_answer": "IT"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "tts_prompt": {
+            "vi": "Match the related English words:",
+            "en": "Match the related English words:"
+          },
+          "hint": {
+            "vi": "Match the similar meaning words together.",
+            "en": "Match the similar meaning words together."
+          },
+          "explanation": {
+            "vi": "Great job matching the word pairs!",
+            "en": "Great job matching the word pairs!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "big",
+                  "en": "big"
+                },
+                "right": {
+                  "vi": "huge",
+                  "en": "huge"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "small",
+                  "en": "small"
+                },
+                "right": {
+                  "vi": "tiny",
+                  "en": "tiny"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "fast",
+                  "en": "fast"
+                },
+                "right": {
+                  "vi": "quick",
+                  "en": "quick"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "tts_prompt": {
+            "vi": "What is the polite way to ask for the time in English?",
+            "en": "What is the polite way to ask for the time in English?"
+          },
+          "hint": {
+            "vi": "We ask politely: 'What time is it, please?'",
+            "en": "We ask politely: 'What time is it, please?'"
+          },
+          "explanation": {
+            "vi": "Saying 'What time is it, please?' is correct and polite.",
+            "en": "Saying 'What time is it, please?' is correct and polite."
+          },
+          "data": {
+            "options": [
+              "What time is it, please?",
+              "Tell me the time now!",
+              "Look at my watch!",
+              "Be quiet!"
+            ],
+            "correct_answer": "What time is it, please?"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does practicing English conversation every day build great speaking confidence?",
+            "en": "Does practicing English conversation every day build great speaking confidence?"
+          },
+          "tts_prompt": {
+            "vi": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency.",
+            "en": "Does practicing English conversation every day build great speaking confidence? Daily practice improves vocabulary retention, pronunciation, and fluency."
+          },
+          "hint": {
+            "vi": "Think about regular English speaking practice.",
+            "en": "Think about regular English speaking practice."
+          },
+          "explanation": {
+            "vi": "Yes! Daily practice makes you a fluent English speaker.",
+            "en": "Yes! Daily practice makes you a fluent English speaker."
+          },
+          "data": {
+            "statement": {
+              "vi": "Daily practice improves vocabulary retention, pronunciation, and fluency.",
+              "en": "Daily practice improves vocabulary retention, pronunciation, and fluency."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e4_s9_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 7: IT, Art, and Music Classes'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 7: IT, Art, and Music Classes'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best summarizes the topic 'Unit 7: IT, Art, and Music Classes'?",
+            "en": "Which English sentence best summarizes the topic 'Unit 7: IT, Art, and Music Classes'?"
+          },
+          "hint": {
+            "vi": "Select the inspiring and encouraging sentence.",
+            "en": "Select the inspiring and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and grammar of 'Unit 7: IT, Art, and Music Classes'!",
+            "en": "Great job! You mastered the vocabulary and grammar of 'Unit 7: IT, Art, and Music Classes'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning Grade 4 English: IT, Art!",
+              "I do not want to study.",
+              "Turn off the TV.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I enjoy learning Grade 4 English: IT, Art!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

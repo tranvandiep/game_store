@@ -1,0 +1,1082 @@
+{
+  "id": "m1_stage_8",
+  "stage_number": 8,
+  "title": {
+    "vi": "Tuần 8: Phép Cộng Trong Phạm Vi 10 (2)",
+    "en": "Week 8: Addition within 10 (Part 2)"
+  },
+  "subtitle": {
+    "vi": "Bài 10 - Cộng trong phạm vi 8, 9, 10",
+    "en": "Lesson 10 - Addition within 8, 9, 10"
+  },
+  "icon": "🎯",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.754,
+  "required_stars": 21,
+  "theme_color": "0xFFEA580C",
+  "topics": [
+    {
+      "id": "m1_t8_1",
+      "title": {
+        "vi": "Phép cộng trong phạm vi 6, 7",
+        "en": "Addition within 6, 7"
+      },
+      "description": {
+        "vi": "Tính toán và tìm kết quả phép cộng đến 7",
+        "en": "Calculate addition up to 7"
+      },
+      "icon": "🎲",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m1_t8_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 4 + 3 = ?",
+            "en": "Calculate: 4 + 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 4 + 3 = ?",
+            "en": "Calculate: 4 + 3 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "4 + 3 = 7.",
+            "en": "4 + 3 = 7."
+          },
+          "data": {
+            "correct_number": "7",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_1_2",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the missing number:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền số thích hợp:",
+            "en": "Fill in the missing number:"
+          },
+          "hint": {
+            "vi": "Chạm vào thẻ số thích hợp để điền vào ô trống.",
+            "en": "Tap the correct number card to fill the slot."
+          },
+          "explanation": {
+            "vi": "5 + 1 = 6.",
+            "en": "5 + 1 = 6."
+          },
+          "data": {
+            "prefix_text": "5 + ",
+            "suffix_text": " = 6",
+            "options": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "slot_answer": "1"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_1_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Phép tính nào dưới đây có kết quả bằng 7?",
+            "en": "Which equation equals 7?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Phép tính nào dưới đây có kết quả bằng 7?",
+            "en": "Which equation equals 7?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "3 + 4 = 7.",
+            "en": "3 + 4 = 7."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "3 + 4",
+                "en": "3 + 4"
+              },
+              {
+                "vi": "2 + 4",
+                "en": "2 + 4"
+              },
+              {
+                "vi": "5 + 1",
+                "en": "5 + 1"
+              }
+            ],
+            "correct_answer": "3 + 4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_1_4",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 1,  ... , 3",
+            "en": "Drag the correct answer into the slot:\nDãy số: 1,  ... , 3"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 1,  ... , 3",
+            "en": "Drag the correct answer: Dãy số: 1,  ... , 3"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 1,  2 , 3",
+            "en": "Dãy số: 1,  2 , 3"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 1, ",
+            "suffix_text": ", 3",
+            "options": [
+              "2",
+              "1",
+              "5",
+              "4"
+            ],
+            "slot_answer": "2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_1_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Phép cộng trong phạm vi 6, 7': Phép tính nào dưới đây có kết quả bằng 7?",
+            "en": "Practice 'Addition within 6, 7': Which equation equals 7?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Phép tính nào dưới đây có kết quả bằng 7?",
+            "en": "Which equation equals 7?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "3 + 4 = 7.",
+            "en": "3 + 4 = 7."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "2 + 4",
+                "en": "2 + 4"
+              },
+              {
+                "vi": "5 + 1",
+                "en": "5 + 1"
+              },
+              {
+                "vi": "3 + 4",
+                "en": "3 + 4"
+              }
+            ],
+            "correct_answer": "3 + 4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_1_6",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 3,  ... , 5",
+            "en": "Drag the correct answer into the slot:\nDãy số: 3,  ... , 5"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 3,  ... , 5",
+            "en": "Drag the correct answer: Dãy số: 3,  ... , 5"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 3,  4 , 5",
+            "en": "Dãy số: 3,  4 , 5"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 3, ",
+            "suffix_text": ", 5",
+            "options": [
+              "7",
+              "6",
+              "4",
+              "3"
+            ],
+            "slot_answer": "4"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_1_7",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Bé hãy kéo đáp án đúng vào ô trống:\nDãy số: 4,  ... , 6",
+            "en": "Drag the correct answer into the slot:\nDãy số: 4,  ... , 6"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Kéo đáp án đúng vào ô trống: Dãy số: 4,  ... , 6",
+            "en": "Drag the correct answer: Dãy số: 4,  ... , 6"
+          },
+          "hint": {
+            "vi": "Quan sát quy luật của dãy số hoặc biểu thức.",
+            "en": "Observe the pattern."
+          },
+          "explanation": {
+            "vi": "Dãy số: 4,  5 , 6",
+            "en": "Dãy số: 4,  5 , 6"
+          },
+          "data": {
+            "prefix_text": "Dãy số: 4, ",
+            "suffix_text": ", 6",
+            "options": [
+              "8",
+              "7",
+              "4",
+              "5"
+            ],
+            "slot_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_1_8",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 20 đứng liền trước số 21.",
+            "en": "Is the statement TRUE or FALSE:: Number 20 comes before 21."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 20 đứng liền trước số 21.",
+              "en": "Number 20 comes before 21."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_1_9",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 7, 8, 9, 10.",
+            "en": "Ascending order: 7, 8, 9, 10."
+          },
+          "data": {
+            "items": [
+              "8",
+              "7",
+              "9",
+              "10"
+            ],
+            "correct_order": [
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t8_2",
+      "title": {
+        "vi": "Phép cộng trong phạm vi 8, 9, 10",
+        "en": "Addition within 8, 9, 10"
+      },
+      "description": {
+        "vi": "Tính nhẩm các phép cộng có tổng bằng 8, 9, 10",
+        "en": "Addition equations with sums 8, 9, 10"
+      },
+      "icon": "⭐",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m1_t8_2_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 5 + 5 = ?",
+            "en": "Calculate: 5 + 5 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 5 + 5 = ?",
+            "en": "Calculate: 5 + 5 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter the result."
+          },
+          "explanation": {
+            "vi": "5 + 5 = 10.",
+            "en": "5 + 5 = 10."
+          },
+          "data": {
+            "correct_number": "10",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_2_2",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp số có tổng bằng 10:",
+            "en": "Match pairs that add up to 10:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối các cặp số có tổng bằng 10:",
+            "en": "Match pairs that add up to 10:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Các cặp số bạn 10 rất quan trọng trong tính nhẩm nhanh.",
+            "en": "Pairs making 10 are key to fast mental math."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "6 + 4",
+                  "en": "6 + 4"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "7 + 3",
+                  "en": "7 + 3"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "8 + 2",
+                  "en": "8 + 2"
+                },
+                "right": {
+                  "vi": "10",
+                  "en": "10"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_2_3",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tính: 6 + 3 = ?",
+            "en": "Calculate: 6 + 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 6 + 3 = ?",
+            "en": "Calculate: 6 + 3 = ?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "6 + 3 = 9.",
+            "en": "6 + 3 = 9."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "8",
+                "en": "8"
+              },
+              {
+                "vi": "9",
+                "en": "9"
+              },
+              {
+                "vi": "10",
+                "en": "10"
+              }
+            ],
+            "correct_answer": "9"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 4 + 3 = ?",
+            "en": "Calculate: 4 + 3 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 4 + 3 = ?",
+            "en": "Calculate: 4 + 3 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 4 + 3.",
+            "en": "Calculate 4 + 3."
+          },
+          "explanation": {
+            "vi": "4 + 3 = 7",
+            "en": "4 + 3 = 7"
+          },
+          "data": {
+            "options": [
+              "9",
+              "6",
+              "7",
+              "8"
+            ],
+            "correct_answer": "7"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_2_5",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé hãy tính: 3 + 7 = ?",
+            "en": "Calculate: 3 + 7 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy tính: 3 + 7 = ?",
+            "en": "Calculate: 3 + 7 = ?"
+          },
+          "hint": {
+            "vi": "Thực hiện phép tính 3 + 7.",
+            "en": "Calculate 3 + 7."
+          },
+          "explanation": {
+            "vi": "3 + 7 = 10",
+            "en": "3 + 7 = 10"
+          },
+          "data": {
+            "options": [
+              "11",
+              "12",
+              "9",
+              "10"
+            ],
+            "correct_answer": "10"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_2_6",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Điền dấu so sánh thích hợp: 7 ... 8",
+            "en": "Choose the right sign: 7 ... 8"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Điền dấu so sánh thích hợp: 7 ... 8",
+            "en": "Choose the right sign: 7 ... 8"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "7 < 8 là chính xác.",
+            "en": "7 < 8 is correct."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": ">",
+                "en": ">"
+              },
+              {
+                "vi": "<",
+                "en": "<"
+              },
+              {
+                "vi": "=",
+                "en": "="
+              }
+            ],
+            "correct_answer": "<"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_2_7",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:: Số 14 đứng liền trước số 15.",
+            "en": "Is the statement TRUE or FALSE:: Number 14 comes before 15."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "Statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 14 đứng liền trước số 15.",
+              "en": "Number 14 comes before 15."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_2_8",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange numbers from SMALLEST to LARGEST:"
+          },
+          "hint": {
+            "vi": "Chạm các thẻ theo thứ tự yêu cầu.",
+            "en": "Tap cards in the requested order."
+          },
+          "explanation": {
+            "vi": "Thứ tự từ bé đến lớn là: 11, 12, 13, 14.",
+            "en": "Ascending order: 11, 12, 13, 14."
+          },
+          "data": {
+            "items": [
+              "11",
+              "12",
+              "14",
+              "13"
+            ],
+            "correct_order": [
+              "11",
+              "12",
+              "13",
+              "14"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Số 10 đứng liền trước số 11.",
+            "en": "Number 10 comes before 11."
+          },
+          "hint": {
+            "vi": "Nhớ lại thứ tự các số.",
+            "en": "Remember number order."
+          },
+          "explanation": {
+            "vi": "Số 10 đứng liền trước số 11 là ĐÚNG.",
+            "en": "10 comes before 11 is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 10 đứng liền trước số 11.",
+              "en": "Number 10 comes right before 11."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m1_t8_3",
+      "title": {
+        "vi": "Luyện tính nhẩm cộng nhanh",
+        "en": "Fast Mental Addition"
+      },
+      "description": {
+        "vi": "Rèn luyện phản xạ tính cộng tức thì",
+        "en": "Build rapid mental addition reflexes"
+      },
+      "icon": "⚡",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m1_t8_3_1",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Sắp xếp kết quả các phép tính từ bé đến lớn: 2+3, 4+4, 1+9",
+            "en": "Sort sums ascending: 2+3 (5), 4+4 (8), 1+9 (10)"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp kết quả các phép tính từ bé đến lớn: 2+3, 4+4, 1+9",
+            "en": "Sort sums ascending: 2+3 (5), 4+4 (8), 1+9 (10)"
+          },
+          "hint": {
+            "vi": "Chạm vào các thẻ theo đúng thứ tự.",
+            "en": "Tap the cards in the correct order."
+          },
+          "explanation": {
+            "vi": "2+3=5, 4+4=8, 1+9=10. Thứ tự: 5, 8, 10.",
+            "en": "Order: 5, 8, 10."
+          },
+          "data": {
+            "items": [
+              "5",
+              "8",
+              "10"
+            ],
+            "correct_order": [
+              "5",
+              "8",
+              "10"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_2",
+          "type": "listenAndPick",
+          "text": {
+            "vi": "Nghe và chọn kết quả của phép tính 'Bảy cộng hai':",
+            "en": "Listen and pick the result for 'Seven plus two':"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nghe và chọn kết quả của phép tính 'Bảy cộng hai':",
+            "en": "Listen and pick the result for 'Seven plus two':"
+          },
+          "hint": {
+            "vi": "Bấm loa nghe âm thanh rồi chọn đáp án.",
+            "en": "Listen to the audio and choose the matching answer."
+          },
+          "explanation": {
+            "vi": "7 + 2 = 9.",
+            "en": "7 + 2 = 9."
+          },
+          "data": {
+            "audio_text": {
+              "vi": "Chín",
+              "en": "Nine"
+            },
+            "options": [
+              "8",
+              "9",
+              "10"
+            ],
+            "correct_answer": "9"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: 2 + 6 = 8 và 6 + 2 = 8.",
+            "en": "Decide whether the following statement is true or false: 2 + 6 = 8 và 6 + 2 = 8."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Đúng! Phép cộng có tính chất giao hoán.",
+            "en": "True! Addition is commutative."
+          },
+          "data": {
+            "statement": {
+              "vi": "2 + 6 = 8 và 6 + 2 = 8.",
+              "en": "2 + 6 = 8 và 6 + 2 = 8."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_4",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 6, 7, 8, 9",
+            "en": "Correct order: 6, 7, 8, 9"
+          },
+          "data": {
+            "items": [
+              "8",
+              "9",
+              "6",
+              "7"
+            ],
+            "correct_order": [
+              "6",
+              "7",
+              "8",
+              "9"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_5",
+          "type": "listenAndPick",
+          "text": {
+            "vi": "Bé hãy lắng nghe và chọn đáp án tương ứng:\n\"Chín\"",
+            "en": "Listen and choose the corresponding answer:\n\"Number 9\""
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Chín",
+            "en": "Number 9"
+          },
+          "hint": {
+            "vi": "Lắng nghe thật kỹ phát âm.",
+            "en": "Listen carefully to the audio."
+          },
+          "explanation": {
+            "vi": "Đáp án chính xác là: 9",
+            "en": "The correct answer is: 9"
+          },
+          "data": {
+            "audio_prompt": "Chín",
+            "options": [
+              "10",
+              "8",
+              "9",
+              "11"
+            ],
+            "correct_answer": "9"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_6",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 8 đứng liền trước số 9.",
+            "en": "Decide whether the following statement is true or false: Số 8 đứng liền trước số 9."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là ĐÚNG.",
+            "en": "The statement is TRUE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 8 đứng liền trước số 9.",
+              "en": "Số 8 đứng liền trước số 9."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_7",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ LỚN đến BÉ:",
+            "en": "Arrange the numbers from LARGEST to SMALLEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ LỚN đến BÉ",
+            "en": "Arrange numbers from LARGEST to SMALLEST"
+          },
+          "hint": {
+            "vi": "Tìm số lớn nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 10, 7, 5, 4",
+            "en": "Correct order: 10, 7, 5, 4"
+          },
+          "data": {
+            "items": [
+              "4",
+              "5",
+              "10",
+              "7"
+            ],
+            "correct_order": [
+              "10",
+              "7",
+              "5",
+              "4"
+            ],
+            "direction": "descending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_8",
+          "type": "listenAndPick",
+          "text": {
+            "vi": "Bé hãy lắng nghe và chọn đáp án tương ứng:\n\"Năm\"",
+            "en": "Listen and choose the corresponding answer:\n\"Number 5\""
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Năm",
+            "en": "Number 5"
+          },
+          "hint": {
+            "vi": "Lắng nghe thật kỹ phát âm.",
+            "en": "Listen carefully to the audio."
+          },
+          "explanation": {
+            "vi": "Đáp án chính xác là: 5",
+            "en": "The correct answer is: 5"
+          },
+          "data": {
+            "audio_prompt": "Năm",
+            "options": [
+              "6",
+              "4",
+              "5",
+              "7"
+            ],
+            "correct_answer": "5"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Số 5 bé hơn số 4 (5 < 4).",
+            "en": "Decide whether the following statement is true or false: Số 5 bé hơn số 4 (5 < 4)."
+          },
+          "hint": {
+            "vi": "Quan sát thứ tự các số trong phạm vi bài học.",
+            "en": "Check number order."
+          },
+          "explanation": {
+            "vi": "Khẳng định trên là SAI.",
+            "en": "The statement is FALSE."
+          },
+          "data": {
+            "statement": {
+              "vi": "Số 5 bé hơn số 4 (5 < 4).",
+              "en": "Số 5 bé hơn số 4 (5 < 4)."
+            },
+            "is_correct": false
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_10",
+          "type": "sortOrder",
+          "text": {
+            "vi": "Bé hãy sắp xếp các số sau theo thứ tự từ BÉ đến LỚN:",
+            "en": "Arrange the numbers from SMALLEST to LARGEST:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Sắp xếp các số theo thứ tự từ BÉ đến LỚN",
+            "en": "Arrange numbers from SMALLEST to LARGEST"
+          },
+          "hint": {
+            "vi": "Tìm số bé nhất trước.",
+            "en": "Find the first number."
+          },
+          "explanation": {
+            "vi": "Thứ tự đúng là: 5, 6, 9, 10",
+            "en": "Correct order: 5, 6, 9, 10"
+          },
+          "data": {
+            "items": [
+              "6",
+              "9",
+              "10",
+              "5"
+            ],
+            "correct_order": [
+              "5",
+              "6",
+              "9",
+              "10"
+            ],
+            "direction": "ascending"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m1_t8_3_11",
+          "type": "listenAndPick",
+          "text": {
+            "vi": "Bé hãy lắng nghe và chọn đáp án tương ứng:\n\"Bốn\"",
+            "en": "Listen and choose the corresponding answer:\n\"Number 4\""
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bốn",
+            "en": "Number 4"
+          },
+          "hint": {
+            "vi": "Lắng nghe thật kỹ phát âm.",
+            "en": "Listen carefully to the audio."
+          },
+          "explanation": {
+            "vi": "Đáp án chính xác là: 4",
+            "en": "The correct answer is: 4"
+          },
+          "data": {
+            "audio_prompt": "Bốn",
+            "options": [
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "correct_answer": "4"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

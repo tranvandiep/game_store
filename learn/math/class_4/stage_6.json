@@ -1,0 +1,743 @@
+{
+  "id": "m4_stage_6",
+  "stage_number": 6,
+  "title": {
+    "vi": "Tuần 6: Phép Cộng, Trừ & Tính Chất Giao Hoán, Kết Hợp",
+    "en": "Week 6: Addition, Subtraction & Properties"
+  },
+  "subtitle": {
+    "vi": "Trang 38-46: Giao hoán & kết hợp của phép cộng, biểu thức 2-3 chữ",
+    "en": "Pages 38-46: Commutative & associative addition properties"
+  },
+  "icon": "➕",
+  "banner_image": null,
+  "x_percent": 0.5,
+  "y_percent": 0.81,
+  "required_stars": 15,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "m4_t6_1",
+      "title": {
+        "vi": "Phép cộng & Phép trừ số có nhiều chữ số",
+        "en": "Multi-Digit Addition & Subtraction"
+      },
+      "description": {
+        "vi": "Cộng trừ thẳng cột các số đến 6-7 chữ số",
+        "en": "Column arithmetic for numbers up to 6-7 digits"
+      },
+      "icon": "➕",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_m4_t6_1_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 345 678 + 213 210 = ?",
+            "en": "Calculate: 345,678 + 213,210 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 345 678 + 213 210 = ?",
+            "en": "Calculate: 345,678 + 213,210 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "345678 + 213210 = 558888.",
+            "en": "558,888."
+          },
+          "data": {
+            "correct_number": "558888",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_1_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính: 896 540 - 342 120 = ?",
+            "en": "Calculate: 896,540 - 342,120 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính: 896 540 - 342 120 = ?",
+            "en": "Calculate: 896,540 - 342,120 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "896540 - 342120 = 554420.",
+            "en": "554,420."
+          },
+          "data": {
+            "correct_number": "554420",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with sums/differences:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối phép tính với kết quả đúng:",
+            "en": "Match equations with sums/differences:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Tap the left card then tap the matching right card."
+          },
+          "explanation": {
+            "vi": "Cộng trừ số tròn trăm nghìn.",
+            "en": "Hundred-thousands arithmetic."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "500 000 + 400 000",
+                  "en": "500 000 + 400 000"
+                },
+                "right": {
+                  "vi": "900 000",
+                  "en": "900 000"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 000 000 - 300 000",
+                  "en": "1 000 000 - 300 000"
+                },
+                "right": {
+                  "vi": "700 000",
+                  "en": "700 000"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "450 000 + 250 000",
+                  "en": "450 000 + 250 000"
+                },
+                "right": {
+                  "vi": "700 000",
+                  "en": "700 000"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_1_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 11 và 13 là:",
+            "en": "Average of 11 and 13 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 11 và 13 là:",
+            "en": "Average of 11 and 13 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(11 + 13) : 2 = 12.",
+            "en": "Average is 12."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "12"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_1_11",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đơn vị đo với giá trị quy đổi tương đương:",
+            "en": "Match units with equivalent values:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đơn vị đo tương đương",
+            "en": "Match units"
+          },
+          "hint": {
+            "vi": "Quy đổi đơn vị cẩn thận.",
+            "en": "Convert units."
+          },
+          "explanation": {
+            "vi": "Quy đổi đại lượng chuẩn xác.",
+            "en": "Correct unit conversion."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1,000 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t6_2",
+      "title": {
+        "vi": "Tính chất Giao Hoán & Kết Hợp của phép cộng",
+        "en": "Commutative & Associative Properties of Addition"
+      },
+      "description": {
+        "vi": "a + b = b + a và (a + b) + c = a + (b + c)",
+        "en": "a + b = b + a and (a + b) + c = a + (b + c)"
+      },
+      "icon": "🔄",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_m4_t6_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Biểu thức biểu thị tính chất giao hoán của phép cộng là:",
+            "en": "Which expression shows commutative property of addition?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Biểu thức biểu thị tính chất giao hoán của phép cộng là:",
+            "en": "Which expression shows commutative property of addition?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Khi đổi chỗ các số hạng trong một tổng thì tổng không thay đổi (a + b = b + a).",
+            "en": "a + b = b + a."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "a + b = b + a",
+                "en": "a + b = b + a"
+              },
+              {
+                "vi": "a x b = b x a",
+                "en": "a x b = b x a"
+              },
+              {
+                "vi": "(a + b) + c = a + (b + c)",
+                "en": "(a + b) + c = a + (b + c)"
+              }
+            ],
+            "correct_answer": "a + b = b + a"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_2_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính nhanh bằng cách ghép cặp hợp lý: 125 + 378 + 75 = ?",
+            "en": "Compute efficiently: 125 + 378 + 75 = ?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính nhanh bằng cách ghép cặp hợp lý: 125 + 378 + 75 = ?",
+            "en": "Compute efficiently: 125 + 378 + 75 = ?"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "(125 + 75) + 378 = 200 + 378 = 578.",
+            "en": "(125+75)+378 = 578."
+          },
+          "data": {
+            "correct_number": "578",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_2_3",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Decide whether the following statement is TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là đúng hay sai: Ứng dụng tính nhanh.",
+            "en": "Decide whether the following statement is true or false: Ứng dụng tính nhanh."
+          },
+          "hint": {
+            "vi": "Xem nhận định trên là Đúng hay Sai.",
+            "en": "Decide whether the statement is True or False."
+          },
+          "explanation": {
+            "vi": "Đúng! Nhóm số tròn giúp tính nhẩm siêu tốc.",
+            "en": "True! Grouping speeds up mental math."
+          },
+          "data": {
+            "statement": {
+              "vi": "Ứng dụng tính nhanh.",
+              "en": "Ứng dụng tính nhanh."
+            },
+            "correct_answer": true,
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_2_4",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Luyện tập 'Tính chất Giao Hoán & Kết Hợp của phép cộng': Biểu thức biểu thị tính chất giao hoán của phép cộng là:",
+            "en": "Practice 'Commutative & Associative Properties of Addition': Which expression shows commutative property of addition?"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Biểu thức biểu thị tính chất giao hoán của phép cộng là:",
+            "en": "Which expression shows commutative property of addition?"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ câu hỏi và chọn đáp án chính xác nhất.",
+            "en": "Read carefully and pick the correct option."
+          },
+          "explanation": {
+            "vi": "Khi đổi chỗ các số hạng trong một tổng thì tổng không thay đổi (a + b = b + a).",
+            "en": "a + b = b + a."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "(a + b) + c = a + (b + c)",
+                "en": "(a + b) + c = a + (b + c)"
+              },
+              {
+                "vi": "a x b = b x a",
+                "en": "a x b = b x a"
+              },
+              {
+                "vi": "a + b = b + a",
+                "en": "a + b = b + a"
+              }
+            ],
+            "correct_answer": "a + b = b + a"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Làm tròn số 75897 đến hàng nghìn:",
+            "en": "Round 75897 to thousands:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Làm tròn số 75897 đến hàng nghìn:",
+            "en": "Round 75897 to thousands:"
+          },
+          "hint": {
+            "vi": "Bé hãy đọc kỹ và chọn đáp án chính xác nhé.",
+            "en": "Read carefully and choose the correct answer."
+          },
+          "explanation": {
+            "vi": "Làm tròn đúng quy tắc.",
+            "en": "Rounded correctly."
+          },
+          "data": {
+            "options": [
+              {
+                "vi": "75000",
+                "en": "75000"
+              },
+              {
+                "vi": "76000",
+                "en": "76000"
+              },
+              {
+                "vi": "74000",
+                "en": "74000"
+              }
+            ],
+            "correct_answer": "76000"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:",
+            "en": "Is the statement TRUE or FALSE:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Khẳng định sau ĐÚNG hay SAI:: Góc tù là góc lớn hơn góc vuông.",
+            "en": "Is the statement TRUE or FALSE:: An obtuse angle is greater than a right angle."
+          },
+          "hint": {
+            "vi": "Xem câu trên đúng hay sai bé nhé.",
+            "en": "Decide whether the statement is true or false."
+          },
+          "explanation": {
+            "vi": "Góc tù có số đo lớn hơn 90 độ.",
+            "en": "Obtuse angle > 90 degrees."
+          },
+          "data": {
+            "statement": {
+              "vi": "Góc tù là góc lớn hơn góc vuông.",
+              "en": "An obtuse angle is greater than a right angle."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_2_10",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Nối đại lượng với giá trị tương đương:",
+            "en": "Match quantity with equivalent value:"
+          },
+          "hint": {
+            "vi": "Chạm ô bên trái rồi chạm ô bên phải tương ứng.",
+            "en": "Tap left card then matching right card."
+          },
+          "explanation": {
+            "vi": "Nối chính xác.",
+            "en": "Matched correctly."
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "1 tạ",
+                  "en": "1 quintal"
+                },
+                "right": {
+                  "vi": "100 kg",
+                  "en": "100 kg"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "1 tấn",
+                  "en": "1 ton"
+                },
+                "right": {
+                  "vi": "1 000 kg",
+                  "en": "1000 kg"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "1 thế kỉ",
+                  "en": "1 century"
+                },
+                "right": {
+                  "vi": "100 năm",
+                  "en": "100 years"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_2_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 33 và 23 là:",
+            "en": "Average of 33 and 23 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 33 và 23 là:",
+            "en": "Average of 33 and 23 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(33 + 23) : 2 = 28.",
+            "en": "Average is 28."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "28"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "m4_t6_3",
+      "title": {
+        "vi": "Biểu thức có chứa hai chữ, ba chữ",
+        "en": "Expressions with 2 & 3 Variables"
+      },
+      "description": {
+        "vi": "Tính giá trị biểu thức a + b, a - b, a + b + c, a x b x c",
+        "en": "Evaluate a + b, a - b, a + b + c, a * b * c"
+      },
+      "icon": "🔤",
+      "thumbnail": null,
+      "order_index": 3,
+      "questions": [
+        {
+          "id": "q_m4_t6_3_1",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị của a + b + c với a = 20, b = 35, c = 45:",
+            "en": "Evaluate a + b + c with a = 20, b = 35, c = 45:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính giá trị của a + b + c với a = 20, b = 35, c = 45:",
+            "en": "Evaluate a + b + c with a = 20, b = 35, c = 45:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "20 + 35 + 45 = 100.",
+            "en": "20 + 35 + 45 = 100."
+          },
+          "data": {
+            "correct_number": "100",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_3_2",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Tính giá trị của a x b - c với a = 12, b = 5, c = 20:",
+            "en": "Evaluate a * b - c with a = 12, b = 5, c = 20:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Tính giá trị của a x b - c với a = 12, b = 5, c = 20:",
+            "en": "Evaluate a * b - c with a = 12, b = 5, c = 20:"
+          },
+          "hint": {
+            "vi": "Sử dụng bàn phím số để nhập kết quả.",
+            "en": "Use the numeric keypad to enter your answer."
+          },
+          "explanation": {
+            "vi": "12 x 5 - 20 = 60 - 20 = 40.",
+            "en": "12 * 5 - 20 = 40."
+          },
+          "data": {
+            "correct_number": "40",
+            "unit": ""
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_3_3",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép công thức tính chu vi tam giác 3 cạnh a, b, c: P = a + b + c",
+            "en": "Arrange triangle perimeter formula: P = a + b + c"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Ghép công thức tính chu vi tam giác 3 cạnh a, b, c: P = a + b + c",
+            "en": "Arrange triangle perimeter formula: P = a + b + c"
+          },
+          "hint": {
+            "vi": "Ghép các mảnh ghép theo thứ tự tạo thành phép tính hoàn chỉnh.",
+            "en": "Combine tiles in order to form the complete equation."
+          },
+          "explanation": {
+            "vi": "P = a + b + c.",
+            "en": "P = a + b + c."
+          },
+          "data": {
+            "target_word": "P = a + b + c",
+            "pool_tokens": [
+              "P",
+              "=",
+              "a",
+              "+",
+              "b",
+              "+",
+              "c"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_3_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa của bài: 'BIỂU'",
+            "en": "Arrange the letters to spell the keyword: 'BIỂU'"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Bé hãy ghép các chữ cái để tạo thành từ khóa BIỂU",
+            "en": "Arrange the letters to spell BIỂU"
+          },
+          "hint": {
+            "vi": "Chạm vào từng chữ cái theo thứ tự.",
+            "en": "Tap letters in order."
+          },
+          "explanation": {
+            "vi": "Từ khóa chính xác là: BIỂU",
+            "en": "The keyword is: BIỂU"
+          },
+          "data": {
+            "target_word": "BIỂU",
+            "scrambled_letters": [
+              "B",
+              "I",
+              "U",
+              "Ể"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 25 và 27 là:",
+            "en": "Average of 25 and 27 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 25 và 27 là:",
+            "en": "Average of 25 and 27 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(25 + 27) : 2 = 26.",
+            "en": "Average is 26."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "26"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_m4_t6_3_11",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Trung bình cộng của 35 và 35 là:",
+            "en": "Average of 35 and 35 is:"
+          },
+          "youtube_url": null,
+          "images": [],
+          "tts_prompt": {
+            "vi": "Trung bình cộng của 35 và 35 là:",
+            "en": "Average of 35 and 35 is:"
+          },
+          "hint": {
+            "vi": "Nhập chữ số thích hợp vào ô trống.",
+            "en": "Enter the number into the slot."
+          },
+          "explanation": {
+            "vi": "(35 + 35) : 2 = 35.",
+            "en": "Average is 35."
+          },
+          "data": {
+            "prefix_text": "Trung bình cộng là: ",
+            "suffix_text": "",
+            "correct_number": "35"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

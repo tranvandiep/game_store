@@ -1,0 +1,1132 @@
+{
+  "id": "v2_stage_32",
+  "stage_number": 32,
+  "title": {
+    "vi": "Tuần 32: Đại Ôn Tập & Tốt Nghiệp Lớp 2",
+    "en": "Tuần 32: Đại Ôn Tập & Tốt Nghiệp Lớp 2"
+  },
+  "subtitle": {
+    "vi": "Đại tổng kết kiến thức Tiếng Việt 2 - Tự tin vững bước lên Lớp 3",
+    "en": "Đại tổng kết kiến thức Tiếng Việt 2 - Tự tin vững bước lên Lớp 3"
+  },
+  "icon": "🎓",
+  "banner_image": null,
+  "x_percent": 0.8,
+  "y_percent": 0.05,
+  "required_stars": 93,
+  "theme_color": "0xFFD97706",
+  "topics": [
+    {
+      "id": "v2_t32_1",
+      "title": {
+        "vi": "Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu",
+        "en": "Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu"
+      },
+      "description": {
+        "vi": "Bức tranh muôn loài muôn thú sum vầy vui tươi",
+        "en": "Bức tranh muôn loài muôn thú sum vầy vui tươi"
+      },
+      "icon": "🦁",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v2_t32_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Lễ hội vui tươi nào của muôn loài chim thú quây quần nhảy múa trong tranh?",
+            "en": "Lễ hội vui tươi nào của muôn loài chim thú quây quần nhảy múa trong tranh?"
+          },
+          "tts_prompt": {
+            "vi": "Lễ hội vui tươi nào của muôn loài chim thú quây quần nhảy múa trong tranh?",
+            "en": "Lễ hội vui tươi nào của muôn loài chim thú quây quần nhảy múa trong tranh?"
+          },
+          "hint": {
+            "vi": "Voi, khỉ, chim hót, sóc và hươu cùng múa hát rộn rã.",
+            "en": "Voi, khỉ, chim hót, sóc và hươu cùng múa hát rộn rã."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài thơ: 'Ngày hội rừng xanh'.",
+            "en": "Bức tranh minh hoạ bài thơ: 'Ngày hội rừng xanh'."
+          },
+          "data": {
+            "options": [
+              "ngày hội rừng xanh",
+              "hội chợ đồ cũ",
+              "cuộc họp khẩn cấp",
+              "giờ ngủ đông"
+            ],
+            "correct_answer": "ngày hội rừng xanh"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_ngay_hoi_rung_xanh.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'ngày hội'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'ngày hội'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'ngày hội'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'ngày hội'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'ngày hội' và 'rừng xanh' cùng thuộc chủ điểm bài học.",
+            "en": "'ngày hội' và 'rừng xanh' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "rừng xanh",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "rừng xanh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "ngày hội",
+                  "en": "ngày hội"
+                },
+                "right": {
+                  "vi": "Nghĩa của ngày hội",
+                  "en": "Nghĩa của ngày hội"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "rừng xanh",
+                  "en": "rừng xanh"
+                },
+                "right": {
+                  "vi": "Nghĩa của rừng xanh",
+                  "en": "Nghĩa của rừng xanh"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "muôn loài",
+                  "en": "muôn loài"
+                },
+                "right": {
+                  "vi": "Nghĩa của muôn loài",
+                  "en": "Nghĩa của muôn loài"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'ngày hội' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'ngày hội' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'ngày hội' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'ngày hội' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'ngày hội' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'ngày hội' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'ngày hội'.",
+            "en": "Từ chính xác là 'ngày hội'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "ngày hội",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "ngày hội"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'ngàyhội':",
+            "en": "Ghép các chữ cái để tạo thành từ 'ngàyhội':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'ngàyhội':",
+            "en": "Ghép các chữ cái để tạo thành từ 'ngàyhội':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'ngàyhội'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'ngàyhội'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'ngàyhội'.",
+            "en": "Ghép các chữ cái tạo thành 'ngàyhội'."
+          },
+          "data": {
+            "letters": [
+              "i",
+              "ộ",
+              "h",
+              "y",
+              "à",
+              "g",
+              "n"
+            ],
+            "target_word": "ngàyhội",
+            "target_sequence": [
+              "n",
+              "g",
+              "à",
+              "y",
+              "h",
+              "ộ",
+              "i"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'ngày hội' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'ngày hội' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'ngày hội' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'ngày hội' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'ngày hội'.",
+            "en": "Xác định bản chất của từ 'ngày hội'."
+          },
+          "explanation": {
+            "vi": "'ngày hội' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'ngày hội' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu'.",
+            "en": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Đoàn kết, vui tươi và yêu thương thiên nhiên xung quanh.",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Đoàn kết, vui tươi và yêu thương thiên nhiên xung quanh."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Đoàn kết, vui tươi và yêu thương thiên nhiên xung quanh.",
+            "en": "Đúng! Đoàn kết, vui tươi và yêu thương thiên nhiên xung quanh."
+          },
+          "data": {
+            "statement": {
+              "vi": "Đoàn kết, vui tươi và yêu thương thiên nhiên xung quanh.",
+              "en": "Đoàn kết, vui tươi và yêu thương thiên nhiên xung quanh."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới..",
+            "en": "Đếm từng tiếng trong câu: Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.."
+          },
+          "explanation": {
+            "vi": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' có đúng 16 tiếng.",
+            "en": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' có đúng 16 tiếng."
+          },
+          "data": {
+            "correct_number": "16",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' Rừng ... mở hội muôn loài chim thú cùng nhau ca hát mừng năm học mới.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.' Rừng ... mở hội muôn loài chim thú cùng nhau ca hát mừng năm học mới."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới..",
+            "en": "Nhớ lại câu mẫu trong bài học: Rừng xanh mở hội, muôn loài chim thú cùng nhau ca hát mừng năm học mới.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'xanh'.",
+            "en": "Từ chính xác là 'xanh'."
+          },
+          "data": {
+            "prefix_text": "Rừng ",
+            "suffix_text": " mở hội muôn loài chim thú cùng nhau ca hát mừng năm học mới.",
+            "options": [
+              "xanh",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "xanh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'ngày hội' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'ngày hội' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'ngày hội' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'ngày hội' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý ngày hội.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý ngày hội.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý ngày hội.",
+              "ngày hội đang bay trên trời cao.",
+              "ngày hội nở hoa rực rỡ.",
+              "ngày hội có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý ngày hội."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Tập đọc: Ngày hội rừng xanh & Ôn tập đọc hiểu', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương ngày hội",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương ngày hội"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v2_t32_2",
+      "title": {
+        "vi": "Đại tổng kết năng lực Tiếng Việt Lớp 2",
+        "en": "Đại tổng kết năng lực Tiếng Việt Lớp 2"
+      },
+      "description": {
+        "vi": "Tự hào hoàn thành Lớp 2 - Sẵn sàng vững bước vào Lớp 3",
+        "en": "Tự hào hoàn thành Lớp 2 - Sẵn sàng vững bước vào Lớp 3"
+      },
+      "icon": "🌟",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v2_t32_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Hoàn thành xuất sắc 32 chặng học Tiếng Việt lớp 2, các bé hân hoan vững bước bước vào khối lớp mấy?",
+            "en": "Hoàn thành xuất sắc 32 chặng học Tiếng Việt lớp 2, các bé hân hoan vững bước bước vào khối lớp mấy?"
+          },
+          "tts_prompt": {
+            "vi": "Hoàn thành xuất sắc 32 chặng học Tiếng Việt lớp 2, các bé hân hoan vững bước bước vào khối lớp mấy?",
+            "en": "Hoàn thành xuất sắc 32 chặng học Tiếng Việt lớp 2, các bé hân hoan vững bước bước vào khối lớp mấy?"
+          },
+          "hint": {
+            "vi": "Bé đã đọc thông viết thạo, biết viết đoạn văn hay và sẵn sàng lên Lớp 3.",
+            "en": "Bé đã đọc thông viết thạo, biết viết đoạn văn hay và sẵn sàng lên Lớp 3."
+          },
+          "explanation": {
+            "vi": "Chúc mừng bé đã xuất sắc hoàn thành Lớp 2 và tự tin bước vào Lớp 3!",
+            "en": "Chúc mừng bé đã xuất sắc hoàn thành Lớp 2 và tự tin bước vào Lớp 3!"
+          },
+          "data": {
+            "options": [
+              "vững bước lên Lớp 3",
+              "lên Lớp 4",
+              "lên Lớp 5",
+              "quay lại Lớp 1"
+            ],
+            "correct_answer": "vững bước lên Lớp 3"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_2/tv2_tu_hao_len_lop_3.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'tự hào'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'tự hào'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'tự hào'?",
+            "en": "Từ ngữ nào dưới đây đồng nghĩa hoặc cùng chủ điểm với từ 'tự hào'?"
+          },
+          "hint": {
+            "vi": "Tìm từ cùng nhóm nghĩa trong bài học.",
+            "en": "Tìm từ cùng nhóm nghĩa trong bài học."
+          },
+          "explanation": {
+            "vi": "'tự hào' và 'hoàn thành' cùng thuộc chủ điểm bài học.",
+            "en": "'tự hào' và 'hoàn thành' cùng thuộc chủ điểm bài học."
+          },
+          "data": {
+            "options": [
+              "hoàn thành",
+              "bầu trời",
+              "dòng sông",
+              "mặt biển"
+            ],
+            "correct_answer": "hoàn thành"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "tự hào",
+                  "en": "tự hào"
+                },
+                "right": {
+                  "vi": "Nghĩa của tự hào",
+                  "en": "Nghĩa của tự hào"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "hoàn thành",
+                  "en": "hoàn thành"
+                },
+                "right": {
+                  "vi": "Nghĩa của hoàn thành",
+                  "en": "Nghĩa của hoàn thành"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "lớp 2",
+                  "en": "lớp 2"
+                },
+                "right": {
+                  "vi": "Nghĩa của lớp 2",
+                  "en": "Nghĩa của lớp 2"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'tự hào' là thông điệp chính trong bài học.",
+            "en": "Bé hãy xem nhận định sau về bài học là ĐÚNG hay SAI: Nội dung liên quan đến 'tự hào' là thông điệp chính trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại bài tập đọc và bài học vừa học.",
+            "en": "Nhớ lại bài tập đọc và bài học vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'tự hào' là chi tiết quan trọng trong bài.",
+            "en": "Đúng! 'tự hào' là chi tiết quan trọng trong bài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Nội dung liên quan đến 'tự hào' là thông điệp chính trong bài học.",
+              "en": "Nội dung liên quan đến 'tự hào' là thông điệp chính trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ tích cực xuất hiện trong bài.",
+            "en": "Chọn từ ngữ tích cực xuất hiện trong bài."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'tự hào'.",
+            "en": "Từ chính xác là 'tự hào'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ rất: ",
+            "suffix_text": ".",
+            "options": [
+              "tự hào",
+              "lười biếng",
+              "bừa bãi"
+            ],
+            "slot_answer": "tự hào"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'tựhào':",
+            "en": "Ghép các chữ cái để tạo thành từ 'tựhào':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'tựhào':",
+            "en": "Ghép các chữ cái để tạo thành từ 'tựhào':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'tựhào'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'tựhào'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'tựhào'.",
+            "en": "Ghép các chữ cái tạo thành 'tựhào'."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "à",
+              "h",
+              "ự",
+              "t"
+            ],
+            "target_word": "tựhào",
+            "target_sequence": [
+              "t",
+              "ự",
+              "h",
+              "à",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ 'tự hào' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'tự hào' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "tts_prompt": {
+            "vi": "Từ 'tự hào' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?",
+            "en": "Từ 'tự hào' thuộc nhóm từ chỉ sự vật, hoạt động hay đặc điểm?"
+          },
+          "hint": {
+            "vi": "Xác định bản chất của từ 'tự hào'.",
+            "en": "Xác định bản chất của từ 'tự hào'."
+          },
+          "explanation": {
+            "vi": "'tự hào' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi.",
+            "en": "'tự hào' là từ ngữ chỉ sự vật, con người hoặc khái niệm gần gũi."
+          },
+          "data": {
+            "options": [
+              "Từ ngữ chỉ sự vật / con người",
+              "Từ chỉ màu sắc",
+              "Từ chỉ số lượng",
+              "Từ chỉ thời tiết"
+            ],
+            "correct_answer": "Từ ngữ chỉ sự vật / con người"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bé đang học.",
+            "en": "Nhớ lại tên chủ đề bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' nằm trong bài đọc thuộc chủ đề 'Đại tổng kết năng lực Tiếng Việt Lớp 2'.",
+            "en": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' nằm trong bài đọc thuộc chủ đề 'Đại tổng kết năng lực Tiếng Việt Lớp 2'."
+          },
+          "data": {
+            "options": [
+              "Đại tổng kết năng lực Tiếng Việt Lớp 2",
+              "Toán học 2",
+              "Tiếng Anh 2",
+              "Khoa học tự nhiên"
+            ],
+            "correct_answer": "Đại tổng kết năng lực Tiếng Việt Lớp 2"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Chúc mừng các bé đã hoàn thành năm học và tự tin bước vào Lớp 3!",
+            "en": "Bé hãy xem quy tắc chính tả sau là ĐÚNG hay SAI: Chúc mừng các bé đã hoàn thành năm học và tự tin bước vào Lớp 3!"
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2.",
+            "en": "Nhớ lại quy tắc viết hoa và dấu câu Tiếng Việt lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Chúc mừng các bé đã hoàn thành năm học và tự tin bước vào Lớp 3!",
+            "en": "Đúng! Chúc mừng các bé đã hoàn thành năm học và tự tin bước vào Lớp 3!"
+          },
+          "data": {
+            "statement": {
+              "vi": "Chúc mừng các bé đã hoàn thành năm học và tự tin bước vào Lớp 3!",
+              "en": "Chúc mừng các bé đã hoàn thành năm học và tự tin bước vào Lớp 3!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2..",
+            "en": "Đếm từng tiếng trong câu: Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.."
+          },
+          "explanation": {
+            "vi": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' có đúng 14 tiếng.",
+            "en": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' có đúng 14 tiếng."
+          },
+          "data": {
+            "correct_number": "14",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?",
+            "en": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' thuộc kiểu câu kể nào thường gặp ở Lớp 2?"
+          },
+          "hint": {
+            "vi": "Phân tích cấu trúc ngữ pháp của câu.",
+            "en": "Phân tích cấu trúc ngữ pháp của câu."
+          },
+          "explanation": {
+            "vi": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' có cấu trúc giới thiệu rõ ràng.",
+            "en": "Câu 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' có cấu trúc giới thiệu rõ ràng."
+          },
+          "data": {
+            "options": [
+              "Câu giới thiệu / nhận định (Ai là gì?)",
+              "Câu cầu khiến",
+              "Câu cảm thán",
+              "Câu phủ định"
+            ],
+            "correct_answer": "Câu giới thiệu / nhận định (Ai là gì?)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' Chúng ... tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.' Chúng ... tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu trong bài học: Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2..",
+            "en": "Nhớ lại câu mẫu trong bài học: Chúng em tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'em'.",
+            "en": "Từ chính xác là 'em'."
+          },
+          "data": {
+            "prefix_text": "Chúng ",
+            "suffix_text": " tự hào hoàn thành xuất sắc chương trình Tiếng Việt lớp 2.",
+            "options": [
+              "em",
+              "chạy trốn",
+              "ngủ quên"
+            ],
+            "slot_answer": "em"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:",
+            "en": "Nối các cặp từ trái nghĩa quen thuộc trong Tiếng Việt 2:"
+          },
+          "hint": {
+            "vi": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải.",
+            "en": "Chạm vào từ bên trái rồi chọn từ trái nghĩa tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các cặp từ trái nghĩa rất chuẩn xác!",
+            "en": "Ghép các cặp từ trái nghĩa rất chuẩn xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm chỉ",
+                  "en": "Chăm chỉ"
+                },
+                "right": {
+                  "vi": "Lười biếng",
+                  "en": "Lười biếng"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Gọn gàng",
+                  "en": "Gọn gàng"
+                },
+                "right": {
+                  "vi": "Bừa bãi",
+                  "en": "Bừa bãi"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Vui vẻ",
+                  "en": "Vui vẻ"
+                },
+                "right": {
+                  "vi": "Buồn bã",
+                  "en": "Buồn bã"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu nào dưới đây sử dụng từ 'tự hào' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'tự hào' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Câu nào dưới đây sử dụng từ 'tự hào' đúng ngữ pháp và giàu ý nghĩa nhất?",
+            "en": "Câu nào dưới đây sử dụng từ 'tự hào' đúng ngữ pháp và giàu ý nghĩa nhất?"
+          },
+          "hint": {
+            "vi": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh.",
+            "en": "Chọn câu văn diễn đạt tự nhiên và phù hợp ngữ cảnh."
+          },
+          "explanation": {
+            "vi": "Câu 'Em rất yêu quý tự hào.' là câu văn đúng ngữ pháp và hay nhất.",
+            "en": "Câu 'Em rất yêu quý tự hào.' là câu văn đúng ngữ pháp và hay nhất."
+          },
+          "data": {
+            "options": [
+              "Em rất yêu quý tự hào.",
+              "tự hào đang bay trên trời cao.",
+              "tự hào nở hoa rực rỡ.",
+              "tự hào có vị cay nồng."
+            ],
+            "correct_answer": "Em rất yêu quý tự hào."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc sử dụng dấu câu lớp 2.",
+            "en": "Nhớ lại quy tắc sử dụng dấu câu lớp 2."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc.",
+            "en": "Đúng! Dấu chấm hỏi dùng cho câu hỏi, dấu chấm than dùng cho câu cảm xúc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!).",
+              "en": "Cuối câu hỏi bắt buộc phải dùng dấu chấm hỏi (?), cuối câu bộc lộ cảm xúc dùng dấu chấm than (!)."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v2_t32_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Đại tổng kết năng lực Tiếng Việt Lớp 2', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Đại tổng kết năng lực Tiếng Việt Lớp 2', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Đại tổng kết năng lực Tiếng Việt Lớp 2', bé học được đức tính hoặc bài học quý báu nào?",
+            "en": "Qua bài học 'Đại tổng kết năng lực Tiếng Việt Lớp 2', bé học được đức tính hoặc bài học quý báu nào?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và kỹ năng sống tích cực.",
+            "en": "Chọn bài học đạo đức và kỹ năng sống tích cực."
+          },
+          "explanation": {
+            "vi": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người.",
+            "en": "Bài học giáo dục chúng ta luôn chăm chỉ, tự giác và yêu thương mọi người."
+          },
+          "data": {
+            "options": [
+              "Luôn chăm chỉ và biết yêu thương tự hào",
+              "Ham chơi điện tử",
+              "Nói to trong lớp",
+              "Không làm bài tập"
+            ],
+            "correct_answer": "Luôn chăm chỉ và biết yêu thương tự hào"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1120 @@
+{
+  "id": "e1_stage_18",
+  "stage_number": 18,
+  "title": {
+    "vi": "Week 18: Counting 1 to 10 & Shopping",
+    "en": "Week 18: Counting 1 to 10 & Shopping"
+  },
+  "subtitle": {
+    "vi": "Numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+    "en": "Numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"
+  },
+  "icon": "🔢",
+  "banner_image": null,
+  "x_percent": 0.65,
+  "y_percent": 0.456,
+  "required_stars": 51,
+  "theme_color": "0xFF2563EB",
+  "topics": [
+    {
+      "id": "e1_s18_1",
+      "title": {
+        "vi": "Counting Numbers: 1 to 9",
+        "en": "Counting Numbers: 1 to 9"
+      },
+      "description": {
+        "vi": "Fun with number blocks in the shop",
+        "en": "Fun with number blocks in the shop"
+      },
+      "icon": "9️⃣",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s18_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the colorful number block with the digit '9'. Which number is it?",
+            "en": "Look at the colorful number block with the digit '9'. Which number is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the colorful number block with the digit '9'. Which number is it?",
+            "en": "Look at the colorful number block with the digit '9'. Which number is it?"
+          },
+          "hint": {
+            "vi": "It comes right after eight.",
+            "en": "It comes right after eight."
+          },
+          "explanation": {
+            "vi": "It is the number nine (9).",
+            "en": "It is the number nine (9)."
+          },
+          "data": {
+            "options": [
+              "number nine (9)",
+              "number two (2)",
+              "number zero (0)",
+              "number one (1)"
+            ],
+            "correct_answer": "number nine (9)"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u9_numbers.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s18_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'one'?",
+            "en": "What is the first letter of the word 'one'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'one'?",
+            "en": "What is the first letter of the word 'one'?"
+          },
+          "hint": {
+            "vi": "The word 'one' starts with the letter N.",
+            "en": "The word 'one' starts with the letter N."
+          },
+          "explanation": {
+            "vi": "Correct! 'one' begins with the letter 'N'.",
+            "en": "Correct! 'one' begins with the letter 'N'."
+          },
+          "data": {
+            "options": [
+              "Letter N",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter N"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "one",
+                  "en": "one"
+                },
+                "right": {
+                  "vi": "Nghĩa của one",
+                  "en": "Nghĩa của one"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "five",
+                  "en": "five"
+                },
+                "right": {
+                  "vi": "Nghĩa của five",
+                  "en": "Nghĩa của five"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "nine",
+                  "en": "nine"
+                },
+                "right": {
+                  "vi": "Nghĩa của nine",
+                  "en": "Nghĩa của nine"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? Count: seven, eight, nine!",
+            "en": "Is this English sentence correct for Grade 1? Count: seven, eight, nine!"
+          },
+          "hint": {
+            "vi": "Remember the pattern: Count: seven, eight, nine!",
+            "en": "Remember the pattern: Count: seven, eight, nine!"
+          },
+          "explanation": {
+            "vi": "Yes! 'Count: seven, eight, nine!' is a correct English sentence.",
+            "en": "Yes! 'Count: seven, eight, nine!' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Count: seven, eight, nine!",
+              "en": "Count: seven, eight, nine!"
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Count: seven, eight, ....",
+            "en": "Drag the correct word to complete the sentence: Count: seven, eight, ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'nine!'.",
+            "en": "Choose the correct word: 'nine!'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Count: seven, eight, nine!.'.",
+            "en": "The complete sentence is: 'Count: seven, eight, nine!.'."
+          },
+          "data": {
+            "prefix_text": "Count: seven, eight, ",
+            "suffix_text": ".",
+            "options": [
+              "nine!",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "nine!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'one':",
+            "en": "Spell the English word 'one':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'one':",
+            "en": "Spell the English word 'one':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'one'.",
+            "en": "Tap the letters in order to spell 'one'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'one' correctly.",
+            "en": "Well done! You spelled 'one' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "n",
+              "o"
+            ],
+            "target_word": "one",
+            "target_sequence": [
+              "o",
+              "n",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Đếm nào: bảy, tám, chín!' in English?",
+            "en": "How do you say 'Đếm nào: bảy, tám, chín!' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Đếm nào: bảy, tám, chín!' in English?",
+            "en": "How do you say 'Đếm nào: bảy, tám, chín!' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Đếm nào: bảy, tám, chín!",
+            "en": "Choose the English sentence that means: Đếm nào: bảy, tám, chín!"
+          },
+          "explanation": {
+            "vi": "'Count: seven, eight, nine!' means 'Đếm nào: bảy, tám, chín!'.",
+            "en": "'Count: seven, eight, nine!' means 'Đếm nào: bảy, tám, chín!'."
+          },
+          "data": {
+            "options": [
+              "Count: seven, eight, nine!",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Count: seven, eight, nine!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Counting Numbers: 1 to 9'?",
+            "en": "Which of the following is a word from Unit 'Counting Numbers: 1 to 9'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Counting Numbers: 1 to 9'?",
+            "en": "Which of the following is a word from Unit 'Counting Numbers: 1 to 9'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Counting Numbers: 1 to 9.",
+            "en": "Remember the words in topic: Counting Numbers: 1 to 9."
+          },
+          "explanation": {
+            "vi": "'one' is a key vocabulary word in this topic.",
+            "en": "'one' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "one",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "one"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'five' start with the sound /n/?",
+            "en": "Does the word 'five' start with the sound /n/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'five' start with the sound /n/? The word 'five' starts with letter 'N'.",
+            "en": "Does the word 'five' start with the sound /n/? The word 'five' starts with letter 'N'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'five'.",
+            "en": "Listen to the first sound of 'five'."
+          },
+          "explanation": {
+            "vi": "Yes! 'five' starts with the sound /n/.",
+            "en": "Yes! 'five' starts with the sound /n/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'five' starts with letter 'N'.",
+              "en": "The word 'five' starts with letter 'N'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'one'?",
+            "en": "How many letters are there in the word 'one'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'one'?",
+            "en": "How many letters are there in the word 'one'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'one': 1, 2, 3...",
+            "en": "Count the letters in 'one': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'one' has exactly 3 letters.",
+            "en": "The word 'one' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'one':",
+            "en": "Choose the correct article before 'one':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'one':",
+            "en": "Choose the correct article before 'one':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'an one'.",
+            "en": "Correct! We say 'an one'."
+          },
+          "data": {
+            "options": [
+              "an one",
+              "a one",
+              "two one",
+              "many one"
+            ],
+            "correct_answer": "an one"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "N",
+                  "en": "N"
+                },
+                "right": {
+                  "vi": "n",
+                  "en": "n"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Counting Numbers: 1 to 9'?",
+            "en": "Which English sentence best describes the topic 'Counting Numbers: 1 to 9'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Counting Numbers: 1 to 9'?",
+            "en": "Which English sentence best describes the topic 'Counting Numbers: 1 to 9'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Counting Numbers: 1 to 9'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Counting Numbers: 1 to 9'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: one, five!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: one, five!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s18_2",
+      "title": {
+        "vi": "Buying Crunchy Nuts",
+        "en": "Buying Crunchy Nuts"
+      },
+      "description": {
+        "vi": "Snacking on healthy nuts with friends",
+        "en": "Snacking on healthy nuts with friends"
+      },
+      "icon": "🌰",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s18_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the little brown nuts in the bowl. What snack is it?",
+            "en": "Look at the little brown nuts in the bowl. What snack is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the little brown nuts in the bowl. What snack is it?",
+            "en": "Look at the little brown nuts in the bowl. What snack is it?"
+          },
+          "hint": {
+            "vi": "Hard-shelled seeds like peanuts and walnuts.",
+            "en": "Hard-shelled seeds like peanuts and walnuts."
+          },
+          "explanation": {
+            "vi": "They are healthy and crunchy nuts.",
+            "en": "They are healthy and crunchy nuts."
+          },
+          "data": {
+            "options": [
+              "healthy crunchy nuts",
+              "frozen ice cubes",
+              "cotton balls",
+              "soap bubbles"
+            ],
+            "correct_answer": "healthy crunchy nuts"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_u9_eating_nuts.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e1_s18_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'nut'?",
+            "en": "What is the first letter of the word 'nut'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'nut'?",
+            "en": "What is the first letter of the word 'nut'?"
+          },
+          "hint": {
+            "vi": "The word 'nut' starts with the letter N.",
+            "en": "The word 'nut' starts with the letter N."
+          },
+          "explanation": {
+            "vi": "Correct! 'nut' begins with the letter 'N'.",
+            "en": "Correct! 'nut' begins with the letter 'N'."
+          },
+          "data": {
+            "options": [
+              "Letter N",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter N"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "nut",
+                  "en": "nut"
+                },
+                "right": {
+                  "vi": "Nghĩa của nut",
+                  "en": "Nghĩa của nut"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "snack",
+                  "en": "snack"
+                },
+                "right": {
+                  "vi": "Nghĩa của snack",
+                  "en": "Nghĩa của snack"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "crunchy",
+                  "en": "crunchy"
+                },
+                "right": {
+                  "vi": "Nghĩa của crunchy",
+                  "en": "Nghĩa của crunchy"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? The squirrel eats crunchy nuts.",
+            "en": "Is this English sentence correct for Grade 1? The squirrel eats crunchy nuts."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The squirrel eats crunchy nuts.",
+            "en": "Remember the pattern: The squirrel eats crunchy nuts."
+          },
+          "explanation": {
+            "vi": "Yes! 'The squirrel eats crunchy nuts.' is a correct English sentence.",
+            "en": "Yes! 'The squirrel eats crunchy nuts.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The squirrel eats crunchy nuts.",
+              "en": "The squirrel eats crunchy nuts."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The squirrel eats crunchy ....",
+            "en": "Drag the correct word to complete the sentence: The squirrel eats crunchy ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'nuts'.",
+            "en": "Choose the correct word: 'nuts'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The squirrel eats crunchy nuts.'.",
+            "en": "The complete sentence is: 'The squirrel eats crunchy nuts.'."
+          },
+          "data": {
+            "prefix_text": "The squirrel eats crunchy ",
+            "suffix_text": ".",
+            "options": [
+              "nuts",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "nuts"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'nut':",
+            "en": "Spell the English word 'nut':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'nut':",
+            "en": "Spell the English word 'nut':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'nut'.",
+            "en": "Tap the letters in order to spell 'nut'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'nut' correctly.",
+            "en": "Well done! You spelled 'nut' correctly."
+          },
+          "data": {
+            "letters": [
+              "t",
+              "u",
+              "n"
+            ],
+            "target_word": "nut",
+            "target_sequence": [
+              "n",
+              "u",
+              "t"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Chú sóc ăn những hạt dẻ giòn tan.' in English?",
+            "en": "How do you say 'Chú sóc ăn những hạt dẻ giòn tan.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Chú sóc ăn những hạt dẻ giòn tan.' in English?",
+            "en": "How do you say 'Chú sóc ăn những hạt dẻ giòn tan.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Chú sóc ăn những hạt dẻ giòn tan.",
+            "en": "Choose the English sentence that means: Chú sóc ăn những hạt dẻ giòn tan."
+          },
+          "explanation": {
+            "vi": "'The squirrel eats crunchy nuts.' means 'Chú sóc ăn những hạt dẻ giòn tan.'.",
+            "en": "'The squirrel eats crunchy nuts.' means 'Chú sóc ăn những hạt dẻ giòn tan.'."
+          },
+          "data": {
+            "options": [
+              "The squirrel eats crunchy nuts.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The squirrel eats crunchy nuts."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Buying Crunchy Nuts'?",
+            "en": "Which of the following is a word from Unit 'Buying Crunchy Nuts'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Buying Crunchy Nuts'?",
+            "en": "Which of the following is a word from Unit 'Buying Crunchy Nuts'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Buying Crunchy Nuts.",
+            "en": "Remember the words in topic: Buying Crunchy Nuts."
+          },
+          "explanation": {
+            "vi": "'nut' is a key vocabulary word in this topic.",
+            "en": "'nut' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "nut",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "nut"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'snack' start with the sound /n/?",
+            "en": "Does the word 'snack' start with the sound /n/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'snack' start with the sound /n/? The word 'snack' starts with letter 'N'.",
+            "en": "Does the word 'snack' start with the sound /n/? The word 'snack' starts with letter 'N'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'snack'.",
+            "en": "Listen to the first sound of 'snack'."
+          },
+          "explanation": {
+            "vi": "Yes! 'snack' starts with the sound /n/.",
+            "en": "Yes! 'snack' starts with the sound /n/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'snack' starts with letter 'N'.",
+              "en": "The word 'snack' starts with letter 'N'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'nut'?",
+            "en": "How many letters are there in the word 'nut'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'nut'?",
+            "en": "How many letters are there in the word 'nut'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'nut': 1, 2, 3...",
+            "en": "Count the letters in 'nut': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'nut' has exactly 3 letters.",
+            "en": "The word 'nut' has exactly 3 letters."
+          },
+          "data": {
+            "correct_number": "3",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'nut':",
+            "en": "Choose the correct article before 'nut':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'nut':",
+            "en": "Choose the correct article before 'nut':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a nut'.",
+            "en": "Correct! We say 'a nut'."
+          },
+          "data": {
+            "options": [
+              "a nut",
+              "an nut",
+              "two nut",
+              "many nut"
+            ],
+            "correct_answer": "a nut"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "N",
+                  "en": "N"
+                },
+                "right": {
+                  "vi": "n",
+                  "en": "n"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s18_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Buying Crunchy Nuts'?",
+            "en": "Which English sentence best describes the topic 'Buying Crunchy Nuts'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Buying Crunchy Nuts'?",
+            "en": "Which English sentence best describes the topic 'Buying Crunchy Nuts'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Buying Crunchy Nuts'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Buying Crunchy Nuts'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: nut, snack!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: nut, snack!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

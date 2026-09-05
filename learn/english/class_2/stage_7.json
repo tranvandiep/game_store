@@ -1,0 +1,1132 @@
+{
+  "id": "e2_stage_7",
+  "stage_number": 7,
+  "title": {
+    "vi": "Week 7: Seaside Summer Vacation",
+    "en": "Week 7: Seaside Summer Vacation"
+  },
+  "subtitle": {
+    "vi": "Beach fun: Seashells, swimming, sunny sky",
+    "en": "Beach fun: Seashells, swimming, sunny sky"
+  },
+  "icon": "🐚",
+  "banner_image": null,
+  "x_percent": 0.2,
+  "y_percent": 0.776,
+  "required_stars": 18,
+  "theme_color": "0xFF059669",
+  "topics": [
+    {
+      "id": "e2_s7_1",
+      "title": {
+        "vi": "Collecting Pretty Seashells",
+        "en": "Collecting Pretty Seashells"
+      },
+      "description": {
+        "vi": "Picking up spiral shells on the shore",
+        "en": "Picking up spiral shells on the shore"
+      },
+      "icon": "🐚",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e2_s7_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the spiral hard shells with pearly colors found on the beach. What are they?",
+            "en": "Look at the spiral hard shells with pearly colors found on the beach. What are they?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the spiral hard shells with pearly colors found on the beach. What are they?",
+            "en": "Look at the spiral hard shells with pearly colors found on the beach. What are they?"
+          },
+          "hint": {
+            "vi": "Hard protective shells of sea mollusks.",
+            "en": "Hard protective shells of sea mollusks."
+          },
+          "explanation": {
+            "vi": "They are pretty seashells collected on the beach.",
+            "en": "They are pretty seashells collected on the beach."
+          },
+          "data": {
+            "options": [
+              "pretty seashells",
+              "pebbles",
+              "bottle caps",
+              "sea glass"
+            ],
+            "correct_answer": "pretty seashells"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u3_seashells.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s7_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'seashell'?",
+            "en": "What is the first letter of the word 'seashell'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'seashell'?",
+            "en": "What is the first letter of the word 'seashell'?"
+          },
+          "hint": {
+            "vi": "The word 'seashell' starts with the letter S.",
+            "en": "The word 'seashell' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'seashell' begins with the letter 'S'.",
+            "en": "Correct! 'seashell' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "seashell",
+                  "en": "seashell"
+                },
+                "right": {
+                  "vi": "Nghĩa của seashell",
+                  "en": "Nghĩa của seashell"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "shore",
+                  "en": "shore"
+                },
+                "right": {
+                  "vi": "Nghĩa của shore",
+                  "en": "Nghĩa của shore"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "collect",
+                  "en": "collect"
+                },
+                "right": {
+                  "vi": "Nghĩa của collect",
+                  "en": "Nghĩa của collect"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? Collect pretty seashells on the shore.",
+            "en": "Is this English sentence correct for Grade 2? Collect pretty seashells on the shore."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Collect pretty seashells on the shore.",
+            "en": "Remember the pattern: Collect pretty seashells on the shore."
+          },
+          "explanation": {
+            "vi": "Yes! 'Collect pretty seashells on the shore.' is a correct English sentence.",
+            "en": "Yes! 'Collect pretty seashells on the shore.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Collect pretty seashells on the shore.",
+              "en": "Collect pretty seashells on the shore."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Collect pretty seashells on the ....",
+            "en": "Drag the correct word to complete the sentence: Collect pretty seashells on the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'shore'.",
+            "en": "Choose the correct word: 'shore'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Collect pretty seashells on the shore.'.",
+            "en": "The complete sentence is: 'Collect pretty seashells on the shore.'."
+          },
+          "data": {
+            "prefix_text": "Collect pretty seashells on the ",
+            "suffix_text": ".",
+            "options": [
+              "shore",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "shore"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'seashell':",
+            "en": "Spell the English word 'seashell':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'seashell':",
+            "en": "Spell the English word 'seashell':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'seashell'.",
+            "en": "Tap the letters in order to spell 'seashell'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'seashell' correctly.",
+            "en": "Well done! You spelled 'seashell' correctly."
+          },
+          "data": {
+            "letters": [
+              "l",
+              "l",
+              "e",
+              "h",
+              "s",
+              "a",
+              "e",
+              "s"
+            ],
+            "target_word": "seashell",
+            "target_sequence": [
+              "s",
+              "e",
+              "a",
+              "s",
+              "h",
+              "e",
+              "l",
+              "l"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Nhặt những vỏ sò xinh đẹp trên bờ biển.' in English?",
+            "en": "How do you say 'Nhặt những vỏ sò xinh đẹp trên bờ biển.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Nhặt những vỏ sò xinh đẹp trên bờ biển.' in English?",
+            "en": "How do you say 'Nhặt những vỏ sò xinh đẹp trên bờ biển.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Nhặt những vỏ sò xinh đẹp trên bờ biển.",
+            "en": "Choose the English sentence that means: Nhặt những vỏ sò xinh đẹp trên bờ biển."
+          },
+          "explanation": {
+            "vi": "'Collect pretty seashells on the shore.' means 'Nhặt những vỏ sò xinh đẹp trên bờ biển.'.",
+            "en": "'Collect pretty seashells on the shore.' means 'Nhặt những vỏ sò xinh đẹp trên bờ biển.'."
+          },
+          "data": {
+            "options": [
+              "Collect pretty seashells on the shore.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Collect pretty seashells on the shore."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Collecting Pretty Seashells'?",
+            "en": "Which of the following is a word from Unit 'Collecting Pretty Seashells'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Collecting Pretty Seashells'?",
+            "en": "Which of the following is a word from Unit 'Collecting Pretty Seashells'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Collecting Pretty Seashells.",
+            "en": "Remember the words in topic: Collecting Pretty Seashells."
+          },
+          "explanation": {
+            "vi": "'seashell' is a key vocabulary word in this topic.",
+            "en": "'seashell' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "seashell",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "seashell"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'shore' start with the sound /s/?",
+            "en": "Does the word 'shore' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'shore' start with the sound /s/? The word 'shore' starts with letter 'S'.",
+            "en": "Does the word 'shore' start with the sound /s/? The word 'shore' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'shore'.",
+            "en": "Listen to the first sound of 'shore'."
+          },
+          "explanation": {
+            "vi": "Yes! 'shore' starts with the sound /s/.",
+            "en": "Yes! 'shore' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'shore' starts with letter 'S'.",
+              "en": "The word 'shore' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'seashell'?",
+            "en": "How many letters are there in the word 'seashell'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'seashell'?",
+            "en": "How many letters are there in the word 'seashell'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'seashell': 1, 2, 3...",
+            "en": "Count the letters in 'seashell': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'seashell' has exactly 8 letters.",
+            "en": "The word 'seashell' has exactly 8 letters."
+          },
+          "data": {
+            "correct_number": "8",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'seashell':",
+            "en": "Choose the correct phrase with 'seashell':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'seashell':",
+            "en": "Choose the correct phrase with 'seashell':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a seashell'.",
+            "en": "Correct! We say 'a seashell'."
+          },
+          "data": {
+            "options": [
+              "a seashell",
+              "an seashell",
+              "five seashell",
+              "many seashell"
+            ],
+            "correct_answer": "a seashell"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'seashell'.",
+            "en": "Choose the food or object: 'seashell'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like seashell? - Yes, I do!'",
+            "en": "We ask: 'Do you like seashell? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "seashell",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "seashell"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Collecting Pretty Seashells'?",
+            "en": "Which English sentence best describes the topic 'Collecting Pretty Seashells'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Collecting Pretty Seashells'?",
+            "en": "Which English sentence best describes the topic 'Collecting Pretty Seashells'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Collecting Pretty Seashells'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Collecting Pretty Seashells'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: seashell, shore!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: seashell, shore!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e2_s7_2",
+      "title": {
+        "vi": "Sailing a White Boat",
+        "en": "Sailing a White Boat"
+      },
+      "description": {
+        "vi": "Gliding across gentle ocean waves",
+        "en": "Gliding across gentle ocean waves"
+      },
+      "icon": "⛵",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e2_s7_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the boat powered by the wind catching its white cloth sail. What is it?",
+            "en": "Look at the boat powered by the wind catching its white cloth sail. What is it?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the boat powered by the wind catching its white cloth sail. What is it?",
+            "en": "Look at the boat powered by the wind catching its white cloth sail. What is it?"
+          },
+          "hint": {
+            "vi": "It has sails that catch the sea breeze.",
+            "en": "It has sails that catch the sea breeze."
+          },
+          "explanation": {
+            "vi": "It's a graceful white sailboat on the sea.",
+            "en": "It's a graceful white sailboat on the sea."
+          },
+          "data": {
+            "options": [
+              "a white sailboat",
+              "a giant cargo ship",
+              "a submarine",
+              "a rowboat"
+            ],
+            "correct_answer": "a white sailboat"
+          },
+          "images": [
+            "assets/learn/english/images_2/eng2_u3_sailboat.png"
+          ],
+          "status": "inactive"
+        },
+        {
+          "id": "q_e2_s7_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'sail'?",
+            "en": "What is the first letter of the word 'sail'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'sail'?",
+            "en": "What is the first letter of the word 'sail'?"
+          },
+          "hint": {
+            "vi": "The word 'sail' starts with the letter S.",
+            "en": "The word 'sail' starts with the letter S."
+          },
+          "explanation": {
+            "vi": "Correct! 'sail' begins with the letter 'S'.",
+            "en": "Correct! 'sail' begins with the letter 'S'."
+          },
+          "data": {
+            "options": [
+              "Letter S",
+              "Letter K",
+              "Letter M",
+              "Letter J"
+            ],
+            "correct_answer": "Letter S"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sail",
+                  "en": "sail"
+                },
+                "right": {
+                  "vi": "Nghĩa của sail",
+                  "en": "Nghĩa của sail"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "boat",
+                  "en": "boat"
+                },
+                "right": {
+                  "vi": "Nghĩa của boat",
+                  "en": "Nghĩa của boat"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "waves",
+                  "en": "waves"
+                },
+                "right": {
+                  "vi": "Nghĩa của waves",
+                  "en": "Nghĩa của waves"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 2?",
+            "en": "Is this English sentence correct for Grade 2?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 2? The sailboat glides on the water.",
+            "en": "Is this English sentence correct for Grade 2? The sailboat glides on the water."
+          },
+          "hint": {
+            "vi": "Remember the pattern: The sailboat glides on the water.",
+            "en": "Remember the pattern: The sailboat glides on the water."
+          },
+          "explanation": {
+            "vi": "Yes! 'The sailboat glides on the water.' is a correct English sentence.",
+            "en": "Yes! 'The sailboat glides on the water.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "The sailboat glides on the water.",
+              "en": "The sailboat glides on the water."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: The sailboat glides on the ....",
+            "en": "Drag the correct word to complete the sentence: The sailboat glides on the ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'water'.",
+            "en": "Choose the correct word: 'water'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'The sailboat glides on the water.'.",
+            "en": "The complete sentence is: 'The sailboat glides on the water.'."
+          },
+          "data": {
+            "prefix_text": "The sailboat glides on the ",
+            "suffix_text": ".",
+            "options": [
+              "water",
+              "tiger",
+              "dinosaur"
+            ],
+            "slot_answer": "water"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'sail':",
+            "en": "Spell the English word 'sail':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'sail':",
+            "en": "Spell the English word 'sail':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'sail'.",
+            "en": "Tap the letters in order to spell 'sail'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'sail' correctly.",
+            "en": "Well done! You spelled 'sail' correctly."
+          },
+          "data": {
+            "letters": [
+              "l",
+              "i",
+              "a",
+              "s"
+            ],
+            "target_word": "sail",
+            "target_sequence": [
+              "s",
+              "a",
+              "i",
+              "l"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Thuyền buồm lướt nhẹ trên mặt nước.' in English?",
+            "en": "How do you say 'Thuyền buồm lướt nhẹ trên mặt nước.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Thuyền buồm lướt nhẹ trên mặt nước.' in English?",
+            "en": "How do you say 'Thuyền buồm lướt nhẹ trên mặt nước.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Thuyền buồm lướt nhẹ trên mặt nước.",
+            "en": "Choose the English sentence that means: Thuyền buồm lướt nhẹ trên mặt nước."
+          },
+          "explanation": {
+            "vi": "'The sailboat glides on the water.' means 'Thuyền buồm lướt nhẹ trên mặt nước.'.",
+            "en": "'The sailboat glides on the water.' means 'Thuyền buồm lướt nhẹ trên mặt nước.'."
+          },
+          "data": {
+            "options": [
+              "The sailboat glides on the water.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "The sailboat glides on the water."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Sailing a White Boat'?",
+            "en": "Which of the following is a word from Unit 'Sailing a White Boat'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Sailing a White Boat'?",
+            "en": "Which of the following is a word from Unit 'Sailing a White Boat'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Sailing a White Boat.",
+            "en": "Remember the words in topic: Sailing a White Boat."
+          },
+          "explanation": {
+            "vi": "'sail' is a key vocabulary word in this topic.",
+            "en": "'sail' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "sail",
+              "helicopter",
+              "spaceship",
+              "pineapple"
+            ],
+            "correct_answer": "sail"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'boat' start with the sound /s/?",
+            "en": "Does the word 'boat' start with the sound /s/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'boat' start with the sound /s/? The word 'boat' starts with letter 'S'.",
+            "en": "Does the word 'boat' start with the sound /s/? The word 'boat' starts with letter 'S'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'boat'.",
+            "en": "Listen to the first sound of 'boat'."
+          },
+          "explanation": {
+            "vi": "Yes! 'boat' starts with the sound /s/.",
+            "en": "Yes! 'boat' starts with the sound /s/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'boat' starts with letter 'S'.",
+              "en": "The word 'boat' starts with letter 'S'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'sail'?",
+            "en": "How many letters are there in the word 'sail'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'sail'?",
+            "en": "How many letters are there in the word 'sail'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'sail': 1, 2, 3...",
+            "en": "Count the letters in 'sail': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'sail' has exactly 4 letters.",
+            "en": "The word 'sail' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct phrase with 'sail':",
+            "en": "Choose the correct phrase with 'sail':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct phrase with 'sail':",
+            "en": "Choose the correct phrase with 'sail':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels and 'a' before consonants.",
+            "en": "Use 'an' before vowels and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a sail'.",
+            "en": "Correct! We say 'a sail'."
+          },
+          "data": {
+            "options": [
+              "a sail",
+              "an sail",
+              "five sail",
+              "many sail"
+            ],
+            "correct_answer": "a sail"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the polite question:",
+            "en": "Complete the polite question:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the polite question: Do you like ...? - Yes, I do!",
+            "en": "Complete the polite question: Do you like ...? - Yes, I do!"
+          },
+          "hint": {
+            "vi": "Choose the food or object: 'sail'.",
+            "en": "Choose the food or object: 'sail'."
+          },
+          "explanation": {
+            "vi": "We ask: 'Do you like sail? - Yes, I do!'",
+            "en": "We ask: 'Do you like sail? - Yes, I do!'"
+          },
+          "data": {
+            "prefix_text": "Do you like ",
+            "suffix_text": "? - Yes, I do!",
+            "options": [
+              "sail",
+              "running",
+              "sleeping"
+            ],
+            "slot_answer": "sail"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "P",
+                  "en": "P"
+                },
+                "right": {
+                  "vi": "p",
+                  "en": "p"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Q",
+                  "en": "Q"
+                },
+                "right": {
+                  "vi": "q",
+                  "en": "q"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "R",
+                  "en": "R"
+                },
+                "right": {
+                  "vi": "r",
+                  "en": "r"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "tts_prompt": {
+            "vi": "What should you say when someone gives you a lovely birthday gift?",
+            "en": "What should you say when someone gives you a lovely birthday gift?"
+          },
+          "hint": {
+            "vi": "Always express gratitude with 'Thank you!'",
+            "en": "Always express gratitude with 'Thank you!'"
+          },
+          "explanation": {
+            "vi": "Saying 'Thank you very much!' is polite and joyful.",
+            "en": "Saying 'Thank you very much!' is polite and joyful."
+          },
+          "data": {
+            "options": [
+              "Thank you very much!",
+              "I don't like it.",
+              "Go away please.",
+              "Be quiet!"
+            ],
+            "correct_answer": "Thank you very much!"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is eating fresh fruits and vegetables good for your body?",
+            "en": "Is eating fresh fruits and vegetables good for your body?"
+          },
+          "tts_prompt": {
+            "vi": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy.",
+            "en": "Is eating fresh fruits and vegetables good for your body? Eating fresh fruits keeps you healthy, strong, and full of energy."
+          },
+          "hint": {
+            "vi": "Think about healthy food and vitamins.",
+            "en": "Think about healthy food and vitamins."
+          },
+          "explanation": {
+            "vi": "Yes! Eating fresh fruits and vegetables is very healthy.",
+            "en": "Yes! Eating fresh fruits and vegetables is very healthy."
+          },
+          "data": {
+            "statement": {
+              "vi": "Eating fresh fruits keeps you healthy, strong, and full of energy.",
+              "en": "Eating fresh fruits keeps you healthy, strong, and full of energy."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e2_s7_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Sailing a White Boat'?",
+            "en": "Which English sentence best describes the topic 'Sailing a White Boat'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Sailing a White Boat'?",
+            "en": "Which English sentence best describes the topic 'Sailing a White Boat'?"
+          },
+          "hint": {
+            "vi": "Select the encouraging and joyful sentence.",
+            "en": "Select the encouraging and joyful sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Sailing a White Boat'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Sailing a White Boat'!"
+          },
+          "data": {
+            "options": [
+              "I enjoy learning English words: sail, boat!",
+              "I do not want to practice.",
+              "Turn off the TV.",
+              "It is midnight."
+            ],
+            "correct_answer": "I enjoy learning English words: sail, boat!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

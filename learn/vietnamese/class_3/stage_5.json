@@ -1,0 +1,1146 @@
+{
+  "id": "v3_stage_5",
+  "stage_number": 5,
+  "title": {
+    "vi": "Tuần 5: Niềm Vui Đến Trường",
+    "en": "Tuần 5: Niềm Vui Đến Trường"
+  },
+  "subtitle": {
+    "vi": "Bài 9 & 10 - Đi học vui sao & Con đường đến trường",
+    "en": "Bài 9 & 10 - Đi học vui sao & Con đường đến trường"
+  },
+  "icon": "🌸",
+  "banner_image": null,
+  "x_percent": 0.3,
+  "y_percent": 0.834,
+  "required_stars": 12,
+  "theme_color": "0xFFDC2626",
+  "topics": [
+    {
+      "id": "v3_t5_1",
+      "title": {
+        "vi": "Tập đọc: Bài thơ Đi học vui sao",
+        "en": "Tập đọc: Bài thơ Đi học vui sao"
+      },
+      "description": {
+        "vi": "Rộn ràng tiếng cười và bạn bè dưới mái trường",
+        "en": "Rộn ràng tiếng cười và bạn bè dưới mái trường"
+      },
+      "icon": "🔔",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v3_t5_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bức tranh các bạn học sinh tíu tít nắm tay nhau cùng bước vào cổng trường thể hiện điều gì?",
+            "en": "Bức tranh các bạn học sinh tíu tít nắm tay nhau cùng bước vào cổng trường thể hiện điều gì?"
+          },
+          "tts_prompt": {
+            "vi": "Bức tranh các bạn học sinh tíu tít nắm tay nhau cùng bước vào cổng trường thể hiện điều gì?",
+            "en": "Bức tranh các bạn học sinh tíu tít nắm tay nhau cùng bước vào cổng trường thể hiện điều gì?"
+          },
+          "hint": {
+            "vi": "Nụ cười rạng rỡ của các bạn nhỏ dưới bóng cây sân trường.",
+            "en": "Nụ cười rạng rỡ của các bạn nhỏ dưới bóng cây sân trường."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài thơ: 'Đi học vui sao'.",
+            "en": "Bức tranh minh hoạ bài thơ: 'Đi học vui sao'."
+          },
+          "data": {
+            "options": [
+              "niềm vui đi học mỗi ngày",
+              "giờ tan trường buổi tối",
+              "chuyến đi dã ngoại xa",
+              "ngày nghỉ cuối tuần"
+            ],
+            "correct_answer": "niềm vui đi học mỗi ngày"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_3/tv3_di_hoc_vui_sao.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây cùng nhóm nghĩa hoặc liên quan mật thiết với 'đi học vui sao'?",
+            "en": "Từ ngữ nào dưới đây cùng nhóm nghĩa hoặc liên quan mật thiết với 'đi học vui sao'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây cùng nhóm nghĩa hoặc liên quan mật thiết với 'đi học vui sao'?",
+            "en": "Từ ngữ nào dưới đây cùng nhóm nghĩa hoặc liên quan mật thiết với 'đi học vui sao'?"
+          },
+          "hint": {
+            "vi": "Tìm từ ngữ cùng chủ điểm bài học: Tập đọc: Bài thơ Đi học vui sao.",
+            "en": "Tìm từ ngữ cùng chủ điểm bài học: Tập đọc: Bài thơ Đi học vui sao."
+          },
+          "explanation": {
+            "vi": "'đi học vui sao' và 'bạn bè' là các từ ngữ cùng chủ điểm gắn bó.",
+            "en": "'đi học vui sao' và 'bạn bè' là các từ ngữ cùng chủ điểm gắn bó."
+          },
+          "data": {
+            "options": [
+              "bạn bè",
+              "cơn mưa tuyết",
+              "sa mạc khô",
+              "máy tính bàn"
+            ],
+            "correct_answer": "bạn bè"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "đi học vui sao",
+                  "en": "đi học vui sao"
+                },
+                "right": {
+                  "vi": "Ý nghĩa đi học vui sao",
+                  "en": "Ý nghĩa đi học vui sao"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "bạn bè",
+                  "en": "bạn bè"
+                },
+                "right": {
+                  "vi": "Ý nghĩa bạn bè",
+                  "en": "Ý nghĩa bạn bè"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tiếng cười",
+                  "en": "tiếng cười"
+                },
+                "right": {
+                  "vi": "Ý nghĩa tiếng cười",
+                  "en": "Ý nghĩa tiếng cười"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về nội dung bài đọc là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về nội dung bài đọc là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về nội dung bài đọc là ĐÚNG hay SAI: Chi tiết liên quan đến 'đi học vui sao' mang ý nghĩa giáo dục sâu sắc trong bài học.",
+            "en": "Bé hãy xem nhận định sau về nội dung bài đọc là ĐÚNG hay SAI: Chi tiết liên quan đến 'đi học vui sao' mang ý nghĩa giáo dục sâu sắc trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài tập đọc vừa học.",
+            "en": "Nhớ lại nội dung bài tập đọc vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'đi học vui sao' là chi tiết nổi bật trong bài đọc.",
+            "en": "Đúng! 'đi học vui sao' là chi tiết nổi bật trong bài đọc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Chi tiết liên quan đến 'đi học vui sao' mang ý nghĩa giáo dục sâu sắc trong bài học.",
+              "en": "Chi tiết liên quan đến 'đi học vui sao' mang ý nghĩa giáo dục sâu sắc trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ cảm thấy rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ cảm thấy rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ thể hiện cảm xúc tích cực trong bài: 'đi học vui sao'.",
+            "en": "Chọn từ ngữ thể hiện cảm xúc tích cực trong bài: 'đi học vui sao'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'đi học vui sao'.",
+            "en": "Từ chính xác là 'đi học vui sao'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ cảm thấy rất: ",
+            "suffix_text": ".",
+            "options": [
+              "đi học vui sao",
+              "buồn bã",
+              "thất vọng"
+            ],
+            "slot_answer": "đi học vui sao"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'đihọcvuisao':",
+            "en": "Ghép các chữ cái để tạo thành từ 'đihọcvuisao':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'đihọcvuisao':",
+            "en": "Ghép các chữ cái để tạo thành từ 'đihọcvuisao':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'đihọcvuisao'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'đihọcvuisao'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'đihọcvuisao'.",
+            "en": "Ghép các chữ cái tạo thành 'đihọcvuisao'."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "a",
+              "s",
+              "i",
+              "u",
+              "v",
+              "c",
+              "ọ",
+              "h",
+              "i",
+              "đ"
+            ],
+            "target_word": "đihọcvuisao",
+            "target_sequence": [
+              "đ",
+              "i",
+              "h",
+              "ọ",
+              "c",
+              "v",
+              "u",
+              "i",
+              "s",
+              "a",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong chương trình Tiếng Việt 3, biện pháp nghệ thuật nào thường dùng từ 'như', 'là' để đối chiếu hai sự vật?",
+            "en": "Trong chương trình Tiếng Việt 3, biện pháp nghệ thuật nào thường dùng từ 'như', 'là' để đối chiếu hai sự vật?"
+          },
+          "tts_prompt": {
+            "vi": "Trong chương trình Tiếng Việt 3, biện pháp nghệ thuật nào thường dùng từ 'như', 'là' để đối chiếu hai sự vật?",
+            "en": "Trong chương trình Tiếng Việt 3, biện pháp nghệ thuật nào thường dùng từ 'như', 'là' để đối chiếu hai sự vật?"
+          },
+          "hint": {
+            "vi": "Nhớ lại kiến thức luyện từ và câu về biện pháp so sánh ở lớp 3.",
+            "en": "Nhớ lại kiến thức luyện từ và câu về biện pháp so sánh ở lớp 3."
+          },
+          "explanation": {
+            "vi": "Biện pháp so sánh giúp câu văn hình ảnh và sinh động hơn.",
+            "en": "Biện pháp so sánh giúp câu văn hình ảnh và sinh động hơn."
+          },
+          "data": {
+            "options": [
+              "Biện pháp so sánh",
+              "Biện pháp ẩn dụ",
+              "Biện pháp hoán dụ",
+              "Biện pháp điệp từ"
+            ],
+            "correct_answer": "Biện pháp so sánh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bài tập đọc bé đang học.",
+            "en": "Nhớ lại tên chủ đề bài tập đọc bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Bài thơ Đi học vui sao'.",
+            "en": "Câu 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Bài thơ Đi học vui sao'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Bài thơ Đi học vui sao",
+              "Toán học 3",
+              "Tiếng Anh 3",
+              "Tin học tiểu học"
+            ],
+            "correct_answer": "Tập đọc: Bài thơ Đi học vui sao"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc ngữ pháp sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc ngữ pháp sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc ngữ pháp sau là ĐÚNG hay SAI: Mỗi ngày đến trường là một ngày vui và tràn đầy tri thức.",
+            "en": "Bé hãy xem quy tắc ngữ pháp sau là ĐÚNG hay SAI: Mỗi ngày đến trường là một ngày vui và tràn đầy tri thức."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc tiếng Việt lớp 3.",
+            "en": "Nhớ lại quy tắc tiếng Việt lớp 3."
+          },
+          "explanation": {
+            "vi": "Đúng! Mỗi ngày đến trường là một ngày vui và tràn đầy tri thức.",
+            "en": "Đúng! Mỗi ngày đến trường là một ngày vui và tràn đầy tri thức."
+          },
+          "data": {
+            "statement": {
+              "vi": "Mỗi ngày đến trường là một ngày vui và tràn đầy tri thức.",
+              "en": "Mỗi ngày đến trường là một ngày vui và tràn đầy tri thức."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Đi học vui sao, trang sách mở ra bao điều mới lạ..",
+            "en": "Đếm từng tiếng trong câu: Đi học vui sao, trang sách mở ra bao điều mới lạ.."
+          },
+          "explanation": {
+            "vi": "Câu 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' có đúng 12 tiếng.",
+            "en": "Câu 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' có đúng 12 tiếng."
+          },
+          "data": {
+            "correct_number": "12",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Dấu gạch ngang (-) đặt ở đầu dòng trong văn bản có tác dụng gì?",
+            "en": "Dấu gạch ngang (-) đặt ở đầu dòng trong văn bản có tác dụng gì?"
+          },
+          "tts_prompt": {
+            "vi": "Dấu gạch ngang (-) đặt ở đầu dòng trong văn bản có tác dụng gì?",
+            "en": "Dấu gạch ngang (-) đặt ở đầu dòng trong văn bản có tác dụng gì?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tác dụng của dấu gạch ngang đầu dòng khi nhân vật đối thoại.",
+            "en": "Nhớ lại tác dụng của dấu gạch ngang đầu dòng khi nhân vật đối thoại."
+          },
+          "explanation": {
+            "vi": "Dấu gạch ngang đầu dòng dùng để đánh dấu lời nói trực tiếp của nhân vật.",
+            "en": "Dấu gạch ngang đầu dòng dùng để đánh dấu lời nói trực tiếp của nhân vật."
+          },
+          "data": {
+            "options": [
+              "Đánh dấu lời nói trực tiếp của nhân vật",
+              "Kết thúc một đoạn văn",
+              "Nối các từ trong câu",
+              "Báo hiệu số lượng"
+            ],
+            "correct_answer": "Đánh dấu lời nói trực tiếp của nhân vật"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Đi học vui sao, trang sách mở ra bao điều mới lạ.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Đi học vui sao, trang sách mở ra bao điều mới lạ.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' Đi ... vui sao trang sách mở ra bao điều mới lạ.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Đi học vui sao, trang sách mở ra bao điều mới lạ.' Đi ... vui sao trang sách mở ra bao điều mới lạ."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu văn mẫu trong bài học: Đi học vui sao, trang sách mở ra bao điều mới lạ..",
+            "en": "Nhớ lại câu văn mẫu trong bài học: Đi học vui sao, trang sách mở ra bao điều mới lạ.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'học'.",
+            "en": "Từ chính xác là 'học'."
+          },
+          "data": {
+            "prefix_text": "Đi ",
+            "suffix_text": " vui sao trang sách mở ra bao điều mới lạ.",
+            "options": [
+              "học",
+              "lãng quên",
+              "trốn tránh"
+            ],
+            "slot_answer": "học"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tạo thành từ ghép hoặc từ láy quen thuộc:",
+            "en": "Nối các từ ngữ tạo thành từ ghép hoặc từ láy quen thuộc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tạo thành từ ghép hoặc từ láy quen thuộc:",
+            "en": "Nối các từ ngữ tạo thành từ ghép hoặc từ láy quen thuộc:"
+          },
+          "hint": {
+            "vi": "Chạm vào tiếng bên trái rồi chọn tiếng tương ứng bên phải.",
+            "en": "Chạm vào tiếng bên trái rồi chọn tiếng tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các từ ngữ rất chính xác!",
+            "en": "Ghép các từ ngữ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm",
+                  "en": "Chăm"
+                },
+                "right": {
+                  "vi": "chỉ",
+                  "en": "chỉ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Rộn",
+                  "en": "Rộn"
+                },
+                "right": {
+                  "vi": "rã",
+                  "en": "rã"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Tươi",
+                  "en": "Tươi"
+                },
+                "right": {
+                  "vi": "đẹp",
+                  "en": "đẹp"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Khi viết đoạn văn nêu cảm nghĩ về 'đi học vui sao', câu mở đoạn thường có nhiệm vụ gì?",
+            "en": "Khi viết đoạn văn nêu cảm nghĩ về 'đi học vui sao', câu mở đoạn thường có nhiệm vụ gì?"
+          },
+          "tts_prompt": {
+            "vi": "Khi viết đoạn văn nêu cảm nghĩ về 'đi học vui sao', câu mở đoạn thường có nhiệm vụ gì?",
+            "en": "Khi viết đoạn văn nêu cảm nghĩ về 'đi học vui sao', câu mở đoạn thường có nhiệm vụ gì?"
+          },
+          "hint": {
+            "vi": "Câu mở đoạn có nhiệm vụ giới thiệu đối tượng miêu tả hoặc bày tỏ tình cảm.",
+            "en": "Câu mở đoạn có nhiệm vụ giới thiệu đối tượng miêu tả hoặc bày tỏ tình cảm."
+          },
+          "explanation": {
+            "vi": "Câu mở đoạn giới thiệu trực tiếp hoặc gián tiếp đối tượng chính của đoạn văn.",
+            "en": "Câu mở đoạn giới thiệu trực tiếp hoặc gián tiếp đối tượng chính của đoạn văn."
+          },
+          "data": {
+            "options": [
+              "Giới thiệu sự vật hoặc sự việc cần bày tỏ cảm xúc",
+              "Nêu số lượng bài tập",
+              "Kể tên bạn bè trong lớp",
+              "Ghi ngày tháng năm sinh"
+            ],
+            "correct_answer": "Giới thiệu sự vật hoặc sự việc cần bày tỏ cảm xúc"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Các từ như 'chạy, nhảy, đọc, viết, bơi lội' đều thuộc nhóm từ chỉ hoạt động.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Các từ như 'chạy, nhảy, đọc, viết, bơi lội' đều thuộc nhóm từ chỉ hoạt động."
+          },
+          "hint": {
+            "vi": "Nhớ lại khái niệm từ chỉ hoạt động trong Tiếng Việt lớp 3.",
+            "en": "Nhớ lại khái niệm từ chỉ hoạt động trong Tiếng Việt lớp 3."
+          },
+          "explanation": {
+            "vi": "Đúng! Các từ trên đều biểu thị hoạt động của con người hoặc sự vật.",
+            "en": "Đúng! Các từ trên đều biểu thị hoạt động của con người hoặc sự vật."
+          },
+          "data": {
+            "statement": {
+              "vi": "Các từ như 'chạy, nhảy, đọc, viết, bơi lội' đều thuộc nhóm từ chỉ hoạt động.",
+              "en": "Các từ như 'chạy, nhảy, đọc, viết, bơi lội' đều thuộc nhóm từ chỉ hoạt động."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Bài thơ Đi học vui sao', bài học giáo dục chúng ta điều gì sâu sắc nhất?",
+            "en": "Qua bài học 'Tập đọc: Bài thơ Đi học vui sao', bài học giáo dục chúng ta điều gì sâu sắc nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Bài thơ Đi học vui sao', bài học giáo dục chúng ta điều gì sâu sắc nhất?",
+            "en": "Qua bài học 'Tập đọc: Bài thơ Đi học vui sao', bài học giáo dục chúng ta điều gì sâu sắc nhất?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và nhân văn tốt đẹp.",
+            "en": "Chọn bài học đạo đức và nhân văn tốt đẹp."
+          },
+          "explanation": {
+            "vi": "Bài học nhắc nhở chúng ta luôn biết yêu thương, trân trọng đi học vui sao và sống có ích.",
+            "en": "Bài học nhắc nhở chúng ta luôn biết yêu thương, trân trọng đi học vui sao và sống có ích."
+          },
+          "data": {
+            "options": [
+              "Biết trân trọng đi học vui sao và yêu quý cuộc sống xung quanh",
+              "Chỉ biết nghĩ cho bản thân",
+              "Không lắng nghe thầy cô",
+              "Bỏ bê việc học"
+            ],
+            "correct_answer": "Biết trân trọng đi học vui sao và yêu quý cuộc sống xung quanh"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v3_t5_2",
+      "title": {
+        "vi": "Tập đọc: Con đường đến trường",
+        "en": "Tập đọc: Con đường đến trường"
+      },
+      "description": {
+        "vi": "Con đường làng uốn lượn rợp bóng mát cây xanh",
+        "en": "Con đường làng uốn lượn rợp bóng mát cây xanh"
+      },
+      "icon": "🌳",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v3_t5_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Con đường làng uốn lượn có hoa dại nở rộ dẫn bước chân học sinh tới đâu trong tranh?",
+            "en": "Con đường làng uốn lượn có hoa dại nở rộ dẫn bước chân học sinh tới đâu trong tranh?"
+          },
+          "tts_prompt": {
+            "vi": "Con đường làng uốn lượn có hoa dại nở rộ dẫn bước chân học sinh tới đâu trong tranh?",
+            "en": "Con đường làng uốn lượn có hoa dại nở rộ dẫn bước chân học sinh tới đâu trong tranh?"
+          },
+          "hint": {
+            "vi": "Con đường quê bình yên có bóng cây xanh mát rượi.",
+            "en": "Con đường quê bình yên có bóng cây xanh mát rượi."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ bài văn: 'Con đường đến trường'.",
+            "en": "Bức tranh minh hoạ bài văn: 'Con đường đến trường'."
+          },
+          "data": {
+            "options": [
+              "dẫn bước chân em tới trường học",
+              "dẫn ra bãi biển hoang",
+              "dẫn vào hang sâu",
+              "dẫn lên đỉnh núi đá"
+            ],
+            "correct_answer": "dẫn bước chân em tới trường học"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_3/tv3_con_duong_den_truong.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây cùng nhóm nghĩa hoặc liên quan mật thiết với 'con đường'?",
+            "en": "Từ ngữ nào dưới đây cùng nhóm nghĩa hoặc liên quan mật thiết với 'con đường'?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây cùng nhóm nghĩa hoặc liên quan mật thiết với 'con đường'?",
+            "en": "Từ ngữ nào dưới đây cùng nhóm nghĩa hoặc liên quan mật thiết với 'con đường'?"
+          },
+          "hint": {
+            "vi": "Tìm từ ngữ cùng chủ điểm bài học: Tập đọc: Con đường đến trường.",
+            "en": "Tìm từ ngữ cùng chủ điểm bài học: Tập đọc: Con đường đến trường."
+          },
+          "explanation": {
+            "vi": "'con đường' và 'hoa cỏ' là các từ ngữ cùng chủ điểm gắn bó.",
+            "en": "'con đường' và 'hoa cỏ' là các từ ngữ cùng chủ điểm gắn bó."
+          },
+          "data": {
+            "options": [
+              "hoa cỏ",
+              "cơn mưa tuyết",
+              "sa mạc khô",
+              "máy tính bàn"
+            ],
+            "correct_answer": "hoa cỏ"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tương ứng trong bài đọc:",
+            "en": "Nối các từ ngữ tương ứng trong bài đọc:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải.",
+            "en": "Chạm vào ô bên trái rồi chọn ô tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép nối từ ngữ chính xác!",
+            "en": "Ghép nối từ ngữ chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "con đường",
+                  "en": "con đường"
+                },
+                "right": {
+                  "vi": "Ý nghĩa con đường",
+                  "en": "Ý nghĩa con đường"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "hoa cỏ",
+                  "en": "hoa cỏ"
+                },
+                "right": {
+                  "vi": "Ý nghĩa hoa cỏ",
+                  "en": "Ý nghĩa hoa cỏ"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "bóng mát",
+                  "en": "bóng mát"
+                },
+                "right": {
+                  "vi": "Ý nghĩa bóng mát",
+                  "en": "Ý nghĩa bóng mát"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem nhận định sau về nội dung bài đọc là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem nhận định sau về nội dung bài đọc là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem nhận định sau về nội dung bài đọc là ĐÚNG hay SAI: Chi tiết liên quan đến 'con đường' mang ý nghĩa giáo dục sâu sắc trong bài học.",
+            "en": "Bé hãy xem nhận định sau về nội dung bài đọc là ĐÚNG hay SAI: Chi tiết liên quan đến 'con đường' mang ý nghĩa giáo dục sâu sắc trong bài học."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài tập đọc vừa học.",
+            "en": "Nhớ lại nội dung bài tập đọc vừa học."
+          },
+          "explanation": {
+            "vi": "Đúng! 'con đường' là chi tiết nổi bật trong bài đọc.",
+            "en": "Đúng! 'con đường' là chi tiết nổi bật trong bài đọc."
+          },
+          "data": {
+            "statement": {
+              "vi": "Chi tiết liên quan đến 'con đường' mang ý nghĩa giáo dục sâu sắc trong bài học.",
+              "en": "Chi tiết liên quan đến 'con đường' mang ý nghĩa giáo dục sâu sắc trong bài học."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống:",
+            "en": "Chọn từ thích hợp điền vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ cảm thấy rất: ....",
+            "en": "Chọn từ thích hợp điền vào chỗ trống: Trong bài học, các bạn nhỏ cảm thấy rất: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ ngữ thể hiện cảm xúc tích cực trong bài: 'con đường'.",
+            "en": "Chọn từ ngữ thể hiện cảm xúc tích cực trong bài: 'con đường'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'con đường'.",
+            "en": "Từ chính xác là 'con đường'."
+          },
+          "data": {
+            "prefix_text": "Trong bài học, các bạn nhỏ cảm thấy rất: ",
+            "suffix_text": ".",
+            "options": [
+              "con đường",
+              "buồn bã",
+              "thất vọng"
+            ],
+            "slot_answer": "con đường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'conđường':",
+            "en": "Ghép các chữ cái để tạo thành từ 'conđường':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'conđường':",
+            "en": "Ghép các chữ cái để tạo thành từ 'conđường':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng chính tả 'conđường'.",
+            "en": "Sắp xếp chữ cái theo đúng chính tả 'conđường'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'conđường'.",
+            "en": "Ghép các chữ cái tạo thành 'conđường'."
+          },
+          "data": {
+            "letters": [
+              "g",
+              "n",
+              "ờ",
+              "ư",
+              "đ",
+              "n",
+              "o",
+              "c"
+            ],
+            "target_word": "conđường",
+            "target_sequence": [
+              "c",
+              "o",
+              "n",
+              "đ",
+              "ư",
+              "ờ",
+              "n",
+              "g"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong chương trình Tiếng Việt 3, biện pháp nghệ thuật nào thường dùng từ 'như', 'là' để đối chiếu hai sự vật?",
+            "en": "Trong chương trình Tiếng Việt 3, biện pháp nghệ thuật nào thường dùng từ 'như', 'là' để đối chiếu hai sự vật?"
+          },
+          "tts_prompt": {
+            "vi": "Trong chương trình Tiếng Việt 3, biện pháp nghệ thuật nào thường dùng từ 'như', 'là' để đối chiếu hai sự vật?",
+            "en": "Trong chương trình Tiếng Việt 3, biện pháp nghệ thuật nào thường dùng từ 'như', 'là' để đối chiếu hai sự vật?"
+          },
+          "hint": {
+            "vi": "Nhớ lại kiến thức luyện từ và câu về biện pháp so sánh ở lớp 3.",
+            "en": "Nhớ lại kiến thức luyện từ và câu về biện pháp so sánh ở lớp 3."
+          },
+          "explanation": {
+            "vi": "Biện pháp so sánh giúp câu văn hình ảnh và sinh động hơn.",
+            "en": "Biện pháp so sánh giúp câu văn hình ảnh và sinh động hơn."
+          },
+          "data": {
+            "options": [
+              "Biện pháp so sánh",
+              "Biện pháp ẩn dụ",
+              "Biện pháp hoán dụ",
+              "Biện pháp điệp từ"
+            ],
+            "correct_answer": "Biện pháp so sánh"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Câu văn trích dẫn: 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' - Thuộc về chủ đề bài học nào?"
+          },
+          "tts_prompt": {
+            "vi": "Câu văn trích dẫn: 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' - Thuộc về chủ đề bài học nào?",
+            "en": "Câu văn trích dẫn: 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' - Thuộc về chủ đề bài học nào?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tên chủ đề bài tập đọc bé đang học.",
+            "en": "Nhớ lại tên chủ đề bài tập đọc bé đang học."
+          },
+          "explanation": {
+            "vi": "Câu 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Con đường đến trường'.",
+            "en": "Câu 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' nằm trong bài đọc thuộc chủ đề 'Tập đọc: Con đường đến trường'."
+          },
+          "data": {
+            "options": [
+              "Tập đọc: Con đường đến trường",
+              "Toán học 3",
+              "Tiếng Anh 3",
+              "Tin học tiểu học"
+            ],
+            "correct_answer": "Tập đọc: Con đường đến trường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem quy tắc ngữ pháp sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem quy tắc ngữ pháp sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem quy tắc ngữ pháp sau là ĐÚNG hay SAI: Con đường đến trường gắn liền với bao kỷ niệm tuổi học trò.",
+            "en": "Bé hãy xem quy tắc ngữ pháp sau là ĐÚNG hay SAI: Con đường đến trường gắn liền với bao kỷ niệm tuổi học trò."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc tiếng Việt lớp 3.",
+            "en": "Nhớ lại quy tắc tiếng Việt lớp 3."
+          },
+          "explanation": {
+            "vi": "Đúng! Con đường đến trường gắn liền với bao kỷ niệm tuổi học trò.",
+            "en": "Đúng! Con đường đến trường gắn liền với bao kỷ niệm tuổi học trò."
+          },
+          "data": {
+            "statement": {
+              "vi": "Con đường đến trường gắn liền với bao kỷ niệm tuổi học trò.",
+              "en": "Con đường đến trường gắn liền với bao kỷ niệm tuổi học trò."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Đếm từng tiếng trong câu: Con đường đến trường có hàng phi lao reo vui đón bước chân em..",
+            "en": "Đếm từng tiếng trong câu: Con đường đến trường có hàng phi lao reo vui đón bước chân em.."
+          },
+          "explanation": {
+            "vi": "Câu 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' có đúng 14 tiếng.",
+            "en": "Câu 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' có đúng 14 tiếng."
+          },
+          "data": {
+            "correct_number": "14",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Dấu gạch ngang (-) đặt ở đầu dòng trong văn bản có tác dụng gì?",
+            "en": "Dấu gạch ngang (-) đặt ở đầu dòng trong văn bản có tác dụng gì?"
+          },
+          "tts_prompt": {
+            "vi": "Dấu gạch ngang (-) đặt ở đầu dòng trong văn bản có tác dụng gì?",
+            "en": "Dấu gạch ngang (-) đặt ở đầu dòng trong văn bản có tác dụng gì?"
+          },
+          "hint": {
+            "vi": "Nhớ lại tác dụng của dấu gạch ngang đầu dòng khi nhân vật đối thoại.",
+            "en": "Nhớ lại tác dụng của dấu gạch ngang đầu dòng khi nhân vật đối thoại."
+          },
+          "explanation": {
+            "vi": "Dấu gạch ngang đầu dòng dùng để đánh dấu lời nói trực tiếp của nhân vật.",
+            "en": "Dấu gạch ngang đầu dòng dùng để đánh dấu lời nói trực tiếp của nhân vật."
+          },
+          "data": {
+            "options": [
+              "Đánh dấu lời nói trực tiếp của nhân vật",
+              "Kết thúc một đoạn văn",
+              "Nối các từ trong câu",
+              "Báo hiệu số lượng"
+            ],
+            "correct_answer": "Đánh dấu lời nói trực tiếp của nhân vật"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' Con ... đến trường có hàng phi lao reo vui đón bước chân em.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Con đường đến trường có hàng phi lao reo vui đón bước chân em.' Con ... đến trường có hàng phi lao reo vui đón bước chân em."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu văn mẫu trong bài học: Con đường đến trường có hàng phi lao reo vui đón bước chân em..",
+            "en": "Nhớ lại câu văn mẫu trong bài học: Con đường đến trường có hàng phi lao reo vui đón bước chân em.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'đường'.",
+            "en": "Từ chính xác là 'đường'."
+          },
+          "data": {
+            "prefix_text": "Con ",
+            "suffix_text": " đến trường có hàng phi lao reo vui đón bước chân em.",
+            "options": [
+              "đường",
+              "lãng quên",
+              "trốn tránh"
+            ],
+            "slot_answer": "đường"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối các từ ngữ tạo thành từ ghép hoặc từ láy quen thuộc:",
+            "en": "Nối các từ ngữ tạo thành từ ghép hoặc từ láy quen thuộc:"
+          },
+          "tts_prompt": {
+            "vi": "Nối các từ ngữ tạo thành từ ghép hoặc từ láy quen thuộc:",
+            "en": "Nối các từ ngữ tạo thành từ ghép hoặc từ láy quen thuộc:"
+          },
+          "hint": {
+            "vi": "Chạm vào tiếng bên trái rồi chọn tiếng tương ứng bên phải.",
+            "en": "Chạm vào tiếng bên trái rồi chọn tiếng tương ứng bên phải."
+          },
+          "explanation": {
+            "vi": "Ghép các từ ngữ rất chính xác!",
+            "en": "Ghép các từ ngữ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "Chăm",
+                  "en": "Chăm"
+                },
+                "right": {
+                  "vi": "chỉ",
+                  "en": "chỉ"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Rộn",
+                  "en": "Rộn"
+                },
+                "right": {
+                  "vi": "rã",
+                  "en": "rã"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Tươi",
+                  "en": "Tươi"
+                },
+                "right": {
+                  "vi": "đẹp",
+                  "en": "đẹp"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Khi viết đoạn văn nêu cảm nghĩ về 'con đường', câu mở đoạn thường có nhiệm vụ gì?",
+            "en": "Khi viết đoạn văn nêu cảm nghĩ về 'con đường', câu mở đoạn thường có nhiệm vụ gì?"
+          },
+          "tts_prompt": {
+            "vi": "Khi viết đoạn văn nêu cảm nghĩ về 'con đường', câu mở đoạn thường có nhiệm vụ gì?",
+            "en": "Khi viết đoạn văn nêu cảm nghĩ về 'con đường', câu mở đoạn thường có nhiệm vụ gì?"
+          },
+          "hint": {
+            "vi": "Câu mở đoạn có nhiệm vụ giới thiệu đối tượng miêu tả hoặc bày tỏ tình cảm.",
+            "en": "Câu mở đoạn có nhiệm vụ giới thiệu đối tượng miêu tả hoặc bày tỏ tình cảm."
+          },
+          "explanation": {
+            "vi": "Câu mở đoạn giới thiệu trực tiếp hoặc gián tiếp đối tượng chính của đoạn văn.",
+            "en": "Câu mở đoạn giới thiệu trực tiếp hoặc gián tiếp đối tượng chính của đoạn văn."
+          },
+          "data": {
+            "options": [
+              "Giới thiệu sự vật hoặc sự việc cần bày tỏ cảm xúc",
+              "Nêu số lượng bài tập",
+              "Kể tên bạn bè trong lớp",
+              "Ghi ngày tháng năm sinh"
+            ],
+            "correct_answer": "Giới thiệu sự vật hoặc sự việc cần bày tỏ cảm xúc"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Các từ như 'chạy, nhảy, đọc, viết, bơi lội' đều thuộc nhóm từ chỉ hoạt động.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Các từ như 'chạy, nhảy, đọc, viết, bơi lội' đều thuộc nhóm từ chỉ hoạt động."
+          },
+          "hint": {
+            "vi": "Nhớ lại khái niệm từ chỉ hoạt động trong Tiếng Việt lớp 3.",
+            "en": "Nhớ lại khái niệm từ chỉ hoạt động trong Tiếng Việt lớp 3."
+          },
+          "explanation": {
+            "vi": "Đúng! Các từ trên đều biểu thị hoạt động của con người hoặc sự vật.",
+            "en": "Đúng! Các từ trên đều biểu thị hoạt động của con người hoặc sự vật."
+          },
+          "data": {
+            "statement": {
+              "vi": "Các từ như 'chạy, nhảy, đọc, viết, bơi lội' đều thuộc nhóm từ chỉ hoạt động.",
+              "en": "Các từ như 'chạy, nhảy, đọc, viết, bơi lội' đều thuộc nhóm từ chỉ hoạt động."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v3_t5_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Qua bài học 'Tập đọc: Con đường đến trường', bài học giáo dục chúng ta điều gì sâu sắc nhất?",
+            "en": "Qua bài học 'Tập đọc: Con đường đến trường', bài học giáo dục chúng ta điều gì sâu sắc nhất?"
+          },
+          "tts_prompt": {
+            "vi": "Qua bài học 'Tập đọc: Con đường đến trường', bài học giáo dục chúng ta điều gì sâu sắc nhất?",
+            "en": "Qua bài học 'Tập đọc: Con đường đến trường', bài học giáo dục chúng ta điều gì sâu sắc nhất?"
+          },
+          "hint": {
+            "vi": "Chọn bài học đạo đức và nhân văn tốt đẹp.",
+            "en": "Chọn bài học đạo đức và nhân văn tốt đẹp."
+          },
+          "explanation": {
+            "vi": "Bài học nhắc nhở chúng ta luôn biết yêu thương, trân trọng con đường và sống có ích.",
+            "en": "Bài học nhắc nhở chúng ta luôn biết yêu thương, trân trọng con đường và sống có ích."
+          },
+          "data": {
+            "options": [
+              "Biết trân trọng con đường và yêu quý cuộc sống xung quanh",
+              "Chỉ biết nghĩ cho bản thân",
+              "Không lắng nghe thầy cô",
+              "Bỏ bê việc học"
+            ],
+            "correct_answer": "Biết trân trọng con đường và yêu quý cuộc sống xung quanh"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

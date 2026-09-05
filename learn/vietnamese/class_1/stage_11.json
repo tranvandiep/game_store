@@ -1,0 +1,1120 @@
+{
+  "id": "v1_stage_11",
+  "stage_number": 11,
+  "title": {
+    "vi": "Tuần 11: Vần Có Âm Cuối 'i', 'y', 'u', 'o'",
+    "en": "Tuần 11: Vần Có Âm Cuối 'i', 'y', 'u', 'o'"
+  },
+  "subtitle": {
+    "vi": "Bài 38, 39, 41, 42, 43, 44 - ai, ay, ây, oi, ôi, ơi, ao, eo, au, iu...",
+    "en": "Bài 38, 39, 41, 42, 43, 44 - ai, ay, ây, oi, ôi, ơi, ao, eo, au, iu..."
+  },
+  "icon": "🎈",
+  "banner_image": null,
+  "x_percent": 0.25,
+  "y_percent": 0.66,
+  "required_stars": 30,
+  "theme_color": "0xFF9333EA",
+  "topics": [
+    {
+      "id": "v1_t11_1",
+      "title": {
+        "vi": "Vần 'ai', 'ay', 'ây', 'oi', 'ôi', 'ơi'",
+        "en": "Vần 'ai', 'ay', 'ây', 'oi', 'ôi', 'ơi'"
+      },
+      "description": {
+        "vi": "Nhận biết tiếng mai, ngày, cây, bơi, ngói",
+        "en": "Nhận biết tiếng mai, ngày, cây, bơi, ngói"
+      },
+      "icon": "🌳",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_v1_t11_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Cây cổ thụ xoè tán lá xanh râm mát ở sân trường trong tranh là cây gì?",
+            "en": "Cây cổ thụ xoè tán lá xanh râm mát ở sân trường trong tranh là cây gì?"
+          },
+          "tts_prompt": {
+            "vi": "Cây cổ thụ xoè tán lá xanh râm mát ở sân trường trong tranh là cây gì?",
+            "en": "Cây cổ thụ xoè tán lá xanh râm mát ở sân trường trong tranh là cây gì?"
+          },
+          "hint": {
+            "vi": "Tán bàng như chiếc ô khổng lồ che mát cho các bạn học sinh.",
+            "en": "Tán bàng như chiếc ô khổng lồ che mát cho các bạn học sinh."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ câu: 'Cây bàng toả bóng mát'.",
+            "en": "Bức tranh minh hoạ câu: 'Cây bàng toả bóng mát'."
+          },
+          "data": {
+            "options": [
+              "cây bàng",
+              "cây cau",
+              "cây tre",
+              "cây mít"
+            ],
+            "correct_answer": "cây bàng"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_cay_bang_bong_mat.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'mai', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'mai', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'mai', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'mai', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'mai'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'mai'."
+          },
+          "explanation": {
+            "vi": "Trong 'mai', âm 'm' là âm đầu đứng trước.",
+            "en": "Trong 'mai', âm 'm' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "m",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "m"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "mai",
+                  "en": "mai"
+                },
+                "right": {
+                  "vi": "Tiếng mai",
+                  "en": "Tiếng mai"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "ngày",
+                  "en": "ngày"
+                },
+                "right": {
+                  "vi": "Tiếng ngày",
+                  "en": "Tiếng ngày"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "cây",
+                  "en": "cây"
+                },
+                "right": {
+                  "vi": "Tiếng cây",
+                  "en": "Tiếng cây"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'ngày' xuất hiện trong bài học về 'ai'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'ngày' xuất hiện trong bài học về 'ai'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'ai'.",
+            "en": "Nhớ lại nội dung bài học về 'ai'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'ngày' là trọng tâm trong bài học về 'ai'.",
+            "en": "Đúng! Nội dung 'ngày' là trọng tâm trong bài học về 'ai'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'ngày' xuất hiện trong bài học về 'ai'.",
+              "en": "Từ hoặc câu liên quan đến 'ngày' xuất hiện trong bài học về 'ai'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'mai'.",
+            "en": "Chọn từ đang học trong bài: 'mai'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'mai'.",
+            "en": "Từ chính xác là 'mai'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "mai",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "mai"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'mai':",
+            "en": "Ghép các chữ cái để tạo thành từ 'mai':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'mai':",
+            "en": "Ghép các chữ cái để tạo thành từ 'mai':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'mai'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'mai'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'mai'.",
+            "en": "Ghép các chữ cái tạo thành 'mai'."
+          },
+          "data": {
+            "letters": [
+              "i",
+              "a",
+              "m"
+            ],
+            "target_word": "mai",
+            "target_sequence": [
+              "m",
+              "a",
+              "i"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'mai' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'mai' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'mai' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'mai' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'mai'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'mai'."
+          },
+          "explanation": {
+            "vi": "'mai ngày' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'mai ngày' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "ngày",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "ngày"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Cây bàng toả bóng mát.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Cây bàng toả bóng mát.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Cây bàng toả bóng mát.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Cây bàng toả bóng mát.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Cây bàng toả bóng mát.' thuộc chủ đề 'Vần 'ai', 'ay', 'ây', 'oi', 'ôi', 'ơi''.",
+            "en": "Câu 'Cây bàng toả bóng mát.' thuộc chủ đề 'Vần 'ai', 'ay', 'ây', 'oi', 'ôi', 'ơi''."
+          },
+          "data": {
+            "options": [
+              "Vần 'ai', 'ay', 'ây', 'oi', 'ôi', 'ơi'",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Vần 'ai', 'ay', 'ây', 'oi', 'ôi', 'ơi'"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Vần 'ai' kết thúc bằng âm i ngắn, 'ay' kết thúc bằng y dài.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Vần 'ai' kết thúc bằng âm i ngắn, 'ay' kết thúc bằng y dài."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Vần 'ai' kết thúc bằng âm i ngắn, 'ay' kết thúc bằng y dài.",
+            "en": "Đúng! Vần 'ai' kết thúc bằng âm i ngắn, 'ay' kết thúc bằng y dài."
+          },
+          "data": {
+            "statement": {
+              "vi": "Vần 'ai' kết thúc bằng âm i ngắn, 'ay' kết thúc bằng y dài.",
+              "en": "Vần 'ai' kết thúc bằng âm i ngắn, 'ay' kết thúc bằng y dài."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Cây bàng toả bóng mát.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cây bàng toả bóng mát.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Cây bàng toả bóng mát.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Cây bàng toả bóng mát.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Cây bàng toả bóng mát..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Cây bàng toả bóng mát.."
+          },
+          "explanation": {
+            "vi": "Câu 'Cây bàng toả bóng mát.' có đúng 5 tiếng.",
+            "en": "Câu 'Cây bàng toả bóng mát.' có đúng 5 tiếng."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'ngày' mang dấu thanh gì?",
+            "en": "Tiếng 'ngày' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'ngày' mang dấu thanh gì?",
+            "en": "Tiếng 'ngày' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'ngày' mang dấu thanh chính xác.",
+            "en": "Tiếng 'ngày' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cây bàng toả bóng mát.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cây bàng toả bóng mát.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Cây bàng toả bóng mát.' Cây ... toả bóng mát.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Cây bàng toả bóng mát.' Cây ... toả bóng mát."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Cây bàng toả bóng mát..",
+            "en": "Nhớ lại câu mẫu: Cây bàng toả bóng mát.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'bàng'.",
+            "en": "Từ chính xác là 'bàng'."
+          },
+          "data": {
+            "prefix_text": "Cây ",
+            "suffix_text": " toả bóng mát.",
+            "options": [
+              "bàng",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "bàng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "M",
+                  "en": "M"
+                },
+                "right": {
+                  "vi": "m",
+                  "en": "m"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "C",
+                  "en": "C"
+                },
+                "right": {
+                  "vi": "c",
+                  "en": "c"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'mai'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'mai'."
+          },
+          "explanation": {
+            "vi": "'mai' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'mai' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "mai",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "mai"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'ai'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'ai'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'ai'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'ai'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'ai' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'ai' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'mai'.",
+            "en": "Tiếng mẫu của bài là 'mai'."
+          },
+          "data": {
+            "options": [
+              "mai",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "mai"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "v1_t11_2",
+      "title": {
+        "vi": "Vần 'ao', 'eo', 'au', 'âu', 'êu', 'iu', 'ưu'",
+        "en": "Vần 'ao', 'eo', 'au', 'âu', 'êu', 'iu', 'ưu'"
+      },
+      "description": {
+        "vi": "Nhận biết tiếng sao, mèo, tàu, cầu, kêu, cừu",
+        "en": "Nhận biết tiếng sao, mèo, tàu, cầu, kêu, cừu"
+      },
+      "icon": "⭐",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_v1_t11_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Những đốm sáng lung linh trên bầu trời đêm trong bức tranh là gì?",
+            "en": "Những đốm sáng lung linh trên bầu trời đêm trong bức tranh là gì?"
+          },
+          "tts_prompt": {
+            "vi": "Những đốm sáng lung linh trên bầu trời đêm trong bức tranh là gì?",
+            "en": "Những đốm sáng lung linh trên bầu trời đêm trong bức tranh là gì?"
+          },
+          "hint": {
+            "vi": "Bầu trời đêm tĩnh lặng lấp lánh muôn vì sao.",
+            "en": "Bầu trời đêm tĩnh lặng lấp lánh muôn vì sao."
+          },
+          "explanation": {
+            "vi": "Bức tranh minh hoạ câu: 'Bầu trời đêm đầy sao sáng'.",
+            "en": "Bức tranh minh hoạ câu: 'Bầu trời đêm đầy sao sáng'."
+          },
+          "data": {
+            "options": [
+              "những vì sao sáng",
+              "đèn lồng",
+              "bóng bay",
+              "phao cứu sinh"
+            ],
+            "correct_answer": "những vì sao sáng"
+          },
+          "images": [
+            "assets/learn/vietnamese/images_1/tv1_bau_troi_day_sao.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Trong tiếng hoặc từ 'sao', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'sao', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "tts_prompt": {
+            "vi": "Trong tiếng hoặc từ 'sao', âm nào đứng ở vị trí đầu tiên?",
+            "en": "Trong tiếng hoặc từ 'sao', âm nào đứng ở vị trí đầu tiên?"
+          },
+          "hint": {
+            "vi": "Quan sát chữ cái đầu tiên trong 'sao'.",
+            "en": "Quan sát chữ cái đầu tiên trong 'sao'."
+          },
+          "explanation": {
+            "vi": "Trong 'sao', âm 's' là âm đầu đứng trước.",
+            "en": "Trong 'sao', âm 's' là âm đầu đứng trước."
+          },
+          "data": {
+            "options": [
+              "s",
+              "o",
+              "u",
+              "i"
+            ],
+            "correct_answer": "s"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy nối tiếng hoặc từ tương ứng:",
+            "en": "Bé hãy nối tiếng hoặc từ tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng.",
+            "en": "Chạm vào ô bên trái rồi chạm vào ô bên phải tương ứng."
+          },
+          "explanation": {
+            "vi": "Bé ghép nối các cặp từ rất chính xác!",
+            "en": "Bé ghép nối các cặp từ rất chính xác!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "sao",
+                  "en": "sao"
+                },
+                "right": {
+                  "vi": "Tiếng sao",
+                  "en": "Tiếng sao"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "mèo",
+                  "en": "mèo"
+                },
+                "right": {
+                  "vi": "Tiếng mèo",
+                  "en": "Tiếng mèo"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "tàu",
+                  "en": "tàu"
+                },
+                "right": {
+                  "vi": "Tiếng tàu",
+                  "en": "Tiếng tàu"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'mèo' xuất hiện trong bài học về 'ao'.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Từ hoặc câu liên quan đến 'mèo' xuất hiện trong bài học về 'ao'."
+          },
+          "hint": {
+            "vi": "Nhớ lại nội dung bài học về 'ao'.",
+            "en": "Nhớ lại nội dung bài học về 'ao'."
+          },
+          "explanation": {
+            "vi": "Đúng! Nội dung 'mèo' là trọng tâm trong bài học về 'ao'.",
+            "en": "Đúng! Nội dung 'mèo' là trọng tâm trong bài học về 'ao'."
+          },
+          "data": {
+            "statement": {
+              "vi": "Từ hoặc câu liên quan đến 'mèo' xuất hiện trong bài học về 'ao'.",
+              "en": "Từ hoặc câu liên quan đến 'mèo' xuất hiện trong bài học về 'ao'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống:",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống:"
+          },
+          "tts_prompt": {
+            "vi": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ....",
+            "en": "Điền từ/tiếng thích hợp vào chỗ trống: Bé đọc từ: ...."
+          },
+          "hint": {
+            "vi": "Chọn từ đang học trong bài: 'sao'.",
+            "en": "Chọn từ đang học trong bài: 'sao'."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'sao'.",
+            "en": "Từ chính xác là 'sao'."
+          },
+          "data": {
+            "prefix_text": "Bé đọc từ: ",
+            "suffix_text": ".",
+            "options": [
+              "sao",
+              "xe máy",
+              "mực biển"
+            ],
+            "slot_answer": "sao"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'sao':",
+            "en": "Ghép các chữ cái để tạo thành từ 'sao':"
+          },
+          "tts_prompt": {
+            "vi": "Ghép các chữ cái để tạo thành từ 'sao':",
+            "en": "Ghép các chữ cái để tạo thành từ 'sao':"
+          },
+          "hint": {
+            "vi": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'sao'.",
+            "en": "Sắp xếp chữ cái theo đúng thứ tự đánh vần 'sao'."
+          },
+          "explanation": {
+            "vi": "Ghép các chữ cái tạo thành 'sao'.",
+            "en": "Ghép các chữ cái tạo thành 'sao'."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "a",
+              "s"
+            ],
+            "target_word": "sao",
+            "target_sequence": [
+              "s",
+              "a",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'sao' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'sao' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng nào dưới đây tạo với tiếng 'sao' thành cụm từ có nghĩa phù hợp trong bài?",
+            "en": "Tiếng nào dưới đây tạo với tiếng 'sao' thành cụm từ có nghĩa phù hợp trong bài?"
+          },
+          "hint": {
+            "vi": "Chọn tiếng quen thuộc đi cùng 'sao'.",
+            "en": "Chọn tiếng quen thuộc đi cùng 'sao'."
+          },
+          "explanation": {
+            "vi": "'sao mèo' là cụm từ có nghĩa chuẩn xác.",
+            "en": "'sao mèo' là cụm từ có nghĩa chuẩn xác."
+          },
+          "data": {
+            "options": [
+              "mèo",
+              "xe",
+              "mực",
+              "gỗ"
+            ],
+            "correct_answer": "mèo"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Đọc câu ứng dụng: 'Bầu trời đêm đầy sao sáng.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bầu trời đêm đầy sao sáng.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "tts_prompt": {
+            "vi": "Đọc câu ứng dụng: 'Bầu trời đêm đầy sao sáng.' - Câu trên xuất hiện trong chủ đề nào?",
+            "en": "Đọc câu ứng dụng: 'Bầu trời đêm đầy sao sáng.' - Câu trên xuất hiện trong chủ đề nào?"
+          },
+          "hint": {
+            "vi": "Xác định chủ đề bài học vừa đọc.",
+            "en": "Xác định chủ đề bài học vừa đọc."
+          },
+          "explanation": {
+            "vi": "Câu 'Bầu trời đêm đầy sao sáng.' thuộc chủ đề 'Vần 'ao', 'eo', 'au', 'âu', 'êu', 'iu', 'ưu''.",
+            "en": "Câu 'Bầu trời đêm đầy sao sáng.' thuộc chủ đề 'Vần 'ao', 'eo', 'au', 'âu', 'êu', 'iu', 'ưu''."
+          },
+          "data": {
+            "options": [
+              "Vần 'ao', 'eo', 'au', 'âu', 'êu', 'iu', 'ưu'",
+              "Toán học",
+              "Tiếng Anh",
+              "Tin học"
+            ],
+            "correct_answer": "Vần 'ao', 'eo', 'au', 'âu', 'êu', 'iu', 'ưu'"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Tiếng 'sao' có âm s và vần ao.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Tiếng 'sao' có âm s và vần ao."
+          },
+          "hint": {
+            "vi": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt.",
+            "en": "Nhớ lại quy tắc chính tả và ngữ pháp tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Tiếng 'sao' có âm s và vần ao.",
+            "en": "Đúng! Tiếng 'sao' có âm s và vần ao."
+          },
+          "data": {
+            "statement": {
+              "vi": "Tiếng 'sao' có âm s và vần ao.",
+              "en": "Tiếng 'sao' có âm s và vần ao."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "Câu 'Bầu trời đêm đầy sao sáng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bầu trời đêm đầy sao sáng.' có tất cả bao nhiêu tiếng?"
+          },
+          "tts_prompt": {
+            "vi": "Câu 'Bầu trời đêm đầy sao sáng.' có tất cả bao nhiêu tiếng?",
+            "en": "Câu 'Bầu trời đêm đầy sao sáng.' có tất cả bao nhiêu tiếng?"
+          },
+          "hint": {
+            "vi": "Bé hãy đếm từng tiếng trong câu: Bầu trời đêm đầy sao sáng..",
+            "en": "Bé hãy đếm từng tiếng trong câu: Bầu trời đêm đầy sao sáng.."
+          },
+          "explanation": {
+            "vi": "Câu 'Bầu trời đêm đầy sao sáng.' có đúng 6 tiếng.",
+            "en": "Câu 'Bầu trời đêm đầy sao sáng.' có đúng 6 tiếng."
+          },
+          "data": {
+            "correct_number": "6",
+            "unit": "tiếng"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Tiếng 'mèo' mang dấu thanh gì?",
+            "en": "Tiếng 'mèo' mang dấu thanh gì?"
+          },
+          "tts_prompt": {
+            "vi": "Tiếng 'mèo' mang dấu thanh gì?",
+            "en": "Tiếng 'mèo' mang dấu thanh gì?"
+          },
+          "hint": {
+            "vi": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái.",
+            "en": "Quan sát dấu thanh đặt trên hoặc dưới chữ cái."
+          },
+          "explanation": {
+            "vi": "Tiếng 'mèo' mang dấu thanh chính xác.",
+            "en": "Tiếng 'mèo' mang dấu thanh chính xác."
+          },
+          "data": {
+            "options": [
+              "Dấu huyền (\\)",
+              "Dấu sắc (/)",
+              "Dấu hỏi (?)",
+              "Dấu ngã (~)"
+            ],
+            "correct_answer": "Dấu huyền (\\)"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bầu trời đêm đầy sao sáng.'",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bầu trời đêm đầy sao sáng.'"
+          },
+          "tts_prompt": {
+            "vi": "Chọn từ còn thiếu để hoàn thiện câu: 'Bầu trời đêm đầy sao sáng.' Bầu ... đêm đầy sao sáng.",
+            "en": "Chọn từ còn thiếu để hoàn thiện câu: 'Bầu trời đêm đầy sao sáng.' Bầu ... đêm đầy sao sáng."
+          },
+          "hint": {
+            "vi": "Nhớ lại câu mẫu: Bầu trời đêm đầy sao sáng..",
+            "en": "Nhớ lại câu mẫu: Bầu trời đêm đầy sao sáng.."
+          },
+          "explanation": {
+            "vi": "Từ chính xác là 'trời'.",
+            "en": "Từ chính xác là 'trời'."
+          },
+          "data": {
+            "prefix_text": "Bầu ",
+            "suffix_text": " đêm đầy sao sáng.",
+            "options": [
+              "trời",
+              "chạy",
+              "ngủ"
+            ],
+            "slot_answer": "trời"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "tts_prompt": {
+            "vi": "Nối chữ in hoa với chữ in thường tương ứng:",
+            "en": "Nối chữ in hoa với chữ in thường tương ứng:"
+          },
+          "hint": {
+            "vi": "Chạm vào chữ in hoa rồi chạm vào chữ in thường.",
+            "en": "Chạm vào chữ in hoa rồi chạm vào chữ in thường."
+          },
+          "explanation": {
+            "vi": "Bé nhận diện chữ in hoa và in thường rất tốt!",
+            "en": "Bé nhận diện chữ in hoa và in thường rất tốt!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "S",
+                  "en": "S"
+                },
+                "right": {
+                  "vi": "s",
+                  "en": "s"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "T",
+                  "en": "T"
+                },
+                "right": {
+                  "vi": "t",
+                  "en": "t"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "tts_prompt": {
+            "vi": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?",
+            "en": "Từ ngữ nào dưới đây chỉ sự vật gần gũi xuất hiện trong bài học?"
+          },
+          "hint": {
+            "vi": "Tìm từ chỉ sự vật quen thuộc trong bài: 'sao'.",
+            "en": "Tìm từ chỉ sự vật quen thuộc trong bài: 'sao'."
+          },
+          "explanation": {
+            "vi": "'sao' là từ ngữ mô tả sự vật trong bài học.",
+            "en": "'sao' là từ ngữ mô tả sự vật trong bài học."
+          },
+          "data": {
+            "options": [
+              "sao",
+              "xa xôi",
+              "mơ màng",
+              "lung linh"
+            ],
+            "correct_answer": "sao"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI:"
+          },
+          "tts_prompt": {
+            "vi": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+            "en": "Bé hãy xem câu khẳng định sau là ĐÚNG hay SAI: Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+          },
+          "hint": {
+            "vi": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt.",
+            "en": "Nhớ lại vị trí đặt dấu thanh trong tiếng Việt."
+          },
+          "explanation": {
+            "vi": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính.",
+            "en": "Đúng! Dấu thanh luôn được đặt trên hoặc dưới chữ cái âm chính."
+          },
+          "data": {
+            "statement": {
+              "vi": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng.",
+              "en": "Khi viết, dấu thanh được đặt trên hoặc dưới âm chính của tiếng."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_v1_t11_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Bé đã học xong bài về 'ao'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'ao'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "tts_prompt": {
+            "vi": "Bé đã học xong bài về 'ao'. Hãy chọn tiếng mẫu của bài học:",
+            "en": "Bé đã học xong bài về 'ao'. Hãy chọn tiếng mẫu của bài học:"
+          },
+          "hint": {
+            "vi": "Chọn tiếng ngắn chứa âm 'ao' mà bé vừa luyện tập.",
+            "en": "Chọn tiếng ngắn chứa âm 'ao' mà bé vừa luyện tập."
+          },
+          "explanation": {
+            "vi": "Tiếng mẫu của bài là 'sao'.",
+            "en": "Tiếng mẫu của bài là 'sao'."
+          },
+          "data": {
+            "options": [
+              "sao",
+              "ô tô",
+              "máy bay",
+              "tàu thuỷ"
+            ],
+            "correct_answer": "sao"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}

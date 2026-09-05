@@ -1,0 +1,1126 @@
+{
+  "id": "e1_stage_1",
+  "stage_number": 1,
+  "title": {
+    "vi": "Week 1: Starter - Hello & Friends",
+    "en": "Week 1: Starter - Hello & Friends"
+  },
+  "subtitle": {
+    "vi": "Greetings & Meeting New Friends (Bill, Ba, Mai, Linh)",
+    "en": "Greetings & Meeting New Friends (Bill, Ba, Mai, Linh)"
+  },
+  "icon": "👋",
+  "banner_image": null,
+  "x_percent": 0.35,
+  "y_percent": 0.95,
+  "required_stars": 0,
+  "theme_color": "0xFF0284C7",
+  "topics": [
+    {
+      "id": "e1_s1_1",
+      "title": {
+        "vi": "Starter: Hello & Goodbye",
+        "en": "Starter: Hello & Goodbye"
+      },
+      "description": {
+        "vi": "Learn to say Hello, Hi, and Goodbye nicely",
+        "en": "Learn to say Hello, Hi, and Goodbye nicely"
+      },
+      "icon": "👋",
+      "thumbnail": null,
+      "order_index": 1,
+      "questions": [
+        {
+          "id": "q_e1_s1_1_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the picture. What are the happy kids saying when they meet at school?",
+            "en": "Look at the picture. What are the happy kids saying when they meet at school?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the picture. What are the happy kids saying when they meet at school?",
+            "en": "Look at the picture. What are the happy kids saying when they meet at school?"
+          },
+          "hint": {
+            "vi": "They are waving their hands and smiling happily.",
+            "en": "They are waving their hands and smiling happily."
+          },
+          "explanation": {
+            "vi": "The kids are saying 'Hello!' to greet each other.",
+            "en": "The kids are saying 'Hello!' to greet each other."
+          },
+          "data": {
+            "options": [
+              "Hello! Nice to meet you!",
+              "Good night, sleep well!",
+              "I am angry!",
+              "Goodbye forever!"
+            ],
+            "correct_answer": "Hello! Nice to meet you!"
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_starter_hello.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'hello'?",
+            "en": "What is the first letter of the word 'hello'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'hello'?",
+            "en": "What is the first letter of the word 'hello'?"
+          },
+          "hint": {
+            "vi": "The word 'hello' starts with the letter H.",
+            "en": "The word 'hello' starts with the letter H."
+          },
+          "explanation": {
+            "vi": "Correct! 'hello' begins with the letter 'H'.",
+            "en": "Correct! 'hello' begins with the letter 'H'."
+          },
+          "data": {
+            "options": [
+              "Letter H",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter H"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "hello",
+                  "en": "hello"
+                },
+                "right": {
+                  "vi": "Nghĩa của hello",
+                  "en": "Nghĩa của hello"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "goodbye",
+                  "en": "goodbye"
+                },
+                "right": {
+                  "vi": "Nghĩa của goodbye",
+                  "en": "Nghĩa của goodbye"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "friends",
+                  "en": "friends"
+                },
+                "right": {
+                  "vi": "Nghĩa của friends",
+                  "en": "Nghĩa của friends"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? Hello! I am Bill.",
+            "en": "Is this English sentence correct for Grade 1? Hello! I am Bill."
+          },
+          "hint": {
+            "vi": "Remember the pattern: Hello! I am Bill.",
+            "en": "Remember the pattern: Hello! I am Bill."
+          },
+          "explanation": {
+            "vi": "Yes! 'Hello! I am Bill.' is a correct English sentence.",
+            "en": "Yes! 'Hello! I am Bill.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "Hello! I am Bill.",
+              "en": "Hello! I am Bill."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: Hello! I am ....",
+            "en": "Drag the correct word to complete the sentence: Hello! I am ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Bill'.",
+            "en": "Choose the correct word: 'Bill'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'Hello! I am Bill.'.",
+            "en": "The complete sentence is: 'Hello! I am Bill.'."
+          },
+          "data": {
+            "prefix_text": "Hello! I am ",
+            "suffix_text": ".",
+            "options": [
+              "Bill",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "Bill"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'hello':",
+            "en": "Spell the English word 'hello':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'hello':",
+            "en": "Spell the English word 'hello':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'hello'.",
+            "en": "Tap the letters in order to spell 'hello'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'hello' correctly.",
+            "en": "Well done! You spelled 'hello' correctly."
+          },
+          "data": {
+            "letters": [
+              "o",
+              "l",
+              "l",
+              "e",
+              "h"
+            ],
+            "target_word": "hello",
+            "target_sequence": [
+              "h",
+              "e",
+              "l",
+              "l",
+              "o"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Xin chào! Tôi là Bill.' in English?",
+            "en": "How do you say 'Xin chào! Tôi là Bill.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Xin chào! Tôi là Bill.' in English?",
+            "en": "How do you say 'Xin chào! Tôi là Bill.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Xin chào! Tôi là Bill.",
+            "en": "Choose the English sentence that means: Xin chào! Tôi là Bill."
+          },
+          "explanation": {
+            "vi": "'Hello! I am Bill.' means 'Xin chào! Tôi là Bill.'.",
+            "en": "'Hello! I am Bill.' means 'Xin chào! Tôi là Bill.'."
+          },
+          "data": {
+            "options": [
+              "Hello! I am Bill.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "Hello! I am Bill."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Starter: Hello & Goodbye'?",
+            "en": "Which of the following is a word from Unit 'Starter: Hello & Goodbye'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Starter: Hello & Goodbye'?",
+            "en": "Which of the following is a word from Unit 'Starter: Hello & Goodbye'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Starter: Hello & Goodbye.",
+            "en": "Remember the words in topic: Starter: Hello & Goodbye."
+          },
+          "explanation": {
+            "vi": "'hello' is a key vocabulary word in this topic.",
+            "en": "'hello' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "hello",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "hello"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'goodbye' start with the sound /h/?",
+            "en": "Does the word 'goodbye' start with the sound /h/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'goodbye' start with the sound /h/? The word 'goodbye' starts with letter 'H'.",
+            "en": "Does the word 'goodbye' start with the sound /h/? The word 'goodbye' starts with letter 'H'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'goodbye'.",
+            "en": "Listen to the first sound of 'goodbye'."
+          },
+          "explanation": {
+            "vi": "Yes! 'goodbye' starts with the sound /h/.",
+            "en": "Yes! 'goodbye' starts with the sound /h/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'goodbye' starts with letter 'H'.",
+              "en": "The word 'goodbye' starts with letter 'H'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'hello'?",
+            "en": "How many letters are there in the word 'hello'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'hello'?",
+            "en": "How many letters are there in the word 'hello'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'hello': 1, 2, 3...",
+            "en": "Count the letters in 'hello': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'hello' has exactly 5 letters.",
+            "en": "The word 'hello' has exactly 5 letters."
+          },
+          "data": {
+            "correct_number": "5",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'hello':",
+            "en": "Choose the correct article before 'hello':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'hello':",
+            "en": "Choose the correct article before 'hello':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a hello'.",
+            "en": "Correct! We say 'a hello'."
+          },
+          "data": {
+            "options": [
+              "a hello",
+              "an hello",
+              "two hello",
+              "many hello"
+            ],
+            "correct_answer": "a hello"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "H",
+                  "en": "H"
+                },
+                "right": {
+                  "vi": "h",
+                  "en": "h"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_1_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Starter: Hello & Goodbye'?",
+            "en": "Which English sentence best describes the topic 'Starter: Hello & Goodbye'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Starter: Hello & Goodbye'?",
+            "en": "Which English sentence best describes the topic 'Starter: Hello & Goodbye'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Starter: Hello & Goodbye'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Starter: Hello & Goodbye'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: hello, goodbye!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: hello, goodbye!"
+          },
+          "status": "active"
+        }
+      ]
+    },
+    {
+      "id": "e1_s1_2",
+      "title": {
+        "vi": "Starter: What's Your Name?",
+        "en": "Starter: What's Your Name?"
+      },
+      "description": {
+        "vi": "Introducing yourself: My name is...",
+        "en": "Introducing yourself: My name is..."
+      },
+      "icon": "🏷️",
+      "thumbnail": null,
+      "order_index": 2,
+      "questions": [
+        {
+          "id": "q_e1_s1_2_1",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Look at the cute girl holding her name badge. What is she saying?",
+            "en": "Look at the cute girl holding her name badge. What is she saying?"
+          },
+          "tts_prompt": {
+            "vi": "Look at the cute girl holding her name badge. What is she saying?",
+            "en": "Look at the cute girl holding her name badge. What is she saying?"
+          },
+          "hint": {
+            "vi": "She is introducing her name politely.",
+            "en": "She is introducing her name politely."
+          },
+          "explanation": {
+            "vi": "She is saying: 'My name is Mai.'",
+            "en": "She is saying: 'My name is Mai.'"
+          },
+          "data": {
+            "options": [
+              "My name is Mai.",
+              "This is a car.",
+              "I have a pizza.",
+              "Open the window."
+            ],
+            "correct_answer": "My name is Mai."
+          },
+          "images": [
+            "assets/learn/english/images_1/eng1_starter_names.png"
+          ],
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_2",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What is the first letter of the word 'name'?",
+            "en": "What is the first letter of the word 'name'?"
+          },
+          "tts_prompt": {
+            "vi": "What is the first letter of the word 'name'?",
+            "en": "What is the first letter of the word 'name'?"
+          },
+          "hint": {
+            "vi": "The word 'name' starts with the letter N.",
+            "en": "The word 'name' starts with the letter N."
+          },
+          "explanation": {
+            "vi": "Correct! 'name' begins with the letter 'N'.",
+            "en": "Correct! 'name' begins with the letter 'N'."
+          },
+          "data": {
+            "options": [
+              "Letter N",
+              "Letter X",
+              "Letter Z",
+              "Letter Q"
+            ],
+            "correct_answer": "Letter N"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_3",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "tts_prompt": {
+            "vi": "Match the English words with their correct meanings:",
+            "en": "Match the English words with their correct meanings:"
+          },
+          "hint": {
+            "vi": "Tap the English word on the left, then tap its meaning on the right.",
+            "en": "Tap the English word on the left, then tap its meaning on the right."
+          },
+          "explanation": {
+            "vi": "Great job matching the vocabulary words!",
+            "en": "Great job matching the vocabulary words!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "name",
+                  "en": "name"
+                },
+                "right": {
+                  "vi": "Nghĩa của name",
+                  "en": "Nghĩa của name"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "Mai",
+                  "en": "Mai"
+                },
+                "right": {
+                  "vi": "Nghĩa của Mai",
+                  "en": "Nghĩa của Mai"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "Linh",
+                  "en": "Linh"
+                },
+                "right": {
+                  "vi": "Nghĩa của Linh",
+                  "en": "Nghĩa của Linh"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_4",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is this English sentence correct for Grade 1?",
+            "en": "Is this English sentence correct for Grade 1?"
+          },
+          "tts_prompt": {
+            "vi": "Is this English sentence correct for Grade 1? My name is Mai.",
+            "en": "Is this English sentence correct for Grade 1? My name is Mai."
+          },
+          "hint": {
+            "vi": "Remember the pattern: My name is Mai.",
+            "en": "Remember the pattern: My name is Mai."
+          },
+          "explanation": {
+            "vi": "Yes! 'My name is Mai.' is a correct English sentence.",
+            "en": "Yes! 'My name is Mai.' is a correct English sentence."
+          },
+          "data": {
+            "statement": {
+              "vi": "My name is Mai.",
+              "en": "My name is Mai."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_5",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Drag the correct word to complete the sentence:",
+            "en": "Drag the correct word to complete the sentence:"
+          },
+          "tts_prompt": {
+            "vi": "Drag the correct word to complete the sentence: My name is ....",
+            "en": "Drag the correct word to complete the sentence: My name is ...."
+          },
+          "hint": {
+            "vi": "Choose the correct word: 'Mai'.",
+            "en": "Choose the correct word: 'Mai'."
+          },
+          "explanation": {
+            "vi": "The complete sentence is: 'My name is Mai.'.",
+            "en": "The complete sentence is: 'My name is Mai.'."
+          },
+          "data": {
+            "prefix_text": "My name is ",
+            "suffix_text": ".",
+            "options": [
+              "Mai",
+              "banana",
+              "elephant"
+            ],
+            "slot_answer": "Mai"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_6",
+          "type": "wordBuilder",
+          "text": {
+            "vi": "Spell the English word 'name':",
+            "en": "Spell the English word 'name':"
+          },
+          "tts_prompt": {
+            "vi": "Spell the English word 'name':",
+            "en": "Spell the English word 'name':"
+          },
+          "hint": {
+            "vi": "Tap the letters in order to spell 'name'.",
+            "en": "Tap the letters in order to spell 'name'."
+          },
+          "explanation": {
+            "vi": "Well done! You spelled 'name' correctly.",
+            "en": "Well done! You spelled 'name' correctly."
+          },
+          "data": {
+            "letters": [
+              "e",
+              "m",
+              "a",
+              "n"
+            ],
+            "target_word": "name",
+            "target_sequence": [
+              "n",
+              "a",
+              "m",
+              "e"
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_7",
+          "type": "singleChoice",
+          "text": {
+            "vi": "How do you say 'Tên của tôi là Mai.' in English?",
+            "en": "How do you say 'Tên của tôi là Mai.' in English?"
+          },
+          "tts_prompt": {
+            "vi": "How do you say 'Tên của tôi là Mai.' in English?",
+            "en": "How do you say 'Tên của tôi là Mai.' in English?"
+          },
+          "hint": {
+            "vi": "Choose the English sentence that means: Tên của tôi là Mai.",
+            "en": "Choose the English sentence that means: Tên của tôi là Mai."
+          },
+          "explanation": {
+            "vi": "'My name is Mai.' means 'Tên của tôi là Mai.'.",
+            "en": "'My name is Mai.' means 'Tên của tôi là Mai.'."
+          },
+          "data": {
+            "options": [
+              "My name is Mai.",
+              "Good night everyone.",
+              "I am sleeping.",
+              "Goodbye teacher."
+            ],
+            "correct_answer": "My name is Mai."
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_8",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which of the following is a word from Unit 'Starter: What's Your Name?'?",
+            "en": "Which of the following is a word from Unit 'Starter: What's Your Name?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which of the following is a word from Unit 'Starter: What's Your Name?'?",
+            "en": "Which of the following is a word from Unit 'Starter: What's Your Name?'?"
+          },
+          "hint": {
+            "vi": "Remember the words in topic: Starter: What's Your Name?.",
+            "en": "Remember the words in topic: Starter: What's Your Name?."
+          },
+          "explanation": {
+            "vi": "'name' is a key vocabulary word in this topic.",
+            "en": "'name' is a key vocabulary word in this topic."
+          },
+          "data": {
+            "options": [
+              "name",
+              "airplane",
+              "dinosaur",
+              "watermelon"
+            ],
+            "correct_answer": "name"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_9",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Does the word 'Mai' start with the sound /n/?",
+            "en": "Does the word 'Mai' start with the sound /n/?"
+          },
+          "tts_prompt": {
+            "vi": "Does the word 'Mai' start with the sound /n/? The word 'Mai' starts with letter 'N'.",
+            "en": "Does the word 'Mai' start with the sound /n/? The word 'Mai' starts with letter 'N'."
+          },
+          "hint": {
+            "vi": "Listen to the first sound of 'Mai'.",
+            "en": "Listen to the first sound of 'Mai'."
+          },
+          "explanation": {
+            "vi": "Yes! 'Mai' starts with the sound /n/.",
+            "en": "Yes! 'Mai' starts with the sound /n/."
+          },
+          "data": {
+            "statement": {
+              "vi": "The word 'Mai' starts with letter 'N'.",
+              "en": "The word 'Mai' starts with letter 'N'."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_10",
+          "type": "fillNumber",
+          "text": {
+            "vi": "How many letters are there in the word 'name'?",
+            "en": "How many letters are there in the word 'name'?"
+          },
+          "tts_prompt": {
+            "vi": "How many letters are there in the word 'name'?",
+            "en": "How many letters are there in the word 'name'?"
+          },
+          "hint": {
+            "vi": "Count the letters in 'name': 1, 2, 3...",
+            "en": "Count the letters in 'name': 1, 2, 3..."
+          },
+          "explanation": {
+            "vi": "The word 'name' has exactly 4 letters.",
+            "en": "The word 'name' has exactly 4 letters."
+          },
+          "data": {
+            "correct_number": "4",
+            "unit": "letters"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_11",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Choose the correct article before 'name':",
+            "en": "Choose the correct article before 'name':"
+          },
+          "tts_prompt": {
+            "vi": "Choose the correct article before 'name':",
+            "en": "Choose the correct article before 'name':"
+          },
+          "hint": {
+            "vi": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants.",
+            "en": "Use 'an' before vowels (a, e, i, o, u) and 'a' before consonants."
+          },
+          "explanation": {
+            "vi": "Correct! We say 'a name'.",
+            "en": "Correct! We say 'a name'."
+          },
+          "data": {
+            "options": [
+              "a name",
+              "an name",
+              "two name",
+              "many name"
+            ],
+            "correct_answer": "a name"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_12",
+          "type": "dragToSlot",
+          "text": {
+            "vi": "Complete the friendly conversation:",
+            "en": "Complete the friendly conversation:"
+          },
+          "tts_prompt": {
+            "vi": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!",
+            "en": "Complete the friendly conversation: Hello! My name is .... Nice to meet you!"
+          },
+          "hint": {
+            "vi": "Choose a person's name to complete the greeting.",
+            "en": "Choose a person's name to complete the greeting."
+          },
+          "explanation": {
+            "vi": "We say: 'Hello! My name is Nam. Nice to meet you!'",
+            "en": "We say: 'Hello! My name is Nam. Nice to meet you!'"
+          },
+          "data": {
+            "prefix_text": "Hello! My name is ",
+            "suffix_text": ". Nice to meet you!",
+            "options": [
+              "Nam",
+              "Table",
+              "Window"
+            ],
+            "slot_answer": "Nam"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_13",
+          "type": "matchingPairs",
+          "text": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "tts_prompt": {
+            "vi": "Match the uppercase and lowercase letters:",
+            "en": "Match the uppercase and lowercase letters:"
+          },
+          "hint": {
+            "vi": "Match the big letter with its small letter.",
+            "en": "Match the big letter with its small letter."
+          },
+          "explanation": {
+            "vi": "Great job matching uppercase and lowercase letters!",
+            "en": "Great job matching uppercase and lowercase letters!"
+          },
+          "data": {
+            "pairs": [
+              {
+                "id": "p1",
+                "left": {
+                  "vi": "N",
+                  "en": "N"
+                },
+                "right": {
+                  "vi": "n",
+                  "en": "n"
+                }
+              },
+              {
+                "id": "p2",
+                "left": {
+                  "vi": "A",
+                  "en": "A"
+                },
+                "right": {
+                  "vi": "a",
+                  "en": "a"
+                }
+              },
+              {
+                "id": "p3",
+                "left": {
+                  "vi": "B",
+                  "en": "B"
+                },
+                "right": {
+                  "vi": "b",
+                  "en": "b"
+                }
+              }
+            ]
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_14",
+          "type": "singleChoice",
+          "text": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "tts_prompt": {
+            "vi": "What should you do when the teacher says: 'Open your book'?",
+            "en": "What should you do when the teacher says: 'Open your book'?"
+          },
+          "hint": {
+            "vi": "'Open your book' means opening your textbook to study.",
+            "en": "'Open your book' means opening your textbook to study."
+          },
+          "explanation": {
+            "vi": "'Open your book' means 'Mở sách ra'.",
+            "en": "'Open your book' means 'Mở sách ra'."
+          },
+          "data": {
+            "options": [
+              "Mở sách ra học bài",
+              "Gấp sách lại và đi ngủ",
+              "Đứng lên nhảy múa",
+              "Uống một cốc nước"
+            ],
+            "correct_answer": "Mở sách ra học bài"
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_15",
+          "type": "trueFalse",
+          "text": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you?",
+            "en": "Is it polite to say 'Thank you' when someone helps you?"
+          },
+          "tts_prompt": {
+            "vi": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness.",
+            "en": "Is it polite to say 'Thank you' when someone helps you? Saying 'Thank you' shows good manners and kindness."
+          },
+          "hint": {
+            "vi": "Think about good manners when receiving help.",
+            "en": "Think about good manners when receiving help."
+          },
+          "explanation": {
+            "vi": "Yes! Always say 'Thank you' to be polite and friendly.",
+            "en": "Yes! Always say 'Thank you' to be polite and friendly."
+          },
+          "data": {
+            "statement": {
+              "vi": "Saying 'Thank you' shows good manners and kindness.",
+              "en": "Saying 'Thank you' shows good manners and kindness."
+            },
+            "is_correct": true
+          },
+          "status": "active"
+        },
+        {
+          "id": "q_e1_s1_2_16",
+          "type": "singleChoice",
+          "text": {
+            "vi": "Which English sentence best describes the topic 'Starter: What's Your Name?'?",
+            "en": "Which English sentence best describes the topic 'Starter: What's Your Name?'?"
+          },
+          "tts_prompt": {
+            "vi": "Which English sentence best describes the topic 'Starter: What's Your Name?'?",
+            "en": "Which English sentence best describes the topic 'Starter: What's Your Name?'?"
+          },
+          "hint": {
+            "vi": "Select the positive and encouraging sentence.",
+            "en": "Select the positive and encouraging sentence."
+          },
+          "explanation": {
+            "vi": "Great job! You mastered the vocabulary and phonics of 'Starter: What's Your Name?'!",
+            "en": "Great job! You mastered the vocabulary and phonics of 'Starter: What's Your Name?'!"
+          },
+          "data": {
+            "options": [
+              "I love learning English: name, Mai!",
+              "I do not want to study.",
+              "Turn off the light.",
+              "It is raining outside."
+            ],
+            "correct_answer": "I love learning English: name, Mai!"
+          },
+          "status": "active"
+        }
+      ]
+    }
+  ]
+}
