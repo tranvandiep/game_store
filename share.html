@@ -3068,7 +3068,7 @@
               </h2>
 
               <div class="card-action">
-                <button class="btn-add-mykiddy" onclick="shareToMyKiddy('${escapedTitle}', '${playlistUrl}')">
+                <button class="btn-add-mykiddy" onclick="shareToMyKiddy('${playlistUrl}')">
                   <span>➕</span> Thêm vào My Kiddy
                 </button>
                 <button class="btn-youtube-link" title="Mở playlist trên YouTube" onclick="openYouTube('${playlistUrl}')">
@@ -3083,20 +3083,34 @@
     }
 
     /**
-     * 7. CHỨC NĂNG CHIA SẺ VÀO MY KIDDY
+     * 7. CHỨC NĂNG CHIA SẺ VÀO MY KIDDY (CHỈ GỬI DUY NHẤT URL ĐỂ APP NHẬN ĐÚNG LINK)
      */
-    function shareToMyKiddy(title, url) {
+    function shareToMyKiddy(url) {
+      if (!url || url === "#") {
+        showToast("Đường dẫn không hợp lệ!");
+        return;
+      }
       if (navigator.share) {
         navigator.share({
-          title: title,
-          text: `Thêm vào My Kiddy: ${title}`,
           url: url,
         }).then(() => {
-          showToast("Đã chia sẻ vào My Kiddy thành công! 🎉");
+          showToast("Đã chia sẻ link vào My Kiddy! 🎉");
         }).catch((err) => {
           if (err && err.name !== "AbortError") {
-            showToast("Không thể thực hiện chia sẻ lúc này.");
+            copyToClipboard(url);
           }
+        });
+      } else {
+        copyToClipboard(url);
+      }
+    }
+
+    function copyToClipboard(url) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+          showToast("Đã sao chép link! Dán vào My Kiddy nhé 📋");
+        }).catch(() => {
+          showToast("Thiết bị hoặc trình duyệt không hỗ trợ tính năng chia sẻ.");
         });
       } else {
         showToast("Thiết bị hoặc trình duyệt không hỗ trợ tính năng chia sẻ.");
