@@ -15,8 +15,8 @@ Kho ứng dụng và phân phối các gói tài nguyên **Trò chơi Giáo dụ
 
 Người chơi và kiểm thử viên có thể trải nghiệm trực tiếp toàn bộ các Game và Flashcard trên trình duyệt thông qua GitHub Pages:
 
-- 🌐 **Web Portal Trực Tuyến**: [https://tranvandiep.github.io/game_store/](https://tranvandiep.github.io/game_store/)
-- 🐔 **Bắt Gà Tinh Nghịch (Game)**: [https://tranvandiep.github.io/game_store/online/games/catch_chicken/](https://tranvandiep.github.io/game_store/online/games/catch_chicken/)
+- 🌐 **Web Portal Trực Tuyến**: [https://mykiddy.net/](https://mykiddy.net/)
+- 🐔 **Bắt Gà Tinh Nghịch (Game)**: [https://mykiddy.net/online/games/catch_chicken/](https://mykiddy.net/online/games/catch_chicken/)
 
 ---
 
@@ -33,7 +33,7 @@ Người chơi và kiểm thử viên có thể trải nghiệm trực tiếp to
 
 | Tên Gói | Loại | Mã Code | Phiên Bản | Link Tải Trực Tiếp (Raw Zip) | Chơi Trực Tuyến |
 | :--- | :---: | :---: | :---: | :--- | :---: |
-| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v7` | [CATCH_CHICKEN.zip](https://raw.githubusercontent.com/tranvandiep/game_store/main/games/CATCH_CHICKEN.zip) | [Chơi Ngay ➔](https://tranvandiep.github.io/game_store/online/games/catch_chicken/) |
+| **Bắt Gà Tinh Nghịch** | Game | `CATCH_CHICKEN` | `v7` | [CATCH_CHICKEN.zip](https://mykiddy.net/games/CATCH_CHICKEN.zip) | [Chơi Ngay ➔](https://mykiddy.net/online/games/catch_chicken/) |
 
 ---
 
@@ -41,7 +41,7 @@ Người chơi và kiểm thử viên có thể trải nghiệm trực tiếp to
 
 Ứng dụng **My Kiddy** sử dụng đường dẫn sau để tự động kiểm tra và đồng bộ danh sách gói mới nhất:
 ```text
-https://raw.githubusercontent.com/tranvandiep/game_store/main/web_games_manifest.json
+https://mykiddy.net/web_games_manifest.json
 ```
 
 ---
