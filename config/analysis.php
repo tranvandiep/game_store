@@ -350,6 +350,7 @@ try {
             'type' => $type,
             'title' => $title,
             'thumbnail' => $thumbnail,
+            'youtube_channel' => ($type === 'channel') ? $cleanUrl : '',
             'total' => count($videos),
             'ages' => $sortedAges,
             'videos' => $videos
