@@ -254,6 +254,26 @@
       padding-top: 24px;
       border-top: 2px solid rgba(255,255,255,0.7);
     }
+    .footer-legal-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px 24px;
+      margin: 14px 0 16px;
+      list-style: none;
+      padding: 0;
+    }
+    .footer-legal-links a {
+      color: #6D28D9;
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 800;
+      transition: color 0.15s ease;
+    }
+    .footer-legal-links a:hover {
+      color: #4C1D95;
+      text-decoration: underline;
+    }
     .app-links {
       display: flex;
       justify-content: center;
@@ -276,6 +296,12 @@
     }
     .app-btn:hover {
       transform: translateY(-2px);
+    }
+    .footer-copyright {
+      font-size: 12.5px;
+      color: #94A3B8;
+      font-weight: 700;
+      margin-top: 14px;
     }
     @keyframes bounce {
       0%, 100% { transform: translateY(0); }
@@ -369,7 +395,14 @@
     </div>
 
     <footer>
-      <p style="font-size: 14px; font-weight: 800; color: #78350F;">Ứng dụng My Kiddy – Quản lý an toàn & giáo dục toàn diện</p>
+      <p style="font-size: 14px; font-weight: 800; color: #78350F;">Ứng dụng My Kiddy – Quản lý an toàn &amp; giáo dục toàn diện</p>
+      
+      <ul class="footer-legal-links">
+        <li><a href="../pages/privacy-policy.html">🔒 Chính Sách Bảo Mật</a></li>
+        <li><a href="../pages/terms-and-conditions-of-use.html">📜 Điều Khoản Sử Dụng</a></li>
+        <li><a href="../pages/licensed-application-end-user-license-agreement.html">📱 Thỏa Thuận Cấp Phép (EULA)</a></li>
+      </ul>
+
       <div class="app-links">
         <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" class="app-btn">
           <span>🤖 Tải trên Google Play</span>
@@ -378,6 +411,8 @@
           <span>🍏 Tải trên App Store</span>
         </a>
       </div>
+
+      <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved.</p>
     </footer>
   </div>
 
