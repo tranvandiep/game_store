@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index, follow"> <meta http-equiv="Cache-control" content="public">
+<meta http-equiv="content-language" content="vi">
+
+
+<title>Note Everything</title>
+<meta name="description" content="[English]
+My App, (“We”) is committed to protecting and respecting the privacy of our Users.This Privacy Policy (together with the terms of use set forth on other documents referred to therein) establish the basis for Us to collect personal data  [...]">
+    
+
+<link rel="icon" type="image/png" href="https://note.gozic.vn/uploads/stores/1/2024/02/logo.png">
+<link rel="canonical" href="https://mykiddy.net/pages/privacy-policy.html" />
+
+<meta property="og:url" content="https://mykiddy.net/pages/privacy-policy.html" />
+<meta property="og:type" content="website" /> <meta property="og:title" content="Note Everything" />
+<meta property="og:description" content="[English]
+My App, (“We”) is committed to protecting and respecting the privacy of our Users.This Privacy Policy (together with the terms of use set forth on other documents referred to therein) establish the basis for Us to collect personal data  [...]" />
+<meta property="og:image" content="https://note.gozic.vn/uploads/stores/82/2022/03/chinh-sach-bao-mat-thong-tin.png" />
+<meta property="og:image:alt" content="Note Everything" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="fb:app_id" content="2147265608860096" />
+
+<meta name="twitter:card" content="summary_large_image"/> <meta name="twitter:title" content="Note Everything"/>
+<meta name="twitter:description" content="[English]
+My App, (“We”) is committed to protecting and respecting the privacy of our Users.This Privacy Policy (together with the terms of use set forth on other documents referred to therein) establish the basis for Us to collect personal data  [...]"/>
+<meta name="twitter:image" content="https://note.gozic.vn/uploads/stores/82/2022/03/chinh-sach-bao-mat-thong-tin.png"/>
+
+<meta itemprop="name" content="Note Everything" />
+<meta itemprop="description" content="[English]
+My App, (“We”) is committed to protecting and respecting the privacy of our Users.This Privacy Policy (together with the terms of use set forth on other documents referred to therein) establish the basis for Us to collect personal data  [...]" />
+<meta itemprop="image" content="https://note.gozic.vn/uploads/stores/82/2022/03/chinh-sach-bao-mat-thong-tin.png" />
+
+<meta name="theme-color" content="#ffffff" />
+
+
+<meta name="google-site-verification" content="jCWETv04Ml50egkY8EzcsbOybgLAzDwmPbtgi8Pz9Hs" />
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite", 
+    "name": "Note Everything",
+    "url": "https://note.gozic.vn",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://note.gozic.vn/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "@id": "https://note.gozic.vn#organization",
+    "name": "Note Everything",
+    "alternateName": "ZicZac: Thiết kế web &amp; app &amp; quản lý tồn kho",
+    "url": "https://note.gozic.vn",
+    "logo": "https://note-everything.com/uploads/stores/1/2026/03/logo.png",
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "19001001",
+            "contactType": "sales",
+            "areaServed": "VN"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "19001001",
+            "contactType": "customer support",
+            "areaServed": "VN",
+            "email": "note-everything.com@gmail.com"
+        }
+    ],
+    "sameAs": [
+        "https://note.gozic.vn"
+    ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org", 
+    "@type": "LocalBusiness",
+    "name": "Note Everything",
+    "image": "https://note-everything.com/uploads/stores/1/2026/03/logo.png",
+    "@id": "https://note.gozic.vn#localbusiness",
+    "url": "https://note.gozic.vn",
+    "telephone": "19001001",
+    "priceRange": "VND",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Số 08 Tôn Thất Thuyết, Cầu Giấy, Hà Nội",
+        "addressLocality": "Cầu Giấy", 
+        "addressRegion": "Hà Nội",
+        "postalCode": "100000",
+        "addressCountry": "VN"
+    },
+    "hasMap": "https://maps.app.goo.gl/gntzBSEv98donC5W7",
+    "openingHours": "Mo-Fr 08:00-17:30, Sa 08:00-12:00"
+}
+</script>
+
+  <script type="text/javascript">
+  var isCheckout = false;
+
+  function nextAction() {
+    if(isCheckout) {
+      window.open('/checkout', '_self')
+    } else {
+      location.reload()
+    }
+  }
+
+  function deleteCart(id) {
+    logAction('delete_cart', 'Xoá SP khỏi rỏ hàng')
+
+    data = getCookie('cart');
+    data = JSON.parse(data)
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id || data[i].code == id) {
+        data.splice(i, 1)
+        break;
+      }
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function logAction(action, title) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      console.log('log action done')
+    };
+    xhttp.open("GET", "//"+window.location.hostname+"/logAction?action="+action+"&title="+title, true);
+    xhttp.send();
+  }
+
+  function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') {
+              c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+              return c.substring(name.length, c.length);
+          }
+      }
+      return "";
+  }
+
+  function setToCart(id, num) {
+    if(num <= 0) {
+      num = 1
+    }
+    logAction('setToCart', 'Thiết lập lại giỏ hàng')
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    }
+
+    isFind = false
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id || data[i].code == id) {
+        data[i].num = parseInt(num)
+        isFind = true
+        break;
+      }
+    }
+
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num
+      })
+    }
+
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function addToCart(id, thumbnail, title, price, num, design = '') {
+    logAction('addToCart', 'Thêm vào giỏ hàng')
+    if(num == null || num == 'null') {
+      num = 1;
+    }
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    } else {
+      data = []
+    }
+
+    isFind = false
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id || data[i].code == id) {
+        if(data[i].num == null || data[i].num == 'null') {
+          data[i].num = 1;
+        }
+        data[i].num = parseInt(data[i].num) + parseInt(num)
+        if(data[i].num <= 0) {
+          data.splice(i, 1)
+        }
+        isFind = true
+        break;
+      }
+    }
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num,
+        'thumbnail': thumbnail,
+        'design': design
+      })
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function addToCartNoRefresh(id, thumbnail, title, price, num) {
+    logAction('addToCartNoRefresh', 'Thêm vào giỏ hàng')
+    if(num == null || num == 'null') {
+      num = 1;
+    }
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    } else {
+      data = []
+    }
+
+    isFind = false
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id || data[i].code == id) {
+        if(data[i].num == null || data[i].num == 'null') {
+          data[i].num = 1;
+        }
+
+        data[i].num = parseInt(data[i].num) + parseInt(num)
+        isFind = true
+        break;
+      }
+    }
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num
+      })
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+  }
+
+  function addAllToCart(id, thumbnail, title, price, num, size) {
+    logAction('addAllToCart', 'Thêm vào giỏ hàng')
+    if(num == null || num == 'null') {
+      num = 1;
+    }
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    } else {
+      data = []
+    }
+
+    isFind = false
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id && data[i].size == size) {
+        if(data[i].num == null || data[i].num == 'null') {
+          data[i].num = 1;
+        }
+        
+        data[i].num = parseInt(data[i].num) + parseInt(num)
+        isFind = true
+        break;
+      }
+    }
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num,
+        'size': size
+      })
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function addCartVarian(id, num, variant_id, thumbnail = "", design = "") {
+    if(num == null || num == 'null') {
+      num = 1;
+    }
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    } else {
+      data = []
+    }
+
+    isFind = false
+    if(design == "") {
+      for(i=0;i<data.length;i++) {
+        if(data[i].id == id && data[i].variant_id == variant_id) {
+          if(data[i].num == null || data[i].num == 'null') {
+            data[i].num = 1;
+          }
+          
+          data[i].num = parseInt(data[i].num) + parseInt(num)
+          isFind = true
+          break;
+        }
+      }
+    }
+    
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num,
+        'variant_id': variant_id,
+        'thumbnail': thumbnail,
+        'design': design,
+        'code': hashCode(`${id}${variant_id}${design}`)
+      })
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function hashCode(s) {
+    return s.split("").reduce(function(a, b) {
+      a = ((a << 5) - a) + b.charCodeAt(0);
+      return a & a;
+    }, 0);
+  }
+   
+
+  function getLifecycle() { 
+    var now = new Date();
+    var time = now.getTime();
+    var expireTime = time + 30*1000*86400;
+    now.setTime(expireTime);
+    return ';expires='+now.toUTCString()+';path=/';
+  }
+</script>
+  
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
+    rel="stylesheet">
+
+<!-- Bootstrap CSS File -->
+<link href="https://note.gozic.vn/styles/theme24/lib/bootstrap/css/bootstrap.min.css?v 1" rel="stylesheet">
+
+<!-- Libraries CSS Files -->
+<link href="https://note.gozic.vn/styles/theme24/lib/font-awesome/css/font-awesome.min.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/animate/animate.min.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/ionicons/css/ionicons.min.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/owlcarousel/assets/owl.carousel.min.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/magnific-popup/magnific-popup.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/ionicons/css/ionicons.min.css?v 1" rel="stylesheet">
+
+<!-- Main Stylesheet File -->
+<link href="https://note.gozic.vn/styles/theme24/css/style.css?v 1" rel="stylesheet">  <script type="text/javascript" async=""
+    src="https://www.gstatic.com/recaptcha/releases/MHBiAvbtvk5Wb2eTZHoP1dUd/recaptcha__en.js" crossorigin="anonymous"
+    integrity="sha384-sqowHdlB0Wd7Pyivp8HlgVSUp0y72f9c+AA/LnYmxQ3ftGNyujn1FRgphnO7e4Oo"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://note.gozic.vn/styles/theme24/lib/jquery/jquery.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/jquery/jquery-migrate.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/bootstrap/js/bootstrap.bundle.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/easing/easing.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/superfish/hoverIntent.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/superfish/superfish.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/wow/wow.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/owlcarousel/owl.carousel.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/magnific-popup/magnific-popup.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/sticky/sticky.js?v1"></script>
+
+<!-- Contact Form JavaScript File -->
+<script src="https://note.gozic.vn/styles/theme24/contactform/contactform.js?v1"></script>
+
+<!-- Template Main Javascript File -->
+<script src="https://note.gozic.vn/styles/theme24/js/main.js?v1"></script>
+  
+  <style>
+    #table-content img { display:block; }
+  </style>
+<body>
+
+  <style>
+/* --- Navigation Menu Styling --- */
+#nav-menu-container {
+    float: right;
+    margin: 0;
+}
+
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+}
+
+.nav-menu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+/* Sub-menu basic style */
+.nav-menu ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 20px);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+.nav-menu ul li {
+    min-width: 200px;
+    position: relative;
+}
+
+.nav-menu ul li a {
+    padding: 10px 20px;
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.nav-menu ul li a:hover {
+    color: #f82249; /* Màu đỏ chủ đạo của bạn */
+    background: #f9f9f9;
+}
+
+/* Xử lý Dropdown cấp 3 (Sub-menu lồng nhau) */
+.nav-menu ul ul {
+    top: 0 !important;
+    left: 100% !important; /* Đẩy sang phải */
+    margin-top: -10px;
+}
+
+.nav-menu ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Icon mũi tên */
+.nav-menu .bi, .nav-menu .fa {
+    margin-left: 5px;
+    font-size: 12px;
+}
+</style>
+<!--==========================
+  Top Bar
+============================-->
+<section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+        <div class="contact-info float-left">
+            <i class="fa fa-envelope-o"></i>
+            <a href="mailto:support@noteeverything.me">support@noteeverything.me</a>
+        </div>
+        <div class="social-links float-right">
+            <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="twitter">
+                  <i class="fa fa-twitter"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="facebook">
+                  <i class="fa fa-facebook"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="instagram">
+                  <i class="fa fa-instagram"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="google-plus">
+                  <i class="fa fa-google-plus"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="linkedin">
+                  <i class="fa fa-linkedin"></i>
+              </a>        </div>
+    </div>
+</section>
+<header id="header">
+    <div class="container">
+
+        <div id="logo" class="pull-left">
+            <h1>
+                <a href="https://note.gozic.vn" class="scrollto">
+                    Note<span>&nbsp;Everything</span>
+                </a>
+            </h1>
+        </div>
+
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active">
+                    <a href="https://note.gozic.vn">Home</a>
+                </li>
+
+                                                            <li class="dropdown">
+                            <a href="https://note.gozic.vn/app-store.htm" class="">
+                                <span>App Store</span> <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                                                                                            <li><a href="https://note.gozic.vn/note-everything-android--ios.htm">Note Everything (Android & iOS)</a></li>
+                                                                                                                                                <li><a href="https://note.gozic.vn/inventory-check-android--ios.htm">Inventory Check (Android & iOS)</a></li>
+                                                                                                </ul>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/subscription-policty.htm">
+                                Subscription Policty                            </a>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/policy.htm">
+                                Policy                            </a>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/tern-of-use.htm">
+                                Tern of use                            </a>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/contact.htm">
+                                Contact                            </a>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/login">
+                                Login                            </a>
+                        </li>
+                                                </ul>
+        </nav>
+    </div>
+</header>
+              <style>
+/* Section Intro */
+#intro {
+    width: 100%;
+    height: 300px; /* Giảm chiều cao một chút để cân đối hơn */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hiệu ứng hình nền */
+#intro .item {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6; /* Làm mờ ảnh nền một chút */
+}
+
+/* Nội dung tiêu đề - Thay thế overlay đặc bằng Gradient mượt */
+.intro-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 0 15px;
+    width: 100%;
+    /* Gradient nhẹ nhàng từ màu thương hiệu của bạn */
+    background: linear-gradient(to bottom, rgba(253, 200, 77, 0.4), rgba(253, 200, 77, 0.2));
+    padding: 60px 0;
+}
+
+.intro-content h2 {
+    color: #0c2e8a; /* Màu xanh đậm để tạo độ tương phản cao trên nền vàng */
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: none; /* Giữ nguyên hoa/thường để dễ đọc */
+    letter-spacing: -0.5px;
+}
+
+/* Phần nội dung chính (About) */
+#about {
+    padding: 80px 0;
+    background: #fff;
+}
+
+#about .container {
+    max-width: 900px; /* Bóp gọn nội dung văn bản lại cho dễ đọc */
+    line-height: 1.8;
+    font-size: 17px;
+    color: #444;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto; /* Căn giữa hình ảnh trong bài viết */
+}
+</style>
+<section id="intro">
+    <div class="intro-content">
+        <div class="container">
+            <h2>
+                PRIVACY POLICY            </h2>
+        </div>
+    </div>
+</section><main id="main">
+    <section id="about" class="wow fadeInUp">
+        <div class="container">
+            <div class="entry-content">
+                <div id="table-content" border="0" style="width: 100% !important; max-width: 100% !important; table-layout: fixed; word-break: break-word; text-align: justify"><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 24px; color: rgb(255, 0, 0); background-color: rgb(255, 255, 0);"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><b style="">[English]</b></font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><br></font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App, (“We”) is committed to protecting and respecting the privacy of our Users.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">This Privacy Policy (together with the terms of use set forth on page&nbsp;</font></span><a href="https://note-everything.com/terms-and-conditions-of-use.html" target="_blank"><span style="font-size: 16px;">https://note-everything.com/terms-and-conditions-of-use.html</span></a><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%;"><a href="https://leep.app/dieu-khoan-su-dung" target="_blank" rel="noopener" data-wpel-link="internal" style="box-sizing: inherit; margin: 0px; padding: 0px; color: var(--color-primary,#2a6df4); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%;"></a></span><span style="font-size: 16px;">&nbsp;</span><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">and other documents referred to therein) establish the basis for Us to collect personal data from Users, or Users send to Us, thereby processing personal data on . Please read the following information carefully to understand Our views and regulations regarding Users' personal data and how We apply them.&nbsp;</font></span><span style="font-size: 16px;">&nbsp;</span><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">The user has accepted and agreed to the terms described in this Privacy Policy.</font></span></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Information we collect from users</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">We may collect and process the following data about Users:</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Information Users Provide to Us Users can provide us with their information when filling out registration forms on our technology platforms, such as websites, mobile applications activity named “My App” or through contacting us by phone, email or other means (collectively, the “Website”). This information includes information that users provide when registering to use our website and services, searching for products, ordering products on the website, and participating in discussions on the forum. or social media features directly from or through the Site, participate in any competitions, promotions or surveys, use Our forums to access the virtual world, through social media news, personal training sessions and other options and when the User reports any problems with the Site. The information that Users provide to Us will include but not be limited to personal information such as: address, email address and phone number, financial and credit card information, describe the User's self, image, activities, interactions, networks, and any other type of information in any form.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Information We Collect For each User's visit to the Website or any website that uses/provides Our services, We may automatically collect the following information:</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Device information, including but not limited to technical information, including the IP address used to connect the User's computer to the Internet, login information, browser type and version, set time zone, browser application extensions and versions, operating systems and facilities, mobile connection information, unique device identification;</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">User login information history, including but not limited to visits or saves of information that can identify the User's browser or Facebook account, uniform resource locator (URL ) that the clickstream leads to, through or from the Site (including date and time); products that the User viewed or searched for; response times from websites, download errors, length of visits to certain pages, interaction information for the website (such as scrolling, clicking and mouse movement), browser language, the method used to browse the site remotely and any phone numbers used to contact Our customer service;</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Location information includes but is not limited to information about the User's specific location such as signals sent from mobile devices or any other devices that the User is using to determine the specific location of the User;</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Locally stored information: We may collect and store information stored on Users' devices using mechanisms such as information about browser or system websites. application storage.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Information We Receive from Other Sources We may receive information from you if you use any other websites we operate or other services we provide. . We also work closely with third parties, including, for example, business partners, subcontractors in technical support, payment and delivery services, advertising networks, analytics service providers, information search service providers, companies that collect credit rating information, and may receive information about Users from them. We may also receive information about the User shared by people in the User's friends or connections list.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">We may use cookies (small text files that We and the operators of other websites store on the User's computer when the User visits the Website) to provide Better and more private user interaction. Cookies allow us to recognize you each time you revisit the Site, store information about your preferences, and improve the way you search. be done. Such data also allows Us to create statistics on the number of visitors to the Website and how they use the Website and the internet. You can set your browser to refuse our cookies if you wish (You should refer to the help section of your browser for more details), but This may limit the User's use of the Website.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">We and Facebook store information collected from cookies on Our servers. We may also transfer this information to other third parties if required to do so by law, or if such third parties process the information on Our behalf. By using the Website, the User agrees to our processing of data about the User in the manner and for the purposes stated above.</font></span></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Use of user information</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">We use the information We collect and receive as mentioned above to provide, maintain, protect and improve Our services and other related features. We also use this information to develop new products. We also use this information to provide users with relevant search results.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Information Users provide to Us: We will use that information to:</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Provide Users with information about other products or services that We are providing that are similar to the products Users have purchased or are interested in;</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Provide Users, or allow appropriate third parties to provide Users, with information relating to products or services that We feel will be of interest to Users. In case the User is an existing customer of Us, We may contact the User via electronic means (email or text message) and provide information about the products. and services similar to products previously purchased or negotiated by the User. If you are a new customer, and where we have consented to the use of your information by the appropriate third party, we (or they) will contact you by electronic means only when the User agrees to these terms.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Although Users agree to our use of this information, Users always retain ownership of their personal information. We will not share any personal information that you provide to us unless we: (i) send you a notice; and/or (ii) have removed information that We consider sensitive. However, We do not and cannot control the information that other parties share about Users;</font></span><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Notify Users about changes/updates related to Our services and applications;</font></span><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">ensure that the content from the Website is designed in an effective manner for the User, his computer and mobile devices.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Notwithstanding anything in the “User Use of Information” section, Users hereby authorize Us, by agreeing to this Privacy Policy, to allow service providers to continue Access information to help us provide our services. We store data necessary to provide products and services to Users and other customers, including those mentioned above. Normally, information associated with a User's account will be retained until the User's account is deleted. For certain types of information, We will provide Users with specific and separate storage regulations.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Information We Collect: We will use this information to:</font></span></p><ul style="box-sizing: inherit; margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; border: 0px; list-style: none; max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><li style="box-sizing: inherit; margin-top: 0px; margin-right: 0px; margin-bottom: var(--space-unit); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--space-unit); border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); position: relative; max-width: 100%;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Manage the Website and serve internal activities, including troubleshooting, data processing, testing, research, statistical activities and surveys;</font></span></li><li style="box-sizing: inherit; margin-top: 0px; margin-right: 0px; margin-bottom: var(--space-unit); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--space-unit); border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); position: relative; max-width: 100%;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">improve the Website to ensure content is designed effectively and suitable for Users, their computers and mobile devices;</font></span></li><li style="box-sizing: inherit; margin-top: 0px; margin-right: 0px; margin-bottom: var(--space-unit); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--space-unit); border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); position: relative; max-width: 100%;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">allow Users to participate in interactive features of Our services, where Users consent to do so; endeavor to keep the Website safe and secure;</font></span></li><li style="box-sizing: inherit; margin-top: 0px; margin-right: 0px; margin-bottom: var(--space-unit); margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--space-unit); border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); position: relative; max-width: 100%;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">measure or understand the effectiveness of the advertisements that We send to Users and other customers and provide relevant advertisements to Users;</font></span></li><li style="box-sizing: inherit; margin: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: var(--space-unit); border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); position: relative; max-width: 100%;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">recommend and recommend to the User and other users of the Website products or services that may be of interest to the User or to them.</font></span></li></ul><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Information We receive from other sources We will combine this information with information that Users provide to Us and information that We collect about Users. We may use this information and combined information</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">We may share your personal information with any member of our group, including our subsidiaries, our parent company and its subsidiaries. that company.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">We may share information about Users with appropriate third parties, including:</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">business partners, suppliers and subcontractors for the performance of any contract We enter into with them or Users; Advertisers and advertising networks require data to select and serve relevant advertisements to Users and others.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">other. We will not disclose personally identifiable information to Our advertisers, but We may provide them with aggregate information about Our users (for example, We may tell them that 500 men under the age of 30 clicked on their ad on a particular day). We may also use aggregated information to help advertisers reach their intended audiences. We may make use of the personal data We collect from Users to help Us fulfill the wishes of Our advertisers by displaying their advertisements to a targeted audience; or&nbsp;</font></span><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">providers of analytical and research facilities that assist Us in improving and optimizing Our Website.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">We may disclose Users' personal information to third parties:</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">in the event that We buy or sell any business or assets in which case We may disclose personal information to prospective sellers, buyers and other third parties related to that business or property when necessary.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">In the event that My App or substantially all of its assets are acquired by a third party, personal data held by My App about its customers will be one of the transferred assets.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">in the event that We are under a duty to disclose or share your personal information in order to comply with any legal obligation, or to enforce or apply these terms of use or terms and conditions providing&nbsp;&nbsp;</span></font><a href="https://note-everything.com/terms-and-conditions-of-use.html" target="_blank" rel="noopener" data-wpel-link="internal" style="box-sizing: inherit; margin: 0px; padding: 0px; color: var(--color-primary,#2a6df4); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">https://note-everything.com/terms-and-conditions-of-use.html</span></font></a><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;&nbsp;and other agreements; or to protect the rights, property and safety of Our customers, or others. This includes information exchanged with other companies and organizations for the purposes of fraud prevention and credit risk reduction.</span></font></span></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Store user information</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Data that We collect from Users may be transferred to, and stored on, Our secure server system, or by Our partners. The information may additionally be processed by operations staff around the world working for Us or for one of Our suppliers. These staff will be engaged in a number of tasks, which include, among other things, responding to User requests, processing User payment details and the provision of Support Services. By submitting your personal information, the User agrees to this transmission, storage and processing. We will take such steps as are reasonably necessary to ensure that your data is treated securely and in accordance with our Privacy Policy.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">All information that Users provide to Us will be stored on a secure server system. All payment transactions will be encrypted. When We provide (or Users choose) a password to help Users access certain content on the Website, Users are responsible for keeping this password confidential. We request that Users not share their password with anyone.</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">However, the transmission of information via electronic networks will not be absolutely safe. Although We have made every effort to protect Users' personal data, We cannot guarantee the security of Users' data transmitted to the Website, Users are responsible for all risks for the transmission of your information. Once We receive User information, We will apply strict security procedures and features in an effort to prevent illegal access.</font></span></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Links to other websites</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">The website may, from time to time, contain links to and from the websites of our partner networks, advertisers and affiliates. If you follow a link to any of these websites, please note that these websites have their own privacy policies and therefore We do not accept any responsibility or liability. What are the reasons for these policies? Please check those policies before submitting any personal data to these websites.</font></span></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Edit/change privacy policy</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Any changes We make to this Privacy Policy in the future will be posted on this page and, where appropriate but not as an obligation on Our part, We will notify you of such changes. These changes are communicated to the User by email. So,</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">We welcome all questions, comments and requests regarding this Privacy Policy from Users and Users may contact Us via email.&nbsp;</font></span><a href="mailto:ziczacgroup@gmail.com" style="margin: 0px; padding: 0px; color: rgb(0, 145, 255); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%;"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></a></p><div style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><div style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; max-width: 100%;"><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: var(--font-primary); max-width: 100%;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Users have the right to withdraw acceptance and consent to the privacy policy, and to request access to or correction of personal information.</font></span></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">As a data subject, the User has other rights regarding his or her personal data in accordance with the relevant data protection legislation. Users can access their personal data, request correction, blocking or deletion of data by sending a request to us at the email address&nbsp;&nbsp;</span></font><a href="mailto:ziczacgroup@gmail.com" style="margin: 0px; padding: 0px; color: rgb(0, 145, 255); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%; background-color: rgb(255, 255, 255);"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></font></a><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;. However, We will not be responsible/liable for the authenticity/accuracy of the information provided by the User. Please note that We may keep a record of your communications to help us resolve any issues you may raise.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: var(--font-primary); max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Withdraw consent</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">You may withdraw your consent to the collection, use and/or disclosure of your personal data that We have provided, hold or control by sending an email to the Department. Our Personal Data Protection department at email address&nbsp;&nbsp;</span></font><a href="mailto:ziczacgroup@gmail.com" style="margin: 0px; padding: 0px; color: rgb(0, 145, 255); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%; background-color: rgb(255, 255, 255);"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></font></a><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;. We will handle these requests in accordance with the Privacy Policy as well as relevant legal regulations.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%;"></p></div><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">We note that if you withdraw your consent, we will not be able to continue providing services to you, and we may have to terminate the current relationship and/or or your contract with us.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: var(--font-primary); max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Request access to or correction of personal data</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">If you have registered an account with us, you may personally access and/or edit your personal data that we hold or control through our Account Settings page. .</span></font></p></div><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">If you have not registered an account with us, you may request access to and/or correction of your personal data held or controlled by us by submitting a request. in writing to Us at the email address&nbsp;&nbsp;</span></font><a href="mailto:ziczacgroup@gmail.com" style="margin: 0px; padding: 0px; color: rgb(0, 145, 255); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%; background-color: rgb(255, 255, 255);"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></font></a><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;. We will need to have all necessary information from the User to determine the identity and nature of the User's request to be able to resolve it, so please send the request in the most detail to email address&nbsp;&nbsp;</span></font><a href="mailto:ziczacgroup@gmail.com" style="margin: 0px; padding: 0px; color: rgb(0, 145, 255); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%; background-color: rgb(255, 255, 255);"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></font></a><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;, Our Personal Data Protection Department will guide and process that request. Where We are permitted by law, We may refuse the User's request. If We refuse a User's request, We will always let the User know the reason for this.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">A reasonable fee may be incurred for addressing and processing your request to access your personal data. If costs are incurred, we will provide the User with an estimate of the costs by sending a message to the email address with which the User has registered or the email address with which the User has submitted the access request. access or correct personal data. In this case, please note that We are not obliged to respond or resolve the User's request unless the User has agreed and paid the fee.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">We reserve the right to refuse to adjust Users' personal data in accordance with the provisions of law on the protection of personal information confidentiality, where such laws require and/or allow an organization to refuse to correct personal data in such cases.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Other questions or complaints</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">If you have any questions or complaints about our privacy practices, please contact us at&nbsp;&nbsp;</span></font><a href="mailto:ziczacgroup@gmail.com" style="margin: 0px; padding: 0px; color: rgb(0, 145, 255); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%; background-color: rgb(255, 255, 255);"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></font></a><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><br></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><b style=""><span style="font-size: 24px; color: rgb(255, 0, 0); background-color: rgb(255, 255, 0);">[Việt Nam]</span></b></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><b><span style="font-size: 16px;"><br></span></b></font></p><p data-path-to-node="0"><b data-path-to-node="3" data-index-in-node="0"><span style="font-size: 16px;">My App</span></b><span style="font-size: 16px;"> (“Chúng tôi”) cam kết bảo vệ và tôn trọng quyền riêng tư của Người dùng.</span></p><p data-path-to-node="4"><span style="font-size: 16px;">Chính sách Bảo mật này (cùng với các điều khoản sử dụng được quy định tại trang </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_be563639437986b7&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_a0fc2ffdebae3613&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="https://note-everything.com/terms-and-conditions-of-use.html" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQvAE"><span style="font-size: 16px;">https://note-everything.com/terms-and-conditions-of-use.html</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element><span style="font-size: 16px;"> và các tài liệu khác được dẫn chiếu trong đó) thiết lập cơ sở để Chúng tôi thu thập dữ liệu cá nhân từ Người dùng, hoặc Người dùng gửi cho Chúng tôi, từ đó xử lý dữ liệu cá nhân. Vui lòng đọc kỹ các thông tin sau đây để hiểu quan điểm và quy định của Chúng tôi liên quan đến dữ liệu cá nhân của Người dùng và cách Chúng tôi áp dụng chúng. Người dùng đã chấp nhận và đồng ý với các điều khoản được mô tả trong Chính sách Bảo mật này.</span></p><h3 data-path-to-node="5"><span style="font-size: 16px;">Thông tin chúng tôi thu thập từ người dùng</span></h3><p data-path-to-node="6"><span style="font-size: 16px;">Chúng tôi có thể thu thập và xử lý các dữ liệu sau về Người dùng:</span></p><p data-path-to-node="7"><b data-path-to-node="7" data-index-in-node="0"><span style="font-size: 16px;">Thông tin Người dùng cung cấp cho Chúng tôi:</span></b><span style="font-size: 16px;">
+Người dùng có thể cung cấp thông tin cho chúng tôi khi điền vào các mẫu đăng ký trên các nền tảng công nghệ của chúng tôi, chẳng hạn như trang web, ứng dụng di động có tên là “My App” hoặc thông qua việc liên hệ với chúng tôi qua điện thoại, email hoặc các phương thức khác (gọi chung là “Trang web”). Thông tin này bao gồm thông tin người dùng cung cấp khi đăng ký sử dụng trang web và dịch vụ của chúng tôi, tìm kiếm sản phẩm, đặt hàng trên trang web và tham gia thảo luận trên diễn đàn hoặc các tính năng mạng xã hội trực tiếp từ hoặc thông qua Trang web, tham gia bất kỳ cuộc thi, chương trình khuyến mãi hoặc khảo sát nào, sử dụng diễn đàn của Chúng tôi để truy cập thế giới ảo, thông qua tin tức mạng xã hội, các buổi đào tạo cá nhân và các tùy chọn khác và khi Người dùng báo cáo bất kỳ vấn đề nào với Trang web. Thông tin mà Người dùng cung cấp cho Chúng tôi sẽ bao gồm nhưng không giới hạn ở các thông tin cá nhân như: địa chỉ, địa chỉ email và số điện thoại, thông tin tài chính và thẻ tín dụng, mô tả về bản thân Người dùng, hình ảnh, hoạt động, tương tác, mạng lưới và bất kỳ loại thông tin nào khác dưới mọi hình thức.</span></p><p data-path-to-node="8"><b data-path-to-node="8" data-index-in-node="0"><span style="font-size: 16px;">Thông tin Chúng tôi Thu thập:</span></b><span style="font-size: 16px;">
+Đối với mỗi lần Người dùng truy cập Trang web hoặc bất kỳ trang web nào sử dụng/cung cấp dịch vụ của Chúng tôi, Chúng tôi có thể tự động thu thập các thông tin sau:</span></p><ul data-path-to-node="9"><li><p data-path-to-node="9,0,0"><b data-path-to-node="9,0,0" data-index-in-node="0"><span style="font-size: 16px;">Thông tin thiết bị:</span></b><span style="font-size: 16px;"> bao gồm nhưng không giới hạn ở thông tin kỹ thuật, bao gồm địa chỉ IP được sử dụng để kết nối máy tính của Người dùng với Internet, thông tin đăng nhập, loại và phiên bản trình duyệt, cài đặt múi giờ, các phần mở rộng và phiên bản trình duyệt, hệ điều hành và nền tảng, thông tin kết nối di động, mã định danh thiết bị duy nhất;</span></p></li><li><p data-path-to-node="9,1,0"><b data-path-to-node="9,1,0" data-index-in-node="0"><span style="font-size: 16px;">Lịch sử thông tin đăng nhập của Người dùng:</span></b><span style="font-size: 16px;"> bao gồm nhưng không giới hạn ở các lượt truy cập hoặc lưu trữ thông tin có thể nhận dạng trình duyệt hoặc tài khoản Facebook của Người dùng, trình định vị tài nguyên thống nhất (URL) mà chuỗi nhấp chuột (clickstream) dẫn đến, thông qua hoặc từ Trang web (bao gồm ngày và giờ); các sản phẩm mà Người dùng đã xem hoặc tìm kiếm; thời gian phản hồi từ các trang web, lỗi tải xuống, thời lượng truy cập vào các trang nhất định, thông tin tương tác với trang web (như cuộn, nhấp chuột và di chuyển chuột), ngôn ngữ trình duyệt, phương thức được sử dụng để duyệt trang từ xa và bất kỳ số điện thoại nào được sử dụng để liên hệ với bộ phận dịch vụ khách hàng của Chúng tôi;</span></p></li><li><p data-path-to-node="9,2,0"><b data-path-to-node="9,2,0" data-index-in-node="0"><span style="font-size: 16px;">Thông tin vị trí:</span></b><span style="font-size: 16px;"> bao gồm nhưng không giới hạn ở thông tin về vị trí cụ thể của Người dùng như tín hiệu gửi từ thiết bị di động hoặc bất kỳ thiết bị nào khác mà Người dùng đang sử dụng để xác định vị trí cụ thể của Người dùng;</span></p></li><li><p data-path-to-node="9,3,0"><b data-path-to-node="9,3,0" data-index-in-node="0"><span style="font-size: 16px;">Thông tin lưu trữ cục bộ:</span></b><span style="font-size: 16px;"> Chúng tôi có thể thu thập và lưu trữ thông tin trên thiết bị của Người dùng bằng các cơ chế như thông tin về trình duyệt hoặc bộ nhớ lưu trữ ứng dụng của hệ thống trang web.</span></p></li></ul><p data-path-to-node="10"><b data-path-to-node="10" data-index-in-node="0"><span style="font-size: 16px;">Thông tin Chúng tôi Nhận được từ các Nguồn khác:</span></b><span style="font-size: 16px;">
+Chúng tôi có thể nhận được thông tin về bạn nếu bạn sử dụng bất kỳ trang web nào khác mà chúng tôi vận hành hoặc các dịch vụ khác mà chúng tôi cung cấp. Chúng tôi cũng hợp tác chặt chẽ với các bên thứ ba, ví dụ như các đối tác kinh doanh, nhà thầu phụ trong các dịch vụ hỗ trợ kỹ thuật, thanh toán và giao hàng, mạng lưới quảng cáo, nhà cung cấp dịch vụ phân tích, nhà cung cấp dịch vụ tìm kiếm thông tin, các công ty thu thập thông tin xếp hạng tín dụng và có thể nhận được thông tin về Người dùng từ họ. Chúng tôi cũng có thể nhận được thông tin về Người dùng được chia sẻ bởi những người trong danh sách bạn bè hoặc kết nối của Người dùng.</span></p><h3 data-path-to-node="11"><span style="font-size: 16px;">Cookies</span></h3><p data-path-to-node="12"><span style="font-size: 16px;">Chúng tôi có thể sử dụng cookie (các tệp văn bản nhỏ mà Chúng tôi và các nhà điều hành trang web khác lưu trữ trên máy tính của Người dùng khi Người dùng truy cập Trang web) để cung cấp sự tương tác người dùng tốt hơn và riêng tư hơn. Cookie cho phép chúng tôi nhận ra bạn mỗi khi bạn truy cập lại Trang web, lưu trữ thông tin về sở thích của bạn và cải thiện cách thức tìm kiếm. Những dữ liệu đó cũng cho phép Chúng tôi lập thống kê về số lượng khách truy cập Trang web và cách họ sử dụng Trang web cũng như internet. Bạn có thể thiết lập trình duyệt của mình để từ chối cookie của chúng tôi nếu muốn (Bạn nên tham khảo phần trợ giúp của trình duyệt để biết thêm chi tiết), nhưng điều này có thể hạn chế việc sử dụng Trang web của Người dùng.</span></p><p data-path-to-node="13"><span style="font-size: 16px;">Chúng tôi và Facebook lưu trữ thông tin thu thập được từ cookie trên máy chủ của Chúng tôi. Chúng tôi cũng có thể chuyển thông tin này cho các bên thứ ba khác nếu pháp luật yêu cầu, hoặc nếu các bên thứ ba đó xử lý thông tin thay mặt Chúng tôi. Bằng cách sử dụng Trang web, Người dùng đồng ý với việc Chúng tôi xử lý dữ liệu về Người dùng theo cách thức và cho các mục đích đã nêu trên.</span></p><h3 data-path-to-node="14"><span style="font-size: 16px;">Sử dụng thông tin người dùng</span></h3><p data-path-to-node="15"><span style="font-size: 16px;">Chúng tôi sử dụng thông tin Chúng tôi thu thập và nhận được như đã đề cập ở trên để cung cấp, duy trì, bảo vệ và cải thiện các dịch vụ của Chúng tôi và các tính năng liên quan khác. Chúng tôi cũng sử dụng thông tin này để phát triển các sản phẩm mới và cung cấp cho người dùng các kết quả tìm kiếm có liên quan.</span></p><p data-path-to-node="16"><b data-path-to-node="16" data-index-in-node="0"><span style="font-size: 16px;">Thông tin Người dùng cung cấp cho Chúng tôi sẽ được sử dụng để:</span></b></p><ul data-path-to-node="17"><li><p data-path-to-node="17,0,0"><span style="font-size: 16px;">Cung cấp cho Người dùng thông tin về các sản phẩm hoặc dịch vụ khác mà Chúng tôi đang cung cấp tương tự như các sản phẩm Người dùng đã mua hoặc quan tâm;</span></p></li><li><p data-path-to-node="17,1,0"><span style="font-size: 16px;">Cung cấp cho Người dùng, hoặc cho phép các bên thứ ba phù hợp cung cấp cho Người dùng, thông tin liên quan đến các sản phẩm hoặc dịch vụ mà Chúng tôi cảm thấy Người dùng sẽ quan tâm. Trong trường hợp Người dùng là khách hàng hiện tại của Chúng tôi, Chúng tôi có thể liên hệ với Người dùng qua các phương tiện điện tử (email hoặc tin nhắn văn bản) và cung cấp thông tin về các sản phẩm và dịch vụ tương tự như các sản phẩm mà Người dùng đã mua hoặc đàm phán trước đó. Nếu bạn là khách hàng mới, và trong trường hợp chúng tôi đã chấp thuận việc sử dụng thông tin của bạn bởi bên thứ ba phù hợp, chúng tôi (hoặc họ) sẽ chỉ liên hệ với bạn bằng phương tiện điện tử khi Người dùng đồng ý với các điều khoản này.</span></p></li><li><p data-path-to-node="17,2,0"><span style="font-size: 16px;">Mặc dù Người dùng đồng ý với việc chúng tôi sử dụng thông tin này, Người dùng luôn giữ quyền sở hữu đối với thông tin cá nhân của mình. Chúng tôi sẽ không chia sẻ bất kỳ thông tin cá nhân nào mà bạn cung cấp cho chúng tôi trừ khi chúng tôi: (i) gửi thông báo cho bạn; và/hoặc (ii) đã loại bỏ thông tin mà Chúng tôi coi là nhạy cảm. Tuy nhiên, Chúng tôi không và không thể kiểm soát thông tin mà các bên khác chia sẻ về Người dùng;</span></p></li><li><p data-path-to-node="17,3,0"><span style="font-size: 16px;">Thông báo cho Người dùng về các thay đổi/cập nhật liên quan đến các dịch vụ và ứng dụng của Chúng tôi;</span></p></li><li><p data-path-to-node="17,4,0"><span style="font-size: 16px;">Đảm bảo rằng nội dung từ Trang web được thiết kế theo cách hiệu quả nhất cho Người dùng, máy tính và thiết bị di động của họ.</span></p></li></ul><p data-path-to-node="18"><span style="font-size: 16px;">Bất kể điều gì trong phần “Sử dụng thông tin người dùng”, bằng cách đồng ý với Chính sách Bảo mật này, Người dùng cho phép Chúng tôi cho phép các nhà cung cấp dịch vụ tiếp tục truy cập thông tin để giúp chúng tôi cung cấp dịch vụ của mình. Chúng tôi lưu trữ dữ liệu cần thiết để cung cấp sản phẩm và dịch vụ cho Người dùng và các khách hàng khác, bao gồm cả những dữ liệu đã đề cập ở trên. Thông thường, thông tin liên kết với tài khoản của Người dùng sẽ được giữ lại cho đến khi tài khoản của Người dùng bị xóa. Đối với một số loại thông tin nhất định, Chúng tôi sẽ cung cấp cho Người dùng các quy định lưu trữ cụ thể và riêng biệt.</span></p><p data-path-to-node="19"><b data-path-to-node="19" data-index-in-node="0"><span style="font-size: 16px;">Thông tin Chúng tôi Thu thập sẽ được sử dụng để:</span></b></p><ul data-path-to-node="20"><li><p data-path-to-node="20,0,0"><span style="font-size: 16px;">Quản lý Trang web và phục vụ các hoạt động nội bộ, bao gồm khắc phục sự cố, xử lý dữ liệu, thử nghiệm, nghiên cứu, các hoạt động thống kê và khảo sát;</span></p></li><li><p data-path-to-node="20,1,0"><span style="font-size: 16px;">Cải thiện Trang web để đảm bảo nội dung được thiết kế hiệu quả và phù hợp với Người dùng, máy tính và thiết bị di động của họ;</span></p></li><li><p data-path-to-node="20,2,0"><span style="font-size: 16px;">Cho phép Người dùng tham gia vào các tính năng tương tác của dịch vụ của Chúng tôi, khi Người dùng đồng ý thực hiện;</span></p></li><li><p data-path-to-node="20,3,0"><span style="font-size: 16px;">Nỗ lực giữ cho Trang web được an toàn và bảo mật;</span></p></li><li><p data-path-to-node="20,4,0"><span style="font-size: 16px;">Đo lường hoặc hiểu hiệu quả của các quảng cáo mà Chúng tôi gửi cho Người dùng và các khách hàng khác và cung cấp các quảng cáo có liên quan cho Người dùng;</span></p></li><li><p data-path-to-node="20,5,0"><span style="font-size: 16px;">Đề xuất và kiến nghị cho Người dùng và các người dùng khác của Trang web về các sản phẩm hoặc dịch vụ có thể được Người dùng hoặc họ quan tâm.</span></p></li></ul><p data-path-to-node="21"><b data-path-to-node="21" data-index-in-node="0"><span style="font-size: 16px;">Thông tin Chúng tôi nhận được từ các nguồn khác:</span></b><span style="font-size: 16px;">
+Chúng tôi sẽ kết hợp thông tin này với thông tin mà Người dùng cung cấp cho Chúng tôi và thông tin mà Chúng tôi thu thập về Người dùng. Chúng tôi có thể sử dụng thông tin này và thông tin kết hợp cho các mục đích nêu trên.</span></p><p data-path-to-node="22"><span style="font-size: 16px;">Chúng tôi có thể chia sẻ thông tin cá nhân của bạn với bất kỳ thành viên nào trong tập đoàn của chúng tôi, bao gồm các công ty con, công ty mẹ và các công ty con của công ty mẹ đó.</span></p><p data-path-to-node="23"><span style="font-size: 16px;">Chúng tôi có thể chia sẻ thông tin về Người dùng với các bên thứ ba phù hợp, bao gồm:</span></p><ul data-path-to-node="24"><li><p data-path-to-node="24,0,0"><span style="font-size: 16px;">Các đối tác kinh doanh, nhà cung cấp và nhà thầu phụ để thực hiện bất kỳ hợp đồng nào mà Chúng tôi ký kết với họ hoặc với Người dùng;</span></p></li><li><p data-path-to-node="24,1,0"><span style="font-size: 16px;">Các nhà quảng cáo và mạng lưới quảng cáo yêu cầu dữ liệu để lựa chọn và phục vụ các quảng cáo có liên quan cho Người dùng và những người khác. Chúng tôi sẽ không tiết lộ thông tin nhận dạng cá nhân cho các nhà quảng cáo của Chúng tôi, nhưng Chúng tôi có thể cung cấp cho họ thông tin tổng hợp về người dùng của Chúng tôi (ví dụ: Chúng tôi có thể cho họ biết rằng có 500 nam giới dưới 30 tuổi đã nhấp vào quảng cáo của họ vào một ngày cụ thể). Chúng tôi cũng có thể sử dụng thông tin tổng hợp để giúp các nhà quảng cáo tiếp cận đối tượng mục tiêu của họ. Chúng tôi có thể sử dụng dữ liệu cá nhân thu thập được từ Người dùng để giúp Chúng tôi thực hiện mong muốn của các nhà quảng cáo bằng cách hiển thị quảng cáo của họ cho đối tượng mục tiêu;</span></p></li><li><p data-path-to-node="24,2,0"><span style="font-size: 16px;">Các nhà cung cấp phương tiện phân tích và nghiên cứu hỗ trợ Chúng tôi trong việc cải thiện và tối ưu hóa Trang web của mình.</span></p></li></ul><p data-path-to-node="25"><span style="font-size: 16px;">Chúng tôi có thể tiết lộ thông tin cá nhân của Người dùng cho bên thứ ba:</span></p><ul data-path-to-node="26"><li><p data-path-to-node="26,0,0"><span style="font-size: 16px;">Trong trường hợp Chúng tôi mua hoặc bán bất kỳ doanh nghiệp hoặc tài sản nào, khi đó Chúng tôi có thể tiết lộ dữ liệu cá nhân cho người bán, người mua tiềm năng và các bên thứ ba khác liên quan đến doanh nghiệp hoặc tài sản đó khi cần thiết.</span></p></li><li><p data-path-to-node="26,1,0"><span style="font-size: 16px;">Trong trường hợp My App hoặc phần lớn tài sản của My App được mua lại bởi một bên thứ ba, khi đó dữ liệu cá nhân mà My App nắm giữ về khách hàng sẽ là một trong những tài sản được chuyển nhượng.</span></p></li><li><p data-path-to-node="26,2,0"><span style="font-size: 16px;">Trong trường hợp Chúng tôi có nghĩa vụ tiết lộ hoặc chia sẻ thông tin cá nhân của bạn để tuân thủ bất kỳ nghĩa vụ pháp lý nào, hoặc để thực thi hoặc áp dụng các điều khoản sử dụng này hoặc các điều khoản và điều kiện tại </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_be563639437986b7&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_a0fc2ffdebae3613&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="https://note-everything.com/terms-and-conditions-of-use.html" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQvQE"><span style="font-size: 16px;">https://note-everything.com/terms-and-conditions-of-use.html</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element><span style="font-size: 16px;"> và các thỏa thuận khác; hoặc để bảo vệ quyền, tài sản và sự an toàn của khách hàng của Chúng tôi, hoặc những người khác. Điều này bao gồm việc trao đổi thông tin với các công ty và tổ chức khác nhằm mục đích phòng chống gian lận và giảm thiểu rủi ro tín dụng.</span></p></li></ul><h3 data-path-to-node="27"><span style="font-size: 16px;">Lưu trữ thông tin người dùng</span></h3><p data-path-to-node="28"><span style="font-size: 16px;">Dữ liệu mà Chúng tôi thu thập từ Người dùng có thể được chuyển đến và lưu trữ trên hệ thống máy chủ an toàn của Chúng tôi, hoặc bởi các đối tác của Chúng tôi. Thông tin cũng có thể được xử lý bởi đội ngũ nhân viên vận hành trên toàn thế giới làm việc cho Chúng tôi hoặc cho một trong những nhà cung cấp của Chúng tôi. Các nhân viên này sẽ tham gia vào một số nhiệm vụ, bao gồm, cùng với các việc khác, phản hồi các yêu cầu của Người dùng, xử lý chi tiết thanh toán của Người dùng và cung cấp các Dịch vụ Hỗ trợ. Bằng cách gửi thông tin cá nhân của mình, Người dùng đồng ý với việc truyền tải, lưu trữ và xử lý này. Chúng tôi sẽ thực hiện các bước cần thiết một cách hợp lý để đảm bảo rằng dữ liệu của bạn được xử lý an toàn và phù hợp với Chính sách Bảo mật của chúng tôi.</span></p><p data-path-to-node="29"><span style="font-size: 16px;">Tất cả thông tin mà Người dùng cung cấp cho Chúng tôi sẽ được lưu trữ trên hệ thống máy chủ an toàn. Tất cả các giao dịch thanh toán sẽ được mã hóa. Khi Chúng tôi cung cấp (hoặc Người dùng lựa chọn) một mật khẩu để giúp Người dùng truy cập vào một số nội dung nhất định trên Trang web, Người dùng có trách nhiệm giữ bí mật mật khẩu này. Chúng tôi yêu cầu Người dùng không chia sẻ mật khẩu của mình với bất kỳ ai.</span></p><p data-path-to-node="30"><span style="font-size: 16px;">Tuy nhiên, việc truyền tải thông tin qua mạng điện tử sẽ không an toàn tuyệt đối. Mặc dù Chúng tôi đã nỗ lực hết sức để bảo vệ dữ liệu cá nhân của Người dùng, Chúng tôi không thể đảm bảo an ninh cho dữ liệu của Người dùng được truyền đến Trang web; Người dùng phải chịu trách nhiệm về mọi rủi ro đối với việc truyền tải thông tin của mình. Khi Chúng tôi nhận được thông tin của Người dùng, Chúng tôi sẽ áp dụng các quy trình và tính năng bảo mật nghiêm ngặt nhằm nỗ lực ngăn chặn sự truy cập bất hợp pháp.</span></p><h3 data-path-to-node="31"><span style="font-size: 16px;">Liên kết đến các trang web khác</span></h3><p data-path-to-node="32"><span style="font-size: 16px;">Trang web đôi khi có thể chứa các liên kết đến và đi từ các trang web của mạng lưới đối tác, nhà quảng cáo và các chi nhánh của chúng tôi. Nếu bạn truy cập theo một liên kết đến bất kỳ trang web nào trong số này, vui lòng lưu ý rằng các trang web này có chính sách bảo mật riêng và do đó Chúng tôi không chấp nhận bất kỳ trách nhiệm hoặc nghĩa vụ pháp lý nào đối với các chính sách đó. Vui lòng kiểm tra các chính sách đó trước khi gửi bất kỳ dữ liệu cá nhân nào cho các trang web này.</span></p><h3 data-path-to-node="33"><span style="font-size: 16px;">Chỉnh sửa/thay đổi chính sách bảo mật</span></h3><p data-path-to-node="34"><span style="font-size: 16px;">Bất kỳ thay đổi nào Chúng tôi thực hiện đối với Chính sách Bảo mật này trong tương lai sẽ được đăng tải trên trang này và, khi phù hợp nhưng không phải là nghĩa vụ bắt buộc của Chúng tôi, Chúng tôi sẽ thông báo cho bạn về những thay đổi đó qua email.</span></p><p data-path-to-node="35"><span style="font-size: 16px;">Chúng tôi hoan nghênh tất cả các câu hỏi, ý kiến và yêu cầu liên quan đến Chính sách Bảo mật này từ Người dùng. Người dùng có thể liên hệ với Chúng tôi qua email: </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_be563639437986b7&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_a0fc2ffdebae3613&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQvgE"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element></p><p data-path-to-node="36"><span style="font-size: 16px;">Người dùng có quyền rút lại sự chấp thuận và đồng ý với chính sách bảo mật, và yêu cầu truy cập hoặc sửa đổi thông tin cá nhân.</span></p><p data-path-to-node="37"><span style="font-size: 16px;">Với tư cách là chủ thể dữ liệu, Người dùng có các quyền khác đối với dữ liệu cá nhân của mình theo quy định của pháp luật về bảo vệ dữ liệu có liên quan. Người dùng có thể truy cập dữ liệu cá nhân của mình, yêu cầu chỉnh sửa, ngăn chặn hoặc xóa dữ liệu bằng cách gửi yêu cầu cho chúng tôi tại địa chỉ email </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_be563639437986b7&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_a0fc2ffdebae3613&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQvwE"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element><span style="font-size: 16px;">. Tuy nhiên, Chúng tôi sẽ không chịu trách nhiệm về tính xác thực/chính xác của thông tin do Người dùng cung cấp. Vui lòng lưu ý rằng Chúng tôi có thể lưu giữ hồ sơ về các liên lạc của bạn để giúp chúng tôi giải quyết bất kỳ vấn đề nào bạn có thể nêu ra.</span></p><h3 data-path-to-node="38"><span style="font-size: 16px;">Rút lại sự đồng ý</span></h3><p data-path-to-node="39"><span style="font-size: 16px;">Bạn có thể rút lại sự đồng ý đối với việc thu thập, sử dụng và/hoặc tiết lộ dữ liệu cá nhân của bạn mà Chúng tôi đã cung cấp, nắm giữ hoặc kiểm soát bằng cách gửi email đến Bộ phận Bảo vệ Dữ liệu Cá nhân của Chúng tôi tại địa chỉ email </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_be563639437986b7&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_a0fc2ffdebae3613&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQwAE"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element><span style="font-size: 16px;">. Chúng tôi sẽ xử lý các yêu cầu này theo Chính sách Bảo mật cũng như các quy định pháp luật có liên quan.</span></p><p data-path-to-node="40"><span style="font-size: 16px;">Chúng tôi lưu ý rằng nếu bạn rút lại sự đồng ý, chúng tôi sẽ không thể tiếp tục cung cấp dịch vụ cho bạn và chúng tôi có thể phải chấm dứt mối quan hệ hiện tại và/hoặc hợp đồng của bạn với chúng tôi.</span></p><h3 data-path-to-node="41"><span style="font-size: 16px;">Yêu cầu truy cập hoặc chỉnh sửa dữ liệu cá nhân</span></h3><p data-path-to-node="42"><span style="font-size: 16px;">Nếu bạn đã đăng ký tài khoản với chúng tôi, bạn có thể tự mình truy cập và/hoặc chỉnh sửa dữ liệu cá nhân mà chúng tôi nắm giữ hoặc kiểm soát thông qua trang Cài đặt Tài khoản của mình.</span></p><p data-path-to-node="43"><span style="font-size: 16px;">Nếu bạn chưa đăng ký tài khoản với chúng tôi, bạn có thể yêu cầu truy cập và/hoặc chỉnh sửa dữ liệu cá nhân do chúng tôi nắm giữ hoặc kiểm soát bằng cách gửi yêu cầu bằng văn bản cho Chúng tôi tại địa chỉ email </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_be563639437986b7&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_a0fc2ffdebae3613&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQwQE"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element><span style="font-size: 16px;">. Chúng tôi sẽ cần có đầy đủ thông tin cần thiết từ Người dùng để xác định danh tính và bản chất yêu cầu của Người dùng để có thể giải quyết, vì vậy vui lòng gửi yêu cầu chi tiết nhất đến địa chỉ email </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_be563639437986b7&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_a0fc2ffdebae3613&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQwgE"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element><span style="font-size: 16px;">, Bộ phận Bảo vệ Dữ liệu Cá nhân của Chúng tôi sẽ hướng dẫn và xử lý yêu cầu đó. Trong trường hợp Chúng tôi được pháp luật cho phép, Chúng tôi có thể từ chối yêu cầu của Người dùng. Nếu Chúng tôi từ chối yêu cầu của Người dùng, Chúng tôi sẽ luôn cho Người dùng biết lý do của việc này.</span></p><p data-path-to-node="44"><span style="font-size: 16px;">Một khoản phí hợp lý có thể phát sinh để giải quyết và xử lý yêu cầu truy cập dữ liệu cá nhân của bạn. Nếu có chi phí phát sinh, chúng tôi sẽ cung cấp cho Người dùng bản ước tính chi phí bằng cách gửi tin nhắn đến địa chỉ email mà Người dùng đã đăng ký hoặc địa chỉ email mà Người dùng đã gửi yêu cầu truy cập hoặc chỉnh sửa dữ liệu cá nhân. Trong trường hợp này, vui lòng lưu ý rằng Chúng tôi không có nghĩa vụ phản hồi hoặc giải quyết yêu cầu của Người dùng trừ khi Người dùng đã đồng ý và thanh toán phí.</span></p><p data-path-to-node="45"><span style="font-size: 16px;">Chúng tôi bảo lưu quyền từ chối điều chỉnh dữ liệu cá nhân của Người dùng theo các quy định của pháp luật về bảo mật thông tin cá nhân, nơi các luật đó yêu cầu và/hoặc cho phép một tổ chức từ chối chỉnh sửa dữ liệu cá nhân trong những trường hợp như vậy.</span></p><h3 data-path-to-node="46"><span style="font-size: 16px;">Các câu hỏi hoặc khiếu nại khác</span></h3><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"></font></p><p data-path-to-node="47"><span style="font-size: 16px;">Nếu bạn có bất kỳ câu hỏi hoặc khiếu nại nào về các thực hành bảo mật của chúng tôi, vui lòng liên hệ với chúng tôi tại </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_be563639437986b7&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_a0fc2ffdebae3613&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQwwE"><span style="font-size: 16px;">ziczacgroup@gmail.com</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element><span style="font-size: 16px;">.</span></p></div>            </div>
+        </div>
+    </section>
+</main>    
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" style="padding: 0">
+    <div class="container">
+      <div class="copyright">
+              © Copyright <strong>Note Everything </strong><b>@</b><strong>2024</strong>. All Rights Reserved
+          </div>    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<style type="text/css">
+@media  screen and ( max-width: 600px ){
+
+    li.page-item {
+
+        display: none;
+    }
+
+    .page-item:first-child,
+    .page-item:nth-child( 2 ),
+    .page-item:nth-last-child( 2 ),
+    .page-item:last-child,
+    .page-item.active,
+    .page-item.disabled {
+
+        display: block;
+    }
+}
+
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-025RT6FQBP"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', 'G-025RT6FQBP');
+				</script>
+
+
+<style type="text/css">
+  #table-content p {
+    margin-bottom: 10px !important;
+  }
+
+  #table-content img {
+    object-fit: contain !important;
+  }
+</style>
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages = document.querySelectorAll("img.lazy");
+  var lazyloadThrottleTimeout;
+
+  function lazyload () {
+    if(lazyloadThrottleTimeout) {
+      clearTimeout(lazyloadThrottleTimeout);
+    }
+
+    lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.dataset.src == null || img.dataset.src == "" || img.dataset.src == undefined) return
+            
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              if(img.dataset.alt != null && img.dataset.alt != '') {
+                img.alt = img.dataset.alt;
+              }
+
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) {
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+    }, 20);
+  }
+
+  document.addEventListener("scroll", lazyload);
+  window.addEventListener("resize", lazyload);
+  window.addEventListener("orientationChange", lazyload);
+});
+</script>
+
+<script type="text/javascript">
+  function scrollToTarget2(target) {
+      jQuery('html, body').animate({
+          scrollTop: jQuery("#"+target).offset().top
+      }, 600);
+  }
+
+  function toggleMenu(that) {
+      menuList = jQuery("#menu-content li")
+      for(i=1;i<menuList.length;i++) {
+          jQuery(menuList[i]).toggle()
+      }
+
+      if(jQuery(that).attr("status") == "true") {
+          jQuery(that).text("Ẩn nội dung")
+          jQuery(that).attr('status', "false")
+      } else {
+          jQuery(that).text("Hiện nội dung")
+          jQuery(that).attr('status', "true")
+      }
+  }
+  function updateLanguage(lang) {
+    document.cookie = "lang="+lang+";path=/"
+    location.reload()
+  }
+
+  window.onload = function(e){ 
+    var tag = document.getElementById('option-lang')
+    if(tag != null) {
+      tag.value = 'VN'
+    }
+  }
+</script>    
+<script>
+    // setTimeout(() => {
+    //     ping()
+    //     setInterval(() => {
+    //         ping()
+    //     }, 15000);
+    // }, 3000);
+
+    // function ping() {
+    //     $.post('https://note.gozic.vn/api/realtime', {
+    //         'title': $('title').text(),
+    //         'url': window.location.href+'#'+document.referrer
+    //     }, function(data) {
+    //     })
+    // }
+</script>
+</body>
+</html>

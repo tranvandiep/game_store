@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="index, follow"> <meta http-equiv="Cache-control" content="public">
+<meta http-equiv="content-language" content="vi">
+
+
+<title>TERMS AND CONDITIONS OF USE</title>
+<meta name="description" content="[English]
+Important&amp;nbsp;– please read carefully the terms of service stated below (“Terms and Conditions” or “Contract”). By using the Services (as defined below), you agree that you have read, understood, accepted and agreed to the Terms  [...]">
+    
+
+<link rel="icon" type="image/png" href="https://note.gozic.vn/uploads/stores/1/2024/02/logo.png">
+<link rel="canonical" href="https://mykiddy.net/pages/terms-and-conditions-of-use.html" />
+
+<meta property="og:url" content="https://mykiddy.net/pages/terms-and-conditions-of-use.html" />
+<meta property="og:type" content="website" /> <meta property="og:title" content="TERMS AND CONDITIONS OF USE" />
+<meta property="og:description" content="[English]
+Important&amp;nbsp;– please read carefully the terms of service stated below (“Terms and Conditions” or “Contract”). By using the Services (as defined below), you agree that you have read, understood, accepted and agreed to the Terms  [...]" />
+<meta property="og:image" content="https://note.gozic.vn/uploads/stores/82/2022/03/dieu-khoan-size-1200x628.jpg" />
+<meta property="og:image:alt" content="TERMS AND CONDITIONS OF USE" />
+<meta property="og:locale" content="vi_VN" />
+<meta property="fb:app_id" content="2147265608860096" />
+
+<meta name="twitter:card" content="summary_large_image"/> <meta name="twitter:title" content="TERMS AND CONDITIONS OF USE"/>
+<meta name="twitter:description" content="[English]
+Important&amp;nbsp;– please read carefully the terms of service stated below (“Terms and Conditions” or “Contract”). By using the Services (as defined below), you agree that you have read, understood, accepted and agreed to the Terms  [...]"/>
+<meta name="twitter:image" content="https://note.gozic.vn/uploads/stores/82/2022/03/dieu-khoan-size-1200x628.jpg"/>
+
+<meta itemprop="name" content="TERMS AND CONDITIONS OF USE" />
+<meta itemprop="description" content="[English]
+Important&amp;nbsp;– please read carefully the terms of service stated below (“Terms and Conditions” or “Contract”). By using the Services (as defined below), you agree that you have read, understood, accepted and agreed to the Terms  [...]" />
+<meta itemprop="image" content="https://note.gozic.vn/uploads/stores/82/2022/03/dieu-khoan-size-1200x628.jpg" />
+
+<meta name="theme-color" content="#ffffff" />
+
+
+<meta name="google-site-verification" content="jCWETv04Ml50egkY8EzcsbOybgLAzDwmPbtgi8Pz9Hs" />
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite", 
+    "name": "Note Everything",
+    "url": "https://note.gozic.vn",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://note.gozic.vn/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "@id": "https://note.gozic.vn#organization",
+    "name": "Note Everything",
+    "alternateName": "ZicZac: Thiết kế web &amp; app &amp; quản lý tồn kho",
+    "url": "https://note.gozic.vn",
+    "logo": "https://note-everything.com/uploads/stores/1/2026/03/logo.png",
+    "contactPoint": [
+        {
+            "@type": "ContactPoint",
+            "telephone": "19001001",
+            "contactType": "sales",
+            "areaServed": "VN"
+        },
+        {
+            "@type": "ContactPoint",
+            "telephone": "19001001",
+            "contactType": "customer support",
+            "areaServed": "VN",
+            "email": "note-everything.com@gmail.com"
+        }
+    ],
+    "sameAs": [
+        "https://note.gozic.vn"
+    ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org", 
+    "@type": "LocalBusiness",
+    "name": "Note Everything",
+    "image": "https://note-everything.com/uploads/stores/1/2026/03/logo.png",
+    "@id": "https://note.gozic.vn#localbusiness",
+    "url": "https://note.gozic.vn",
+    "telephone": "19001001",
+    "priceRange": "VND",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Số 08 Tôn Thất Thuyết, Cầu Giấy, Hà Nội",
+        "addressLocality": "Cầu Giấy", 
+        "addressRegion": "Hà Nội",
+        "postalCode": "100000",
+        "addressCountry": "VN"
+    },
+    "hasMap": "https://maps.app.goo.gl/gntzBSEv98donC5W7",
+    "openingHours": "Mo-Fr 08:00-17:30, Sa 08:00-12:00"
+}
+</script>
+
+  <script type="text/javascript">
+  var isCheckout = false;
+
+  function nextAction() {
+    if(isCheckout) {
+      window.open('/checkout', '_self')
+    } else {
+      location.reload()
+    }
+  }
+
+  function deleteCart(id) {
+    logAction('delete_cart', 'Xoá SP khỏi rỏ hàng')
+
+    data = getCookie('cart');
+    data = JSON.parse(data)
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id || data[i].code == id) {
+        data.splice(i, 1)
+        break;
+      }
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function logAction(action, title) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      console.log('log action done')
+    };
+    xhttp.open("GET", "//"+window.location.hostname+"/logAction?action="+action+"&title="+title, true);
+    xhttp.send();
+  }
+
+  function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == ' ') {
+              c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+              return c.substring(name.length, c.length);
+          }
+      }
+      return "";
+  }
+
+  function setToCart(id, num) {
+    if(num <= 0) {
+      num = 1
+    }
+    logAction('setToCart', 'Thiết lập lại giỏ hàng')
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    }
+
+    isFind = false
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id || data[i].code == id) {
+        data[i].num = parseInt(num)
+        isFind = true
+        break;
+      }
+    }
+
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num
+      })
+    }
+
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function addToCart(id, thumbnail, title, price, num, design = '') {
+    logAction('addToCart', 'Thêm vào giỏ hàng')
+    if(num == null || num == 'null') {
+      num = 1;
+    }
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    } else {
+      data = []
+    }
+
+    isFind = false
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id || data[i].code == id) {
+        if(data[i].num == null || data[i].num == 'null') {
+          data[i].num = 1;
+        }
+        data[i].num = parseInt(data[i].num) + parseInt(num)
+        if(data[i].num <= 0) {
+          data.splice(i, 1)
+        }
+        isFind = true
+        break;
+      }
+    }
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num,
+        'thumbnail': thumbnail,
+        'design': design
+      })
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function addToCartNoRefresh(id, thumbnail, title, price, num) {
+    logAction('addToCartNoRefresh', 'Thêm vào giỏ hàng')
+    if(num == null || num == 'null') {
+      num = 1;
+    }
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    } else {
+      data = []
+    }
+
+    isFind = false
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id || data[i].code == id) {
+        if(data[i].num == null || data[i].num == 'null') {
+          data[i].num = 1;
+        }
+
+        data[i].num = parseInt(data[i].num) + parseInt(num)
+        isFind = true
+        break;
+      }
+    }
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num
+      })
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+  }
+
+  function addAllToCart(id, thumbnail, title, price, num, size) {
+    logAction('addAllToCart', 'Thêm vào giỏ hàng')
+    if(num == null || num == 'null') {
+      num = 1;
+    }
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    } else {
+      data = []
+    }
+
+    isFind = false
+    for(i=0;i<data.length;i++) {
+      if(data[i].id == id && data[i].size == size) {
+        if(data[i].num == null || data[i].num == 'null') {
+          data[i].num = 1;
+        }
+        
+        data[i].num = parseInt(data[i].num) + parseInt(num)
+        isFind = true
+        break;
+      }
+    }
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num,
+        'size': size
+      })
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function addCartVarian(id, num, variant_id, thumbnail = "", design = "") {
+    if(num == null || num == 'null') {
+      num = 1;
+    }
+
+    data = getCookie('cart');
+    if(data != null && data != "") {
+      data = JSON.parse(data)
+    } else {
+      data = []
+    }
+
+    isFind = false
+    if(design == "") {
+      for(i=0;i<data.length;i++) {
+        if(data[i].id == id && data[i].variant_id == variant_id) {
+          if(data[i].num == null || data[i].num == 'null') {
+            data[i].num = 1;
+          }
+          
+          data[i].num = parseInt(data[i].num) + parseInt(num)
+          isFind = true
+          break;
+        }
+      }
+    }
+    
+    if(!isFind) {
+      data.push({
+        'id': id,
+        'num': num,
+        'variant_id': variant_id,
+        'thumbnail': thumbnail,
+        'design': design,
+        'code': hashCode(`${id}${variant_id}${design}`)
+      })
+    }
+    document.cookie='cart=' + JSON.stringify(data) + getLifecycle();
+    nextAction()
+  }
+
+  function hashCode(s) {
+    return s.split("").reduce(function(a, b) {
+      a = ((a << 5) - a) + b.charCodeAt(0);
+      return a & a;
+    }, 0);
+  }
+   
+
+  function getLifecycle() { 
+    var now = new Date();
+    var time = now.getTime();
+    var expireTime = time + 30*1000*86400;
+    now.setTime(expireTime);
+    return ';expires='+now.toUTCString()+';path=/';
+  }
+</script>
+  
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
+    rel="stylesheet">
+
+<!-- Bootstrap CSS File -->
+<link href="https://note.gozic.vn/styles/theme24/lib/bootstrap/css/bootstrap.min.css?v 1" rel="stylesheet">
+
+<!-- Libraries CSS Files -->
+<link href="https://note.gozic.vn/styles/theme24/lib/font-awesome/css/font-awesome.min.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/animate/animate.min.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/ionicons/css/ionicons.min.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/owlcarousel/assets/owl.carousel.min.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/magnific-popup/magnific-popup.css?v 1" rel="stylesheet">
+<link href="https://note.gozic.vn/styles/theme24/lib/ionicons/css/ionicons.min.css?v 1" rel="stylesheet">
+
+<!-- Main Stylesheet File -->
+<link href="https://note.gozic.vn/styles/theme24/css/style.css?v 1" rel="stylesheet">  <script type="text/javascript" async=""
+    src="https://www.gstatic.com/recaptcha/releases/MHBiAvbtvk5Wb2eTZHoP1dUd/recaptcha__en.js" crossorigin="anonymous"
+    integrity="sha384-sqowHdlB0Wd7Pyivp8HlgVSUp0y72f9c+AA/LnYmxQ3ftGNyujn1FRgphnO7e4Oo"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<!-- JavaScript Libraries -->
+<script src="https://note.gozic.vn/styles/theme24/lib/jquery/jquery.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/jquery/jquery-migrate.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/bootstrap/js/bootstrap.bundle.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/easing/easing.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/superfish/hoverIntent.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/superfish/superfish.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/wow/wow.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/owlcarousel/owl.carousel.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/magnific-popup/magnific-popup.min.js?v1"></script>
+<script src="https://note.gozic.vn/styles/theme24/lib/sticky/sticky.js?v1"></script>
+
+<!-- Contact Form JavaScript File -->
+<script src="https://note.gozic.vn/styles/theme24/contactform/contactform.js?v1"></script>
+
+<!-- Template Main Javascript File -->
+<script src="https://note.gozic.vn/styles/theme24/js/main.js?v1"></script>
+  
+  <style>
+    #table-content img { display:block; }
+  </style>
+<body>
+
+  <style>
+/* --- Navigation Menu Styling --- */
+#nav-menu-container {
+    float: right;
+    margin: 0;
+}
+
+.nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+    float: left;
+}
+
+.nav-menu li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+/* Sub-menu basic style */
+.nav-menu ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 20px);
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    padding: 10px 0;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+.nav-menu ul li {
+    min-width: 200px;
+    position: relative;
+}
+
+.nav-menu ul li a {
+    padding: 10px 20px;
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.nav-menu ul li a:hover {
+    color: #f82249; /* Màu đỏ chủ đạo của bạn */
+    background: #f9f9f9;
+}
+
+/* Xử lý Dropdown cấp 3 (Sub-menu lồng nhau) */
+.nav-menu ul ul {
+    top: 0 !important;
+    left: 100% !important; /* Đẩy sang phải */
+    margin-top: -10px;
+}
+
+.nav-menu ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Icon mũi tên */
+.nav-menu .bi, .nav-menu .fa {
+    margin-left: 5px;
+    font-size: 12px;
+}
+</style>
+<!--==========================
+  Top Bar
+============================-->
+<section id="topbar" class="d-none d-lg-block">
+    <div class="container clearfix">
+        <div class="contact-info float-left">
+            <i class="fa fa-envelope-o"></i>
+            <a href="mailto:support@noteeverything.me">support@noteeverything.me</a>
+        </div>
+        <div class="social-links float-right">
+            <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="twitter">
+                  <i class="fa fa-twitter"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="facebook">
+                  <i class="fa fa-facebook"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="instagram">
+                  <i class="fa fa-instagram"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="google-plus">
+                  <i class="fa fa-google-plus"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/pg/note.everything/" class="linkedin">
+                  <i class="fa fa-linkedin"></i>
+              </a>        </div>
+    </div>
+</section>
+<header id="header">
+    <div class="container">
+
+        <div id="logo" class="pull-left">
+            <h1>
+                <a href="https://note.gozic.vn" class="scrollto">
+                    Note<span>&nbsp;Everything</span>
+                </a>
+            </h1>
+        </div>
+
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active">
+                    <a href="https://note.gozic.vn">Home</a>
+                </li>
+
+                                                            <li class="dropdown">
+                            <a href="https://note.gozic.vn/app-store.htm" class="">
+                                <span>App Store</span> <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                                                                                            <li><a href="https://note.gozic.vn/note-everything-android--ios.htm">Note Everything (Android & iOS)</a></li>
+                                                                                                                                                <li><a href="https://note.gozic.vn/inventory-check-android--ios.htm">Inventory Check (Android & iOS)</a></li>
+                                                                                                </ul>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/subscription-policty.htm">
+                                Subscription Policty                            </a>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/policy.htm">
+                                Policy                            </a>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/tern-of-use.htm">
+                                Tern of use                            </a>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/contact.htm">
+                                Contact                            </a>
+                        </li>
+                                                                                <li>
+                            <a class="" href="https://note.gozic.vn/login">
+                                Login                            </a>
+                        </li>
+                                                </ul>
+        </nav>
+    </div>
+</header>
+              <style>
+/* Section Intro */
+#intro {
+    width: 100%;
+    height: 300px; /* Giảm chiều cao một chút để cân đối hơn */
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hiệu ứng hình nền */
+#intro .item {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6; /* Làm mờ ảnh nền một chút */
+}
+
+/* Nội dung tiêu đề - Thay thế overlay đặc bằng Gradient mượt */
+.intro-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 0 15px;
+    width: 100%;
+    /* Gradient nhẹ nhàng từ màu thương hiệu của bạn */
+    background: linear-gradient(to bottom, rgba(253, 200, 77, 0.4), rgba(253, 200, 77, 0.2));
+    padding: 60px 0;
+}
+
+.intro-content h2 {
+    color: #0c2e8a; /* Màu xanh đậm để tạo độ tương phản cao trên nền vàng */
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: none; /* Giữ nguyên hoa/thường để dễ đọc */
+    letter-spacing: -0.5px;
+}
+
+/* Phần nội dung chính (About) */
+#about {
+    padding: 80px 0;
+    background: #fff;
+}
+
+#about .container {
+    max-width: 900px; /* Bóp gọn nội dung văn bản lại cho dễ đọc */
+    line-height: 1.8;
+    font-size: 17px;
+    color: #444;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 30px auto; /* Căn giữa hình ảnh trong bài viết */
+}
+</style>
+<section id="intro">
+    <div class="intro-content">
+        <div class="container">
+            <h2>
+                TERMS AND CONDITIONS OF USE            </h2>
+        </div>
+    </div>
+</section><main id="main">
+    <section id="about" class="wow fadeInUp">
+        <div class="container">
+            <div class="entry-content">
+                <div id="table-content" border="0" style="width: 100% !important; max-width: 100% !important; table-layout: fixed; word-break: break-word; text-align: justify"><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 24px; color: rgb(255, 0, 0); background-color: rgb(255, 255, 0);"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">[English]</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><br></font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Important</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;– please read carefully the terms of service stated below (“Terms and Conditions” or “</span></font><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Contract</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">”). By using the Services (as defined below), you agree that you have read, understood, accepted and agreed to the Terms and Conditions. You also agree to the representations you make below. If you do not agree to these Terms and Conditions, please do not access or continue to use the Service or Application (as defined below).</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font color="#2e2e2e" face="Averta, sans-serif" style="margin: 0px; padding: 0px; max-width: 100%;"><span style="font-size: 16px;">These Terms and Conditions constitute a legal agreement between you and</span></font><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">&nbsp;My App</span><font color="#2e2e2e" face="Averta, sans-serif" style="margin: 0px; padding: 0px; max-width: 100%;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;">&nbsp;</span></font><font color="#2e2e2e" face="Averta, sans-serif" style="margin: 0px; padding: 0px; max-width: 100%;"><span style="font-size: 16px;">&nbsp;in connection with providing you with personal training scheduling services (“</span></font><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Service</font></span><font color="#2e2e2e" face="Averta, sans-serif" style="margin: 0px; padding: 0px; max-width: 100%;"><span style="font-size: 16px;">”) through an application installed on mobile devices called “</span></font><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font color="#2e2e2e" face="Averta, sans-serif" style="margin: 0px; padding: 0px; max-width: 100%;"><span style="font-size: 16px;">” or website&nbsp;</span></font><a href="https://note-everything.com/" style="margin: 0px; padding: 0px; color: rgb(0, 145, 255); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%;"><span style="font-size: 16px;">https://note-everything.com/</span></a><a href="https://note-everything.com/" style="margin: 0px; padding: 0px; color: rgb(0, 145, 255); text-decoration-line: underline; border: 0px; transition: all 0.2s ease 0s; max-width: 100%;"></a><span style="font-size: 16px;">&nbsp;</span><font color="#2e2e2e" face="Averta, sans-serif" style="margin: 0px; padding: 0px; max-width: 100%;"><span style="font-size: 16px;">and all affiliated websites and applications are owned and operated solely by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font color="#2e2e2e" face="Averta, sans-serif" style="margin: 0px; padding: 0px; max-width: 100%;"><span style="font-size: 16px;">&nbsp;for the purpose of providing the Services (“</span></font><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">Application</font></span><font color="#2e2e2e" face="Averta, sans-serif" style="margin: 0px; padding: 0px; max-width: 100%;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-size: 16px;">”).</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;reserves the right to modify, replace or change the Terms and Conditions or policies related to the Service at any time.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;deemed appropriate (including adding or deleting any terms). Modifications, replacements or changes to the Terms and Conditions or policies related to the Service will take effect after the update is posted on the Application. You accept and agree that it is your responsibility to review the Terms and Conditions on a regular basis and your continued access or use of the Services after&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;Updates to the Terms and Conditions, whether or not you review them, will be deemed to constitute your agreement and acceptance to be bound by the Terms and Conditions as amended. , replace or change.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">1. Introduction</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Through the Application,&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;provide you (“Practitioner”) with a technology platform that can help Practitioners arrange and schedule fitness and yoga sessions with a personal fitness instructor, or otherwise provide you (“Practitioner”) Exercise Instructions”) information and methods to schedule, collect and establish contact with Practitioners to provide fitness and yoga instruction services.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">2. Use of the Service</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">To use the Service, you must register and maintain an active Service account (“Account”). You should note that Accounts are only provided to people aged 18 years or older, or other adults under Vietnamese law (if older than 18 years old). You may only be assigned a single Account, unless otherwise permitted by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;in written form.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Account registration requires you to provide&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;certain personal information, including your name, address, mobile phone number and age, as well as providing at least one valid payment method (via credit/payment card or other legal payment channels).</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">You agree to maintain the accuracy, completeness and currency of the information used for your Account. Failure to maintain the accuracy, completeness and up-to-dateness of Account information, including providing a payment method that is expired or no longer valid, may result in your being unable to access your account. and use the Services or&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;will terminate this agreement with you.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">3. Representations and Warranties</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">You may only use the Service in accordance with the methods supported on the Application. It is your responsibility to check and ensure that you have downloaded the correct Application and compatible version for your device.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">accepts no responsibility if you do not have a compatible device or if you have downloaded an incorrect or incompatible version of the Application for your device.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;reserves the right not to allow you to use the Service in case you use the Application on an incompatible or unauthorized device or for purposes other than those supported by the Application. By using the Application, you agree that:</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">(i) You are responsible for all actions arising from your Account, and agree to maintain the confidentiality of your Account name and password or any other means of identification that we provide for your use. Application and/or access to use the Service under all circumstances. In some cases, you may be required to provide proof of identity to access or use the Service and you agree that you have You may be denied access to or use of the Services if you refuse to provide such proof of identification.(ii) You may not authorize a third party to use your Account, and you may not transfer or carry out any other other form similar to your Account to any other person or entity.(iii) You will only use the Services in accordance with the purposes for which the Services support and are lawful, including access and use. Applications on personal devices only in connection with your use of the Services; and access and use any content, information, related materials provided through the Service, solely for personal and non-commercial purposes. (iv) You will not use the Application to send and store any unauthorized material or information or for fraudulent purposes.(v) You will not use the Application to annoy, harass, annoy or make bookings for the service (vi) You will not intend or act in any way that may cause disparagement, defamation, humiliation, intimidation, annoyance or bullying to any Trainer, Trainer or Instructor. Training,&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">or partner of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;or the Application; (vii) You may not reproduce, modify, duplicate, distribute, license, rent, sell, resell, transfer, publicly display, or publicly perform. them, transmit, stream or otherwise exploit the Application and Services unless otherwise permitted&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;permission.(viii) You may not create the source code, reverse engineer, decompile the source of the Application.(ix) You may not link, copy, or frame any content of the Application.(x) You may not link, copy, or frame any content of the Application. Do not use or run any program or script that attempts to extract, configure, analyze, or mine data on any content of the Application or that unduly slows down or interferes with the operation/functioning of the Application. functionality in any aspect of the Services. (xi) You may not make unauthorized access or cause damage to any aspect of the Application and Services or related systems and networks. mandarin.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">• For Practitioners</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">In addition to the representations and warranties set forth herein, as a Trainer, you represent, warrant, understand and agree that:(i) You will not contact a Trainer for the purposes of for purposes other than using the Service; (ii) You will not use the Training Instructor's information for any purpose other than using the Service; (iii) You will not or do not intend to , whether intentionally or unintentionally, cause damage to the Training Instructor; (iv) You must not use any means to defraud&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;or enrich yourself, in any manner, whether fraudulent or otherwise, through any event, promotional activity or campaign by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;conducted to encourage new accounts or use of the Services by new or existing customers;(v) You will not harass or otherwise behave in an inappropriate or disrespectful manner toward&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and/or Practice Instructor with whom you may have concerns&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;or a Workout Instructor; (vi) You will not provide or disclose your password or another Trainer's password, including personal information or for the purposes of collecting such personal information; (vii) You will not allow anyone else to use the Service using your Account or another Trainer's Account; (viii) You will not book a workout or share a workout booking number with your Account or another Trainee Account to any other person;(ix) You agree that your use of the Application, Services and/or features integrated on the Application will subject to our Privacy Policy&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;which may be amended from time to time; and(x) You agree to accept full responsibility and liability for all loss or damage caused to yourself, other Trainees, Training Instructors,&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and any third party where you breach any provision of these Terms and Conditions.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">• For Exercise Instructors</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">In addition to the representations and warranties set forth herein, as a Practice Instructor, you represent, warrant, understand and agree that:(i) You meet and will maintain the ability to meet all all the prescribed conditions and are allowed to provide fitness or yoga instruction services according to Vietnamese law at all times; (ii) You own, or have the right or permission to use the location Provide appropriate, legal training guidance services and meet training conditions according to Vietnamese law; (iii) You will be fully responsible for any and all complaints and judgments. and liability arising from any accident, loss or damage including, but not limited to, personal injury, death, total loss and property damage caused or alleged is due to the provision of exercise instruction services; (iv) You must comply with all Vietnamese laws related to the provision of exercise instruction services and will be solely responsible for any acts any violation of the law; (v) You will not contact the Trainer for any purpose other than to provide fitness and yoga training instructions under this Application; (vi) You will not use any What means of fraud?&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;or enrich yourself, in any manner, whether fraudulent or otherwise, whether or not through any event, advertising activity or campaign by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;conducted to encourage new accounts or use of the Services by new or existing Fitness Instructors;(vii) You agree that your use of the Services will be subject to the Policy Privacy of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;which may be amended from time to time.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">4. Payment</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">• For Practitioners</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">The Trainer understands and agrees that using the Service will incur charges for the fitness and yoga instruction services you receive from the Fitness Instructor (“Workout Instruction Fee”).</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">After the Trainer selects the Training Instructor and the accompanying service package (including the number of training sessions with the Training Instructor), the Training Instructor Fee for the service package will be displayed on the Application.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Based on the Trainee's selection, the Training Instruction Fee will be paid at the time of purchase and in full by credit and/or debit card (“Card”) or by e-wallet or other means. Other methods are available on the Application when applicable.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;Accordingly, send to the Practitioner a payment receipt via the Practitioner's email.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Payment of the Exercise Instruction Fee in any of the ways specified above shall be deemed to be the Trainee's direct payment of the Exercise Instruction Fee to the Exercise Instructor. The Training Instruction Fee will include applicable taxes according to the law.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">The Training Instruction Fee once paid by the Trainer will be considered complete and will not be refunded, except in the case of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;there are other regulations. The Exercise Instructor will begin providing exercise instruction services when&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;receive payment of the Trainee Instruction Fee in full from the Trainer. The Trainee is responsible for resolving any disputes with your Card issuer for disputes related to the issuance of your Card. Card issuance and use.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">• For Exercise Instructors</font></span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Training Instruction Fee is ok&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;Collection on behalf of the Training Instructor includes the software usage fee that the Training Instructor must pay.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><span style="font-size: 16px;">.</span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;will remit a relevant portion of the Exercise Instruction Fee to the Exercise Instructor, calculated pro rata based on the number of exercise instruction sessions carried out by the Exercise Instructor and after deduction less all related commissions, which shall be considered remuneration for providing the Services</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;to the Practice Instructor, at a percentage agreed between the Practice Instructor and&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">, applicable taxes and fees payable to third parties. Any payment of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;to the Practice Instructor according to the formula agreed upon in this article shall be net, final and without dispute.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">The actual Instructor Fee will be transferred to the Instructor's bank account no later than thirty (30) days after the Instructor confirms the number of sessions performed and the Practitioner's satisfaction.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;may, at its sole discretion, offer promotional offers with different specifications and different rates to any Trainee, which promotional offers will be determined by the Trainer. Conducted Practice Instructions.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">may determine or change the Training Instruction Fee at any time&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">, in its sole discretion, deems necessary or appropriate for business operations.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">5. User Content</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">You may create, post or share content, reviews, comments, materials, data, information, text, images and/or other forms of data (“User Content”). on Application. You agree that you will not post, upload, transmit, share, store, create or make available in any way through the Service any of the following content:</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">(i) User Content that is defamatory, libelous, offensive, obscene, pornographic, pornographic, indecent, lascivious, vulgar, suggestive, violent, harassing, hateful hateful, threatening, offensive, discriminatory, objectionable, abusive, inflammatory, dishonest, fraudulent or otherwise offensive; (ii) User Content that is considered illegal or unlawful law, be deemed to constitute, encourage or provide instructions for a criminal offense or in any other way create liability or violate any local, national or international law. (iii) User Content that may infringe or violate any patent, trademark, trade secret, copyright, privacy right, right of publicity or other intellectual property right, or any other rights, of any party;(iv) Automated advertisements, political campaign or commercial messages (SPAM) or any chain messages or User Content designed to deceive or defraud users of the Service; (v) Personal information of any third party, including, but not limited to, addresses, phone numbers, email addresses, identification numbers and credit card number;(vi) Viruses, corrupted data or other files or code intended to destroy, disrupt or harm, programs or other software designed to automatically interfere with the Service without without the written consent of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">.In any case,&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App&nbsp;</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">reserves the right to remove or refuse to allow you to post User Content on the site for any reason or without providing a reason, including User Content that&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;has the sole discretion to determine whether it has violated the terms and conditions and/or regulations, policies, and other related terms during the use of the Service.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;may take these actions without prior notice to you or any other third party. You are solely responsible for all User Content that you post.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;is not responsible for User Content and only confirms the authenticity of the information in User Content. You AGREE that if any individual or organization makes a complaint&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;in connection with the User Content you post, to the extent permitted by law, you shall indemnify and defend&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;against all damages, losses and expenses of any kind (including attorneys' fees and expenses) arising out of such claim. Any User Content provided by you shall be own your own. However, by providing User Content, you grant&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;a worldwide, perpetual, irrevocable, transferable, free of charge, with the right to sublicense, use, copy, modify, create derivative content, share, display and public performance, and other rights of exploitation in any manner whatsoever, of such User Content in any existing or future formats and distribution channels (including in connection with the Services and its business operations&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and matters relating to third party websites and services), without notice to or consent from you, and&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;will not incur any costs to you or any other person or entity. You may terminate this permission by deleting the posted content or your account. However, content will continue to appear if you have shared it with others and they have not deleted it. You should read this User Content terms with Privacy Policy (can be found at Application ) to better and more fully understand how User Content is collected and used by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and related parties. By using the Application and Services, you know and warrant that: (i) you are the sole and exclusive owner of all User Content or that you have all rights , the license, consent and transfer rights necessary to permit&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App&nbsp;</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">have the right to use the above User Content; (ii) no User Content, or your presentation, posting, publication or otherwise of your User Content, or the right to use User Content by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;as authorized above would constitute a breach, violation or infringement of any third party's intellectual property rights or contractual rights, or rights of publicity and confidentiality, or would result in the violation of any other any applicable law;(iii) you give your permission&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;use your name, profile picture and information about your actions on the Application in connection with or in connection with advertisements, offers and other sponsored content provided by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;displayed on its Applications and/or Services without compensation to you.</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;always appreciate your feedback or other suggestions regarding the Services and Applications, but you understand that&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;may use your feedback or suggestions without any obligation to compensate you for such content (in the same way that you would have no obligation to provide it).</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">6. Grant of Rights and Limitation of Rights</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and the granting parties&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">, when applicable, grants you a revocable, non-exclusive, non-transferable, personal license limited to your personal, non-commercial use of the Application. commercial purposes, subject to these Terms and Conditions. You may not use the Application to: (i) send spam or mass or automated messages; (ii) send or store material that is infringing, obscene, threatening, libelous, or otherwise unlawful or harmful, including, without limitation, material that is harmful to children or third party privacy; (iii) submit material that contains software viruses, worms, Trojan hours or malicious code, files, scripts, spies or computer programs; (iv) interfere with or disrupt the integrity or performance of the Application or the data contained therein; (v) attempt to gain unauthorized access to the Application or its related systems or networks; or (vi) impersonate any person or entity (vii) abstain from any act that may damage the goodwill or reputation of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><span style="font-size: 16px;">.</span></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">7. Intellectual Property Rights</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Only&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and the granting parties&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">, where applicable, shall own all right, title and interest, including all related intellectual property rights, in and to the Application and, more broadly, the Services and any suggestions, ideas, upgrade requests, feedback, recommendations or other information provided by you or any other party in connection with the Service.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">These Terms and Conditions do not constitute an agreement of sale and do not transfer to you any ownership rights in or to the Services and/or Application, or any intellectual property rights. Which is owned by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and/or its licensors&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">. Name&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><span style="font-size: 16px;">, logo&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">, the Service and/or Application logo and the&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;Service and product names related to the Application are trademarks of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;or third parties, and no right or license is granted to use them. To avoid misunderstanding, the term Application here includes all parts, processes and designs that make up the Application.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">8. Security</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Each Party hereby undertakes at all times to keep all information and data relating thereto strictly confidential&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">, services, products, business, marketing and promotional plans or other activities of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and the&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;link of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">, as well as information regarding third party service providers disclosed to you by&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;or representative of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;(whether orally or in writing, before, at or after the date of this Agreement) or has been obtained by you, indirectly or directly, from&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;or any of the&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;any other link, or which has been created in the course of entering into this agreement and shall not disclose or otherwise disclose to any other party this agreement or any and all documents or any other other relevant sections. The Parties hereby accept and agree that these confidentiality commitments will remain in effect after termination of this Agreement.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">9. Interactions with Third Parties</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">The Application and Services may be offered or accessed concurrently with third party content and services (including advertising) without&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;no management. You are aware that different terms of use and privacy policies apply when using these third party content and services.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;does not endorse the content and services of these third parties and is not, in any event, responsible for any products or services provided by these third parties.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">The Service and the rights thereto shall be deemed the property of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">. Nothing in these Terms and Conditions or your use of the Service shall be deemed to grant you any rights:(i) in or in connection with the Service other than the limited rights set out above. above; or (ii) to use or refer in any way to the name&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">, or Application names, logos, product and service names, brand names or service marks.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;provide the Services to you in accordance with these Terms and Conditions. However, you acknowledge that some third party providers of fitness coaching services may require you to agree to additional or different terms and conditions before you use or access those goods or services. Acceptance of these additional terms and conditions constitutes a separate legal binding between you and the third party service providers.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">10. Data Issues</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">You are responsible for accessing the mobile data network to use the Service. Data and messaging network usage charges may be charged if you access or use the Service from a device capable of using a wireless network.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">You are responsible for providing and updating compatible hardware or devices to access and use the Services and Applications and any subsequently updated versions of the Services and Applications.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;does not guarantee that the Service, or any content of the Service, will operate on any particular hardware or device. In addition, the Service may experience errors or delays during use due to Internet factors or other electronic interactions.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">11. Waiver, Limitation of Liability and Indemnification</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;DOES NOT and DOES NOT INTEND to provide fitness and yoga instruction services, and/or any similar services that under the law may be considered a sports service business under the law. Vietnamese law. Therefore,&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;will not be responsible for the fitness and yoga instruction services that Fitness Instructors provide to Practitioners. The Services are provided on an “as is” and “as available” basis.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;disclaim all representations and warranties, expressed, implied or stipulated, not set out in these Terms and Conditions, including any implied warranties relating to the ability to provide services, fitness for sale, for a particular purpose and non-infringement of such warranties. Besides,&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;makes no representations, warranties or undertakings regarding the reliability, timeliness, quality, suitability or availability of the Services or any services or goods ordered through use of the Service, or that the Service will not be interrupted or subject to technical errors.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;makes no representation as to the quality, suitability, safety, or competence of the Exercise Instructor. You agree that the entire risk arising from your use of the Service, and any related services or goods, shall be yours to the maximum extent permitted by law. Current law.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;shall not be liable for any damages whether indirect or incidental, special or general, resulting from the imposition of sanctions or as a result of any other conduct, including loss of profits, data, personal injury or property damage related to, or arising from, the use of the Services, including&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;has been advised of the possibility of the above damages.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;will not be responsible for any damages, liabilities or losses arising from your use or reliance on the Services or your inability to access or use the Services; or any dealings or relationship between the Trainer and the Training Instructor, including&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;has been advised of the possibility of the above damages.</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;shall not be liable for any delay or failure to act arising from causes beyond our reasonable control.&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><span style="font-size: 16px;">.</span></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">A Practitioner may use the Service to request or schedule fitness and yoga services with a Fitness Instructor, but the Practitioner agrees that&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;has no responsibility or liability to the Exerciser in connection with the exercise services provided by the Exercise Instructor.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">The Practitioner agrees to waive and hold&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;and its officers, directors, employees and agents&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;from any claims, demands, losses, liabilities and expenses (including attorneys' fees), arising out of or in connection with: (i) the use of the Service or its services and goods. Practitioner gains through use of the Services;(ii) a Practitioner's violation of any of these Terms and Conditions;(iii) your use of User Content&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">; or (iv) the Exerciser's violation of the rights of any third party, including the Exercise Instructor.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">12. Transfer</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">You may not assign these Terms and Conditions without our prior consent&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><span style="font-size: 16px;">.&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;will assign the Terms and Conditions without your consent to:(i)&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;child or related party; (ii) the party that owns the capital, rights or assets of&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">; or (iii) successor after merger. Any transfer in violation of the above provisions will be considered void. No relationship including joint venture, partnership, employment, or agency exists between you,&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;or any third party will be deemed to result from entering into these Terms and Conditions or through use of the Services.</span></font></p><h2 style="box-sizing: inherit; margin-top: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); margin-right: 0px; margin-bottom: calc(var(--space-unit)*0.25*var(--text-vspace-multiplier,1)); margin-left: 0px; padding: 0px; font-weight: 600; line-height: calc(var(--heading-line-height)*var(--line-height-multiplier,1)); font-size: var(--text-xl,1.728em); border: 0px; color: rgb(26, 26, 26); font-family: Averta, sans-serif; max-width: 100%; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">13. General Terms</span></font></h2><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">If any provision of these Terms and Conditions is deemed invalid or unenforceable, that provision will be removed and the remaining provisions will remain in effect according to applicable law.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">Job&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;">My App</span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;No failure to enforce any right or provision of these Terms and Conditions shall be deemed to be&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;waive such rights and provisions except in cases where&nbsp;</span></font><span style="margin: 0px; padding: 0px; border: 0px; display: inline-block; max-width: 100%; font-weight: 600; font-size: 16px;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;">My App</font></span><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">&nbsp;acknowledge and agree in writing.</span></font></p><p style="box-sizing: inherit; margin-bottom: calc(var(--space-unit)*0.75*var(--text-vspace-multiplier,1)); padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">This Contract is made bilingual in English and Vietnamese. In case of any dispute regarding the content or Vietnamese version of these Terms and Conditions or in case of any conflict, ambiguity, or inconsistency between the English and Vietnamese versions, the The English version shall prevail, be binding and final. The English version will be used in the proceedings. The English version of the Terms and Conditions will be sent to you upon your written request.</span></font></p><p style="box-sizing: inherit; margin-bottom: 0px; padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 16px;">These Terms and Conditions and disputes arising from or related to this agreement will be governed and interpreted in accordance with the laws of Vietnam. Any question, dispute or disagreement arising out of or in connection with these Terms and Conditions, including any dispute relating to the existence, validity or termination of the agreement, shall be arbitrated. and final decision by the Vietnam International Arbitration Center (VIAC) next to the Vietnam Chamber of Commerce and Industry in accordance with the arbitration rules of VIAC at that time. The dispute will be arbitrated by three arbitrators. Arbitrators are selected according to VIAC's arbitration rules and the language of arbitration is English.</span></font></p><p style="box-sizing: inherit; margin-bottom: 0px; padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><br></font></p><p style="box-sizing: inherit; margin-bottom: 0px; padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"><span style="font-size: 24px; font-weight: bold; color: rgb(255, 0, 0); background-color: rgb(255, 255, 0);">[Việt Nam]</span></font></p><p data-path-to-node="0"><span style="font-size: 16px;">Quan trọng – vui lòng đọc kỹ các điều khoản dịch vụ được nêu dưới đây (“Điều khoản và Điều kiện” hoặc “Hợp đồng”). Bằng việc sử dụng các Dịch vụ (như được định nghĩa dưới đây), bạn đồng ý rằng bạn đã đọc, hiểu, chấp nhận và đồng ý với các Điều khoản và Điều kiện. Bạn cũng đồng ý với các cam đoan mà bạn đưa ra dưới đây. Nếu bạn không đồng ý với các Điều khoản và Điều kiện này, vui lòng không truy cập hoặc tiếp tục sử dụng Dịch vụ hoặc Ứng dụng (như được định nghĩa dưới đây).</span></p><p data-path-to-node="1"><span style="font-size: 16px;">Các Điều khoản và Điều kiện này cấu thành một thỏa thuận pháp lý giữa bạn và My App liên quan đến việc cung cấp cho bạn các dịch vụ sắp xếp lịch đào tạo cá nhân (“Dịch vụ”) thông qua một ứng dụng được cài đặt trên các thiết bị di động có tên là “My App” hoặc trang web </span><response-element class="" ng-version="0.0.0-PLACEHOLDER"><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><link-block _nghost-ng-c44515977="" class="ng-star-inserted"><!----><!----><a _ngcontent-ng-c44515977="" target="_blank" rel="noopener" externallink="" _nghost-ng-c717306564="" jslog="197247;track:generic_click,impression,attention;BardVeMetadataKey:[[&quot;r_14a998b1a8261010&quot;,&quot;c_f440079b9aa0861e&quot;,null,&quot;rc_81d9a12015196364&quot;,null,null,&quot;vi&quot;,null,1,null,null,1,0]]" href="https://note-everything.com/" class="ng-star-inserted" data-hveid="0" decode-data-ved="1" data-ved="0CAAQ_4QMahgKEwjsjJLrqayTAxUAAAAAHQAAAAAQ2wE"><span style="font-size: 16px;">https://note-everything.com/</span></a><!----></link-block><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></response-element><span style="font-size: 16px;"> và tất cả các trang web cũng như ứng dụng liên kết được sở hữu và vận hành duy nhất bởi My App nhằm mục đích cung cấp các Dịch vụ (“Ứng dụng”).</span></p><p data-path-to-node="2"><span style="font-size: 16px;">My App bảo lưu quyền sửa đổi, thay thế hoặc thay đổi các Điều khoản và Điều kiện hoặc các chính sách liên quan đến Dịch vụ vào bất kỳ lúc nào mà My App cho là phù hợp (bao gồm cả việc thêm hoặc xóa bất kỳ điều khoản nào). Các sửa đổi, thay thế hoặc thay đổi đối với Điều khoản và Điều kiện hoặc các chính sách liên quan đến Dịch vụ sẽ có hiệu lực sau khi bản cập nhật được đăng trên Ứng dụng. Bạn chấp nhận và đồng ý rằng trách nhiệm của bạn là phải xem xét các Điều khoản và Điều kiện một cách thường xuyên và việc bạn tiếp tục truy cập hoặc sử dụng các Dịch vụ sau khi My App cập nhật các Điều khoản và Điều kiện, cho dù bạn có xem xét chúng hay không, sẽ được coi là cấu thành sự đồng ý và chấp nhận của bạn để chịu sự ràng buộc bởi các Điều khoản và Điều kiện đã được sửa đổi, thay thế hoặc thay đổi.</span></p><p data-path-to-node="3"><b data-path-to-node="3" data-index-in-node="0"><span style="font-size: 16px;">1. Giới thiệu</span></b><span style="font-size: 16px;">
+Thông qua Ứng dụng, My App cung cấp cho bạn (“Người tập”) một nền tảng công nghệ có thể giúp Người tập sắp xếp và lên lịch các buổi tập thể dục và yoga với một huấn luyện viên thể hình cá nhân, hoặc cung cấp cho bạn (“Hướng dẫn tập luyện”) thông tin và phương thức để lên lịch, thu thập và thiết lập liên lạc với Người tập để cung cấp dịch vụ hướng dẫn thể dục và yoga.</span></p><p data-path-to-node="4"><b data-path-to-node="4" data-index-in-node="0"><span style="font-size: 16px;">2. Sử dụng Dịch vụ</span></b><span style="font-size: 16px;">
+Để sử dụng Dịch vụ, bạn phải đăng ký và duy trì một tài khoản Dịch vụ đang hoạt động (“Tài khoản”). Bạn nên lưu ý rằng Tài khoản chỉ được cung cấp cho những người từ 18 tuổi trở lên, hoặc những người trưởng thành khác theo pháp luật Việt Nam (nếu trên 18 tuổi). Bạn chỉ có thể được chỉ định một Tài khoản duy nhất, trừ khi được My App cho phép khác bằng văn bản.</span></p><p data-path-to-node="5"><span style="font-size: 16px;">Đăng ký tài khoản yêu cầu bạn cung cấp cho My App một số thông tin cá nhân nhất định, bao gồm tên, địa chỉ, số điện thoại di động và độ tuổi của bạn, cũng như cung cấp ít nhất một phương thức thanh toán hợp lệ (thông qua thẻ tín dụng/thanh toán hoặc các kênh thanh toán hợp pháp khác).</span></p><p data-path-to-node="6"><span style="font-size: 16px;">Bạn đồng ý duy trì tính chính xác, đầy đủ và cập nhật của thông tin được sử dụng cho Tài khoản của mình. Việc không duy trì tính chính xác, đầy đủ và cập nhật của thông tin Tài khoản, bao gồm cả việc cung cấp phương thức thanh toán đã hết hạn hoặc không còn hiệu lực, có thể dẫn đến việc bạn không thể truy cập và sử dụng các Dịch vụ hoặc My App sẽ chấm dứt thỏa thuận này với bạn.</span></p><p data-path-to-node="7"><b data-path-to-node="7" data-index-in-node="0"><span style="font-size: 16px;">3. Cam đoan và Bảo đảm</span></b><span style="font-size: 16px;">
+Bạn chỉ có thể sử dụng Dịch vụ phù hợp với các phương thức được hỗ trợ trên Ứng dụng. Trách nhiệm của bạn là kiểm tra và đảm bảo rằng bạn đã tải đúng Ứng dụng và phiên bản tương thích cho thiết bị của mình. My App không chịu trách nhiệm nếu bạn không có thiết bị tương thích hoặc nếu bạn đã tải xuống phiên bản Ứng dụng không chính xác hoặc không tương thích cho thiết bị của mình. My App bảo lưu quyền không cho phép bạn sử dụng Dịch vụ trong trường hợp bạn sử dụng Ứng dụng trên thiết bị không tương thích hoặc không được phép hoặc cho các mục đích khác ngoài những mục đích được Ứng dụng hỗ trợ. Bằng việc sử dụng Ứng dụng, bạn đồng ý rằng:</span></p><p data-path-to-node="8"><span style="font-size: 16px;">(i) Bạn chịu trách nhiệm cho tất cả các hành động phát sinh từ Tài khoản của mình, và đồng ý duy trì tính bảo mật của tên Tài khoản và mật khẩu hoặc bất kỳ phương tiện nhận dạng nào khác mà chúng tôi cung cấp để bạn sử dụng Ứng dụng và/hoặc truy cập để sử dụng Dịch vụ trong mọi trường hợp. Trong một số trường hợp, bạn có thể được yêu cầu cung cấp bằng chứng nhận dạng để truy cập hoặc sử dụng Dịch vụ và bạn đồng ý rằng bạn có thể bị từ chối truy cập hoặc sử dụng Dịch vụ nếu bạn từ chối cung cấp bằng chứng nhận dạng đó.
+(ii) Bạn không được ủy quyền cho bên thứ ba sử dụng Tài khoản của mình, và bạn không được chuyển nhượng hoặc thực hiện bất kỳ hình thức nào khác tương tự đối với Tài khoản của mình cho bất kỳ cá nhân hoặc tổ chức nào khác.
+(iii) Bạn sẽ chỉ sử dụng Dịch vụ phù hợp với các mục đích mà Dịch vụ hỗ trợ và là hợp pháp, bao gồm việc truy cập và sử dụng Ứng dụng trên các thiết bị cá nhân chỉ liên quan đến việc bạn sử dụng Dịch vụ; và truy cập và sử dụng bất kỳ nội dung, thông tin, tài liệu liên quan nào được cung cấp thông qua Dịch vụ, chỉ cho mục đích cá nhân và phi thương mại.
+(iv) Bạn sẽ không sử dụng Ứng dụng để gửi và lưu trữ bất kỳ tài liệu hoặc thông tin trái phép nào hoặc cho mục đích gian lận.
+(v) Bạn sẽ không sử dụng Ứng dụng để làm phiền, quấy rối, gây khó chịu hoặc thực hiện các lượt đặt chỗ dịch vụ giả mạo.
+(vi) Bạn sẽ không có ý định hoặc hành động theo bất kỳ cách nào có thể gây ra sự miệt thị, phỉ báng, làm nhục, đe dọa, làm phiền hoặc bắt nạt đối với bất kỳ Người tập, Huấn luyện viên hoặc Người hướng dẫn tập luyện nào, My App hoặc đối tác của My App hoặc Ứng dụng.
+(vii) Bạn không được sao chép, sửa đổi, nhân bản, phân phối, cấp phép, cho thuê, bán, bán lại, chuyển nhượng, hiển thị công khai hoặc biểu diễn công khai chúng, truyền tải, phát trực tuyến hoặc khai thác Ứng dụng và Dịch vụ theo cách khác trừ khi được My App cho phép.
+(viii) Bạn không được tạo mã nguồn, kỹ thuật đảo ngược, giải mã mã nguồn của Ứng dụng.
+(ix) Bạn không được liên kết, sao chép hoặc đóng khung (frame) bất kỳ nội dung nào của Ứng dụng.
+(x) Bạn không được sử dụng hoặc chạy bất kỳ chương trình hoặc tập lệnh nào nhằm cố gắng trích xuất, cấu hình, phân tích hoặc khai thác dữ liệu trên bất kỳ nội dung nào của Ứng dụng hoặc làm chậm trễ hoặc cản trở hoạt động/chức năng của Ứng dụng một cách bất hợp lý trong bất kỳ khía cạnh nào của Dịch vụ.
+(xi) Bạn không được thực hiện việc truy cập trái phép hoặc gây thiệt hại cho bất kỳ khía cạnh nào của Ứng dụng và Dịch vụ hoặc các hệ thống và mạng lưới liên quan.</span></p><p data-path-to-node="9"><b data-path-to-node="9" data-index-in-node="0"><span style="font-size: 16px;">Đối với Người tập</span></b><span style="font-size: 16px;">
+Ngoài các cam đoan và bảo đảm được quy định tại đây, với tư cách là Người tập, bạn cam đoan, bảo đảm, hiểu và đồng ý rằng:
+(i) Bạn sẽ không liên hệ với Huấn luyện viên cho các mục đích khác ngoài việc sử dụng Dịch vụ; (ii) Bạn sẽ không sử dụng thông tin của Người hướng dẫn tập luyện cho bất kỳ mục đích nào khác ngoài việc sử dụng Dịch vụ; (iii) Bạn sẽ không hoặc không có ý định, dù vô tình hay hữu ý, gây thiệt hại cho Người hướng dẫn tập luyện; (iv) Bạn không được sử dụng bất kỳ phương tiện nào để gian lận My App hoặc làm giàu cho bản thân, theo bất kỳ cách thức nào, dù là gian lận hay cách khác, thông qua bất kỳ sự kiện, hoạt động khuyến mại hoặc chiến dịch nào do My App thực hiện để khuyến khích các tài khoản mới hoặc việc sử dụng Dịch vụ bởi các khách hàng mới hoặc hiện tại; (v) Bạn sẽ không quấy rối hoặc có hành vi không phù hợp hoặc không tôn trọng đối với My App và/hoặc Người hướng dẫn tập luyện mà bạn có thể có mối quan hệ; (vi) Bạn sẽ không cung cấp hoặc tiết lộ mật khẩu của mình hoặc mật khẩu của Người tập khác, bao gồm cả thông tin cá nhân hoặc cho mục đích thu thập thông tin cá nhân đó; (vii) Bạn sẽ không cho phép bất kỳ ai khác sử dụng Dịch vụ bằng Tài khoản của bạn hoặc Tài khoản của Người tập khác; (viii) Bạn sẽ không đặt lịch tập luyện hoặc chia sẻ mã số đặt lịch tập luyện bằng Tài khoản của bạn hoặc Tài khoản Người tập khác cho bất kỳ người nào khác; (ix) Bạn đồng ý rằng việc sử dụng Ứng dụng, Dịch vụ và/hoặc các tính năng được tích hợp trên Ứng dụng sẽ tuân theo Chính sách Bảo mật của My App, vốn có thể được sửa đổi tùy từng thời điểm; và (x) Bạn đồng ý chấp nhận toàn bộ trách nhiệm và nghĩa vụ đối với tất cả các tổn thất hoặc thiệt hại gây ra cho chính bạn, những Người tập khác, Người hướng dẫn tập luyện, My App và bất kỳ bên thứ ba nào khi bạn vi phạm bất kỳ điều khoản nào của các Điều khoản và Điều kiện này.</span></p><p data-path-to-node="10"><b data-path-to-node="10" data-index-in-node="0"><span style="font-size: 16px;">Đối với Người hướng dẫn tập luyện</span></b><span style="font-size: 16px;">
+Ngoài các cam đoan và bảo đảm được quy định tại đây, với tư cách là Người hướng dẫn tập luyện, bạn cam đoan, bảo đảm, hiểu và đồng ý rằng:
+(i) Bạn đáp ứng và sẽ duy trì khả năng đáp ứng tất cả các điều kiện quy định và được phép cung cấp dịch vụ hướng dẫn thể dục hoặc yoga theo pháp luật Việt Nam tại mọi thời điểm; (ii) Bạn sở hữu, hoặc có quyền hoặc sự cho phép sử dụng địa điểm cung cấp dịch vụ hướng dẫn tập luyện phù hợp, hợp pháp và đáp ứng các điều kiện tập luyện theo pháp luật Việt Nam; (iii) Bạn sẽ chịu trách nhiệm hoàn toàn đối với bất kỳ và tất cả các khiếu nại, phán quyết và trách nhiệm phát sinh từ bất kỳ tai nạn, mất mát hoặc thiệt hại nào bao gồm, nhưng không giới hạn ở, thương tích cá nhân, tử vong, tổn thất toàn bộ và thiệt hại tài sản gây ra hoặc bị cáo buộc là do việc cung cấp dịch vụ hướng dẫn tập luyện; (iv) Bạn phải tuân thủ tất cả các luật pháp Việt Nam liên quan đến việc cung cấp dịch vụ hướng dẫn tập luyện và sẽ chịu trách nhiệm duy nhất cho bất kỳ hành vi vi phạm pháp luật nào; (v) Bạn sẽ không liên hệ với Người tập cho bất kỳ mục đích nào khác ngoài việc cung cấp hướng dẫn tập thể dục và yoga theo Ứng dụng này; (vi) Bạn sẽ không sử dụng bất kỳ phương thức gian lận nào đối với My App hoặc làm giàu cho bản thân, theo bất kỳ cách thức nào, dù gian lận hay cách khác, dù có hay không thông qua bất kỳ sự kiện, hoạt động quảng cáo hoặc chiến dịch nào do My App thực hiện để khuyến khích các tài khoản mới hoặc việc sử dụng Dịch vụ bởi các Người hướng dẫn tập luyện mới hoặc hiện tại; (vii) Bạn đồng ý rằng việc sử dụng Dịch vụ của bạn sẽ tuân theo Chính sách Bảo mật của My App, vốn có thể được sửa đổi tùy từng thời điểm.</span></p><p data-path-to-node="11"><b data-path-to-node="11" data-index-in-node="0"><span style="font-size: 16px;">4. Thanh toán</span></b></p><p data-path-to-node="12"><b data-path-to-node="12" data-index-in-node="0"><span style="font-size: 16px;">Đối với Người tập</span></b><span style="font-size: 16px;">
+Người tập hiểu và đồng ý rằng việc sử dụng Dịch vụ sẽ phát sinh các khoản phí cho dịch vụ hướng dẫn thể dục và yoga mà bạn nhận được từ Người hướng dẫn tập luyện (“Phí hướng dẫn tập luyện”).
+Sau khi Người tập lựa chọn Người hướng dẫn tập luyện và gói dịch vụ đi kèm (bao gồm số lượng buổi tập với Người hướng dẫn tập luyện), Phí hướng dẫn tập luyện cho gói dịch vụ sẽ được hiển thị trên Ứng dụng.
+Dựa trên sự lựa chọn của Người tập, Phí hướng dẫn tập luyện sẽ được thanh toán tại thời điểm mua và thanh toán đầy đủ bằng thẻ tín dụng và/hoặc thẻ ghi nợ (“Thẻ”) hoặc bằng ví điện tử hoặc các phương thức khác có sẵn trên Ứng dụng khi áp dụng. Theo đó, My App gửi cho Người tập một biên lai thanh toán qua email của Người tập.
+Việc thanh toán Phí hướng dẫn tập luyện theo bất kỳ cách nào được quy định ở trên sẽ được coi là việc Người tập thanh toán trực tiếp Phí hướng dẫn tập luyện cho Người hướng dẫn tập luyện. Phí hướng dẫn tập luyện sẽ bao gồm các loại thuế áp dụng theo quy định của pháp luật.
+Phí hướng dẫn tập luyện một khi đã được Người tập thanh toán sẽ được coi là hoàn tất và sẽ không được hoàn lại, trừ trường hợp My App có các quy định khác. Người hướng dẫn tập luyện sẽ bắt đầu cung cấp dịch vụ hướng dẫn tập luyện khi My App nhận được đầy đủ khoản thanh toán Phí hướng dẫn tập luyện từ Người tập. Người tập có trách nhiệm giải quyết bất kỳ tranh chấp nào với tổ chức phát hành Thẻ của bạn đối với các tranh chấp liên quan đến việc phát hành và sử dụng Thẻ.</span></p><p data-path-to-node="13"><b data-path-to-node="13" data-index-in-node="0"><span style="font-size: 16px;">Đối với Người hướng dẫn tập luyện</span></b><span style="font-size: 16px;">
+Phí hướng dẫn tập luyện được My App thu thay cho Người hướng dẫn tập luyện bao gồm phí sử dụng phần mềm mà Người hướng dẫn tập luyện phải trả cho My App.
+My App sẽ chuyển một phần liên quan của Phí hướng dẫn tập luyện cho Người hướng dẫn tập luyện, được tính theo tỷ lệ dựa trên số buổi hướng dẫn tập luyện được thực hiện bởi Người hướng dẫn tập luyện và sau khi trừ đi tất cả các khoản hoa hồng liên quan, khoản này sẽ được coi là thù lao cho việc cung cấp Dịch vụ của My App cho Người hướng dẫn tập luyện, theo tỷ lệ phần trăm được thỏa thuận giữa Người hướng dẫn tập luyện và My App, các loại thuế và phí áp dụng phải trả cho các bên thứ ba. Mọi khoản thanh toán của My App cho Người hướng dẫn tập luyện theo công thức đã thỏa thuận trong điều khoản này sẽ là khoản ròng, cuối cùng và không có tranh chấp.
+Phí hướng dẫn thực tế sẽ được chuyển vào tài khoản ngân hàng của Người hướng dẫn không muộn hơn ba mươi (30) ngày sau khi Người hướng dẫn xác nhận số buổi thực hiện và sự hài lòng của Người tập.
+My App có thể, theo quyết định riêng của mình, đưa ra các ưu đãi khuyến mại với các đặc điểm kỹ thuật khác nhau và mức giá khác nhau cho bất kỳ Người tập nào, các ưu đãi khuyến mại này sẽ được thực hiện bởi Người hướng dẫn tập luyện. My App có thể xác định hoặc thay đổi Phí hướng dẫn tập luyện vào bất kỳ lúc nào mà My App, theo quyết định riêng của mình, cho là cần thiết hoặc phù hợp cho hoạt động kinh doanh.</span></p><p data-path-to-node="14"><b data-path-to-node="14" data-index-in-node="0"><span style="font-size: 16px;">5. Nội dung Người dùng</span></b><span style="font-size: 16px;">
+Bạn có thể tạo, đăng hoặc chia sẻ nội dung, đánh giá, bình luận, tài liệu, dữ liệu, thông tin, văn bản, hình ảnh và/hoặc các hình thức dữ liệu khác (“Nội dung Người dùng”) trên Ứng dụng. Bạn đồng ý rằng bạn sẽ không đăng, tải lên, truyền tải, chia sẻ, lưu trữ, tạo hoặc cung cấp theo bất kỳ cách nào thông qua Dịch vụ bất kỳ nội dung nào sau đây:
+(i) Nội dung Người dùng có tính chất phỉ báng, bôi nhọ, xúc phạm, tục tĩu, khiêu dâm, đồi trụy, không đứng đắn, dâm ô, thô tục, gợi dục, bạo lực, quấy rối, thù hận, đe dọa, xúc phạm, phân biệt đối xử, gây phản cảm, lăng mạ, kích động, không trung thực, gian lận hoặc gây khó chịu theo cách khác; (ii) Nội dung Người dùng được coi là bất hợp pháp hoặc trái pháp luật, được coi là cấu thành, khuyến khích hoặc cung cấp hướng dẫn cho một tội phạm hình sự hoặc theo bất kỳ cách nào khác tạo ra trách nhiệm pháp lý hoặc vi phạm bất kỳ luật địa phương, quốc gia hoặc quốc tế nào. (iii) Nội dung Người dùng có thể xâm phạm hoặc vi phạm bất kỳ bằng sáng chế, nhãn hiệu, bí mật kinh doanh, bản quyền, quyền riêng tư, quyền công khai hoặc quyền sở hữu trí tuệ nào khác, hoặc bất kỳ quyền nào khác của bất kỳ bên nào; (iv) Các quảng cáo tự động, thông điệp vận động chính trị hoặc thương mại (SPAM) hoặc bất kỳ thông điệp chuỗi nào hoặc Nội dung Người dùng được thiết kế để lừa dối hoặc lừa đảo người dùng Dịch vụ; (v) Thông tin cá nhân của bất kỳ bên thứ ba nào, bao gồm nhưng không giới hạn ở địa chỉ, số điện thoại, địa chỉ email, số nhận dạng và số thẻ tín dụng; (vi) Virus, dữ liệu bị hỏng hoặc các tệp hoặc mã khác nhằm mục đích phá hủy, làm gián đoạn hoặc gây hại, các chương trình hoặc phần mềm khác được thiết kế để tự động can thiệp vào Dịch vụ mà không có sự đồng ý bằng văn bản của My App.</span></p><p data-path-to-node="15"><span style="font-size: 16px;">Trong mọi trường hợp, My App bảo lưu quyền xóa hoặc từ chối cho phép bạn đăng Nội dung Người dùng trên trang web vì bất kỳ lý do gì hoặc không cần cung cấp lý do, bao gồm cả Nội dung Người dùng mà My App có toàn quyền quyết định xác định xem nó có vi phạm các điều khoản và điều kiện và/hoặc các quy định, chính sách và các điều khoản liên quan khác trong quá trình sử dụng Dịch vụ hay không. My App có thể thực hiện các hành động này mà không cần thông báo trước cho bạn hoặc bất kỳ bên thứ ba nào khác. Bạn chịu trách nhiệm duy nhất cho tất cả Nội dung Người dùng mà bạn đăng. My App không chịu trách nhiệm về Nội dung Người dùng và chỉ xác nhận tính xác thực của thông tin trong Nội dung Người dùng. Bạn ĐỒNG Ý rằng nếu bất kỳ cá nhân hoặc tổ chức nào khiếu nại My App liên quan đến Nội dung Người dùng mà bạn đăng, trong phạm vi pháp luật cho phép, bạn sẽ bồi thường và bảo vệ My App chống lại tất cả các thiệt hại, mất mát và chi phí dưới bất kỳ hình thức nào (bao gồm cả phí và chi phí luật sư) phát sinh từ khiếu nại đó. Bất kỳ Nội dung Người dùng nào do bạn cung cấp sẽ thuộc sở hữu của riêng bạn. Tuy nhiên, bằng việc cung cấp Nội dung Người dùng, bạn cấp cho My App quyền sử dụng trên toàn thế giới, vĩnh viễn, không thể thu hồi, có thể chuyển nhượng, miễn phí, với quyền cấp phép lại, sử dụng, sao chép, sửa đổi, tạo nội dung phái sinh, chia sẻ, hiển thị và biểu diễn công khai, và các quyền khai thác khác theo bất kỳ cách thức nào đối với Nội dung Người dùng đó dưới bất kỳ định dạng và kênh phân phối hiện có hoặc tương lai nào (bao gồm cả các vấn đề liên quan đến Dịch vụ và hoạt động kinh doanh của My App và các vấn đề liên quan đến trang web và dịch vụ của bên thứ ba), mà không cần thông báo hoặc sự đồng ý từ bạn, và My App sẽ không phải trả bất kỳ chi phí nào cho bạn hoặc bất kỳ cá nhân hoặc tổ chức nào khác. Bạn có thể chấm dứt sự cho phép này bằng cách xóa nội dung đã đăng hoặc tài khoản của mình. Tuy nhiên, nội dung sẽ tiếp tục xuất hiện nếu bạn đã chia sẻ nội dung đó với những người khác và họ chưa xóa nội dung đó. Bạn nên đọc các điều khoản Nội dung Người dùng này cùng với Chính sách Bảo mật (có thể tìm thấy tại Ứng dụng) để hiểu rõ hơn và đầy đủ hơn về cách Nội dung Người dùng được thu thập và sử dụng bởi My App và các bên liên quan. Bằng việc sử dụng Ứng dụng và Dịch vụ, bạn biết và bảo đảm rằng: (i) bạn là chủ sở hữu duy nhất và độc quyền của tất cả Nội dung Người dùng hoặc bạn có tất cả các quyền, giấy phép, sự đồng ý và quyền chuyển nhượng cần thiết để cho phép My App có quyền sử dụng Nội dung Người dùng nói trên; (ii) không có Nội dung Người dùng nào, hoặc việc trình bày, đăng tải, xuất bản của bạn hoặc cách khác đối với Nội dung Người dùng của bạn, hoặc quyền sử dụng Nội dung Người dùng của My App như được ủy quyền ở trên cấu thành một sự vi phạm, xâm phạm hoặc vi phạm quyền sở hữu trí tuệ hoặc quyền hợp đồng của bất kỳ bên thứ ba nào, hoặc quyền công khai và bảo mật, hoặc dẫn đến việc vi phạm bất kỳ luật áp dụng nào khác; (iii) bạn cho phép My App sử dụng tên, ảnh hồ sơ và thông tin về hành động của bạn trên Ứng dụng liên quan đến hoặc gắn liền với các quảng cáo, ưu đãi và nội dung được tài trợ khác do My App cung cấp hiển thị trên các Ứng dụng và/hoặc Dịch vụ của mình mà không có sự bồi thường cho bạn. My App luôn đánh giá cao phản hồi hoặc các đề xuất khác của bạn liên quan đến Dịch vụ và Ứng dụng, nhưng bạn hiểu rằng My App có thể sử dụng phản hồi hoặc đề xuất của bạn mà không có bất kỳ nghĩa vụ bồi thường nào cho bạn đối với nội dung đó (giống như cách mà bạn không có nghĩa vụ phải cung cấp nội dung đó).</span></p><p data-path-to-node="16"><b data-path-to-node="16" data-index-in-node="0"><span style="font-size: 16px;">6. Cấp Quyền và Hạn chế Quyền</span></b><span style="font-size: 16px;">
+My App và các bên cấp quyền của My App, khi áp dụng, cấp cho bạn một giấy phép có thể thu hồi, không độc quyền, không thể chuyển nhượng, mang tính cá nhân và giới hạn trong việc sử dụng Ứng dụng cho mục đích cá nhân, phi thương mại, tuân theo các Điều khoản và Điều kiện này. Bạn không được sử dụng Ứng dụng để: (i) gửi thư rác hoặc các tin nhắn hàng loạt hoặc tự động; (ii) gửi hoặc lưu trữ tài liệu xâm phạm, tục tĩu, đe dọa, phỉ báng, hoặc trái pháp luật hoặc có hại theo cách khác, bao gồm nhưng không giới hạn ở tài liệu có hại cho trẻ em hoặc quyền riêng tư của bên thứ ba; (iii) gửi tài liệu chứa virus phần mềm, worm, Trojan horse hoặc các mã độc, tệp, tập lệnh, gián điệp hoặc chương trình máy tính; (iv) can thiệp hoặc làm gián đoạn tính toàn vẹn hoặc hiệu suất của Ứng dụng hoặc dữ liệu chứa trong đó; (v) cố gắng truy cập trái phép vào Ứng dụng hoặc các hệ thống hoặc mạng lưới liên quan của nó; hoặc (vi) giả mạo bất kỳ cá nhân hoặc tổ chức nào; (vii) kiềm chế bất kỳ hành động nào có thể làm tổn hại đến thiện chí hoặc uy tín của My App.</span></p><p data-path-to-node="17"><b data-path-to-node="17" data-index-in-node="0"><span style="font-size: 16px;">7. Quyền Sở hữu Trí tuệ</span></b><span style="font-size: 16px;">
+Chỉ My App và các bên cấp quyền của My App, khi áp dụng, sẽ sở hữu tất cả các quyền, danh nghĩa và lợi ích, bao gồm tất cả các quyền sở hữu trí tuệ liên quan, đối với Ứng dụng và nói rộng hơn là các Dịch vụ và bất kỳ đề xuất, ý tưởng, yêu cầu nâng cấp, phản hồi, khuyến nghị hoặc thông tin khác do bạn hoặc bất kỳ bên nào khác cung cấp liên quan đến Dịch vụ.</span></p><p data-path-to-node="18"><span style="font-size: 16px;">Các Điều khoản và Điều kiện này không cấu thành một thỏa thuận mua bán và không chuyển nhượng cho bạn bất kỳ quyền sở hữu nào đối với các Dịch vụ và/hoặc Ứng dụng, hoặc bất kỳ quyền sở hữu trí tuệ nào do My App và/hoặc các bên cấp phép của My App sở hữu. Tên My App, logo My App, logo Dịch vụ và/hoặc Ứng dụng và các tên dịch vụ và sản phẩm của My App liên quan đến Ứng dụng là các nhãn hiệu của My App hoặc các bên thứ ba, và không có quyền hoặc giấy phép nào được cấp để sử dụng chúng. Để tránh hiểu lầm, thuật ngữ Ứng dụng ở đây bao gồm tất cả các phần, quy trình và thiết kế cấu thành nên Ứng dụng.</span></p><p data-path-to-node="19"><b data-path-to-node="19" data-index-in-node="0"><span style="font-size: 16px;">8. Bảo mật</span></b><span style="font-size: 16px;">
+Mỗi Bên cam kết tại mọi thời điểm giữ bí mật tuyệt đối tất cả các thông tin và dữ liệu liên quan đến My App, các dịch vụ, sản phẩm, kế hoạch kinh doanh, tiếp thị và quảng cáo hoặc các hoạt động khác của My App và các liên kết của My App, cũng như thông tin liên quan đến các nhà cung cấp dịch vụ bên thứ ba được tiết lộ cho bạn bởi My App hoặc đại diện của My App (dù bằng lời nói hay văn bản, trước, tại hoặc sau ngày của Thỏa thuận này) hoặc đã được bạn thu thập, gián tiếp hoặc trực tiếp, từ My App hoặc bất kỳ liên kết nào khác của My App, hoặc đã được tạo ra trong quá trình ký kết thỏa thuận này và sẽ không tiết lộ hoặc bằng cách khác làm lộ cho bất kỳ bên nào khác thỏa thuận này hoặc bất kỳ và tất cả các tài liệu hoặc bất kỳ phần liên quan nào khác. Các Bên chấp nhận và đồng ý rằng các cam kết bảo mật này sẽ vẫn có hiệu lực sau khi chấm dứt Thỏa thuận này.</span></p><p data-path-to-node="20"><b data-path-to-node="20" data-index-in-node="0"><span style="font-size: 16px;">9. Tương tác với Bên thứ ba</span></b><span style="font-size: 16px;">
+Ứng dụng và Dịch vụ có thể được cung cấp hoặc truy cập đồng thời với nội dung và dịch vụ của bên thứ ba (bao gồm cả quảng cáo) mà không có sự quản lý của My App. Bạn nhận thức được rằng các điều khoản sử dụng và chính sách bảo mật khác nhau sẽ được áp dụng khi sử dụng các nội dung và dịch vụ của bên thứ ba này. My App không xác nhận nội dung và dịch vụ của các bên thứ ba này và trong mọi trường hợp, không chịu trách nhiệm cho bất kỳ sản phẩm hoặc dịch vụ nào do các bên thứ ba này cung cấp.</span></p><p data-path-to-node="21"><span style="font-size: 16px;">Dịch vụ và các quyền đối với nó sẽ được coi là tài sản của My App. Không có nội dung nào trong các Điều khoản và Điều kiện này hoặc việc bạn sử dụng Dịch vụ được coi là cấp cho bạn bất kỳ quyền nào: (i) đối với hoặc liên quan đến Dịch vụ ngoài các quyền hạn chế được nêu ở trên; hoặc (ii) để sử dụng hoặc dẫn chiếu theo bất kỳ cách nào đến tên My App, hoặc tên Ứng dụng, logo, tên sản phẩm và dịch vụ, tên thương hiệu hoặc nhãn hiệu dịch vụ.</span></p><p data-path-to-node="22"><span style="font-size: 16px;">My App cung cấp các Dịch vụ cho bạn theo các Điều khoản và Điều kiện này. Tuy nhiên, bạn thừa nhận rằng một số nhà cung cấp dịch vụ hướng dẫn tập luyện bên thứ ba có thể yêu cầu bạn đồng ý với các điều khoản và điều kiện bổ sung hoặc khác biệt trước khi bạn sử dụng hoặc truy cập các hàng hóa hoặc dịch vụ đó. Việc chấp nhận các điều khoản và điều kiện bổ sung này cấu thành một sự ràng buộc pháp lý riêng biệt giữa bạn và các nhà cung cấp dịch vụ bên thứ ba.</span></p><p data-path-to-node="23"><b data-path-to-node="23" data-index-in-node="0"><span style="font-size: 16px;">10. Các vấn đề về Dữ liệu</span></b><span style="font-size: 16px;">
+Bạn có trách nhiệm truy cập mạng dữ liệu di động để sử dụng Dịch vụ. Phí sử dụng mạng dữ liệu và tin nhắn có thể được tính nếu bạn truy cập hoặc sử dụng Dịch vụ từ một thiết bị có khả năng sử dụng mạng không dây.
+Bạn có trách nhiệm cung cấp và cập nhật phần cứng hoặc thiết bị tương thích để truy cập và sử dụng các Dịch vụ và Ứng dụng cũng như bất kỳ phiên bản cập nhật nào sau đó của các Dịch vụ và Ứng dụng.
+My App không đảm bảo rằng Dịch vụ, hoặc bất kỳ nội dung nào của Dịch vụ, sẽ hoạt động trên bất kỳ phần cứng hoặc thiết bị cụ thể nào. Ngoài ra, Dịch vụ có thể gặp lỗi hoặc chậm trễ trong quá trình sử dụng do các yếu tố Internet hoặc các tương tác điện tử khác.</span></p><p data-path-to-node="24"><b data-path-to-node="24" data-index-in-node="0"><span style="font-size: 16px;">11. Khước từ, Giới hạn Trách nhiệm và Bồi thường</span></b><span style="font-size: 16px;">
+My App KHÔNG và KHÔNG CÓ Ý ĐỊNH cung cấp các dịch vụ hướng dẫn thể dục và yoga, và/hoặc bất kỳ dịch vụ tương tự nào mà theo pháp luật có thể được coi là hoạt động kinh doanh dịch vụ thể thao theo pháp luật Việt Nam. Do đó, My App sẽ không chịu trách nhiệm cho các dịch vụ hướng dẫn thể dục và yoga mà các Người hướng dẫn tập luyện cung cấp cho Người tập. Các Dịch vụ được cung cấp trên cơ sở "nguyên trạng" và "sẵn có". My App từ chối tất cả các cam đoan và bảo đảm, dù rõ ràng, ngụ ý hoặc được quy định, không được nêu trong các Điều khoản và Điều kiện này, bao gồm bất kỳ bảo đảm ngụ ý nào liên quan đến khả năng cung cấp dịch vụ, sự phù hợp để bán, cho một mục đích cụ thể và việc không vi phạm các bảo đảm đó. Bên cạnh đó, My App không đưa ra cam đoan, bảo đảm hoặc cam kết nào liên quan đến độ tin cậy, tính kịp thời, chất lượng, sự phù hợp hoặc tính sẵn có của các Dịch vụ hoặc bất kỳ dịch vụ hoặc hàng hóa nào được đặt thông qua việc sử dụng Dịch vụ, hoặc Dịch vụ sẽ không bị gián đoạn hoặc gặp lỗi kỹ thuật.</span></p><p data-path-to-node="25"><span style="font-size: 16px;">My App không đưa ra cam đoan nào về chất lượng, sự phù hợp, an toàn hoặc năng lực của Người hướng dẫn tập luyện. Bạn đồng ý rằng toàn bộ rủi ro phát sinh từ việc bạn sử dụng Dịch vụ, và bất kỳ dịch vụ hoặc hàng hóa liên quan nào, sẽ thuộc về bạn trong phạm vi tối đa được pháp luật hiện hành cho phép.</span></p><p data-path-to-node="26"><span style="font-size: 16px;">My App sẽ không chịu trách nhiệm cho bất kỳ thiệt hại nào dù là gián tiếp hoặc ngẫu nhiên, đặc biệt hoặc chung, phát sinh từ việc áp dụng các chế tài hoặc là kết quả của bất kỳ hành vi nào khác, bao gồm mất lợi nhuận, dữ liệu, thương tích cá nhân hoặc thiệt hại tài sản liên quan đến, hoặc phát sinh từ việc sử dụng các Dịch vụ, ngay cả khi My App đã được thông báo về khả năng xảy ra các thiệt hại nói trên. My App sẽ không chịu trách nhiệm cho bất kỳ thiệt hại, trách nhiệm hoặc tổn thất nào phát sinh từ việc bạn sử dụng hoặc dựa vào các Dịch vụ hoặc việc bạn không thể truy cập hoặc sử dụng các Dịch vụ; hoặc bất kỳ giao dịch hoặc mối quan hệ nào giữa Người tập và Người hướng dẫn tập luyện, ngay cả khi My App đã được thông báo về khả năng xảy ra các thiệt hại nói trên. My App sẽ không chịu trách nhiệm cho bất kỳ sự chậm trễ hoặc không hoạt động nào phát sinh từ các nguyên nhân nằm ngoài sự kiểm soát hợp lý của My App.</span></p><p data-path-to-node="27"><span style="font-size: 16px;">Người tập có thể sử dụng Dịch vụ để yêu cầu hoặc lên lịch các dịch vụ thể dục và yoga với Người hướng dẫn tập luyện, nhưng Người tập đồng ý rằng My App không có trách nhiệm hoặc nghĩa vụ pháp lý nào đối với Người tập liên quan đến các dịch vụ tập luyện do Người hướng dẫn tập luyện cung cấp.</span></p><p data-path-to-node="28"><span style="font-size: 16px;">Người tập đồng ý miễn trừ và giữ cho My App cũng như các cán bộ, giám đốc, nhân viên và đại lý của My App khỏi bất kỳ khiếu nại, yêu cầu, tổn thất, trách nhiệm và chi phí nào (bao gồm cả phí luật sư), phát sinh từ hoặc liên quan đến: (i) việc sử dụng Dịch vụ hoặc các dịch vụ và hàng hóa mà Người tập có được thông qua việc sử dụng các Dịch vụ; (ii) sự vi phạm của Người tập đối với bất kỳ Điều khoản và Điều kiện nào trong số này; (iii) việc My App sử dụng Nội dung Người dùng của bạn; hoặc (iv) sự vi phạm của Người tập đối với các quyền của bất kỳ bên thứ ba nào, bao gồm cả Người hướng dẫn tập luyện.</span></p><p data-path-to-node="29"><b data-path-to-node="29" data-index-in-node="0"><span style="font-size: 16px;">12. Chuyển nhượng</span></b><span style="font-size: 16px;">
+Bạn không được chuyển nhượng các Điều khoản và Điều kiện này nếu không có sự đồng ý trước của My App. My App sẽ chuyển nhượng các Điều khoản và Điều kiện mà không cần sự đồng ý của bạn cho: (i) công ty con hoặc bên liên quan của My App; (ii) bên sở hữu vốn, quyền hoặc tài sản của My App; hoặc (iii) bên kế thừa sau khi sáp nhập. Mọi hoạt động chuyển nhượng vi phạm các quy định trên sẽ bị coi là vô hiệu. Không có mối quan hệ nào bao gồm liên doanh, hợp tác, thuê mướn hoặc đại lý tồn tại giữa bạn, My App hoặc bất kỳ bên thứ ba nào được coi là kết quả từ việc ký kết các Điều khoản và Điều kiện này hoặc thông qua việc sử dụng các Dịch vụ.</span></p><p data-path-to-node="30"><b data-path-to-node="30" data-index-in-node="0"><span style="font-size: 16px;">13. Điều khoản Chung</span></b><span style="font-size: 16px;">
+Nếu bất kỳ quy định nào của các Điều khoản và Điều kiện này bị coi là vô hiệu hoặc không thể thi hành, quy định đó sẽ bị loại bỏ và các quy định còn lại sẽ vẫn có hiệu lực theo luật áp dụng.</span></p><p data-path-to-node="31"><span style="font-size: 16px;">Việc My App không thực thi bất kỳ quyền hoặc quy định nào trong các Điều khoản và Điều kiện này sẽ không được coi là My App từ bỏ các quyền và quy định đó trừ trường hợp My App xác nhận và đồng ý bằng văn bản.</span></p><p data-path-to-node="32"><span style="font-size: 16px;">Hợp đồng này được lập song ngữ bằng tiếng Anh và tiếng Việt. Trong trường hợp có bất kỳ tranh chấp nào liên quan đến nội dung hoặc phiên bản tiếng Việt của các Điều khoản và Điều kiện này hoặc trong trường hợp có bất kỳ sự mâu thuẫn, mơ hồ hoặc không nhất quán nào giữa bản tiếng Anh và tiếng Việt, bản tiếng Anh sẽ được ưu tiên áp dụng, có giá trị ràng buộc và là quyết định cuối cùng. Bản tiếng Anh sẽ được sử dụng trong các thủ tục tố tụng. Bản tiếng Anh của các Điều khoản và Điều kiện sẽ được gửi cho bạn theo yêu cầu bằng văn bản của bạn.</span></p><p style="box-sizing: inherit; margin-bottom: 0px; padding: 0px; border: 0px; line-height: calc(var(--body-line-height)*var(--line-height-multiplier,1)); max-width: 100%; color: rgb(46, 46, 46); font-family: Averta, sans-serif; font-size: 16px; text-align: justify;"><font style="margin: 0px; padding: 0px; max-width: 100%; vertical-align: inherit;"></font></p><p data-path-to-node="33"><span style="font-size: 16px;">Các Điều khoản và Điều kiện này và các tranh chấp phát sinh từ hoặc liên quan đến thỏa thuận này sẽ được điều chỉnh và giải thích theo luật pháp Việt Nam. Bất kỳ câu hỏi, tranh chấp hoặc bất đồng nào phát sinh từ hoặc liên quan đến các Điều khoản và Điều kiện này, bao gồm bất kỳ tranh chấp nào liên quan đến sự tồn tại, hiệu lực hoặc việc chấm dứt thỏa thuận, sẽ được phân xử và quyết định cuối cùng bởi Trung tâm Trọng tài Quốc tế Việt Nam (VIAC) bên cạnh Liên đoàn Thương mại và Công nghiệp Việt Nam theo quy tắc trọng tài của VIAC tại thời điểm đó. Tranh chấp sẽ được phân xử bởi ba trọng tài viên. Các trọng tài viên được lựa chọn theo quy tắc trọng tài của VIAC và ngôn ngữ trọng tài là tiếng Anh.</span></p></div>            </div>
+        </div>
+    </section>
+</main>    
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer" style="padding: 0">
+    <div class="container">
+      <div class="copyright">
+              © Copyright <strong>Note Everything </strong><b>@</b><strong>2024</strong>. All Rights Reserved
+          </div>    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<style type="text/css">
+@media  screen and ( max-width: 600px ){
+
+    li.page-item {
+
+        display: none;
+    }
+
+    .page-item:first-child,
+    .page-item:nth-child( 2 ),
+    .page-item:nth-last-child( 2 ),
+    .page-item:last-child,
+    .page-item.active,
+    .page-item.disabled {
+
+        display: block;
+    }
+}
+
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-025RT6FQBP"></script>
+				<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', 'G-025RT6FQBP');
+				</script>
+
+
+<style type="text/css">
+  #table-content p {
+    margin-bottom: 10px !important;
+  }
+
+  #table-content img {
+    object-fit: contain !important;
+  }
+</style>
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages = document.querySelectorAll("img.lazy");
+  var lazyloadThrottleTimeout;
+
+  function lazyload () {
+    if(lazyloadThrottleTimeout) {
+      clearTimeout(lazyloadThrottleTimeout);
+    }
+
+    lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.dataset.src == null || img.dataset.src == "" || img.dataset.src == undefined) return
+            
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              if(img.dataset.alt != null && img.dataset.alt != '') {
+                img.alt = img.dataset.alt;
+              }
+
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) {
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+    }, 20);
+  }
+
+  document.addEventListener("scroll", lazyload);
+  window.addEventListener("resize", lazyload);
+  window.addEventListener("orientationChange", lazyload);
+});
+</script>
+
+<script type="text/javascript">
+  function scrollToTarget2(target) {
+      jQuery('html, body').animate({
+          scrollTop: jQuery("#"+target).offset().top
+      }, 600);
+  }
+
+  function toggleMenu(that) {
+      menuList = jQuery("#menu-content li")
+      for(i=1;i<menuList.length;i++) {
+          jQuery(menuList[i]).toggle()
+      }
+
+      if(jQuery(that).attr("status") == "true") {
+          jQuery(that).text("Ẩn nội dung")
+          jQuery(that).attr('status', "false")
+      } else {
+          jQuery(that).text("Hiện nội dung")
+          jQuery(that).attr('status', "true")
+      }
+  }
+  function updateLanguage(lang) {
+    document.cookie = "lang="+lang+";path=/"
+    location.reload()
+  }
+
+  window.onload = function(e){ 
+    var tag = document.getElementById('option-lang')
+    if(tag != null) {
+      tag.value = 'VN'
+    }
+  }
+</script>    
+<script>
+    // setTimeout(() => {
+    //     ping()
+    //     setInterval(() => {
+    //         ping()
+    //     }, 15000);
+    // }, 3000);
+
+    // function ping() {
+    //     $.post('https://note.gozic.vn/api/realtime', {
+    //         'title': $('title').text(),
+    //         'url': window.location.href+'#'+document.referrer
+    //     }, function(data) {
+    //     })
+    // }
+</script>
+</body>
+</html>
