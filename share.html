@@ -677,79 +677,312 @@
       opacity: 1;
     }
 
-    /* Footer */
-    .share-footer {
-      margin-top: 56px;
-      text-align: center;
-      padding: 32px 16px 24px;
-      border-top: 2px solid rgba(124, 58, 237, 0.15);
+    /* ── MENU BAR ── */
+    .mykiddy-navbar {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(109, 40, 217, 0.08);
+      margin-bottom: 28px;
+      position: sticky;
+      top: 12px;
+      z-index: 100;
     }
-
-    .footer-title {
-      font-size: 15px;
-      font-weight: 800;
-      color: #581C87;
-      margin-bottom: 8px;
-    }
-
-    .footer-legal-links {
+    .nav-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 10px 20px;
       display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 16px 24px;
-      margin: 14px 0 18px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+    .nav-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
+      object-fit: cover;
+    }
+    .nav-brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-title {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #6D28D9 0%, #D946EF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.15;
+    }
+    .nav-tagline {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9333EA;
+      letter-spacing: 0.02em;
+    }
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
       list-style: none;
+      margin: 0;
       padding: 0;
     }
-
-    .footer-legal-links a {
-      color: #7C3AED;
-      text-decoration: none;
-      font-size: 13.5px;
-      font-weight: 800;
-      transition: color 0.15s ease;
-    }
-
-    .footer-legal-links a:hover {
-      color: #5B21B6;
-      text-decoration: underline;
-    }
-
-    .app-links {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 12px;
-    }
-
-    .app-btn {
+    .nav-item {
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      padding: 10px 18px;
-      border-radius: 14px;
+      padding: 9px 16px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 800;
+      color: #475569;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .nav-item:hover {
+      color: #6D28D9;
+      background: rgba(109, 40, 217, 0.08);
+      transform: translateY(-1px);
+    }
+    .nav-item.active {
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.35);
+    }
+    .btn-nav-app {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 18px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+      color: #FFFFFF;
+      font-size: 13.5px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .btn-nav-app:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4);
+    }
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .hamburger-bar {
+      width: 24px;
+      height: 3px;
+      background: #6D28D9;
+      border-radius: 3px;
+      transition: all 0.3s ease;
+    }
+
+    /* ── FOOTER CHUẨN ── */
+    .mykiddy-footer {
+      margin-top: 56px;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.8);
+      border-radius: 28px;
+      padding: 36px 28px 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    }
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1.2fr 1.2fr 1.4fr;
+      gap: 32px;
+      padding-bottom: 28px;
+      border-bottom: 1.5px solid rgba(148, 163, 184, 0.2);
+    }
+    .footer-logo-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .footer-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
+    }
+    .footer-brand-name {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 900;
+      color: #581C87;
+    }
+    .footer-brand-slogan {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9333EA;
+    }
+    .footer-desc {
+      font-size: 13.5px;
+      color: #475569;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+    .footer-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .safe-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      background: #EDE9FE;
+      color: #6D28D9;
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+    .footer-col-title {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 900;
+      color: #1E293B;
+      margin-bottom: 14px;
+      letter-spacing: -0.01em;
+    }
+    .footer-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-list a {
+      color: #475569;
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 700;
+      transition: all 0.15s ease;
+    }
+    .footer-list a:hover {
+      color: #7C3AED;
+      padding-left: 4px;
+    }
+    .footer-app-intro {
+      font-size: 13px;
+      color: #64748B;
+      font-weight: 600;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+    .footer-app-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .app-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 14px;
+      border-radius: 12px;
       background: #1E293B;
       color: #FFFFFF;
       text-decoration: none;
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 800;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-      transition: transform 0.15s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: all 0.15s ease;
     }
-
     .app-btn:hover {
+      background: #0F172A;
       transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
     }
-
+    .footer-bottom {
+      padding-top: 18px;
+      text-align: center;
+    }
     .footer-copyright {
       font-size: 12.5px;
-      color: #94A3B8;
+      color: #64748B;
       font-weight: 700;
-      margin-top: 16px;
     }
 
     /* Responsive */
+    @media (max-width: 900px) {
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 2px solid rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        padding: 16px;
+        box-shadow: 0 16px 36px rgba(109, 40, 217, 0.15);
+        flex-direction: column;
+        gap: 12px;
+      }
+      .nav-menu.open {
+        display: flex;
+      }
+      .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 6px;
+      }
+      .nav-item {
+        width: 100%;
+        padding: 10px 16px;
+      }
+      .nav-toggle {
+        display: flex;
+      }
+      .btn-nav-app {
+        width: 100%;
+        justify-content: center;
+      }
+      .footer-top {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
     @media (max-width: 640px) {
       h1 {
         font-size: 24px;
@@ -796,6 +1029,39 @@
 
 <body>
   <div class="container">
+
+    <!-- Unified Menu Bar -->
+    <nav class="mykiddy-navbar">
+      <div class="nav-container">
+        <a href="./index.html" class="nav-brand">
+          <img src="./icon.png" alt="My Kiddy Logo" class="nav-logo" onerror="this.style.display='none'" />
+          <div class="nav-brand-text">
+            <span class="nav-title">My Kiddy</span>
+            <span class="nav-tagline">Play Zone &amp; Safe Learning</span>
+          </div>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Mở menu điều hướng" onclick="toggleNavMenu()">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="./index.html" class="nav-item">🏠 Giới Thiệu</a></li>
+            <li><a href="./games.html" class="nav-item">🎮 Trò Chơi (Game)</a></li>
+            <li><a href="./share.html" class="nav-item active">📺 Kênh Youtube Bổ Ích</a></li>
+            <li><a href="./contact.html" class="nav-item">💌 Liên Hệ &amp; Góp Ý</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="btn-nav-app">
+              <span>📲 Tải App</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <!-- Header -->
     <header>
@@ -886,27 +1152,65 @@
     <!-- Channel Grid -->
     <div class="video-grid" id="videoGrid"></div>
 
-    <!-- Footer -->
-    <footer class="share-footer">
-      <p class="footer-title">🌟 Ứng dụng My Kiddy – Quản lý an toàn &amp; giáo dục toàn diện</p>
+    <!-- Unified Footer -->
+    <footer class="mykiddy-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand-col">
+            <div class="footer-logo-row">
+              <img src="./icon.png" alt="My Kiddy Logo" class="footer-logo" onerror="this.style.display='none'" />
+              <div>
+                <h3 class="footer-brand-name">My Kiddy</h3>
+                <span class="footer-brand-slogan">Play Zone &amp; Safe Learning</span>
+              </div>
+            </div>
+            <p class="footer-desc">
+              Hệ sinh thái số an toàn, giáo dục và lành mạnh hàng đầu cho trẻ em Việt Nam.
+              Đồng hành cùng cha mẹ xây dựng thói quen dùng thiết bị điều độ và kích thích tư duy sáng tạo cho bé.
+            </p>
+            <div class="footer-badges">
+              <span class="safe-badge">🛡️ COPPA &amp; GDPR-K Compliant</span>
+              <span class="safe-badge">✨ 100% Không Quảng Cáo Bẩn</span>
+            </div>
+          </div>
 
-      <ul class="footer-legal-links">
-        <li><a href="./pages/privacy-policy.html">🔒 Chính Sách Bảo Mật</a></li>
-        <li><a href="./pages/terms-and-conditions-of-use.html">📜 Điều Khoản Sử Dụng</a></li>
-        <li><a href="./pages/licensed-application-end-user-license-agreement.html">📱 Thỏa Thuận Cấp Phép (EULA)</a>
-        </li>
-      </ul>
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Khám Phá My Kiddy</h4>
+            <ul class="footer-list">
+              <li><a href="./index.html">🏠 Giới Thiệu Tính Năng</a></li>
+              <li><a href="./games.html">🎮 Kho Game &amp; Thẻ Học Trực Tuyến</a></li>
+              <li><a href="./share.html">📺 Danh Sách Kênh YouTube Bổ Ích</a></li>
+              <li><a href="./contact.html">💌 Hỗ Trợ &amp; Đóng Góp Ý Kiến</a></li>
+            </ul>
+          </div>
 
-      <div class="app-links">
-        <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" class="app-btn">
-          <span>🤖 Tải trên Google Play</span>
-        </a>
-        <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" class="app-btn">
-          <span>🍏 Tải trên App Store</span>
-        </a>
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Chính Sách &amp; Pháp Lý</h4>
+            <ul class="footer-list">
+              <li><a href="./pages/privacy-policy.html">🔒 Chính Sách Bảo Mật</a></li>
+              <li><a href="./pages/terms-and-conditions-of-use.html">📜 Điều Khoản Sử Dụng</a></li>
+              <li><a href="./pages/licensed-application-end-user-license-agreement.html">📱 Thỏa Thuận Cấp Phép (EULA)</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Tải Ứng Dụng Miễn Phí</h4>
+            <p class="footer-app-intro">Trải nghiệm ứng dụng đầy đủ trên điện thoại và máy tính bảng:</p>
+            <div class="footer-app-buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="app-btn">
+                <span>🤖 Google Play</span>
+              </a>
+              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="app-btn">
+                <span>🍏 App Store</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved. Phát triển vì sự phát triển toàn diện và an toàn của trẻ em.</p>
+        </div>
       </div>
-
-      <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved.</p>
     </footer>
 
   </div>
@@ -1462,6 +1766,15 @@
       setTimeout(() => {
         toast.classList.remove("show");
       }, 2500);
+    }
+
+    function toggleNavMenu() {
+      const menu = document.getElementById("navMenu");
+      const toggle = document.getElementById("navToggle");
+      if (menu && toggle) {
+        menu.classList.toggle("open");
+        toggle.classList.toggle("active");
+      }
     }
 
     // Khởi chạy khi DOM sẵn sàng

@@ -50,7 +50,10 @@ https://mykiddy.net/web_games_manifest.json
 
 ```text
 game_store/
-├── index.html                   # Trang Web Portal chọn và chơi game trực tuyến (GitHub Pages)
+├── index.html                   # Trang chủ giới thiệu hệ sinh thái My Kiddy
+├── games.html                   # Trang Web Portal chọn và chơi game trực tuyến
+├── share.html                   # Trang danh sách kênh YouTube giáo dục cho bé
+├── contact.html                 # Trang liên hệ, hỗ trợ và đóng góp ý kiến (Google Form)
 ├── README.md                    # Tài liệu giới thiệu kho ứng dụng Game & Flashcard
 ├── web_games_manifest.json      # File danh mục và phiên bản cập nhật tự động
 ├── online/                      # Kho chơi thử trực tiếp trên Web

@@ -3,466 +3,1528 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>My Kiddy – Kho Game & Flashcard ReactJS Giáo Dục</title>
+  <title>My Kiddy – Hệ Sinh Thái Số An Toàn &amp; Toàn Diện Dành Riêng Cho Bé Yêu</title>
+  <meta name="description" content="My Kiddy là giải pháp bảo vệ trẻ em trong kỷ nguyên số: Kiểm soát thời gian dùng màn hình, kho game giáo dục trí tuệ, thẻ học 3D Chạm-Phát-Âm song ngữ và video YouTube thiếu nhi an toàn không quảng cáo." />
+  <meta name="keywords" content="My Kiddy, ứng dụng cho bé, quản lý trẻ em, game giáo dục thiếu nhi, flashcard 3D song ngữ, YouTube thiếu nhi an toàn, kiểm soát giờ chơi cho bé" />
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="./icon.png" />
   <link rel="icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="apple-touch-icon" href="./icon.png" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="My Kiddy – Hệ Sinh Thái Số An Toàn Cho Bé Yêu" />
+  <meta property="og:description" content="Quản lý thời gian màn hình, kho game giáo dục, thẻ học 3D song ngữ và video YouTube sạch cho trẻ em." />
+  <meta property="og:url" content="https://mykiddy.net/index.html" />
+  <meta property="og:image" content="https://mykiddy.net/pages/thumbnail.png" />
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+
   <style>
     :root {
       --primary: #6D28D9;
-      --primary-light: #8B5CF6;
+      --primary-hover: #5B21B6;
+      --primary-light: #EDE9FE;
       --accent: #F59E0B;
+      --accent-hover: #D97706;
+      --accent-light: #FEF3C7;
+      --emerald: #10B981;
+      --emerald-light: #D1FAE5;
+      --sky: #0284C7;
+      --sky-light: #E0F2FE;
+      --rose: #F43F5E;
+      --rose-light: #FFE4E6;
       --bg: #FFFBEB;
       --text: #1E293B;
-      --font: 'Nunito', sans-serif;
+      --text-muted: #64748B;
+      --font-body: 'Nunito', sans-serif;
+      --font-heading: 'Outfit', sans-serif;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; font-family: var(--font); }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-body);
+    }
+
     body {
-      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 35%, #EDE9FE 100%);
+      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 30%, #EDE9FE 70%, #E0F2FE 100%);
+      background-attachment: fixed;
       color: var(--text);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
-      padding: 32px 16px;
+      padding: 16px 16px 32px;
     }
+
     .container {
-      max-width: 1040px;
+      max-width: 1140px;
       width: 100%;
       margin: 0 auto;
       flex: 1;
     }
-    header {
-      text-align: center;
-      margin-bottom: 32px;
-    }
-    .brand-logo {
-      font-size: 52px;
-      display: inline-block;
-      margin-bottom: 8px;
-      animation: bounce 2.5s infinite ease-in-out;
-    }
-    h1 {
-      font-size: 32px;
-      font-weight: 900;
-      color: #78350F;
-      letter-spacing: -0.02em;
-    }
-    p.subtitle {
-      font-size: 15px;
-      font-weight: 700;
-      color: #92400E;
-      margin-top: 6px;
-      max-width: 620px;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.5;
-    }
-    .filters {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin: 24px 0 32px;
-      flex-wrap: wrap;
-    }
-    .filter-btn {
-      padding: 10px 22px;
-      border-radius: 9999px;
-      border: 2px solid #FFFFFF;
-      background: rgba(255, 255, 255, 0.9);
-      font-size: 14px;
-      font-weight: 800;
-      color: #64748B;
-      cursor: pointer;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      transition: all 0.15s ease;
-    }
-    .filter-btn:hover {
-      background: #FFFFFF;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
-    }
-    .filter-btn.active {
-      background: #6D28D9;
-      border-color: #7C3AED;
-      color: #FFFFFF;
-      box-shadow: 0 8px 20px rgba(109, 40, 217, 0.3);
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 24px;
-    }
-    .card {
-      background: rgba(255, 255, 255, 0.95);
+
+    /* ── MENU BAR ── */
+    .mykiddy-navbar {
+      background: rgba(255, 255, 255, 0.92);
       backdrop-filter: blur(16px);
-      border: 3px solid #FFFFFF;
-      border-radius: 28px;
-      box-shadow: 0 14px 36px rgba(0, 0, 0, 0.08);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(109, 40, 217, 0.08);
+      margin-bottom: 28px;
+      position: sticky;
+      top: 12px;
+      z-index: 100;
+    }
+
+    .nav-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+
+    .nav-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
+      object-fit: cover;
+    }
+
+    .nav-brand-text {
       display: flex;
       flex-direction: column;
-      overflow: hidden;
-      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.12);
+
+    .nav-title {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #6D28D9 0%, #D946EF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.15;
     }
-    .card-header {
+
+    .nav-tagline {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9333EA;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 800;
+      color: #475569;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .nav-item:hover {
+      color: #6D28D9;
+      background: rgba(109, 40, 217, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .nav-item.active {
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.35);
+    }
+
+    .btn-nav-app {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 18px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+      color: #FFFFFF;
+      font-size: 13.5px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .btn-nav-app:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4);
+    }
+
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .hamburger-bar {
+      width: 24px;
+      height: 3px;
+      background: #6D28D9;
+      border-radius: 3px;
+      transition: all 0.3s ease;
+    }
+
+    /* ── HERO SECTION ── */
+    .hero-section {
+      text-align: center;
+      padding: 32px 16px 44px;
       position: relative;
-      padding: 16px 16px 0;
     }
-    .thumbnail-box {
-      width: 100%;
-      height: 150px;
-      border-radius: 20px;
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid #EDE9FE;
+      color: #6D28D9;
+      font-size: 13.5px;
+      font-weight: 800;
+      box-shadow: 0 4px 16px rgba(109, 40, 217, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .hero-title {
+      font-family: var(--font-heading);
+      font-size: 42px;
+      font-weight: 900;
+      color: #3B0764;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+      max-width: 880px;
+      margin: 0 auto 18px;
+    }
+
+    .hero-title .gradient-text {
+      background: linear-gradient(135deg, #7C3AED 0%, #DB2777 50%, #EA580C 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 17px;
+      font-weight: 600;
+      color: #475569;
+      max-width: 780px;
+      margin: 0 auto 32px;
+      line-height: 1.65;
+    }
+
+    .hero-cta-group {
       display: flex;
       align-items: center;
       justify-content: center;
-      overflow: hidden;
-      border: 1px solid rgba(0,0,0,0.06);
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 36px;
     }
-    .thumbnail-box img {
+
+    .btn-hero-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 8px 24px rgba(109, 40, 217, 0.35);
+      transition: all 0.2s ease;
+    }
+
+    .btn-hero-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(109, 40, 217, 0.45);
+    }
+
+    .btn-hero-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 26px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 2px solid #E2E8F0;
+      color: #1E293B;
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease;
+    }
+
+    .btn-hero-secondary:hover {
+      background: #FFFFFF;
+      border-color: #CBD5E1;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn-hero-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 26px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 8px 24px rgba(245, 158, 11, 0.35);
+      transition: all 0.2s ease;
+    }
+
+    .btn-hero-download:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(245, 158, 11, 0.45);
+    }
+
+    /* Hero Trust Metrics */
+    .hero-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .metric-card {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 2px solid #FFFFFF;
+      border-radius: 20px;
+      padding: 16px 14px;
+      box-shadow: 0 6px 18px rgba(109, 40, 217, 0.05);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .metric-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .metric-icon {
+      font-size: 28px;
+      margin-bottom: 6px;
+    }
+
+    .metric-value {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 900;
+      color: #1E293B;
+      margin-bottom: 2px;
+    }
+
+    .metric-desc {
+      font-size: 12px;
+      font-weight: 700;
+      color: #64748B;
+    }
+
+    /* ── SECTION COMMON ── */
+    .section-wrap {
+      margin-top: 56px;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .section-tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 5px 14px;
+      border-radius: 9999px;
+      margin-bottom: 10px;
+    }
+
+    .tag-purple {
+      background: #EDE9FE;
+      color: #6D28D9;
+    }
+
+    .tag-amber {
+      background: #FEF3C7;
+      color: #B45309;
+    }
+
+    .tag-emerald {
+      background: #D1FAE5;
+      color: #065F46;
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: 30px;
+      font-weight: 900;
+      color: #1E293B;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+      font-size: 15px;
+      font-weight: 600;
+      color: #64748B;
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* ── PROBLEM VS SOLUTION ── */
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .comparison-card {
+      border-radius: 26px;
+      padding: 28px;
+      border: 3px solid #FFFFFF;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.06);
+    }
+
+    .card-problem {
+      background: rgba(255, 241, 242, 0.9);
+      border-color: #FFE4E6;
+    }
+
+    .card-solution {
+      background: rgba(240, 253, 244, 0.95);
+      border-color: #DCFCE7;
+    }
+
+    .comparison-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .comparison-icon {
+      font-size: 32px;
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icon-problem {
+      background: #FFE4E6;
+    }
+
+    .icon-solution {
+      background: #DCFCE7;
+    }
+
+    .comparison-title {
+      font-family: var(--font-heading);
+      font-size: 19px;
+      font-weight: 900;
+    }
+
+    .title-problem {
+      color: #9F1239;
+    }
+
+    .title-solution {
+      color: #065F46;
+    }
+
+    .comparison-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .comparison-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      line-height: 1.5;
+      font-weight: 700;
+    }
+
+    .item-problem {
+      color: #881337;
+    }
+
+    .item-solution {
+      color: #064E3B;
+    }
+
+    /* ── 6 CORE FEATURES GRID ── */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .feature-card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 3px solid #FFFFFF;
+      border-radius: 26px;
+      padding: 26px 22px;
+      box-shadow: 0 12px 30px rgba(109, 40, 217, 0.06);
+      display: flex;
+      flex-direction: column;
+      transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 40px rgba(109, 40, 217, 0.12);
+    }
+
+    .feature-icon-box {
+      width: 58px;
+      height: 58px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      margin-bottom: 18px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    }
+
+    .feature-card h3 {
+      font-family: var(--font-heading);
+      font-size: 19px;
+      font-weight: 900;
+      color: #1E293B;
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+
+    .feature-card p {
+      font-size: 13.5px;
+      color: #64748B;
+      line-height: 1.55;
+      font-weight: 600;
+      margin-bottom: 16px;
+      flex: 1;
+    }
+
+    .feature-card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+    }
+
+    .feature-chip {
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 9px;
+      border-radius: 8px;
+      background: #F1F5F9;
+      color: #475569;
+    }
+
+    /* ── QUICK PREVIEW SHOWCASE ── */
+    .preview-box {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(245, 243, 255, 0.9) 100%);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 3px solid #FFFFFF;
+      border-radius: 28px;
+      padding: 32px 24px;
+      box-shadow: 0 16px 40px rgba(109, 40, 217, 0.08);
+    }
+
+    .preview-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 24px;
+    }
+
+    .mini-game-card {
+      background: #FFFFFF;
+      border: 2px solid #F1F5F9;
+      border-radius: 22px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+      transition: all 0.2s ease;
+    }
+
+    .mini-game-card:hover {
+      transform: translateY(-4px);
+      border-color: #DDD6FE;
+      box-shadow: 0 10px 24px rgba(109, 40, 217, 0.1);
+    }
+
+    .mini-thumb {
+      width: 100%;
+      height: 130px;
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .mini-thumb img {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
-    .emoji-fallback {
-      font-size: 58px;
-    }
-    .badge-group {
-      position: absolute;
-      top: 24px;
-      right: 24px;
-      display: flex;
-      gap: 6px;
-    }
-    .type-badge {
-      font-size: 11px;
-      font-weight: 900;
-      padding: 4px 10px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    }
-    .version-badge {
-      font-size: 11px;
-      font-weight: 800;
-      background: rgba(15, 23, 42, 0.75);
-      color: #FFFFFF;
-      padding: 4px 8px;
-      border-radius: 8px;
-    }
-    .card-body {
-      padding: 18px 20px 14px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-    }
-    .card-title {
-      font-size: 20px;
+
+    .mini-title {
+      font-family: var(--font-heading);
+      font-size: 16.5px;
       font-weight: 900;
       color: #1E293B;
-      line-height: 1.25;
-      margin-bottom: 6px;
+      margin-bottom: 4px;
     }
-    .card-desc {
-      font-size: 13px;
-      font-weight: 600;
+
+    .mini-desc {
+      font-size: 12.5px;
       color: #64748B;
-      line-height: 1.45;
+      line-height: 1.4;
       margin-bottom: 14px;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
-    .card-meta {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-      margin-top: auto;
-    }
-    .meta-tag {
-      font-size: 11px;
-      font-weight: 700;
-      background: #F1F5F9;
-      color: #475569;
-      padding: 4px 9px;
-      border-radius: 8px;
-    }
-    .card-footer {
-      padding: 12px 20px 20px;
-      display: flex;
-      gap: 8px;
-    }
-    .play-btn {
-      flex: 1;
-      display: flex;
+
+    .btn-play-mini {
+      display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 8px;
-      padding: 12px;
-      border-radius: 18px;
-      background: linear-gradient(180deg, #FBBF24 0%, #F59E0B 100%);
-      border: 2px solid #FDE68A;
-      border-bottom: 4px solid #B45309;
+      gap: 6px;
+      padding: 10px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
       color: #FFFFFF;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 900;
       text-decoration: none;
-      box-shadow: 0 6px 16px rgba(245, 158, 11, 0.25);
-      transition: all 0.1s ease;
-      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+      transition: all 0.15s ease;
+      margin-top: auto;
     }
-    .play-btn:hover {
+
+    .btn-play-mini:hover {
       transform: translateY(-2px);
-      border-bottom-width: 5px;
+      box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4);
     }
-    .play-btn:active {
-      transform: translateY(3px);
-      border-bottom-width: 2px;
-      box-shadow: 0 2px 6px rgba(245, 158, 11, 0.2);
+
+    .preview-footer-action {
+      text-align: center;
+      margin-top: 28px;
     }
-    .zip-btn {
-      padding: 12px 14px;
-      border-radius: 18px;
-      background: #F1F5F9;
-      border: 2px solid #CBD5E1;
-      border-bottom: 4px solid #94A3B8;
-      color: #334155;
-      font-size: 13px;
+
+    .btn-view-all-games {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 9999px;
+      background: #6D28D9;
+      color: #FFFFFF;
+      font-size: 14px;
       font-weight: 800;
       text-decoration: none;
+      box-shadow: 0 6px 18px rgba(109, 40, 217, 0.3);
+      transition: all 0.2s ease;
+    }
+
+    .btn-view-all-games:hover {
+      background: #5B21B6;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(109, 40, 217, 0.4);
+    }
+
+    /* ── COMPLIANCE & TRUST ── */
+    .compliance-banner {
+      background: linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #4338CA 100%);
+      color: #FFFFFF;
+      border-radius: 28px;
+      padding: 32px;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 28px;
+      align-items: center;
+      box-shadow: 0 16px 40px rgba(49, 46, 129, 0.25);
+    }
+
+    .compliance-left h3 {
+      font-family: var(--font-heading);
+      font-size: 24px;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .compliance-left p {
+      font-size: 14px;
+      color: #C7D2FE;
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    .compliance-points {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .comp-point {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #E0E7FF;
+    }
+
+    .compliance-badges-box {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .comp-icon-large {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .comp-badge-title {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 900;
+      margin-bottom: 4px;
+    }
+
+    .comp-badge-sub {
+      font-size: 12.5px;
+      color: #A5B4FC;
+    }
+
+    /* ── DOWNLOAD BANNER ── */
+    .download-section {
+      margin-top: 56px;
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 60%, #4F46E5 100%);
+      border-radius: 28px;
+      padding: 40px 32px;
+      color: #FFFFFF;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(109, 40, 217, 0.25);
+      border: 3px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .download-section h2 {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 900;
+      margin-bottom: 12px;
+    }
+
+    .download-section p {
+      font-size: 16px;
+      color: #DDD6FE;
+      max-width: 650px;
+      margin: 0 auto 28px;
+      line-height: 1.6;
+    }
+
+    .download-buttons-group {
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: all 0.1s ease;
-    }
-    .zip-btn:hover {
-      background: #E2E8F0;
-      transform: translateY(-2px);
-    }
-    .zip-btn:active {
-      transform: translateY(3px);
-      border-bottom-width: 2px;
-    }
-    footer {
-      margin-top: 48px;
-      text-align: center;
-      padding-top: 24px;
-      border-top: 2px solid rgba(255,255,255,0.7);
-    }
-    .footer-legal-links {
-      display: flex;
-      justify-content: center;
       flex-wrap: wrap;
-      gap: 16px 24px;
-      margin: 14px 0 16px;
+      gap: 16px;
+    }
+
+    .btn-download-store {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 26px;
+      border-radius: 16px;
+      background: #FFFFFF;
+      color: #1E293B;
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      transition: all 0.2s ease;
+    }
+
+    .btn-download-store:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.2);
+    }
+
+    .store-icon {
+      font-size: 22px;
+    }
+
+    /* ── FOOTER CHUẨN ── */
+    .mykiddy-footer {
+      margin-top: 56px;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.8);
+      border-radius: 28px;
+      padding: 36px 28px 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1.2fr 1.2fr 1.4fr;
+      gap: 32px;
+      padding-bottom: 28px;
+      border-bottom: 1.5px solid rgba(148, 163, 184, 0.2);
+    }
+
+    .footer-logo-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .footer-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
+    }
+
+    .footer-brand-name {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 900;
+      color: #581C87;
+    }
+
+    .footer-brand-slogan {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9333EA;
+    }
+
+    .footer-desc {
+      font-size: 13.5px;
+      color: #475569;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+
+    .footer-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .safe-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      background: #EDE9FE;
+      color: #6D28D9;
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+
+    .footer-col-title {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 900;
+      color: #1E293B;
+      margin-bottom: 14px;
+      letter-spacing: -0.01em;
+    }
+
+    .footer-list {
       list-style: none;
       padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
     }
-    .footer-legal-links a {
-      color: #6D28D9;
+
+    .footer-list a {
+      color: #475569;
       text-decoration: none;
       font-size: 13.5px;
-      font-weight: 800;
-      transition: color 0.15s ease;
+      font-weight: 700;
+      transition: all 0.15s ease;
     }
-    .footer-legal-links a:hover {
-      color: #4C1D95;
-      text-decoration: underline;
+
+    .footer-list a:hover {
+      color: #7C3AED;
+      padding-left: 4px;
     }
-    .app-links {
+
+    .footer-app-intro {
+      font-size: 13px;
+      color: #64748B;
+      font-weight: 600;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+
+    .footer-app-buttons {
       display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-top: 12px;
+      flex-direction: column;
+      gap: 8px;
     }
+
     .app-btn {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 10px 18px;
-      border-radius: 14px;
+      gap: 8px;
+      padding: 9px 14px;
+      border-radius: 12px;
       background: #1E293B;
       color: #FFFFFF;
       text-decoration: none;
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 800;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-      transition: transform 0.15s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: all 0.15s ease;
     }
+
     .app-btn:hover {
+      background: #0F172A;
       transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
     }
+
+    .footer-bottom {
+      padding-top: 18px;
+      text-align: center;
+    }
+
     .footer-copyright {
       font-size: 12.5px;
-      color: #94A3B8;
+      color: #64748B;
       font-weight: 700;
-      margin-top: 14px;
     }
-    @keyframes bounce {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-8px); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 990px) {
+      .hero-title {
+        font-size: 34px;
+      }
+      .hero-metrics {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .preview-cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .compliance-banner {
+        grid-template-columns: 1fr;
+      }
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 2px solid rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        padding: 16px;
+        box-shadow: 0 16px 36px rgba(109, 40, 217, 0.15);
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .nav-menu.open {
+        display: flex;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 6px;
+      }
+
+      .nav-item {
+        width: 100%;
+        padding: 10px 16px;
+      }
+
+      .nav-toggle {
+        display: flex;
+      }
+
+      .btn-nav-app {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .hero-title {
+        font-size: 28px;
+      }
+
+      .hero-subtitle {
+        font-size: 15px;
+      }
+
+      .hero-cta-group {
+        flex-direction: column;
+        width: 100%;
+      }
+
+      .btn-hero-primary, .btn-hero-secondary, .btn-hero-download {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .hero-metrics {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .comparison-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .preview-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .download-section h2 {
+        font-size: 26px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <header>
-      <div class="brand-logo">🎮</div>
-      <h1>My Kiddy Game Store & Play Zone</h1>
-      <p class="subtitle">Kho trò chơi & bộ thẻ học tương tác ReactJS chất lượng cao cho bé và gia đình. Bấm vào trò chơi để chơi thử trực tiếp trên trình duyệt!</p>
 
-      <div class="filters">
-        <button class="filter-btn active" onclick="filterType('all', this)">Tất Cả (3)</button>
-        <button class="filter-btn" onclick="filterType('game', this)">Trò Chơi (3)</button>
-        <button class="filter-btn" onclick="filterType('flashcard', this)">Thẻ Học (0)</button>
-      </div>
-    </header>
-
-    <div class="grid" id="cardsGrid">
-      
-      <div class="card" data-type="game" data-name="bắt gà tinh nghịch">
-        <div class="card-header">
-          <div class="thumbnail-box" style="background-color: #FEF3C7;">
-            <img src="https://mykiddy.net/thumbnails/catch_chicken.jpg" alt="Bắt Gà Tinh Nghịch" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span class="emoji-fallback" style="display:none;">🎮</span>
+    <!-- Unified Menu Bar -->
+    <nav class="mykiddy-navbar">
+      <div class="nav-container">
+        <a href="./index.html" class="nav-brand">
+          <img src="./icon.png" alt="My Kiddy Logo" class="nav-logo" onerror="this.style.display='none'" />
+          <div class="nav-brand-text">
+            <span class="nav-title">My Kiddy</span>
+            <span class="nav-tagline">Play Zone &amp; Safe Learning</span>
           </div>
-          <div class="badge-group">
-            <span class="type-badge" style="background: #FEF3C7; color: #92400E;">🎮 Web Game</span>
-            <span class="version-badge">v7</span>
-          </div>
-        </div>
-
-        <div class="card-body">
-          <h3 class="card-title">Bắt Gà Tinh Nghịch</h3>
-          <p class="card-desc">Điều khiển nhân vật trong nông trại bắt gà cùng gia đình từ 1 đến 4 người chơi!</p>
-          
-          <div class="card-meta">
-            <span class="meta-tag">🏷️ Action & Strategy</span>
-            <span class="meta-tag">👶 3 - 8 tuổi</span>
-            <span class="meta-tag">⚡ 1 - 4 Người chơi</span>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <a href="./online/games/catch_chicken/index.html" class="play-btn" title="Chơi trực tiếp trên trình duyệt">
-            <span>▶️ Chơi Thử Ngay</span>
-            <span class="arrow">➔</span>
-          </a>
-          <a href="./games/CATCH_CHICKEN.zip" class="zip-btn" title="Tải gói Zip nén" download>
-            <span>📦 Tải Zip</span>
-          </a>
-        </div>
-      </div>
-    
-
-      <div class="card" data-type="game" data-name="cắm hoa – xếp hoa thư giãn">
-        <div class="card-header">
-          <div class="thumbnail-box" style="background-color: #E0F2FE;">
-            <img src="https://mykiddy.net/thumbnails/flower_sort.jpg" alt="Cắm Hoa – Xếp Hoa Thư Giãn" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span class="emoji-fallback" style="display:none;">🎮</span>
-          </div>
-          <div class="badge-group">
-            <span class="type-badge" style="background: #FEF3C7; color: #92400E;">🎮 Web Game</span>
-            <span class="version-badge">v2</span>
-          </div>
-        </div>
-
-        <div class="card-body">
-          <h3 class="card-title">Cắm Hoa – Xếp Hoa Thư Giãn</h3>
-          <p class="card-desc">Trò chơi ghép 3 cành hoa vào chậu rèn luyện trí nhớ, tư duy logic và xả stress cực vui!</p>
-          
-          <div class="card-meta">
-            <span class="meta-tag">🏷️ Puzzle & Logic</span>
-            <span class="meta-tag">👶 3 - 10 tuổi</span>
-            <span class="meta-tag">⚡ 1 - 4 Người chơi</span>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <a href="./online/games/flower_sort/index.html" class="play-btn" title="Chơi trực tiếp trên trình duyệt">
-            <span>▶️ Chơi Thử Ngay</span>
-            <span class="arrow">➔</span>
-          </a>
-          <a href="./games/FLOWER_SORT.zip" class="zip-btn" title="Tải gói Zip nén" download>
-            <span>📦 Tải Zip</span>
-          </a>
-        </div>
-      </div>
-    
-
-      <div class="card" data-type="game" data-name="bé tập vẽ – sáng tạo cùng my kiddy">
-        <div class="card-header">
-          <div class="thumbnail-box" style="background-color: #FFF7ED;">
-            <img src="https://mykiddy.net/thumbnails/kids_drawing.jpg" alt="Bé Tập Vẽ – Sáng Tạo Cùng My Kiddy" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span class="emoji-fallback" style="display:none;">🎮</span>
-          </div>
-          <div class="badge-group">
-            <span class="type-badge" style="background: #FEF3C7; color: #92400E;">🎮 Web Game</span>
-            <span class="version-badge">v16</span>
-          </div>
-        </div>
-
-        <div class="card-body">
-          <h3 class="card-title">Bé Tập Vẽ – Sáng Tạo Cùng My Kiddy</h3>
-          <p class="card-desc">Thế giới sắc màu cho bé: Hơn 170+ tranh tô màu đa dạng chủ đề động vật, công chúa, xe cộ, thiên nhiên và hoạt hình!</p>
-          
-          <div class="card-meta">
-            <span class="meta-tag">🏷️ Creativity & Art</span>
-            <span class="meta-tag">👶 2 - 12 tuổi</span>
-            <span class="meta-tag">⚡ 1 - 4 Người chơi</span>
-          </div>
-        </div>
-
-        <div class="card-footer">
-          <a href="./online/games/kids_drawing/index.html" class="play-btn" title="Chơi trực tiếp trên trình duyệt">
-            <span>▶️ Chơi Thử Ngay</span>
-            <span class="arrow">➔</span>
-          </a>
-          <a href="./games/KIDS_DRAWING.zip" class="zip-btn" title="Tải gói Zip nén" download>
-            <span>📦 Tải Zip</span>
-          </a>
-        </div>
-      </div>
-    
-    </div>
-
-    <footer>
-      <p style="font-size: 14px; font-weight: 800; color: #78350F;">Ứng dụng My Kiddy – Quản lý an toàn &amp; giáo dục toàn diện</p>
-      
-      <ul class="footer-legal-links">
-        <li><a href="./pages/privacy-policy.html">🔒 Chính Sách Bảo Mật</a></li>
-        <li><a href="./pages/terms-and-conditions-of-use.html">📜 Điều Khoản Sử Dụng</a></li>
-        <li><a href="./pages/licensed-application-end-user-license-agreement.html">📱 Thỏa Thuận Cấp Phép (EULA)</a></li>
-      </ul>
-
-      <div class="app-links">
-        <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" class="app-btn">
-          <span>🤖 Tải trên Google Play</span>
         </a>
-        <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" class="app-btn">
-          <span>🍏 Tải trên App Store</span>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Mở menu điều hướng" onclick="toggleNavMenu()">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="./index.html" class="nav-item active">🏠 Giới Thiệu</a></li>
+            <li><a href="./games.html" class="nav-item">🎮 Trò Chơi (Game)</a></li>
+            <li><a href="./share.html" class="nav-item">📺 Kênh Youtube Bổ Ích</a></li>
+            <li><a href="./contact.html" class="nav-item">💌 Liên Hệ &amp; Góp Ý</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="btn-nav-app">
+              <span>📲 Tải App</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ── 1. HERO SECTION ── -->
+    <section class="hero-section">
+      <div class="hero-badge">
+        <span>🌈</span>
+        <span>Hệ Sinh Thái Số An Toàn &amp; Toàn Diện Cho Bé Yêu</span>
+      </div>
+
+      <h1 class="hero-title">
+        Bảo Vệ Con Trên Không Gian Mạng, <br>
+        <span class="gradient-text">Học Vui Sáng Tạo &amp; Chơi Khỏe Cùng My Kiddy</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        My Kiddy là giải pháp đồng hành tin cậy của cha mẹ: Kiểm soát thời gian dùng thiết bị thông minh, 
+        bảo vệ bé tuyệt đối khỏi nội dung độc hại với kho Game trí tuệ tương tác, 
+        bộ thẻ học 3D Chạm-Phát-Âm song ngữ và tuyển tập video YouTube giáo dục không quảng cáo rác.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="./games.html" class="btn-hero-primary">
+          <span>🎮 Chơi Thử Trò Chơi</span>
+          <span>➔</span>
+        </a>
+        <a href="./share.html" class="btn-hero-secondary">
+          <span>📺 Khám Phá Kênh YouTube</span>
+        </a>
+        <a href="#tai-ung-dung" class="btn-hero-download">
+          <span>📲 Cài Đặt Ứng Dụng</span>
         </a>
       </div>
 
-      <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved.</p>
+      <div class="hero-metrics">
+        <div class="metric-card">
+          <div class="metric-icon">🛡️</div>
+          <div class="metric-value">100% An Toàn</div>
+          <div class="metric-desc">Không quảng cáo bẩn &amp; nội dung xấu</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">⏱️</div>
+          <div class="metric-value">Mã PIN &amp; Hẹn Giờ</div>
+          <div class="metric-desc">Kiểm soát thời gian màn hình từng bé</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">🃏</div>
+          <div class="metric-value">Thẻ Học 3D Song Ngữ</div>
+          <div class="metric-desc">Chạm - Phát Âm giọng đọc bản ngữ</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">🎮</div>
+          <div class="metric-value">Game 1 - 4 Người</div>
+          <div class="metric-desc">Gắn kết ba mẹ &amp; bé trên một thiết bị</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 2. NỖI LO CỦA CHA MẸ VS GIẢI PHÁP MY KIDDY ── -->
+    <section class="section-wrap">
+      <div class="section-header">
+        <span class="section-tag tag-purple">Vấn Nạn &amp; Giải Pháp</span>
+        <h2 class="section-title">Tại Sao Hàng Ngàn Cha Mẹ Tin Dùng My Kiddy?</h2>
+        <p class="section-subtitle">
+          Giúp trẻ tiếp cận công nghệ đúng cách, biến chiếc điện thoại từ công cụ gây nghiện thành người bạn học tập bổ ích.
+        </p>
+      </div>
+
+      <div class="comparison-grid">
+        <div class="comparison-card card-problem">
+          <div class="comparison-header">
+            <div class="comparison-icon icon-problem">⚠️</div>
+            <h3 class="comparison-title title-problem">Nỗi Lo Khi Trẻ Dùng Thiết Bị Tự Do</h3>
+          </div>
+          <ul class="comparison-list">
+            <li class="comparison-item item-problem">
+              <span>❌</span>
+              <span>Dễ lạc vào các video bạo lực, rùng rợn, giật gân ngụy trang dưới dạng phim hoạt hình thiếu nhi.</span>
+            </li>
+            <li class="comparison-item item-problem">
+              <span>❌</span>
+              <span>Bị bủa vây bởi các quảng cáo bẩn, cờ bạc trá hình và các trào lưu độc hại trên mạng xã hội.</span>
+            </li>
+            <li class="comparison-item item-problem">
+              <span>❌</span>
+              <span>Nghiện xem màn hình liên tục nhiều giờ liền, gây hại cho mắt và giảm khả năng tập trung học tập.</span>
+            </li>
+            <li class="comparison-item item-problem">
+              <span>❌</span>
+              <span>Trẻ tự ý bấm lung tung cài đặt ứng dụng không rõ nguồn gốc hoặc xóa nhầm dữ liệu của phụ huynh.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="comparison-card card-solution">
+          <div class="comparison-header">
+            <div class="comparison-icon icon-solution">✨</div>
+            <h3 class="comparison-title title-solution">Môi Trường Số An Lành Cùng My Kiddy</h3>
+          </div>
+          <ul class="comparison-list">
+            <li class="comparison-item item-solution">
+              <span>✅</span>
+              <span><strong>Khu Vực Riêng An Toàn (Play Zone):</strong> Bảo vệ bởi mã PIN phụ huynh, khóa chặt không cho trẻ tự ý thoát ra ngoài.</span>
+            </li>
+            <li class="comparison-item item-solution">
+              <span>✅</span>
+              <span><strong>100% Nội Dung Chọn Lọc:</strong> Toàn bộ video YouTube, game và bài học đều được đội ngũ sư phạm duyệt thủ công.</span>
+            </li>
+            <li class="comparison-item item-solution">
+              <span>✅</span>
+              <span><strong>Giới Hạn Giờ Chơi Thông Minh:</strong> Tự động khóa màn hình nhẹ nhàng nhắc bé đi ngủ khi hết thời gian cho phép.</span>
+            </li>
+            <li class="comparison-item item-solution">
+              <span>✅</span>
+              <span><strong>Học &amp; Chơi Cùng Gia Đình:</strong> Kho game đối kháng 1-4 người và thẻ học 3D giúp cha mẹ gắn kết cùng con cái.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 3. 6 TÍNH NĂNG CỐT LÕI CỦA MY KIDDY ── -->
+    <section class="section-wrap">
+      <div class="section-header">
+        <span class="section-tag tag-amber">Hệ Sinh Thái Toàn Diện</span>
+        <h2 class="section-title">6 Trụ Cột Tính Năng Vượt Trội Của My Kiddy</h2>
+        <p class="section-subtitle">
+          Tích hợp tất cả các tiện ích mà gia đình có con nhỏ từ 2 đến 12 tuổi cần thiết trên một nền tảng duy nhất.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #FEF3C7; color: #B45309;">⏱️</div>
+          <h3>Kiểm Soát Thời Gian &amp; Khóa PIN</h3>
+          <p>
+            Cài đặt hạn mức thời gian màn hình mỗi ngày (15p, 30p, 1h...) cho từng bé. Cơ chế Heartbeat đồng bộ thời gian thực mỗi 5 giây, hết giờ app tự động dừng lại và chỉ mở khi có mã PIN của bố mẹ.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">🛡️ Giới hạn ngày</span>
+            <span class="feature-chip">🔒 Mật mã PIN</span>
+            <span class="feature-chip">⚡ Heartbeat Sync</span>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #EDE9FE; color: #6D28D9;">🎮</div>
+          <h3>Kho Game Giáo Dục 1 - 4 Người Chơi</h3>
+          <p>
+            Các trò chơi rèn luyện tư duy logic, phản xạ và nghệ thuật: Bắt Gà Nông Trại, Cắm Hoa Xếp Hình, Bé Tập Vẽ hơn 170+ tranh mẫu, Cờ Vua, Cờ Tướng, Cờ Tỷ Phú... Tích hợp giọng đọc TTS vui tươi dẫn dắt luật chơi.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">🎨 Bé Tập Vẽ</span>
+            <span class="feature-chip">👨‍👩‍👧‍👦 1-4 Người chơi</span>
+            <span class="feature-chip">🗣️ Giọng đọc TTS</span>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #E0F2FE; color: #0369A1;">🃏</div>
+          <h3>Thẻ Học 3D Chạm-Phát-Âm Song Ngữ</h3>
+          <p>
+            Bộ thẻ học phong phú theo chuẩn Chạm-Phát-Âm (Tap-to-Speak): Chạm vào bất kỳ bộ phận, con vật, tiếng còi xe hay sự thật "Bé có biết?" để nghe phát âm tiếng Việt và tiếng Anh chuẩn giọng mẫu giáo.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">🔊 Tap-to-Speak</span>
+            <span class="feature-chip">🇬🇧 Song ngữ Anh-Việt</span>
+            <span class="feature-chip">🦕 Hình ảnh 3D</span>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #FFE4E6; color: #BE123C;">📺</div>
+          <h3>Video YouTube Giáo Dục An Toàn</h3>
+          <p>
+            Danh sách các kênh YouTube thiếu nhi chọn lọc phân chia rõ ràng theo độ tuổi và chủ đề: Khoa học khám phá, ca nhạc thiếu nhi, phim hoạt hình nhân văn và kỹ năng sống. Tuyệt đối không có quảng cáo độc hại.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">🚫 Không quảng cáo rác</span>
+            <span class="feature-chip">🔬 Khoa học khám phá</span>
+            <span class="feature-chip">🎵 Nhạc thiếu nhi</span>
+          </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #D1FAE5; color: #047857;">📚</div>
+          <h3>Lộ Trình Học Toán, Tiếng Việt, Tiếng Anh</h3>
+          <p>
+            Khung bài học trực quan từ Lớp 1 đến Lớp 5 được thiết kế dưới dạng các chặng thử thách (Stages). Giúp bé củng cố kiến thức trên trường lớp một cách hào hứng, chủ động và không cảm thấy áp lực.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">📐 Toán tiểu học</span>
+            <span class="feature-chip">📖 Tiếng Việt</span>
+            <span class="feature-chip">🔤 Tiếng Anh lớp 1-5</span>
+          </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #FEF3C7; color: #D97706;">👨‍👩‍👧‍👦</div>
+          <h3>Kết Nối Gia Đình &amp; Quét Mã QR Cực Nhanh</h3>
+          <p>
+            Liên kết thiết bị của con với máy bố mẹ chỉ bằng 1 thao tác quét mã QR tiện lợi. Quản lý hồ sơ từng thành viên (Bố, Mẹ, Con, Ông, Bà), kênh nhắn tin gia đình vui vẻ và sao lưu dữ liệu tức thì lên đám mây.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">📱 Quét mã QR</span>
+            <span class="feature-chip">💬 Chat gia đình</span>
+            <span class="feature-chip">☁️ Cloud Realtime</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 4. CHƠI THỬ TRỰC TIẾP TRÊN TRÌNH DUYỆT ── -->
+    <section class="section-wrap">
+      <div class="preview-box">
+        <div class="section-header" style="margin-bottom: 16px;">
+          <span class="section-tag tag-emerald">Trải Nghiệm Tức Thì</span>
+          <h2 class="section-title">Chơi Thử Game Trực Tiếp Trên Trình Duyệt Web</h2>
+          <p class="section-subtitle">
+            Không cần cài đặt, bấm chơi ngay các tựa game nổi bật được xây dựng bằng công nghệ ReactJS siêu mượt!
+          </p>
+        </div>
+
+        <div class="preview-cards">
+          <!-- Game 1 -->
+          <div class="mini-game-card">
+            <div class="mini-thumb" style="background-color: #FEF3C7;">
+              <img src="./thumbnails/catch_chicken.jpg" alt="Bắt Gà Tinh Nghịch" onerror="this.src='https://mykiddy.net/thumbnails/catch_chicken.jpg';" />
+            </div>
+            <h4 class="mini-title">Bắt Gà Tinh Nghịch</h4>
+            <p class="mini-desc">Đuổi bắt gà trong trang trại vui nhộn cùng gia đình từ 1 đến 4 người chơi.</p>
+            <a href="./online/games/catch_chicken/index.html" class="btn-play-mini" target="_blank">
+              <span>▶️ Chơi Thử Ngay</span>
+            </a>
+          </div>
+
+          <!-- Game 2 -->
+          <div class="mini-game-card">
+            <div class="mini-thumb" style="background-color: #E0F2FE;">
+              <img src="./thumbnails/flower_sort.jpg" alt="Cắm Hoa Thư Giãn" onerror="this.src='https://mykiddy.net/thumbnails/flower_sort.jpg';" />
+            </div>
+            <h4 class="mini-title">Cắm Hoa – Xếp Hoa Thư Giãn</h4>
+            <p class="mini-desc">Ghép 3 bông hoa vào chậu rèn luyện tư duy logic, quan sát và giảm căng thẳng.</p>
+            <a href="./online/games/flower_sort/index.html" class="btn-play-mini" target="_blank">
+              <span>▶️ Chơi Thử Ngay</span>
+            </a>
+          </div>
+
+          <!-- Game 3 -->
+          <div class="mini-game-card">
+            <div class="mini-thumb" style="background-color: #FFF7ED;">
+              <img src="./thumbnails/kids_drawing.jpg" alt="Bé Tập Vẽ & Tô Màu" onerror="this.src='https://mykiddy.net/thumbnails/kids_drawing.jpg';" />
+            </div>
+            <h4 class="mini-title">Bé Tập Vẽ – Sáng Tạo Hội Họa</h4>
+            <p class="mini-desc">Hơn 170+ tranh mẫu tô màu sinh động: Xe cộ, động vật, công chúa, hoạt hình.</p>
+            <a href="./online/games/kids_drawing/index.html" class="btn-play-mini" target="_blank">
+              <span>▶️ Chơi Thử Ngay</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="preview-footer-action">
+          <a href="./games.html" class="btn-view-all-games">
+            <span>🎮 Xem Toàn Bộ Kho Game &amp; Thẻ Học</span>
+            <span>➔</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 5. CAM KẾT AN TOÀN & BẢO VỆ DỮ LIỆU TRẺ EM ── -->
+    <section class="section-wrap">
+      <div class="compliance-banner">
+        <div class="compliance-left">
+          <h3>🛡️ Cam Kết Bảo Mật Chuẩn Quốc Tế Cho Trẻ Em</h3>
+          <p>
+            My Kiddy tuân thủ nghiêm ngặt các quy định bảo vệ quyền riêng tư của trẻ em trên không gian mạng: Đạo luật COPPA (Mỹ) và GDPR-K (Châu Âu). Sự an toàn của con bạn luôn là ưu tiên số một của chúng tôi.
+          </p>
+          <div class="compliance-points">
+            <div class="comp-point">
+              <span>🔒</span>
+              <span>Tuyệt đối không thu thập dữ liệu nhạy cảm hay định vị vị trí cá nhân của trẻ em.</span>
+            </div>
+            <div class="comp-point">
+              <span>🚫</span>
+              <span>Không bán dữ liệu hoặc chia sẻ hành vi sử dụng cho bất kỳ bên quảng cáo thứ ba nào.</span>
+            </div>
+            <div class="comp-point">
+              <span>👨‍👩‍👧‍👦</span>
+              <span>Toàn bộ quyền cài đặt và quản lý tài khoản hoàn toàn thuộc quyền kiểm soát của cha mẹ.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="compliance-badges-box">
+          <div class="comp-icon-large">🏆</div>
+          <h4 class="comp-badge-title">COPPA &amp; GDPR-K</h4>
+          <p class="comp-badge-sub">Môi trường số lành mạnh, minh bạch &amp; an toàn cho thế hệ mầm non</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 6. TẢI ỨNG DỤNG NGAY ── -->
+    <section class="download-section" id="tai-ung-dung">
+      <h2>Bắt Đầu Bảo Vệ &amp; Đồng Hành Cùng Bé Ngay Hôm Nay!</h2>
+      <p>
+        Tải miễn phí ứng dụng My Kiddy trên App Store hoặc Google Play để biến thiết bị di động thành một người bạn học tập, vui chơi thông minh và an toàn cho bé yêu của bạn.
+      </p>
+
+      <div class="download-buttons-group">
+        <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="btn-download-store">
+          <span class="store-icon">🤖</span>
+          <span>Tải trên Google Play</span>
+        </a>
+        <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="btn-download-store">
+          <span class="store-icon">🍏</span>
+          <span>Tải trên App Store</span>
+        </a>
+        <a href="./contact.html" class="btn-download-store" style="background: rgba(255,255,255,0.18); color: #FFFFFF; border: 1.5px solid rgba(255,255,255,0.4);">
+          <span class="store-icon">💌</span>
+          <span>Góp Ý &amp; Đề Xuất Kênh</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ── UNIFIED FOOTER ── -->
+    <footer class="mykiddy-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand-col">
+            <div class="footer-logo-row">
+              <img src="./icon.png" alt="My Kiddy Logo" class="footer-logo" onerror="this.style.display='none'" />
+              <div>
+                <h3 class="footer-brand-name">My Kiddy</h3>
+                <span class="footer-brand-slogan">Play Zone &amp; Safe Learning</span>
+              </div>
+            </div>
+            <p class="footer-desc">
+              Hệ sinh thái số an toàn, giáo dục và lành mạnh hàng đầu cho trẻ em Việt Nam.
+              Đồng hành cùng cha mẹ xây dựng thói quen dùng thiết bị điều độ và kích thích tư duy sáng tạo cho bé.
+            </p>
+            <div class="footer-badges">
+              <span class="safe-badge">🛡️ COPPA &amp; GDPR-K Compliant</span>
+              <span class="safe-badge">✨ 100% Không Quảng Cáo Bẩn</span>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Khám Phá My Kiddy</h4>
+            <ul class="footer-list">
+              <li><a href="./index.html">🏠 Giới Thiệu Tính Năng</a></li>
+              <li><a href="./games.html">🎮 Kho Game &amp; Thẻ Học Trực Tuyến</a></li>
+              <li><a href="./share.html">📺 Danh Sách Kênh YouTube Bổ Ích</a></li>
+              <li><a href="./contact.html">💌 Hỗ Trợ &amp; Đóng Góp Ý Kiến</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Chính Sách &amp; Pháp Lý</h4>
+            <ul class="footer-list">
+              <li><a href="./pages/privacy-policy.html">🔒 Chính Sách Bảo Mật</a></li>
+              <li><a href="./pages/terms-and-conditions-of-use.html">📜 Điều Khoản Sử Dụng</a></li>
+              <li><a href="./pages/licensed-application-end-user-license-agreement.html">📱 Thỏa Thuận Cấp Phép (EULA)</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Tải Ứng Dụng Miễn Phí</h4>
+            <p class="footer-app-intro">Trải nghiệm ứng dụng đầy đủ trên điện thoại và máy tính bảng:</p>
+            <div class="footer-app-buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="app-btn">
+                <span>🤖 Google Play</span>
+              </a>
+              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="app-btn">
+                <span>🍏 App Store</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved. Phát triển vì sự phát triển toàn diện và an toàn của trẻ em.</p>
+        </div>
+      </div>
     </footer>
+
   </div>
 
   <script>
-    function filterType(type, btn) {
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const cards = document.querySelectorAll('.card');
-      cards.forEach(card => {
-        if (type === 'all' || card.dataset.type === type) {
-          card.style.display = 'flex';
-        } else {
-          card.style.display = 'none';
-        }
-      });
+    function toggleNavMenu() {
+      const menu = document.getElementById('navMenu');
+      const toggle = document.getElementById('navToggle');
+      if (menu && toggle) {
+        menu.classList.toggle('open');
+        toggle.classList.toggle('active');
+      }
     }
   </script>
 </body>
