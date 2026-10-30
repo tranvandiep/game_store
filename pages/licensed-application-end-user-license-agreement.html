@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thỏa Thuận Cấp Phép Người Dùng Cuối (EULA) | End User License Agreement - My Kiddy</title>
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Thỏa thuận cấp phép người dùng cuối (Standard EULA) cho ứng dụng giáo dục thông minh My Kiddy trên Apple App Store và Google Play Store.">
-  <meta name="keywords" content="My Kiddy, EULA, end user license agreement, thỏa thuận cấp phép, Apple App Store, Google Play, bản quyền phần mềm">
+  <meta name="description"
+    content="Thỏa thuận cấp phép người dùng cuối (Standard EULA) cho ứng dụng giáo dục thông minh My Kiddy trên Apple App Store và Google Play Store.">
+  <meta name="keywords"
+    content="My Kiddy, EULA, end user license agreement, thỏa thuận cấp phép, Apple App Store, Google Play, bản quyền phần mềm">
   <meta name="author" content="My Kiddy Team">
   <link rel="canonical" href="https://mykiddy.net/pages/licensed-application-end-user-license-agreement.html">
 
@@ -23,7 +26,8 @@
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="My Kiddy">
   <meta property="og:title" content="Thỏa Thuận Cấp Phép Người Dùng Cuối (EULA) – My Kiddy">
-  <meta property="og:description" content="Thỏa thuận cấp phép bản quyền phần mềm ứng dụng My Kiddy trên Apple App Store & Google Play Store.">
+  <meta property="og:description"
+    content="Thỏa thuận cấp phép bản quyền phần mềm ứng dụng My Kiddy trên Apple App Store & Google Play Store.">
   <meta property="og:url" content="https://mykiddy.net/pages/licensed-application-end-user-license-agreement.html">
   <meta property="og:image" content="https://mykiddy.net/pages/thumbnail.png">
   <meta property="og:image:width" content="512">
@@ -33,7 +37,8 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Thỏa Thuận Cấp Phép Người Dùng Cuối (EULA) – My Kiddy">
-  <meta name="twitter:description" content="Thỏa thuận cấp phép bản quyền phần mềm ứng dụng My Kiddy trên Apple App Store & Google Play Store.">
+  <meta name="twitter:description"
+    content="Thỏa thuận cấp phép bản quyền phần mềm ứng dụng My Kiddy trên Apple App Store & Google Play Store.">
   <meta name="twitter:image" content="https://mykiddy.net/pages/thumbnail.png">
   <style>
     body {
@@ -44,10 +49,12 @@
       margin: 0;
       padding: 30px 20px;
     }
+
     .wrapper {
       max-width: 860px;
       margin: 0 auto;
     }
+
     h1 {
       font-size: 28px;
       margin-bottom: 8px;
@@ -55,6 +62,7 @@
       border-bottom: 2px solid #eaecef;
       padding-bottom: 12px;
     }
+
     h2 {
       font-size: 20px;
       margin-top: 28px;
@@ -63,30 +71,38 @@
       border-bottom: 1px solid #eaecef;
       padding-bottom: 6px;
     }
+
     h3 {
       font-size: 16px;
       margin-top: 20px;
       margin-bottom: 8px;
       color: #1f2328;
     }
+
     p {
       margin: 14px 0;
       text-align: justify;
     }
-    ul, ol {
+
+    ul,
+    ol {
       margin: 12px 0 16px 24px;
       padding: 0;
     }
+
     li {
       margin-bottom: 8px;
     }
+
     a {
       color: #6366f1;
       text-decoration: underline;
     }
+
     a:hover {
       color: #4f46e5;
     }
+
     .lang-badge {
       display: inline-block;
       font-size: 18px;
@@ -99,6 +115,7 @@
       margin-top: 24px;
       margin-bottom: 12px;
     }
+
     .meta-box {
       background-color: #f8fafc;
       border: 1px solid #e2e8f0;
@@ -108,15 +125,18 @@
       font-size: 14px;
       color: #475569;
     }
+
     .meta-box p {
       margin: 4px 0;
     }
+
     hr {
       border: 0;
       height: 1px;
       background: #e2e8f0;
       margin: 40px 0;
     }
+
     .footer {
       margin-top: 50px;
       padding-top: 20px;
@@ -127,8 +147,29 @@
     }
   </style>
 </head>
+
 <body>
   <div class="wrapper">
+    <div
+      style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px;">
+      <a href="../index.html"
+        style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; font-weight: 700; color: #6D28D9; font-size: 14px;">
+        ← <span>Trang chủ / Home</span>
+      </a>
+      <div
+        style="display: inline-flex; align-items: center; background: #F1F5F9; border-radius: 20px; padding: 4px; gap: 4px;">
+        <button onclick="setLegalLang('vi')" id="btnVi"
+          style="border: none; background: #6D28D9; color: #fff; padding: 6px 14px; border-radius: 16px; font-weight: 700; cursor: pointer; font-size: 13px;">🇻🇳
+          Tiếng Việt</button>
+        <button onclick="setLegalLang('en')" id="btnEn"
+          style="border: none; background: transparent; color: #64748B; padding: 6px 14px; border-radius: 16px; font-weight: 700; cursor: pointer; font-size: 13px;">🇬🇧
+          English</button>
+        <button onclick="setLegalLang('all')" id="btnAll"
+          style="border: none; background: transparent; color: #64748B; padding: 6px 14px; border-radius: 16px; font-weight: 700; cursor: pointer; font-size: 13px;">🌐
+          Both</button>
+      </div>
+    </div>
+
     <h1>My Kiddy – Thỏa Thuận Cấp Phép Người Dùng Cuối (EULA)</h1>
 
     <div class="meta-box">
@@ -142,153 +183,253 @@
     <!-- ========================================== -->
     <!-- PHẦN 1: TIẾNG VIỆT                         -->
     <!-- ========================================== -->
-    <div class="lang-badge">[Tiếng Việt]</div>
+    <div id="section-vi">
+      <div class="lang-badge">[Tiếng Việt]</div>
 
-    <p>
-      Các ứng dụng được cung cấp thông qua Apple App Store hoặc Google Play Store được <strong>cấp phép sử dụng, không phải bán đứt cho bạn</strong>. Quyền cấp phép của bạn đối với Ứng dụng My Kiddy tùy thuộc vào việc bạn chấp nhận trước đó Thỏa thuận Cấp phép Người dùng cuối cho Ứng dụng được Cấp phép (“EULA Tiêu chuẩn”) này.
-    </p>
-    <p>
-      Ứng dụng My Kiddy tuân theo EULA Tiêu chuẩn này được gọi là <em>“Ứng dụng được Cấp phép”</em>. Nhà cung cấp Ứng dụng (<strong>My Kiddy Team</strong> - <em>“Bên cấp phép”</em>) bảo lưu tất cả các quyền đối với Ứng dụng được Cấp phép mà không được cấp rõ ràng cho bạn theo EULA Tiêu chuẩn này.
-    </p>
+      <p>
+        Các ứng dụng được cung cấp thông qua Apple App Store hoặc Google Play Store được <strong>cấp phép sử dụng, không
+          phải bán đứt cho bạn</strong>. Quyền cấp phép của bạn đối với Ứng dụng My Kiddy tùy thuộc vào việc bạn chấp
+        nhận trước đó Thỏa thuận Cấp phép Người dùng cuối cho Ứng dụng được Cấp phép (“EULA Tiêu chuẩn”) này.
+      </p>
+      <p>
+        Ứng dụng My Kiddy tuân theo EULA Tiêu chuẩn này được gọi là <em>“Ứng dụng được Cấp phép”</em>. Nhà cung cấp Ứng
+        dụng (<strong>My Kiddy Team</strong> - <em>“Bên cấp phép”</em>) bảo lưu tất cả các quyền đối với Ứng dụng được
+        Cấp phép mà không được cấp rõ ràng cho bạn theo EULA Tiêu chuẩn này.
+      </p>
 
-    <h2>a. Phạm vi Cấp phép</h2>
-    <p>
-      Bên cấp phép cấp cho bạn một giấy phép không thể chuyển nhượng để sử dụng Ứng dụng được Cấp phép trên bất kỳ thiết bị nào (thiết bị mang thương hiệu Apple, thiết bị Android, TV thông minh) mà bạn sở hữu hoặc kiểm soát hợp pháp và theo quy định của Quy tắc Sử dụng của kho ứng dụng tương ứng. Các điều khoản của EULA này sẽ điều chỉnh bất kỳ nội dung, tài liệu, bài học Flashcard hoặc trò chơi nào có thể truy cập được từ hoặc được mua trong Ứng dụng được Cấp phép.
-    </p>
-    <p>
-      Ngoại trừ quy định cho phép trong việc chia sẻ gia đình của nền tảng, bạn không được phân phối hoặc cung cấp Ứng dụng được Cấp phép qua mạng nơi nó có thể được sử dụng bởi nhiều thiết bị của các bên không liên quan cùng một lúc. Bạn không được sao chép, đảo ngược kỹ thuật, tháo rời, cố gắng lấy mã nguồn, sửa đổi hoặc tạo ra các tác phẩm phái sinh từ Ứng dụng được Cấp phép, bất kỳ bản cập nhật nào hoặc bất kỳ phần nào trong đó.
-    </p>
+      <h2>a. Phạm vi Cấp phép</h2>
+      <p>
+        Bên cấp phép cấp cho bạn một giấy phép không thể chuyển nhượng để sử dụng Ứng dụng được Cấp phép trên bất kỳ
+        thiết bị nào (thiết bị mang thương hiệu Apple, thiết bị Android, TV thông minh) mà bạn sở hữu hoặc kiểm soát hợp
+        pháp và theo quy định của Quy tắc Sử dụng của kho ứng dụng tương ứng. Các điều khoản của EULA này sẽ điều chỉnh
+        bất kỳ nội dung, tài liệu, bài học Flashcard hoặc trò chơi nào có thể truy cập được từ hoặc được mua trong Ứng
+        dụng được Cấp phép.
+      </p>
+      <p>
+        Ngoại trừ quy định cho phép trong việc chia sẻ gia đình của nền tảng, bạn không được phân phối hoặc cung cấp Ứng
+        dụng được Cấp phép qua mạng nơi nó có thể được sử dụng bởi nhiều thiết bị của các bên không liên quan cùng một
+        lúc. Bạn không được sao chép, đảo ngược kỹ thuật, tháo rời, cố gắng lấy mã nguồn, sửa đổi hoặc tạo ra các tác
+        phẩm phái sinh từ Ứng dụng được Cấp phép, bất kỳ bản cập nhật nào hoặc bất kỳ phần nào trong đó.
+      </p>
 
-    <h2>b. Đồng ý Sử dụng Dữ liệu</h2>
-    <p>
-      Bạn đồng ý rằng Bên cấp phép có thể thu thập và sử dụng dữ liệu kỹ thuật và thông tin liên quan—bao gồm thông tin kỹ thuật về thiết bị, hệ thống và phần mềm ứng dụng—được thu thập định kỳ để tạo điều kiện thuận lợi cho việc cung cấp các bản cập nhật phần mềm, hỗ trợ sản phẩm, theo dõi thời lượng sử dụng an toàn và đồng bộ kết nối gia đình qua mã QR. Mọi dữ liệu được thu thập và bảo vệ theo <a href="privacy-policy.html">Chính sách Bảo mật</a> của My Kiddy.
-    </p>
+      <h2>b. Đồng ý Sử dụng Dữ liệu</h2>
+      <p>
+        Bạn đồng ý rằng Bên cấp phép có thể thu thập và sử dụng dữ liệu kỹ thuật và thông tin liên quan—bao gồm thông
+        tin kỹ thuật về thiết bị, hệ thống và phần mềm ứng dụng—được thu thập định kỳ để tạo điều kiện thuận lợi cho
+        việc cung cấp các bản cập nhật phần mềm, hỗ trợ sản phẩm, theo dõi thời lượng sử dụng an toàn và đồng bộ kết nối
+        gia đình qua mã QR. Mọi dữ liệu được thu thập và bảo vệ theo <a href="privacy-policy.html">Chính sách Bảo
+          mật</a> của My Kiddy.
+      </p>
 
-    <h2>c. Chấm dứt</h2>
-    <p>
-      EULA Tiêu chuẩn này có hiệu lực cho đến khi bị chấm dứt bởi bạn hoặc Bên cấp phép. Các quyền của bạn theo EULA Tiêu chuẩn này sẽ tự động chấm dứt nếu bạn không tuân thủ bất kỳ điều khoản nào trong đó. Khi chấm dứt, bạn phải ngừng hoàn toàn việc sử dụng Ứng dụng được Cấp phép và xóa bỏ tất cả các bản sao của Ứng dụng khỏi thiết bị của bạn.
-    </p>
+      <h2>c. Chấm dứt</h2>
+      <p>
+        EULA Tiêu chuẩn này có hiệu lực cho đến khi bị chấm dứt bởi bạn hoặc Bên cấp phép. Các quyền của bạn theo EULA
+        Tiêu chuẩn này sẽ tự động chấm dứt nếu bạn không tuân thủ bất kỳ điều khoản nào trong đó. Khi chấm dứt, bạn phải
+        ngừng hoàn toàn việc sử dụng Ứng dụng được Cấp phép và xóa bỏ tất cả các bản sao của Ứng dụng khỏi thiết bị của
+        bạn.
+      </p>
 
-    <h2>d. Dịch vụ Bên ngoài</h2>
-    <p>
-      Ứng dụng được Cấp phép có thể cho phép truy cập vào các dịch vụ và trang web của bên thứ ba, bao gồm việc nhúng và phát video giáo dục YouTube theo sự phê duyệt của cha mẹ. Bạn đồng ý tự chịu rủi ro khi sử dụng các Dịch vụ Bên ngoài. Bên cấp phép không chịu trách nhiệm kiểm tra hoặc đánh giá tính chính xác của nội dung do máy chủ của bên thứ ba cung cấp và không chịu trách nhiệm pháp lý đối với bất kỳ dịch vụ bên ngoài nào như vậy.
-    </p>
+      <h2>d. Dịch vụ Bên ngoài</h2>
+      <p>
+        Ứng dụng được Cấp phép có thể cho phép truy cập vào các dịch vụ và trang web của bên thứ ba, bao gồm việc nhúng
+        và phát video giáo dục YouTube theo sự phê duyệt của cha mẹ. Bạn đồng ý tự chịu rủi ro khi sử dụng các Dịch vụ
+        Bên ngoài. Bên cấp phép không chịu trách nhiệm kiểm tra hoặc đánh giá tính chính xác của nội dung do máy chủ của
+        bên thứ ba cung cấp và không chịu trách nhiệm pháp lý đối với bất kỳ dịch vụ bên ngoài nào như vậy.
+      </p>
 
-    <h2>e. KHÔNG BẢO HÀNH (NO WARRANTY)</h2>
-    <p>
-      BẠN XÁC NHẬN VÀ ĐỒNG Ý RÕ RÀNG RẰNG VIỆC SỬ DỤNG ỨNG DỤNG ĐƯỢC CẤP PHÉP LÀ RỦI RO DUY NHẤT CỦA BẠN. TRONG PHẠM VI TỐI ĐA ĐƯỢC PHÁP LUẬT HIỆN HÀNH CHO PHÉP, ỨNG DỤNG ĐƯỢC CẤP PHÉP VÀ BẤT KỲ DỊCH VỤ NÀO ĐƯỢC THỰC HIỆN HOẶC CUNG CẤP BỞI ỨNG DỤNG ĐƯỢC CUNG CẤP “NGUYÊN TRẠNG” VÀ “SẴN CÓ”, VỚI TẤT CẢ CÁC LỖI VÀ KHÔNG CÓ BẢO HÀNH DƯỚI BẤT KỲ HÌNH THỨC NÀO. BÊN CẤP PHÉP THEO ĐÂY TỪ CHỐI TẤT CẢ CÁC BẢO HÀNH VÀ ĐIỀU KIỆN ĐỐI VỚI ỨNG DỤNG ĐƯỢC CẤP PHÉP, BAO GỒM NHƯNG KHÔNG GIỚI HẠN Ở CÁC BẢO HÀNH VỀ KHẢ NĂNG THƯƠNG MẠI, CHẤT LƯỢNG HÀI LÒNG HOẶC SỰ PHÙ HỢP CHO MỘT MỤC ĐÍCH CỤ THỂ.
-    </p>
+      <h2>e. KHÔNG BẢO HÀNH (NO WARRANTY)</h2>
+      <p>
+        BẠN XÁC NHẬN VÀ ĐỒNG Ý RÕ RÀNG RẰNG VIỆC SỬ DỤNG ỨNG DỤNG ĐƯỢC CẤP PHÉP LÀ RỦI RO DUY NHẤT CỦA BẠN. TRONG PHẠM
+        VI TỐI ĐA ĐƯỢC PHÁP LUẬT HIỆN HÀNH CHO PHÉP, ỨNG DỤNG ĐƯỢC CẤP PHÉP VÀ BẤT KỲ DỊCH VỤ NÀO ĐƯỢC THỰC HIỆN HOẶC
+        CUNG CẤP BỞI ỨNG DỤNG ĐƯỢC CUNG CẤP “NGUYÊN TRẠNG” VÀ “SẴN CÓ”, VỚI TẤT CẢ CÁC LỖI VÀ KHÔNG CÓ BẢO HÀNH DƯỚI BẤT
+        KỲ HÌNH THỨC NÀO. BÊN CẤP PHÉP THEO ĐÂY TỪ CHỐI TẤT CẢ CÁC BẢO HÀNH VÀ ĐIỀU KIỆN ĐỐI VỚI ỨNG DỤNG ĐƯỢC CẤP PHÉP,
+        BAO GỒM NHƯNG KHÔNG GIỚI HẠN Ở CÁC BẢO HÀNH VỀ KHẢ NĂNG THƯƠNG MẠI, CHẤT LƯỢNG HÀI LÒNG HOẶC SỰ PHÙ HỢP CHO MỘT
+        MỤC ĐÍCH CỤ THỂ.
+      </p>
 
-    <h2>f. Giới hạn Trách nhiệm</h2>
-    <p>
-      TRONG PHẠM VI LUẬT PHÁP KHÔNG CẤM, TRONG MỌI TRƯỜNG HỢP BÊN CẤP PHÉP SẼ KHÔNG CHỊU TRÁCH NHIỆM VỀ THƯƠNG TÍCH CÁ NHÂN HOẶC BẤT KỲ THIỆT HẠI NGẪU NHIÊN, ĐẶC BIỆT, GIÁN TIẾP HOẶC HỆ QUẢ NÀO PHÁT SINH TỪ HOẶC LIÊN QUAN ĐẾN VIỆC BẠN SỬ DỤNG HOẶC KHÔNG THỂ SỬ DỤNG ỨNG DỤNG ĐƯỢC CẤP PHÉP. TRONG MỌI TRƯỜNG HỢP, TỔNG TRÁCH NHIỆM CỦA BÊN CẤP PHÉP ĐỐI VỚI BẠN CHO TẤT CẢ CÁC THIỆT HẠI SẼ KHÔNG VƯỢT QUÁ SỐ TIỀN NĂM MƯƠI ĐÔ LA MỸ ($50.00).
-    </p>
+      <h2>f. Giới hạn Trách nhiệm</h2>
+      <p>
+        TRONG PHẠM VI LUẬT PHÁP KHÔNG CẤM, TRONG MỌI TRƯỜNG HỢP BÊN CẤP PHÉP SẼ KHÔNG CHỊU TRÁCH NHIỆM VỀ THƯƠNG TÍCH CÁ
+        NHÂN HOẶC BẤT KỲ THIỆT HẠI NGẪU NHIÊN, ĐẶC BIỆT, GIÁN TIẾP HOẶC HỆ QUẢ NÀO PHÁT SINH TỪ HOẶC LIÊN QUAN ĐẾN VIỆC
+        BẠN SỬ DỤNG HOẶC KHÔNG THỂ SỬ DỤNG ỨNG DỤNG ĐƯỢC CẤP PHÉP. TRONG MỌI TRƯỜNG HỢP, TỔNG TRÁCH NHIỆM CỦA BÊN CẤP
+        PHÉP ĐỐI VỚI BẠN CHO TẤT CẢ CÁC THIỆT HẠI SẼ KHÔNG VƯỢT QUÁ SỐ TIỀN NĂM MƯƠI ĐÔ LA MỸ ($50.00).
+      </p>
 
-    <h2>g. Tuân thủ Quy định Xuất khẩu</h2>
-    <p>
-      Bạn không được sử dụng hoặc xuất khẩu hoặc tái xuất khẩu Ứng dụng được Cấp phép trừ khi được phép theo luật pháp của Hoa Kỳ và luật pháp của khu vực thẩm quyền nơi Ứng dụng được Cấp phép được thu thập.
-    </p>
+      <h2>g. Tuân thủ Quy định Xuất khẩu</h2>
+      <p>
+        Bạn không được sử dụng hoặc xuất khẩu hoặc tái xuất khẩu Ứng dụng được Cấp phép trừ khi được phép theo luật pháp
+        của Hoa Kỳ và luật pháp của khu vực thẩm quyền nơi Ứng dụng được Cấp phép được thu thập.
+      </p>
 
-    <h2>h. Mục Thương mại (Commercial Items)</h2>
-    <p>
-      Ứng dụng được Cấp phép và tài liệu liên quan là các “Mục Thương mại” (Commercial Items), bao gồm “Phần mềm Máy tính Thương mại” được cấp phép cho người dùng cuối chỉ với những quyền được cấp theo các điều khoản và điều kiện trong đây.
-    </p>
+      <h2>h. Mục Thương mại (Commercial Items)</h2>
+      <p>
+        Ứng dụng được Cấp phép và tài liệu liên quan là các “Mục Thương mại” (Commercial Items), bao gồm “Phần mềm Máy
+        tính Thương mại” được cấp phép cho người dùng cuối chỉ với những quyền được cấp theo các điều khoản và điều kiện
+        trong đây.
+      </p>
 
-    <h2>i. Luật Điều chỉnh &amp; Thẩm quyền Xét xử</h2>
-    <p>
-      Thỏa thuận này và mối quan hệ giữa bạn và Bên cấp phép sẽ được điều chỉnh bởi luật pháp hiện hành tại khu vực tài phán của bạn hoặc theo các quy tắc giải quyết tranh chấp tiêu chuẩn của Apple App Store và Google Play.
-    </p>
+      <h2>i. Luật Điều chỉnh &amp; Thẩm quyền Xét xử</h2>
+      <p>
+        Thỏa thuận này và mối quan hệ giữa bạn và Bên cấp phép sẽ được điều chỉnh bởi luật pháp hiện hành tại khu vực
+        tài phán của bạn hoặc theo các quy tắc giải quyết tranh chấp tiêu chuẩn của Apple App Store và Google Play.
+      </p>
 
-    <h2>j. Thông tin Liên hệ Bên Cấp phép</h2>
-    <p>Mọi câu hỏi hoặc khiếu nại liên quan đến Ứng dụng được Cấp phép xin gửi về:</p>
-    <ul>
-      <li><strong>Bên cấp phép:</strong> My Kiddy Team</li>
-      <li><strong>Email:</strong> <a href="mailto:support@mykiddy.net">support@mykiddy.net</a></li>
-      <li><strong>Website:</strong> <a href="https://mykiddy.net">https://mykiddy.net</a></li>
-    </ul>
-
-    <hr>
+      <h2>j. Thông tin Liên hệ Bên Cấp phép</h2>
+      <p>Mọi câu hỏi hoặc khiếu nại liên quan đến Ứng dụng được Cấp phép xin gửi về:</p>
+      <ul>
+        <li><strong>Bên cấp phép:</strong> My Kiddy Team</li>
+        <li><strong>Email:</strong> <a href="mailto:support@mykiddy.net">support@mykiddy.net</a></li>
+        <li><strong>Website:</strong> <a href="https://mykiddy.net">https://mykiddy.net</a></li>
+      </ul>
+    </div>
 
     <!-- ========================================== -->
     <!-- PHẦN 2: ENGLISH                            -->
     <!-- ========================================== -->
-    <div class="lang-badge">[English]</div>
+    <div id="section-en">
+      <div class="lang-badge">[English]</div>
 
-    <p>
-      Apps made available through the Apple App Store or Google Play Store are <strong>licensed, not sold, to you</strong>. Your license to the My Kiddy Application is subject to your prior acceptance of this Licensed Application End User License Agreement (“Standard EULA”).
-    </p>
-    <p>
-      Any app subject to this Standard EULA is referred to herein as the <em>“Licensed Application.”</em> The Application Provider (<strong>My Kiddy Team</strong> - <em>“Licensor”</em>) reserves all rights in and to the Licensed Application not expressly granted to you under this Standard EULA.
-    </p>
+      <p>
+        Apps made available through the Apple App Store or Google Play Store are <strong>licensed, not sold, to
+          you</strong>. Your license to the My Kiddy Application is subject to your prior acceptance of this Licensed
+        Application End User License Agreement (“Standard EULA”).
+      </p>
+      <p>
+        Any app subject to this Standard EULA is referred to herein as the <em>“Licensed Application.”</em> The
+        Application Provider (<strong>My Kiddy Team</strong> - <em>“Licensor”</em>) reserves all rights in and to the
+        Licensed Application not expressly granted to you under this Standard EULA.
+      </p>
 
-    <h2>a. Scope of License</h2>
-    <p>
-      Licensor grants to you a nontransferable license to use the Licensed Application on any authorized devices (Apple-branded, Android phones/tablets, smart TVs) that you own or control as permitted by the Usage Rules of the applicable app store. The terms of this Standard EULA govern any content, materials, flashcards, or games accessible from or purchased within the Licensed Application.
-    </p>
-    <p>
-      Except as permitted in family sharing rules, you may not distribute or make the Licensed Application available over an unauthorized network where it could be used by multiple devices at the same time. You may not copy, reverse-engineer, disassemble, attempt to derive the source code of, modify, or create derivative works of the Licensed Application, any updates, or any part thereof.
-    </p>
+      <h2>a. Scope of License</h2>
+      <p>
+        Licensor grants to you a nontransferable license to use the Licensed Application on any authorized devices
+        (Apple-branded, Android phones/tablets, smart TVs) that you own or control as permitted by the Usage Rules of
+        the applicable app store. The terms of this Standard EULA govern any content, materials, flashcards, or games
+        accessible from or purchased within the Licensed Application.
+      </p>
+      <p>
+        Except as permitted in family sharing rules, you may not distribute or make the Licensed Application available
+        over an unauthorized network where it could be used by multiple devices at the same time. You may not copy,
+        reverse-engineer, disassemble, attempt to derive the source code of, modify, or create derivative works of the
+        Licensed Application, any updates, or any part thereof.
+      </p>
 
-    <h2>b. Consent to Use of Data</h2>
-    <p>
-      You agree that Licensor may collect and use technical data and related information—including technical information about your device, system, and application software—gathered periodically to facilitate the provision of software updates, product support, daily playtime tracking, and family QR pairing routines. All data collection conforms strictly to the <a href="privacy-policy.html">My Kiddy Privacy Policy</a>.
-    </p>
+      <h2>b. Consent to Use of Data</h2>
+      <p>
+        You agree that Licensor may collect and use technical data and related information—including technical
+        information about your device, system, and application software—gathered periodically to facilitate the
+        provision of software updates, product support, daily playtime tracking, and family QR pairing routines. All
+        data collection conforms strictly to the <a href="privacy-policy.html">My Kiddy Privacy Policy</a>.
+      </p>
 
-    <h2>c. Termination</h2>
-    <p>
-      This Standard EULA is effective until terminated by you or Licensor. Your rights under this Standard EULA will terminate automatically without notice from Licensor if you fail to comply with any of its terms. Upon termination, you must cease all use of the Licensed Application and destroy all copies of the Licensed Application.
-    </p>
+      <h2>c. Termination</h2>
+      <p>
+        This Standard EULA is effective until terminated by you or Licensor. Your rights under this Standard EULA will
+        terminate automatically without notice from Licensor if you fail to comply with any of its terms. Upon
+        termination, you must cease all use of the Licensed Application and destroy all copies of the Licensed
+        Application.
+      </p>
 
-    <h2>d. External Services</h2>
-    <p>
-      The Licensed Application may enable access to third-party services and websites, including streaming parent-approved YouTube media. You agree to use External Services at your sole risk. Licensor is not responsible for examining or evaluating the content or accuracy of any third-party External Services, and shall not be liable for any such third-party External Services.
-    </p>
+      <h2>d. External Services</h2>
+      <p>
+        The Licensed Application may enable access to third-party services and websites, including streaming
+        parent-approved YouTube media. You agree to use External Services at your sole risk. Licensor is not responsible
+        for examining or evaluating the content or accuracy of any third-party External Services, and shall not be
+        liable for any such third-party External Services.
+      </p>
 
-    <h2>e. NO WARRANTY</h2>
-    <p>
-      YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE LICENSED APPLICATION IS AT YOUR SOLE RISK. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED APPLICATION AND ANY SERVICES PERFORMED OR PROVIDED BY THE LICENSED APPLICATION ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE LICENSED APPLICATION, EITHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-    </p>
+      <h2>e. NO WARRANTY</h2>
+      <p>
+        YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE LICENSED APPLICATION IS AT YOUR SOLE RISK. TO THE MAXIMUM
+        EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED APPLICATION AND ANY SERVICES PERFORMED OR PROVIDED BY THE
+        LICENSED APPLICATION ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND,
+        AND LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE LICENSED APPLICATION, EITHER
+        EXPRESS, IMPLIED, OR STATUTORY, INCLUDING MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+      </p>
 
-    <h2>f. Limitation of Liability</h2>
-    <p>
-      TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT SHALL LICENSOR BE LIABLE FOR PERSONAL INJURY OR ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE LICENSED APPLICATION. IN NO EVENT SHALL LICENSOR’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES EXCEED THE AMOUNT OF FIFTY DOLLARS ($50.00).
-    </p>
+      <h2>f. Limitation of Liability</h2>
+      <p>
+        TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT SHALL LICENSOR BE LIABLE FOR PERSONAL INJURY OR ANY INCIDENTAL,
+        SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO
+        USE THE LICENSED APPLICATION. IN NO EVENT SHALL LICENSOR’S TOTAL LIABILITY TO YOU FOR ALL DAMAGES EXCEED THE
+        AMOUNT OF FIFTY DOLLARS ($50.00).
+      </p>
 
-    <h2>g. Export Compliance</h2>
-    <p>
-      You may not use or otherwise export or re-export the Licensed Application except as authorized by United States law and the laws of the jurisdiction in which the Licensed Application was obtained.
-    </p>
+      <h2>g. Export Compliance</h2>
+      <p>
+        You may not use or otherwise export or re-export the Licensed Application except as authorized by United States
+        law and the laws of the jurisdiction in which the Licensed Application was obtained.
+      </p>
 
-    <h2>h. Commercial Items</h2>
-    <p>
-      The Licensed Application and related documentation are “Commercial Items,” consisting of “Commercial Computer Software” and “Commercial Computer Software Documentation,” licensed to end users only with those rights granted pursuant to the terms and conditions herein.
-    </p>
+      <h2>h. Commercial Items</h2>
+      <p>
+        The Licensed Application and related documentation are “Commercial Items,” consisting of “Commercial Computer
+        Software” and “Commercial Computer Software Documentation,” licensed to end users only with those rights granted
+        pursuant to the terms and conditions herein.
+      </p>
 
-    <h2>i. Governing Law &amp; Jurisdiction</h2>
-    <p>
-      This Agreement and the relationship between you and Licensor shall be governed by the laws of your residence or applicable standard App Store and Google Play distribution frameworks.
-    </p>
+      <h2>i. Governing Law &amp; Jurisdiction</h2>
+      <p>
+        This Agreement and the relationship between you and Licensor shall be governed by the laws of your residence or
+        applicable standard App Store and Google Play distribution frameworks.
+      </p>
 
-    <h2>j. Licensor Contact Information</h2>
-    <p>Direct any questions, claims, or inquiries regarding the Licensed Application to:</p>
-    <ul>
-      <li><strong>Licensor:</strong> My Kiddy Team</li>
-      <li><strong>Email:</strong> <a href="mailto:support@mykiddy.net">support@mykiddy.net</a></li>
-      <li><strong>Website:</strong> <a href="https://mykiddy.net">https://mykiddy.net</a></li>
-    </ul>
+      <h2>j. Licensor Contact Information</h2>
+      <p>Direct any questions, claims, or inquiries regarding the Licensed Application to:</p>
+      <ul>
+        <li><strong>Licensor:</strong> My Kiddy Team</li>
+        <li><strong>Email:</strong> <a href="mailto:support@mykiddy.net">support@mykiddy.net</a></li>
+        <li><strong>Website:</strong> <a href="https://mykiddy.net">https://mykiddy.net</a></li>
+      </ul>
+    </div>
 
     <div class="footer">
       <p>&copy; 2026 My Kiddy Team. All rights reserved.</p>
       <p>
-        <a href="../index.html">Trang Chủ</a> &bull;
-        <a href="../games.html">Trò Chơi</a> &bull;
+        <a href="../index.html">Trang Chủ / Home</a> &bull;
+        <a href="../games.html">Trò Chơi / Games</a> &bull;
         <a href="../share.html">Kênh YouTube</a> &bull;
-        <a href="../contact.html">Liên Hệ</a> &bull;
+        <a href="../contact.html">Liên Hệ / Contact</a> &bull;
         <a href="privacy-policy.html">Chính Sách Bảo Mật</a> &bull;
         <a href="terms-and-conditions-of-use.html">Điều Khoản Sử Dụng</a> &bull;
         <a href="licensed-application-end-user-license-agreement.html">EULA</a>
       </p>
     </div>
   </div>
+
+  <script>
+    function setLegalLang(lang) {
+      const vi = document.getElementById('section-vi');
+      const en = document.getElementById('section-en');
+      const btnVi = document.getElementById('btnVi');
+      const btnEn = document.getElementById('btnEn');
+      const btnAll = document.getElementById('btnAll');
+      [btnVi, btnEn, btnAll].forEach(b => {
+        b.style.background = 'transparent';
+        b.style.color = '#64748B';
+      });
+      if (lang === 'vi') {
+        vi.style.display = 'block';
+        en.style.display = 'none';
+        btnVi.style.background = '#6D28D9';
+        btnVi.style.color = '#FFFFFF';
+      } else if (lang === 'en') {
+        vi.style.display = 'none';
+        en.style.display = 'block';
+        btnEn.style.background = '#6D28D9';
+        btnEn.style.color = '#FFFFFF';
+      } else {
+        vi.style.display = 'block';
+        en.style.display = 'block';
+        btnAll.style.background = '#6D28D9';
+        btnAll.style.color = '#FFFFFF';
+      }
+    }
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('lang') === 'en') {
+      setLegalLang('en');
+    }
+  </script>
 </body>
+
 </html>

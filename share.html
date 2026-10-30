@@ -59,12 +59,47 @@
 
     body {
       min-height: 100vh;
-      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 30%, #EDE9FE 70%, #E0F2FE 100%);
+      background: linear-gradient(135deg, #FAF5FF 0%, #F5F3FF 30%, #EFF6FF 65%, #FFFDF5 100%);
       background-attachment: fixed;
       color: var(--text);
       display: flex;
       flex-direction: column;
-      padding: 24px 16px 48px;
+      padding: 16px 16px 48px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before, body::after {
+      content: "";
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+
+    body::before {
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(168, 85, 247, 0.28) 0%, rgba(236, 72, 153, 0.15) 100%);
+      top: -100px;
+      left: -100px;
+      animation: floatOrb 20s ease-in-out infinite alternate;
+    }
+
+    body::after {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.28) 0%, rgba(99, 102, 241, 0.15) 100%);
+      top: 320px;
+      right: -100px;
+      animation: floatOrb 24s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes floatOrb {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(30px, 40px) scale(1.08); }
     }
 
     .container {
@@ -77,44 +112,43 @@
     /* ── Header ── */
     header {
       text-align: center;
-      margin-bottom: 24px;
+      margin-bottom: 28px;
     }
 
-    .brand-logo {
-      font-size: 46px;
-      display: inline-block;
-      margin-bottom: 6px;
-      animation: bounceLogo 3s infinite ease-in-out;
-    }
-
-    @keyframes bounceLogo {
-
-      0%,
-      100% {
-        transform: translateY(0);
-      }
-
-      50% {
-        transform: translateY(-6px);
-      }
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 18px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid #EDE9FE;
+      color: #6D28D9;
+      font-size: 13px;
+      font-weight: 800;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.08);
+      margin-bottom: 12px;
     }
 
     h1 {
       font-family: var(--font-heading);
-      font-size: 28px;
+      font-size: 34px;
       font-weight: 900;
-      color: #581C87;
+      background: linear-gradient(135deg, #4C1D95 0%, #7C3AED 50%, #D946EF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       letter-spacing: -0.02em;
-      margin-bottom: 6px;
+      line-height: 1.25;
+      margin-bottom: 8px;
     }
 
     p.subtitle {
-      font-size: 15px;
-      font-weight: 700;
-      color: #7E22CE;
+      font-size: 15.5px;
+      font-weight: 600;
+      color: #64748B;
       max-width: 720px;
       margin: 0 auto;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     /* Banner đóng góp kênh */
@@ -690,6 +724,7 @@
       top: 12px;
       z-index: 100;
     }
+
     .nav-container {
       max-width: 1140px;
       margin: 0 auto;
@@ -699,6 +734,7 @@
       justify-content: space-between;
       gap: 16px;
     }
+
     .nav-brand {
       display: flex;
       align-items: center;
@@ -706,6 +742,7 @@
       text-decoration: none;
       flex-shrink: 0;
     }
+
     .nav-logo {
       width: 42px;
       height: 42px;
@@ -713,10 +750,12 @@
       box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
       object-fit: cover;
     }
+
     .nav-brand-text {
       display: flex;
       flex-direction: column;
     }
+
     .nav-title {
       font-family: var(--font-heading);
       font-size: 20px;
@@ -726,17 +765,20 @@
       -webkit-text-fill-color: transparent;
       line-height: 1.15;
     }
+
     .nav-tagline {
       font-size: 11px;
       font-weight: 700;
       color: #9333EA;
       letter-spacing: 0.02em;
     }
+
     .nav-menu {
       display: flex;
       align-items: center;
       gap: 20px;
     }
+
     .nav-links {
       display: flex;
       align-items: center;
@@ -745,6 +787,7 @@
       margin: 0;
       padding: 0;
     }
+
     .nav-item {
       display: inline-flex;
       align-items: center;
@@ -758,16 +801,19 @@
       transition: all 0.2s ease;
       white-space: nowrap;
     }
+
     .nav-item:hover {
       color: #6D28D9;
       background: rgba(109, 40, 217, 0.08);
       transform: translateY(-1px);
     }
+
     .nav-item.active {
       background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
       color: #FFFFFF;
       box-shadow: 0 4px 14px rgba(109, 40, 217, 0.35);
     }
+
     .btn-nav-app {
       display: inline-flex;
       align-items: center;
@@ -783,10 +829,12 @@
       transition: all 0.2s ease;
       white-space: nowrap;
     }
+
     .btn-nav-app:hover {
       transform: translateY(-2px);
       box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4);
     }
+
     .nav-toggle {
       display: none;
       background: none;
@@ -796,6 +844,7 @@
       flex-direction: column;
       gap: 5px;
     }
+
     .hamburger-bar {
       width: 24px;
       height: 3px;
@@ -815,6 +864,7 @@
       padding: 36px 28px 24px;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
     }
+
     .footer-top {
       display: grid;
       grid-template-columns: 2fr 1.2fr 1.2fr 1.4fr;
@@ -822,40 +872,47 @@
       padding-bottom: 28px;
       border-bottom: 1.5px solid rgba(148, 163, 184, 0.2);
     }
+
     .footer-logo-row {
       display: flex;
       align-items: center;
       gap: 12px;
       margin-bottom: 12px;
     }
+
     .footer-logo {
       width: 44px;
       height: 44px;
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
     }
+
     .footer-brand-name {
       font-family: var(--font-heading);
       font-size: 20px;
       font-weight: 900;
       color: #581C87;
     }
+
     .footer-brand-slogan {
       font-size: 11px;
       font-weight: 700;
       color: #9333EA;
     }
+
     .footer-desc {
       font-size: 13.5px;
       color: #475569;
       line-height: 1.6;
       margin-bottom: 14px;
     }
+
     .footer-badges {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
     }
+
     .safe-badge {
       display: inline-block;
       font-size: 11px;
@@ -865,6 +922,7 @@
       padding: 4px 10px;
       border-radius: 8px;
     }
+
     .footer-col-title {
       font-family: var(--font-heading);
       font-size: 15px;
@@ -873,6 +931,7 @@
       margin-bottom: 14px;
       letter-spacing: -0.01em;
     }
+
     .footer-list {
       list-style: none;
       padding: 0;
@@ -881,6 +940,7 @@
       flex-direction: column;
       gap: 10px;
     }
+
     .footer-list a {
       color: #475569;
       text-decoration: none;
@@ -888,10 +948,12 @@
       font-weight: 700;
       transition: all 0.15s ease;
     }
+
     .footer-list a:hover {
       color: #7C3AED;
       padding-left: 4px;
     }
+
     .footer-app-intro {
       font-size: 13px;
       color: #64748B;
@@ -899,11 +961,65 @@
       margin-bottom: 12px;
       line-height: 1.4;
     }
+
     .footer-app-buttons {
       display: flex;
       flex-direction: column;
       gap: 8px;
     }
+
+    .footer-badge-link {
+      display: inline-block;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .footer-badge-link:hover {
+      transform: translateY(-2px);
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25));
+    }
+
+    .footer-badge-img {
+      height: 40px;
+      width: auto;
+      border-radius: 7px;
+      display: block;
+    }
+
+    .lang-switch-wrap {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(241, 245, 249, 0.95);
+      border: 1.5px solid #E2E8F0;
+      border-radius: 20px;
+      padding: 3px;
+      gap: 2px;
+    }
+
+    .lang-pill {
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 800;
+      border-radius: 16px;
+      text-decoration: none;
+      color: #64748B;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      line-height: 1;
+    }
+
+    .lang-pill:hover {
+      color: #1E293B;
+    }
+
+    .lang-pill.active {
+      background: var(--primary, #6D28D9);
+      color: #FFFFFF;
+      box-shadow: 0 2px 8px rgba(109, 40, 217, 0.35);
+    }
+
     .app-btn {
       display: inline-flex;
       align-items: center;
@@ -915,18 +1031,21 @@
       text-decoration: none;
       font-size: 12.5px;
       font-weight: 800;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       transition: all 0.15s ease;
     }
+
     .app-btn:hover {
       background: #0F172A;
       transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
     }
+
     .footer-bottom {
       padding-top: 18px;
       text-align: center;
     }
+
     .footer-copyright {
       font-size: 12.5px;
       color: #64748B;
@@ -958,25 +1077,35 @@
         flex-direction: column;
         gap: 12px;
       }
+
       .nav-menu.open {
         display: flex;
       }
+
       .nav-links {
         flex-direction: column;
         width: 100%;
         gap: 6px;
       }
+
+      .lang-switch-wrap {
+        margin: 4px auto;
+      }
+
       .nav-item {
         width: 100%;
         padding: 10px 16px;
       }
+
       .nav-toggle {
         display: flex;
       }
+
       .btn-nav-app {
         width: 100%;
         justify-content: center;
       }
+
       .footer-top {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -1054,8 +1183,13 @@
             <li><a href="./share.html" class="nav-item active">📺 Kênh Youtube Bổ Ích</a></li>
             <li><a href="./contact.html" class="nav-item">💌 Liên Hệ &amp; Góp Ý</a></li>
           </ul>
+          <div class="lang-switch-wrap">
+            <a href="./share.html" class="lang-pill active" onclick="switchLang('vi')">🇻🇳 VI</a>
+            <a href="./en/share.html" class="lang-pill" onclick="switchLang('en')">🇬🇧 EN</a>
+          </div>
           <div class="nav-cta">
-            <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="btn-nav-app">
+            <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank"
+              rel="noopener noreferrer" class="btn-nav-app">
               <span>📲 Tải App</span>
             </a>
           </div>
@@ -1065,8 +1199,8 @@
 
     <!-- Header -->
     <header>
-      <div class="brand-logo">🎈📺🌟</div>
-      <h1>My Kiddy – Danh Sách Kênh YouTube Cho Bé</h1>
+      <div class="header-badge">📺 TUYỂN CHỌN NỘI DUNG SẠCH CHO BÉ</div>
+      <h1>Kênh YouTube Giáo Dục &amp; Giải Trí Lành Mạnh</h1>
       <p class="subtitle">
         Khám phá và chia sẻ các kênh YouTube thiếu nhi an toàn, giáo dục bổ ích theo từng độ tuổi và chủ đề
       </p>
@@ -1189,7 +1323,8 @@
             <ul class="footer-list">
               <li><a href="./pages/privacy-policy.html">🔒 Chính Sách Bảo Mật</a></li>
               <li><a href="./pages/terms-and-conditions-of-use.html">📜 Điều Khoản Sử Dụng</a></li>
-              <li><a href="./pages/licensed-application-end-user-license-agreement.html">📱 Thỏa Thuận Cấp Phép (EULA)</a></li>
+              <li><a href="./pages/licensed-application-end-user-license-agreement.html">📱 Thỏa Thuận Cấp Phép
+                  (EULA)</a></li>
             </ul>
           </div>
 
@@ -1197,18 +1332,23 @@
             <h4 class="footer-col-title">Tải Ứng Dụng Miễn Phí</h4>
             <p class="footer-app-intro">Trải nghiệm ứng dụng đầy đủ trên điện thoại và máy tính bảng:</p>
             <div class="footer-app-buttons">
-              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="app-btn">
-                <span>🤖 Google Play</span>
+              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank"
+                rel="noopener noreferrer" class="footer-badge-link" title="Tải trên Google Play">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/google-play.svg" alt="Google Play"
+                  class="footer-badge-img" onerror="this.src='./assets/images/google-play.svg';" />
               </a>
-              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="app-btn">
-                <span>🍏 App Store</span>
+              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer"
+                class="footer-badge-link" title="Tải trên App Store">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/app-store.svg" alt="App Store"
+                  class="footer-badge-img" onerror="this.src='./assets/images/app-store.svg';" />
               </a>
             </div>
           </div>
         </div>
 
         <div class="footer-bottom">
-          <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved. Phát triển vì sự phát triển toàn diện và an toàn của trẻ em.</p>
+          <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved. Phát triển vì sự phát triển toàn diện
+            và an toàn của trẻ em.</p>
         </div>
       </div>
     </footer>
@@ -1222,6 +1362,12 @@
 
   <!-- Logic Script & Data -->
   <script>
+    function switchLang(lang) {
+      try {
+        localStorage.setItem('mykiddy_lang', lang);
+      } catch (e) { }
+    }
+
     /**
      * DỮ LIỆU DANH SÁCH KÊNH YOUTUBE (embedded fallback)
      */

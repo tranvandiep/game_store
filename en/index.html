@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>My Kiddy – Safe Digital Playground &amp; Comprehensive Learning Ecosystem for Kids</title>
+  <meta name="description" content="My Kiddy: A trusted companion for parents to manage screen time, block harmful content, and empower kids with 3D Tap-to-Speak flashcards, curated videos, and family games." />
+  <meta name="keywords" content="My Kiddy, kids screen time control, safe kids app, educational games, 3D flashcards, tap to speak, kid safe youtube, family games" />
+  <meta name="author" content="My Kiddy Team" />
+  <link rel="canonical" href="https://mykiddy.net/en/" />
+
+  <!-- Icons & Favicon -->
+  <link rel="icon" type="image/png" href="../icon.png" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+  <link rel="apple-touch-icon" href="../icon.png" />
+  <meta name="theme-color" content="#6D28D9" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="My Kiddy" />
+  <meta property="og:title" content="My Kiddy – Play Zone &amp; Safe Learning Ecosystem for Kids" />
+  <meta property="og:description" content="Screen time control, 100% ad-free educational content, 3D Tap-to-Speak bilingual flashcards, and family games." />
+  <meta property="og:url" content="https://mykiddy.net/en/" />
+  <meta property="og:image" content="https://mykiddy.net/pages/thumbnail.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="My Kiddy – Play Zone &amp; Safe Learning Ecosystem for Kids" />
+  <meta name="twitter:description" content="Screen time control, 100% ad-free educational content, 3D Tap-to-Speak bilingual flashcards, and family games." />
+  <meta name="twitter:image" content="https://mykiddy.net/pages/thumbnail.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #6D28D9;
+      --primary-light: #8B5CF6;
+      --primary-dark: #5B21B6;
+      --accent: #F59E0B;
+      --accent-hover: #D97706;
+      --bg: #FFFBEB;
+      --card-bg: rgba(255, 255, 255, 0.92);
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: rgba(255, 255, 255, 0.9);
+      --font: 'Nunito', sans-serif;
+      --font-heading: 'Outfit', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: var(--font);
+    }
+
+    body {
+      background: linear-gradient(135deg, #FAF5FF 0%, #F5F3FF 30%, #EFF6FF 65%, #FFFDF5 100%);
+      background-attachment: fixed;
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 16px 16px 32px;
+      line-height: 1.5;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before, body::after {
+      content: "";
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+
+    body::before {
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(168, 85, 247, 0.28) 0%, rgba(236, 72, 153, 0.15) 100%);
+      top: -100px;
+      left: -100px;
+      animation: floatOrb 20s ease-in-out infinite alternate;
+    }
+
+    body::after {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.28) 0%, rgba(99, 102, 241, 0.15) 100%);
+      top: 320px;
+      right: -100px;
+      animation: floatOrb 24s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes floatOrb {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(30px, 40px) scale(1.08); }
+    }
+
+    .container {
+      max-width: 1140px;
+      width: 100%;
+      margin: 0 auto;
+      flex: 1;
+    }
+
+    /* ── MENU BAR ── */
+    .mykiddy-navbar {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(109, 40, 217, 0.08);
+      margin-bottom: 28px;
+      position: sticky;
+      top: 12px;
+      z-index: 100;
+    }
+
+    .nav-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+
+    .nav-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
+      object-fit: cover;
+    }
+
+    .nav-brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-title {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #6D28D9 0%, #D946EF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.15;
+    }
+
+    .nav-tagline {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9333EA;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 800;
+      color: #475569;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .nav-item:hover {
+      color: #6D28D9;
+      background: rgba(109, 40, 217, 0.08);
+      transform: translateY(-1px);
+    }
+
+    .nav-item.active {
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.35);
+    }
+
+    .btn-nav-app {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 18px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+      color: #FFFFFF;
+      font-size: 13.5px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .btn-nav-app:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4);
+    }
+
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .hamburger-bar {
+      width: 24px;
+      height: 3px;
+      background: #6D28D9;
+      border-radius: 3px;
+      transition: all 0.3s ease;
+    }
+
+    /* Language Switcher */
+    .lang-switch-wrap {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(241, 245, 249, 0.95);
+      border: 1.5px solid #E2E8F0;
+      border-radius: 20px;
+      padding: 3px;
+      gap: 2px;
+    }
+
+    .lang-pill {
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 800;
+      border-radius: 16px;
+      text-decoration: none;
+      color: #64748B;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      line-height: 1;
+    }
+
+    .lang-pill:hover {
+      color: #1E293B;
+    }
+
+    .lang-pill.active {
+      background: var(--primary, #6D28D9);
+      color: #FFFFFF;
+      box-shadow: 0 2px 8px rgba(109, 40, 217, 0.35);
+    }
+
+    /* ── HERO SECTION ── */
+    .hero-section {
+      text-align: center;
+      padding: 36px 16px 48px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      border: 1.5px solid rgba(109, 40, 217, 0.15);
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 20px;
+      box-shadow: 0 4px 16px rgba(109, 40, 217, 0.08);
+    }
+
+    .hero-title {
+      font-family: var(--font-heading);
+      font-size: 44px;
+      font-weight: 900;
+      line-height: 1.22;
+      color: #0F172A;
+      margin-bottom: 18px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero-title .gradient-text {
+      background: linear-gradient(135deg, #6D28D9 0%, #D946EF 50%, #F59E0B 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      max-width: 760px;
+      margin: 0 auto 32px;
+      font-size: 17px;
+      font-weight: 600;
+      color: #475569;
+      line-height: 1.65;
+    }
+
+    .hero-cta-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 40px;
+    }
+
+    .btn-hero-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 30px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #6D28D9 0%, #8B5CF6 100%);
+      color: #FFFFFF;
+      font-size: 15.5px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 10px 24px rgba(109, 40, 217, 0.35);
+      transition: all 0.25s ease;
+    }
+
+    .btn-hero-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 32px rgba(109, 40, 217, 0.45);
+    }
+
+    .btn-hero-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 26px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.95);
+      color: #1E293B;
+      border: 2px solid rgba(255, 255, 255, 0.9);
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+      transition: all 0.25s ease;
+    }
+
+    .btn-hero-secondary:hover {
+      background: #FFFFFF;
+      transform: translateY(-3px);
+      color: var(--primary);
+      box-shadow: 0 10px 26px rgba(109, 40, 217, 0.15);
+    }
+
+    .btn-hero-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 26px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, var(--accent) 0%, #D97706 100%);
+      color: #FFFFFF;
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(245, 158, 11, 0.3);
+      transition: all 0.25s ease;
+    }
+
+    .btn-hero-download:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 26px rgba(245, 158, 11, 0.45);
+    }
+
+    /* Hero Store Badges */
+    .hero-store-badges {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+    .hero-store-label {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #64748B;
+    }
+    .hero-store-links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .hero-store-link {
+      display: inline-block;
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+      line-height: 0;
+    }
+    .hero-store-link:hover {
+      transform: translateY(-3px) scale(1.03);
+      filter: drop-shadow(0 8px 18px rgba(109, 40, 217, 0.25));
+    }
+    .hero-store-img {
+      height: 44px;
+      width: auto;
+      border-radius: 8px;
+      display: block;
+    }
+
+    /* ── HERO DEVICE SHOWCASE (PLAY ZONE MOCKUP) ── */
+    .hero-showcase-wrap {
+      max-width: 820px;
+      margin: 0 auto 40px;
+      position: relative;
+      perspective: 1200px;
+    }
+    .hero-mockup-frame {
+      background: #0F172A;
+      border-radius: 36px;
+      padding: 12px;
+      box-shadow: 0 25px 60px -12px rgba(109, 40, 217, 0.25), 0 10px 25px rgba(0, 0, 0, 0.08);
+      border: 3px solid rgba(255, 255, 255, 0.85);
+      position: relative;
+      z-index: 2;
+      transition: transform 0.3s ease;
+    }
+    .hero-mockup-screen {
+      background: linear-gradient(135deg, #FAF5FF 0%, #EDE9FE 60%, #FEF3C7 100%);
+      border-radius: 26px;
+      overflow: hidden;
+      padding: 14px 18px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.04);
+    }
+    .mockup-status-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      font-weight: 800;
+      color: #64748B;
+      padding: 0 4px;
+    }
+    .mockup-notch {
+      width: 70px;
+      height: 12px;
+      background: #0F172A;
+      border-radius: 8px;
+    }
+    .mockup-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      padding: 8px 14px;
+      border-radius: 16px;
+      border: 1.5px solid #FFFFFF;
+    }
+    .mockup-user {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .mockup-avatar {
+      font-size: 24px;
+      width: 34px;
+      height: 34px;
+      background: #EDE9FE;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .mockup-user-info {
+      text-align: left;
+      line-height: 1.2;
+    }
+    .mockup-user-name {
+      font-size: 13px;
+      font-weight: 900;
+      color: #1E293B;
+    }
+    .mockup-user-status {
+      font-size: 10.5px;
+      font-weight: 700;
+      color: #10B981;
+    }
+    .mockup-timer-pill {
+      background: #FEF3C7;
+      color: #B45309;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 5px 10px;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .mockup-games-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .mockup-game-item {
+      background: rgba(255, 255, 255, 0.95);
+      border: 1.5px solid #FFFFFF;
+      border-radius: 16px;
+      padding: 10px 6px 8px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(109, 40, 217, 0.05);
+      transition: transform 0.2s ease;
+    }
+    .mockup-game-item:hover {
+      transform: translateY(-2px);
+    }
+    .mockup-game-icon {
+      font-size: 26px;
+      margin-bottom: 4px;
+      display: block;
+    }
+    .mockup-game-name {
+      font-size: 11px;
+      font-weight: 900;
+      color: #1E293B;
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .mockup-game-badge {
+      font-size: 9px;
+      font-weight: 800;
+      color: #6D28D9;
+      background: #EDE9FE;
+      padding: 2px 6px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 2px;
+    }
+    .mockup-floating-nav {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(12px);
+      border: 1.5px solid #FFFFFF;
+      border-radius: 9999px;
+      padding: 6px 14px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      box-shadow: 0 6px 16px rgba(109, 40, 217, 0.08);
+      margin-top: 2px;
+    }
+    .mockup-nav-icon {
+      font-size: 14px;
+      padding: 4px 10px;
+      border-radius: 12px;
+      color: #64748B;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      font-weight: 800;
+      font-size: 9.5px;
+    }
+    .mockup-nav-icon.active {
+      color: #6D28D9;
+      background: #EDE9FE;
+    }
+
+    /* Floating Badges around Mockup */
+    .float-chip {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid #FFFFFF;
+      border-radius: 9999px;
+      padding: 8px 16px;
+      box-shadow: 0 10px 25px rgba(109, 40, 217, 0.15);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      font-weight: 800;
+      color: #1E293B;
+      z-index: 3;
+      white-space: nowrap;
+      animation: floatBadge 4s ease-in-out infinite alternate;
+    }
+    .float-chip-left {
+      top: -15px;
+      left: -20px;
+      animation-delay: 0s;
+    }
+    .float-chip-right {
+      bottom: 25px;
+      right: -25px;
+      animation-delay: 1.5s;
+    }
+    @keyframes floatBadge {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-8px); }
+    }
+    @media (max-width: 768px) {
+      .float-chip { display: none; }
+      .mockup-games-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .hero-metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .metric-card {
+      background: rgba(255, 255, 255, 0.78);
+      backdrop-filter: blur(12px);
+      border: 1.5px solid rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      padding: 18px 14px;
+      text-align: center;
+      box-shadow: 0 6px 20px rgba(109, 40, 217, 0.05);
+      transition: transform 0.2s ease;
+    }
+
+    .metric-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .metric-icon {
+      font-size: 26px;
+      margin-bottom: 6px;
+    }
+
+    .metric-value {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 900;
+      color: var(--primary);
+      margin-bottom: 2px;
+    }
+
+    .metric-desc {
+      font-size: 12px;
+      font-weight: 700;
+      color: #64748B;
+      line-height: 1.35;
+    }
+
+    /* ── SECTIONS WRAPPER ── */
+    .section-wrap {
+      margin-top: 56px;
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 36px;
+    }
+
+    .section-tag {
+      display: inline-block;
+      padding: 5px 14px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+    }
+
+    .tag-purple {
+      background: #EDE9FE;
+      color: var(--primary);
+    }
+
+    .tag-amber {
+      background: #FEF3C7;
+      color: #B45309;
+    }
+
+    .tag-emerald {
+      background: #D1FAE5;
+      color: #047857;
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 900;
+      color: #0F172A;
+      margin-bottom: 12px;
+      letter-spacing: -0.3px;
+    }
+
+    .section-subtitle {
+      font-size: 15.5px;
+      color: #64748B;
+      font-weight: 600;
+      line-height: 1.6;
+    }
+
+    /* ── COMPARISON SECTION ── */
+    .comparison-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .comparison-card {
+      border-radius: 26px;
+      padding: 32px 28px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-problem {
+      background: rgba(254, 242, 242, 0.85);
+      backdrop-filter: blur(12px);
+      border: 2px solid #FCA5A5;
+    }
+
+    .card-solution {
+      background: rgba(236, 253, 245, 0.88);
+      backdrop-filter: blur(12px);
+      border: 2px solid #6EE7B7;
+    }
+
+    .comparison-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .comparison-icon {
+      font-size: 32px;
+    }
+
+    .comparison-title {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .title-problem {
+      color: #991B1B;
+    }
+
+    .title-solution {
+      color: #065F46;
+    }
+
+    .comparison-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .comparison-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 14.5px;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+
+    .item-problem {
+      color: #7F1D1D;
+    }
+
+    .item-solution {
+      color: #064E3B;
+    }
+
+    /* ── 6 CORE FEATURES ── */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .feature-card {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(14px);
+      border: 2px solid rgba(255, 255, 255, 0.9);
+      border-radius: 24px;
+      padding: 28px 22px;
+      box-shadow: 0 10px 24px rgba(109, 40, 217, 0.05);
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 16px 36px rgba(109, 40, 217, 0.12);
+      border-color: rgba(109, 40, 217, 0.3);
+    }
+
+    .feature-icon-box {
+      width: 54px;
+      height: 54px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      margin-bottom: 18px;
+    }
+
+    .feature-card h3 {
+      font-family: var(--font-heading);
+      font-size: 19px;
+      font-weight: 800;
+      color: #0F172A;
+      margin-bottom: 10px;
+    }
+
+    .feature-card p {
+      font-size: 14px;
+      color: #475569;
+      font-weight: 600;
+      line-height: 1.6;
+      flex: 1;
+    }
+
+    .feature-card-tags {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .feature-chip {
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: #F1F5F9;
+      color: #475569;
+    }
+
+    /* ── WEB GAMES PREVIEW ── */
+    .preview-box {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.95);
+      border-radius: 28px;
+      padding: 36px 28px;
+      box-shadow: 0 14px 40px rgba(109, 40, 217, 0.08);
+    }
+
+    .preview-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 24px;
+    }
+
+    .mini-game-card {
+      background: #FFFFFF;
+      border-radius: 20px;
+      padding: 18px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      transition: all 0.2s ease;
+    }
+
+    .mini-game-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(109, 40, 217, 0.12);
+    }
+
+    .mini-thumb {
+      width: 100%;
+      height: 140px;
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mini-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .mini-title {
+      font-family: var(--font-heading);
+      font-size: 16.5px;
+      font-weight: 800;
+      color: #1E293B;
+      margin-bottom: 6px;
+    }
+
+    .mini-desc {
+      font-size: 13px;
+      color: #64748B;
+      font-weight: 600;
+      margin-bottom: 14px;
+      flex: 1;
+      line-height: 1.45;
+    }
+
+    .btn-play-mini {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 9px 14px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: 800;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-play-mini:hover {
+      opacity: 0.95;
+      transform: scale(1.02);
+    }
+
+    .preview-footer-action {
+      text-align: center;
+      margin-top: 28px;
+    }
+
+    .btn-view-all-games {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 28px;
+      border-radius: 16px;
+      background: rgba(109, 40, 217, 0.1);
+      color: var(--primary);
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .btn-view-all-games:hover {
+      background: var(--primary);
+      color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    /* ── COMPLIANCE & SAFETY ── */
+    .compliance-banner {
+      background: linear-gradient(135deg, #1E1B4B 0%, #312E81 50%, #4338CA 100%);
+      border-radius: 28px;
+      padding: 36px 32px;
+      color: #FFFFFF;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 32px;
+      align-items: center;
+      box-shadow: 0 16px 40px rgba(49, 46, 129, 0.25);
+    }
+
+    .compliance-left h3 {
+      font-family: var(--font-heading);
+      font-size: 26px;
+      font-weight: 900;
+      margin-bottom: 12px;
+      letter-spacing: -0.3px;
+    }
+
+    .compliance-left p {
+      font-size: 15px;
+      color: #C7D2FE;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .compliance-points {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .comp-point {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      color: #EEF2FF;
+    }
+
+    .compliance-badges-box {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border: 1.5px solid rgba(255, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .comp-icon-large {
+      font-size: 40px;
+      margin-bottom: 8px;
+    }
+
+    .comp-badge-title {
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 900;
+      color: #FCD34D;
+      margin-bottom: 6px;
+    }
+
+    .comp-badge-sub {
+      font-size: 12.5px;
+      color: #E0E7FF;
+      line-height: 1.4;
+    }
+
+    /* ── DOWNLOAD APP SECTION ── */
+    .download-section {
+      margin-top: 56px;
+      text-align: center;
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 50%, #5B21B6 100%);
+      border-radius: 28px;
+      padding: 44px 24px;
+      color: #FFFFFF;
+      box-shadow: 0 16px 40px rgba(109, 40, 217, 0.3);
+    }
+
+    .download-section h2 {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 900;
+      margin-bottom: 12px;
+    }
+
+    .download-section p {
+      max-width: 620px;
+      margin: 0 auto 28px;
+      font-size: 16px;
+      color: #DDD6FE;
+      line-height: 1.6;
+    }
+
+    .download-buttons-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .store-badge-link {
+      display: inline-flex;
+      align-items: center;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .store-badge-link:hover {
+      transform: translateY(-3px);
+      filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.2));
+    }
+
+    .store-badge-lg {
+      height: 48px;
+      width: auto;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .btn-download-contact {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      height: 48px;
+      padding: 0 24px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.18);
+      color: #FFFFFF;
+      border: 1.5px solid rgba(255, 255, 255, 0.4);
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      transition: all 0.2s ease;
+      box-sizing: border-box;
+    }
+
+    .btn-download-contact:hover {
+      transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.28);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.2);
+    }
+
+    .store-icon {
+      font-size: 22px;
+    }
+
+    /* ── FOOTER CHUẨN ── */
+    .mykiddy-footer {
+      margin-top: 56px;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.8);
+      border-radius: 28px;
+      padding: 36px 28px 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1.2fr 1.2fr 1.4fr;
+      gap: 32px;
+      padding-bottom: 28px;
+      border-bottom: 1.5px solid rgba(148, 163, 184, 0.2);
+    }
+
+    .footer-logo-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .footer-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .footer-brand-name {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--primary);
+    }
+
+    .footer-brand-slogan {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .footer-desc {
+      font-size: 13.5px;
+      color: #64748B;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .footer-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .safe-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 11.5px;
+      font-weight: 700;
+      background: #F1F5F9;
+      color: #334155;
+    }
+
+    .footer-col-title {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 800;
+      color: #1E293B;
+      margin-bottom: 14px;
+      letter-spacing: -0.2px;
+    }
+
+    .footer-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    .footer-list a {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #64748B;
+      text-decoration: none;
+      transition: color 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .footer-list a:hover {
+      color: var(--primary);
+    }
+
+    .footer-app-intro {
+      font-size: 13px;
+      color: #64748B;
+      font-weight: 600;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+
+    .footer-app-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .footer-badge-link {
+      display: inline-block;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .footer-badge-link:hover {
+      transform: translateY(-2px);
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25));
+    }
+
+    .footer-badge-img {
+      height: 40px;
+      width: auto;
+      border-radius: 7px;
+      display: block;
+    }
+
+    .footer-bottom {
+      padding-top: 18px;
+      text-align: center;
+    }
+
+    .footer-copyright {
+      font-size: 12.5px;
+      color: #64748B;
+      font-weight: 700;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 990px) {
+      .hero-title {
+        font-size: 34px;
+      }
+      .hero-metrics {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .preview-cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .compliance-banner {
+        grid-template-columns: 1fr;
+      }
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 2px solid rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        padding: 16px;
+        box-shadow: 0 16px 36px rgba(109, 40, 217, 0.15);
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .nav-menu.open {
+        display: flex;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 6px;
+      }
+
+      .lang-switch-wrap {
+        margin: 4px auto;
+      }
+
+      .nav-item {
+        width: 100%;
+        padding: 10px 16px;
+      }
+
+      .nav-toggle {
+        display: flex;
+      }
+
+      .btn-nav-app {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .hero-title {
+        font-size: 28px;
+      }
+
+      .hero-subtitle {
+        font-size: 15px;
+      }
+
+      .comparison-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .preview-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Unified Menu Bar -->
+    <nav class="mykiddy-navbar">
+      <div class="nav-container">
+        <a href="./index.html" class="nav-brand">
+          <img src="../icon.png" alt="My Kiddy Logo" class="nav-logo" onerror="this.style.display='none'" />
+          <div class="nav-brand-text">
+            <span class="nav-title">My Kiddy</span>
+            <span class="nav-tagline">Play Zone &amp; Safe Learning</span>
+          </div>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Mở menu điều hướng" onclick="toggleNavMenu()">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="./index.html" class="nav-item active">🏠 Giới Thiệu</a></li>
+            <li><a href="./games.html" class="nav-item">🎮 Trò Chơi (Game)</a></li>
+            <li><a href="./share.html" class="nav-item">📺 Kênh Youtube Bổ Ích</a></li>
+            <li><a href="./contact.html" class="nav-item">💌 Liên Hệ &amp; Góp Ý</a></li>
+          </ul>
+          <div class="lang-switch-wrap">
+            <a href="../index.html" class="lang-pill" onclick="switchLang('vi')">🇻🇳 VI</a>
+            <a href="./index.html" class="lang-pill active" onclick="switchLang('en')">🇬🇧 EN</a>
+          </div>
+          <div class="nav-cta">
+            <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="btn-nav-app">
+              <span>📲 Tải App</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ── 1. HERO SECTION ── -->
+    <section class="hero-section">
+      <div class="hero-badge">
+        <span>🌈</span>
+        <span>Safe &amp; Comprehensive Digital Ecosystem for Kids</span>
+      </div>
+
+      <h1 class="hero-title">
+        Protecting Children in the Digital Space, <br>
+        <span class="gradient-text">Joyful Learning &amp; Healthy Play with My Kiddy</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        My Kiddy is a trusted parenting companion: Intelligent screen time management, absolute protection against harmful content, interactive brain games, 3D Tap-to-Speak bilingual flashcards, and ad-free educational YouTube videos.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="./games.html" class="btn-hero-primary">
+          <span>🎮 Try Web Games</span>
+          <span>➔</span>
+        </a>
+        <a href="./share.html" class="btn-hero-secondary">
+          <span>📺 Explore YouTube</span>
+        </a>
+        <a href="#tai-ung-dung" class="btn-hero-download">
+          <span>📲 Install App</span>
+        </a>
+      </div>
+
+      <!-- Hero Store Badges -->
+      <div class="hero-store-badges">
+        <span class="hero-store-label">Available for free on Google Play &amp; App Store:</span>
+        <div class="hero-store-links">
+          <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="hero-store-link" title="Get My Kiddy on Google Play">
+            <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/google-play.svg" alt="Google Play" class="hero-store-img" onerror="this.src='../assets/images/google-play.svg';" />
+          </a>
+          <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="hero-store-link" title="Download My Kiddy on App Store">
+            <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/app-store.svg" alt="App Store" class="hero-store-img" onerror="this.src='../assets/images/app-store.svg';" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Device Showcase (Play Zone Mockup) -->
+      <div class="hero-showcase-wrap">
+        <div class="float-chip float-chip-left">
+          <span>🛡️</span>
+          <span>100% Safe &amp; Ad-Free</span>
+        </div>
+        <div class="float-chip float-chip-right">
+          <span>⏱️</span>
+          <span>PIN Lock &amp; Smart Timer</span>
+        </div>
+
+        <div class="hero-mockup-frame">
+          <div class="hero-mockup-screen">
+            <div class="mockup-status-bar">
+              <span>09:41</span>
+              <div class="mockup-notch"></div>
+              <span>📶 🔋 100%</span>
+            </div>
+
+            <div class="mockup-header">
+              <div class="mockup-user">
+                <div class="mockup-avatar">🐻</div>
+                <div class="mockup-user-info">
+                  <div class="mockup-user-name">Kid Bo Bo</div>
+                  <div class="mockup-user-status">● Play &amp; Learn Session Active</div>
+                </div>
+              </div>
+              <div class="mockup-timer-pill">
+                <span>⏱️</span>
+                <span>25m left</span>
+              </div>
+            </div>
+
+            <div class="mockup-games-grid">
+              <a href="./games.html" class="mockup-game-item" style="text-decoration:none;">
+                <span class="mockup-game-icon">🐶</span>
+                <span class="mockup-game-name">Pet Finder</span>
+                <span class="mockup-game-badge">Logic</span>
+              </a>
+              <a href="./games.html" class="mockup-game-item" style="text-decoration:none;">
+                <span class="mockup-game-icon">🌸</span>
+                <span class="mockup-game-name">Flower Match</span>
+                <span class="mockup-game-badge">Creativity</span>
+              </a>
+              <a href="./games.html" class="mockup-game-item" style="text-decoration:none;">
+                <span class="mockup-game-icon">🦁</span>
+                <span class="mockup-game-name">3D Animals</span>
+                <span class="mockup-game-badge">Bilingual</span>
+              </a>
+              <a href="./games.html" class="mockup-game-item" style="text-decoration:none;">
+                <span class="mockup-game-icon">🚀</span>
+                <span class="mockup-game-name">Space Race</span>
+                <span class="mockup-game-badge">1-4 Players</span>
+              </a>
+            </div>
+
+            <div class="mockup-floating-nav">
+              <div class="mockup-nav-icon active">
+                <span>🎮</span>
+                <span>Games</span>
+              </div>
+              <div class="mockup-nav-icon">
+                <span>📺</span>
+                <span>Video</span>
+              </div>
+              <div class="mockup-nav-icon">
+                <span>🏠</span>
+                <span>Home</span>
+              </div>
+              <div class="mockup-nav-icon">
+                <span>🃏</span>
+                <span>Flashcards</span>
+              </div>
+              <div class="mockup-nav-icon">
+                <span>⚙️</span>
+                <span>Settings</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-metrics">
+        <div class="metric-card">
+          <div class="metric-icon">🛡️</div>
+          <div class="metric-value">100% Safe</div>
+          <div class="metric-desc">Zero spam ads &amp; harmful content</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">⏱️</div>
+          <div class="metric-value">PIN &amp; Timer</div>
+          <div class="metric-desc">Smart screen time limits per child</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">🃏</div>
+          <div class="metric-value">3D Bilingual Cards</div>
+          <div class="metric-desc">Tap-to-Speak with native voice</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon">🎮</div>
+          <div class="metric-value">1 - 4 Players</div>
+          <div class="metric-desc">Family bonding on a single device</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 2. NỖI LO CỦA CHA MẸ VS GIẢI PHÁP MY KIDDY ── -->
+    <section class="section-wrap">
+      <div class="section-header">
+        <span class="section-tag tag-purple">Challenges &amp; Solutions</span>
+        <h2 class="section-title">Why Do Thousands of Parents Trust My Kiddy?</h2>
+        <p class="section-subtitle">
+          Guiding children to use technology wisely, turning smartphones from addictive screens into empowering educational companions.
+        </p>
+      </div>
+
+      <div class="comparison-grid">
+        <div class="comparison-card card-problem">
+          <div class="comparison-header">
+            <div class="comparison-icon icon-problem">⚠️</div>
+            <h3 class="comparison-title title-problem">Concerns When Children Use Unrestricted Devices</h3>
+          </div>
+          <ul class="comparison-list">
+            <li class="comparison-item item-problem">
+              <span>❌</span>
+              <span>Easily exposed to violent, disturbing, or sensational videos disguised as children's cartoons.</span>
+            </li>
+            <li class="comparison-item item-problem">
+              <span>❌</span>
+              <span>Bombarded by spam ads, gambling promotions, and harmful viral trends across social media.</span>
+            </li>
+            <li class="comparison-item item-problem">
+              <span>❌</span>
+              <span>Continuous hours of screen addiction, damaging eyesight and diminishing academic focus.</span>
+            </li>
+            <li class="comparison-item item-problem">
+              <span>❌</span>
+              <span>Unintended in-app purchases, downloading unverified apps, or accidental deletion of parents' files.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="comparison-card card-solution">
+          <div class="comparison-header">
+            <div class="comparison-icon icon-solution">✨</div>
+            <h3 class="comparison-title title-solution">A Safe &amp; Serene Digital Space with My Kiddy</h3>
+          </div>
+          <ul class="comparison-list">
+            <li class="comparison-item item-solution">
+              <span>✅</span>
+              <span><strong>Dedicated Safe Zone (Play Zone):</strong> Secured by parental PIN, strictly preventing children from exiting or accessing unauthorized apps.</span>
+            </li>
+            <li class="comparison-item item-solution">
+              <span>✅</span>
+              <span><strong>100% Curated Wholesome Content:</strong> Every YouTube video, game, and lesson is hand-reviewed by educational specialists.</span>
+            </li>
+            <li class="comparison-item item-solution">
+              <span>✅</span>
+              <span><strong>Intelligent Playtime Limits:</strong> Gracefully locks the screen with gentle bedtime reminders when allotted time expires.</span>
+            </li>
+            <li class="comparison-item item-solution">
+              <span>✅</span>
+              <span><strong>Learn &amp; Play Together:</strong> 1-4 player competitive games and 3D flashcards foster meaningful family bonding.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 3. 6 TÍNH NĂNG CỐT LÕI CỦA MY KIDDY ── -->
+    <section class="section-wrap">
+      <div class="section-header">
+        <span class="section-tag tag-amber">Complete Ecosystem</span>
+        <h2 class="section-title">6 Core Pillars Powering My Kiddy</h2>
+        <p class="section-subtitle">
+          Integrating every essential digital tool required by families with children aged 2 to 12 into a single unified platform.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #FEF3C7; color: #B45309;">⏱️</div>
+          <h3>Screen Time Control &amp; Parental PIN</h3>
+          <p>
+            Customize daily screen quotas (15m, 30m, 1h...) for each child. Real-time 5-second Heartbeat synchronization automatically pauses the app when time expires, requiring parent's PIN to unlock.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">🛡️ Daily Quotas</span>
+            <span class="feature-chip">🔒 Security PIN</span>
+            <span class="feature-chip">⚡ Heartbeat Sync</span>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #EDE9FE; color: #6D28D9;">🎮</div>
+          <h3>Educational Games for 1 - 4 Players</h3>
+          <p>
+            Engaging games enhancing logical thinking, reflexes, and artistry: Farm Chicken Chase, Flower Sorting, Kids Drawing with 170+ coloring templates, Chess, Chinese Chess, Monopoly... Complete with animated TTS voice guidance.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">🎨 Kids Drawing</span>
+            <span class="feature-chip">👨‍👩‍👧‍👦 1-4 Players</span>
+            <span class="feature-chip">🗣️ TTS Voice Narrator</span>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #E0F2FE; color: #0369A1;">🃏</div>
+          <h3>3D Tap-to-Speak Bilingual Flashcards</h3>
+          <p>
+            Rich flashcard sets featuring interactive Tap-to-Speak: Tap any item, animal, vehicle horn sound, or 'Did You Know?' fun fact to hear native-speaker pronunciation in both English and Vietnamese.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">🔊 Tap-to-Speak</span>
+            <span class="feature-chip">🇬🇧 Bilingual EN-VI</span>
+            <span class="feature-chip">🦕 3D Visuals</span>
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #FFE4E6; color: #BE123C;">📺</div>
+          <h3>Safe Curated Educational YouTube</h3>
+          <p>
+            Handpicked library of kid-friendly YouTube channels organized by age brackets and subjects: Science discovery, children's songs, moral storytelling, and life skills. Completely free of spam ads.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">🚫 Zero Trash Ads</span>
+            <span class="feature-chip">🔬 Science Discovery</span>
+            <span class="feature-chip">🎵 Kids Music</span>
+          </div>
+        </div>
+
+        <!-- Feature 5 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #D1FAE5; color: #047857;">📚</div>
+          <h3>Math, Vietnamese &amp; English Learning Stages</h3>
+          <p>
+            Visual learning curricula for Grades 1 through 5 structured into exciting adventure stages. Helps children reinforce classroom knowledge with enthusiasm and zero academic pressure.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">📐 Primary Math</span>
+            <span class="feature-chip">📖 Vietnamese</span>
+            <span class="feature-chip">🔤 Primary English</span>
+          </div>
+        </div>
+
+        <!-- Feature 6 -->
+        <div class="feature-card">
+          <div class="feature-icon-box" style="background: #FEF3C7; color: #D97706;">👨‍👩‍👧‍👦</div>
+          <h3>Family Connectivity &amp; Instant QR Pairing</h3>
+          <p>
+            Pair children's devices with parents' accounts in a single QR scan. Manage individual member profiles (Dad, Mom, Kids, Grandparents), family messaging, and instant cloud backup.
+          </p>
+          <div class="feature-card-tags">
+            <span class="feature-chip">📱 Instant QR Scan</span>
+            <span class="feature-chip">💬 Family Chat</span>
+            <span class="feature-chip">☁️ Realtime Cloud</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 4. CHƠI THỬ TRỰC TIẾP TRÊN TRÌNH DUYỆT ── -->
+    <section class="section-wrap">
+      <div class="preview-box">
+        <div class="section-header" style="margin-bottom: 16px;">
+          <span class="section-tag tag-emerald">Instant Web Experience</span>
+          <h2 class="section-title">Try Games Directly in Your Web Browser</h2>
+          <p class="section-subtitle">
+            No installation required—click and play top games powered by ultra-smooth ReactJS technology!
+          </p>
+        </div>
+
+        <div class="preview-cards">
+          <!-- Game 1 -->
+          <div class="mini-game-card">
+            <div class="mini-thumb" style="background-color: #FEF3C7;">
+              <img src="../thumbnails/catch_chicken.jpg" alt="Playful Chickens - Farm Chase" onerror="this.src='https://mykiddy.net/thumbnails/catch_chicken.jpg';" />
+            </div>
+            <h4 class="mini-title">Playful Chickens - Farm Chase</h4>
+            <p class="mini-desc">Catch playful chickens around the barnyard with family from 1 to 4 players.</p>
+            <a href="../online/games/catch_chicken/index.html" class="btn-play-mini" target="_blank">
+              <span>▶️ Play Online Now</span>
+            </a>
+          </div>
+
+          <!-- Game 2 -->
+          <div class="mini-game-card">
+            <div class="mini-thumb" style="background-color: #E0F2FE;">
+              <img src="../thumbnails/flower_sort.jpg" alt="Flower Sort - Relaxing Floral Puzzle" onerror="this.src='https://mykiddy.net/thumbnails/flower_sort.jpg';" />
+            </div>
+            <h4 class="mini-title">Flower Sort - Relaxing Floral Puzzle</h4>
+            <p class="mini-desc">Match 3 identical flowers into pots to foster observation, logic, and unwind stress.</p>
+            <a href="../online/games/flower_sort/index.html" class="btn-play-mini" target="_blank">
+              <span>▶️ Play Online Now</span>
+            </a>
+          </div>
+
+          <!-- Game 3 -->
+          <div class="mini-game-card">
+            <div class="mini-thumb" style="background-color: #FFF7ED;">
+              <img src="../thumbnails/kids_drawing.jpg" alt="Kids Drawing – Creative Art Studio" onerror="this.src='https://mykiddy.net/thumbnails/kids_drawing.jpg';" />
+            </div>
+            <h4 class="mini-title">Kids Drawing – Creative Art Studio</h4>
+            <p class="mini-desc">Over 170+ vibrant coloring pages: Vehicles, animals, princesses, and cartoons.</p>
+            <a href="../online/games/kids_drawing/index.html" class="btn-play-mini" target="_blank">
+              <span>▶️ Play Online Now</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="preview-footer-action">
+          <a href="./games.html" class="btn-view-all-games">
+            <span>🎮 Explore Full Game &amp; Flashcard Store</span>
+            <span>➔</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 5. CAM KẾT AN TOÀN & BẢO VỆ DỮ LIỆU TRẺ EM ── -->
+    <section class="section-wrap">
+      <div class="compliance-banner">
+        <div class="compliance-left">
+          <h3>🛡️ International Privacy Standards for Children</h3>
+          <p>
+            My Kiddy strictly adheres to international child privacy regulations: Children’s Online Privacy Protection Act (COPPA - USA) and GDPR-K (Europe). Your child’s safety is always our paramount priority.
+          </p>
+          <div class="compliance-points">
+            <div class="comp-point">
+              <span>🔒</span>
+              <span>Strictly no collection of sensitive personal data or precise location tracking.</span>
+            </div>
+            <div class="comp-point">
+              <span>🚫</span>
+              <span>Never sell personal data or share behavioral patterns with third-party advertisers.</span>
+            </div>
+            <div class="comp-point">
+              <span>👨‍👩‍👧‍👦</span>
+              <span>Complete account settings and data management remain under 100% parental control.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="compliance-badges-box">
+          <div class="comp-icon-large">🏆</div>
+          <h4 class="comp-badge-title">COPPA &amp; GDPR-K Compliant</h4>
+          <p class="comp-badge-sub">Wholesome, transparent &amp; safe digital environment for the next generation</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 6. TẢI ỨNG DỤNG NGAY ── -->
+    <section class="download-section" id="tai-ung-dung">
+      <h2>Start Protecting &amp; Accompanying Your Child Today!</h2>
+      <p>
+        Download My Kiddy for free on App Store or Google Play to turn your mobile device into a smart, joyful, and safe educational companion for your little ones.
+      </p>
+
+      <div class="download-buttons-group">
+        <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="store-badge-link" title="Get it on Google Play">
+          <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/google-play.svg" alt="Google Play" class="store-badge-lg" onerror="this.src='../assets/images/google-play.svg';" />
+        </a>
+        <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="store-badge-link" title="Download on the App Store">
+          <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/app-store.svg" alt="App Store" class="store-badge-lg" onerror="this.src='../assets/images/app-store.svg';" />
+        </a>
+        <a href="./contact.html" class="btn-download-contact">
+          <span class="store-icon">💌</span>
+          <span>Feedback &amp; Suggest Channels</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ── UNIFIED FOOTER ── -->
+    <footer class="mykiddy-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand-col">
+            <div class="footer-logo-row">
+              <img src="../icon.png" alt="My Kiddy Logo" class="footer-logo" onerror="this.style.display='none'" />
+              <div>
+                <h3 class="footer-brand-name">My Kiddy</h3>
+                <span class="footer-brand-slogan">Play Zone &amp; Safe Learning</span>
+              </div>
+            </div>
+            <p class="footer-desc">
+              The leading safe, educational, and wholesome digital ecosystem for kids. Partnering with parents to cultivate moderate screen habits and ignite boundless creativity in children.
+            </p>
+            <div class="footer-badges">
+              <span class="safe-badge">🛡️ COPPA &amp; GDPR-K Compliant</span>
+              <span class="safe-badge">✨ 100% Ad-Free Safe Space</span>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Discover My Kiddy</h4>
+            <ul class="footer-list">
+              <li><a href="./index.html">🏠 Features Overview</a></li>
+              <li><a href="./games.html">🎮 Online Games &amp; Flashcards</a></li>
+              <li><a href="./share.html">📺 Educational YouTube Channels</a></li>
+              <li><a href="./contact.html">💌 Support &amp; Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Policies &amp; Legal</h4>
+            <ul class="footer-list">
+              <li><a href="../pages/privacy-policy.html?lang=en">🔒 Privacy Policy</a></li>
+              <li><a href="../pages/terms-and-conditions-of-use.html?lang=en">📜 Terms of Use</a></li>
+              <li><a href="../pages/licensed-application-end-user-license-agreement.html?lang=en">📱 License Agreement (EULA)</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Download Free App</h4>
+            <p class="footer-app-intro">Full experience on smartphones and tablets:</p>
+            <div class="footer-app-buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="footer-badge-link" title="Get it on Google Play">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/google-play.svg" alt="Google Play" class="footer-badge-img" onerror="this.src='../assets/images/google-play.svg';" />
+              </a>
+              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="footer-badge-link" title="Download on the App Store">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/app-store.svg" alt="App Store" class="footer-badge-img" onerror="this.src='../assets/images/app-store.svg';" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved. Dedicated to the safe and holistic development of children.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    function toggleNavMenu() {
+      const menu = document.getElementById('navMenu');
+      const toggle = document.getElementById('navToggle');
+      if (menu && toggle) {
+        menu.classList.toggle('open');
+        toggle.classList.toggle('active');
+      }
+    }
+
+    function switchLang(lang) {
+      try {
+        localStorage.setItem('mykiddy_lang', lang);
+      } catch (e) {}
+    }
+  </script>
+</body>
+</html>

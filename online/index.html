@@ -23,12 +23,48 @@
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: var(--font); }
     body {
-      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 35%, #EDE9FE 100%);
+      background: linear-gradient(135deg, #FAF5FF 0%, #F5F3FF 30%, #EFF6FF 65%, #FFFDF5 100%);
+      background-attachment: fixed;
       color: var(--text);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       padding: 16px 16px 32px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before, body::after {
+      content: "";
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+
+    body::before {
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(168, 85, 247, 0.28) 0%, rgba(236, 72, 153, 0.15) 100%);
+      top: -100px;
+      left: -100px;
+      animation: floatOrb 20s ease-in-out infinite alternate;
+    }
+
+    body::after {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.28) 0%, rgba(99, 102, 241, 0.15) 100%);
+      top: 320px;
+      right: -100px;
+      animation: floatOrb 24s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes floatOrb {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(30px, 40px) scale(1.08); }
     }
     .container {
       max-width: 1140px;
@@ -147,6 +183,53 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4);
     }
+    .lang-switch-wrap {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(241, 245, 249, 0.95);
+      border: 1.5px solid #E2E8F0;
+      border-radius: 20px;
+      padding: 3px;
+      gap: 3px;
+      margin-left: 4px;
+      flex-shrink: 0;
+    }
+    .lang-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 5px 12px;
+      border-radius: 16px;
+      font-size: 12.5px;
+      font-weight: 800;
+      color: #64748B;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+    .lang-pill:hover {
+      color: #6D28D9;
+      background: rgba(109, 40, 217, 0.08);
+    }
+    .lang-pill.active {
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+      color: #FFFFFF;
+      box-shadow: 0 3px 10px rgba(109, 40, 217, 0.3);
+    }
+    .footer-badge-link {
+      display: inline-block;
+      transition: transform 0.2s ease;
+      line-height: 0;
+    }
+    .footer-badge-link:hover {
+      transform: translateY(-2px) scale(1.02);
+    }
+    .footer-badge-img {
+      height: 40px;
+      width: auto;
+      border-radius: 7px;
+      display: block;
+    }
     .nav-toggle {
       display: none;
       background: none;
@@ -167,82 +250,98 @@
     /* ── HEADER ── */
     header {
       text-align: center;
-      margin-bottom: 32px;
+      margin-bottom: 36px;
     }
-    .brand-logo {
-      font-size: 52px;
-      display: inline-block;
-      margin-bottom: 8px;
-      animation: bounce 2.5s infinite ease-in-out;
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 18px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid #EDE9FE;
+      color: #6D28D9;
+      font-size: 13px;
+      font-weight: 800;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.08);
+      margin-bottom: 14px;
     }
     h1 {
       font-family: var(--font-heading);
-      font-size: 32px;
+      font-size: 36px;
       font-weight: 900;
-      color: #78350F;
+      background: linear-gradient(135deg, #4C1D95 0%, #7C3AED 50%, #D946EF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       letter-spacing: -0.02em;
+      line-height: 1.25;
+      margin-bottom: 8px;
     }
     p.subtitle {
-      font-size: 15px;
-      font-weight: 700;
-      color: #92400E;
+      font-size: 16px;
+      font-weight: 600;
+      color: #64748B;
       margin-top: 8px;
-      max-width: 680px;
+      max-width: 720px;
       margin-left: auto;
       margin-right: auto;
-      line-height: 1.5;
+      line-height: 1.6;
     }
     .filters {
       display: flex;
       justify-content: center;
-      gap: 10px;
-      margin: 24px 0 32px;
+      gap: 12px;
+      margin: 26px 0 36px;
       flex-wrap: wrap;
     }
     .filter-btn {
-      padding: 10px 22px;
+      padding: 11px 24px;
       border-radius: 9999px;
-      border: 2px solid #FFFFFF;
+      border: 2px solid rgba(255, 255, 255, 0.9);
       background: rgba(255, 255, 255, 0.9);
-      font-size: 14px;
+      font-size: 14.5px;
       font-weight: 800;
       color: #64748B;
       cursor: pointer;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-      transition: all 0.15s ease;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
     .filter-btn:hover {
       background: #FFFFFF;
+      color: #6D28D9;
       transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      box-shadow: 0 8px 20px rgba(109, 40, 217, 0.12);
     }
     .filter-btn.active {
-      background: #6D28D9;
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
       border-color: #7C3AED;
       color: #FFFFFF;
-      box-shadow: 0 8px 20px rgba(109, 40, 217, 0.3);
+      box-shadow: 0 8px 24px rgba(109, 40, 217, 0.35);
+      transform: translateY(-1px);
     }
 
     /* ── GAME GRID ── */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 24px;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 26px;
     }
     .card {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(16px);
-      border: 3px solid #FFFFFF;
-      border-radius: 28px;
-      box-shadow: 0 14px 36px rgba(0, 0, 0, 0.08);
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 2.5px solid #FFFFFF;
+      border-radius: 30px;
+      box-shadow: 0 12px 32px rgba(109, 40, 217, 0.07);
       display: flex;
       flex-direction: column;
       overflow: hidden;
-      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+      transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
     .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.12);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 48px rgba(109, 40, 217, 0.14);
+      border-color: #EDE9FE;
     }
     .card-header {
       position: relative;
@@ -262,6 +361,10 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .card:hover .thumbnail-box img {
+      transform: scale(1.06);
     }
     .emoji-fallback {
       font-size: 58px;
@@ -338,50 +441,48 @@
       align-items: center;
       justify-content: center;
       gap: 8px;
-      padding: 12px;
-      border-radius: 18px;
-      background: linear-gradient(180deg, #FBBF24 0%, #F59E0B 100%);
-      border: 2px solid #FDE68A;
-      border-bottom: 4px solid #B45309;
+      padding: 13px 18px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
       color: #FFFFFF;
-      font-size: 14px;
+      font-size: 14.5px;
       font-weight: 900;
       text-decoration: none;
-      box-shadow: 0 6px 16px rgba(245, 158, 11, 0.25);
-      transition: all 0.1s ease;
+      box-shadow: 0 6px 18px rgba(245, 158, 11, 0.35);
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
       cursor: pointer;
+      border: none;
     }
     .play-btn:hover {
-      transform: translateY(-2px);
-      border-bottom-width: 5px;
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 10px 24px rgba(245, 158, 11, 0.45);
     }
     .play-btn:active {
-      transform: translateY(3px);
-      border-bottom-width: 2px;
-      box-shadow: 0 2px 6px rgba(245, 158, 11, 0.2);
+      transform: translateY(1px);
     }
     .zip-btn {
-      padding: 12px 14px;
-      border-radius: 18px;
-      background: #F1F5F9;
-      border: 2px solid #CBD5E1;
-      border-bottom: 4px solid #94A3B8;
-      color: #334155;
-      font-size: 13px;
+      padding: 13px 16px;
+      border-radius: 9999px;
+      background: rgba(241, 245, 249, 0.95);
+      border: 1.5px solid #CBD5E1;
+      color: #475569;
+      font-size: 13.5px;
       font-weight: 800;
       text-decoration: none;
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: all 0.1s ease;
+      transition: all 0.2s ease;
     }
     .zip-btn:hover {
-      background: #E2E8F0;
+      background: #FFFFFF;
+      border-color: #6D28D9;
+      color: #6D28D9;
       transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(109, 40, 217, 0.12);
     }
     .zip-btn:active {
-      transform: translateY(3px);
-      border-bottom-width: 2px;
+      transform: translateY(1px);
     }
 
     /* ── FOOTER CHUẨN ── */
@@ -595,6 +696,10 @@
             <li><a href="../share.html" class="nav-item">📺 Kênh Youtube Bổ Ích</a></li>
             <li><a href="../contact.html" class="nav-item">💌 Liên Hệ &amp; Góp Ý</a></li>
           </ul>
+          <div class="lang-switch-wrap">
+            <a href="../games.html" class="lang-pill active" onclick="switchLang('vi')">🇻🇳 VI</a>
+            <a href="../en/games.html" class="lang-pill" onclick="switchLang('en')">🇬🇧 EN</a>
+          </div>
           <div class="nav-cta">
             <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="btn-nav-app">
               <span>📲 Tải App</span>
@@ -606,14 +711,14 @@
 
     <!-- Header -->
     <header>
-      <div class="brand-logo">🎮</div>
-      <h1>My Kiddy Game Store &amp; Play Zone</h1>
-      <p class="subtitle">Kho trò chơi &amp; bộ thẻ học tương tác ReactJS chất lượng cao cho bé và gia đình. Bấm vào trò chơi để chơi thử trực tiếp trên trình duyệt!</p>
+      <div class="header-badge">✨ KHÁM PHÁ &amp; CHƠI TƯƠNG TÁC MIỄN PHÍ</div>
+      <h1>Kho Trò Chơi &amp; Bộ Thẻ Học Trực Tuyến</h1>
+      <p class="subtitle">Thế giới trò chơi trí tuệ, phản xạ và bộ flashcard sinh động giúp bé vừa chơi vừa học hào hứng mỗi ngày.</p>
 
       <div class="filters">
-        <button class="filter-btn active" onclick="filterType('all', this)">Tất Cả (3)</button>
-        <button class="filter-btn" onclick="filterType('game', this)">Trò Chơi (3)</button>
-        <button class="filter-btn" onclick="filterType('flashcard', this)">Thẻ Học (0)</button>
+        <button class="filter-btn active" onclick="filterType('all', this)">🌈 Tất Cả (3)</button>
+        <button class="filter-btn" onclick="filterType('game', this)">🎮 Trò Chơi (3)</button>
+        <button class="filter-btn" onclick="filterType('flashcard', this)">🃏 Thẻ Học (0)</button>
       </div>
     </header>
 
@@ -622,7 +727,7 @@
       <div class="card" data-type="game" data-name="bắt gà tinh nghịch">
         <div class="card-header">
           <div class="thumbnail-box" style="background-color: #FEF3C7;">
-            <img src="../thumbnails/catch_chicken.jpg" alt="Bắt Gà Tinh Nghịch" onerror="this.src='https://mykiddy.net/thumbnails/catch_chicken.jpg'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='block';};" /><span class="emoji-fallback" style="display:none;">🎮</span>
+            <img src="https://mykiddy.net/thumbnails/catch_chicken.jpg" alt="Bắt Gà Tinh Nghịch" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span class="emoji-fallback" style="display:none;">🎮</span>
           </div>
           <div class="badge-group">
             <span class="type-badge" style="background: #FEF3C7; color: #92400E;">🎮 Web Game</span>
@@ -635,8 +740,8 @@
           <p class="card-desc">Điều khiển nhân vật trong nông trại bắt gà cùng gia đình từ 1 đến 4 người chơi!</p>
           
           <div class="card-meta">
-            <span class="meta-tag">🏷️ Action &amp; Strategy</span>
-            <span class="meta-tag">👶 3 - 8 tuổi</span>
+            <span class="meta-tag">🏷️ Action & Strategy</span>
+            <span class="meta-tag">👶 3 - 12 tuổi</span>
             <span class="meta-tag">⚡ 1 - 4 Người chơi</span>
           </div>
         </div>
@@ -656,7 +761,7 @@
       <div class="card" data-type="game" data-name="cắm hoa – xếp hoa thư giãn">
         <div class="card-header">
           <div class="thumbnail-box" style="background-color: #E0F2FE;">
-            <img src="../thumbnails/flower_sort.jpg" alt="Cắm Hoa – Xếp Hoa Thư Giãn" onerror="this.src='https://mykiddy.net/thumbnails/flower_sort.jpg'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='block';};" /><span class="emoji-fallback" style="display:none;">🎮</span>
+            <img src="https://mykiddy.net/thumbnails/flower_sort.jpg" alt="Cắm Hoa – Xếp Hoa Thư Giãn" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span class="emoji-fallback" style="display:none;">🎮</span>
           </div>
           <div class="badge-group">
             <span class="type-badge" style="background: #FEF3C7; color: #92400E;">🎮 Web Game</span>
@@ -669,7 +774,7 @@
           <p class="card-desc">Trò chơi ghép 3 cành hoa vào chậu rèn luyện trí nhớ, tư duy logic và xả stress cực vui!</p>
           
           <div class="card-meta">
-            <span class="meta-tag">🏷️ Puzzle &amp; Logic</span>
+            <span class="meta-tag">🏷️ Puzzle & Logic</span>
             <span class="meta-tag">👶 3 - 10 tuổi</span>
             <span class="meta-tag">⚡ 1 - 4 Người chơi</span>
           </div>
@@ -690,7 +795,7 @@
       <div class="card" data-type="game" data-name="bé tập vẽ – sáng tạo cùng my kiddy">
         <div class="card-header">
           <div class="thumbnail-box" style="background-color: #FFF7ED;">
-            <img src="../thumbnails/kids_drawing.jpg" alt="Bé Tập Vẽ – Sáng Tạo Cùng My Kiddy" onerror="this.src='https://mykiddy.net/thumbnails/kids_drawing.jpg'; this.onerror=function(){this.style.display='none'; this.nextElementSibling.style.display='block';};" /><span class="emoji-fallback" style="display:none;">🎮</span>
+            <img src="https://mykiddy.net/thumbnails/kids_drawing.jpg" alt="Bé Tập Vẽ – Sáng Tạo Cùng My Kiddy" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" /><span class="emoji-fallback" style="display:none;">🎮</span>
           </div>
           <div class="badge-group">
             <span class="type-badge" style="background: #FEF3C7; color: #92400E;">🎮 Web Game</span>
@@ -703,7 +808,7 @@
           <p class="card-desc">Thế giới sắc màu cho bé: Hơn 170+ tranh tô màu đa dạng chủ đề động vật, công chúa, xe cộ, thiên nhiên và hoạt hình!</p>
           
           <div class="card-meta">
-            <span class="meta-tag">🏷️ Creativity &amp; Art</span>
+            <span class="meta-tag">🏷️ Creativity & Art</span>
             <span class="meta-tag">👶 2 - 12 tuổi</span>
             <span class="meta-tag">⚡ 1 - 4 Người chơi</span>
           </div>
@@ -767,11 +872,11 @@
             <h4 class="footer-col-title">Tải Ứng Dụng Miễn Phí</h4>
             <p class="footer-app-intro">Trải nghiệm ứng dụng đầy đủ trên điện thoại và máy tính bảng:</p>
             <div class="footer-app-buttons">
-              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="app-btn">
-                <span>🤖 Google Play</span>
+              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="footer-badge-link" title="Tải trên Google Play">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/google-play.svg" alt="Google Play" class="footer-badge-img" onerror="this.src='../assets/images/google-play.svg';" />
               </a>
-              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="app-btn">
-                <span>🍏 App Store</span>
+              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="footer-badge-link" title="Tải trên App Store">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/app-store.svg" alt="App Store" class="footer-badge-img" onerror="this.src='../assets/images/app-store.svg';" />
               </a>
             </div>
           </div>
@@ -792,6 +897,12 @@
         menu.classList.toggle('open');
         toggle.classList.toggle('active');
       }
+    }
+
+    function switchLang(lang) {
+      try {
+        localStorage.setItem('mykiddy_lang', lang);
+      } catch (e) {}
     }
 
     function filterType(type, btn) {

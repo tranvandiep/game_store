@@ -1,0 +1,1904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>My Kiddy – Educational YouTube Channels for Kids</title>
+  <meta name="description"
+    content="Discover and share safe, educational YouTube channels categorized by age groups and subjects on My Kiddy." />
+  <meta name="keywords"
+    content="My Kiddy, YouTube for kids, safe kids videos, early childhood education, kids songs, educational cartoons" />
+
+  <!-- Icons & Favicon -->
+  <link rel="icon" type="image/png" href="../icon.png" />
+  <link rel="icon" type="image/x-icon" href="../favicon.ico" />
+  <link rel="apple-touch-icon" href="../icon.png" />
+
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="My Kiddy – Educational YouTube Channels for Kids" />
+  <meta property="og:description"
+    content="Discover and share safe, educational YouTube channels for kids on My Kiddy." />
+  <meta property="og:url" content="https://mykiddy.net/en/share.html" />
+  <meta property="og:image" content="https://mykiddy.net/pages/thumbnail.png" />
+  <meta property="og:site_name" content="My Kiddy" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #7C3AED;
+      --primary-hover: #6D28D9;
+      --primary-light: #EDE9FE;
+      --accent: #F59E0B;
+      --emerald: #059669;
+      --emerald-light: #D1FAE5;
+      --sky: #0284C7;
+      --sky-light: #E0F2FE;
+      --bg: #FFFBEB;
+      --card-bg: rgba(255, 255, 255, 0.95);
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --font-body: 'Nunito', sans-serif;
+      --font-heading: 'Outfit', sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-body);
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #FAF5FF 0%, #F5F3FF 30%, #EFF6FF 65%, #FFFDF5 100%);
+      background-attachment: fixed;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      padding: 16px 16px 48px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before, body::after {
+      content: "";
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+
+    body::before {
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(168, 85, 247, 0.28) 0%, rgba(236, 72, 153, 0.15) 100%);
+      top: -100px;
+      left: -100px;
+      animation: floatOrb 20s ease-in-out infinite alternate;
+    }
+
+    body::after {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.28) 0%, rgba(99, 102, 241, 0.15) 100%);
+      top: 320px;
+      right: -100px;
+      animation: floatOrb 24s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes floatOrb {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(30px, 40px) scale(1.08); }
+    }
+
+    .container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      flex: 1;
+    }
+
+    /* ── Header ── */
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 18px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px solid #EDE9FE;
+      color: #6D28D9;
+      font-size: 13px;
+      font-weight: 800;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.08);
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-family: var(--font-heading);
+      font-size: 34px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #4C1D95 0%, #7C3AED 50%, #D946EF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      margin-bottom: 8px;
+    }
+
+    p.subtitle {
+      font-size: 15.5px;
+      font-weight: 600;
+      color: #64748B;
+      max-width: 720px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* Banner đóng góp kênh */
+    .contribute-banner {
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 50%, #4F46E5 100%);
+      color: #FFFFFF;
+      border-radius: 20px;
+      padding: 14px 22px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 8px 24px rgba(124, 58, 237, 0.25);
+      border: 2px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .contribute-content {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-align: left;
+    }
+
+    .contribute-icon {
+      font-size: 32px;
+      flex-shrink: 0;
+    }
+
+    .contribute-text-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .contribute-title {
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+
+    .contribute-subtext {
+      font-size: 13.5px;
+      opacity: 0.95;
+      line-height: 1.4;
+      font-weight: 600;
+    }
+
+    .btn-contribute {
+      background: #FFFFFF;
+      color: #6D28D9;
+      text-decoration: none;
+      font-family: var(--font-heading);
+      font-size: 13.5px;
+      font-weight: 800;
+      padding: 10px 18px;
+      border-radius: 9999px;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+      flex-shrink: 0;
+    }
+
+    .btn-contribute:hover {
+      background: #F5F3FF;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    /* ── Filter Panel ── */
+    .filter-panel {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      border: 3px solid #FFFFFF;
+      border-radius: 24px;
+      box-shadow: 0 10px 32px rgba(109, 40, 217, 0.08);
+      padding: 22px 20px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .search-box {
+      flex: 1;
+      min-width: 260px;
+      position: relative;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 12px 16px 12px 42px;
+      border-radius: 9999px;
+      border: 2px solid #E2E8F0;
+      background: #FFFFFF;
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--text);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .search-box input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.15);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 16px;
+      color: #94A3B8;
+      pointer-events: none;
+    }
+
+    .btn-reset-filters {
+      padding: 10px 20px;
+      border-radius: 9999px;
+      border: 2px solid #E2E8F0;
+      background: #F8FAFC;
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #64748B;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .btn-reset-filters:hover {
+      background: #FFFFFF;
+      border-color: #CBD5E1;
+      color: var(--text);
+      transform: translateY(-1px);
+    }
+
+    /* Filter Sections */
+    .filter-section {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 14px;
+      border-top: 1px dashed rgba(109, 40, 217, 0.15);
+    }
+
+    .filter-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .filter-title {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #475569;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .filter-badge {
+      font-size: 12px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      background: var(--primary-light);
+      color: var(--primary-hover);
+    }
+
+    /* Checkbox Group */
+    .checkbox-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .custom-checkbox {
+      cursor: pointer;
+      position: relative;
+      user-select: none;
+    }
+
+    .custom-checkbox input[type="checkbox"] {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    .checkbox-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 9999px;
+      border: 2px solid #E2E8F0;
+      background: #FFFFFF;
+      font-size: 13px;
+      font-weight: 800;
+      color: #64748B;
+      transition: all 0.15s ease;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+    }
+
+    .custom-checkbox:hover .checkbox-chip {
+      border-color: #CBD5E1;
+      transform: translateY(-1px);
+    }
+
+    .custom-checkbox input[type="checkbox"]:checked+.checkbox-chip {
+      background: var(--primary);
+      border-color: var(--primary-hover);
+      color: #FFFFFF;
+      box-shadow: 0 4px 12px rgba(124, 58, 237, 0.25);
+    }
+
+    .custom-checkbox.cat-checkbox input[type="checkbox"]:checked+.checkbox-chip {
+      background: #059669;
+      border-color: #047857;
+      color: #FFFFFF;
+      box-shadow: 0 4px 12px rgba(5, 150, 105, 0.25);
+    }
+
+    .checkbox-icon {
+      font-size: 11px;
+      display: none;
+    }
+
+    .custom-checkbox input[type="checkbox"]:checked+.checkbox-chip .checkbox-icon {
+      display: inline-block;
+    }
+
+    /* Results Bar */
+    .results-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      padding: 0 4px;
+      font-size: 14.5px;
+      font-weight: 700;
+      color: #64748B;
+    }
+
+    .result-count {
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      color: #581C87;
+      font-weight: 800;
+      font-size: 13px;
+    }
+
+    /* ── Channel Grid ── */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 22px;
+    }
+
+    .channel-card {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      border: 3px solid #FFFFFF;
+      border-radius: 24px;
+      box-shadow: 0 10px 28px rgba(109, 40, 217, 0.08);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
+      position: relative;
+    }
+
+    .channel-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 16px 36px rgba(109, 40, 217, 0.15);
+    }
+
+    /* Thumbnail wrap */
+    .card-thumb-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 52%;
+      background: #0F172A;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .card-thumb-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .channel-card:hover .card-thumb-img {
+      transform: scale(1.05);
+    }
+
+    .play-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(15, 23, 42, 0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.9;
+      transition: all 0.2s ease;
+    }
+
+    .channel-card:hover .play-overlay {
+      background: rgba(15, 23, 42, 0.12);
+    }
+
+    .play-btn-circle {
+      width: 48px;
+      height: 48px;
+      background: #FF0000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(255, 0, 0, 0.45);
+      transition: transform 0.2s ease;
+    }
+
+    .play-btn-circle svg {
+      fill: #FFFFFF;
+      width: 20px;
+      height: 20px;
+      margin-left: 2px;
+    }
+
+    .channel-card:hover .play-btn-circle {
+      transform: scale(1.15);
+    }
+
+    /* Card Content */
+    .card-body {
+      padding: 16px 18px 18px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 10px;
+    }
+
+    /* Badges Row */
+    .card-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .badge-age-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #FEF3C7;
+      border: 1px solid #FDE68A;
+      color: #92400E;
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 999px;
+    }
+
+    .badge-total-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #E0E7FF;
+      border: 1px solid #C7D2FE;
+      color: #3730A3;
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 999px;
+    }
+
+    .badge-cat-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #D1FAE5;
+      border: 1px solid #A7F3D0;
+      color: #065F46;
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 999px;
+    }
+
+    .card-title {
+      font-family: var(--font-heading);
+      font-size: 17px;
+      font-weight: 800;
+      color: #1E293B;
+      line-height: 1.35;
+      cursor: pointer;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      transition: color 0.15s ease;
+    }
+
+    .card-title:hover {
+      color: var(--primary);
+    }
+
+    .channel-handle {
+      font-size: 12.5px;
+      color: #64748B;
+      font-weight: 700;
+      margin-top: -4px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Buttons */
+    .card-action {
+      margin-top: auto;
+      padding-top: 10px;
+      display: flex;
+      gap: 8px;
+    }
+
+    .btn-add-mykiddy {
+      flex: 1;
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: var(--primary);
+      color: #FFFFFF;
+      border: none;
+      font-family: var(--font-heading);
+      font-size: 13.5px;
+      font-weight: 800;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      box-shadow: 0 4px 14px rgba(124, 58, 237, 0.28);
+      transition: all 0.15s ease;
+    }
+
+    .btn-add-mykiddy:hover {
+      background: var(--primary-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(124, 58, 237, 0.38);
+    }
+
+    .btn-youtube-link {
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: #FFF1F2;
+      border: 1px solid #FECDD3;
+      color: #E11D48;
+      text-decoration: none;
+      font-family: var(--font-heading);
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .btn-youtube-link:hover {
+      background: #FFE4E6;
+      transform: translateY(-2px);
+      color: #BE123C;
+    }
+
+    /* Empty State */
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 60px 20px;
+      background: #FFFFFF;
+      border-radius: 24px;
+      border: 2px dashed #CBD5E1;
+    }
+
+    .empty-icon {
+      font-size: 48px;
+      margin-bottom: 12px;
+    }
+
+    .empty-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: #334155;
+      margin-bottom: 6px;
+    }
+
+    .empty-desc {
+      font-size: 14px;
+      color: #64748B;
+      max-width: 420px;
+      margin: 0 auto 16px;
+      line-height: 1.5;
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #1E293B;
+      color: #FFFFFF;
+      padding: 12px 24px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      z-index: 9999;
+      opacity: 0;
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* ── MENU BAR ── */
+    .mykiddy-navbar {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 10px 30px rgba(109, 40, 217, 0.08);
+      margin-bottom: 28px;
+      position: sticky;
+      top: 12px;
+      z-index: 100;
+    }
+    .nav-container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+    .nav-logo {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
+      object-fit: cover;
+    }
+    .nav-brand-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-title {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #6D28D9 0%, #D946EF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1.15;
+    }
+    .nav-tagline {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9333EA;
+      letter-spacing: 0.02em;
+    }
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 16px;
+      border-radius: 9999px;
+      font-size: 14px;
+      font-weight: 800;
+      color: #475569;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .nav-item:hover {
+      color: #6D28D9;
+      background: rgba(109, 40, 217, 0.08);
+      transform: translateY(-1px);
+    }
+    .nav-item.active {
+      background: linear-gradient(135deg, #7C3AED 0%, #6D28D9 100%);
+      color: #FFFFFF;
+      box-shadow: 0 4px 14px rgba(109, 40, 217, 0.35);
+    }
+    .btn-nav-app {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 18px;
+      border-radius: 9999px;
+      background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+      color: #FFFFFF;
+      font-size: 13.5px;
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .btn-nav-app:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(245, 158, 11, 0.4);
+    }
+    .nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .hamburger-bar {
+      width: 24px;
+      height: 3px;
+      background: #6D28D9;
+      border-radius: 3px;
+      transition: all 0.3s ease;
+    }
+
+    /* ── FOOTER CHUẨN ── */
+    .mykiddy-footer {
+      margin-top: 56px;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 2px solid rgba(255, 255, 255, 0.8);
+      border-radius: 28px;
+      padding: 36px 28px 24px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    }
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1.2fr 1.2fr 1.4fr;
+      gap: 32px;
+      padding-bottom: 28px;
+      border-bottom: 1.5px solid rgba(148, 163, 184, 0.2);
+    }
+    .footer-logo-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .footer-logo {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(109, 40, 217, 0.2);
+    }
+    .footer-brand-name {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 900;
+      color: #581C87;
+    }
+    .footer-brand-slogan {
+      font-size: 11px;
+      font-weight: 700;
+      color: #9333EA;
+    }
+    .footer-desc {
+      font-size: 13.5px;
+      color: #475569;
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+    .footer-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .safe-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 800;
+      background: #EDE9FE;
+      color: #6D28D9;
+      padding: 4px 10px;
+      border-radius: 8px;
+    }
+    .footer-col-title {
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 900;
+      color: #1E293B;
+      margin-bottom: 14px;
+      letter-spacing: -0.01em;
+    }
+    .footer-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-list a {
+      color: #475569;
+      text-decoration: none;
+      font-size: 13.5px;
+      font-weight: 700;
+      transition: all 0.15s ease;
+    }
+    .footer-list a:hover {
+      color: #7C3AED;
+      padding-left: 4px;
+    }
+    .footer-app-intro {
+      font-size: 13px;
+      color: #64748B;
+      font-weight: 600;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+    .footer-app-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .footer-badge-link {
+      display: inline-block;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .footer-badge-link:hover {
+      transform: translateY(-2px);
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25));
+    }
+    .footer-badge-img {
+      height: 40px;
+      width: auto;
+      border-radius: 7px;
+      display: block;
+    }
+    .lang-switch-wrap {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(241, 245, 249, 0.95);
+      border: 1.5px solid #E2E8F0;
+      border-radius: 20px;
+      padding: 3px;
+      gap: 2px;
+    }
+    .lang-pill {
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 800;
+      border-radius: 16px;
+      text-decoration: none;
+      color: #64748B;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      line-height: 1;
+    }
+    .lang-pill:hover {
+      color: #1E293B;
+    }
+    .lang-pill.active {
+      background: var(--primary, #6D28D9);
+      color: #FFFFFF;
+      box-shadow: 0 2px 8px rgba(109, 40, 217, 0.35);
+    }
+    .app-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 14px;
+      border-radius: 12px;
+      background: #1E293B;
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 800;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: all 0.15s ease;
+    }
+    .app-btn:hover {
+      background: #0F172A;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    .footer-bottom {
+      padding-top: 18px;
+      text-align: center;
+    }
+    .footer-copyright {
+      font-size: 12.5px;
+      color: #64748B;
+      font-weight: 700;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.98);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 2px solid rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        padding: 16px;
+        box-shadow: 0 16px 36px rgba(109, 40, 217, 0.15);
+        flex-direction: column;
+        gap: 12px;
+      }
+      .nav-menu.open {
+        display: flex;
+      }
+      .nav-links {
+        flex-direction: column;
+        width: 100%;
+        gap: 6px;
+      }
+      .lang-switch-wrap {
+        margin: 4px auto;
+      }
+      .nav-item {
+        width: 100%;
+        padding: 10px 16px;
+      }
+      .nav-toggle {
+        display: flex;
+      }
+      .btn-nav-app {
+        width: 100%;
+        justify-content: center;
+      }
+      .footer-top {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      .contribute-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+        gap: 12px;
+      }
+
+      .contribute-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 6px;
+      }
+
+      .btn-contribute {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .filter-panel {
+        padding: 16px 14px;
+        gap: 14px;
+      }
+
+      .search-row {
+        flex-direction: column;
+      }
+
+      .btn-reset-filters {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Unified Menu Bar -->
+    <nav class="mykiddy-navbar">
+      <div class="nav-container">
+        <a href="./index.html" class="nav-brand">
+          <img src="../icon.png" alt="My Kiddy Logo" class="nav-logo" onerror="this.style.display='none'" />
+          <div class="nav-brand-text">
+            <span class="nav-title">My Kiddy</span>
+            <span class="nav-tagline">Play Zone &amp; Safe Learning</span>
+          </div>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Mở menu điều hướng" onclick="toggleNavMenu()">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <ul class="nav-links">
+            <li><a href="./index.html" class="nav-item">🏠 Giới Thiệu</a></li>
+            <li><a href="./games.html" class="nav-item">🎮 Trò Chơi (Game)</a></li>
+            <li><a href="./share.html" class="nav-item active">📺 Kênh Youtube Bổ Ích</a></li>
+            <li><a href="./contact.html" class="nav-item">💌 Liên Hệ &amp; Góp Ý</a></li>
+          </ul>
+          <div class="lang-switch-wrap">
+            <a href="../share.html" class="lang-pill" onclick="switchLang('vi')">🇻🇳 VI</a>
+            <a href="./share.html" class="lang-pill active" onclick="switchLang('en')">🇬🇧 EN</a>
+          </div>
+          <div class="nav-cta">
+            <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="btn-nav-app">
+              <span>📲 Tải App</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+      <div class="header-badge">📺 CURATED SAFE CHANNELS FOR KIDS</div>
+      <h1>Wholesome Educational &amp; Fun YouTube</h1>
+      <p class="subtitle">
+        Discover and share wholesome, educational YouTube channels categorized by age groups and subjects
+      </p>
+
+      <!-- Banner đóng góp kênh -->
+      <div class="contribute-banner">
+        <div class="contribute-content">
+          <span class="contribute-icon">💌</span>
+          <div class="contribute-text-wrap">
+            <span class="contribute-title">Recommend great YouTube channels for kids</span>
+            <span class="contribute-subtext">Know of an inspiring, safe video channel for children? Share it with the My
+              Kiddy community!</span>
+          </div>
+        </div>
+        <a href="https://forms.gle/RNsqNbgQaahB5vcC6" target="_blank" rel="noopener noreferrer" class="btn-contribute">
+          <span>Submit Channel</span>
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+            <path fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <!-- Filter Panel -->
+    <div class="filter-panel">
+      <!-- Search & Reset -->
+      <div class="search-row">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" placeholder="Search channel name, subject, topic..."
+            oninput="handleSearch()" />
+        </div>
+        <button class="btn-reset-filters" onclick="resetAllFilters()">
+          <span>🔄</span> Reset Filters
+        </button>
+      </div>
+
+      <!-- 1. Bộ Lọc Độ Tuổi (Checkbox Đa Chọn: Tất cả, 1 tuổi -> 10 tuổi) -->
+      <div class="filter-section">
+        <div class="filter-header">
+          <span class="filter-title">
+            <span>🎯</span> Filter by Age (Multi-select allowed)
+          </span>
+          <span class="filter-badge" id="ageSelectedBadge">Viewing: All</span>
+        </div>
+        <div class="checkbox-group" id="ageCheckboxGroup">
+          <!-- Checkbox 'Tất cả' -->
+          <label class="custom-checkbox age-checkbox">
+            <input type="checkbox" id="ageCheckboxAll" value="all" checked onchange="toggleAgeAll(this.checked)" />
+            <span class="checkbox-chip">
+              <span class="checkbox-icon">✓</span>
+              <span>🌈 All Ages</span>
+            </span>
+          </label>
+        </div>
+      </div>
+
+      <!-- 2. Bộ Lọc Danh Mục Môn Học / Chủ Đề -->
+      <div class="filter-section" id="categoryFilterSection">
+        <div class="filter-header">
+          <span class="filter-title">
+            <span>📚</span> Filter by Topic &amp; Subject
+          </span>
+          <span class="filter-badge" id="catSelectedBadge"
+            style="background: var(--emerald-light); color: var(--emerald);">
+            Viewing: All
+          </span>
+        </div>
+        <div class="checkbox-group" id="categoryCheckboxGroup">
+          <!-- Tự động sinh động từ danh sách categories -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Results Info Bar -->
+    <div class="results-bar">
+      <span id="resultsSummary">Loading YouTube channels...</span>
+      <span class="result-count" id="resultCountBadge">0 Channels</span>
+    </div>
+
+    <!-- Channel Grid -->
+    <div class="video-grid" id="videoGrid"></div>
+
+    <!-- Unified Footer -->
+    <footer class="mykiddy-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand-col">
+            <div class="footer-logo-row">
+              <img src="../icon.png" alt="My Kiddy Logo" class="footer-logo" onerror="this.style.display='none'" />
+              <div>
+                <h3 class="footer-brand-name">My Kiddy</h3>
+                <span class="footer-brand-slogan">Play Zone &amp; Safe Learning</span>
+              </div>
+            </div>
+            <p class="footer-desc">
+              The leading safe, educational, and wholesome digital ecosystem for kids.
+              Partnering with parents to cultivate moderate screen habits and ignite boundless creativity in children.
+            </p>
+            <div class="footer-badges">
+              <span class="safe-badge">🛡️ COPPA &amp; GDPR-K Compliant</span>
+              <span class="safe-badge">✨ 100% Ad-Free Safe Space</span>
+            </div>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Discover My Kiddy</h4>
+            <ul class="footer-list">
+              <li><a href="./index.html">🏠 Features Overview</a></li>
+              <li><a href="./games.html">🎮 Online Games &amp; Flashcards</a></li>
+              <li><a href="./share.html">📺 Educational YouTube Channels</a></li>
+              <li><a href="./contact.html">💌 Support &amp; Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Policies &amp; Legal</h4>
+            <ul class="footer-list">
+              <li><a href="../pages/privacy-policy.html?lang=en">🔒 Privacy Policy</a></li>
+              <li><a href="../pages/terms-and-conditions-of-use.html?lang=en">📜 Terms of Use</a></li>
+              <li><a href="../pages/licensed-application-end-user-license-agreement.html?lang=en">📱 License Agreement (EULA)</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Download Free App</h4>
+            <p class="footer-app-intro">Full experience on smartphones and tablets:</p>
+            <div class="footer-app-buttons">
+              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="footer-badge-link" title="Get it on Google Play">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/google-play.svg" alt="Google Play" class="footer-badge-img" onerror="this.src='../assets/images/google-play.svg';" />
+              </a>
+              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="footer-badge-link" title="Download on the App Store">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/app-store.svg" alt="App Store" class="footer-badge-img" onerror="this.src='../assets/images/app-store.svg';" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copyright">© 2026 My Kiddy Team. All rights reserved. Dedicated to the safe and holistic development of children.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <span>✅</span> <span id="toastMsg">Channel link copied!</span>
+  </div>
+
+  <!-- Logic Script & Data -->
+  <script>
+    function switchLang(lang) {
+      try {
+        localStorage.setItem('mykiddy_lang', lang);
+      } catch (e) {}
+    }
+
+    /**
+     * DỮ LIỆU DANH SÁCH KÊNH YOUTUBE (embedded fallback)
+     */
+    let dataList = [
+      {
+        "thumbnail": "./assets/photos/image_1.jpg",
+        "title": "ChuChu TV",
+        "youtube_channel": "https://www.youtube.com/@ChuChuTV",
+        "total": 480,
+        "ages": [1, 2, 3, 4, 5, 6, 7],
+        "categories": ["Tiếng Anh", "Âm nhạc", "Mầm non"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_27.jpg",
+        "title": "Super Simple Songs",
+        "youtube_channel": "https://www.youtube.com/@SuperSimpleSongs",
+        "total": 386,
+        "ages": [1, 2, 3, 4, 5, 6, 7],
+        "categories": ["Tiếng Anh", "Âm nhạc", "Mầm non"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_57.jpg",
+        "title": "English Singsing",
+        "youtube_channel": "https://www.youtube.com/@EnglishSingsing",
+        "total": 1425,
+        "ages": [1, 2, 3, 4, 5, 6, 7, 8],
+        "categories": ["Tiếng Anh", "Học tập"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_81.jpg",
+        "title": "Fun Kids English",
+        "youtube_channel": "https://www.youtube.com/@FunKidsEnglish",
+        "total": 195,
+        "ages": [2, 3, 4, 5, 6, 7, 8],
+        "categories": ["Tiếng Anh", "Giao tiếp"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_111.jpg",
+        "title": "British Council LearnEnglish Kids",
+        "youtube_channel": "https://www.youtube.com/@BritishCouncilLEKids",
+        "total": 55,
+        "ages": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "categories": ["Tiếng Anh", "Giáo dục"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_115.jpg",
+        "title": "National Geographic Kids",
+        "youtube_channel": "https://www.youtube.com/@natgeokids",
+        "total": 176,
+        "ages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "categories": ["Khoa học", "Khám phá", "Động vật"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_145.jpg",
+        "title": "Soi Sáng",
+        "youtube_channel": "https://www.youtube.com/@SoiSang",
+        "total": 1532,
+        "ages": [4, 5, 6, 7, 8, 9, 10],
+        "categories": ["Khoa học", "Kiến thức", "Khám phá"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_169.jpg",
+        "title": "Ez Sử",
+        "youtube_channel": "https://www.youtube.com/@EzSu",
+        "total": 134,
+        "ages": [6, 7, 8, 9, 10],
+        "categories": ["Lịch sử", "Kiến thức"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_176.jpg",
+        "title": "VTV7 Kids",
+        "youtube_channel": "https://www.youtube.com/@vtv7kids",
+        "total": 435,
+        "ages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "categories": ["Giáo dục", "Kỹ năng sống", "Tiếng Việt"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_205.jpg",
+        "title": "Vina Cartoon",
+        "youtube_channel": "https://www.youtube.com/@VinaCartoon",
+        "total": 315,
+        "ages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "categories": ["Hoạt hình", "Cổ tích"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_230.jpg",
+        "title": "Vẽ Tranh Thiếu Nhi",
+        "youtube_channel": "https://www.youtube.com/@V%E1%BA%BDTranh-g8d",
+        "total": 345,
+        "ages": [3, 4, 5, 6, 7, 8, 9, 10],
+        "categories": ["Mỹ thuật", "Vẽ tranh", "Sáng tạo"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_236.jpg",
+        "title": "Heo Đất TV",
+        "youtube_channel": "https://www.youtube.com/@heodattv",
+        "total": 51,
+        "ages": [1, 2, 3, 4, 5, 6, 7],
+        "categories": ["Kể chuyện", "Bài học đạo đức"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_272.jpg",
+        "title": "Kênh Thiếu Nhi - BHMEDIA",
+        "youtube_channel": "https://www.youtube.com/@KenhThieuNhiBHMedia",
+        "total": 1438,
+        "ages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "categories": ["Ca nhạc", "Cổ tích", "Hoạt hình"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_273.jpg",
+        "title": "Vịt Con Music",
+        "youtube_channel": "https://www.youtube.com/@baihatthieunhihay",
+        "total": 23,
+        "ages": [1, 2, 3, 4, 5, 6],
+        "categories": ["Âm nhạc", "Mầm non"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_274.jpg",
+        "title": "Chú Chim Non Tv",
+        "youtube_channel": "https://www.youtube.com/@ChuChimNonTv-oc3rc",
+        "total": 195,
+        "ages": [1, 2, 3, 4, 5, 6],
+        "categories": ["Bài hát", "Kể chuyện"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_275.jpg",
+        "title": "Bé Cá Đồ Chơi",
+        "youtube_channel": "https://www.youtube.com/@beca8888",
+        "total": 637,
+        "ages": [2, 3, 4, 5, 6, 7, 8],
+        "categories": ["Đồ chơi", "Màu sắc", "Giải trí"]
+      },
+      {
+        "thumbnail": "./assets/photos/image_276.jpg",
+        "title": "KN Channel",
+        "youtube_channel": "https://www.youtube.com/@KN-Channel",
+        "total": 757,
+        "ages": [3, 4, 5, 6, 7, 8, 9, 10],
+        "categories": ["Búp bê", "Trò chơi", "Kỹ năng"]
+      }
+    ];
+
+    // Trạng thái bộ lọc
+    let selectedAges = []; // Mảng chứa các độ tuổi được chọn: ví dụ [2, 3] hoặc [] là 'tất cả'
+    let selectedCategories = []; // Mảng chứa các danh mục được chọn
+    let searchQuery = "";
+
+    /**
+     * 1. KHỞI CHẠY ỨNG DỤNG
+     */
+    async function initApp() {
+      try {
+        const res = await fetch("../config/shared.json");
+        if (res.ok) {
+          const json = await res.json();
+          if (Array.isArray(json) && json.length > 0) {
+            dataList = json;
+          }
+        }
+      } catch (e) {
+        // Fallback
+      }
+
+      // Fix relative paths for thumbnails if needed from inside en/
+      dataList.forEach(item => {
+        if (item.thumbnail && item.thumbnail.startsWith('./')) {
+          item.thumbnail = '.' + item.thumbnail;
+        }
+      });
+
+      renderAgeCheckboxes();
+      renderCategoryCheckboxes();
+      applyFilters();
+    }
+
+    const catTranslations = {
+      "Tiếng Anh": "English",
+      "Âm nhạc": "Music",
+      "Mầm non": "Preschool",
+      "Học tập": "Learning",
+      "Giao tiếp": "Communication",
+      "Khoa học": "Science",
+      "Kỹ năng sống": "Life Skills",
+      "Hoạt hình": "Cartoons",
+      "Kể chuyện": "Storytelling",
+      "Toán học": "Math",
+      "Khám phá": "Discovery",
+      "Thủ công": "Crafts & DIY",
+      "Vận động": "Physical Fun",
+      "Vẽ tranh": "Drawing & Art",
+      "Tiếng Việt": "Vietnamese",
+      "Đố vui": "Riddles & Quizzes",
+      "Thế giới động vật": "Animal World"
+    };
+
+    function translateCat(cat) {
+      return catTranslations[cat] || cat;
+    }
+
+    /**
+     * 2. RENDER AGE CHECKBOXES (1 -> 10 YEARS)
+     */
+    function renderAgeCheckboxes() {
+      const group = document.getElementById("ageCheckboxGroup");
+      let html = `
+        <label class="custom-checkbox age-checkbox">
+          <input type="checkbox" id="ageCheckboxAll" value="all" checked onchange="toggleAgeAll(this.checked)" />
+          <span class="checkbox-chip">
+            <span class="checkbox-icon">✓</span>
+            <span>🌈 All Ages</span>
+          </span>
+        </label>
+      `;
+
+      for (let age = 1; age <= 10; age++) {
+        html += `
+          <label class="custom-checkbox age-checkbox">
+            <input type="checkbox" class="age-item-checkbox" value="${age}" onchange="handleAgeItemChange()" />
+            <span class="checkbox-chip">
+              <span class="checkbox-icon">✓</span>
+              <span>👶 ${age} yrs old</span>
+            </span>
+          </label>
+        `;
+      }
+      group.innerHTML = html;
+    }
+
+    /**
+     * 3. RENDER CATEGORY CHECKBOXES
+     */
+    function renderCategoryCheckboxes() {
+      const section = document.getElementById("categoryFilterSection");
+      const group = document.getElementById("categoryCheckboxGroup");
+
+      const allCategories = new Set();
+      dataList.forEach(item => {
+        if (Array.isArray(item.categories)) {
+          item.categories.forEach(cat => {
+            if (cat && cat.trim()) allCategories.add(cat.trim());
+          });
+        }
+      });
+
+      const catList = Array.from(allCategories).sort((a, b) => translateCat(a).localeCompare(translateCat(b)));
+
+      if (catList.length === 0) {
+        section.style.display = "none";
+        return;
+      }
+
+      section.style.display = "flex";
+
+      let html = `
+        <label class="custom-checkbox cat-checkbox">
+          <input type="checkbox" id="catCheckboxAll" value="all" checked onchange="toggleCatAll(this.checked)" />
+          <span class="checkbox-chip">
+            <span class="checkbox-icon">✓</span>
+            <span>🌟 All Topics</span>
+          </span>
+        </label>
+      `;
+
+      catList.forEach(cat => {
+        html += `
+          <label class="custom-checkbox cat-checkbox">
+            <input type="checkbox" class="cat-item-checkbox" value="${cat}" onchange="handleCatItemChange()" />
+            <span class="checkbox-chip">
+              <span class="checkbox-icon">✓</span>
+              <span>🏷️ ${translateCat(cat)}</span>
+            </span>
+          </label>
+        `;
+      });
+
+      group.innerHTML = html;
+    }
+
+    /**
+     * 4. HANDLE AGE FILTER SELECTION
+     */
+    function toggleAgeAll(checked) {
+      const itemCheckboxes = document.querySelectorAll(".age-item-checkbox");
+      if (checked) {
+        itemCheckboxes.forEach(cb => cb.checked = false);
+        selectedAges = [];
+      }
+      updateAgeBadge();
+      applyFilters();
+    }
+
+    function handleAgeItemChange() {
+      const allCb = document.getElementById("ageCheckboxAll");
+      const itemCheckboxes = document.querySelectorAll(".age-item-checkbox");
+
+      const checkedItems = Array.from(itemCheckboxes).filter(cb => cb.checked);
+
+      if (checkedItems.length === 0) {
+        allCb.checked = true;
+        selectedAges = [];
+      } else {
+        allCb.checked = false;
+        selectedAges = checkedItems.map(cb => parseInt(cb.value, 10));
+      }
+
+      updateAgeBadge();
+      applyFilters();
+    }
+
+    function updateAgeBadge() {
+      const badge = document.getElementById("ageSelectedBadge");
+      if (selectedAges.length === 0) {
+        badge.textContent = "Viewing: All";
+      } else {
+        const sorted = [...selectedAges].sort((a, b) => a - b);
+        badge.textContent = `Viewing: Ages ${sorted.join(", ")}`;
+      }
+    }
+
+    /**
+     * 5. HANDLE CATEGORY FILTER SELECTION
+     */
+    function toggleCatAll(checked) {
+      const itemCheckboxes = document.querySelectorAll(".cat-item-checkbox");
+      if (checked) {
+        itemCheckboxes.forEach(cb => cb.checked = false);
+        selectedCategories = [];
+      }
+      updateCatBadge();
+      applyFilters();
+    }
+
+    function handleCatItemChange() {
+      const allCb = document.getElementById("catCheckboxAll");
+      const itemCheckboxes = document.querySelectorAll(".cat-item-checkbox");
+
+      const checkedItems = Array.from(itemCheckboxes).filter(cb => cb.checked);
+
+      if (checkedItems.length === 0) {
+        allCb.checked = true;
+        selectedCategories = [];
+      } else {
+        allCb.checked = false;
+        selectedCategories = checkedItems.map(cb => cb.value);
+      }
+
+      updateCatBadge();
+      applyFilters();
+    }
+
+    function updateCatBadge() {
+      const badge = document.getElementById("catSelectedBadge");
+      if (selectedCategories.length === 0) {
+        badge.textContent = "Viewing: All";
+      } else {
+        badge.textContent = `Viewing: ${selectedCategories.length} topic${selectedCategories.length > 1 ? 's' : ''}`;
+      }
+    }
+
+    /**
+     * 6. SEARCH FILTER
+     */
+    function handleSearch() {
+      const input = document.getElementById("searchInput");
+      searchQuery = (input.value || "").trim().toLowerCase();
+      applyFilters();
+    }
+
+    /**
+     * 7. RESET ALL FILTERS
+     */
+    function resetAllFilters() {
+      document.getElementById("searchInput").value = "";
+      searchQuery = "";
+
+      const ageAllCb = document.getElementById("ageCheckboxAll");
+      if (ageAllCb) ageAllCb.checked = true;
+      document.querySelectorAll(".age-item-checkbox").forEach(cb => cb.checked = false);
+      selectedAges = [];
+      updateAgeBadge();
+
+      const catAllCb = document.getElementById("catCheckboxAll");
+      if (catAllCb) catAllCb.checked = true;
+      document.querySelectorAll(".cat-item-checkbox").forEach(cb => cb.checked = false);
+      selectedCategories = [];
+      updateCatBadge();
+
+      applyFilters();
+    }
+
+    /**
+     * 8. APPLY FILTERS & RENDER
+     */
+    function applyFilters() {
+      const filtered = dataList.filter(item => {
+        // 1. Age Filter
+        if (selectedAges.length > 0) {
+          const itemAges = Array.isArray(item.ages) ? item.ages : [];
+          const matchAge = selectedAges.some(age => itemAges.includes(age));
+          if (!matchAge) return false;
+        }
+
+        // 2. Category Filter
+        if (selectedCategories.length > 0) {
+          const itemCats = Array.isArray(item.categories) ? item.categories : [];
+          const matchCat = selectedCategories.some(cat => itemCats.includes(cat));
+          if (!matchCat) return false;
+        }
+
+        // 3. Keyword Search
+        if (searchQuery.length > 0) {
+          const matchTitle = (item.title || "").toLowerCase().includes(searchQuery);
+          const matchChannel = (item.youtube_channel || "").toLowerCase().includes(searchQuery);
+          const translatedCats = (Array.isArray(item.categories) ? item.categories.map(c => translateCat(c)).join(" ") : "").toLowerCase();
+          const origCats = (Array.isArray(item.categories) ? item.categories.join(" ") : "").toLowerCase();
+          if (!matchTitle && !matchChannel && !translatedCats.includes(searchQuery) && !origCats.includes(searchQuery)) return false;
+        }
+
+        return true;
+      });
+
+      renderChannelGrid(filtered);
+    }
+
+    /**
+     * 9. RENDER CHANNEL GRID
+     */
+    function renderChannelGrid(items) {
+      const grid = document.getElementById("videoGrid");
+      const countBadge = document.getElementById("resultCountBadge");
+      const summary = document.getElementById("resultsSummary");
+
+      countBadge.textContent = `${items.length} Channels`;
+      summary.textContent = `Found ${items.length} YouTube channels matching your criteria`;
+
+      // Empty State
+      if (items.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">🔍🍃</div>
+            <div class="empty-title">No Channels Found</div>
+            <div class="empty-desc">
+              No channels match the selected age or topic. Try clearing or expanding your filters!
+            </div>
+            <button class="btn-reset-filters" style="margin: 0 auto;" onclick="resetAllFilters()">
+              <span>🔄</span> Reset All Filters
+            </button>
+          </div>
+        `;
+        return;
+      }
+
+      // Render channel cards
+      grid.innerHTML = items.map((item) => {
+        const agesText = Array.isArray(item.ages) && item.ages.length > 0
+          ? `${Math.min(...item.ages)} - ${Math.max(...item.ages)} yrs old`
+          : "All ages";
+
+        const totalVideosText = item.total ? `${item.total} Videos` : "Updating";
+
+        const catsHtml = Array.isArray(item.categories) && item.categories.length > 0
+          ? item.categories.map(c => `<span class="badge-cat-tag">🏷️ ${translateCat(c)}</span>`).join("")
+          : "";
+
+        const escapedTitle = (item.title || "").replace(/'/g, "\\'").replace(/"/g, "&quot;");
+        const channelUrl = item.youtube_channel || "#";
+
+        let handle = "";
+        try {
+          const parts = channelUrl.split(".youtube.com/");
+          if (parts.length > 1) {
+            handle = decodeURIComponent(parts[1]);
+          }
+        } catch (e) {
+          handle = "";
+        }
+
+        return `
+          <div class="channel-card">
+            <div class="card-thumb-wrap" onclick="openYouTube('${channelUrl}')">
+              <img class="card-thumb-img" src="${item.thumbnail}" alt="${escapedTitle}" loading="lazy" onerror="this.src='../pages/thumbnail.png'" />
+              <div class="play-overlay">
+                <div class="play-btn-circle" title="Watch on YouTube">
+                  <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-body">
+              <div class="card-badges">
+                <span class="badge-age-tag">👶 ${agesText}</span>
+                <span class="badge-total-tag">🎬 ${totalVideosText}</span>
+                ${catsHtml}
+              </div>
+
+              <h2 class="card-title" onclick="openYouTube('${channelUrl}')" title="${escapedTitle}">
+                ${item.title}
+              </h2>
+
+              ${handle ? `<div class="channel-handle"><span>🔴</span> <span>${handle}</span></div>` : ''}
+
+              <div class="card-action">
+                <button class="btn-add-mykiddy" onclick="shareToMyKiddy('${channelUrl}')" title="Share YouTube Channel">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+                  <span>Share</span>
+                </button>
+                <button class="btn-youtube-link" title="Open channel on YouTube" onclick="openYouTube('${channelUrl}')">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                  <span>Open</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    /**
+     * 10. SHARE CHANNEL
+     */
+    function shareToMyKiddy(url) {
+      if (!url || url === "#") {
+        showToast("Invalid channel link!");
+        return;
+      }
+      if (navigator.share) {
+        navigator.share({
+          url: url,
+        }).then(() => {
+          showToast("Channel shared successfully! 🎉");
+        }).catch((err) => {
+          if (err && err.name !== "AbortError") {
+            copyToClipboard(url);
+          }
+        });
+      } else {
+        copyToClipboard(url);
+      }
+    }
+
+    function copyToClipboard(url) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+          showToast("Channel link copied! 📋");
+        }).catch(() => {
+          showToast("Device does not support automatic copying.");
+        });
+      } else {
+        showToast("Device does not support automatic copying.");
+      }
+    }
+
+    /**
+     * 11. OPEN CHANNEL
+     */
+    function openYouTube(url) {
+      if (!url || url === "#") {
+        alert("YouTube channel link is not configured!");
+        return;
+      }
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById("toast");
+      const toastMsg = document.getElementById("toastMsg");
+      toastMsg.textContent = msg;
+      toast.classList.add("show");
+      setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2500);
+    }
+
+    function toggleNavMenu() {
+      const menu = document.getElementById("navMenu");
+      const toggle = document.getElementById("navToggle");
+      if (menu && toggle) {
+        menu.classList.toggle("open");
+        toggle.classList.toggle("active");
+      }
+    }
+
+    // Khởi chạy khi DOM sẵn sàng
+    document.addEventListener("DOMContentLoaded", initApp);
+  </script>
+</body>
+
+</html>

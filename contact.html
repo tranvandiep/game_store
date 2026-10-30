@@ -23,13 +23,48 @@
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: var(--font); }
     body {
-      background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 35%, #EDE9FE 70%, #E0F2FE 100%);
+      background: linear-gradient(135deg, #FAF5FF 0%, #F5F3FF 30%, #EFF6FF 65%, #FFFDF5 100%);
       background-attachment: fixed;
       color: var(--text);
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       padding: 16px 16px 32px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before, body::after {
+      content: "";
+      position: fixed;
+      border-radius: 50%;
+      filter: blur(120px);
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.6;
+    }
+
+    body::before {
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, rgba(168, 85, 247, 0.28) 0%, rgba(236, 72, 153, 0.15) 100%);
+      top: -100px;
+      left: -100px;
+      animation: floatOrb 20s ease-in-out infinite alternate;
+    }
+
+    body::after {
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.28) 0%, rgba(99, 102, 241, 0.15) 100%);
+      top: 320px;
+      right: -100px;
+      animation: floatOrb 24s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes floatOrb {
+      0% { transform: translate(0, 0) scale(1); }
+      100% { transform: translate(30px, 40px) scale(1.08); }
     }
     .container {
       max-width: 1140px;
@@ -185,11 +220,13 @@
     }
     h1 {
       font-family: var(--font-heading);
-      font-size: 32px;
+      font-size: 34px;
       font-weight: 900;
-      color: #4C1D95;
+      background: linear-gradient(135deg, #4C1D95 0%, #7C3AED 50%, #D946EF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       letter-spacing: -0.02em;
-      line-height: 1.2;
+      line-height: 1.25;
     }
     p.subtitle {
       font-size: 15.5px;
@@ -453,6 +490,51 @@
       flex-direction: column;
       gap: 8px;
     }
+    .footer-badge-link {
+      display: inline-block;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .footer-badge-link:hover {
+      transform: translateY(-2px);
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.25));
+    }
+    .footer-badge-img {
+      height: 40px;
+      width: auto;
+      border-radius: 7px;
+      display: block;
+    }
+    .lang-switch-wrap {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(241, 245, 249, 0.95);
+      border: 1.5px solid #E2E8F0;
+      border-radius: 20px;
+      padding: 3px;
+      gap: 2px;
+    }
+    .lang-pill {
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 800;
+      border-radius: 16px;
+      text-decoration: none;
+      color: #64748B;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      line-height: 1;
+    }
+    .lang-pill:hover {
+      color: #1E293B;
+    }
+    .lang-pill.active {
+      background: var(--primary, #6D28D9);
+      color: #FFFFFF;
+      box-shadow: 0 2px 8px rgba(109, 40, 217, 0.35);
+    }
     .app-btn {
       display: inline-flex;
       align-items: center;
@@ -517,6 +599,9 @@
         width: 100%;
         gap: 6px;
       }
+      .lang-switch-wrap {
+        margin: 4px auto;
+      }
       .nav-item {
         width: 100%;
         padding: 10px 16px;
@@ -569,6 +654,10 @@
             <li><a href="./share.html" class="nav-item">📺 Kênh Youtube Bổ Ích</a></li>
             <li><a href="./contact.html" class="nav-item active">💌 Liên Hệ &amp; Góp Ý</a></li>
           </ul>
+          <div class="lang-switch-wrap">
+            <a href="./contact.html" class="lang-pill active" onclick="switchLang('vi')">🇻🇳 VI</a>
+            <a href="./en/contact.html" class="lang-pill" onclick="switchLang('en')">🇬🇧 EN</a>
+          </div>
           <div class="nav-cta">
             <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="btn-nav-app">
               <span>📲 Tải App</span>
@@ -691,11 +780,11 @@
             <h4 class="footer-col-title">Tải Ứng Dụng Miễn Phí</h4>
             <p class="footer-app-intro">Trải nghiệm ứng dụng đầy đủ trên điện thoại và máy tính bảng:</p>
             <div class="footer-app-buttons">
-              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="app-btn">
-                <span>🤖 Google Play</span>
+              <a href="https://play.google.com/store/apps/details?id=com.gozic.mykiddy" target="_blank" rel="noopener noreferrer" class="footer-badge-link" title="Tải trên Google Play">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/google-play.svg" alt="Google Play" class="footer-badge-img" onerror="this.src='./assets/images/google-play.svg';" />
               </a>
-              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="app-btn">
-                <span>🍏 App Store</span>
+              <a href="https://apps.apple.com/us/app/my-kiddy/id6801847363" target="_blank" rel="noopener noreferrer" class="footer-badge-link" title="Tải trên App Store">
+                <img src="https://khoahoc.tuvichanco.net/styles/theme20/images/client/app-store.svg" alt="App Store" class="footer-badge-img" onerror="this.src='./assets/images/app-store.svg';" />
               </a>
             </div>
           </div>
@@ -717,6 +806,12 @@
         menu.classList.toggle('open');
         toggle.classList.toggle('active');
       }
+    }
+
+    function switchLang(lang) {
+      try {
+        localStorage.setItem('mykiddy_lang', lang);
+      } catch (e) {}
     }
 
     function hideLoading() {
